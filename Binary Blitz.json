@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 268,
+    "build": 269,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -104,6 +104,54 @@
         "name": "NewSprite",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Green switch 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green switch 2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/04cd63def15ec680ee1734d463fc70c5bf5def24488301ed1e554593ef30e716_Green switch 2.png",
+          "name": "Green switch 2.png"
+        }
+      },
+      {
+        "file": "assets/Green switch 2_off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green switch 2_off.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/87ab1ae3aaad1759ffc06124116d08caaac3d0b0cfcc3725b8fcfc5bd3c1e401_Green switch 2_off.png",
+          "name": "Green switch 2_off.png"
+        }
+      },
+      {
+        "file": "assets/Blank Button Red_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Button Red_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/32x32 Pixel Arcade Stick and Buttons/6081ae9f6da633924b9bbf61a77a707fb003c776362c11776baeedd181a305dc_Blank Button Red_Pressed.png",
+          "name": "Blank Button Red_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/Blank Button Red_Unpressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Button Red_Unpressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/32x32 Pixel Arcade Stick and Buttons/8d5dc349f07b851d7120e446209e640eee28c8038fbd61fde5f6edeb66432c3b_Blank Button Red_Unpressed.png",
+          "name": "Blank Button Red_Unpressed.png"
+        }
       }
     ]
   },
@@ -117,6 +165,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/untitled-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/buttons-and-such"
     }
   ],
   "externalEvents": [],
