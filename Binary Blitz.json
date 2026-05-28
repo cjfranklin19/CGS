@@ -318,6 +318,30 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7423149de6e486ac885567761bef3236bcdb8414d05cb0920ae7aedffdec85f9_mononoki-Regular.ttf",
           "name": "mononoki-Regular.ttf"
         }
+      },
+      {
+        "file": "assets/Small Plastic Green Round Switch_Off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Round Switch_Off.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/80b157db1711ebc0166b1e42ff29bbf8837b5c9a0b1d62494e8eb5ca06837a31_Small Plastic Green Round Switch_Off.png",
+          "name": "Small Plastic Green Round Switch_Off.png"
+        }
+      },
+      {
+        "file": "assets/Small Plastic Green Round Switch_On.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Round Switch_On.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/0af9e04c0c382482aeeaa36bc713a626249d6f6df3280bbccc6a042973ad555c_Small Plastic Green Round Switch_On.png",
+          "name": "Small Plastic Green Round Switch_On.png"
+        }
       }
     ]
   },
@@ -370,6 +394,36 @@
           "value": false
         }
       ]
+    },
+    {
+      "name": "TutTargetNum",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "bit1",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "bit2",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "bit3",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "bit4",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "player_answer",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -415,6 +469,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritetoggleswitch"
     }
   ],
   "externalLayouts": []

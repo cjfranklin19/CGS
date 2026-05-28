@@ -37,8 +37,8 @@
       "name": "test",
       "persistentUuid": "22dfee46-31d9-4098-9e3b-4f3f01ed2906",
       "width": 0,
-      "x": 895,
-      "y": 219,
+      "x": 868,
+      "y": 43,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -63,16 +63,15 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 64,
-      "height": 155,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "finishbutton",
-      "persistentUuid": "540ff0ce-ae71-4576-8120-011563ae20ff",
-      "width": 373,
-      "x": 774,
-      "y": 617,
+      "name": "PromptText",
+      "persistentUuid": "f1d29042-4c5f-4a92-a00a-fb5272775bfc",
+      "width": 0,
+      "x": 908,
+      "y": 241,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -142,6 +141,50 @@
         "HoveredFadeOutDuration": 0.25,
         "LabelText": "finish"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "PromptText",
+      "persistentUuid": "074a92f9-14fd-4f88-a1b7-92d76442570e",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 80,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 80,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -152,10 +195,94 @@
       },
       {
         "objectName": "finishbutton"
+      },
+      {
+        "objectName": "PromptText"
       }
     ]
   },
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "TutTargetNum",
+            "=",
+            "RandomInRange(0,5)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "PromptText",
+            "Text",
+            "=",
+            "\"Convert: \"+ToString(Variable(TutTargetNum))"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "bit1",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "bit2",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "bit3",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "bit4",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -210,11 +337,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
