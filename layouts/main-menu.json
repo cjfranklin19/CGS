@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Untitled_32scene",
-  "name": "Untitled scene",
+  "mangledName": "Main_32menu",
+  "name": "Main menu",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -30,15 +30,16 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1180,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite",
-      "persistentUuid": "0b75638a-49a4-49e3-9612-986758ece59e",
-      "width": 0,
-      "x": 789,
-      "y": 487,
+      "name": "Castles_Background",
+      "persistentUuid": "b1b2c2e4-3adc-46e9-bccd-c7be0607f3ca",
+      "width": 2263,
+      "x": -241,
+      "y": -14,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -50,12 +51,29 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "button",
-      "persistentUuid": "1b25fb64-60be-44c8-9427-4a79902a9b5a",
+      "name": "menu_text",
+      "persistentUuid": "d4dbad55-dff1-4683-80d9-0f766f0063e5",
       "width": 0,
-      "x": 1405,
-      "y": 148,
+      "x": 769,
+      "y": 253,
       "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 218,
+      "keepRatio": true,
+      "layer": "",
+      "name": "StartButton",
+      "persistentUuid": "fccf0736-001b-489e-b9c5-26c7328ecb09",
+      "width": 363,
+      "x": 777,
+      "y": 491,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -66,7 +84,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite",
-      "persistentUuid": "f47d1ab1-52b3-4d8c-9507-3b871c56a631",
+      "persistentUuid": "781c8a82-2a5b-468e-9e74-889bfd91c2e8",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -74,17 +92,16 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite",
+                  "image": "New Piskel-1.png.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -101,19 +118,19 @@
                     [
                       {
                         "x": 0,
-                        "y": 10
+                        "y": 0
                       },
                       {
-                        "x": 54,
-                        "y": 10
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 54,
-                        "y": 49
+                        "x": 32,
+                        "y": 32
                       },
                       {
                         "x": 0,
-                        "y": 49
+                        "y": 32
                       }
                     ]
                   ]
@@ -128,18 +145,18 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "button",
-      "persistentUuid": "5aa3f0e2-24cb-467b-986c-f579d77b6f64",
+      "name": "menu_text",
+      "persistentUuid": "bf220d0c-f678-4f75-a1bf-cc8561e87bf9",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "fstart",
+      "string": "Binary Blitz",
       "font": "",
       "textAlignment": "left",
-      "characterSize": 100,
+      "characterSize": 80,
       "color": {
         "b": 0,
         "g": 0,
@@ -159,14 +176,28 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "fstart",
+        "text": "Binary Blitz",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 100,
+        "characterSize": 80,
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
+      "name": "StartButton",
+      "persistentUuid": "9fd083ce-b0dd-43e9-88f6-0523558ef6d3",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -176,11 +207,86 @@
         "objectName": "NewSprite"
       },
       {
-        "objectName": "button"
+        "objectName": "menu_text"
+      },
+      {
+        "objectName": "StartButton"
       }
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetCenterX"
+          },
+          "parameters": [
+            "StartButton",
+            "=",
+            "SceneWindowWidth()/2"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenterX"
+          },
+          "parameters": [
+            "menu_text",
+            "=",
+            "SceneWindowWidth()/2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "StartButton",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"MenuSelect\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
@@ -276,6 +382,10 @@
     {
       "name": "Text",
       "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
     }
   ]
 }
