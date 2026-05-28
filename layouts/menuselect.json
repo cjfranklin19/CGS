@@ -30,23 +30,6 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1095,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Castles_Background",
-      "persistentUuid": "1eca5279-ae64-49ba-967e-3875aa026ecc",
-      "width": 2185,
-      "x": -113,
-      "y": -13,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
@@ -115,16 +98,32 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 64,
-      "height": 92,
+      "depth": 1,
+      "height": 1090,
+      "keepRatio": true,
+      "layer": "background",
+      "name": "Castles_Background",
+      "persistentUuid": "03e29af4-b588-4dc8-bf73-d35fc05748f5",
+      "width": 1992,
+      "x": -25,
+      "y": 5,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
       "name": "Overflow",
-      "persistentUuid": "91bb2de8-c179-4c44-ac98-e75660741efe",
-      "width": 289,
-      "x": 797,
-      "y": 625,
-      "zOrder": 6,
+      "persistentUuid": "7eab7fc4-9329-40d0-a9f9-a4bff32a5ab9",
+      "width": 0,
+      "x": 818,
+      "y": 611,
+      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -136,7 +135,7 @@
       "name": "hexbutton",
       "persistentUuid": "537d5784-2740-4b41-bda4-921b565f016e",
       "type": "PanelSpriteButton::PanelSpriteButton",
-      "variant": "Yellow button",
+      "variant": "Green Button",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -151,28 +150,28 @@
       }
     },
     {
-      "assetStoreId": "9cf9ca8be6e98fc23e76b6770d3f4d094dea09f30a49f38ef9a9d2e97c2460be",
+      "assetStoreId": "26f7912e497fefccd32817a0c24533c9304633b47c6e556065dc498219877e81",
       "name": "tutorialbutton",
-      "persistentUuid": "2b6a4c6b-ec1d-4f58-8b5c-ec29951490a7",
+      "persistentUuid": "e8ec0a7a-8679-4342-b732-3293af74ca2f",
       "type": "PanelSpriteButton::PanelSpriteButton",
-      "variant": "Grey Button With Shadow",
+      "variant": "On Screen Controls Button",
       "variables": [],
       "effects": [],
       "behaviors": [],
       "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 3,
-        "BottomPadding": 32,
-        "TopPadding": 32,
-        "HoveredFadeOutDuration": 0.25,
-        "LabelText": "TUTORIAL"
+        "LeftPadding": 0,
+        "RightPadding": 0,
+        "PressedLabelOffsetY": 1,
+        "BottomPadding": 0,
+        "TopPadding": 0,
+        "HoveredFadeOutDuration": 0.2,
+        "LabelText": "Tutorial"
       }
     },
     {
       "assetStoreId": "0d3f4843e5ebb7af30fd80adf19a1c5a14164c1283f344991dc2aa14067a1262",
       "name": "twocomp_button",
-      "persistentUuid": "b59810e7-7b0f-4065-80b9-9a377aaee461",
+      "persistentUuid": "fd12c3c2-77d3-472b-8612-414c4643973c",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variant": "Red Button",
       "variables": [],
@@ -186,25 +185,6 @@
         "TopPadding": 16,
         "HoveredFadeOutDuration": 0.25,
         "LabelText": "Twos Comp"
-      }
-    },
-    {
-      "assetStoreId": "90d94b6e3a23c34948e59eaaef4679740f8ab588696d59b21e0c0c2ef106b94d",
-      "name": "Overflow",
-      "persistentUuid": "40af1f7f-369f-4ae3-9c68-1ee6e63ecb8b",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variant": "Blue Button",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 10,
-        "BottomPadding": 32,
-        "TopPadding": 16,
-        "HoveredFadeOutDuration": 0.25,
-        "LabelText": "Overflow"
       }
     },
     {
@@ -249,6 +229,25 @@
         "characterSize": 80,
         "lineHeight": 0,
         "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "90d94b6e3a23c34948e59eaaef4679740f8ab588696d59b21e0c0c2ef106b94d",
+      "name": "Overflow",
+      "persistentUuid": "dc4f64b6-1cf1-4c76-8906-942fe2b15c54",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Blue Button",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25,
+        "LabelText": "Overflow"
       }
     }
   ],
@@ -525,6 +524,60 @@
     }
   ],
   "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": true,
+      "name": "background",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
     {
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
