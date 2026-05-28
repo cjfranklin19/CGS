@@ -26,7 +26,13 @@
     "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "Variable",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -70,8 +76,8 @@
       "layer": "",
       "name": "hexbutton",
       "persistentUuid": "83bb666b-6f9c-43c5-827c-89ddaca3088a",
-      "width": 295,
-      "x": 796,
+      "width": 361,
+      "x": 766,
       "y": 480,
       "zOrder": 4,
       "numberProperties": [],
@@ -87,9 +93,9 @@
       "layer": "",
       "name": "twocomp_button",
       "persistentUuid": "fd2550df-b098-4981-954b-9b68ff85491a",
-      "width": 360,
-      "x": 765,
-      "y": 760,
+      "width": 365,
+      "x": 771,
+      "y": 642,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -99,14 +105,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1090,
+      "height": 1133,
       "keepRatio": true,
       "layer": "background",
       "name": "Castles_Background",
       "persistentUuid": "03e29af4-b588-4dc8-bf73-d35fc05748f5",
-      "width": 1992,
-      "x": -25,
-      "y": 5,
+      "width": 2280,
+      "x": -173,
+      "y": -22,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -114,15 +120,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 106,
       "keepRatio": true,
       "layer": "",
       "name": "Overflow",
       "persistentUuid": "7eab7fc4-9329-40d0-a9f9-a4bff32a5ab9",
-      "width": 0,
-      "x": 818,
-      "y": 611,
+      "width": 355,
+      "x": 777,
+      "y": 787,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -379,24 +386,7 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonFromTextReleased"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        }
-      ],
-      "actions": [],
-      "events": [
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -409,6 +399,16 @@
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "levels.tutorial",
+                "True",
+                "="
               ]
             }
           ],
@@ -424,24 +424,7 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonFromTextReleased"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        }
-      ],
-      "actions": [],
-      "events": [
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -453,6 +436,16 @@
                 "twocomp_button",
                 "",
                 "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "levels.hex",
+                "True",
                 ""
               ]
             }
@@ -469,24 +462,7 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonFromTextReleased"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        }
-      ],
-      "actions": [],
-      "events": [
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -498,6 +474,16 @@
                 "Overflow",
                 "",
                 "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "levels.twoscomp",
+                "True",
                 ""
               ]
             }
@@ -516,11 +502,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [

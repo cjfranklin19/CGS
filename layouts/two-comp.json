@@ -48,14 +48,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1109,
+      "height": 1218,
       "keepRatio": true,
       "layer": "Layer",
       "name": "Castles_Background",
       "persistentUuid": "e71152c9-43ff-46d8-9f02-bf62ffffb7c2",
-      "width": 1957,
-      "x": -13,
-      "y": -14,
+      "width": 2080,
+      "x": -95,
+      "y": -41,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -193,7 +193,17 @@
               },
               "parameters": [
                 "",
-                "\"Main menu\"",
+                "\"MenuSelect\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "levels.twoscomp",
+                "True",
                 ""
               ]
             }

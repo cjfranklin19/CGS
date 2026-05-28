@@ -192,7 +192,17 @@
               },
               "parameters": [
                 "",
-                "\"MenuSelect\"",
+                "\"Main menu\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "levels.overflow",
+                "True",
                 ""
               ]
             }

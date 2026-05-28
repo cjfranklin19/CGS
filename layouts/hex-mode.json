@@ -195,6 +195,16 @@
                 "\"MenuSelect\"",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "levels.hex",
+                "True",
+                ""
+              ]
             }
           ]
         }

@@ -196,6 +196,16 @@
                 "\"MenuSelect\"",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "levels.tutorial",
+                "True",
+                ""
+              ]
             }
           ]
         }

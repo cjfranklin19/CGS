@@ -350,22 +350,22 @@
       "type": "structure",
       "children": [
         {
-          "name": "Hex mode",
+          "name": "hex",
           "type": "boolean",
           "value": false
         },
         {
-          "name": "Overflow",
-          "type": "boolean",
-          "value": false
-        },
-        {
-          "name": "Two Comp",
+          "name": "overflow",
           "type": "boolean",
           "value": false
         },
         {
           "name": "tutorial",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "twoscomp",
           "type": "boolean",
           "value": false
         }
