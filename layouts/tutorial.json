@@ -76,6 +76,70 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "button",
+      "persistentUuid": "59cf77da-2af3-4c5d-acfa-4d07e650d573",
+      "width": 0,
+      "x": 1279,
+      "y": 699,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "button2",
+      "persistentUuid": "e1838ac3-9dc1-4829-af55-9252bb9755bd",
+      "width": 0,
+      "x": 972,
+      "y": 705,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "button3",
+      "persistentUuid": "aa740d80-331c-4206-a8a2-8338afcee670",
+      "width": 0,
+      "x": 719,
+      "y": 705,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "button4",
+      "persistentUuid": "0aa63169-49af-4d67-a64a-5f21cf7fd1bb",
+      "width": 0,
+      "x": 492,
+      "y": 705,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -185,6 +249,50 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "99f912de1cf5033ae934a8453c2f98a712955bcdb5ea1b1fda2fe2aa616de4a9",
+      "name": "button2",
+      "persistentUuid": "f5d1b306-a30b-4784-98b8-039d09874b7b",
+      "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "variant": "Small Green Plastic Round Switch",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {}
+    },
+    {
+      "assetStoreId": "99f912de1cf5033ae934a8453c2f98a712955bcdb5ea1b1fda2fe2aa616de4a9",
+      "name": "button",
+      "persistentUuid": "fcd5c2db-bc6d-4ecb-bc80-fc3848e6f460",
+      "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "variant": "Small Green Plastic Round Switch",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {}
+    },
+    {
+      "assetStoreId": "99f912de1cf5033ae934a8453c2f98a712955bcdb5ea1b1fda2fe2aa616de4a9",
+      "name": "button3",
+      "persistentUuid": "bb11f156-0c87-4272-94ae-bd6652e3867d",
+      "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "variant": "Small Green Plastic Round Switch",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {}
+    },
+    {
+      "assetStoreId": "99f912de1cf5033ae934a8453c2f98a712955bcdb5ea1b1fda2fe2aa616de4a9",
+      "name": "button4",
+      "persistentUuid": "d941c9a3-09f0-437c-bcfc-e28c76b9456c",
+      "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "variant": "Small Green Plastic Round Switch",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {}
     }
   ],
   "objectsFolderStructure": {
@@ -198,6 +306,18 @@
       },
       {
         "objectName": "PromptText"
+      },
+      {
+        "objectName": "button"
+      },
+      {
+        "objectName": "button2"
+      },
+      {
+        "objectName": "button3"
+      },
+      {
+        "objectName": "button4"
       }
     ]
   },
@@ -222,7 +342,7 @@
           "parameters": [
             "TutTargetNum",
             "=",
-            "RandomInRange(0,5)"
+            "RandomInRange(1,15)"
           ]
         },
         {
@@ -280,8 +400,38 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "button",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "bit1",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
