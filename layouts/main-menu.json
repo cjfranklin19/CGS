@@ -153,7 +153,11 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
+<<<<<<< HEAD:layouts/main-menu.json
       "string": "Binary Blitz",
+=======
+      "string": "laptop",
+>>>>>>> 4a4c874309d4d1db973d58ce769f7d36071644eb:layouts/untitled-scene.json
       "font": "",
       "textAlignment": "left",
       "characterSize": 80,
@@ -176,7 +180,11 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
+<<<<<<< HEAD:layouts/main-menu.json
         "text": "Binary Blitz",
+=======
+        "text": "laptop",
+>>>>>>> 4a4c874309d4d1db973d58ce769f7d36071644eb:layouts/untitled-scene.json
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
