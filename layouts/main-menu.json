@@ -81,67 +81,6 @@
   ],
   "objects": [
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite",
-      "persistentUuid": "781c8a82-2a5b-468e-9e74-889bfd91c2e8",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "New Piskel-1.png.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "assetStoreId": "",
       "bold": false,
       "italic": false,
@@ -188,8 +127,9 @@
     {
       "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
       "name": "StartButton",
-      "persistentUuid": "9fd083ce-b0dd-43e9-88f6-0523558ef6d3",
+      "persistentUuid": "927b2839-d744-4172-a81d-2f69c933b2cd",
       "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Green Button",
       "variables": [],
       "effects": [],
       "behaviors": [
@@ -197,20 +137,41 @@
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
-      ]
+      ],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25,
+        "LabelText": "Start"
+      }
+    },
+    {
+      "assetStoreId": "f1097c97406cdef1c66525f1272d278f6b7697dc878e56b89dd6d261de24e615",
+      "height": 1024,
+      "name": "Castles_Background",
+      "persistentUuid": "88be8af6-d14b-46e0-a72b-10d6dc2e5f08",
+      "texture": "tiled_Castles Background.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 1024,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "NewSprite"
-      },
-      {
         "objectName": "menu_text"
       },
       {
         "objectName": "StartButton"
+      },
+      {
+        "objectName": "Castles_Background"
       }
     ]
   },
@@ -355,10 +316,6 @@
     }
   ],
   "behaviorsSharedData": [
-    {
-      "name": "Animation",
-      "type": "AnimatableCapability::AnimatableBehavior"
-    },
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
