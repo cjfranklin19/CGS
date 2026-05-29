@@ -342,6 +342,126 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/0af9e04c0c382482aeeaa36bc713a626249d6f6df3280bbccc6a042973ad555c_Small Plastic Green Round Switch_On.png",
           "name": "Small Plastic Green Round Switch_On.png"
         }
+      },
+      {
+        "file": "assets/Star.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Star.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/30f87923cd1e890aa8c109827fd14abba5891d5defc78836269b605a37ddcfd5_Star.png",
+          "name": "Star.png"
+        }
+      },
+      {
+        "file": "assets/Rounded Square Green Toggle_On.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Rounded Square Green Toggle_On.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/Kenney/3482bc2af3cf1400a56df458f1ccbb88f92ca995bf05c2950b03b7260798d706_Rounded Square Green Toggle_On.png",
+          "name": "Rounded Square Green Toggle_On.png"
+        }
+      },
+      {
+        "file": "assets/Rounded Square Grey Toggle_Off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Rounded Square Grey Toggle_Off.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/Kenney/501c0fad663d2099bbd285dec2a886c66eefd3b28a2b51cd07cedcb66764f7a7_Rounded Square Grey Toggle_Off.png",
+          "name": "Rounded Square Grey Toggle_Off.png"
+        }
+      },
+      {
+        "file": "assets/Grey Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey Button_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/b43e0035dca80ea2fad5c5d65de926dae0185038e5f9cb21d5f20234f30d1c76_Grey Button_Hovered.png",
+          "name": "Grey Button_Hovered.png"
+        }
+      },
+      {
+        "file": "assets/Grey Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey Button_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/da7fc2efa0882eb5dfa0266315f2483c2f68d86a6751dc309ea9e9d0dd4759ba_Grey Button_Idle.png",
+          "name": "Grey Button_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Grey Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/49c35e14af0e1f7aae407455cb944de96328955870e5f1500f63723ad879a42e_Grey Button_Pressed.png",
+          "name": "Grey Button_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/Gold Square Toggle_Off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gold Square Toggle_Off.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/pixel art/f60585fc8683ba04f4d95faf340b9aec80a6d81117aa08a9b67a3a11c8954bfd_Gold Square Toggle_Off.png",
+          "name": "Gold Square Toggle_Off.png"
+        }
+      },
+      {
+        "file": "assets/Gold Square Toggle_On.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gold Square Toggle_On.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/pixel art/b45b4a4f911bcf0fdb90b31b6e300835be589bc5e63297f3daf2817be09e468e_Gold Square Toggle_On.png",
+          "name": "Gold Square Toggle_On.png"
+        }
+      },
+      {
+        "file": "assets/LowPoly 3D Heart Resource Bar Separated Empty.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\LowPoly 3D Heart Resource Bar Separated Empty.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/7728a19eed956ec227b47311c438f9a8df47398e12b902e78fa74ac2b89baf6c_LowPoly 3D Heart Resource Bar Separated Empty.png",
+          "name": "LowPoly 3D Heart Resource Bar Separated Empty.png"
+        }
+      },
+      {
+        "file": "assets/LowPoly 3D Heart Resource Bar Separated Filled.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\LowPoly 3D Heart Resource Bar Separated Filled.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/4ac29b012011e0e9bbba5a06a9c534ebfb784fe7ac887d3535206ac4cfd81c0a_LowPoly 3D Heart Resource Bar Separated Filled.png",
+          "name": "LowPoly 3D Heart Resource Bar Separated Filled.png"
+        }
       }
     ]
   },
@@ -424,6 +544,19 @@
       "name": "player_answer",
       "type": "number",
       "value": 0
+<<<<<<< Updated upstream
+=======
+    },
+    {
+      "name": "TargetNumber",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Hearts",
+      "type": "number",
+      "value": 3
+>>>>>>> Stashed changes
     }
   ],
   "layouts": [
@@ -437,7 +570,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/tutorial"
+      "referenceTo": "/layouts/tutorial-4bit"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/tutorial-8bit"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -473,6 +610,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/spritetoggleswitch"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/tiledunitsbar"
     }
   ],
   "externalLayouts": []

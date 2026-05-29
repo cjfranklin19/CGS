@@ -1,0 +1,750 @@
+{
+  "b": 255,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Tutorial_328bit",
+  "name": "Tutorial 8bit",
+  "r": 247,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 249,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridDepth": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridOffsetZ": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.3645833333333333,
+    "windowMask": false,
+    "selectedLayer": "",
+    "gameEditorMode": "instances-editor"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1115,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Castles_Background",
+      "persistentUuid": "4182a932-1cc3-420e-892f-a3f821e52572",
+      "width": 2021,
+      "x": -40,
+      "y": -17,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Test",
+      "persistentUuid": "ef37d68f-715f-43bc-9377-f043f49992aa",
+      "width": 0,
+      "x": 878,
+      "y": 74,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "finishbutton",
+      "persistentUuid": "ff53e39a-9911-4460-abae-3c5d450525bd",
+      "width": 0,
+      "x": 1698,
+      "y": 989,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Test",
+      "persistentUuid": "879854cb-ccf2-4691-9094-84699bf9a9e5",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 85,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 85,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "0d2644a425931f79026065835332ea795353d1f99fcd6ccd47ab7927bd0f35ed",
+      "name": "finishbutton",
+      "persistentUuid": "58c2eee9-7689-4cea-98e1-ef97fbe769ab",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Black Square Decorated Button",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 6,
+        "BottomPadding": 24,
+        "TopPadding": 24,
+        "HoveredFadeOutDuration": 0.25,
+        "LabelText": "finish"
+      }
+    },
+    {
+      "assetStoreId": "e3e0dc07e540d3197d6b79d0b45db20dde7dec9d9be884c2025c53b386798fd1",
+      "name": "switch_button",
+      "persistentUuid": "c15830ec-1588-426d-aca4-ca1cb999fa93",
+      "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "variant": "Gold Square Toggle",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {}
+    },
+    {
+      "assetStoreId": "e3e0dc07e540d3197d6b79d0b45db20dde7dec9d9be884c2025c53b386798fd1",
+      "name": "switch_button2",
+      "persistentUuid": "3f22e332-ac70-4cff-8d58-44d31b245953",
+      "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "variant": "Gold Square Toggle",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {}
+    },
+    {
+      "assetStoreId": "e3e0dc07e540d3197d6b79d0b45db20dde7dec9d9be884c2025c53b386798fd1",
+      "name": "switch_button3",
+      "persistentUuid": "19b9e327-a4ec-4e7a-aebb-f1e8d33a8989",
+      "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "variant": "Gold Square Toggle",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {}
+    },
+    {
+      "assetStoreId": "e3e0dc07e540d3197d6b79d0b45db20dde7dec9d9be884c2025c53b386798fd1",
+      "name": "switch_button4",
+      "persistentUuid": "2fae2068-8180-4c29-b323-04745110e98d",
+      "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "variant": "Gold Square Toggle",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {}
+    },
+    {
+      "assetStoreId": "e3e0dc07e540d3197d6b79d0b45db20dde7dec9d9be884c2025c53b386798fd1",
+      "name": "switch_button5",
+      "persistentUuid": "b2a6bfa3-70c6-495a-86bb-88c3517abb7e",
+      "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "variant": "Gold Square Toggle",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {}
+    },
+    {
+      "assetStoreId": "e3e0dc07e540d3197d6b79d0b45db20dde7dec9d9be884c2025c53b386798fd1",
+      "name": "switch_button6",
+      "persistentUuid": "729a230d-082a-44b7-9ded-b9b784b1da29",
+      "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "variant": "Gold Square Toggle",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {}
+    },
+    {
+      "assetStoreId": "e3e0dc07e540d3197d6b79d0b45db20dde7dec9d9be884c2025c53b386798fd1",
+      "name": "switch_button7",
+      "persistentUuid": "e9ec2cd3-2cab-46cc-bda5-7cd3befdcadf",
+      "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "variant": "Gold Square Toggle",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {}
+    },
+    {
+      "assetStoreId": "e3e0dc07e540d3197d6b79d0b45db20dde7dec9d9be884c2025c53b386798fd1",
+      "name": "switch_button8",
+      "persistentUuid": "112c108c-4537-4008-bdfc-2cd6ea04b0de",
+      "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "variant": "Gold Square Toggle",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {}
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Feedbacktext",
+      "persistentUuid": "a00dd040-ba31-4f49-b9f8-27a1fe58a12d",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 60,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "randomnumtext",
+      "persistentUuid": "2e9fbbba-2e15-4b7d-8e80-c04039313639",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "00",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 80,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "00",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 80,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "bfab3a269992cf43081e2cb8053c28aaef11f2f9e0d0cbdc00207ea271f69c2c",
+      "name": "Submissionbutton",
+      "persistentUuid": "3d6d92f0-f4ec-4405-84d0-85f407a98f15",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Grey Button",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25,
+        "LabelText": "Button"
+      }
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Test"
+      },
+      {
+        "objectName": "finishbutton"
+      },
+      {
+        "objectName": "switch_button"
+      },
+      {
+        "objectName": "switch_button2"
+      },
+      {
+        "objectName": "switch_button3"
+      },
+      {
+        "objectName": "switch_button4"
+      },
+      {
+        "objectName": "switch_button5"
+      },
+      {
+        "objectName": "switch_button6"
+      },
+      {
+        "objectName": "switch_button7"
+      },
+      {
+        "objectName": "switch_button8"
+      },
+      {
+        "objectName": "Feedbacktext"
+      },
+      {
+        "objectName": "randomnumtext"
+      },
+      {
+        "objectName": "Submissionbutton"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "TargetNumber",
+            "=",
+            "RandomInRange(0,9)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "randomnumtext",
+            "Text",
+            "=",
+            "\"Convert: \"+ToString(GlobalVariable(TargetNumber))+\" to binary\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenterX"
+          },
+          "parameters": [
+            "randomnumtext",
+            "=",
+            "SceneWindowWidth()/2"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "bit1",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "bit2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "bit3",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "bit4",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "switch_button",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "bit1",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "bit1",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "switch_button2",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "bit2",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "bit2",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "switch_button3",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "bit3",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "bit3",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    }
+  ]
+}
