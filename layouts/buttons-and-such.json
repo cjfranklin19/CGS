@@ -20,133 +20,60 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.491387754532936,
+    "zoomFactor": 0.49138775453293604,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
   },
-  "objectsGroups": [],
-  "variables": [],
+  "objectsGroups": [
+    {
+      "name": "Switches",
+      "objects": [
+        {
+          "name": "Switch_128"
+        },
+        {
+          "name": "Switch_64"
+        },
+        {
+          "name": "Switch_32"
+        },
+        {
+          "name": "Switch_16"
+        },
+        {
+          "name": "Switch_8"
+        },
+        {
+          "name": "Switch_4"
+        },
+        {
+          "name": "Switch_2"
+        },
+        {
+          "name": "Switch_1"
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "name": "BinaryTot",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "TargetNum",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "ResultText",
+      "type": "string",
+      "value": "\"\""
+    }
+  ],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 176.92307692307693,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Switch_64",
-      "persistentUuid": "2af96d19-972f-43fe-83d6-dfacf2da9d91",
-      "width": 115,
-      "x": 300,
-      "y": 800,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 176.92307692307693,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Switch_32",
-      "persistentUuid": "e5ebd789-5a1a-4a8a-aead-b9bc2ec51cd9",
-      "width": 115,
-      "x": 500,
-      "y": 800,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 176.92307692307693,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Switch_16",
-      "persistentUuid": "a79eb857-5640-465d-83ad-47bc796a75c5",
-      "width": 115,
-      "x": 700,
-      "y": 800,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 176.92307692307693,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Switch_8",
-      "persistentUuid": "69e12cdd-2344-444f-aa75-53ae6d1e9544",
-      "width": 115,
-      "x": 900,
-      "y": 800,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 176.92307692307693,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Switch_4",
-      "persistentUuid": "644e709c-e895-4e38-bb34-0a112e65192c",
-      "width": 115,
-      "x": 1100,
-      "y": 800,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 176.92307692307693,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Switch_2",
-      "persistentUuid": "bb1dcc8e-0945-4e75-9068-7c7a2d387ea7",
-      "width": 115,
-      "x": 1300,
-      "y": 800,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 176.92307692307693,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Switch_1",
-      "persistentUuid": "8011a29e-bea0-4b5f-acaa-be2c491702cc",
-      "width": 115,
-      "x": 1500,
-      "y": 800,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": true,
@@ -154,7 +81,7 @@
       "height": 115,
       "keepRatio": true,
       "layer": "",
-      "name": "Blank_Button_Red",
+      "name": "Submit_Button",
       "persistentUuid": "85eafccd-d85a-4478-9f53-24c87dd42a72",
       "width": 115,
       "x": 1700,
@@ -172,11 +99,187 @@
       "keepRatio": true,
       "layer": "",
       "name": "Switch_128",
-      "persistentUuid": "309aa822-216e-4f8f-bb8b-3f29377b3587",
+      "persistentUuid": "4aa1cf67-a991-428f-8b27-dd71b5e8084c",
       "width": 115,
-      "x": 100,
-      "y": 800,
-      "zOrder": 1,
+      "x": 116,
+      "y": 725,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "BitVal",
+          "type": "number",
+          "value": 128
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 176.92307692307693,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Switch_64",
+      "persistentUuid": "de42addc-4bc1-470e-a3ac-5a533703be6f",
+      "width": 115,
+      "x": 316,
+      "y": 725,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "BitVal",
+          "type": "number",
+          "value": 64
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 176.92307692307693,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Switch_32",
+      "persistentUuid": "a6748144-dd77-45eb-b284-6cf156d6c29d",
+      "width": 115,
+      "x": 516,
+      "y": 725,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "BitVal",
+          "type": "number",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 176.92307692307693,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Switch_16",
+      "persistentUuid": "4d5100ef-8e2c-4aab-93c9-ffeb0f4903af",
+      "width": 115,
+      "x": 716,
+      "y": 725,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "BitVal",
+          "type": "number",
+          "value": 16
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 176.92307692307693,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Switch_8",
+      "persistentUuid": "9c67ae53-b388-4a4c-9d5c-b30764c2ad83",
+      "width": 115,
+      "x": 916,
+      "y": 725,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 176.92307692307693,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Switch_4",
+      "persistentUuid": "e38de78b-49bc-4991-9308-d52f3db7a5d5",
+      "width": 115,
+      "x": 1116,
+      "y": 725,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 176.92307692307693,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Switch_2",
+      "persistentUuid": "9e6be75d-0aa5-4645-89e4-fddbd8fea88f",
+      "width": 115,
+      "x": 1316,
+      "y": 725,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 176.92307692307693,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Switch_1",
+      "persistentUuid": "d8dbce20-ba13-4d0d-a633-fa5d5f9d5f5e",
+      "width": 115,
+      "x": 1500,
+      "y": 725,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 139,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TargetPrompt",
+      "persistentUuid": "6399c03b-cf6d-44af-8960-63c15734d0aa",
+      "width": 320,
+      "x": 151,
+      "y": 98,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Feedback",
+      "persistentUuid": "8c6be39b-a383-4944-9e7d-f239dcb0ecc2",
+      "width": 0,
+      "x": 789,
+      "y": 108,
+      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -192,9 +295,14 @@
       "updateIfNotVisible": false,
       "variables": [
         {
-          "name": "Input_Toggle_64",
+          "name": "Status",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "BitVal",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -307,9 +415,14 @@
       "updateIfNotVisible": false,
       "variables": [
         {
-          "name": "Input_Toggle_32",
+          "name": "Status",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "BitVal",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -422,9 +535,14 @@
       "updateIfNotVisible": false,
       "variables": [
         {
-          "name": "Input_Toggle_16",
+          "name": "Status",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "BitVal",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -537,9 +655,14 @@
       "updateIfNotVisible": false,
       "variables": [
         {
-          "name": "Input_Toggle_8",
+          "name": "Status",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "BitVal",
+          "type": "number",
+          "value": 8
         }
       ],
       "effects": [],
@@ -652,9 +775,14 @@
       "updateIfNotVisible": false,
       "variables": [
         {
-          "name": "Input_Toggle_4",
+          "name": "Status",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "BitVal",
+          "type": "number",
+          "value": 4
         }
       ],
       "effects": [],
@@ -767,9 +895,14 @@
       "updateIfNotVisible": false,
       "variables": [
         {
-          "name": "Input_Toggle_2",
+          "name": "Status",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "BitVal",
+          "type": "number",
+          "value": 2
         }
       ],
       "effects": [],
@@ -882,9 +1015,14 @@
       "updateIfNotVisible": false,
       "variables": [
         {
-          "name": "Input_Toggle_1",
+          "name": "Status",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "BitVal",
+          "type": "number",
+          "value": 1
         }
       ],
       "effects": [],
@@ -997,7 +1135,12 @@
       "updateIfNotVisible": false,
       "variables": [
         {
-          "name": "Input_Toggle_128",
+          "name": "BitVal",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Status",
           "type": "boolean",
           "value": false
         }
@@ -1106,7 +1249,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "4630b6b1b99de3d16437048b94c7aa4d480d68a596a57a3a2cbcb984ad8ac0f2",
-      "name": "Blank_Button_Red",
+      "name": "Submit_Button",
       "persistentUuid": "f4ffbffe-2cca-4e22-99b6-980089796fe9",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -1211,6 +1354,94 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "TargetPrompt",
+      "persistentUuid": "edbaaf1c-fd6b-4d13-b229-c2156d7adcfb",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Feedback",
+      "persistentUuid": "6aa0f31c-0ed0-440e-b143-509bc7956319",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1241,13 +1472,18 @@
         "objectName": "Switch_1"
       },
       {
-        "objectName": "Blank_Button_Red"
+        "objectName": "Submit_Button"
+      },
+      {
+        "objectName": "TargetPrompt"
+      },
+      {
+        "objectName": "Feedback"
       }
     ]
   },
   "events": [
     {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1255,7 +1491,7 @@
             "value": "MouseButtonFromTextReleased"
           },
           "parameters": [
-            "",
+            "Switches",
             "\"Left\""
           ]
         },
@@ -1264,8 +1500,8 @@
             "value": "IsCursorOnObject"
           },
           "parameters": [
-            "Switch_128",
-            "=",
+            "Switches",
+            "",
             "",
             ""
           ]
@@ -1277,95 +1513,25 @@
             "value": "SetBooleanObjectVariable"
           },
           "parameters": [
-            "Switch_128",
-            "Input_Toggle_128",
+            "Switches",
+            "Status",
             "Toggle",
             ""
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Switch_128",
-                "Input_Toggle_128",
-                "=",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Switch_128",
-                "Animation",
-                "=",
-                "\"off\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Switch_128",
-                "Input_Toggle_128",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Switch_128",
-                "Animation",
-                "=",
-                "\"on\""
-              ]
-            }
           ]
         }
       ]
     },
     {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextReleased"
+            "value": "BooleanObjectVariable"
           },
           "parameters": [
-            "",
-            "\"Left\""
-          ]
-        },
-        {
-          "type": {
-            "value": "IsCursorOnObject"
-          },
-          "parameters": [
-            "Switch_64",
-            "=",
-            "",
+            "Switches",
+            "Status",
+            "True",
             ""
           ]
         }
@@ -1373,73 +1539,134 @@
       "actions": [
         {
           "type": {
-            "value": "SetBooleanObjectVariable"
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
-            "Switch_64",
-            "Input_Toggle_64",
-            "Toggle",
+            "Switches",
+            "Animation",
+            "=",
+            "\"on\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Switches",
+            "Status",
+            "=",
             ""
           ]
         }
       ],
-      "events": [
+      "actions": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Switch_64",
-                "Input_Toggle_64",
-                "=",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Switch_64",
-                "Animation",
-                "=",
-                "\"off\""
-              ]
-            }
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Switches",
+            "Animation",
+            "=",
+            "\"off\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "BinaryTot",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Switches",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Switches",
+            "Status",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "BinaryTot",
+            "+",
+            "Switches.Variable(BitVal)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "TargetNum",
+            "=",
+            "RandomInRange(1, 255)"
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Switch_64",
-                "Input_Toggle_64",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Switch_64",
-                "Animation",
-                "=",
-                "\"on\""
-              ]
-            }
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "TargetPrompt",
+            "Text",
+            "=",
+            "\"Convert \" + ToString(TargetNum) + \" to Binary.\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Feedback",
+            "Text",
+            "=",
+            ""
           ]
         }
       ]
@@ -1461,52 +1688,49 @@
             "value": "IsCursorOnObject"
           },
           "parameters": [
-            "Switch_32",
-            "=",
+            "Submit_Button",
+            "",
             "",
             ""
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetBooleanObjectVariable"
-          },
-          "parameters": [
-            "Switch_32",
-            "Input_Toggle_32",
-            "Toggle",
-            ""
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "BooleanObjectVariable"
+                "value": "NumberVariable"
               },
               "parameters": [
-                "Switch_32",
-                "Input_Toggle_32",
+                "BinaryTot",
                 "=",
-                ""
+                "Variable(TargetNum)"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "SetStringVariable"
               },
               "parameters": [
-                "Switch_32",
-                "Animation",
+                "ResultText",
                 "=",
-                "\"off\""
+                "\"Correct!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Feedback",
+                "Text",
+                "=",
+                "VariableString(ResultText)"
               ]
             }
           ]
@@ -1516,520 +1740,35 @@
           "conditions": [
             {
               "type": {
-                "value": "BooleanObjectVariable"
+                "value": "NumberVariable"
               },
               "parameters": [
-                "Switch_32",
-                "Input_Toggle_32",
-                "True",
-                ""
+                "BinaryTot",
+                "!=",
+                "Variable(TargetNum)"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "SetStringVariable"
               },
               "parameters": [
-                "Switch_32",
-                "Animation",
+                "ResultText",
                 "=",
-                "\"on\""
+                "\"Inorrect!\""
               ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonFromTextReleased"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        },
-        {
-          "type": {
-            "value": "IsCursorOnObject"
-          },
-          "parameters": [
-            "Switch_16",
-            "=",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetBooleanObjectVariable"
-          },
-          "parameters": [
-            "Switch_16",
-            "Input_Toggle_16",
-            "Toggle",
-            ""
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+            },
             {
               "type": {
-                "value": "BooleanObjectVariable"
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "Switch_16",
-                "Input_Toggle_16",
+                "Feedback",
+                "Text",
                 "=",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Switch_16",
-                "Animation",
-                "=",
-                "\"off\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Switch_16",
-                "Input_Toggle_16",
-                "=",
-                "true"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Switch_16",
-                "Animation",
-                "=",
-                "\"on\""
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "folded": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonFromTextReleased"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        },
-        {
-          "type": {
-            "value": "IsCursorOnObject"
-          },
-          "parameters": [
-            "Switch_8",
-            "=",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetBooleanObjectVariable"
-          },
-          "parameters": [
-            "Switch_8",
-            "Input_Toggle_8",
-            "Toggle",
-            ""
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Switch_8",
-                "Input_Toggle_8",
-                "=",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Switch_8",
-                "Animation",
-                "=",
-                "\"off\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Switch_8",
-                "Input_Toggle_8",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Switch_8",
-                "Animation",
-                "=",
-                "\"on\""
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "folded": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonFromTextReleased"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        },
-        {
-          "type": {
-            "value": "IsCursorOnObject"
-          },
-          "parameters": [
-            "Switch_4",
-            "=",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetBooleanObjectVariable"
-          },
-          "parameters": [
-            "Switch_4",
-            "Input_Toggle_4",
-            "Toggle",
-            ""
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Switch_4",
-                "Input_Toggle_4",
-                "=",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Switch_4",
-                "Animation",
-                "=",
-                "\"off\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Switch_4",
-                "Input_Toggle_4",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Switch_4",
-                "Animation",
-                "=",
-                "\"on\""
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "folded": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonFromTextReleased"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        },
-        {
-          "type": {
-            "value": "IsCursorOnObject"
-          },
-          "parameters": [
-            "Switch_2",
-            "=",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetBooleanObjectVariable"
-          },
-          "parameters": [
-            "Switch_2",
-            "Input_Toggle_2",
-            "Toggle",
-            ""
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Switch_2",
-                "Input_Toggle_2",
-                "=",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Switch_2",
-                "Animation",
-                "=",
-                "\"off\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Switch_2",
-                "Input_Toggle_2",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Switch_2",
-                "Animation",
-                "=",
-                "\"on\""
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "folded": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonFromTextReleased"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        },
-        {
-          "type": {
-            "value": "IsCursorOnObject"
-          },
-          "parameters": [
-            "Switch_1",
-            "=",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetBooleanObjectVariable"
-          },
-          "parameters": [
-            "Switch_1",
-            "Input_Toggle_1",
-            "Toggle",
-            ""
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Switch_1",
-                "Input_Toggle_1",
-                "=",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Switch_1",
-                "Animation",
-                "=",
-                "\"off\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Switch_1",
-                "Input_Toggle_1",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Switch_1",
-                "Animation",
-                "=",
-                "\"on\""
+                "VariableString(ResultText)"
               ]
             }
           ]
@@ -2128,6 +1867,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }
