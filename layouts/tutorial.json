@@ -70,8 +70,8 @@
       "name": "finishbutton",
       "persistentUuid": "4adae5a5-730f-4c40-98c5-e06506d4d411",
       "width": 0,
-      "x": 1700,
-      "y": 1006,
+      "x": 1654,
+      "y": 903,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -269,21 +269,21 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"MenuSelect\"",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "SetBooleanVariable"
               },
               "parameters": [
                 "Levels.tutorial",
                 "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"MenuSelect\"",
                 ""
               ]
             }

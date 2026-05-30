@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Main_32Menu",
-  "name": "Main Menu",
+  "mangledName": "main_32menu",
+  "name": "main menu",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,

@@ -1724,6 +1724,22 @@
             ""
           ]
         }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "finishButton"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -1786,6 +1802,23 @@
                 "Text",
                 "=",
                 "VariableString(ResultText)"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "finishButton",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -1857,21 +1890,21 @@
       "actions": [
         {
           "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"MenuSelect\"",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "SetBooleanVariable"
           },
           "parameters": [
             "Levels.Hex",
             "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"MenuSelect\"",
             ""
           ]
         }
