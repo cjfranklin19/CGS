@@ -71,6 +71,81 @@
       "name": "ResultText",
       "type": "string",
       "value": "\"\""
+    },
+    {
+      "name": "Score",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "BasePoints",
+      "type": "number",
+      "value": 100
+    },
+    {
+      "name": "Penalty",
+      "type": "number",
+      "value": 50
+    },
+    {
+      "name": "Mult",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "name": "Streak",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "WrongStreak",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "QuestionsAnswered",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "LevelQuestions",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "ElapsedQuestionTime",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "TimeLimit",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "HintPenalty",
+      "type": "number",
+      "value": 30
+    },
+    {
+      "name": "HintOpen",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "HintUsedThisQuestion",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "QuestionOpen",
+      "type": "boolean",
+      "value": true
+    },
+    {
+      "name": "Variable",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -1734,6 +1809,66 @@
             "Text",
             "=",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Score",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Mult",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Streak",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "WrongStreak",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "HintUsedThisQuestion",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "QuestionsAnswered",
+            "=",
+            "0"
           ]
         }
       ],
