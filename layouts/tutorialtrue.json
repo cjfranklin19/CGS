@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "two_32comp",
-  "name": "two comp",
+  "mangledName": "Tutorialtrue",
+  "name": "Tutorialtrue",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -190,7 +190,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "Levels.Twocomp",
+                "Levels.Tutorialtrue",
                 "True",
                 ""
               ]

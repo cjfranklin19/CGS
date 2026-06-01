@@ -428,17 +428,17 @@
           "value": false
         },
         {
+          "name": "Tutorialtrue",
+          "type": "boolean",
+          "value": false
+        },
+        {
           "name": "Twocomp",
           "type": "boolean",
           "value": false
         },
         {
           "name": "overflow",
-          "type": "boolean",
-          "value": false
-        },
-        {
-          "name": "tutorial",
           "type": "boolean",
           "value": false
         }
@@ -456,11 +456,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/tutorial"
+      "referenceTo": "/layouts/hex"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/hex-level-needs-updating"
+      "referenceTo": "/layouts/twocomp"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -468,7 +468,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/two-comp"
+      "referenceTo": "/layouts/tutorialtrue"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
