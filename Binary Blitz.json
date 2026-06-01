@@ -497,6 +497,738 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/ed31faa46e5c04883605d72470e0f3bfe1c2e679dc6a4a632ab03e105866ff8b_Framed Pixel Red Fill Bar.png",
           "name": "Framed Pixel Red Fill Bar.png"
         }
+      },
+      {
+        "file": "assets/Fire Spin_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/613db5463daefec912123c1f8834a672b24d2662d82634c756edef6e143a504c_Fire Spin_1.png",
+          "name": "Fire Spin_1.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/594c704538b796945afd3986a39fa3bbb82f741463b5c245311491c179085af8_Fire Spin_10.png",
+          "name": "Fire Spin_10.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/41a99a19972653e7a49145f24de16d74bc467ab655857dc40ee710f88f9ec3b6_Fire Spin_11.png",
+          "name": "Fire Spin_11.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/1011011edb391623f146e7138095dcf56c8d0fd21917e8f8e016569b65c45ec5_Fire Spin_12.png",
+          "name": "Fire Spin_12.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/d9475f35797b193ab157ec04e873f5cad8c23069e1d57e8fe7300ebeea8a49a5_Fire Spin_13.png",
+          "name": "Fire Spin_13.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_14.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/fd860b724a85a30045742d87ff5d88721bf1c6e6dd1cb70591059c650ad966ac_Fire Spin_14.png",
+          "name": "Fire Spin_14.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_15.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/644c5ec13f04a3d2991861f0beda1c0e917c07c01d5e87a6a7ff67d26041d82d_Fire Spin_15.png",
+          "name": "Fire Spin_15.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_16.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/22aa49b8dbbcdec3a3fadcbfb58d2b38fe14242c41347f6ede547a8c28941649_Fire Spin_16.png",
+          "name": "Fire Spin_16.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_17.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/ccbb130b302fe498a5740ca6d455e615b1f5488c5caa487fc6c336d5d5ec0de3_Fire Spin_17.png",
+          "name": "Fire Spin_17.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_18.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/863ea561f92d880267d03195f0f5f22989dfd54c97f26cd6c053e6319df6d8fc_Fire Spin_18.png",
+          "name": "Fire Spin_18.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_19.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/acf9a5cd6ab6e23c2d7780dcaa4214fdf549755538c49ea85f703a94f51bba54_Fire Spin_19.png",
+          "name": "Fire Spin_19.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/9556b3a68946c5bc91764835771eb9581e9930c6c91f13fbb5cbd9bd24d764fe_Fire Spin_2.png",
+          "name": "Fire Spin_2.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_20.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/9677b08d1d1142a5893c3365dfc7cf2d2ef55aa030a2d3e25e91477910c1f3a1_Fire Spin_20.png",
+          "name": "Fire Spin_20.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_21.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/442c2dfcd005ab09f979408b090d4a9f1ce03d4e6edd0452a563c9f75cf57e42_Fire Spin_21.png",
+          "name": "Fire Spin_21.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_22.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/c1d869118fdbf5ec1f3e40d39282d88388d4691e7173dd0d35206fb388550716_Fire Spin_22.png",
+          "name": "Fire Spin_22.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_23.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/cf0336e9251d78c45f2c89a8d89880ea509ad3b82918a7325403f3fb4c10dcfb_Fire Spin_23.png",
+          "name": "Fire Spin_23.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_24.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/8155cb63f53c5cfdd7d7d2f57f47f7d67bf6ec3a225c06cb9bf21780a5585070_Fire Spin_24.png",
+          "name": "Fire Spin_24.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_25.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/377e7587df8595285c94798f9abf1de1b5a85e9b3acd7064c2b6cf3b0a3a59aa_Fire Spin_25.png",
+          "name": "Fire Spin_25.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_26.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/febd337a9992067892be86ce20645eb338129b8c759951a4f11e7b41ea1f7083_Fire Spin_26.png",
+          "name": "Fire Spin_26.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_27.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/40f50b76a3bd4d359ef08a416b6c3db4dd90e8cb3e39ce0ab4cbd7e1e5add8b0_Fire Spin_27.png",
+          "name": "Fire Spin_27.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_28.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/db6daa83d96bf3a484096afa66a9a8f8f3871aa7b20175fba7b68d9c02d46c4a_Fire Spin_28.png",
+          "name": "Fire Spin_28.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_29.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/e11f082313a3f45ee9d08fd2774fc947c6d8f56913371e9e0bf3e51ac3cd7553_Fire Spin_29.png",
+          "name": "Fire Spin_29.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/eb450c98d1165c526d15d69c02193dc723f4943a574909ad2b3270a5a0cae73c_Fire Spin_3.png",
+          "name": "Fire Spin_3.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_30.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/8b57fc2fc95fc7b422b614254dbea2cef6342189238bef38b745d58f99b2d1bd_Fire Spin_30.png",
+          "name": "Fire Spin_30.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_31.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/dcf61ccfbb7a37485d405b0da1bfc9ea82ca2b742667df48c150f22dbb9aab82_Fire Spin_31.png",
+          "name": "Fire Spin_31.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_32.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/3e0067410a68775ee211b287b689c6e1e89418baeba50721aa0d5655154aaf83_Fire Spin_32.png",
+          "name": "Fire Spin_32.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_33.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/e751c920aa067aaa21dd650b901a69f364c8e0bf715d7bb63824bb7d7cc22e9e_Fire Spin_33.png",
+          "name": "Fire Spin_33.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_34.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/f7583a54ca68b587a7db3e57c8ca89b861f82676a3c9dc9a30a66a68a84d9b80_Fire Spin_34.png",
+          "name": "Fire Spin_34.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_35.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/f28bcd4211fee00c437d80d4e48dba23eba6c5ca5adeb5ed5e4dfa0d65f9b1a2_Fire Spin_35.png",
+          "name": "Fire Spin_35.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_36.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/20e171910cf075f90c679df76feabf91e262ed9b07817a2243cb13655700ffef_Fire Spin_36.png",
+          "name": "Fire Spin_36.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_37.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_37.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/245e2615ec10a4ad55f0337ed13d3502e8ed3320446d497f144d78c22b58a5be_Fire Spin_37.png",
+          "name": "Fire Spin_37.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_38.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_38.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/2b09ba7bdd6afd01845662567e7e14b662d5852c0748026fba5f0b1cd4884a7f_Fire Spin_38.png",
+          "name": "Fire Spin_38.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_39.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_39.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/51bad297f7de246e43d9a3c51699652e548bbde8f444166a4e45956429e2abb3_Fire Spin_39.png",
+          "name": "Fire Spin_39.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/10a37e74d89c22335ab0f3cde78065e6182f12659ab68e04a14491376dbf59b0_Fire Spin_4.png",
+          "name": "Fire Spin_4.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_40.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/35c394ba45ef55ef8df2a379219af5d67d67928d72d4ac87dd3f9787d36348e7_Fire Spin_40.png",
+          "name": "Fire Spin_40.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_41.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/7b571977c110374589f21c298d325b0df287684c81916f295e27060e6b3007cf_Fire Spin_41.png",
+          "name": "Fire Spin_41.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_42.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/a338e67b0af660b324092b1910bdc5a55a60e9f4eaa5aba3e3290a2cf7023c7d_Fire Spin_42.png",
+          "name": "Fire Spin_42.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_43.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/91263e63dfd9e71d32159633e564a0e807c0becd4a87e292e7e40b271ba7302d_Fire Spin_43.png",
+          "name": "Fire Spin_43.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_44.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/33129426ecb9ad7acfc6fce8313a95f867f5e88cbe3bfa336cb49ac65a4e9934_Fire Spin_44.png",
+          "name": "Fire Spin_44.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_45.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_45.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/77d313b04c8d0eee7bae0f69e009be0ce8c26c816a1e5c053cd106c52b8454b1_Fire Spin_45.png",
+          "name": "Fire Spin_45.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_46.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_46.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/5bc04ac1b9c5b598f77a837efa036aabbc2b44118bfdd3747055cb9b4e8d968b_Fire Spin_46.png",
+          "name": "Fire Spin_46.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_47.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_47.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/bb91908115065818d9ef21abd6005b2bd46842a0887a3b7d38250d6ec10d06a3_Fire Spin_47.png",
+          "name": "Fire Spin_47.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_48.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/8d442a2de5562cb2e801fd4ac175f306f1c1395a84464395327ce8fe61380ff2_Fire Spin_48.png",
+          "name": "Fire Spin_48.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_49.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_49.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/e5ae9f62c31a48122a7ecb0698d2c9a26f7a997da0650461e0ea378f4d6d8080_Fire Spin_49.png",
+          "name": "Fire Spin_49.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/df5414ba233ced8926ce916ba4873092bd3f55dd7096fab4b3cc14bf07a45682_Fire Spin_5.png",
+          "name": "Fire Spin_5.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_50.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/91169c080f10ae367b1cedb3df39d9ec573a387a0872913df231d4dd60f26793_Fire Spin_50.png",
+          "name": "Fire Spin_50.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_51.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_51.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/c31d1292ae4aaa26a35c668bcb80395e5a60a664565c541fb0446b0d0c1ec46a_Fire Spin_51.png",
+          "name": "Fire Spin_51.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_52.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_52.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/d789e26229919ab7a01b4628aaa1955d5b54eaf19dae7d9c267e7621f140e419_Fire Spin_52.png",
+          "name": "Fire Spin_52.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_53.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_53.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/3c1b780c6d72b51b58b2d04aa388abe823b248eb2e6ffc749e004dcdcc32245f_Fire Spin_53.png",
+          "name": "Fire Spin_53.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_54.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_54.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/78a5dd1055043c599c1a2d9107a4ab27ca6c0c6f4c16f580803309a5db6e7713_Fire Spin_54.png",
+          "name": "Fire Spin_54.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_55.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_55.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/cee943de67003223367924c11f977d9d048128c45724e40e761c84ac333a11fa_Fire Spin_55.png",
+          "name": "Fire Spin_55.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_56.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_56.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/5d2ce0bde8e8255b8bd1ae0c2ececf26b35a79bc18c2f5e42b68fce24db5eae7_Fire Spin_56.png",
+          "name": "Fire Spin_56.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_57.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_57.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/ee1dc650ff51093666582d00e5d0536bb24e198fde0defc7dab1ac46eb21789b_Fire Spin_57.png",
+          "name": "Fire Spin_57.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_58.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_58.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/046c459ebf81aa2b6d8bc6e59a7c5a771a97dbc17239594957af4187d93c9dd4_Fire Spin_58.png",
+          "name": "Fire Spin_58.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_59.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_59.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/face4004644538318bde20d65138ca949a9b7f1d0e06e8361abd22eedd8b0503_Fire Spin_59.png",
+          "name": "Fire Spin_59.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/f08c38caaa3f3799415f2bb058005ce3eae099e1f3fe3ed5caeafb5ec21151d1_Fire Spin_6.png",
+          "name": "Fire Spin_6.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_60.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_60.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/eedaf1bfc2687329ed8273db6d9cfcfc078f1f56e21bde9a2e311beaace5e915_Fire Spin_60.png",
+          "name": "Fire Spin_60.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_61.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_61.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/7fe3830062e6e3832130ffb36da6a827706feaa66ecef5f4cfd0bf9531765a7c_Fire Spin_61.png",
+          "name": "Fire Spin_61.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/470e19abc76f8d38f9b71aef50352fed1aa97d52a459cde2cd5da4f74bd1fbba_Fire Spin_7.png",
+          "name": "Fire Spin_7.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/782b2a2abce93408e172c00be1b022bf934f45c56834da4ab5fb7026f8024da0_Fire Spin_8.png",
+          "name": "Fire Spin_8.png"
+        }
+      },
+      {
+        "file": "assets/Fire Spin_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/9f52b0f49c686b8b9751b44da99ae323aef05421c28890e07311f7279421926c_Fire Spin_9.png",
+          "name": "Fire Spin_9.png"
+        }
       }
     ]
   },
