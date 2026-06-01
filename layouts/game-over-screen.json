@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Game_32over_32screen",
-  "name": "Game over screen",
+  "mangledName": "Game_32Over_32Screen",
+  "name": "Game Over Screen",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
