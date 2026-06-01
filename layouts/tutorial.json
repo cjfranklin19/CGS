@@ -52,13 +52,18 @@
     },
     {
       "name": "ResultText",
-      "type": "number",
-      "value": 0
+      "type": "string",
+      "value": ""
     },
     {
       "name": "TargetNumber",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "Timeleft",
+      "type": "number",
+      "value": 30
     }
   ],
   "instances": [
@@ -208,6 +213,22 @@
       "x": 906,
       "y": 447,
       "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Timer",
+      "persistentUuid": "6b3c0b7a-5921-4245-ad5f-4ed6394eca52",
+      "width": 0,
+      "x": 330,
+      "y": 134,
+      "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -909,6 +930,50 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Timer",
+      "persistentUuid": "173ab2ac-a80a-4007-a843-ae1b476efd31",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Time",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 100,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Time",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 100,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -937,6 +1002,9 @@
       },
       {
         "objectName": "finishButton"
+      },
+      {
+        "objectName": "Timer"
       }
     ]
   },
@@ -1422,7 +1490,7 @@
               "parameters": [
                 "ResultText",
                 "=",
-                "\"Inorrect!\""
+                "\"Incorrect!\""
               ]
             },
             {
@@ -1544,6 +1612,47 @@
                 ""
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "Timeleft",
+            "\"CountingDown\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Timer",
+            "Text",
+            "=",
+            "ToString(round(TimerElapsedTime(\"CountingDown\")))"
           ]
         }
       ]
