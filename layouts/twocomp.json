@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Hex_32Level_32_40needs_32updating_41",
-  "name": "Hex Level (needs updating)",
+  "mangledName": "twocomp",
+  "name": "twocomp",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -1917,7 +1917,7 @@
             "value": "SetBooleanVariable"
           },
           "parameters": [
-            "Levels.Hex",
+            "Levels.Twocomp",
             "True",
             ""
           ]
