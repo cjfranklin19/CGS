@@ -374,7 +374,7 @@
               },
               "parameters": [
                 "",
-                "\"Tutorial\"",
+                "\"Tutorialtrue\"",
                 ""
               ]
             }
@@ -399,7 +399,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "Levels.tutorial",
+                "Levels.Tutorialtrue",
                 "True",
                 ""
               ]
@@ -412,7 +412,7 @@
               },
               "parameters": [
                 "",
-                "\"Hex Level (needs updating)\"",
+                "\"Hex\"",
                 ""
               ]
             }
@@ -450,7 +450,7 @@
               },
               "parameters": [
                 "",
-                "\"two comp\"",
+                "\"twocomp\"",
                 ""
               ]
             }

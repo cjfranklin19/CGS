@@ -391,6 +391,112 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/05b0c1364a92b436b86ca819e66b63480d1bc2fb399f6c0cf8bffbf8199ccc2a_CantoraOne-Regular.ttf",
           "name": "CantoraOne-Regular.ttf"
         }
+      },
+      {
+        "file": "assets/Blank Underline_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Blank Underline_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Game over dialogs/88a0c0a81e0cd72bfddeedd13576f97189bed1dc85f0d355f98a2b9621e41aa0_Blank Underline_Idle.png",
+          "name": "Blank Underline_Idle.png"
+        }
+      },
+      {
+        "file": "assets/SkeletonHand.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\SkeletonHand.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Game over dialogs/3157c10817dd183ee137b67264272855a96015807110f7c10c354b5608c0d132_SkeletonHand.png",
+          "name": "SkeletonHand.png"
+        }
+      },
+      {
+        "file": "assets/Skull GameOver Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Skull GameOver Background.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Game over dialogs/3826a1e5f895a011207de42750b83ad6db30d3cfac01efe54e9bc0a0b424aab5_Skull GameOver Background.png",
+          "name": "Skull GameOver Background.png"
+        }
+      },
+      {
+        "file": "assets/Skull.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Skull.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Game over dialogs/9318e301cdfce96a93dbff7e071bf30ae0bc14208b458198b657e746f0cee8f2_Skull.png",
+          "name": "Skull.png"
+        }
+      },
+      {
+        "file": "assets/CantoraOne-Regular2.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CantoraOne-Regular.ttf2",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Game over dialogs/05b0c1364a92b436b86ca819e66b63480d1bc2fb399f6c0cf8bffbf8199ccc2a_CantoraOne-Regular.ttf",
+          "name": "CantoraOne-Regular.ttf"
+        }
+      },
+      {
+        "file": "assets/NotoSansArabicUI-Black.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\NotoSansArabicUI-Black.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Game over dialogs/58f64bcc48842f9a938582fee628aa6f6b2c229db5f8e4c82a09b3ab0b7ceed5_NotoSansArabicUI-Black.ttf",
+          "name": "NotoSansArabicUI-Black.ttf"
+        }
+      },
+      {
+        "file": "assets/tiled_Forest Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Forest Background.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/9c836518da4f93f1a442e4beaa4023bdde907296b1a03f5562a73693fac0f778_tiled_Forest Background.png",
+          "name": "tiled_Forest Background.png"
+        }
+      },
+      {
+        "file": "assets/Copper Bar Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Copper Bar Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/1310fa26ab130bebfe59cdfa310836bfed3ca8d190cfed17a7dd3bdfe0a2a87f_Copper Bar Border.png",
+          "name": "Copper Bar Border.png"
+        }
+      },
+      {
+        "file": "assets/Framed Pixel Red Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Framed Pixel Red Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/ed31faa46e5c04883605d72470e0f3bfe1c2e679dc6a4a632ab03e105866ff8b_Framed Pixel Red Fill Bar.png",
+          "name": "Framed Pixel Red Fill Bar.png"
+        }
       }
     ]
   },
@@ -428,17 +534,17 @@
           "value": false
         },
         {
+          "name": "Tutorialtrue",
+          "type": "boolean",
+          "value": false
+        },
+        {
           "name": "Twocomp",
           "type": "boolean",
           "value": false
         },
         {
           "name": "overflow",
-          "type": "boolean",
-          "value": false
-        },
-        {
-          "name": "tutorial",
           "type": "boolean",
           "value": false
         }
@@ -456,23 +562,23 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/tutorial"
+      "referenceTo": "/layouts/hex"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/hex-level-needs-updating"
+      "referenceTo": "/layouts/game-over-screen"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/score-hex"
+      "referenceTo": "/layouts/score-overflow"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/two-comp"
+      "referenceTo": "/layouts/twocomp"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/score-two-comp"
+      "referenceTo": "/layouts/hex2"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -480,7 +586,15 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/score-overflow"
+      "referenceTo": "/layouts/tutorialtrue"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/score-two-comp"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/proto-binary-numbers-rand"
     }
   ],
   "externalEvents": [],
@@ -488,6 +602,18 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/leaderboarddialog"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/tweenintoview"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritecontinuousbar"
     }
   ],
   "externalLayouts": []

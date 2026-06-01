@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Score_32Overflow",
-  "name": "Score Overflow",
+  "mangledName": "hex",
+  "name": "hex",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,

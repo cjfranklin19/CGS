@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Tutorial",
-  "name": "Tutorial",
+  "mangledName": "Hex",
+  "name": "Hex",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -52,13 +52,18 @@
     },
     {
       "name": "ResultText",
-      "type": "number",
-      "value": 0
+      "type": "string",
+      "value": ""
     },
     {
       "name": "TargetNumber",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "Timeleft",
+      "type": "number",
+      "value": 30
     }
   ],
   "instances": [
@@ -208,6 +213,22 @@
       "x": 906,
       "y": 447,
       "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Timer",
+      "persistentUuid": "6b3c0b7a-5921-4245-ad5f-4ed6394eca52",
+      "width": 0,
+      "x": 330,
+      "y": 134,
+      "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -909,6 +930,71 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Timer",
+      "persistentUuid": "173ab2ac-a80a-4007-a843-ae1b476efd31",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Time",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 100,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Time",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 100,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "6a16d25e5a4b7e16b72187c4cab1164e2e8fba46d78b9af0132f10301b4224e9",
+      "name": "CopperRedBar",
+      "persistentUuid": "84163a8e-ea71-43cf-b7bf-55f2cf748b26",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variant": "Copper Red Bar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "MaxValue": 16,
+        "InitialValue": 8,
+        "BarLeftPadding": 9,
+        "BarRightPadding": 9,
+        "BarBottomPadding": 3,
+        "BarTopPadding": 3,
+        "EasingDuration": 0.25,
+        "PreviousHighValueDuration": 0,
+        "ShowLabel": false
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -937,6 +1023,12 @@
       },
       {
         "objectName": "finishButton"
+      },
+      {
+        "objectName": "CopperRedBar"
+      },
+      {
+        "objectName": "Timer"
       }
     ]
   },
@@ -1052,6 +1144,18 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "random number event"
     },
     {
       "type": "BuiltinCommonInstructions::ForEach",
@@ -1320,6 +1424,18 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Submission buttoon"
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1422,7 +1538,7 @@
               "parameters": [
                 "ResultText",
                 "=",
-                "\"Inorrect!\""
+                "\"Incorrect!\""
               ]
             },
             {
@@ -1498,7 +1614,7 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextPressed"
+            "value": "MouseButtonFromTextReleased"
           },
           "parameters": [
             "",
@@ -1526,16 +1642,6 @@
           "actions": [
             {
               "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Levels.tutorial",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "Scene"
               },
               "parameters": [
@@ -1544,6 +1650,107 @@
                 ""
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "count down event"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "Timeleft",
+            "\"CountingDown\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Timer",
+            "Text",
+            "=",
+            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-15)))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"CountingDown\"",
+            ">=",
+            "15"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"CountingDown\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Timer",
+            "Text",
+            "=",
+            "\"Timer complete!\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Game over screen\"",
+            ""
           ]
         }
       ]

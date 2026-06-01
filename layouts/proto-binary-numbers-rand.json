@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "score_32hex",
-  "name": "score hex",
+  "mangledName": "proto_32binary_32numbers_32rand",
+  "name": "proto binary numbers rand",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -26,13 +26,48 @@
     "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [],
-  "variables": [],
-  "instances": [],
+  "variables": [
+    {
+      "name": "BinaryString",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "BitCount",
+      "type": "number",
+      "value": 4
+    }
+  ],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1416,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Forest_Background_2",
+      "persistentUuid": "090eb901-b7cb-4e44-9959-b3ff27f321e7",
+      "width": 2461,
+      "x": -248,
+      "y": -33,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
   "objects": [],
   "objectsFolderStructure": {
     "folderName": "__ROOT"
   },
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
