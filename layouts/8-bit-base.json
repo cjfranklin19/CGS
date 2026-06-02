@@ -1937,8 +1937,7 @@
       ],
       "events": [
         {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Switches",
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -1947,7 +1946,7 @@
               "parameters": [
                 "Switches",
                 "Status",
-                "True",
+                "=",
                 ""
               ]
             }
@@ -1963,25 +1962,7 @@
                 "=",
                 "\"on\""
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Switches",
-                "Status",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
+            },
             {
               "type": {
                 "value": "SetNumberVariable"
@@ -2004,7 +1985,7 @@
               "parameters": [
                 "Switches",
                 "Status",
-                "=",
+                "True",
                 ""
               ]
             }
@@ -2019,6 +2000,16 @@
                 "Animation",
                 "=",
                 "\"off\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "BinaryTot",
+                "+",
+                "Switches.Variable(BitVal)"
               ]
             }
           ]
