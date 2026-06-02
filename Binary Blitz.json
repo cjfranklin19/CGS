@@ -508,6 +508,22 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "assets/off.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "off",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/on2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "on",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -574,6 +590,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/tutorialtrue"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/tutoriallevel2"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

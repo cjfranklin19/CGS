@@ -2244,7 +2244,7 @@
               "parameters": [
                 "SCORE",
                 "Text",
-                "Score",
+                "=",
                 "ToString(Score)"
               ]
             }
