@@ -40,6 +40,18 @@
         },
         {
           "name": "Switch_1"
+        },
+        {
+          "name": "Switch_16"
+        },
+        {
+          "name": "Switch_32"
+        },
+        {
+          "name": "Switch_64"
+        },
+        {
+          "name": "Switch_128"
         }
       ]
     }
@@ -57,6 +69,16 @@
     },
     {
       "name": "TargetNumber",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "TargetLetter",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Variable",
       "type": "number",
       "value": 0
     },
@@ -110,8 +132,8 @@
       "name": "Submit_Button",
       "persistentUuid": "12658282-8e78-4855-a27c-7823c7e3b93e",
       "width": 175,
-      "x": 1539,
-      "y": 716,
+      "x": 1643,
+      "y": 700,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -127,8 +149,8 @@
       "name": "Switch_1",
       "persistentUuid": "f79880a5-d13b-4948-babb-d06ac46dba66",
       "width": 125,
-      "x": 1140,
-      "y": 755,
+      "x": 1420,
+      "y": 717,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -144,8 +166,8 @@
       "name": "Switch_2",
       "persistentUuid": "115ed38b-0fa2-4af2-ad91-5bccd7424af9",
       "width": 112,
-      "x": 951,
-      "y": 749,
+      "x": 1258,
+      "y": 711,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -161,8 +183,8 @@
       "name": "Switch_4",
       "persistentUuid": "adf036df-feea-4b41-b014-289d6e0492f6",
       "width": 123,
-      "x": 755,
-      "y": 751,
+      "x": 1103,
+      "y": 706,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -178,8 +200,8 @@
       "name": "Switch_8",
       "persistentUuid": "a3a1cb82-ae62-47be-a9e0-193b1cd79877",
       "width": 112,
-      "x": 564,
-      "y": 762,
+      "x": 948,
+      "y": 704,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -229,6 +251,106 @@
       "x": 330,
       "y": 134,
       "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 155,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Switch_16",
+      "persistentUuid": "55218a2e-eee1-48b9-8e37-60ec619ca2f6",
+      "width": 117,
+      "x": 553,
+      "y": 715,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 144,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Switch_32",
+      "persistentUuid": "7e23d145-136a-43b8-a4fe-368c2bea0eaa",
+      "width": 116,
+      "x": 394,
+      "y": 720,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 158,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Switch_128",
+      "persistentUuid": "c88abb29-8d84-47b9-a276-8f7bb946880b",
+      "width": 103,
+      "x": 231,
+      "y": 716,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 144,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Switch_128",
+      "persistentUuid": "2445265c-694e-43c3-8a3f-bb07ad25aa43",
+      "width": 106,
+      "x": 63,
+      "y": 726,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "number",
+      "persistentUuid": "4c0a2bd0-f531-4be8-bceb-629e2375c22d",
+      "width": 0,
+      "x": 242,
+      "y": 548,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "letter",
+      "persistentUuid": "f61ae3bf-0b73-4107-9e44-ce6ee27beb9d",
+      "width": 0,
+      "x": 1142,
+      "y": 567,
+      "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -995,6 +1117,582 @@
         "PreviousHighValueDuration": 0,
         "ShowLabel": false
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "6c0a0da64c2a412759aa4ff21c9680e9bab6037ae042c9a69a742413b8103290",
+      "name": "Switch_16",
+      "persistentUuid": "c24fe7cd-3c08-44c6-85e0-6ae316d34e8f",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Status",
+          "persistentUuid": "e689d3aa-579d-4024-94cb-15bd1dfa070d",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "BitVal",
+          "persistentUuid": "367c59c0-9967-405d-bf7a-3b46e73b9dbb",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "on",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Green switch 2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "off",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Green switch 2_off.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "6c0a0da64c2a412759aa4ff21c9680e9bab6037ae042c9a69a742413b8103290",
+      "name": "Switch_32",
+      "persistentUuid": "061d0e3c-20b9-429f-b3d0-e9986ba097f1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Status",
+          "persistentUuid": "6f1f4fbb-231b-49a7-a13a-3b0cb83fdc47",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "BitVal",
+          "persistentUuid": "789871f7-33d5-4a64-96df-1a77e1f66828",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "on",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Green switch 2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "off",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Green switch 2_off.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "6c0a0da64c2a412759aa4ff21c9680e9bab6037ae042c9a69a742413b8103290",
+      "name": "Switch_64",
+      "persistentUuid": "dc8da9f7-e447-4fed-aa6a-d49c4578ca1a",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Status",
+          "persistentUuid": "cc7fc119-f444-4a06-9559-8b32f56cfd9f",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "BitVal",
+          "persistentUuid": "139ef9f7-c9f0-43c3-8371-145ea730f6bc",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "on",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Green switch 2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "off",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Green switch 2_off.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "6c0a0da64c2a412759aa4ff21c9680e9bab6037ae042c9a69a742413b8103290",
+      "name": "Switch_128",
+      "persistentUuid": "7a8b0230-3e12-4205-9f43-c01334b4a708",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "BitVal",
+          "persistentUuid": "f1263779-c3cb-4f3d-9be6-d55eca279b25",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Status",
+          "persistentUuid": "a125f060-6c45-48a8-a14b-a6164ae04e5d",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "on",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Green switch 2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "off",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Green switch 2_off.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "number",
+      "persistentUuid": "8cb5a56a-36d7-4f00-a4f0-f391b231fc9d",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "number",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "number",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 60,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "letter",
+      "persistentUuid": "5ec09df8-6432-40cb-ac49-746f7956d420",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "letter",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "letter",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 60,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1002,6 +1700,24 @@
     "children": [
       {
         "objectName": "Submit_Button"
+      },
+      {
+        "objectName": "Switch_128"
+      },
+      {
+        "objectName": "number"
+      },
+      {
+        "objectName": "letter"
+      },
+      {
+        "objectName": "Switch_64"
+      },
+      {
+        "objectName": "Switch_32"
+      },
+      {
+        "objectName": "Switch_16"
       },
       {
         "objectName": "Switch_8"
@@ -1206,7 +1922,28 @@
           "parameters": [
             "TargetNumber",
             "=",
-            "RandomInRange(0,15)"
+            "RandomInRange(0,9)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "TargetLetter",
+            "=",
+            "RandomInRange(10,15)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "TargetPrompt",
+            "Text",
+            "=",
+            "\"Convert \" + ToString(TargetNumber) + ToString(TargetLetter)+ \" to Binary.\""
           ]
         }
       ],
@@ -1219,25 +1956,13 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "TargetNumber",
+                "TargetLetter",
                 "<=",
                 "9"
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "TargetPrompt",
-                "Text",
-                "=",
-                "\"Convert \" + ToString(TargetNumber) + \" to Binary.\""
-              ]
-            }
-          ]
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -1247,7 +1972,7 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "TargetNumber",
+                "TargetLetter",
                 "=",
                 "10"
               ]
@@ -1262,7 +1987,7 @@
                 "TargetPrompt",
                 "Text",
                 "=",
-                "\"Convert A to Binary.\""
+                "\"Convert\" +  ToString(TargetNumber) + \"A to Binary.\""
               ]
             }
           ]
@@ -1275,7 +2000,7 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "TargetNumber",
+                "TargetLetter",
                 "=",
                 "11"
               ]
@@ -1290,7 +2015,7 @@
                 "TargetPrompt",
                 "Text",
                 "=",
-                "\"Convert B to Binary.\""
+                "\"Convert \" +  ToString(TargetNumber) + \"B to Binary.\""
               ]
             }
           ]
@@ -1303,7 +2028,7 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "TargetNumber",
+                "TargetLetter",
                 "=",
                 "12"
               ]
@@ -1318,7 +2043,7 @@
                 "TargetPrompt",
                 "Text",
                 "=",
-                "\"Convert C to Binary.\""
+                "\"Convert\" +  ToString(TargetNumber) +  \"C to Binary.\""
               ]
             }
           ]
@@ -1331,7 +2056,7 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "TargetNumber",
+                "TargetLetter",
                 "=",
                 "13"
               ]
@@ -1346,7 +2071,7 @@
                 "TargetPrompt",
                 "Text",
                 "=",
-                "\"Convert D to Binary.\""
+                "\"Convert\" +  ToString(TargetNumber) +  \"D to Binary.\""
               ]
             }
           ]
@@ -1359,7 +2084,7 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "TargetNumber",
+                "TargetLetter",
                 "=",
                 "14"
               ]
@@ -1374,7 +2099,7 @@
                 "TargetPrompt",
                 "Text",
                 "=",
-                "\"Convert E to Binary.\""
+                "\"Convert\" +  ToString(TargetNumber) +  \"E to Binary.\""
               ]
             }
           ]
@@ -1387,7 +2112,7 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "TargetNumber",
+                "TargetLetter",
                 "=",
                 "15"
               ]
@@ -1402,7 +2127,7 @@
                 "TargetPrompt",
                 "Text",
                 "=",
-                "\"Convert F to Binary.\""
+                "\"Convert\" +  ToString(TargetNumber) +  \"F to Binary.\""
               ]
             }
           ]
@@ -1505,6 +2230,21 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"CountingDown\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
                     "value": "Show"
                   },
                   "parameters": [
@@ -1565,6 +2305,20 @@
           ],
           "events": [
             {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "finishButton"
+                  ]
+                }
+              ]
+            },
+            {
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "Switches",
               "conditions": [],
@@ -1578,6 +2332,21 @@
                     "Status",
                     "False",
                     ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "UnPauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"CountingDown\""
                   ]
                 }
               ]
@@ -1599,11 +2368,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ]
         }
@@ -1647,6 +2411,16 @@
               "parameters": [
                 "",
                 "\"MenuSelect\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Levels.Hex",
+                "True",
                 ""
               ]
             }
