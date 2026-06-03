@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 269,
+    "build": 270,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -134,7 +134,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Blank Button Red_Pressed.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/32x32 Pixel Arcade Stick and Buttons/6081ae9f6da633924b9bbf61a77a707fb003c776362c11776baeedd181a305dc_Blank Button Red_Pressed.png",
@@ -146,7 +146,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Blank Button Red_Unpressed.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/32x32 Pixel Arcade Stick and Buttons/8d5dc349f07b851d7120e446209e640eee28c8038fbd61fde5f6edeb66432c3b_Blank Button Red_Unpressed.png",
@@ -170,7 +170,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Green Button_Hovered.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/bff6adc488c7379b21ceba34e9104e861791b2fbb54b4aae167fe90115b92fa3_Green Button_Hovered.png",
@@ -182,7 +182,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Green Button_Idle.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f46d20e99495562ee66ee2f26defdb0788588184bd30b1f7b951ae728ce63d2a_Green Button_Idle.png",
@@ -194,7 +194,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Green Button_Pressed.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/ecb33703984d3107196efce7335025d7ec104351fe8cdeb581c73fe0b8038c34_Green Button_Pressed.png",
@@ -206,7 +206,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Grey Button_Hovered.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/b43e0035dca80ea2fad5c5d65de926dae0185038e5f9cb21d5f20234f30d1c76_Grey Button_Hovered.png",
@@ -218,7 +218,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Grey Button_Idle.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/da7fc2efa0882eb5dfa0266315f2483c2f68d86a6751dc309ea9e9d0dd4759ba_Grey Button_Idle.png",
@@ -230,7 +230,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Grey Button_Pressed.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/49c35e14af0e1f7aae407455cb944de96328955870e5f1500f63723ad879a42e_Grey Button_Pressed.png",
@@ -242,7 +242,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Blue Button_Hovered.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/1ffd07cb739df2a909155dd3057f6def46b833ced6ef1a09527b6ea59e88e464_Blue Button_Hovered.png",
@@ -254,7 +254,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Blue Button_Idle.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/eeac55458b66fb84f756b38085fbf7d1e079c39363c942abd35ea9d0939465ce_Blue Button_Idle.png",
@@ -266,7 +266,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Blue Button_Pressed.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f0ede8843d544f6e84bc09299a8aabffbce558966f25af98f7b47ab1648217ce_Blue Button_Pressed.png",
@@ -278,7 +278,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Red Button_Hovered.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f1e231bf9ea89b842ac63e17cc41cab0dd3a5d88916ca3454d89872e85c239d7_Red Button_Hovered.png",
@@ -290,7 +290,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Red Button_Idle.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/673facf2cabe26813a9ac066e93c005e264c6222557999e56582a0fe73216f3f_Red Button_Idle.png",
@@ -302,7 +302,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Red Button_Pressed.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/e3269fc6a93f1d6083564069b4d14c7e31df6bfc96d27f82c791d2210242315a_Red Button_Pressed.png",
@@ -314,7 +314,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Yellow Button_Hovered.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c1e14acb64b9963341656c997853154dc4c86cd1c46fb12bfbe012d99712ef61_Yellow Button_Hovered.png",
@@ -508,6 +508,22 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "OFF SWITCH.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "OFF SWITCH.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "OFF SWITCH2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "OFF SWITCH2.jpg",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
