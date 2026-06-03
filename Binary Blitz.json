@@ -110,7 +110,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Green switch 2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/04cd63def15ec680ee1734d463fc70c5bf5def24488301ed1e554593ef30e716_Green switch 2.png",
@@ -122,7 +122,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Green switch 2_off.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/87ab1ae3aaad1759ffc06124116d08caaac3d0b0cfcc3725b8fcfc5bd3c1e401_Green switch 2_off.png",
@@ -134,7 +134,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Blank Button Red_Pressed.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/32x32 Pixel Arcade Stick and Buttons/6081ae9f6da633924b9bbf61a77a707fb003c776362c11776baeedd181a305dc_Blank Button Red_Pressed.png",
@@ -146,7 +146,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Blank Button Red_Unpressed.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/32x32 Pixel Arcade Stick and Buttons/8d5dc349f07b851d7120e446209e640eee28c8038fbd61fde5f6edeb66432c3b_Blank Button Red_Unpressed.png",
@@ -1111,6 +1111,18 @@
         }
       },
       {
+        "file": "assets/Fire Spin_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Spin_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/9f52b0f49c686b8b9751b44da99ae323aef05421c28890e07311f7279421926c_Fire Spin_9.png",
+          "name": "Fire Spin_9.png"
+        }
+      },
+      {
         "file": "assets/Fire Spin_56.png",
         "kind": "image",
         "metadata": "",
@@ -1219,18 +1231,6 @@
         }
       },
       {
-        "file": "assets/Fire Spin_9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Fire Spin_9.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/9f52b0f49c686b8b9751b44da99ae323aef05421c28890e07311f7279421926c_Fire Spin_9.png",
-          "name": "Fire Spin_9.png"
-        }
-      },
-      {
         "file": "assets/Dialoguebox.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -1308,6 +1308,46 @@
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite7",
         "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NumberOn.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NumberOn",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NumberOn.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/NumberOn.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dialoguebox.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Dialoguebox.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fire Spin_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Fire Spin_7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NumberOff.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/NumberOff.png",
+        "smoothed": false,
         "userAdded": false
       }
     ]
@@ -1387,6 +1427,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/hex"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/hex-reworking-logic"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

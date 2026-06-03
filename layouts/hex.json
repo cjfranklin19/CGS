@@ -1128,15 +1128,13 @@
       "variables": [
         {
           "name": "Status",
-          "persistentUuid": "e689d3aa-579d-4024-94cb-15bd1dfa070d",
           "type": "boolean",
           "value": false
         },
         {
           "name": "BitVal",
-          "persistentUuid": "367c59c0-9967-405d-bf7a-3b46e73b9dbb",
           "type": "number",
-          "value": 0
+          "value": 1
         }
       ],
       "effects": [],
@@ -1250,15 +1248,13 @@
       "variables": [
         {
           "name": "Status",
-          "persistentUuid": "6f1f4fbb-231b-49a7-a13a-3b0cb83fdc47",
           "type": "boolean",
           "value": false
         },
         {
           "name": "BitVal",
-          "persistentUuid": "789871f7-33d5-4a64-96df-1a77e1f66828",
           "type": "number",
-          "value": 0
+          "value": 2
         }
       ],
       "effects": [],
@@ -1372,15 +1368,13 @@
       "variables": [
         {
           "name": "Status",
-          "persistentUuid": "cc7fc119-f444-4a06-9559-8b32f56cfd9f",
           "type": "boolean",
           "value": false
         },
         {
           "name": "BitVal",
-          "persistentUuid": "139ef9f7-c9f0-43c3-8371-145ea730f6bc",
           "type": "number",
-          "value": 0
+          "value": 4
         }
       ],
       "effects": [],
@@ -1494,13 +1488,11 @@
       "variables": [
         {
           "name": "BitVal",
-          "persistentUuid": "f1263779-c3cb-4f3d-9be6-d55eca279b25",
           "type": "number",
-          "value": 0
+          "value": 8
         },
         {
           "name": "Status",
-          "persistentUuid": "a125f060-6c45-48a8-a14b-a6164ae04e5d",
           "type": "boolean",
           "value": false
         }
@@ -1871,7 +1863,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "random number event"
+      "comment": "random number event needs to be reworked "
     },
     {
       "type": "BuiltinCommonInstructions::ForEach",
@@ -1948,22 +1940,6 @@
         }
       ],
       "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "TargetLetter",
-                "<=",
-                "9"
-              ]
-            }
-          ],
-          "actions": []
-        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -2441,6 +2417,7 @@
       "comment": "count down event"
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -2465,6 +2442,7 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
@@ -2482,6 +2460,7 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
