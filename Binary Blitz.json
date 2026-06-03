@@ -110,7 +110,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Green switch 2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/04cd63def15ec680ee1734d463fc70c5bf5def24488301ed1e554593ef30e716_Green switch 2.png",
@@ -122,7 +122,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Green switch 2_off.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/87ab1ae3aaad1759ffc06124116d08caaac3d0b0cfcc3725b8fcfc5bd3c1e401_Green switch 2_off.png",
@@ -134,7 +134,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Blank Button Red_Pressed.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/32x32 Pixel Arcade Stick and Buttons/6081ae9f6da633924b9bbf61a77a707fb003c776362c11776baeedd181a305dc_Blank Button Red_Pressed.png",
@@ -146,7 +146,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Blank Button Red_Unpressed.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/32x32 Pixel Arcade Stick and Buttons/8d5dc349f07b851d7120e446209e640eee28c8038fbd61fde5f6edeb66432c3b_Blank Button Red_Unpressed.png",
@@ -278,7 +278,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Red Button_Hovered.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f1e231bf9ea89b842ac63e17cc41cab0dd3a5d88916ca3454d89872e85c239d7_Red Button_Hovered.png",
@@ -290,7 +290,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Red Button_Idle.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/673facf2cabe26813a9ac066e93c005e264c6222557999e56582a0fe73216f3f_Red Button_Idle.png",
@@ -302,7 +302,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Red Button_Pressed.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/e3269fc6a93f1d6083564069b4d14c7e31df6bfc96d27f82c791d2210242315a_Red Button_Pressed.png",
@@ -314,7 +314,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Yellow Button_Hovered.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c1e14acb64b9963341656c997853154dc4c86cd1c46fb12bfbe012d99712ef61_Yellow Button_Hovered.png",
@@ -326,7 +326,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Yellow Button_Idle.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/1cacfd123a1eb708837337c27982f6871f5127c5890dbf0775e0f411958fcbf1_Yellow Button_Idle.png",
@@ -338,7 +338,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Yellow Button_Pressed.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/928c3ea4db1da835c9f8cc5b7089a47228350209d2ff489e1484c31e5ce41b3d_Yellow Button_Pressed.png",
@@ -409,7 +409,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\SkeletonHand.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Game over dialogs/3157c10817dd183ee137b67264272855a96015807110f7c10c354b5608c0d132_SkeletonHand.png",
@@ -421,7 +421,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\Skull GameOver Background.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Game over dialogs/3826a1e5f895a011207de42750b83ad6db30d3cfac01efe54e9bc0a0b424aab5_Skull GameOver Background.png",
@@ -433,7 +433,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\Skull.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Game over dialogs/9318e301cdfce96a93dbff7e071bf30ae0bc14208b458198b657e746f0cee8f2_Skull.png",
@@ -514,7 +514,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "off",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -522,7 +522,39 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "on",
-        "smoothed": true,
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Switch_8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Switch_8.png\"}",
+        "name": "Switch_8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Switch_9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Switch_9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/numberOn.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "numberOn",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Number off.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Number off",
+        "smoothed": false,
         "userAdded": false
       }
     ]

@@ -244,14 +244,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 193,
+      "height": 265,
       "keepRatio": true,
       "layer": "",
       "name": "NewSprite",
-      "persistentUuid": "c343919f-e384-4dd4-98d4-1ffc05483de1",
-      "width": 229,
-      "x": 345,
-      "y": 487,
+      "persistentUuid": "c1178773-4e86-4203-a0dd-43f866b94b65",
+      "width": 281,
+      "x": 282,
+      "y": 479,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -1253,6 +1253,17 @@
             "Toggle",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "BinaryNumbers",
+            "Status",
+            "Toggle",
+            ""
+          ]
         }
       ]
     },
@@ -1761,11 +1772,16 @@
               },
               "parameters": [
                 "",
-                "\"Tutoriallevel2\"",
+                "\"MenuSelect\"",
                 ""
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ]
     },
@@ -1808,11 +1824,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
