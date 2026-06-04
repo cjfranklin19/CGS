@@ -1922,15 +1922,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "PauseTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"CountingDown\""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "SetCenterX"
                   },
                   "parameters": [
@@ -2166,7 +2157,7 @@
               },
               "parameters": [
                 "",
-                "\"MenuSelect\"",
+                "\"Tutoriallevel2\"",
                 ""
               ]
             }
