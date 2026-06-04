@@ -261,14 +261,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 223,
+      "height": 265,
       "keepRatio": true,
       "layer": "",
       "name": "NewSprite",
-      "persistentUuid": "f67bba24-aefb-43e1-837e-697f728ff322",
-      "width": 263,
-      "x": 180,
-      "y": 478,
+      "persistentUuid": "c1178773-4e86-4203-a0dd-43f866b94b65",
+      "width": 281,
+      "x": 282,
+      "y": 479,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -1038,68 +1038,6 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "textbox",
-      "persistentUuid": "0b6ba4c5-2b45-4d05-ac71-86ec00f2c54a",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite3",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 62
-                      },
-                      {
-                        "x": 0,
-                        "y": 62
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
       "name": "NewSprite",
       "persistentUuid": "b478896a-cba0-4e13-8ea2-701e9dbd9034",
       "type": "Sprite",
@@ -1119,7 +1057,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite6",
+                  "image": "off",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1139,16 +1077,16 @@
                         "y": 0
                       },
                       {
-                        "x": 64,
+                        "x": 32,
                         "y": 0
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 32,
+                        "y": 32
                       },
                       {
                         "x": 0,
-                        "y": 64
+                        "y": 32
                       }
                     ]
                   ]
@@ -1168,7 +1106,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite7",
+                  "image": "on",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1188,16 +1126,16 @@
                         "y": 0
                       },
                       {
-                        "x": 64,
+                        "x": 32,
                         "y": 0
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 32,
+                        "y": 32
                       },
                       {
                         "x": 0,
-                        "y": 64
+                        "y": 32
                       }
                     ]
                   ]
@@ -1724,9 +1662,6 @@
         "objectName": "infobox"
       },
       {
-        "objectName": "textbox"
-      },
-      {
         "objectName": "NewSprite"
       },
       {
@@ -1825,6 +1760,22 @@
             ""
           ]
         },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "BinaryNumbers",
+            "Status",
+            "Toggle",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
         {
           "type": {
             "value": "SetBooleanObjectVariable"
@@ -2461,11 +2412,16 @@
               },
               "parameters": [
                 "",
-                "\"Tutoriallevel2\"",
+                "\"MenuSelect\"",
                 ""
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ]
     },
