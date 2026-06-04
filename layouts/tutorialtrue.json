@@ -1253,17 +1253,6 @@
             "Toggle",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "SetBooleanObjectVariable"
-          },
-          "parameters": [
-            "BinaryNumbers",
-            "Status",
-            "Toggle",
-            ""
-          ]
         }
       ]
     },
