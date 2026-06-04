@@ -16,7 +16,7 @@
     "pixelsRounding": false,
     "projectUuid": "17070a6d-590a-48bd-a581-2ef31a23c45b",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "version": "1.0.0",
     "name": "Binary Blitz",
@@ -522,6 +522,30 @@
         "kind": "image",
         "metadata": "",
         "name": "OFF SWITCH2.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/PLAY BUTATON.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/PLAY BUTATON.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/NewSprite8.png\",\"extension\":\".png\"}",
+        "name": "assets/NewSprite8.png",
         "smoothed": true,
         "userAdded": false
       }
