@@ -69,6 +69,31 @@
       "name": "delay",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "StartNextQuestion",
+      "type": "boolean",
+      "value": true
+    },
+    {
+      "name": "QuestionOpen",
+      "type": "boolean",
+      "value": true
+    },
+    {
+      "name": "QuestionsAnswered",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "InputLocked",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "LevelQuestions",
+      "type": "number",
+      "value": 3
     }
   ],
   "instances": [
@@ -101,22 +126,6 @@
       "x": 873,
       "y": 115,
       "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "background",
-      "name": "finishButton",
-      "persistentUuid": "9ec14743-0a82-4c63-bfb7-3478f41b3787",
-      "width": 0,
-      "x": 1622,
-      "y": 526,
-      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -159,14 +168,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 150,
+      "height": 70,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_1",
       "persistentUuid": "360d527c-9deb-4ff4-91a0-25f0f3f0c88b",
       "width": 119,
-      "x": 1183,
-      "y": 740,
+      "x": 1178,
+      "y": 844,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -176,14 +185,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 155,
+      "height": 77,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_2",
       "persistentUuid": "9cdf986f-5413-479c-a103-a89b4d9c2a06",
       "width": 108,
       "x": 986,
-      "y": 735,
+      "y": 841,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -193,14 +202,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 150,
+      "height": 84,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_4",
       "persistentUuid": "b5abbc5d-b442-4a22-b995-585b4bcc7899",
       "width": 105,
       "x": 816,
-      "y": 740,
+      "y": 838,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -210,14 +219,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 142,
+      "height": 83,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_8",
       "persistentUuid": "e4a17156-55be-4ea4-9c63-5406a08fe1e2",
       "width": 103,
       "x": 648,
-      "y": 740,
+      "y": 833,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -244,15 +253,79 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 265,
+      "height": 84,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite",
-      "persistentUuid": "c1178773-4e86-4203-a0dd-43f866b94b65",
-      "width": 281,
-      "x": 282,
-      "y": 479,
-      "zOrder": 11,
+      "name": "Label_1",
+      "persistentUuid": "a0dde6a3-5b79-483c-a791-f691fb180956",
+      "width": 45,
+      "x": 1224,
+      "y": 721,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Label_2",
+      "persistentUuid": "9d81844c-180a-4914-a69f-b95df22ca9bd",
+      "width": 0,
+      "x": 1019,
+      "y": 725,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Label_4",
+      "persistentUuid": "7fc1100f-6fbf-4e1f-aaae-c9ae3076ba39",
+      "width": 0,
+      "x": 839,
+      "y": 731,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Label_8",
+      "persistentUuid": "0909eb2d-6d39-41ae-b03e-935c24df9802",
+      "width": 0,
+      "x": 682,
+      "y": 734,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "finishButton",
+      "persistentUuid": "49137cc6-7e75-4cde-aef6-d9759a546280",
+      "width": 0,
+      "x": 1659,
+      "y": 559,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -332,13 +405,11 @@
       "variables": [
         {
           "name": "Status",
-          "persistentUuid": "6910c999-f180-4e7c-afab-ce4d1a541630",
           "type": "boolean",
           "value": false
         },
         {
           "name": "BitVal",
-          "persistentUuid": "38c02ceb-9c70-4e3d-9652-2bb990bda9da",
           "type": "number",
           "value": 1
         }
@@ -347,7 +418,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "on",
+          "name": "off",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -395,7 +466,7 @@
           ]
         },
         {
-          "name": "off",
+          "name": "on",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -454,13 +525,11 @@
       "variables": [
         {
           "name": "Status",
-          "persistentUuid": "8258d4d5-193b-496f-a4d9-0e12256f5b99",
           "type": "boolean",
           "value": false
         },
         {
           "name": "BitVal",
-          "persistentUuid": "c6532aa4-157b-44fb-a3d9-381522871b59",
           "type": "number",
           "value": 2
         }
@@ -469,7 +538,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "on",
+          "name": "off",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -517,7 +586,7 @@
           ]
         },
         {
-          "name": "off",
+          "name": "on",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -589,7 +658,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "on",
+          "name": "off",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -637,7 +706,7 @@
           ]
         },
         {
-          "name": "off",
+          "name": "on",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -709,7 +778,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "on",
+          "name": "off",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -757,7 +826,7 @@
           ]
         },
         {
-          "name": "off",
+          "name": "on",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1132,6 +1201,82 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Label_1",
+      "persistentUuid": "4dca89a3-f730-4e54-90e2-e7781d62c472",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "1",
+        "opacity": 255,
+        "fontSize": 60,
+        "visible": true,
+        "color": "74;74;74",
+        "fontFamily": "CantoraOne-Regular.ttf2",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Label_2",
+      "persistentUuid": "39e58444-957c-4847-9b48-6c6510500714",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "2",
+        "opacity": 255,
+        "fontSize": 60,
+        "visible": true,
+        "color": "74;74;74",
+        "fontFamily": "CantoraOne-Regular.ttf2",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Label_8",
+      "persistentUuid": "3e508250-0b1e-4a43-baff-fc0062567d38",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "8",
+        "opacity": 255,
+        "fontSize": 60,
+        "visible": true,
+        "color": "74;74;74",
+        "fontFamily": "CantoraOne-Regular.ttf2",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Label_4",
+      "persistentUuid": "fb934a4c-9115-4e4e-bdfa-f29e9c722b78",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "4",
+        "opacity": 255,
+        "fontSize": 60,
+        "visible": true,
+        "color": "74;74;74",
+        "fontFamily": "CantoraOne-Regular.ttf2",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1169,6 +1314,18 @@
       },
       {
         "objectName": "NewSprite"
+      },
+      {
+        "objectName": "Label_1"
+      },
+      {
+        "objectName": "Label_2"
+      },
+      {
+        "objectName": "Label_4"
+      },
+      {
+        "objectName": "Label_8"
       }
     ]
   },
@@ -1215,8 +1372,68 @@
             "=",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "QuestionsAnswered",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "QuestionOpen",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "BinaryTot",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "finishButton"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "StartNextQuestion",
+            "True",
+            ""
+          ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "switches"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1261,33 +1478,24 @@
       "conditions": [
         {
           "type": {
-            "value": "BooleanObjectVariable"
+            "value": "MouseButtonFromTextReleased"
           },
           "parameters": [
             "Switches",
-            "Status",
-            "True",
-            ""
+            "\"Left\""
           ]
-        }
-      ],
-      "actions": [
+        },
         {
           "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+            "value": "IsCursorOnObject"
           },
           "parameters": [
             "Switches",
-            "Animation",
-            "=",
-            "\"on\""
+            "",
+            "",
+            ""
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+        },
         {
           "type": {
             "value": "BooleanObjectVariable"
@@ -1311,21 +1519,74 @@
             "=",
             "\"off\""
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
+        },
         {
           "type": {
             "value": "SetNumberVariable"
           },
           "parameters": [
             "BinaryTot",
+            "-",
+            "Switches.Variable(BitVal)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonFromTextReleased"
+          },
+          "parameters": [
+            "Switches",
+            "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "Switches",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Switches",
+            "Status",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Switches",
+            "Animation",
             "=",
-            "0"
+            "\"on\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "BinaryTot",
+            "+",
+            "Switches.Variable(BitVal)"
           ]
         }
       ]
@@ -1343,63 +1604,97 @@
       "comment": "random number logic"
     },
     {
-      "type": "BuiltinCommonInstructions::ForEach",
-      "object": "Switches",
-      "conditions": [
-        {
-          "type": {
-            "value": "BooleanObjectVariable"
-          },
-          "parameters": [
-            "Switches",
-            "Status",
-            "True",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "BinaryTot",
-            "+",
-            "Switches.Variable(BitVal)"
-          ]
-        }
-      ]
-    },
-    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "SceneJustBegins"
+            "value": "BooleanVariable"
           },
           "parameters": [
+            "StartNextQuestion",
+            "True",
             ""
           ]
-        }
-      ],
-      "actions": [
+        },
         {
           "type": {
-            "value": "SetNumberVariable"
+            "value": "NumberVariable"
           },
           "parameters": [
-            "TargetNumber",
-            "=",
-            "RandomInRange(0,9)"
+            "QuestionsAnswered",
+            "<",
+            "LevelQuestions"
           ]
         }
       ],
+      "actions": [],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "InputLocked",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "QuestionsAnswered",
+                "<",
+                "LevelQuestions"
+              ]
+            }
+          ],
           "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "StartNextQuestion",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "QuestionOpen",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Switches",
+                "Status",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "TargetNumber",
+                "=",
+                "RandomInRange(0, 9)"
+              ]
+            },
             {
               "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
@@ -1410,19 +1705,15 @@
                 "=",
                 "\"Convert \" + ToString(TargetNumber) + \" to Binary.\""
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
+            },
             {
               "type": {
-                "value": "Hide"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "finishButton"
+                "BinaryTot",
+                "=",
+                "0"
               ]
             }
           ]
@@ -1502,49 +1793,30 @@
                 "=",
                 "VariableString(ResultText)"
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "QuestionsAnswered",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Switches",
+                "Status",
+                "False",
+                ""
+              ]
             }
           ],
           "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PauseTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"CountingDown\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Show"
-                  },
-                  "parameters": [
-                    "finishButton",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetCenterX"
-                  },
-                  "parameters": [
-                    "Feedback",
-                    "=",
-                    "SceneWindowWidth()/2"
-                  ]
-                }
-              ]
-            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
@@ -1561,8 +1833,141 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "QuestionsAnswered",
+                    "<",
+                    "LevelQuestions"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "StartNextQuestion",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Switches",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Switches",
+                    "Animation",
+                    "=",
+                    "\"off\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Switches",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Switches",
+                    "Status",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "QuestionsAnswered",
+                    "=",
+                    "LevelQuestions"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"CountingDown\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCenterX"
+                  },
+                  "parameters": [
+                    "Feedback",
+                    "=",
+                    "SceneWindowWidth()/2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "finishButton",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "incorrect submission"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -1771,46 +2176,6 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "rework once you get home"
-    },
-    {
-      "disabled": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::CompareNumbers"
-          },
-          "parameters": [
-            "infobox.Height()",
-            "<",
-            "textbox.Height()"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetY"
-          },
-          "parameters": [
-            "infobox",
-            "-",
-            "50 * TimeDelta()"
-          ]
         }
       ]
     }
