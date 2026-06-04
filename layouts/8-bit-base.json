@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4753585087126939,
+    "zoomFactor": 0.49138775453293615,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -1947,22 +1947,21 @@
             "=",
             "0"
           ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "finishButton"
+          ]
         }
       ],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "finishButton"
-              ]
-            }
-          ]
+          "actions": []
         }
       ]
     },
@@ -2225,7 +2224,7 @@
               "parameters": [
                 "TargetNum",
                 "=",
-                "RandomInRange(1, 10)"
+                "RandomInRange(1, 255)"
               ]
             },
             {
@@ -2302,6 +2301,22 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "StartNextQuestion",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -2453,7 +2468,7 @@
                     "value": "Wait"
                   },
                   "parameters": [
-                    "1"
+                    "0.5"
                   ]
                 },
                 {
@@ -2467,41 +2482,88 @@
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+            },
             {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "StartNextQuestion",
-                "True",
-                ""
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Switches",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Switches",
+                    "Animation",
+                    "=",
+                    "\"off\""
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "QuestionsAnswered",
-                ">=",
-                "LevelQuestions"
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Switches",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Switches",
+                    "Status",
+                    "False",
+                    ""
+                  ]
+                }
               ]
-            }
-          ],
-          "actions": [
+            },
             {
-              "type": {
-                "value": "Show"
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
               },
-              "parameters": [
-                "finishButton",
-                ""
+              "comment": "moved from sharing a condition with StartNextQuestion is true\nmy guess the program stopped checking the rest of the conditions once it found true\nadded a pause timer just to as a show of how long it took\nshortened the time in between questions"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "QuestionsAnswered",
+                    "=",
+                    "LevelQuestions"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"CountingDown\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "finishButton",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -2563,9 +2625,55 @@
                 "-",
                 "50"
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "BinaryTot",
+                "=",
+                "0"
+              ]
             }
           ],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Switches",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Switches",
+                    "Status",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Switches",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Switches",
+                    "Animation",
+                    "=",
+                    "\"off\""
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
