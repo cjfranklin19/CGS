@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Tutoriallevel2",
-  "name": "Tutoriallevel2",
+  "mangledName": "Hex",
+  "name": "Hex",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3768772036750871,
+    "zoomFactor": 0.3645833333333333,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -30,16 +30,28 @@
       "name": "Switches",
       "objects": [
         {
-          "name": "Switch_1"
-        },
-        {
-          "name": "Switch_2"
+          "name": "Switch_8"
         },
         {
           "name": "Switch_4"
         },
         {
-          "name": "Switch_8"
+          "name": "Switch_2"
+        },
+        {
+          "name": "Switch_1"
+        },
+        {
+          "name": "Switch_16"
+        },
+        {
+          "name": "Switch_32"
+        },
+        {
+          "name": "Switch_64"
+        },
+        {
+          "name": "Switch_128"
         }
       ]
     }
@@ -51,24 +63,29 @@
       "value": 0
     },
     {
-      "name": "TargetNumber",
-      "type": "number",
-      "value": 0
-    },
-    {
       "name": "ResultText",
       "type": "string",
       "value": ""
     },
     {
-      "name": "chatlog",
-      "type": "string",
-      "value": ""
-    },
-    {
-      "name": "delay",
+      "name": "TargetNumber",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "TargetLetter",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Variable",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Timeleft",
+      "type": "number",
+      "value": 30
     }
   ],
   "instances": [
@@ -76,14 +93,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1108,
+      "height": 1155,
       "keepRatio": true,
       "layer": "background",
       "name": "Forest_Background_2",
-      "persistentUuid": "277c9e19-2be4-4c6c-b7e5-1e74848e1b9a",
-      "width": 2415,
-      "x": -171,
-      "y": 2,
+      "persistentUuid": "bd8873be-a95c-4e02-9847-708c96906daa",
+      "width": 2058,
+      "x": -70,
+      "y": -31,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -94,28 +111,12 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "background",
-      "name": "Test_Level_1",
-      "persistentUuid": "b97327b5-b248-49c1-be3b-e610bccd2fca",
-      "width": 0,
-      "x": 873,
-      "y": 115,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "background",
+      "layer": "",
       "name": "finishButton",
-      "persistentUuid": "9ec14743-0a82-4c63-bfb7-3478f41b3787",
+      "persistentUuid": "4adae5a5-730f-4c40-98c5-e06506d4d411",
       "width": 0,
-      "x": 1622,
-      "y": 526,
+      "x": 1658,
+      "y": 576,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -125,117 +126,231 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 80,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TargetPrompt",
-      "persistentUuid": "68f962e6-a615-4765-be1b-73ad0c13c4e1",
-      "width": 369,
-      "x": 909,
-      "y": 353,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 44,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Feedback",
-      "persistentUuid": "639f8dc1-4ced-4ac7-b2e1-8afecf3dc141",
-      "width": 170,
-      "x": 909,
-      "y": 507,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 150,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Switch_1",
-      "persistentUuid": "360d527c-9deb-4ff4-91a0-25f0f3f0c88b",
-      "width": 119,
-      "x": 1183,
-      "y": 740,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 155,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Switch_2",
-      "persistentUuid": "9cdf986f-5413-479c-a103-a89b4d9c2a06",
-      "width": 108,
-      "x": 986,
-      "y": 735,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 150,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Switch_4",
-      "persistentUuid": "b5abbc5d-b442-4a22-b995-585b4bcc7899",
-      "width": 105,
-      "x": 816,
-      "y": 740,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 142,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Switch_8",
-      "persistentUuid": "e4a17156-55be-4ea4-9c63-5406a08fe1e2",
-      "width": 103,
-      "x": 648,
-      "y": 740,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 155,
+      "height": 157,
       "keepRatio": true,
       "layer": "",
       "name": "Submit_Button",
-      "persistentUuid": "1de341fa-bce6-4f07-a0d0-afe0d3535123",
-      "width": 183,
-      "x": 1473,
-      "y": 738,
+      "persistentUuid": "12658282-8e78-4855-a27c-7823c7e3b93e",
+      "width": 175,
+      "x": 1643,
+      "y": 700,
       "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 134,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Switch_1",
+      "persistentUuid": "f79880a5-d13b-4948-babb-d06ac46dba66",
+      "width": 125,
+      "x": 1420,
+      "y": 717,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 150,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Switch_2",
+      "persistentUuid": "115ed38b-0fa2-4af2-ad91-5bccd7424af9",
+      "width": 112,
+      "x": 1258,
+      "y": 711,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 156,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Switch_4",
+      "persistentUuid": "adf036df-feea-4b41-b014-289d6e0492f6",
+      "width": 123,
+      "x": 1103,
+      "y": 706,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 145,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Switch_8",
+      "persistentUuid": "a3a1cb82-ae62-47be-a9e0-193b1cd79877",
+      "width": 112,
+      "x": 948,
+      "y": 704,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TargetPrompt",
+      "persistentUuid": "5e057c1e-3b9f-4da1-95ad-6189e04559ac",
+      "width": 0,
+      "x": 893,
+      "y": 288,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Feedback",
+      "persistentUuid": "9bd9c8e4-8c7d-4f09-ad84-54fec9687bfe",
+      "width": 0,
+      "x": 906,
+      "y": 447,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Timer",
+      "persistentUuid": "6b3c0b7a-5921-4245-ad5f-4ed6394eca52",
+      "width": 0,
+      "x": 330,
+      "y": 134,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 155,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Switch_16",
+      "persistentUuid": "55218a2e-eee1-48b9-8e37-60ec619ca2f6",
+      "width": 117,
+      "x": 553,
+      "y": 715,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 144,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Switch_32",
+      "persistentUuid": "7e23d145-136a-43b8-a4fe-368c2bea0eaa",
+      "width": 116,
+      "x": 394,
+      "y": 720,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 158,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Switch_128",
+      "persistentUuid": "c88abb29-8d84-47b9-a276-8f7bb946880b",
+      "width": 103,
+      "x": 231,
+      "y": 716,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 144,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Switch_128",
+      "persistentUuid": "2445265c-694e-43c3-8a3f-bb07ad25aa43",
+      "width": 106,
+      "x": 63,
+      "y": 726,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "number",
+      "persistentUuid": "4c0a2bd0-f531-4be8-bceb-629e2375c22d",
+      "width": 0,
+      "x": 242,
+      "y": 548,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "letter",
+      "persistentUuid": "f61ae3bf-0b73-4107-9e44-ce6ee27beb9d",
+      "width": 0,
+      "x": 1142,
+      "y": 567,
+      "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -243,53 +358,9 @@
   ],
   "objects": [
     {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "Test_Level_1",
-      "persistentUuid": "77b387af-ef4d-4231-a1c0-96d28889a578",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Test Level  2",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 100,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Test Level  2",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 100,
-        "lineHeight": 0,
-        "color": "0;0;0"
-      }
-    },
-    {
       "assetStoreId": "9cf9ca8be6e98fc23e76b6770d3f4d094dea09f30a49f38ef9a9d2e97c2460be",
       "name": "finishButton",
-      "persistentUuid": "5a8bc692-0026-4c18-90ab-95f92ed2425d",
+      "persistentUuid": "e3091882-639b-42c2-ba6b-a3db882b4911",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variant": "Grey Button With Shadow",
       "variables": [],
@@ -302,26 +373,133 @@
         "BottomPadding": 32,
         "TopPadding": 32,
         "HoveredFadeOutDuration": 0.25,
-        "LabelText": "finish"
+        "LabelText": "Finish"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "4630b6b1b99de3d16437048b94c7aa4d480d68a596a57a3a2cbcb984ad8ac0f2",
+      "name": "Submit_Button",
+      "persistentUuid": "e9a06a83-1f9c-4f1f-b35a-dad533974605",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Pressed",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Blank Button Red_Pressed.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unpressed",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Blank Button Red_Unpressed.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "6c0a0da64c2a412759aa4ff21c9680e9bab6037ae042c9a69a742413b8103290",
       "name": "Switch_1",
-      "persistentUuid": "0f0f0268-08cc-4084-ad3b-21d47fccb25b",
+      "persistentUuid": "a328392c-edeb-41a9-862a-4c502751aa19",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
         {
           "name": "Status",
-          "persistentUuid": "6910c999-f180-4e7c-afab-ce4d1a541630",
           "type": "boolean",
           "value": false
         },
         {
           "name": "BitVal",
-          "persistentUuid": "38c02ceb-9c70-4e3d-9652-2bb990bda9da",
           "type": "number",
           "value": 1
         }
@@ -431,19 +609,17 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "6c0a0da64c2a412759aa4ff21c9680e9bab6037ae042c9a69a742413b8103290",
       "name": "Switch_2",
-      "persistentUuid": "218673b6-3f3d-42e3-98a0-efaeba8e9b1b",
+      "persistentUuid": "93958caa-d40f-4b12-a42d-cfa890b215b9",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
         {
           "name": "Status",
-          "persistentUuid": "8258d4d5-193b-496f-a4d9-0e12256f5b99",
           "type": "boolean",
           "value": false
         },
         {
           "name": "BitVal",
-          "persistentUuid": "c6532aa4-157b-44fb-a3d9-381522871b59",
           "type": "number",
           "value": 2
         }
@@ -553,7 +729,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "6c0a0da64c2a412759aa4ff21c9680e9bab6037ae042c9a69a742413b8103290",
       "name": "Switch_4",
-      "persistentUuid": "61034ed4-18b8-41f2-92c5-ee2dc60547e6",
+      "persistentUuid": "51a36acc-3004-4874-be70-c19a613aa633",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -673,7 +849,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "6c0a0da64c2a412759aa4ff21c9680e9bab6037ae042c9a69a742413b8103290",
       "name": "Switch_8",
-      "persistentUuid": "943653ab-f27c-4251-9375-1c0502f181a2",
+      "persistentUuid": "cef30013-5520-4421-af77-3a13e9c20c61",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -790,120 +966,11 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "4630b6b1b99de3d16437048b94c7aa4d480d68a596a57a3a2cbcb984ad8ac0f2",
-      "name": "Submit_Button",
-      "persistentUuid": "a65e1990-b7ca-4fc2-bc61-71af8cd4357f",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Pressed",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Blank Button Red_Pressed.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 7
-                      },
-                      {
-                        "x": 32,
-                        "y": 7
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Unpressed",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Blank Button Red_Unpressed.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 7
-                      },
-                      {
-                        "x": 32,
-                        "y": 7
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "assetStoreId": "",
       "bold": false,
       "italic": false,
       "name": "TargetPrompt",
-      "persistentUuid": "c9ab1d52-fc16-4b58-bd98-8c4c50e73acf",
+      "persistentUuid": "822d5ae4-7cb4-44f7-886b-f760850e61a8",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -947,7 +1014,7 @@
       "bold": false,
       "italic": false,
       "name": "Feedback",
-      "persistentUuid": "ae151322-03ae-4669-a0d2-7ec854057fac",
+      "persistentUuid": "544d4994-cf72-4738-9277-dc03c344c451",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -988,46 +1055,102 @@
     },
     {
       "assetStoreId": "",
-      "name": "infobox",
-      "persistentUuid": "ba419395-04fd-4533-af04-b2d4cb303469",
-      "type": "BBText::BBText",
+      "bold": false,
+      "italic": false,
+      "name": "Timer",
+      "persistentUuid": "173ab2ac-a80a-4007-a843-ae1b476efd31",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Time",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 100,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Time",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 100,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "6a16d25e5a4b7e16b72187c4cab1164e2e8fba46d78b9af0132f10301b4224e9",
+      "name": "CopperRedBar",
+      "persistentUuid": "84163a8e-ea71-43cf-b7bf-55f2cf748b26",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variant": "Copper Red Bar",
       "variables": [],
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "no world",
-        "opacity": 255,
-        "fontSize": 20,
-        "visible": true,
-        "color": "0;0;0",
-        "fontFamily": "Arial",
-        "align": "left",
-        "verticalTextAlignment": "top"
+        "MaxValue": 16,
+        "InitialValue": 8,
+        "BarLeftPadding": 9,
+        "BarRightPadding": 9,
+        "BarBottomPadding": 3,
+        "BarTopPadding": 3,
+        "EasingDuration": 0.25,
+        "PreviousHighValueDuration": 0,
+        "ShowLabel": false
       }
     },
     {
       "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "textbox",
-      "persistentUuid": "0b6ba4c5-2b45-4d05-ac71-86ec00f2c54a",
+      "assetStoreId": "6c0a0da64c2a412759aa4ff21c9680e9bab6037ae042c9a69a742413b8103290",
+      "name": "Switch_16",
+      "persistentUuid": "c24fe7cd-3c08-44c6-85e0-6ae316d34e8f",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Status",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "BitVal",
+          "type": "number",
+          "value": 1
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "on",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "looping": true,
+              "timeBetweenFrames": 0.025,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite3",
+                  "image": "Green switch 2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1047,16 +1170,64 @@
                         "y": 0
                       },
                       {
-                        "x": 64,
+                        "x": 26,
                         "y": 0
                       },
                       {
-                        "x": 64,
-                        "y": 62
+                        "x": 26,
+                        "y": 40
                       },
                       {
                         "x": 0,
-                        "y": 62
+                        "y": 40
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "off",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Green switch 2_off.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
                       }
                     ]
                   ]
@@ -1066,16 +1237,479 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "6c0a0da64c2a412759aa4ff21c9680e9bab6037ae042c9a69a742413b8103290",
+      "name": "Switch_32",
+      "persistentUuid": "061d0e3c-20b9-429f-b3d0-e9986ba097f1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Status",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "BitVal",
+          "type": "number",
+          "value": 2
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "on",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Green switch 2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "off",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Green switch 2_off.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "6c0a0da64c2a412759aa4ff21c9680e9bab6037ae042c9a69a742413b8103290",
+      "name": "Switch_64",
+      "persistentUuid": "dc8da9f7-e447-4fed-aa6a-d49c4578ca1a",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Status",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "BitVal",
+          "type": "number",
+          "value": 4
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "on",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Green switch 2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "off",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Green switch 2_off.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "6c0a0da64c2a412759aa4ff21c9680e9bab6037ae042c9a69a742413b8103290",
+      "name": "Switch_128",
+      "persistentUuid": "7a8b0230-3e12-4205-9f43-c01334b4a708",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "BitVal",
+          "type": "number",
+          "value": 8
+        },
+        {
+          "name": "Status",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "on",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Green switch 2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "off",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Green switch 2_off.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "number",
+      "persistentUuid": "8cb5a56a-36d7-4f00-a4f0-f391b231fc9d",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "number",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "number",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 60,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "letter",
+      "persistentUuid": "5ec09df8-6432-40cb-ac49-746f7956d420",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "letter",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "letter",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 60,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Test_Level_1"
+        "objectName": "Submit_Button"
       },
       {
-        "objectName": "Submit_Button"
+        "objectName": "Switch_128"
+      },
+      {
+        "objectName": "number"
+      },
+      {
+        "objectName": "letter"
+      },
+      {
+        "objectName": "Switch_64"
+      },
+      {
+        "objectName": "Switch_32"
+      },
+      {
+        "objectName": "Switch_16"
       },
       {
         "objectName": "Switch_8"
@@ -1099,59 +1733,14 @@
         "objectName": "finishButton"
       },
       {
-        "objectName": "infobox"
+        "objectName": "CopperRedBar"
       },
       {
-        "objectName": "textbox"
+        "objectName": "Timer"
       }
     ]
   },
   "events": [
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SceneJustBegins"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetCenterX"
-          },
-          "parameters": [
-            "TargetPrompt",
-            "=",
-            "SceneWindowWidth()/2"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenterX"
-          },
-          "parameters": [
-            "Test_Level_1",
-            "=",
-            "SceneWindowWidth()/2"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenterX"
-          },
-          "parameters": [
-            "Feedback",
-            "=",
-            ""
-          ]
-        }
-      ]
-    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -1274,7 +1863,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "random number logic"
+      "comment": "random number event needs to be reworked "
     },
     {
       "type": "BuiltinCommonInstructions::ForEach",
@@ -1327,12 +1916,44 @@
             "=",
             "RandomInRange(0,9)"
           ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "TargetLetter",
+            "=",
+            "RandomInRange(10,15)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "TargetPrompt",
+            "Text",
+            "=",
+            "\"Convert \" + ToString(TargetNumber) + ToString(TargetLetter)+ \" to Binary.\""
+          ]
         }
       ],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "TargetLetter",
+                "=",
+                "10"
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -1342,7 +1963,147 @@
                 "TargetPrompt",
                 "Text",
                 "=",
-                "\"Convert \" + ToString(TargetNumber) + \" to Binary.\""
+                "\"Convert\" +  ToString(TargetNumber) + \"A to Binary.\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "TargetLetter",
+                "=",
+                "11"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TargetPrompt",
+                "Text",
+                "=",
+                "\"Convert \" +  ToString(TargetNumber) + \"B to Binary.\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "TargetLetter",
+                "=",
+                "12"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TargetPrompt",
+                "Text",
+                "=",
+                "\"Convert\" +  ToString(TargetNumber) +  \"C to Binary.\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "TargetLetter",
+                "=",
+                "13"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TargetPrompt",
+                "Text",
+                "=",
+                "\"Convert\" +  ToString(TargetNumber) +  \"D to Binary.\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "TargetLetter",
+                "=",
+                "14"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TargetPrompt",
+                "Text",
+                "=",
+                "\"Convert\" +  ToString(TargetNumber) +  \"E to Binary.\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "TargetLetter",
+                "=",
+                "15"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TargetPrompt",
+                "Text",
+                "=",
+                "\"Convert\" +  ToString(TargetNumber) +  \"F to Binary.\""
               ]
             }
           ]
@@ -1373,7 +2134,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "submission button"
+      "comment": "Submission buttoon"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1466,16 +2227,6 @@
                     "finishButton",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "SetCenterX"
-                  },
-                  "parameters": [
-                    "Feedback",
-                    "=",
-                    "SceneWindowWidth()/2"
-                  ]
                 }
               ]
             }
@@ -1525,16 +2276,6 @@
                 "BinaryTot",
                 "=",
                 "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCenterX"
-              },
-              "parameters": [
-                "Feedback",
-                "=",
-                "SceneWindowWidth()/2"
               ]
             }
           ],
@@ -1609,19 +2350,6 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "finish button "
-    },
-    {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1654,16 +2382,6 @@
           "actions": [
             {
               "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Levels.Tutorialtrue",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "Scene"
               },
               "parameters": [
@@ -1671,7 +2389,72 @@
                 "\"MenuSelect\"",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Levels.Hex",
+                "True",
+                ""
+              ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "count down event"
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "Timeleft",
+            "\"CountingDown\""
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Timer",
+            "Text",
+            "=",
+            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-15)))"
           ]
         }
       ]
@@ -1682,32 +2465,48 @@
       "conditions": [
         {
           "type": {
-            "value": "BuiltinCommonInstructions::CompareNumbers"
+            "value": "CompareTimer"
           },
           "parameters": [
-            "infobox.Height()",
-            "<",
-            "textbox.Height()"
+            "",
+            "\"CountingDown\"",
+            ">=",
+            "15"
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "SetY"
+            "value": "PauseTimer"
           },
           "parameters": [
-            "infobox",
-            "-",
-            "50 * TimeDelta()"
+            "",
+            "\"CountingDown\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Timer",
+            "Text",
+            "=",
+            "\"Timer complete!\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Game Over Screen\"",
+            ""
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
