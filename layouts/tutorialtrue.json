@@ -42,23 +42,6 @@
           "name": "Switch_8"
         }
       ]
-    },
-    {
-      "name": "binary",
-      "objects": [
-        {
-          "name": "BinaryNum1"
-        },
-        {
-          "name": "BinaryNum2"
-        },
-        {
-          "name": "BinaryNum4"
-        },
-        {
-          "name": "BinaryNum8"
-        }
-      ]
     }
   ],
   "variables": [
@@ -261,14 +244,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 223,
+      "height": 265,
       "keepRatio": true,
       "layer": "",
       "name": "NewSprite",
-      "persistentUuid": "f67bba24-aefb-43e1-837e-697f728ff322",
-      "width": 263,
-      "x": 180,
-      "y": 478,
+      "persistentUuid": "c1178773-4e86-4203-a0dd-43f866b94b65",
+      "width": 281,
+      "x": 282,
+      "y": 479,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -349,11 +332,13 @@
       "variables": [
         {
           "name": "Status",
+          "persistentUuid": "6910c999-f180-4e7c-afab-ce4d1a541630",
           "type": "boolean",
           "value": false
         },
         {
           "name": "BitVal",
+          "persistentUuid": "38c02ceb-9c70-4e3d-9652-2bb990bda9da",
           "type": "number",
           "value": 1
         }
@@ -362,7 +347,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "off",
+          "name": "on",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -410,7 +395,7 @@
           ]
         },
         {
-          "name": "on",
+          "name": "off",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -469,11 +454,13 @@
       "variables": [
         {
           "name": "Status",
+          "persistentUuid": "8258d4d5-193b-496f-a4d9-0e12256f5b99",
           "type": "boolean",
           "value": false
         },
         {
           "name": "BitVal",
+          "persistentUuid": "c6532aa4-157b-44fb-a3d9-381522871b59",
           "type": "number",
           "value": 2
         }
@@ -482,7 +469,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "off",
+          "name": "on",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -530,7 +517,7 @@
           ]
         },
         {
-          "name": "on",
+          "name": "off",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -602,7 +589,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "off",
+          "name": "on",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -650,7 +637,7 @@
           ]
         },
         {
-          "name": "on",
+          "name": "off",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -722,7 +709,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "off",
+          "name": "on",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -770,7 +757,7 @@
           ]
         },
         {
-          "name": "on",
+          "name": "off",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1038,68 +1025,6 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "textbox",
-      "persistentUuid": "0b6ba4c5-2b45-4d05-ac71-86ec00f2c54a",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite3",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 62
-                      },
-                      {
-                        "x": 0,
-                        "y": 62
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
       "name": "NewSprite",
       "persistentUuid": "b478896a-cba0-4e13-8ea2-701e9dbd9034",
       "type": "Sprite",
@@ -1119,7 +1044,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite6",
+                  "image": "off",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1139,16 +1064,16 @@
                         "y": 0
                       },
                       {
-                        "x": 64,
+                        "x": 32,
                         "y": 0
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 32,
+                        "y": 32
                       },
                       {
                         "x": 0,
-                        "y": 64
+                        "y": 32
                       }
                     ]
                   ]
@@ -1168,7 +1093,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite7",
+                  "image": "on",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1188,497 +1113,16 @@
                         "y": 0
                       },
                       {
-                        "x": 64,
+                        "x": 32,
                         "y": 0
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 32,
+                        "y": 32
                       },
                       {
                         "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "BinaryNum1",
-      "persistentUuid": "e8b7028d-4217-4b02-8316-96903674b3c3",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "name": "Status",
-          "type": "boolean",
-          "value": false
-        },
-        {
-          "hasMixedValues": true,
-          "name": "BitVal",
-          "type": "number",
-          "value": 1
-        }
-      ],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "off",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/NumberOff.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 26,
-                        "y": 14
-                      },
-                      {
-                        "x": 104,
-                        "y": 14
-                      },
-                      {
-                        "x": 104,
-                        "y": 113
-                      },
-                      {
-                        "x": 26,
-                        "y": 113
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "on",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/NumberOn.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 26,
-                        "y": 14
-                      },
-                      {
-                        "x": 104,
-                        "y": 14
-                      },
-                      {
-                        "x": 104,
-                        "y": 113
-                      },
-                      {
-                        "x": 26,
-                        "y": 113
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "BinaryNum2",
-      "persistentUuid": "972c81e3-f086-4f7a-9a23-ff9feafa8566",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "name": "Status",
-          "type": "boolean",
-          "value": false
-        },
-        {
-          "name": "BitVal",
-          "type": "number",
-          "value": 2
-        }
-      ],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "off",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/NumberOff.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 26,
-                        "y": 14
-                      },
-                      {
-                        "x": 104,
-                        "y": 14
-                      },
-                      {
-                        "x": 104,
-                        "y": 113
-                      },
-                      {
-                        "x": 26,
-                        "y": 113
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "on",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/NumberOn.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 26,
-                        "y": 14
-                      },
-                      {
-                        "x": 104,
-                        "y": 14
-                      },
-                      {
-                        "x": 104,
-                        "y": 113
-                      },
-                      {
-                        "x": 26,
-                        "y": 113
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "BinaryNum4",
-      "persistentUuid": "7bce8c93-0bcd-481a-9467-cfb21ed045fb",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "name": "Status",
-          "type": "boolean",
-          "value": false
-        },
-        {
-          "name": "BitVal",
-          "type": "number",
-          "value": 4
-        }
-      ],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "off",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/NumberOff.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 26,
-                        "y": 14
-                      },
-                      {
-                        "x": 104,
-                        "y": 14
-                      },
-                      {
-                        "x": 104,
-                        "y": 113
-                      },
-                      {
-                        "x": 26,
-                        "y": 113
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "on",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/NumberOn.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 26,
-                        "y": 14
-                      },
-                      {
-                        "x": 104,
-                        "y": 14
-                      },
-                      {
-                        "x": 104,
-                        "y": 113
-                      },
-                      {
-                        "x": 26,
-                        "y": 113
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "BinaryNum8",
-      "persistentUuid": "5d9c6643-cc2f-423a-a041-13c93fc3fb91",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "name": "Status",
-          "type": "boolean",
-          "value": false
-        },
-        {
-          "name": "BitVal",
-          "type": "number",
-          "value": 8
-        }
-      ],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "off",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/NumberOff.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 26,
-                        "y": 14
-                      },
-                      {
-                        "x": 104,
-                        "y": 14
-                      },
-                      {
-                        "x": 104,
-                        "y": 113
-                      },
-                      {
-                        "x": 26,
-                        "y": 113
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "on",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/NumberOn.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 26,
-                        "y": 14
-                      },
-                      {
-                        "x": 104,
-                        "y": 14
-                      },
-                      {
-                        "x": 104,
-                        "y": 113
-                      },
-                      {
-                        "x": 26,
-                        "y": 113
+                        "y": 32
                       }
                     ]
                   ]
@@ -1724,22 +1168,7 @@
         "objectName": "infobox"
       },
       {
-        "objectName": "textbox"
-      },
-      {
         "objectName": "NewSprite"
-      },
-      {
-        "objectName": "BinaryNum1"
-      },
-      {
-        "objectName": "BinaryNum2"
-      },
-      {
-        "objectName": "BinaryNum4"
-      },
-      {
-        "objectName": "BinaryNum8"
       }
     ]
   },
@@ -1830,186 +1259,68 @@
             "value": "SetBooleanObjectVariable"
           },
           "parameters": [
-            "BinaryNum1",
+            "BinaryNumbers",
             "Status",
             "Toggle",
             ""
           ]
         }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Switches",
+            "Status",
+            "True",
+            ""
+          ]
+        }
       ],
-      "events": [
+      "actions": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Switches",
-                "Status",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Switches",
-                "Animation",
-                "=",
-                "\"on\""
-              ]
-            }
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Switches",
+            "Animation",
+            "=",
+            "\"on\""
           ]
-        },
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "BinaryNum1",
-                "Status",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "BinaryNum1",
-                "Animation",
-                "=",
-                "\"on\""
-              ]
-            }
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Switches",
+            "Status",
+            "=",
+            ""
           ]
-        },
+        }
+      ],
+      "actions": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "BinaryNum2",
-                "Status",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "BinaryNum2",
-                "Animation",
-                "=",
-                "\"on\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Switches",
-                "Status",
-                "=",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Switches",
-                "Animation",
-                "=",
-                "\"off\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "BinaryNum1",
-                "Status",
-                "False",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "BinaryNum1",
-                "Animation",
-                "=",
-                "\"off\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "BinaryNum2",
-                "Status",
-                "False",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "BinaryNum2",
-                "Animation",
-                "=",
-                "\"off\""
-              ]
-            }
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Switches",
+            "Animation",
+            "=",
+            "\"off\""
           ]
         }
       ]
@@ -2461,11 +1772,16 @@
               },
               "parameters": [
                 "",
-                "\"Tutoriallevel2\"",
+                "\"MenuSelect\"",
                 ""
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ]
     },
