@@ -548,6 +548,14 @@
         "name": "assets/NewSprite8.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "BinaryBlitz.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BinaryBlitz.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -625,15 +633,19 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/twocomp"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/game-over-screen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/hex-archived"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/score-overflow"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/game-over-screen"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

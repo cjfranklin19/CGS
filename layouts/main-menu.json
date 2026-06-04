@@ -32,31 +32,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1081,
-      "keepRatio": true,
-      "layer": "Background temp",
-      "name": "Forest_Background_2",
-      "persistentUuid": "d5b94afa-531d-42f2-a01a-a48b190d5a9c",
-      "width": 1920,
-      "x": 0,
-      "y": 0,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 556,
       "keepRatio": true,
       "layer": "",
       "name": "NewSprite",
       "persistentUuid": "7baa0c24-b5d4-4c8a-abca-1c35a11076a2",
       "width": 582,
-      "x": 960,
-      "y": 612,
+      "x": 966,
+      "y": 870,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -66,15 +49,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 419,
+      "height": 1090,
       "keepRatio": true,
       "layer": "",
-      "name": "Title",
-      "persistentUuid": "917b2d8f-f703-4298-8271-ff50fcc53cf5",
-      "width": 724,
-      "x": 960,
-      "y": 261,
-      "zOrder": 5,
+      "name": "NewSprite2",
+      "persistentUuid": "235cd666-17b4-4452-ab41-70edbe318ac3",
+      "width": 1920,
+      "x": 2,
+      "y": -2,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -226,6 +209,67 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite2",
+      "persistentUuid": "70946d41-759c-429f-a207-0385beb90e1c",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "BinaryBlitz.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -239,6 +283,9 @@
       },
       {
         "objectName": "Title"
+      },
+      {
+        "objectName": "NewSprite2"
       }
     ]
   },
@@ -255,16 +302,6 @@
             "NewSprite",
             "=",
             "SceneWindowWidth()/2"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetY"
-          },
-          "parameters": [
-            "NewSprite",
-            "=",
-            "SceneWindowHeight()/2"
           ]
         },
         {
@@ -500,7 +537,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": false,
+      "isLocked": true,
       "name": "Background temp",
       "renderingType": "",
       "visibility": true,

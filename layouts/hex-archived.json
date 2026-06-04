@@ -2542,7 +2542,7 @@
               },
               "parameters": [
                 "BinaryTot",
-                "+",
+                "-",
                 "Switches.Variable(BitVal)"
               ]
             }
