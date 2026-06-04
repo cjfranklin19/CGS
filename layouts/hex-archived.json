@@ -290,7 +290,14 @@
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "BitVal",
+          "persistentUuid": "367c59c0-9967-405d-bf7a-3b46e73b9dbb",
+          "type": "number",
+          "value": 16
+        }
+      ]
     },
     {
       "angle": 0,
@@ -307,24 +314,14 @@
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 158,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Switch_128",
-      "persistentUuid": "c88abb29-8d84-47b9-a276-8f7bb946880b",
-      "width": 103,
-      "x": 231,
-      "y": 716,
-      "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "BitVal",
+          "persistentUuid": "789871f7-33d5-4a64-96df-1a77e1f66828",
+          "type": "number",
+          "value": 32
+        }
+      ]
     },
     {
       "angle": 0,
@@ -371,6 +368,23 @@
       "x": 1142,
       "y": 567,
       "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 155,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Switch_64",
+      "persistentUuid": "f712f73b-e26f-4c6c-b6a9-222370947533",
+      "width": 108,
+      "x": 220,
+      "y": 724,
+      "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1392,15 +1406,13 @@
       "variables": [
         {
           "name": "Status",
-          "persistentUuid": "cc7fc119-f444-4a06-9559-8b32f56cfd9f",
           "type": "boolean",
           "value": false
         },
         {
           "name": "BitVal",
-          "persistentUuid": "139ef9f7-c9f0-43c3-8371-145ea730f6bc",
           "type": "number",
-          "value": 0
+          "value": 64
         }
       ],
       "effects": [],
@@ -1514,13 +1526,11 @@
       "variables": [
         {
           "name": "BitVal",
-          "persistentUuid": "f1263779-c3cb-4f3d-9be6-d55eca279b25",
           "type": "number",
-          "value": 0
+          "value": 128
         },
         {
           "name": "Status",
-          "persistentUuid": "a125f060-6c45-48a8-a14b-a6164ae04e5d",
           "type": "boolean",
           "value": false
         }
@@ -1774,44 +1784,6 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextReleased"
-          },
-          "parameters": [
-            "Switches",
-            "\"Left\""
-          ]
-        },
-        {
-          "type": {
-            "value": "IsCursorOnObject"
-          },
-          "parameters": [
-            "Switches",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetBooleanObjectVariable"
-          },
-          "parameters": [
-            "Switches",
-            "Status",
-            "Toggle",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "value": "BooleanObjectVariable"
           },
           "parameters": [
@@ -1866,22 +1838,6 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "BinaryTot",
-            "=",
-            "0"
-          ]
-        }
-      ]
-    },
-    {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -1894,201 +1850,6 @@
       "comment": "random number event"
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonFromTextReleased"
-          },
-          "parameters": [
-            "Switches",
-            "\"Left\""
-          ]
-        },
-        {
-          "type": {
-            "value": "IsCursorOnObject"
-          },
-          "parameters": [
-            "Switches",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetBooleanObjectVariable"
-          },
-          "parameters": [
-            "Switches",
-            "Status",
-            "Toggle",
-            ""
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "Switches",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "Switches",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Switches",
-                "Status",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Switches",
-                "Animation",
-                "=",
-                "\"on\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "BinaryTot",
-                "+",
-                "Switches.Variable(BitVal)"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "Switches",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "Switches",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Switches",
-                "Status",
-                "False",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Switches",
-                "Animation",
-                "=",
-                "\"off\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "BinaryTot",
-                "+",
-                "Switches.Variable(BitVal)"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
-    },
-    {
-      "disabled": true,
-      "type": "BuiltinCommonInstructions::ForEach",
-      "object": "Switches",
-      "conditions": [
-        {
-          "type": {
-            "value": "BooleanObjectVariable"
-          },
-          "parameters": [
-            "Switches",
-            "Status",
-            "True",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "BinaryTot",
-            "+",
-            "Switches.Variable(BitVal)"
-          ]
-        }
-      ]
-    },
-    {
-      "disabled": true,
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -2139,6 +1900,14 @@
             "BinaryTot",
             "=",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "finishButton"
           ]
         }
       ],
@@ -2624,15 +2393,25 @@
       "actions": []
     },
     {
-      "disabled": true,
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "SceneJustBegins"
+            "value": "MouseButtonFromTextReleased"
           },
           "parameters": [
+            "Switches",
+            "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "Switches",
+            "",
+            "",
             ""
           ]
         }
@@ -2640,33 +2419,13 @@
       "actions": [
         {
           "type": {
-            "value": "SetNumberVariable"
+            "value": "SetBooleanObjectVariable"
           },
           "parameters": [
-            "TargetNumber",
-            "=",
-            "RandomInRange(0,9)"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "TargetLetter",
-            "=",
-            "RandomInRange(10,15)"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "TargetPrompt",
-            "Text",
-            "=",
-            "\"Convert \" + ToString(TargetNumber) + ToString(TargetLetter)+ \" to Binary.\""
+            "Switches",
+            "Status",
+            "Toggle",
+            ""
           ]
         }
       ],
@@ -2676,41 +2435,56 @@
           "conditions": [
             {
               "type": {
-                "value": "NumberVariable"
+                "value": "MouseButtonFromTextReleased"
               },
               "parameters": [
-                "TargetLetter",
-                "<=",
-                "9"
+                "Switches",
+                "\"Left\""
               ]
-            }
-          ],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+            },
             {
               "type": {
-                "value": "NumberVariable"
+                "value": "IsCursorOnObject"
               },
               "parameters": [
-                "TargetLetter",
-                "=",
-                "10"
+                "Switches",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Switches",
+                "Status",
+                "True",
+                ""
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "TargetPrompt",
-                "Text",
+                "Switches",
+                "Animation",
                 "=",
-                "\"Convert\" +  ToString(TargetNumber) + \"A to Binary.\""
+                "\"on\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "BinaryTot",
+                "+",
+                "Switches.Variable(BitVal)"
               ]
             }
           ]
@@ -2720,156 +2494,66 @@
           "conditions": [
             {
               "type": {
-                "value": "NumberVariable"
+                "value": "MouseButtonFromTextReleased"
               },
               "parameters": [
-                "TargetLetter",
-                "=",
-                "11"
+                "Switches",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Switches",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Switches",
+                "Status",
+                "False",
+                ""
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "TargetPrompt",
-                "Text",
+                "Switches",
+                "Animation",
                 "=",
-                "\"Convert \" +  ToString(TargetNumber) + \"B to Binary.\""
+                "\"off\""
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+            },
             {
               "type": {
-                "value": "NumberVariable"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "TargetLetter",
-                "=",
-                "12"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "TargetPrompt",
-                "Text",
-                "=",
-                "\"Convert\" +  ToString(TargetNumber) +  \"C to Binary.\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "TargetLetter",
-                "=",
-                "13"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "TargetPrompt",
-                "Text",
-                "=",
-                "\"Convert\" +  ToString(TargetNumber) +  \"D to Binary.\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "TargetLetter",
-                "=",
-                "14"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "TargetPrompt",
-                "Text",
-                "=",
-                "\"Convert\" +  ToString(TargetNumber) +  \"E to Binary.\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "TargetLetter",
-                "=",
-                "15"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "TargetPrompt",
-                "Text",
-                "=",
-                "\"Convert\" +  ToString(TargetNumber) +  \"F to Binary.\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "finishButton"
+                "BinaryTot",
+                "+",
+                "Switches.Variable(BitVal)"
               ]
             }
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -3164,6 +2848,7 @@
       "comment": "count down event"
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -3188,6 +2873,7 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
@@ -3205,6 +2891,7 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
