@@ -120,7 +120,7 @@
       {
         "file": "assets/Green switch 2_off.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Green switch 2_off.png\",\"extension\":\".png\"}",
         "name": "Green switch 2_off.png",
         "smoothed": false,
         "userAdded": false,
@@ -556,6 +556,58 @@
         "name": "BinaryBlitz.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Free-City-Backgrounds-Pixel-Art3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Free-City-Backgrounds-Pixel-Art3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Free-City-Backgrounds-Pixel-Art4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Free-City-Backgrounds-Pixel-Art4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Default-panel (16).png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Default-panel (16).png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Default-panel (16).png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/758f06517c1685d3e5de64497eff0a2eebc7605f515d930b531b238f1db90c70_Default-panel (16).png",
+          "name": "Default-panel (16).png"
+        }
+      },
+      {
+        "file": "Free-City-Backgrounds-Pixel-Art2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Free-City-Backgrounds-Pixel-Art2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Free-City-Backgrounds-Pixel-Art5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Free-City-Backgrounds-Pixel-Art5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/off2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "off",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -565,7 +617,7 @@
       "height": 1024,
       "name": "Forest_Background_2",
       "persistentUuid": "2e669ce0-58c5-44d4-b715-9e24ace5b105",
-      "texture": "tiled_Forest Background 2.png",
+      "texture": "Free-City-Backgrounds-Pixel-Art5.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 1024,
       "variables": [],
