@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3645833333333333,
+    "zoomFactor": 0.4163025217733325,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -236,7 +236,7 @@
       "name": "TargetPrompt",
       "persistentUuid": "5e057c1e-3b9f-4da1-95ad-6189e04559ac",
       "width": 0,
-      "x": 912,
+      "x": 893,
       "y": 288,
       "zOrder": 15,
       "numberProperties": [],
@@ -255,6 +255,22 @@
       "x": 906,
       "y": 447,
       "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Timer",
+      "persistentUuid": "6b3c0b7a-5921-4245-ad5f-4ed6394eca52",
+      "width": 0,
+      "x": 330,
+      "y": 134,
+      "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1039,7 +1055,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "",
+      "string": "Text",
       "font": "",
       "textAlignment": "left",
       "characterSize": 40,
@@ -1062,7 +1078,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "",
+        "text": "Text",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -1822,11 +1838,6 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
-    },
-    {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -1851,16 +1862,6 @@
         }
       ],
       "actions": [
-        {
-          "type": {
-            "value": "SetCenterX"
-          },
-          "parameters": [
-            "Feedback",
-            "=",
-            "SceneWindowWidth()/2"
-          ]
-        },
         {
           "type": {
             "value": "SetNumberVariable"
@@ -2609,16 +2610,6 @@
           "actions": [
             {
               "type": {
-                "value": "SetCenterX"
-              },
-              "parameters": [
-                "Feedback",
-                "=",
-                "SceneWindowWidth()/2"
-              ]
-            },
-            {
-              "type": {
                 "value": "SetStringVariable"
               },
               "parameters": [
@@ -2687,16 +2678,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "SetCenterX"
-              },
-              "parameters": [
-                "Feedback",
-                "=",
-                "SceneWindowWidth()/2"
-              ]
-            },
             {
               "type": {
                 "value": "SetStringVariable"
