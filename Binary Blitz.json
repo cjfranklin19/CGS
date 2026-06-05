@@ -604,8 +604,16 @@
       {
         "file": "assets/off2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/off2.png\"}",
         "name": "off",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/on3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "on",
         "smoothed": true,
         "userAdded": false
       }

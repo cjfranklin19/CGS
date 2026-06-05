@@ -360,7 +360,7 @@
       "height": 341,
       "keepRatio": true,
       "layer": "",
-      "name": "Feedback",
+      "name": "Feedback2",
       "persistentUuid": "8c6be39b-a383-4944-9e7d-f239dcb0ecc2",
       "width": 553,
       "x": 683,
@@ -615,6 +615,7 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.025,
               "sprites": [
                 {
@@ -1461,7 +1462,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2_off.png",
+                  "image": "on",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1658,7 +1659,7 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "Feedback",
+      "name": "Feedback2",
       "persistentUuid": "6aa0f31c-0ed0-440e-b143-509bc7956319",
       "smoothed": true,
       "type": "TextObject::Text",
@@ -1668,7 +1669,7 @@
       "behaviors": [],
       "string": "Feeback",
       "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
-      "textAlignment": "left",
+      "textAlignment": "center",
       "characterSize": 40,
       "color": {
         "b": 0,
@@ -1691,7 +1692,7 @@
         "underlined": false,
         "text": "Feeback",
         "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
-        "textAlignment": "left",
+        "textAlignment": "center",
         "verticalTextAlignment": "top",
         "characterSize": 40,
         "lineHeight": 0,
@@ -1980,7 +1981,7 @@
         "objectName": "Default_Panel_15"
       },
       {
-        "objectName": "Feedback"
+        "objectName": "Feedback2"
       },
       {
         "objectName": "finishButton"
@@ -2018,7 +2019,7 @@
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
-            "Feedback",
+            "Feedback2",
             "Text",
             "=",
             ""
@@ -2415,6 +2416,15 @@
             },
             {
               "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "TargetPrompt",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "SetBooleanVariable"
               },
               "parameters": [
@@ -2510,7 +2520,7 @@
                 "value": "Hide"
               },
               "parameters": [
-                "Feedback"
+                "Feedback2"
               ]
             }
           ]
@@ -2584,6 +2594,14 @@
           "actions": [
             {
               "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "TargetPrompt"
+              ]
+            },
+            {
+              "type": {
                 "value": "SetStringVariable"
               },
               "parameters": [
@@ -2597,7 +2615,7 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "Feedback",
+                "Feedback2",
                 "Text",
                 "=",
                 "VariableString(ResultText)"
@@ -2870,7 +2888,7 @@
                     "value": "Show"
                   },
                   "parameters": [
-                    "Feedback",
+                    "Feedback2",
                     ""
                   ]
                 },
@@ -3032,7 +3050,7 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "Feedback",
+                "Feedback2",
                 "Text",
                 "=",
                 "VariableString(ResultText)"
