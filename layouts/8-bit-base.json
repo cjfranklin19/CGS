@@ -2518,22 +2518,6 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BooleanVariable"
-          },
-          "parameters": [
-            "StartNextQuestion",
-            "True",
-            ""
-          ]
-        }
-      ],
-      "actions": []
-    },
-    {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -3040,7 +3024,7 @@
               "parameters": [
                 "ResultText",
                 "=",
-                "\"Incorrect!\""
+                "\"Incorrect, try again!\""
               ]
             },
             {
