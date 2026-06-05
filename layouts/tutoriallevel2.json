@@ -1852,6 +1852,16 @@
           "actions": [
             {
               "type": {
+                "value": "SetCenterX"
+              },
+              "parameters": [
+                "Feedback",
+                "=",
+                "SceneWindowWidth()/2"
+              ]
+            },
+            {
+              "type": {
                 "value": "SetStringVariable"
               },
               "parameters": [
@@ -1999,16 +2009,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "SetCenterX"
-                  },
-                  "parameters": [
-                    "Feedback",
-                    "=",
-                    "SceneWindowWidth()/2"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Show"
                   },
                   "parameters": [
@@ -2054,6 +2054,16 @@
           "actions": [
             {
               "type": {
+                "value": "SetCenterX"
+              },
+              "parameters": [
+                "Feedback",
+                "=",
+                "SceneWindowWidth()/2"
+              ]
+            },
+            {
+              "type": {
                 "value": "SetStringVariable"
               },
               "parameters": [
@@ -2081,16 +2091,6 @@
                 "BinaryTot",
                 "=",
                 "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCenterX"
-              },
-              "parameters": [
-                "Feedback",
-                "=",
-                "SceneWindowWidth()/2"
               ]
             }
           ],
