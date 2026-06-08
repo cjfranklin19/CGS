@@ -1349,6 +1349,78 @@
         "name": "assets/NumberOff.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "Level one lights animation.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level one lights animation.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Level one lights animation2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Level one lights animation2.png\",\"extension\":\".png\"}",
+        "name": "Level one lights animation2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Level one lights animation3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Level one lights animation3.png\",\"extension\":\".png\"}",
+        "name": "Level one lights animation3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Level one lights animation4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Level one lights animation4.png\",\"extension\":\".png\"}",
+        "name": "Level one lights animation4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Level one lights animation5.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Level one lights animation5.png\",\"extension\":\".png\"}",
+        "name": "Level one lights animation5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Level one lights animation6.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Level one lights animation6.png\",\"extension\":\".png\"}",
+        "name": "Level one lights animation6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Level one lights animation7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level one lights animation7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Level one lights animation8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level one lights animation8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Level one lights animation9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level one lights animation9.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
