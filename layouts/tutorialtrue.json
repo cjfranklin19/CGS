@@ -276,15 +276,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 318,
       "keepRatio": true,
       "layer": "",
       "name": "story",
       "persistentUuid": "1e960228-79bb-4237-86d4-96e209cc00f7",
-      "width": 0,
+      "width": 643,
       "x": 24,
-      "y": 115,
+      "y": 91,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -1743,7 +1744,7 @@
           "TypedText": ""
         }
       ],
-      "string": "Hello coder, you mission,perform \nreconnaissance \nto develop you decimal/binary conversions. \nIts your goal to gain skills to stop \nthe hacktavist group VN from divertinging \nthe cities powernetwork",
+      "string": "Hello Coder todays mission is to perform reconnaisance. Your task is to develop your decimal to binary conversions. remember the right most switch is 1 and going to the left is powers of 2",
       "font": "",
       "textAlignment": "left",
       "characterSize": 35,
@@ -1766,7 +1767,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Hello coder, you mission,perform \nreconnaissance \nto develop you decimal/binary conversions. \nIts your goal to gain skills to stop \nthe hacktavist group VN from divertinging \nthe cities powernetwork",
+        "text": "Hello Coder todays mission is to perform reconnaisance. Your task is to develop your decimal to binary conversions. remember the right most switch is 1 and going to the left is powers of 2",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -2140,6 +2141,11 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -2181,57 +2187,103 @@
             "textbox2",
             "\"HideTimer\""
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+        },
         {
           "type": {
-            "value": "CompareObjectTimer"
+            "value": "ResetObjectTimer"
           },
           "parameters": [
-            "story",
-            "\"HideTimer\"",
-            ">",
-            "13"
+            "TargetPrompt",
+            "\"showtimer\""
           ]
-        }
-      ],
-      "actions": [
+        },
         {
           "type": {
             "value": "Hide"
           },
           "parameters": [
-            "story"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CompareObjectTimer"
-          },
-          "parameters": [
-            "textbox2",
-            "\"HideTimer\"",
-            ">",
-            "13"
+            "TargetPrompt"
           ]
         }
       ],
-      "actions": [
+      "events": [
         {
-          "type": {
-            "value": "Hide"
-          },
-          "parameters": [
-            "textbox2"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "story",
+                "\"HideTimer\"",
+                ">",
+                "13"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "story"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "textbox2",
+                "\"HideTimer\"",
+                ">",
+                "13"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "textbox2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "TargetPrompt",
+                "\"showtimer\"",
+                ">",
+                "13"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "TargetPrompt",
+                ""
+              ]
+            }
           ]
         }
       ]

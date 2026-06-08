@@ -136,6 +136,26 @@
       "name": "lightsnums",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "Scores",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Streak",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "BasePoint",
+      "type": "number",
+      "value": 100
+    },
+    {
+      "name": "penalty",
+      "type": "number",
+      "value": 50
     }
   ],
   "instances": [
@@ -266,7 +286,7 @@
       "name": "TargetPrompt",
       "persistentUuid": "5e057c1e-3b9f-4da1-95ad-6189e04559ac",
       "width": 0,
-      "x": 893,
+      "x": 904,
       "y": 288,
       "zOrder": 15,
       "numberProperties": [],
@@ -298,8 +318,8 @@
       "name": "Timer",
       "persistentUuid": "6b3c0b7a-5921-4245-ad5f-4ed6394eca52",
       "width": 0,
-      "x": 330,
-      "y": 134,
+      "x": 1528,
+      "y": 93,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -415,9 +435,59 @@
       "name": "lights",
       "persistentUuid": "06db3549-993b-4555-be78-567715e19136",
       "width": 278,
-      "x": 440,
+      "x": 555,
       "y": 337,
       "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Score",
+      "persistentUuid": "6f81b967-53b3-485f-ae6b-2c79e3742af1",
+      "width": 0,
+      "x": 103,
+      "y": 80,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 393,
+      "keepRatio": true,
+      "layer": "",
+      "name": "textbox2",
+      "persistentUuid": "e64a7e2d-d707-49d2-981c-056b1ab50ec9",
+      "width": 476,
+      "x": 32,
+      "y": 55,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 384,
+      "keepRatio": true,
+      "layer": "",
+      "name": "story",
+      "persistentUuid": "29608c6c-ec72-4b5f-9562-e748ab48c843",
+      "width": 450,
+      "x": 42,
+      "y": 57,
+      "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2015,6 +2085,121 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Score",
+      "persistentUuid": "ed11b31d-1155-4480-912b-c8b2f5036490",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Score",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 80,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Score",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 80,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "story",
+      "persistentUuid": "5cb0aca6-1900-4051-91e1-75cd3803cecb",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        }
+      ],
+      "string": "Code the Hacktavist has moved into their second phase Weaponization. They are creating payloads through hexadecimal. its like the previous reconnaissance, but now with letters. your task turn the payloads back to binary. its easier to split the payload into indiviudal four bits then creating binary out of them.",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Code the Hacktavist has moved into their second phase Weaponization. They are creating payloads through hexadecimal. its like the previous reconnaissance, but now with letters. your task turn the payloads back to binary. its easier to split the payload into indiviudal four bits then creating binary out of them.",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 30,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "c3d976cf274bd906a1ac1fed05001579da39fc34e381e43032c0f4116b3d3260",
+      "bottomMargin": 16,
+      "height": 48,
+      "leftMargin": 16,
+      "name": "textbox2",
+      "persistentUuid": "cd830b56-d540-4052-963d-9f08f470de74",
+      "rightMargin": 16,
+      "texture": "Default panel-transparent-center (9).png",
+      "tiled": false,
+      "topMargin": 16,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 48,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -2022,6 +2207,15 @@
     "children": [
       {
         "objectName": "Submit_Button"
+      },
+      {
+        "objectName": "textbox2"
+      },
+      {
+        "objectName": "story"
+      },
+      {
+        "objectName": "Score"
       },
       {
         "objectName": "Switch_128"
@@ -2126,6 +2320,16 @@
             "=",
             "0"
           ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Scores",
+            "=",
+            "0"
+          ]
         }
       ]
     },
@@ -2161,6 +2365,188 @@
             "Animation",
             "=",
             "\"0\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "story",
+            "\"HideTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "textbox2",
+            "\"HideTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "TargetPrompt",
+            "\"showtimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "Timer",
+            "\"showtimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "TargetPrompt"
+          ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "Timer"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareObjectTimer"
+          },
+          "parameters": [
+            "story",
+            "\"HideTimer\"",
+            ">",
+            "20"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "story"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareObjectTimer"
+          },
+          "parameters": [
+            "textbox2",
+            "\"HideTimer\"",
+            ">",
+            "20"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "textbox2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareObjectTimer"
+          },
+          "parameters": [
+            "TargetPrompt",
+            "\"showtimer\"",
+            ">",
+            "21"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Show"
+          },
+          "parameters": [
+            "TargetPrompt",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareObjectTimer"
+          },
+          "parameters": [
+            "Timer",
+            "\"showtimer\"",
+            ">=",
+            "21"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Show"
+          },
+          "parameters": [
+            "Timer",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"CountingDown\""
           ]
         }
       ]
@@ -2483,6 +2869,17 @@
               },
               "parameters": [
                 "finishButton"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Score",
+                "Text",
+                "=",
+                "ToString(Scores)"
               ]
             }
           ],
@@ -3029,6 +3426,16 @@
             },
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Scores",
+                "+",
+                "BasePoint"
+              ]
+            },
+            {
+              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
@@ -3078,6 +3485,27 @@
                 "Animation",
                 "=",
                 "CorrectCount"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Score",
+                "Text",
+                "=",
+                "ToString(Scores)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenterX"
+              },
+              "parameters": [
+                "Feedback",
+                "=",
+                "SceneWindowWidth()/2"
               ]
             }
           ],
@@ -3187,6 +3615,17 @@
               "actions": [
                 {
                   "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Score",
+                    "Text",
+                    "=",
+                    "ToString(Scores)"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Show"
                   },
                   "parameters": [
@@ -3251,6 +3690,16 @@
             },
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Scores",
+                "-",
+                "penalty"
+              ]
+            },
+            {
+              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
@@ -3289,6 +3738,27 @@
                 "Animation",
                 "=",
                 "CorrectCount"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Score",
+                "Text",
+                "=",
+                "ToString(Scores)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenterX"
+              },
+              "parameters": [
+                "Feedback",
+                "=",
+                "SceneWindowWidth()/2"
               ]
             }
           ],
@@ -3409,7 +3879,6 @@
       "comment": "count down event"
     },
     {
-      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -3434,7 +3903,6 @@
       ]
     },
     {
-      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
@@ -3446,13 +3914,12 @@
             "Timer",
             "Text",
             "=",
-            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-15)))"
+            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-30)))"
           ]
         }
       ]
     },
     {
-      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -3463,7 +3930,7 @@
             "",
             "\"CountingDown\"",
             ">=",
-            "15"
+            "30"
           ]
         }
       ],
@@ -3626,6 +4093,10 @@
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "AutoTyping",
+      "type": "AutoTyping::AutoTyping"
     },
     {
       "name": "Effect",
