@@ -1433,6 +1433,54 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Transparent Panels/5ecbacfde5c74d544724880d606d772680ae95a375afa42a97ccd18d294458d1_Default panel-transparent-center (9).png",
           "name": "Default panel-transparent-center (9).png"
         }
+      },
+      {
+        "file": "assets/off.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "off",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/oneon.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "oneon",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/twoon.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/twoon.png\"}",
+        "name": "twoon",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/threeon.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "threeon",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fouron.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fouron",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },

@@ -125,7 +125,17 @@
     {
       "name": "NumQuestions",
       "type": "number",
-      "value": 3
+      "value": 5
+    },
+    {
+      "name": "CorrectCount",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "lightsnums",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -391,6 +401,23 @@
       "x": 216,
       "y": 730,
       "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 283,
+      "keepRatio": true,
+      "layer": "",
+      "name": "lights",
+      "persistentUuid": "06db3549-993b-4555-be78-567715e19136",
+      "width": 278,
+      "x": 440,
+      "y": 337,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1725,6 +1752,269 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "lights",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "lightsnums",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "0",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 12
+                      },
+                      {
+                        "x": 57,
+                        "y": 12
+                      },
+                      {
+                        "x": 57,
+                        "y": 54
+                      },
+                      {
+                        "x": 11,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "oneon",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 12
+                      },
+                      {
+                        "x": 57,
+                        "y": 12
+                      },
+                      {
+                        "x": 57,
+                        "y": 54
+                      },
+                      {
+                        "x": 11,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "twoon",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 12
+                      },
+                      {
+                        "x": 57,
+                        "y": 12
+                      },
+                      {
+                        "x": 57,
+                        "y": 54
+                      },
+                      {
+                        "x": 11,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "threeon",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 12
+                      },
+                      {
+                        "x": 57,
+                        "y": 12
+                      },
+                      {
+                        "x": 57,
+                        "y": 54
+                      },
+                      {
+                        "x": 11,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "4",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "fouron",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 12
+                      },
+                      {
+                        "x": 57,
+                        "y": 12
+                      },
+                      {
+                        "x": 57,
+                        "y": 54
+                      },
+                      {
+                        "x": 11,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1777,6 +2067,9 @@
       },
       {
         "objectName": "Timer"
+      },
+      {
+        "objectName": "lights"
       }
     ]
   },
@@ -1832,6 +2125,42 @@
             "BinaryTot",
             "=",
             "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "CorrectCount",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "lights",
+            "Animation",
+            "=",
+            "\"0\""
           ]
         }
       ]
@@ -2137,6 +2466,15 @@
                 "BinaryTot",
                 "=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"CountingDown\""
               ]
             },
             {
@@ -2636,7 +2974,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "Submission buttoon"
+      "comment": "Submission buttoon/animation for background "
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2719,6 +3057,27 @@
                 "Status",
                 "False",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "CorrectCount",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "lights",
+                "Animation",
+                "=",
+                "CorrectCount"
               ]
             }
           ],
@@ -2834,8 +3193,22 @@
                     "finishButton",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"CountingDown\""
+                  ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ]
         },
@@ -2895,6 +3268,27 @@
                 "BinaryTot",
                 "=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "CorrectCount",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "lights",
+                "Animation",
+                "=",
+                "CorrectCount"
               ]
             }
           ],
@@ -3015,6 +3409,7 @@
       "comment": "count down event"
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -3039,6 +3434,7 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
@@ -3056,6 +3452,7 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
