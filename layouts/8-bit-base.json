@@ -3037,6 +3037,14 @@
           "actions": [
             {
               "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "TargetPrompt"
+              ]
+            },
+            {
+              "type": {
                 "value": "SetStringVariable"
               },
               "parameters": [
@@ -3058,13 +3066,11 @@
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "Show"
               },
               "parameters": [
-                "SCORE",
-                "Text",
-                "=",
-                "ToString(Score)"
+                "Feedback2",
+                ""
               ]
             },
             {
@@ -3079,12 +3085,13 @@
             },
             {
               "type": {
-                "value": "SetNumberVariable"
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "BinaryTot",
+                "SCORE",
+                "Text",
                 "=",
-                "0"
+                "ToString(Score)"
               ]
             },
             {
@@ -3106,6 +3113,41 @@
                 "Text",
                 "=",
                 "ToString(Streak)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "BinaryTot",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Feedback2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "TargetPrompt",
+                ""
               ]
             }
           ],
