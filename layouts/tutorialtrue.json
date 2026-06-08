@@ -289,6 +289,23 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 356,
+      "keepRatio": true,
+      "layer": "",
+      "name": "textbox2",
+      "persistentUuid": "02f96fcb-4d3d-4717-ad31-05e1e9f3fc44",
+      "width": 700,
+      "x": 12,
+      "y": 70,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1757,6 +1774,23 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "c3d976cf274bd906a1ac1fed05001579da39fc34e381e43032c0f4116b3d3260",
+      "bottomMargin": 16,
+      "height": 48,
+      "leftMargin": 16,
+      "name": "textbox2",
+      "persistentUuid": "5befa6df-970a-40ba-b276-ccfc4a3fa51f",
+      "rightMargin": 16,
+      "texture": "Default panel-transparent-center (9).png",
+      "tiled": false,
+      "topMargin": 16,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 48,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -1812,6 +1846,9 @@
       },
       {
         "objectName": "story"
+      },
+      {
+        "objectName": "textbox2"
       }
     ]
   },
@@ -2103,6 +2140,18 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "how to make the first dialouge show up and disapear"
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -2123,6 +2172,15 @@
             "story",
             "\"HideTimer\""
           ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "textbox2",
+            "\"HideTimer\""
+          ]
         }
       ]
     },
@@ -2137,7 +2195,7 @@
             "story",
             "\"HideTimer\"",
             ">",
-            "13"
+            "3"
           ]
         }
       ],
@@ -2148,6 +2206,32 @@
           },
           "parameters": [
             "story"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareObjectTimer"
+          },
+          "parameters": [
+            "textbox2",
+            "\"HideTimer\"",
+            ">",
+            "3"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "textbox2"
           ]
         }
       ]

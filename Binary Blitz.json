@@ -1421,6 +1421,18 @@
         "name": "Level one lights animation9.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Default panel-transparent-center (9).png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Default panel-transparent-center (9).png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Default panel-transparent-center (9).png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Transparent Panels/5ecbacfde5c74d544724880d606d772680ae95a375afa42a97ccd18d294458d1_Default panel-transparent-center (9).png",
+          "name": "Default panel-transparent-center (9).png"
+        }
       }
     ]
   },
