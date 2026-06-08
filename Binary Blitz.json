@@ -578,7 +578,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Default-panel (16).png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "Default-panel (16).png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/758f06517c1685d3e5de64497eff0a2eebc7605f515d930b531b238f1db90c70_Default-panel (16).png",
@@ -590,7 +590,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Free-City-Backgrounds-Pixel-Art2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -598,7 +598,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Free-City-Backgrounds-Pixel-Art5.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -606,7 +606,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/off2.png\"}",
         "name": "off",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -614,6 +614,14 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "on",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Level one lights animation.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level one lights animation.png",
         "smoothed": true,
         "userAdded": false
       }
