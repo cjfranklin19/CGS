@@ -616,6 +616,14 @@
         "name": "on",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "Level one lights animation.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level one lights animation.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
