@@ -125,7 +125,7 @@
     {
       "name": "NumQuestions",
       "type": "number",
-      "value": 5
+      "value": 4
     },
     {
       "name": "CorrectCount",
@@ -482,7 +482,7 @@
       "height": 384,
       "keepRatio": true,
       "layer": "",
-      "name": "story",
+      "name": "Hexstory",
       "persistentUuid": "29608c6c-ec72-4b5f-9562-e748ab48c843",
       "width": 450,
       "x": 42,
@@ -2134,7 +2134,7 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "story",
+      "name": "Hexstory",
       "persistentUuid": "5cb0aca6-1900-4051-91e1-75cd3803cecb",
       "smoothed": true,
       "type": "TextObject::Text",
@@ -2212,7 +2212,7 @@
         "objectName": "textbox2"
       },
       {
-        "objectName": "story"
+        "objectName": "Hexstory"
       },
       {
         "objectName": "Score"
@@ -2330,22 +2330,7 @@
             "=",
             "0"
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SceneJustBegins"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
+        },
         {
           "type": {
             "value": "SetNumberVariable"
@@ -2366,30 +2351,6 @@
             "=",
             "\"0\""
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SceneJustBegins"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "story",
-            "\"HideTimer\""
-          ]
         },
         {
           "type": {
@@ -2405,17 +2366,8 @@
             "value": "ResetObjectTimer"
           },
           "parameters": [
-            "TargetPrompt",
-            "\"showtimer\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "Timer",
-            "\"showtimer\""
+            "Hexstory",
+            "\"HideTimer\""
           ]
         },
         {
@@ -2425,14 +2377,6 @@
           "parameters": [
             "TargetPrompt"
           ]
-        },
-        {
-          "type": {
-            "value": "Hide"
-          },
-          "parameters": [
-            "Timer"
-          ]
         }
       ]
     },
@@ -2444,27 +2388,12 @@
             "value": "CompareObjectTimer"
           },
           "parameters": [
-            "story",
+            "Hexstory",
             "\"HideTimer\"",
             ">",
             "20"
           ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Hide"
-          },
-          "parameters": [
-            "story"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+        },
         {
           "type": {
             "value": "CompareObjectTimer"
@@ -2478,6 +2407,14 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "Hexstory"
+          ]
+        },
         {
           "type": {
             "value": "Hide"
@@ -2493,17 +2430,26 @@
       "conditions": [
         {
           "type": {
-            "value": "CompareObjectTimer"
+            "value": "CompareTimer"
           },
           "parameters": [
-            "TargetPrompt",
+            "",
             "\"showtimer\"",
-            ">",
+            ">=",
             "21"
           ]
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"CountingDown\""
+          ]
+        },
         {
           "type": {
             "value": "Show"
@@ -2512,25 +2458,7 @@
             "TargetPrompt",
             ""
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CompareObjectTimer"
-          },
-          "parameters": [
-            "Timer",
-            "\"showtimer\"",
-            ">=",
-            "21"
-          ]
-        }
-      ],
-      "actions": [
+        },
         {
           "type": {
             "value": "Show"
@@ -2548,11 +2476,13 @@
       "actions": [
         {
           "type": {
-            "value": "ResetTimer"
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
-            "",
-            "\"CountingDown\""
+            "Timer",
+            "Text",
+            "=",
+            "ToString(round(51 - TimerElapsedTime(\"CountingDown\")))"
           ]
         }
       ]
@@ -2764,7 +2694,6 @@
       "actions": [],
       "events": [
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2789,6 +2718,23 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"showtimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Timer"
+              ]
+            },
             {
               "type": {
                 "value": "SetBooleanVariable"
@@ -2858,15 +2804,6 @@
                 "BinaryTot",
                 "=",
                 "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"CountingDown\""
               ]
             },
             {
@@ -3513,6 +3450,15 @@
                 "=",
                 "SceneWindowWidth()/2"
               ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"CountingDown\""
+              ]
             }
           ],
           "events": [
@@ -3889,54 +3835,13 @@
       "conditions": [
         {
           "type": {
-            "value": "SceneJustBegins"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "Timeleft",
-            "\"CountingDown\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "Timer",
-            "Text",
-            "=",
-            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-30)))"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "value": "CompareTimer"
           },
           "parameters": [
             "",
             "\"CountingDown\"",
             ">=",
-            "30"
+            "51"
           ]
         }
       ],
@@ -3948,17 +3853,6 @@
           "parameters": [
             "",
             "\"CountingDown\""
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "Timer",
-            "Text",
-            "=",
-            "\"Timer complete!\""
           ]
         },
         {

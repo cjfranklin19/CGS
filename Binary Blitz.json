@@ -1481,6 +1481,138 @@
         "name": "fouron",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Number Key_Eight.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Eight.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/7a553874d2f43616bd77dedc78174c699aa9d09288aa40729118ee62d6d0ee23_Number Key_Eight.png",
+          "name": "Number Key_Eight.png"
+        }
+      },
+      {
+        "file": "assets/Number Key_Five.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Five.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/85b64f0f3643bb1ec077d5e91c25ef5f53daa790cd44e59d1f8b8a85b85b2ac0_Number Key_Five.png",
+          "name": "Number Key_Five.png"
+        }
+      },
+      {
+        "file": "assets/Number Key_Four.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Four.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/795e559df378c0764bbad5469879bfa03b9273e7888ca1a12743a8132b00bdcc_Number Key_Four.png",
+          "name": "Number Key_Four.png"
+        }
+      },
+      {
+        "file": "assets/Number Key_Nine.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Nine.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/99477c9464ccf7a5eecb6fdbbd7b22ee4044c38179ce3ebdef24b021152c66cc_Number Key_Nine.png",
+          "name": "Number Key_Nine.png"
+        }
+      },
+      {
+        "file": "assets/Number Key_One.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_One.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/e4c972d1b688c975a415acfe91129217d87ca9e30d44ffb0d213911a5e67c925_Number Key_One.png",
+          "name": "Number Key_One.png"
+        }
+      },
+      {
+        "file": "assets/Number Key_Seven.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Seven.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/11e4d3efe0856fec5c322c4316ff19f647d549cea00f853010331cc345253f3f_Number Key_Seven.png",
+          "name": "Number Key_Seven.png"
+        }
+      },
+      {
+        "file": "assets/Number Key_Six.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Six.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/3479e4567e23918fcaa769fc5158347abeb4e7e54a565ff5980534cd19c49ca0_Number Key_Six.png",
+          "name": "Number Key_Six.png"
+        }
+      },
+      {
+        "file": "assets/Number Key_Three.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Three.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/379927da3b7c3bff798913ca6a5ff2438c82f588f40104bf4ac1e338113d5ff2_Number Key_Three.png",
+          "name": "Number Key_Three.png"
+        }
+      },
+      {
+        "file": "assets/Number Key_Two.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Two.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/36b4b7c821b677badd94aef2bce0c595187bdd94b918dc21b7cc89e5a1f5907c_Number Key_Two.png",
+          "name": "Number Key_Two.png"
+        }
+      },
+      {
+        "file": "assets/Number Key_Zero.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Zero.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/a63c156a8343c9a95b7218d316089120dda7c51e96dcb43c007fd7da13ab220f_Number Key_Zero.png",
+          "name": "Number Key_Zero.png"
+        }
+      },
+      {
+        "file": "assets/Enter Key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Enter Key.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/6affc681f6be0e8faf9565c9768bb3d719e6ef666372d0eecb0cda0893fa8d64_Enter Key.png",
+          "name": "Enter Key.png"
+        }
       }
     ]
   },
