@@ -2539,7 +2539,13 @@
             "Timer",
             ""
           ]
-        },
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
         {
           "type": {
             "value": "ResetTimer"
