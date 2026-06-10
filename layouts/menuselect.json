@@ -105,8 +105,8 @@
       "name": "Twoscompbutton",
       "persistentUuid": "70c6b38e-bad7-4bf9-9d63-9686166e2793",
       "width": 353,
-      "x": 764,
-      "y": 660,
+      "x": 775,
+      "y": 819,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -119,11 +119,11 @@
       "height": 106,
       "keepRatio": true,
       "layer": "",
-      "name": "OverflowButton",
+      "name": "OctalButton",
       "persistentUuid": "d52bb40c-1490-4db5-8c17-f90db4a793c6",
       "width": 361,
-      "x": 758,
-      "y": 806,
+      "x": 769,
+      "y": 644,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -195,7 +195,7 @@
     },
     {
       "assetStoreId": "90d94b6e3a23c34948e59eaaef4679740f8ab588696d59b21e0c0c2ef106b94d",
-      "name": "OverflowButton",
+      "name": "OctalButton",
       "persistentUuid": "dfe305fc-a90c-4ee4-9758-e7f1e1f12164",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variant": "Blue Button",
@@ -209,7 +209,7 @@
         "BottomPadding": 32,
         "TopPadding": 16,
         "HoveredFadeOutDuration": 0.25,
-        "LabelText": "Overflow"
+        "LabelText": "Octal"
       }
     },
     {
@@ -261,7 +261,7 @@
         "objectName": "TutorialButton"
       },
       {
-        "objectName": "OverflowButton"
+        "objectName": "OctalButton"
       },
       {
         "objectName": "Twoscompbutton"
@@ -330,7 +330,7 @@
             "value": "SetCenterX"
           },
           "parameters": [
-            "OverflowButton",
+            "OctalButton",
             "=",
             "SceneWindowWidth()/2"
           ]
@@ -464,7 +464,7 @@
                 "value": "IsCursorOnObject"
               },
               "parameters": [
-                "OverflowButton",
+                "OctalButton",
                 "",
                 "",
                 ""

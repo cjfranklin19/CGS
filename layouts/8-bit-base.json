@@ -2151,25 +2151,16 @@
             "value": "Hide"
           },
           "parameters": [
-            "finishButton"
+            "TargetPrompt"
           ]
         },
         {
           "type": {
-            "value": "SetBooleanVariable"
+            "value": "Hide"
           },
           "parameters": [
-            "StartNextQuestion",
-            "True",
-            ""
+            "finishButton"
           ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ]
     },
@@ -2462,7 +2453,7 @@
                 "TargetPrompt",
                 "Text",
                 "=",
-                "\"Convert \" + ToString(TargetNum) + \" to Binary.\""
+                "\"Convert\" + ToString(TargetNum)+ \" to Binary\""
               ]
             },
             {
@@ -2520,7 +2511,8 @@
                 "value": "Show"
               },
               "parameters": [
-                "Feedback2"
+                "Feedback2",
+                ""
               ]
             }
           ]
@@ -3359,27 +3351,13 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "ELAPSED TIME"
-    },
-    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "BooleanVariable"
+            "value": "SceneJustBegins"
           },
           "parameters": [
-            "QuestionOpen",
-            "True",
             ""
           ]
         }
@@ -3387,12 +3365,19 @@
       "actions": [
         {
           "type": {
-            "value": "SetNumberVariable"
+            "value": "Wait"
           },
           "parameters": [
-            "ElapsedQuestionTime",
-            "+",
-            "TimeDelta()"
+            "21"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"CountingDown\""
           ]
         }
       ]
