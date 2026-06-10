@@ -2158,13 +2158,7 @@
                 "Feedback",
                 ""
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
+            },
             {
               "type": {
                 "value": "SetNumberVariable"
@@ -2224,7 +2218,12 @@
                 "\"CountingDown\""
               ]
             }
-          ],
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Comment",
