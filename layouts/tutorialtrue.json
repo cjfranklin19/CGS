@@ -329,40 +329,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 318,
-      "keepRatio": true,
-      "layer": "",
-      "name": "story",
-      "persistentUuid": "1e960228-79bb-4237-86d4-96e209cc00f7",
-      "width": 643,
-      "x": 24,
-      "y": 91,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 356,
-      "keepRatio": true,
-      "layer": "",
-      "name": "textbox2",
-      "persistentUuid": "02f96fcb-4d3d-4717-ad31-05e1e9f3fc44",
-      "width": 700,
-      "x": 12,
-      "y": 70,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "objects": [
@@ -1301,174 +1267,16 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "animations": [
-        {
-          "name": "off",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/NumberOff.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 26,
-                        "y": 14
-                      },
-                      {
-                        "x": 104,
-                        "y": 14
-                      },
-                      {
-                        "x": 104,
-                        "y": 113
-                      },
-                      {
-                        "x": 26,
-                        "y": 113
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "on",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/NumberOn.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 26,
-                        "y": 14
-                      },
-                      {
-                        "x": 104,
-                        "y": 14
-                      },
-                      {
-                        "x": 104,
-                        "y": 113
-                      },
-                      {
-                        "x": 26,
-                        "y": 113
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "story",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "AutoTyping",
-          "type": "AutoTyping::AutoTyping",
-          "Text": "Text",
-          "Interval": 0.05,
-          "CharacterJustAdded": false,
-          "FullText": "",
-          "TypedText": ""
-        }
-      ],
-      "string": "Hello Coder todays mission is to perform reconnaisance. Your task is to develop your decimal to binary conversions. remember the right most switch is 1 and going to the left is powers of 2",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 35,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
       "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Hello Coder todays mission is to perform reconnaisance. Your task is to develop your decimal to binary conversions. remember the right most switch is 1 and going to the left is powers of 2",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 35,
-        "lineHeight": 0,
-        "color": "0;0;0"
+        "text": "4",
+        "opacity": 255,
+        "fontSize": 60,
+        "visible": true,
+        "color": "74;74;74",
+        "fontFamily": "CantoraOne-Regular.ttf2",
+        "align": "left",
+        "verticalTextAlignment": "top"
       }
-    },
-    {
-      "assetStoreId": "c3d976cf274bd906a1ac1fed05001579da39fc34e381e43032c0f4116b3d3260",
-      "bottomMargin": 16,
-      "height": 48,
-      "leftMargin": 16,
-      "name": "textbox2",
-      "persistentUuid": "5befa6df-970a-40ba-b276-ccfc4a3fa51f",
-      "rightMargin": 16,
-      "texture": "Default panel-transparent-center (9).png",
-      "tiled": false,
-      "topMargin": 16,
-      "type": "PanelSpriteObject::PanelSprite",
-      "width": 48,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -1517,13 +1325,7 @@
         "objectName": "Label_4"
       },
       {
-        "objectName": "BinaryNum8"
-      },
-      {
-        "objectName": "story"
-      },
-      {
-        "objectName": "textbox2"
+        "objectName": "Label_8"
       }
     ]
   },
@@ -1785,152 +1587,6 @@
             "BinaryTot",
             "+",
             "Switches.Variable(BitVal)"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "how to make the first dialouge show up and disapear"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SceneJustBegins"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "story",
-            "\"HideTimer\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "textbox2",
-            "\"HideTimer\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "TargetPrompt",
-            "\"showtimer\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Hide"
-          },
-          "parameters": [
-            "TargetPrompt"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CompareObjectTimer"
-          },
-          "parameters": [
-            "textbox2",
-            "\"HideTimer\"",
-            ">",
-            "13"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Hide"
-          },
-          "parameters": [
-            "textbox2"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CompareObjectTimer"
-          },
-          "parameters": [
-            "TargetPrompt",
-            "\"showtimer\"",
-            ">",
-            "13"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Show"
-          },
-          "parameters": [
-            "TargetPrompt",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CompareObjectTimer"
-          },
-          "parameters": [
-            "story",
-            "\"HideTimer\"",
-            ">",
-            "13"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Hide"
-          },
-          "parameters": [
-            "story"
           ]
         }
       ]
@@ -2640,10 +2296,6 @@
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
-    },
-    {
-      "name": "AutoTyping",
-      "type": "AutoTyping::AutoTyping"
     },
     {
       "name": "Effect",
