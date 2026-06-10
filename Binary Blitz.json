@@ -1080,6 +1080,18 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/fda47cff3afe1a4d1ce358eeb44f1955949deffa84cb08cf95464df349160741_Default-panel (1).png",
           "name": "Default-panel (1).png"
         }
+      },
+      {
+        "file": "assets/Backspace Alt Key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Backspace Alt Key.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/0ffd7f3540e9120149ad819f7400e4775834ae732bb9614084b80bc9b295cd07_Backspace Alt Key.png",
+          "name": "Backspace Alt Key.png"
+        }
       }
     ]
   },

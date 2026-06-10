@@ -305,8 +305,8 @@
       "name": "submitbutton",
       "persistentUuid": "9abfa694-dad7-4d6d-a851-86316c93c2cb",
       "width": 0,
-      "x": 1623,
-      "y": 718,
+      "x": 1439,
+      "y": 772,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -469,6 +469,22 @@
       "x": -20,
       "y": -5,
       "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Backspace_Alt_Key",
+      "persistentUuid": "821133dc-d9c0-4203-9e0c-948ded6932b9",
+      "width": 0,
+      "x": 1438,
+      "y": 662,
+      "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3838,6 +3854,67 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "2b0a6e29ea810e965598acf69bc0d34ed62c9d37d9a2f81b46bae2d9ad05996d",
+      "name": "Backspace_Alt_Key",
+      "persistentUuid": "4d941b93-c78e-437b-80db-bd5cb5e3243e",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Backspace Alt Key.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 19
+                      },
+                      {
+                        "x": 96,
+                        "y": 19
+                      },
+                      {
+                        "x": 96,
+                        "y": 81
+                      },
+                      {
+                        "x": 4,
+                        "y": 81
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3908,6 +3985,9 @@
       },
       {
         "objectName": "BinaryDisplay"
+      },
+      {
+        "objectName": "Backspace_Alt_Key"
       }
     ]
   },

@@ -1075,9 +1075,9 @@
       "textAlignment": "left",
       "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -1099,7 +1099,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 40,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -1119,9 +1119,9 @@
       "textAlignment": "left",
       "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -1143,7 +1143,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 40,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -1163,9 +1163,9 @@
       "textAlignment": "left",
       "characterSize": 100,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -1187,7 +1187,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 100,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -1712,9 +1712,9 @@
       "textAlignment": "left",
       "characterSize": 60,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -1736,7 +1736,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 60,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -1756,9 +1756,9 @@
       "textAlignment": "left",
       "characterSize": 60,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -1780,7 +1780,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 60,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
