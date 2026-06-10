@@ -499,21 +499,10 @@
         }
       },
       {
-        "file": "assets/Silkscreen-Bold.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "file": "OFF SWITCH.jpg",
+        "file": "assets/Dialoguebox.png",
         "kind": "image",
-        "metadata": "",
-        "name": "OFF SWITCH.jpg",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dialoguebox",
         "smoothed": true,
         "userAdded": false
       },
@@ -624,6 +613,334 @@
         "name": "Level one lights animation.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Fire Spin_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Fire Spin_7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NumberOff.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/NumberOff.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Level one lights animation.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level one lights animation.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Level one lights animation2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Level one lights animation2.png\",\"extension\":\".png\"}",
+        "name": "Level one lights animation2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Level one lights animation3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Level one lights animation3.png\",\"extension\":\".png\"}",
+        "name": "Level one lights animation3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Level one lights animation4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Level one lights animation4.png\",\"extension\":\".png\"}",
+        "name": "Level one lights animation4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Level one lights animation5.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Level one lights animation5.png\",\"extension\":\".png\"}",
+        "name": "Level one lights animation5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Level one lights animation6.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Level one lights animation6.png\",\"extension\":\".png\"}",
+        "name": "Level one lights animation6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Default panel-transparent-center (9).png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Default panel-transparent-center (9).png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Default panel-transparent-center (9).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Transparent Panels/5ecbacfde5c74d544724880d606d772680ae95a375afa42a97ccd18d294458d1_Default panel-transparent-center (9).png",
+          "name": "Default panel-transparent-center (9).png"
+        }
+      },
+      {
+        "file": "assets/off.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "off",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/oneon.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "oneon",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/twoon.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/twoon.png\"}",
+        "name": "twoon",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/threeon.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "threeon",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fouron.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fouron",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Number Key_Eight.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Eight.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/7a553874d2f43616bd77dedc78174c699aa9d09288aa40729118ee62d6d0ee23_Number Key_Eight.png",
+          "name": "Number Key_Eight.png"
+        }
+      },
+      {
+        "file": "assets/Number Key_Five.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Five.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/85b64f0f3643bb1ec077d5e91c25ef5f53daa790cd44e59d1f8b8a85b85b2ac0_Number Key_Five.png",
+          "name": "Number Key_Five.png"
+        }
+      },
+      {
+        "file": "assets/Number Key_Four.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Four.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/795e559df378c0764bbad5469879bfa03b9273e7888ca1a12743a8132b00bdcc_Number Key_Four.png",
+          "name": "Number Key_Four.png"
+        }
+      },
+      {
+        "file": "assets/Number Key_Nine.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Nine.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/99477c9464ccf7a5eecb6fdbbd7b22ee4044c38179ce3ebdef24b021152c66cc_Number Key_Nine.png",
+          "name": "Number Key_Nine.png"
+        }
+      },
+      {
+        "file": "assets/Number Key_One.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_One.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/e4c972d1b688c975a415acfe91129217d87ca9e30d44ffb0d213911a5e67c925_Number Key_One.png",
+          "name": "Number Key_One.png"
+        }
+      },
+      {
+        "file": "assets/Number Key_Seven.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Seven.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/11e4d3efe0856fec5c322c4316ff19f647d549cea00f853010331cc345253f3f_Number Key_Seven.png",
+          "name": "Number Key_Seven.png"
+        }
+      },
+      {
+        "file": "assets/Number Key_Six.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Six.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/3479e4567e23918fcaa769fc5158347abeb4e7e54a565ff5980534cd19c49ca0_Number Key_Six.png",
+          "name": "Number Key_Six.png"
+        }
+      },
+      {
+        "file": "assets/Number Key_Three.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Three.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/379927da3b7c3bff798913ca6a5ff2438c82f588f40104bf4ac1e338113d5ff2_Number Key_Three.png",
+          "name": "Number Key_Three.png"
+        }
+      },
+      {
+        "file": "assets/Number Key_Two.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Two.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/36b4b7c821b677badd94aef2bce0c595187bdd94b918dc21b7cc89e5a1f5907c_Number Key_Two.png",
+          "name": "Number Key_Two.png"
+        }
+      },
+      {
+        "file": "assets/Number Key_Zero.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Zero.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/a63c156a8343c9a95b7218d316089120dda7c51e96dcb43c007fd7da13ab220f_Number Key_Zero.png",
+          "name": "Number Key_Zero.png"
+        }
+      },
+      {
+        "file": "assets/Enter Key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Enter Key.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/6affc681f6be0e8faf9565c9768bb3d719e6ef666372d0eecb0cda0893fa8d64_Enter Key.png",
+          "name": "Enter Key.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_A.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_A.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/fab55e23b1b9048245fe0840530f53b1489018173fc5e96193060879148477f5_Letter Key_A.png",
+          "name": "Letter Key_A.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_B.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_B.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/126bda119546254f0fbdd90e1b8dcd23e3b77eaaf5f16b585e551235e3aa65cf_Letter Key_B.png",
+          "name": "Letter Key_B.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_C.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_C.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/1001be05f9820e378a50faf844e52e4f03cabab41ec7c85d4500c452201eba79_Letter Key_C.png",
+          "name": "Letter Key_C.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_D.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_D.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/524b409877511931e2aeb27a5c0e64c659a6d8116a2994eb2c6cb306f355a61d_Letter Key_D.png",
+          "name": "Letter Key_D.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_E.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_E.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/42bddef28299ae2740f9b7991497f1ea3270d6e41f1c46c492a3b212e92107a3_Letter Key_E.png",
+          "name": "Letter Key_E.png"
+        }
+      },
+      {
+        "file": "assets/Letter Key_F.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_F.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/00aacdd3d32bdfb44a4808435346f528d8b310b79f22acbab440cf4331f33461_Letter Key_F.png",
+          "name": "Letter Key_F.png"
+        }
       }
     ]
   },
@@ -737,6 +1054,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspritecontinuousbar"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autotyping"
     }
   ],
   "externalLayouts": []
