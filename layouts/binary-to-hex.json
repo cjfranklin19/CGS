@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "proto_32binary_32numbers_32rand",
-  "name": "proto binary numbers rand",
+  "mangledName": "binary_32to_32hex",
+  "name": "binary to hex",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,

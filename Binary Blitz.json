@@ -1185,7 +1185,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/proto-binary-numbers-rand"
+      "referenceTo": "/layouts/binary-to-hex"
     }
   ],
   "externalEvents": [],
