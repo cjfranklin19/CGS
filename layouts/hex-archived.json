@@ -103,59 +103,9 @@
       "value": ""
     },
     {
-      "name": "StartNextQuestion",
-      "type": "boolean",
-      "value": true
-    },
-    {
-      "name": "QuestionOpen",
-      "type": "boolean",
-      "value": true
-    },
-    {
-      "name": "QuestionAnswered",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "InputLocked",
-      "type": "boolean",
-      "value": false
-    },
-    {
-      "name": "NumQuestions",
-      "type": "number",
-      "value": 4
-    },
-    {
-      "name": "CorrectCount",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "lightsnums",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "Scores",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "Streak",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "BasePoint",
-      "type": "number",
-      "value": 100
-    },
-    {
-      "name": "penalty",
-      "type": "number",
-      "value": 50
+      "name": "HexLowText",
+      "type": "string",
+      "value": ""
     }
   ],
   "instances": [
@@ -286,7 +236,7 @@
       "name": "TargetPrompt",
       "persistentUuid": "5e057c1e-3b9f-4da1-95ad-6189e04559ac",
       "width": 0,
-      "x": 904,
+      "x": 893,
       "y": 288,
       "zOrder": 15,
       "numberProperties": [],
@@ -318,8 +268,8 @@
       "name": "Timer",
       "persistentUuid": "6b3c0b7a-5921-4245-ad5f-4ed6394eca52",
       "width": 0,
-      "x": 1528,
-      "y": 93,
+      "x": 330,
+      "y": 134,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -435,73 +385,6 @@
       "x": 220,
       "y": 724,
       "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 283,
-      "keepRatio": true,
-      "layer": "",
-      "name": "lights",
-      "persistentUuid": "06db3549-993b-4555-be78-567715e19136",
-      "width": 278,
-      "x": 555,
-      "y": 337,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Score",
-      "persistentUuid": "6f81b967-53b3-485f-ae6b-2c79e3742af1",
-      "width": 0,
-      "x": 103,
-      "y": 80,
-      "zOrder": 25,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 393,
-      "keepRatio": true,
-      "layer": "",
-      "name": "textbox2",
-      "persistentUuid": "e64a7e2d-d707-49d2-981c-056b1ab50ec9",
-      "width": 476,
-      "x": 32,
-      "y": 55,
-      "zOrder": 26,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 384,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Hexstory",
-      "persistentUuid": "29608c6c-ec72-4b5f-9562-e748ab48c843",
-      "width": 450,
-      "x": 42,
-      "y": 57,
-      "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -659,7 +542,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "off",
+          "name": "on",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -668,7 +551,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2_off.png",
+                  "image": "Green switch 2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -707,7 +590,7 @@
           ]
         },
         {
-          "name": "on",
+          "name": "off",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -716,7 +599,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2.png",
+                  "image": "Green switch 2_off.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -779,7 +662,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "off",
+          "name": "on",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -788,7 +671,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2_off.png",
+                  "image": "Green switch 2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -827,7 +710,7 @@
           ]
         },
         {
-          "name": "on",
+          "name": "off",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -836,7 +719,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2.png",
+                  "image": "Green switch 2_off.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -899,7 +782,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "off",
+          "name": "on",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -908,7 +791,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2_off.png",
+                  "image": "Green switch 2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -947,7 +830,7 @@
           ]
         },
         {
-          "name": "on",
+          "name": "off",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -956,7 +839,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2.png",
+                  "image": "Green switch 2_off.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1019,7 +902,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "off",
+          "name": "on",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1028,7 +911,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2_off.png",
+                  "image": "Green switch 2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1067,7 +950,7 @@
           ]
         },
         {
-          "name": "on",
+          "name": "off",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1076,7 +959,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2.png",
+                  "image": "Green switch 2_off.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1294,7 +1177,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "off",
+          "name": "on",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1303,7 +1186,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2_off.png",
+                  "image": "Green switch 2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1342,7 +1225,7 @@
           ]
         },
         {
-          "name": "on",
+          "name": "off",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1351,7 +1234,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2.png",
+                  "image": "Green switch 2_off.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1416,7 +1299,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "off",
+          "name": "on",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1425,7 +1308,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2_off.png",
+                  "image": "Green switch 2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1464,7 +1347,7 @@
           ]
         },
         {
-          "name": "on",
+          "name": "off",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1473,7 +1356,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2.png",
+                  "image": "Green switch 2_off.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1536,7 +1419,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "off",
+          "name": "on",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1545,7 +1428,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2_off.png",
+                  "image": "Green switch 2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1584,7 +1467,7 @@
           ]
         },
         {
-          "name": "on",
+          "name": "off",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1593,7 +1476,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2.png",
+                  "image": "Green switch 2_off.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1656,7 +1539,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "off",
+          "name": "on",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1665,7 +1548,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2_off.png",
+                  "image": "Green switch 2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1704,7 +1587,7 @@
           ]
         },
         {
-          "name": "on",
+          "name": "off",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1713,7 +1596,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2.png",
+                  "image": "Green switch 2_off.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1840,384 +1723,6 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "lights",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "name": "lightsnums",
-          "type": "number",
-          "value": 0
-        }
-      ],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "0",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite8",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 11,
-                        "y": 12
-                      },
-                      {
-                        "x": 57,
-                        "y": 12
-                      },
-                      {
-                        "x": 57,
-                        "y": 54
-                      },
-                      {
-                        "x": 11,
-                        "y": 54
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "1",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "oneon",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 11,
-                        "y": 12
-                      },
-                      {
-                        "x": 57,
-                        "y": 12
-                      },
-                      {
-                        "x": 57,
-                        "y": 54
-                      },
-                      {
-                        "x": 11,
-                        "y": 54
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "2",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "twoon",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 11,
-                        "y": 12
-                      },
-                      {
-                        "x": 57,
-                        "y": 12
-                      },
-                      {
-                        "x": 57,
-                        "y": 54
-                      },
-                      {
-                        "x": 11,
-                        "y": 54
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "3",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "threeon",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 11,
-                        "y": 12
-                      },
-                      {
-                        "x": 57,
-                        "y": 12
-                      },
-                      {
-                        "x": 57,
-                        "y": 54
-                      },
-                      {
-                        "x": 11,
-                        "y": 54
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "4",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "fouron",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 11,
-                        "y": 12
-                      },
-                      {
-                        "x": 57,
-                        "y": 12
-                      },
-                      {
-                        "x": 57,
-                        "y": 54
-                      },
-                      {
-                        "x": 11,
-                        "y": 54
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "Score",
-      "persistentUuid": "ed11b31d-1155-4480-912b-c8b2f5036490",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Score",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 80,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Score",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 80,
-        "lineHeight": 0,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "Hexstory",
-      "persistentUuid": "5cb0aca6-1900-4051-91e1-75cd3803cecb",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "AutoTyping",
-          "type": "AutoTyping::AutoTyping",
-          "Text": "Text",
-          "Interval": 0.05,
-          "CharacterJustAdded": false,
-          "FullText": "",
-          "TypedText": ""
-        }
-      ],
-      "string": "Code the Hacktavist has moved into their second phase Weaponization. They are creating payloads through hexadecimal. its like the previous reconnaissance, but now with letters. your task turn the payloads back to binary. its easier to split the payload into indiviudal four bits then creating binary out of them.",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 30,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Code the Hacktavist has moved into their second phase Weaponization. They are creating payloads through hexadecimal. its like the previous reconnaissance, but now with letters. your task turn the payloads back to binary. its easier to split the payload into indiviudal four bits then creating binary out of them.",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 30,
-        "lineHeight": 0,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "c3d976cf274bd906a1ac1fed05001579da39fc34e381e43032c0f4116b3d3260",
-      "bottomMargin": 16,
-      "height": 48,
-      "leftMargin": 16,
-      "name": "textbox2",
-      "persistentUuid": "cd830b56-d540-4052-963d-9f08f470de74",
-      "rightMargin": 16,
-      "texture": "Default panel-transparent-center (9).png",
-      "tiled": false,
-      "topMargin": 16,
-      "type": "PanelSpriteObject::PanelSprite",
-      "width": 48,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -2225,15 +1730,6 @@
     "children": [
       {
         "objectName": "Submit_Button"
-      },
-      {
-        "objectName": "textbox2"
-      },
-      {
-        "objectName": "Hexstory"
-      },
-      {
-        "objectName": "Score"
       },
       {
         "objectName": "Switch_128"
@@ -2279,13 +1775,80 @@
       },
       {
         "objectName": "Timer"
-      },
-      {
-        "objectName": "lights"
       }
     ]
   },
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Switches",
+            "Status",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Switches",
+            "Animation",
+            "=",
+            "\"on\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Switches",
+            "Status",
+            "=",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Switches",
+            "Animation",
+            "=",
+            "\"off\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "random number event"
+    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -2304,29 +1867,29 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "QuestionAnswered",
+            "HexHigh",
             "=",
-            "0"
+            "RandomInRange(0,9)"
           ]
         },
         {
           "type": {
-            "value": "SetBooleanVariable"
+            "value": "SetNumberVariable"
           },
           "parameters": [
-            "QuestionOpen",
-            "False",
-            ""
+            "HexLow",
+            "=",
+            "RandomInRange(10,15)"
           ]
         },
         {
           "type": {
-            "value": "SetBooleanVariable"
+            "value": "SetNumberVariable"
           },
           "parameters": [
-            "StartNextQuestion",
-            "True",
-            ""
+            "TargetNumber",
+            "=",
+            "HexHigh * 16+HexLow"
           ]
         },
         {
@@ -2341,59 +1904,485 @@
         },
         {
           "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "Scores",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "CorrectCount",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "lights",
-            "Animation",
-            "=",
-            "\"0\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "textbox2",
-            "\"HideTimer\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "Hexstory",
-            "\"HideTimer\""
-          ]
-        },
-        {
-          "type": {
             "value": "Hide"
           },
           "parameters": [
-            "TargetPrompt"
+            "finishButton"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "hexhigh 0-15"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "HexHigh",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "HexHighText",
+                "=",
+                "\"0\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "HexHigh",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "HexHighText",
+                "=",
+                "\"1\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "HexHigh",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "HexHighText",
+                "=",
+                "\"2\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "HexHigh",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "HexHighText",
+                "=",
+                "\"3\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "HexHigh",
+                "=",
+                "4"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "HexHighText",
+                "=",
+                "\"4\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "HexHigh",
+                "=",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "HexHighText",
+                "=",
+                "\"5\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "HexHigh",
+                "=",
+                "6"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "HexHighText",
+                "=",
+                "\"6\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "HexHigh",
+                "=",
+                "7"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "HexHighText",
+                "=",
+                "\"7\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "HexHigh",
+                "=",
+                "8"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "HexHighText",
+                "=",
+                "\"8\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "HexHigh",
+                "=",
+                "9"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "HexHighText",
+                "=",
+                "\"9\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "hex low 0-15"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "HexLow",
+                "=",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "HexLowText",
+                "=",
+                "\"A\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "HexLow",
+                "=",
+                "11"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "HexLowText",
+                "=",
+                "\"B\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "HexLow",
+                "=",
+                "12"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "HexLowText",
+                "=",
+                "\"C\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "HexLow",
+                "=",
+                "13"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "HexLowText",
+                "=",
+                "\"D\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "HexLow",
+                "=",
+                "14"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "HexLowText",
+                "=",
+                "\"E\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "HexLow",
+                "=",
+                "15"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "HexLowText",
+                "=",
+                "\"F\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TargetPrompt",
+                "Text",
+                "=",
+                "\"Convert: \" +HexHighText+HexLowText+\" binary\""
+              ]
+            }
           ]
         }
       ]
@@ -2402,125 +2391,6 @@
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CompareObjectTimer"
-          },
-          "parameters": [
-            "Hexstory",
-            "\"HideTimer\"",
-            ">",
-            "20"
-          ]
-        },
-        {
-          "type": {
-            "value": "CompareObjectTimer"
-          },
-          "parameters": [
-            "textbox2",
-            "\"HideTimer\"",
-            ">",
-            "20"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Hide"
-          },
-          "parameters": [
-            "Hexstory"
-          ]
-        },
-        {
-          "type": {
-            "value": "Hide"
-          },
-          "parameters": [
-            "textbox2"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"showtimer\"",
-            ">=",
-            "21"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"CountingDown\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Show"
-          },
-          "parameters": [
-            "TargetPrompt",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Show"
-          },
-          "parameters": [
-            "Timer",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "Timer",
-            "Text",
-            "=",
-            "ToString(round(51 - TimerElapsedTime(\"CountingDown\")))"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "random number event needs to be reworked "
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2558,265 +2428,53 @@
             ""
           ]
         }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonFromTextReleased"
-          },
-          "parameters": [
-            "Switches",
-            "\"Left\""
-          ]
-        },
-        {
-          "type": {
-            "value": "IsCursorOnObject"
-          },
-          "parameters": [
-            "Switches",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BooleanObjectVariable"
-          },
-          "parameters": [
-            "Switches",
-            "Status",
-            "False",
-            ""
-          ]
-        }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "Switches",
-            "Animation",
-            "=",
-            "\"off\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "BinaryTot",
-            "-",
-            "Switches.Variable(BitVal)"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonFromTextReleased"
-          },
-          "parameters": [
-            "Switches",
-            "\"Left\""
-          ]
-        },
-        {
-          "type": {
-            "value": "IsCursorOnObject"
-          },
-          "parameters": [
-            "Switches",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BooleanObjectVariable"
-          },
-          "parameters": [
-            "Switches",
-            "Status",
-            "True",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "Switches",
-            "Animation",
-            "=",
-            "\"on\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "BinaryTot",
-            "+",
-            "Switches.Variable(BitVal)"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "questionloop"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BooleanVariable"
-          },
-          "parameters": [
-            "StartNextQuestion",
-            "True",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "QuestionAnswered",
-            "<",
-            "NumQuestions"
-          ]
-        }
-      ],
-      "actions": [],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "BooleanVariable"
+                "value": "MouseButtonFromTextReleased"
               },
               "parameters": [
-                "InputLocked",
-                "=",
+                "Switches",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Switches",
+                "",
+                "",
                 ""
               ]
             },
             {
               "type": {
-                "value": "NumberVariable"
+                "value": "BooleanObjectVariable"
               },
               "parameters": [
-                "QuestionAnswered",
-                "<",
-                "NumQuestions"
+                "Switches",
+                "Status",
+                "True",
+                ""
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"showtimer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "Timer"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "StartNextQuestion",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "QuestionOpen",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
                 "Switches",
-                "Status",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "HexHigh",
+                "Animation",
                 "=",
-                "RandomInRange(0,9)"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "HexLow",
-                "=",
-                "RandomInRange(10,15)"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "TargetNumber",
-                "=",
-                "HexHigh * 16+HexLow"
+                "\"on\""
               ]
             },
             {
@@ -2825,507 +2483,77 @@
               },
               "parameters": [
                 "BinaryTot",
-                "=",
-                "0"
+                "+",
+                "Switches.Variable(BitVal)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "Switches",
+                "\"Left\""
               ]
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "IsCursorOnObject"
               },
               "parameters": [
-                "finishButton"
+                "Switches",
+                "",
+                "",
+                ""
               ]
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "BooleanObjectVariable"
               },
               "parameters": [
-                "Score",
-                "Text",
-                "=",
-                "ToString(Scores)"
+                "Switches",
+                "Status",
+                "False",
+                ""
               ]
             }
           ],
-          "events": [
+          "actions": [
             {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
-              "comment": "hexhigh 0-15"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "HexHigh",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "HexHighText",
-                    "=",
-                    "\"0\""
-                  ]
-                }
+              "parameters": [
+                "Switches",
+                "Animation",
+                "=",
+                "\"off\""
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "HexHigh",
-                    "=",
-                    "1"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "HexHighText",
-                    "=",
-                    "\"1\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "HexHigh",
-                    "=",
-                    "2"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "HexHighText",
-                    "=",
-                    "\"2\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "HexHigh",
-                    "=",
-                    "3"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "HexHighText",
-                    "=",
-                    "\"3\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "HexHigh",
-                    "=",
-                    "4"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "HexHighText",
-                    "=",
-                    "\"4\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "HexHigh",
-                    "=",
-                    "5"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "HexHighText",
-                    "=",
-                    "\"5\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "HexHigh",
-                    "=",
-                    "6"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "HexHighText",
-                    "=",
-                    "\"6\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "HexHigh",
-                    "=",
-                    "7"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "HexHighText",
-                    "=",
-                    "\"7\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "HexHigh",
-                    "=",
-                    "8"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "HexHighText",
-                    "=",
-                    "\"8\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "HexHigh",
-                    "=",
-                    "9"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "HexHighText",
-                    "=",
-                    "\"9\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
+              "type": {
+                "value": "SetNumberVariable"
               },
-              "comment": "hex low 0-15"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "HexLow",
-                    "=",
-                    "10"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "HexLowText",
-                    "=",
-                    "\"A\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "HexLow",
-                    "=",
-                    "11"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "HexLowText",
-                    "=",
-                    "\"B\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "HexLow",
-                    "=",
-                    "12"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "HexLowText",
-                    "=",
-                    "\"C\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "HexLow",
-                    "=",
-                    "13"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "HexLowText",
-                    "=",
-                    "\"D\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "HexLow",
-                    "=",
-                    "14"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "HexLowText",
-                    "=",
-                    "\"E\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "HexLow",
-                    "=",
-                    "15"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "HexLowText",
-                    "=",
-                    "\"F\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "TargetPrompt",
-                    "Text",
-                    "=",
-                    "\"Convert: \" +HexHighText+HexLowText+\" binary\""
-                  ]
-                }
+              "parameters": [
+                "BinaryTot",
+                "-",
+                "Switches.Variable(BitVal)"
               ]
             }
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -3337,7 +2565,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "Submission buttoon/animation for background "
+      "comment": "Submission buttoon"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -3392,16 +2620,6 @@
             },
             {
               "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "Scores",
-                "+",
-                "BasePoint"
-              ]
-            },
-            {
-              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
@@ -3410,78 +2628,6 @@
                 "=",
                 "VariableString(ResultText)"
               ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "QuestionAnswered",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "Switches",
-                "Status",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "CorrectCount",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "lights",
-                "Animation",
-                "=",
-                "CorrectCount"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Score",
-                "Text",
-                "=",
-                "ToString(Scores)"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCenterX"
-              },
-              "parameters": [
-                "Feedback",
-                "=",
-                "SceneWindowWidth()/2"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"CountingDown\""
-              ]
             }
           ],
           "events": [
@@ -3489,125 +2635,6 @@
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Switches",
-                    "Animation",
-                    "=",
-                    "\"on\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "QuestionAnswered",
-                    "<",
-                    "NumQuestions"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "StartNextQuestion",
-                    "True",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Switches",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Switches",
-                    "Animation",
-                    "=",
-                    "\"off\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Switches",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetBooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Switches",
-                    "Status",
-                    "False",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "QuestionAnswered",
-                    "=",
-                    "NumQuestions"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Score",
-                    "Text",
-                    "=",
-                    "ToString(Scores)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Show"
-                  },
-                  "parameters": [
-                    "finishButton",
-                    ""
-                  ]
-                },
                 {
                   "type": {
                     "value": "PauseTimer"
@@ -3622,21 +2649,19 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
-              "actions": []
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "finishButton",
+                    ""
+                  ]
+                }
+              ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -3665,16 +2690,6 @@
             },
             {
               "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "Scores",
-                "-",
-                "penalty"
-              ]
-            },
-            {
-              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
@@ -3693,67 +2708,13 @@
                 "=",
                 "0"
               ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "CorrectCount",
-                "-",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "lights",
-                "Animation",
-                "=",
-                "CorrectCount"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Score",
-                "Text",
-                "=",
-                "ToString(Scores)"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCenterX"
-              },
-              "parameters": [
-                "Feedback",
-                "=",
-                "SceneWindowWidth()/2"
-              ]
             }
           ],
           "events": [
             {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Switches",
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Switches",
-                    "Animation",
-                    "=",
-                    "\"off\""
-                  ]
-                },
                 {
                   "type": {
                     "value": "Hide"
@@ -3778,6 +2739,39 @@
                     "Status",
                     "False",
                     ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "UnPauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"CountingDown\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Switches",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Switches",
+                    "Animation",
+                    "=",
+                    "\"off\""
                   ]
                 }
               ]
@@ -3854,6 +2848,50 @@
       "comment": "count down event"
     },
     {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "Timeleft",
+            "\"CountingDown\""
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Timer",
+            "Text",
+            "=",
+            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-30)))"
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -3864,7 +2902,7 @@
             "",
             "\"CountingDown\"",
             ">=",
-            "51"
+            "15"
           ]
         }
       ],
@@ -3876,6 +2914,17 @@
           "parameters": [
             "",
             "\"CountingDown\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Timer",
+            "Text",
+            "=",
+            "\"Timer complete!\""
           ]
         },
         {
@@ -4016,10 +3065,6 @@
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
-    },
-    {
-      "name": "AutoTyping",
-      "type": "AutoTyping::AutoTyping"
     },
     {
       "name": "Effect",
