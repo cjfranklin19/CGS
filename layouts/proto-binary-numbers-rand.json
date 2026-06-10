@@ -4603,16 +4603,36 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Repeat",
-          "repeatExpression": "Variable(BitCount)",
-          "conditions": [],
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Number_Key0",
+                "\"Left\"",
+                "",
+                ""
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
                 "value": "SetStringVariable"
               },
               "parameters": [
-                "BinaryString",
+                "PlayerAnswer",
                 "=",
                 "PlayerAnswer + ToString(Number_Key0.buttonDigit0)"
               ]

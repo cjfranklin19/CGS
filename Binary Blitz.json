@@ -1068,6 +1068,18 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/6affc681f6be0e8faf9565c9768bb3d719e6ef666372d0eecb0cda0893fa8d64_Enter Key.png",
           "name": "Enter Key.png"
         }
+      },
+      {
+        "file": "assets/Default-panel (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (1).png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/fda47cff3afe1a4d1ce358eeb44f1955949deffa84cb08cf95464df349160741_Default-panel (1).png",
+          "name": "Default-panel (1).png"
+        }
       }
     ]
   },
@@ -1145,15 +1157,15 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/hex-archived"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/twocomp"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/game-over-screen"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/hex-archived"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -1181,6 +1193,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspritecontinuousbar"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autotyping"
     }
   ],
   "externalLayouts": []
