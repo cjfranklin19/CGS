@@ -1092,6 +1092,18 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/0ffd7f3540e9120149ad819f7400e4775834ae732bb9614084b80bc9b295cd07_Backspace Alt Key.png",
           "name": "Backspace Alt Key.png"
         }
+      },
+      {
+        "file": "assets/Default-panel (11).png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Default-panel (11).png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Default-panel (11).png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/1fbfda638f6a3c73c441706a80b44c9cbd06ae90428f042994c58cb5618ecc29_Default-panel (11).png",
+          "name": "Default-panel (11).png"
+        }
       }
     ]
   },
@@ -1139,7 +1151,7 @@
           "value": false
         },
         {
-          "name": "overflow",
+          "name": "octal",
           "type": "boolean",
           "value": false
         }

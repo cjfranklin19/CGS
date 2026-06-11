@@ -447,6 +447,23 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 394,
+      "keepRatio": true,
+      "layer": "",
+      "name": "textbox",
+      "persistentUuid": "0b6f7899-fdb3-45a7-9f4a-a06d3a3e6f79",
+      "width": 715,
+      "x": -2,
+      "y": -7,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [

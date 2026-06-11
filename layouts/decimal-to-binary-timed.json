@@ -350,6 +350,40 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 379,
+      "keepRatio": true,
+      "layer": "",
+      "name": "textbox",
+      "persistentUuid": "30a8a052-46d9-4878-a1c5-f7a7b42467d1",
+      "width": 1759,
+      "x": 102,
+      "y": 57,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 211,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Timer_story",
+      "persistentUuid": "0afa9e5f-0f3f-48af-8f02-734f3161e39e",
+      "width": 1598,
+      "x": 202,
+      "y": 161,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1342,6 +1376,77 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "bfabac7f4701989359b7d48490f61e5acae297f240f3d607cc8300be39e0c68a",
+      "bottomMargin": 12,
+      "height": 48,
+      "leftMargin": 12,
+      "name": "textbox",
+      "persistentUuid": "1189689e-e3e7-4f39-af26-9571ee1791e0",
+      "rightMargin": 12,
+      "texture": "Default-panel (1).png",
+      "tiled": false,
+      "topMargin": 12,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 48,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Timer_story",
+      "persistentUuid": "1528ee14-9d24-4dcc-b0a7-b2dc16e975ed",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        }
+      ],
+      "string": "Coder the Power Blight group have noticed you fixing the lights around the city. They have now turned on a timer for certain levels. make sure to comeplete the level before time runs out",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 45,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Coder the Power Blight group have noticed you fixing the lights around the city. They have now turned on a timer for certain levels. make sure to comeplete the level before time runs out",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 45,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1394,6 +1499,12 @@
       },
       {
         "objectName": "Label_8"
+      },
+      {
+        "objectName": "textbox"
+      },
+      {
+        "objectName": "Timer_story"
       }
     ]
   },
@@ -1476,7 +1587,23 @@
             "value": "Hide"
           },
           "parameters": [
+            "TargetPrompt"
+          ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
             "finishButton"
+          ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "TimerText"
           ]
         },
         {
@@ -1486,6 +1613,94 @@
           "parameters": [
             "StartNextQuestion",
             "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"showTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"HideTimer\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"HideTimer\"",
+            ">=",
+            "15"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "textbox"
+          ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "Timer_story"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"showTimer\"",
+            ">=",
+            "16"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Show"
+          },
+          "parameters": [
+            "TimerText",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Show"
+          },
+          "parameters": [
+            "TargetPrompt",
             ""
           ]
         }
@@ -2172,45 +2387,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"CountingDown\"",
-                ">=",
-                "30"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "TimerText",
-                "Text",
-                "=",
-                "\"0\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Game Over Screen\"",
-                ""
-              ]
-            }
-          ]
         }
       ]
     },
@@ -2288,6 +2464,38 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "16"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "Timeleft",
+            "\"CountingDown\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
         {
@@ -2298,7 +2506,46 @@
             "TimerText",
             "Text",
             "=",
-            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-25)))"
+            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-30)))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"CountingDown\"",
+            ">=",
+            "30"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "TimerText",
+            "Text",
+            "=",
+            "\"0\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Game Over Screen\"",
+            ""
           ]
         }
       ]
@@ -2429,6 +2676,10 @@
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "AutoTyping",
+      "type": "AutoTyping::AutoTyping"
     },
     {
       "name": "Effect",

@@ -329,6 +329,40 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 379,
+      "keepRatio": true,
+      "layer": "",
+      "name": "text_panel",
+      "persistentUuid": "5bc8d490-6849-498c-9a45-55c942ba784a",
+      "width": 1850,
+      "x": 28,
+      "y": 22,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 351,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Backstory",
+      "persistentUuid": "0adb8dfd-58bc-4aa3-ad72-7288d8aceb85",
+      "width": 1831,
+      "x": 36,
+      "y": 92,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -349,9 +383,9 @@
       "textAlignment": "left",
       "characterSize": 100,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -373,7 +407,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 100,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -1001,9 +1035,9 @@
       "textAlignment": "left",
       "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -1025,7 +1059,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 40,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -1045,9 +1079,9 @@
       "textAlignment": "left",
       "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -1069,7 +1103,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 40,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -1277,6 +1311,76 @@
         "align": "left",
         "verticalTextAlignment": "top"
       }
+    },
+    {
+      "assetStoreId": "8a139a3797b428491aa47ac5e801ff29880d4d690e32df22e6e362c1dd1f63aa",
+      "bottomMargin": 16,
+      "height": 48,
+      "leftMargin": 16,
+      "name": "text_panel",
+      "persistentUuid": "44e2b2c6-1a5a-4a39-87c3-a197bd694ec9",
+      "rightMargin": 16,
+      "texture": "Default-panel (11).png",
+      "tiled": false,
+      "topMargin": 16,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 48,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Backstory",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        }
+      ],
+      "string": "Hello coder, you're tasked with gaining reconnaissance on the villian group called the Power Blights. They have been going city to city and messing up codes in the power plants. You will gain the skills need to make correct conversions and bring the cities power back online. we will be intouch if you come across anything new. goodluck coder, we believe in you ",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 45,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Hello coder, you're tasked with gaining reconnaissance on the villian group called the Power Blights. They have been going city to city and messing up codes in the power plants. You will gain the skills need to make correct conversions and bring the cities power back online. we will be intouch if you come across anything new. goodluck coder, we believe in you ",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 45,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1326,6 +1430,12 @@
       },
       {
         "objectName": "Label_8"
+      },
+      {
+        "objectName": "text_panel"
+      },
+      {
+        "objectName": "Backstory"
       }
     ]
   },
@@ -1420,6 +1530,32 @@
             "True",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"HideTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"showTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "TargetPrompt"
+          ]
         }
       ]
     },
@@ -1434,6 +1570,67 @@
         "textR": 0
       },
       "comment": "switches"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"HideTimer\"",
+            ">=",
+            "25"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "text_panel"
+          ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "Backstory"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"showTimer\"",
+            ">=",
+            "25.5"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Show"
+          },
+          "parameters": [
+            "TargetPrompt",
+            ""
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2296,6 +2493,10 @@
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "AutoTyping",
+      "type": "AutoTyping::AutoTyping"
     },
     {
       "name": "Effect",
