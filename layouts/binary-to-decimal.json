@@ -4665,6 +4665,43 @@
             "value": "IsCursorOnObject"
           },
           "parameters": [
+            "Backspace_Alt_Key",
+            "\"Left\"",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "PlayerAnswer",
+            "=",
+            "SubStr(PlayerAnswer,0,StrLength(PlayerAnswer)-1)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
             "submitbutton",
             "",
             "",

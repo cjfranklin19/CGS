@@ -620,7 +620,7 @@
       {
         "file": "Level one lights animation.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Level one lights animation.png\",\"extension\":\".png\"}",
         "name": "Level one lights animation.png",
         "smoothed": true,
         "userAdded": false
@@ -1072,6 +1072,30 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/1fbfda638f6a3c73c441706a80b44c9cbd06ae90428f042994c58cb5618ecc29_Default-panel (11).png",
           "name": "Default-panel (11).png"
         }
+      },
+      {
+        "file": "assets/3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "1",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
