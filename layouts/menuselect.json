@@ -374,7 +374,7 @@
               },
               "parameters": [
                 "",
-                "\"Tutorialtrue\"",
+                "\"decimal to binary\"",
                 ""
               ]
             }
@@ -412,7 +412,7 @@
               },
               "parameters": [
                 "",
-                "\"Hex (Archived)\"",
+                "\"Hex (Archived, timed)\"",
                 ""
               ]
             }
