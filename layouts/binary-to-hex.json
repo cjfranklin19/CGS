@@ -141,6 +141,22 @@
   "instances": [
     {
       "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BinaryDisplay",
+      "persistentUuid": "52e7262e-ad51-40d5-8ba5-f56f47da8a42",
+      "width": 0,
+      "x": 848,
+      "y": 263,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 1416,
@@ -238,12 +254,23 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "logic for a double hex number"
+      "comment": "logic for titles"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "SetCenterX"
+          },
+          "parameters": [
+            "BinaryDisplay",
+            "=",
+            "SceneWindowWidth()/2"
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -286,6 +313,14 @@
             "QuestionsAnswered",
             "=",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "Feedback"
           ]
         }
       ],
@@ -372,15 +407,6 @@
               "parameters": [
                 "QuestionOpen",
                 "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "Feedback",
                 ""
               ]
             },
@@ -511,7 +537,7 @@
               "parameters": [
                 "BinaryString",
                 "=",
-                "ToString(Bit7)+\" \"+ToString(Bit6)+\" \"+ToString(Bit5)+\" \"+ToString(Bit4)+\"    \"+ToString(Bit3)+\" \"+ToString(Bit2)+\" \"+ToString(Bit1)+\" \"+ToString(Bit0)"
+                "\"Convert: \"+ToString(Bit7)+\" \"+ToString(Bit6)+\" \"+ToString(Bit5)+\" \"+ToString(Bit4)+\"    \"+ToString(Bit3)+\" \"+ToString(Bit2)+\" \"+ToString(Bit1)+\" \"+ToString(Bit0)+\" to hex\""
               ]
             },
             {
@@ -523,6 +549,14 @@
                 "Text",
                 "=",
                 "BinaryString"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Feedback"
               ]
             }
           ]

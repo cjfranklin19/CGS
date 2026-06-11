@@ -426,7 +426,7 @@
                 "value": "IsCursorOnObject"
               },
               "parameters": [
-                "Twoscompbutton",
+                "OctalButton",
                 "",
                 "",
                 ""
@@ -475,7 +475,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "Levels.Twocomp",
+                "Levels.octal",
                 "True",
                 ""
               ]
