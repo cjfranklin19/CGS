@@ -1157,11 +1157,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/tutorialtrue"
+      "referenceTo": "/layouts/decimal-to-binary"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/tutoriallevel2"
+      "referenceTo": "/layouts/decimal-to-binary-timed"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -1169,7 +1169,15 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/hex-archived"
+      "referenceTo": "/layouts/hex-no-timer"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/hex-archived-timed"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/binary-to-hex"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -1182,10 +1190,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/score-overflow"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/binary-to-hex"
     }
   ],
   "externalEvents": [],

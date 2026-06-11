@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Hex_32_40Archived_41",
-  "name": "Hex (Archived)",
+  "mangledName": "Hex_32_40Archived_44_32timed_41",
+  "name": "Hex (Archived, timed)",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -3314,7 +3314,7 @@
               },
               "parameters": [
                 "",
-                "\"MenuSelect\"",
+                "\"binary to hex\"",
                 ""
               ]
             },
