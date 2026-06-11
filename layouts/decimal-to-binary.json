@@ -94,26 +94,19 @@
       "name": "LevelQuestions",
       "type": "number",
       "value": 3
+    },
+    {
+      "name": "LightsCount",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "goback",
+      "type": "number",
+      "value": -1
     }
   ],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1108,
-      "keepRatio": true,
-      "layer": "background",
-      "name": "Forest_Background_2",
-      "persistentUuid": "277c9e19-2be4-4c6c-b7e5-1e74848e1b9a",
-      "width": 2415,
-      "x": -171,
-      "y": 2,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": false,
@@ -360,6 +353,23 @@
       "x": 36,
       "y": 92,
       "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1031,
+      "keepRatio": true,
+      "layer": "background",
+      "name": "houseAnimation",
+      "persistentUuid": "dd11dfc5-e056-4d2a-9a2a-0a0c66075d0b",
+      "width": 2409,
+      "x": -274,
+      "y": -211,
+      "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1381,6 +1391,214 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "houseAnimation",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "0",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Level one lights animation.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 221,
+                        "y": 173
+                      },
+                      {
+                        "x": 1751,
+                        "y": 173
+                      },
+                      {
+                        "x": 1751,
+                        "y": 943
+                      },
+                      {
+                        "x": 221,
+                        "y": 943
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "1",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 221,
+                        "y": 173
+                      },
+                      {
+                        "x": 1751,
+                        "y": 173
+                      },
+                      {
+                        "x": 1751,
+                        "y": 943
+                      },
+                      {
+                        "x": 221,
+                        "y": 943
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 221,
+                        "y": 173
+                      },
+                      {
+                        "x": 1751,
+                        "y": 173
+                      },
+                      {
+                        "x": 1751,
+                        "y": 943
+                      },
+                      {
+                        "x": 221,
+                        "y": 943
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 221,
+                        "y": 173
+                      },
+                      {
+                        "x": 1751,
+                        "y": 173
+                      },
+                      {
+                        "x": 1751,
+                        "y": 943
+                      },
+                      {
+                        "x": 221,
+                        "y": 943
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1436,6 +1654,9 @@
       },
       {
         "objectName": "Backstory"
+      },
+      {
+        "objectName": "houseAnimation"
       }
     ]
   },
@@ -1555,6 +1776,27 @@
           },
           "parameters": [
             "TargetPrompt"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "LightsCount",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "houseAnimation",
+            "Animation",
+            "=",
+            "\"off\""
           ]
         }
       ]
@@ -2021,6 +2263,27 @@
                 "False",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "LightsCount",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "houseAnimation",
+                "Animation",
+                "=",
+                "LightsCount"
+              ]
             }
           ],
           "events": [
@@ -2212,6 +2475,27 @@
                 "=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "LightsCount",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "houseAnimation",
+                "Animation",
+                "=",
+                "LightsCount"
+              ]
             }
           ],
           "events": [
@@ -2380,7 +2664,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "background",
       "renderingType": "",
       "visibility": true,

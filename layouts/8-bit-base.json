@@ -340,13 +340,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 329,
+      "height": 150,
       "keepRatio": true,
       "layer": "",
       "name": "TargetPrompt",
       "persistentUuid": "6399c03b-cf6d-44af-8960-63c15734d0aa",
-      "width": 555,
-      "x": 674,
+      "width": 686,
+      "x": 609,
       "y": 302,
       "zOrder": 10,
       "numberProperties": [],
@@ -1626,7 +1626,7 @@
       "string": "Prompt",
       "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
       "textAlignment": "center",
-      "characterSize": 40,
+      "characterSize": 35,
       "color": {
         "b": 0,
         "g": 0,
@@ -1650,7 +1650,7 @@
         "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
-        "characterSize": 40,
+        "characterSize": 35,
         "lineHeight": 0,
         "color": "0;0;0"
       }
@@ -2453,7 +2453,7 @@
                 "TargetPrompt",
                 "Text",
                 "=",
-                "\"Convert\" + ToString(TargetNum)+ \" to Binary\""
+                "\"Convert: \" + ToString(TargetNum)+ \" to Binary\""
               ]
             },
             {
