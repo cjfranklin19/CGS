@@ -528,7 +528,7 @@
       {
         "file": "assets/PLAY BUTATON.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/PLAY BUTATON.png\",\"extension\":\".png\"}",
         "name": "assets/PLAY BUTATON.png",
         "smoothed": false,
         "userAdded": false
@@ -624,6 +624,78 @@
         "name": "Level one lights animation.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Off_Switch.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "Off_Switch.webp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "On_switch.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "On_switch.webp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Off_Switch2.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "Off_Switch2.webp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "On_switch2.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "On_switch2.webp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Off_Switch3.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "Off_Switch3.webp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "On_switch3.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "On_switch3.webp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Off_Switch.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Off_Switch.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Off_Switch (1).webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "Off_Switch (1).webp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Binary Blitz.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Binary Blitz.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -639,6 +711,67 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite3",
+      "persistentUuid": "8c2da2ee-f763-4f93-8ec2-5019c438012c",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Binary Blitz.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 21,
+                        "y": 18
+                      },
+                      {
+                        "x": 1905,
+                        "y": 18
+                      },
+                      {
+                        "x": 1905,
+                        "y": 1059
+                      },
+                      {
+                        "x": 21,
+                        "y": 1059
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -646,6 +779,9 @@
     "children": [
       {
         "objectName": "Forest_Background_2"
+      },
+      {
+        "objectName": "NewSprite3"
       }
     ]
   },
@@ -718,6 +854,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/proto-binary-numbers-rand"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/testui"
     }
   ],
   "externalEvents": [],
