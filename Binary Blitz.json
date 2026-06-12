@@ -805,13 +805,28 @@
           "name": "Twocomp",
           "type": "boolean",
           "value": false
-        },
-        {
-          "name": "overflow",
-          "type": "boolean",
-          "value": false
         }
       ]
+    },
+    {
+      "name": "finalScore",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "finalHighestStreak",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "finalCorrectAnswers",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "finalIncorrectAnswers",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -834,6 +849,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/8-bit-base"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/post-question-results"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
