@@ -571,7 +571,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2.png",
+                  "image": "Off_Switch2.webp",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -591,16 +591,16 @@
                         "y": 0
                       },
                       {
-                        "x": 26,
+                        "x": 457,
                         "y": 0
                       },
                       {
-                        "x": 26,
-                        "y": 40
+                        "x": 457,
+                        "y": 812
                       },
                       {
                         "x": 0,
-                        "y": 40
+                        "y": 812
                       }
                     ]
                   ]
@@ -620,7 +620,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2_off.png",
+                  "image": "On_switch2.webp",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -640,16 +640,16 @@
                         "y": 0
                       },
                       {
-                        "x": 26,
+                        "x": 457,
                         "y": 0
                       },
                       {
-                        "x": 26,
-                        "y": 40
+                        "x": 457,
+                        "y": 812
                       },
                       {
                         "x": 0,
-                        "y": 40
+                        "y": 812
                       }
                     ]
                   ]
@@ -692,7 +692,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2.png",
+                  "image": "Off_Switch3.webp",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -712,16 +712,16 @@
                         "y": 0
                       },
                       {
-                        "x": 26,
+                        "x": 457,
                         "y": 0
                       },
                       {
-                        "x": 26,
-                        "y": 40
+                        "x": 457,
+                        "y": 812
                       },
                       {
                         "x": 0,
-                        "y": 40
+                        "y": 812
                       }
                     ]
                   ]
@@ -740,7 +740,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2_off.png",
+                  "image": "On_switch3.webp",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -760,16 +760,16 @@
                         "y": 0
                       },
                       {
-                        "x": 26,
+                        "x": 457,
                         "y": 0
                       },
                       {
-                        "x": 26,
-                        "y": 40
+                        "x": 457,
+                        "y": 812
                       },
                       {
                         "x": 0,
-                        "y": 40
+                        "y": 812
                       }
                     ]
                   ]
@@ -1413,7 +1413,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "off",
+                  "image": "Off_Switch.webp",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1433,16 +1433,16 @@
                         "y": 0
                       },
                       {
-                        "x": 26,
+                        "x": 457,
                         "y": 0
                       },
                       {
-                        "x": 26,
-                        "y": 40
+                        "x": 457,
+                        "y": 812
                       },
                       {
                         "x": 0,
-                        "y": 40
+                        "y": 812
                       }
                     ]
                   ]
@@ -1462,7 +1462,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "on",
+                  "image": "On_switch.webp",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1482,16 +1482,16 @@
                         "y": 0
                       },
                       {
-                        "x": 26,
+                        "x": 457,
                         "y": 0
                       },
                       {
-                        "x": 26,
-                        "y": 40
+                        "x": 457,
+                        "y": 812
                       },
                       {
                         "x": 0,
-                        "y": 40
+                        "y": 812
                       }
                     ]
                   ]
