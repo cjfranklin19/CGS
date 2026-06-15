@@ -620,7 +620,7 @@
       {
         "file": "Level one lights animation.png",
         "kind": "image",
-        "metadata": "{\"localFilePath\":\"Level one lights animation.png\",\"extension\":\".png\"}",
+        "metadata": "",
         "name": "Level one lights animation.png",
         "smoothed": true,
         "userAdded": false
@@ -695,6 +695,110 @@
         "metadata": "",
         "name": "Binary Blitz.png",
         "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Number Key_Eight2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Eight.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/7a553874d2f43616bd77dedc78174c699aa9d09288aa40729118ee62d6d0ee23_Number Key_Eight.png",
+          "name": "Number Key_Eight.png"
+        }
+      },
+      {
+        "file": "assets/Number Key_Five2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Five.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/85b64f0f3643bb1ec077d5e91c25ef5f53daa790cd44e59d1f8b8a85b85b2ac0_Number Key_Five.png",
+          "name": "Number Key_Five.png"
+        }
+      },
+      {
+        "file": "assets/Number Key_Four2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Four.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/795e559df378c0764bbad5469879bfa03b9273e7888ca1a12743a8132b00bdcc_Number Key_Four.png",
+          "name": "Number Key_Four.png"
+        }
+      },
+      {
+        "file": "assets/Number Key_Nine2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Nine.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/99477c9464ccf7a5eecb6fdbbd7b22ee4044c38179ce3ebdef24b021152c66cc_Number Key_Nine.png",
+          "name": "Number Key_Nine.png"
+        }
+      },
+      {
+        "file": "assets/Number Key_One2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_One.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/e4c972d1b688c975a415acfe91129217d87ca9e30d44ffb0d213911a5e67c925_Number Key_One.png",
+          "name": "Number Key_One.png"
+        }
+      },
+      {
+        "file": "assets/Number Key_Seven2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Seven.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/11e4d3efe0856fec5c322c4316ff19f647d549cea00f853010331cc345253f3f_Number Key_Seven.png",
+          "name": "Number Key_Seven.png"
+        }
+      },
+      {
+        "file": "assets/Number Key_Six2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Six.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/3479e4567e23918fcaa769fc5158347abeb4e7e54a565ff5980534cd19c49ca0_Number Key_Six.png",
+          "name": "Number Key_Six.png"
+        }
+      },
+      {
+        "file": "assets/Number Key_Three2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Three.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/379927da3b7c3bff798913ca6a5ff2438c82f588f40104bf4ac1e338113d5ff2_Number Key_Three.png",
+          "name": "Number Key_Three.png"
+        }
+      },
+      {
+        "file": "assets/Number Key_Two2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Two.png",
+        "smoothed": true,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/36b4b7c821b677badd94aef2bce0c595187bdd94b918dc21b7cc89e5a1f5907c_Number Key_Two.png",
@@ -702,7 +806,7 @@
         }
       },
       {
-        "file": "assets/Number Key_Zero.png",
+        "file": "assets/Number Key_Zero2.png",
         "kind": "image",
         "metadata": "",
         "name": "Number Key_Zero.png",
@@ -714,7 +818,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_A.png",
+        "file": "assets/Letter Key_A2.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_A.png",
@@ -726,7 +830,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_B.png",
+        "file": "assets/Letter Key_B2.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_B.png",
@@ -738,7 +842,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_C.png",
+        "file": "assets/Letter Key_C2.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_C.png",
@@ -750,7 +854,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_D.png",
+        "file": "assets/Letter Key_D2.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_D.png",
@@ -762,7 +866,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_E.png",
+        "file": "assets/Letter Key_E2.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_E.png",
@@ -774,7 +878,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_F.png",
+        "file": "assets/Letter Key_F2.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_F.png",
@@ -786,7 +890,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_G.png",
+        "file": "assets/Letter Key_G2.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_G.png",
@@ -798,7 +902,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_H.png",
+        "file": "assets/Letter Key_H2.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_H.png",
@@ -810,7 +914,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_I.png",
+        "file": "assets/Letter Key_I2.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_I.png",
@@ -822,7 +926,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_J.png",
+        "file": "assets/Letter Key_J2.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_J.png",
@@ -834,7 +938,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_K.png",
+        "file": "assets/Letter Key_K2.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_K.png",
@@ -846,7 +950,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_L.png",
+        "file": "assets/Letter Key_L2.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_L.png",
@@ -858,7 +962,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_M.png",
+        "file": "assets/Letter Key_M2.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_M.png",
@@ -870,7 +974,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_N.png",
+        "file": "assets/Letter Key_N2.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_N.png",
@@ -882,7 +986,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_O.png",
+        "file": "assets/Letter Key_O2.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_O.png",
@@ -894,7 +998,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_P.png",
+        "file": "assets/Letter Key_P2.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_P.png",
@@ -906,7 +1010,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_Q.png",
+        "file": "assets/Letter Key_Q2.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_Q.png",
@@ -918,7 +1022,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_R.png",
+        "file": "assets/Letter Key_R2.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_R.png",
@@ -930,7 +1034,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_S.png",
+        "file": "assets/Letter Key_S2.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_S.png",
@@ -942,7 +1046,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_T.png",
+        "file": "assets/Letter Key_T2.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_T.png",
@@ -954,7 +1058,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_U.png",
+        "file": "assets/Letter Key_U2.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_U.png",
@@ -966,7 +1070,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_V.png",
+        "file": "assets/Letter Key_V2.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_V.png",
@@ -978,7 +1082,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_W.png",
+        "file": "assets/Letter Key_W2.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_W.png",
@@ -990,7 +1094,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_X.png",
+        "file": "assets/Letter Key_X2.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_X.png",
@@ -1002,7 +1106,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_Y.png",
+        "file": "assets/Letter Key_Y2.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_Y.png",
@@ -1014,7 +1118,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_Z.png",
+        "file": "assets/Letter Key_Z2.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_Z.png",
@@ -1024,78 +1128,6 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/96b06f7e489cb39d4b04f5f97d0a9c50c34e4ee9d938f5334fcf56be578de130_Letter Key_Z.png",
           "name": "Letter Key_Z.png"
         }
-      },
-      {
-        "file": "assets/Enter Key.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enter Key.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/6affc681f6be0e8faf9565c9768bb3d719e6ef666372d0eecb0cda0893fa8d64_Enter Key.png",
-          "name": "Enter Key.png"
-        }
-      },
-      {
-        "file": "assets/Default-panel (1).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Default-panel (1).png",
-        "smoothed": true,
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/fda47cff3afe1a4d1ce358eeb44f1955949deffa84cb08cf95464df349160741_Default-panel (1).png",
-          "name": "Default-panel (1).png"
-        }
-      },
-      {
-        "file": "assets/Backspace Alt Key.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Backspace Alt Key.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/0ffd7f3540e9120149ad819f7400e4775834ae732bb9614084b80bc9b295cd07_Backspace Alt Key.png",
-          "name": "Backspace Alt Key.png"
-        }
-      },
-      {
-        "file": "assets/Default-panel (11).png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/Default-panel (11).png\",\"extension\":\".png\",\"pskl\":{}}",
-        "name": "Default-panel (11).png",
-        "smoothed": true,
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/1fbfda638f6a3c73c441706a80b44c9cbd06ae90428f042994c58cb5618ecc29_Default-panel (11).png",
-          "name": "Default-panel (11).png"
-        }
-      },
-      {
-        "file": "assets/3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "3",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/1.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "1",
-        "smoothed": true,
-        "userAdded": false
       }
     ]
   },
@@ -1205,11 +1237,6 @@
           "name": "Twocomp",
           "type": "boolean",
           "value": false
-        },
-        {
-          "name": "octal",
-          "type": "boolean",
-          "value": false
         }
       ]
     },
@@ -1245,11 +1272,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/decimal-to-binary"
+      "referenceTo": "/layouts/tutorialtrue"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/decimal-to-binary-timed"
+      "referenceTo": "/layouts/tutoriallevel2"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -1257,23 +1284,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/binary-to-decimal"
+      "referenceTo": "/layouts/post-question-results"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/hex-no-timer"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/hex-archived-timed"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/binary-to-hex"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/octal"
+      "referenceTo": "/layouts/twocomp"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -1281,7 +1296,15 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/score-overflow"
+      "referenceTo": "/layouts/hex-archived"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/proto-binary-numbers-rand"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/testui"
     }
   ],
   "externalEvents": [],

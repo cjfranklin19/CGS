@@ -374,7 +374,7 @@
               },
               "parameters": [
                 "",
-                "\"decimal to binary\"",
+                "\"Tutorialtrue\"",
                 ""
               ]
             }
@@ -412,7 +412,7 @@
               },
               "parameters": [
                 "",
-                "\"Hex (Archived, timed)\"",
+                "\"Hex (Archived)\"",
                 ""
               ]
             }
@@ -426,7 +426,7 @@
                 "value": "IsCursorOnObject"
               },
               "parameters": [
-                "OctalButton",
+                "Twoscompbutton",
                 "",
                 "",
                 ""
@@ -450,7 +450,7 @@
               },
               "parameters": [
                 "",
-                "\"Octal\"",
+                "\"Twocomp\"",
                 ""
               ]
             }
@@ -475,7 +475,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "Levels.octal",
+                "Levels.Twocomp",
                 "True",
                 ""
               ]

@@ -37,9 +37,9 @@
       "layer": "",
       "name": "Score",
       "persistentUuid": "4de73ff1-5f01-4004-a1b8-9d8b105dce83",
-      "width": 683,
-      "x": 783,
-      "y": 88,
+      "width": 255,
+      "x": 791,
+      "y": 190,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -54,8 +54,8 @@
       "name": "Correct_Answers",
       "persistentUuid": "35947fa6-627e-4307-bbb8-c94a22f3476e",
       "width": 0,
-      "x": 740,
-      "y": 257,
+      "x": 754,
+      "y": 375,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -71,7 +71,7 @@
       "persistentUuid": "22bee24b-d956-42ab-b7c7-6843dd42152b",
       "width": 0,
       "x": 722,
-      "y": 488,
+      "y": 573,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -86,8 +86,8 @@
       "name": "Highest_Streak",
       "persistentUuid": "60b4d951-dd0e-44f5-8166-cf8c4fcdfe05",
       "width": 0,
-      "x": 788,
-      "y": 689,
+      "x": 782,
+      "y": 787,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -270,67 +270,6 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite",
-      "persistentUuid": "621e5aba-5e84-4ee8-ab3d-1313ffab175a",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "default",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Grey Button With Shadow_Hovered.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 192,
-                        "y": 0
-                      },
-                      {
-                        "x": 192,
-                        "y": 69
-                      },
-                      {
-                        "x": 0,
-                        "y": 69
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
@@ -347,9 +286,6 @@
       },
       {
         "objectName": "Highest_Streak"
-      },
-      {
-        "objectName": "NewSprite"
       }
     ]
   },
@@ -412,11 +348,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [

@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4163025217733355,
+    "zoomFactor": 0.4027225833325939,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -355,13 +355,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 150,
+      "height": 329,
       "keepRatio": true,
       "layer": "",
       "name": "TargetPrompt",
       "persistentUuid": "6399c03b-cf6d-44af-8960-63c15734d0aa",
-      "width": 686,
-      "x": 609,
+      "width": 555,
+      "x": 674,
       "y": 302,
       "zOrder": 10,
       "numberProperties": [],
@@ -1641,7 +1641,7 @@
       "string": "Prompt",
       "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
       "textAlignment": "center",
-      "characterSize": 35,
+      "characterSize": 40,
       "color": {
         "b": 0,
         "g": 0,
@@ -1665,7 +1665,7 @@
         "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
-        "characterSize": 35,
+        "characterSize": 40,
         "lineHeight": 0,
         "color": "0;0;0"
       }
@@ -2477,7 +2477,7 @@
                 "TargetPrompt",
                 "Text",
                 "=",
-                "\"Convert: \" + ToString(TargetNum)+ \" to Binary\""
+                "\"Convert \" + ToString(targetNum) + \" to Binary.\""
               ]
             },
             {
@@ -3400,7 +3400,7 @@
           },
           "parameters": [
             "",
-            "\"binary to decimal\"",
+            "\"Post-Question Results\"",
             ""
           ]
         }

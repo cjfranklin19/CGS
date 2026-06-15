@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "decimal_32to_32binary",
-  "name": "decimal to binary",
+  "mangledName": "Tutoriallevel2",
+  "name": "Tutoriallevel2",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -96,17 +96,29 @@
       "value": 3
     },
     {
-      "name": "LightsCount",
+      "name": "TimeLimit",
       "type": "number",
-      "value": 0
-    },
-    {
-      "name": "goback",
-      "type": "number",
-      "value": -1
+      "value": 30
     }
   ],
   "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1108,
+      "keepRatio": true,
+      "layer": "background",
+      "name": "Forest_Background_2",
+      "persistentUuid": "277c9e19-2be4-4c6c-b7e5-1e74848e1b9a",
+      "width": 2415,
+      "x": -171,
+      "y": 2,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
     {
       "angle": 0,
       "customSize": false,
@@ -325,51 +337,16 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 379,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "text_panel",
-      "persistentUuid": "5bc8d490-6849-498c-9a45-55c942ba784a",
-      "width": 1850,
-      "x": 28,
-      "y": 22,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 351,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Backstory",
-      "persistentUuid": "0adb8dfd-58bc-4aa3-ad72-7288d8aceb85",
-      "width": 1831,
-      "x": 36,
-      "y": 92,
+      "name": "TimerText",
+      "persistentUuid": "1ff1a10f-c83e-4f04-b86b-4c783e649447",
+      "width": 0,
+      "x": 1563,
+      "y": 280,
       "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1031,
-      "keepRatio": true,
-      "layer": "background",
-      "name": "houseAnimation",
-      "persistentUuid": "dd11dfc5-e056-4d2a-9a2a-0a0c66075d0b",
-      "width": 2409,
-      "x": -274,
-      "y": -211,
-      "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -393,9 +370,9 @@
       "textAlignment": "left",
       "characterSize": 100,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 0,
+        "g": 0,
+        "r": 0
       },
       "content": {
         "bold": false,
@@ -417,7 +394,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 100,
         "lineHeight": 0,
-        "color": "255;255;255"
+        "color": "0;0;0"
       }
     },
     {
@@ -1045,9 +1022,9 @@
       "textAlignment": "left",
       "characterSize": 40,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 0,
+        "g": 0,
+        "r": 0
       },
       "content": {
         "bold": false,
@@ -1069,7 +1046,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 40,
         "lineHeight": 0,
-        "color": "255;255;255"
+        "color": "0;0;0"
       }
     },
     {
@@ -1089,9 +1066,9 @@
       "textAlignment": "left",
       "characterSize": 40,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 0,
+        "g": 0,
+        "r": 0
       },
       "content": {
         "bold": false,
@@ -1113,7 +1090,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 40,
         "lineHeight": 0,
-        "color": "255;255;255"
+        "color": "0;0;0"
       }
     },
     {
@@ -1323,47 +1300,21 @@
       }
     },
     {
-      "assetStoreId": "8a139a3797b428491aa47ac5e801ff29880d4d690e32df22e6e362c1dd1f63aa",
-      "bottomMargin": 16,
-      "height": 48,
-      "leftMargin": 16,
-      "name": "text_panel",
-      "persistentUuid": "44e2b2c6-1a5a-4a39-87c3-a197bd694ec9",
-      "rightMargin": 16,
-      "texture": "Default-panel (11).png",
-      "tiled": false,
-      "topMargin": 16,
-      "type": "PanelSpriteObject::PanelSprite",
-      "width": 48,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "Backstory",
+      "name": "TimerText",
+      "persistentUuid": "31285e6c-909b-4d57-b8f8-673133c69379",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "AutoTyping",
-          "type": "AutoTyping::AutoTyping",
-          "Text": "Text",
-          "Interval": 0.05,
-          "CharacterJustAdded": false,
-          "FullText": "",
-          "TypedText": ""
-        }
-      ],
-      "string": "Hello coder, you're tasked with gaining reconnaissance on the villian group called the Power Blights. They have been going city to city and messing up codes in the power plants. You will gain the skills need to make correct conversions and bring the cities power back online. we will be intouch if you come across anything new. goodluck coder, we believe in you ",
+      "behaviors": [],
+      "string": "Timer",
       "font": "",
       "textAlignment": "left",
-      "characterSize": 45,
+      "characterSize": 70,
       "color": {
         "b": 0,
         "g": 0,
@@ -1383,222 +1334,14 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Hello coder, you're tasked with gaining reconnaissance on the villian group called the Power Blights. They have been going city to city and messing up codes in the power plants. You will gain the skills need to make correct conversions and bring the cities power back online. we will be intouch if you come across anything new. goodluck coder, we believe in you ",
+        "text": "Timer",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 45,
+        "characterSize": 70,
         "lineHeight": 0,
         "color": "0;0;0"
       }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "houseAnimation",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "0",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Level one lights animation.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 221,
-                        "y": 173
-                      },
-                      {
-                        "x": 1751,
-                        "y": 173
-                      },
-                      {
-                        "x": 1751,
-                        "y": 943
-                      },
-                      {
-                        "x": 221,
-                        "y": 943
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "1",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "1",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 221,
-                        "y": 173
-                      },
-                      {
-                        "x": 1751,
-                        "y": 173
-                      },
-                      {
-                        "x": 1751,
-                        "y": 943
-                      },
-                      {
-                        "x": 221,
-                        "y": 943
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "2",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "2",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 221,
-                        "y": 173
-                      },
-                      {
-                        "x": 1751,
-                        "y": 173
-                      },
-                      {
-                        "x": 1751,
-                        "y": 943
-                      },
-                      {
-                        "x": 221,
-                        "y": 943
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "3",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "3",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 221,
-                        "y": 173
-                      },
-                      {
-                        "x": 1751,
-                        "y": 173
-                      },
-                      {
-                        "x": 1751,
-                        "y": 943
-                      },
-                      {
-                        "x": 221,
-                        "y": 943
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1635,6 +1378,9 @@
         "objectName": "infobox"
       },
       {
+        "objectName": "TimerText"
+      },
+      {
         "objectName": "NewSprite"
       },
       {
@@ -1648,15 +1394,6 @@
       },
       {
         "objectName": "Label_8"
-      },
-      {
-        "objectName": "text_panel"
-      },
-      {
-        "objectName": "Backstory"
-      },
-      {
-        "objectName": "houseAnimation"
       }
     ]
   },
@@ -1751,53 +1488,6 @@
             "True",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"HideTimer\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"showTimer\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Hide"
-          },
-          "parameters": [
-            "TargetPrompt"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "LightsCount",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "houseAnimation",
-            "Animation",
-            "=",
-            "\"off\""
-          ]
         }
       ]
     },
@@ -1812,67 +1502,6 @@
         "textR": 0
       },
       "comment": "switches"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"HideTimer\"",
-            ">=",
-            "25"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Hide"
-          },
-          "parameters": [
-            "text_panel"
-          ]
-        },
-        {
-          "type": {
-            "value": "Hide"
-          },
-          "parameters": [
-            "Backstory"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"showTimer\"",
-            ">=",
-            "25.5"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Show"
-          },
-          "parameters": [
-            "TargetPrompt",
-            ""
-          ]
-        }
-      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2154,6 +1783,15 @@
                 "=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"CountingDown\""
+              ]
             }
           ]
         }
@@ -2262,27 +1900,6 @@
                 "Status",
                 "False",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "LightsCount",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "houseAnimation",
-                "Animation",
-                "=",
-                "LightsCount"
               ]
             }
           ],
@@ -2475,27 +2092,6 @@
                 "=",
                 "0"
               ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "LightsCount",
-                "-",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "houseAnimation",
-                "Animation",
-                "=",
-                "LightsCount"
-              ]
             }
           ],
           "events": [
@@ -2576,6 +2172,45 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"CountingDown\"",
+                ">=",
+                "30"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TimerText",
+                "Text",
+                "=",
+                "\"0\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Game Over Screen\"",
+                ""
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2638,7 +2273,7 @@
               },
               "parameters": [
                 "",
-                "\"decimal to binary timed\"",
+                "\"MenuSelect\"",
                 ""
               ]
             }
@@ -2648,6 +2283,23 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "TimerText",
+            "Text",
+            "=",
+            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-25)))"
+          ]
         }
       ]
     }
@@ -2664,7 +2316,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": false,
+      "isLocked": true,
       "name": "background",
       "renderingType": "",
       "visibility": true,
@@ -2777,10 +2429,6 @@
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
-    },
-    {
-      "name": "AutoTyping",
-      "type": "AutoTyping::AutoTyping"
     },
     {
       "name": "Effect",

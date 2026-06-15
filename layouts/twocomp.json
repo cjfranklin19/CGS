@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Octal",
-  "name": "Octal",
+  "mangledName": "Twocomp",
+  "name": "Twocomp",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -27,66 +27,10 @@
   },
   "objectsGroups": [],
   "variables": [],
-  "instances": [
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "finishButton",
-      "persistentUuid": "61646cc6-1cd8-4c28-b642-1d86367350f5",
-      "width": 0,
-      "x": 1329,
-      "y": 499,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    }
-  ],
-  "objects": [
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": []
-    },
-    {
-      "assetStoreId": "9cf9ca8be6e98fc23e76b6770d3f4d094dea09f30a49f38ef9a9d2e97c2460be",
-      "name": "finishButton",
-      "persistentUuid": "d94e0767-a778-443f-9f0d-8867b1425542",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variant": "Grey Button With Shadow",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 3,
-        "BottomPadding": 32,
-        "TopPadding": 32,
-        "HoveredFadeOutDuration": 0.25,
-        "LabelText": "finish"
-      }
-    }
-  ],
+  "instances": [],
+  "objects": [],
   "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "NewSprite"
-      },
-      {
-        "objectName": "finishButton"
-      }
-    ]
+    "folderName": "__ROOT"
   },
   "events": [
     {
@@ -104,72 +48,18 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+      "actions": [
         {
           "type": {
-            "value": "MouseButtonFromTextReleased"
+            "value": "SetBooleanVariable"
           },
           "parameters": [
-            "",
-            "\"Left\""
+            "Levels.Twocomp",
+            "True",
+            ""
           ]
-        }
-      ],
-      "actions": [],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "finishButton",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Levels.octal",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"MenuSelect\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
