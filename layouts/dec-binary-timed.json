@@ -2259,21 +2259,11 @@
           "actions": [
             {
               "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Levels.Tutorialtrue",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"MenuSelect\"",
+                "\"8-Bit (Base)\"",
                 ""
               ]
             }

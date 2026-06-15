@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "binary_32to_32hex",
-  "name": "binary to hex",
+  "mangledName": "binary_32to_32hex_32_40timed_41",
+  "name": "binary to hex (timed)",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -130,7 +130,7 @@
     {
       "name": "levelQuestions",
       "type": "number",
-      "value": 5
+      "value": 2
     },
     {
       "name": "questionOpen",
@@ -613,6 +613,22 @@
       "x": 882,
       "y": 71,
       "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Timer",
+      "persistentUuid": "a288a643-bfb0-427b-ae3e-5d794f24658d",
+      "width": 0,
+      "x": 1570,
+      "y": 57,
+      "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -14687,6 +14703,16 @@
       "parameters": []
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
@@ -16104,14 +16130,13 @@
           },
           "parameters": [
             "",
-            "\"binary to hex (timed)\"",
+            "\"hex - decimal(in progress)\"",
             ""
           ]
         }
       ]
     },
     {
-      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
@@ -16129,7 +16154,6 @@
       ]
     },
     {
-      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -16167,7 +16191,6 @@
       ]
     },
     {
-      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -16256,7 +16279,6 @@
       ]
     },
     {
-      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {

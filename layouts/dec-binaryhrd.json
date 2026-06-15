@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Dec_45binary",
-  "name": "Dec-binary",
+  "mangledName": "Dec_45binary_40hrd_41",
+  "name": "Dec-binary(hrd)",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -1692,7 +1692,7 @@
               "parameters": [
                 "TargetNumber",
                 "=",
-                "RandomInRange(0, 5)"
+                "RandomInRange(10, 15)"
               ]
             },
             {
