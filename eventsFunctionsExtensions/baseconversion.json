@@ -1,0 +1,122 @@
+{
+  "author": "Ahnaf30e",
+  "category": "Advanced",
+  "dimension": "",
+  "extensionNamespace": "",
+  "fullName": "Base conversion",
+  "gdevelopVersion": ">=5.5.222",
+  "helpPath": "",
+  "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWhleGFkZWNpbWFsIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTcgN0M1LjkgNyA1IDcuOSA1IDlWMTVDNSAxNi4xMSA1LjkgMTcgNyAxN0g5QzEwLjExIDE3IDExIDE2LjExIDExIDE1VjlDMTEgNy45IDEwLjExIDcgOSA3SDdNNyA5SDlWMTVIN1Y5TTE3LjYgMTdMMTUuNSAxNC45TDEzLjQgMTdMMTIgMTUuNkwxNC4xIDEzLjVMMTIgMTEuNEwxMy40IDEwTDE1LjUgMTIuMUwxNy42IDEwTDE5IDExLjRMMTYuOSAxMy41TDE5IDE1LjZMMTcuNiAxN1oiIC8+PC9zdmc+",
+  "name": "BaseConversion",
+  "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/hexadecimal.svg",
+  "shortDescription": "Convert numbers between bases (decimal, hexadecimal, binary, etc.).",
+  "version": "1.0.1",
+  "description": "Adds expressions to convert numbers to a different base and back. Can be used to convert hexadecimal / binary representations of numbers to decimal numbers and vice-versa.",
+  "origin": {
+    "identifier": "BaseConversion",
+    "name": "gdevelop-extension-store"
+  },
+  "tags": [
+    "binary",
+    "numbers",
+    "number",
+    "base",
+    "hex",
+    "decimal"
+  ],
+  "authorIds": [
+    "onPsboRtDkUHNOsx7OPr8R8G1oj2"
+  ],
+  "dependencies": [],
+  "globalVariables": [],
+  "sceneVariables": [],
+  "eventsFunctions": [
+    {
+      "description": "Converts a string representing a number in a different base to a decimal number.",
+      "fullName": "Convert to decimal",
+      "functionType": "Expression",
+      "name": "ToDecimal",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const convString = eventsFunctionContext.getArgument(\"String\");",
+            "const convBase = eventsFunctionContext.getArgument(\"Base\");",
+            "eventsFunctionContext.returnValue = parseInt(convString, convBase);",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": true
+        }
+      ],
+      "expressionType": {
+        "type": "expression"
+      },
+      "parameters": [
+        {
+          "description": "String representing a number",
+          "name": "String",
+          "type": "string"
+        },
+        {
+          "description": "The base the number in the string is in",
+          "name": "Base",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Converts a number to a trsing representing it in another base.",
+      "fullName": "Convert to different base",
+      "functionType": "StringExpression",
+      "name": "ToBase",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const convNum = eventsFunctionContext.getArgument(\"Num\");",
+            "const convBase = eventsFunctionContext.getArgument(\"Base\");",
+            "eventsFunctionContext.returnValue = convNum.toString(convBase);",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": true
+        }
+      ],
+      "expressionType": {
+        "type": "string"
+      },
+      "parameters": [
+        {
+          "description": "Number to convert",
+          "name": "Num",
+          "type": "expression"
+        },
+        {
+          "description": "The base to convert the number to",
+          "name": "Base",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    }
+  ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "ToDecimal"
+      },
+      {
+        "functionName": "ToBase"
+      }
+    ]
+  },
+  "eventsBasedBehaviors": [],
+  "eventsBasedObjects": []
+}
