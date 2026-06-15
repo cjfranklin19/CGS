@@ -1300,11 +1300,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/8-bit-base"
+      "referenceTo": "/layouts/binary-to-decimal"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/hex---binary"
+      "referenceTo": "/layouts/8-bit-base"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -1313,6 +1313,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/binary-to-hex-timed"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/hex---binary"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

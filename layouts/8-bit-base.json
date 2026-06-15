@@ -2037,7 +2037,7 @@
             "Feedback",
             "Text",
             "=",
-            ""
+            "\"\""
           ]
         },
         {
@@ -3400,7 +3400,7 @@
           },
           "parameters": [
             "",
-            "\"Hex - binary\"",
+            "\"binary to hex\"",
             ""
           ]
         }
