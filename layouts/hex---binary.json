@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "HexTest",
-  "name": "HexTest",
+  "mangledName": "Hex_32_45_32binary",
+  "name": "Hex - binary",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,

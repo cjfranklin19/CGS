@@ -1128,6 +1128,18 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/96b06f7e489cb39d4b04f5f97d0a9c50c34e4ee9d938f5334fcf56be578de130_Letter Key_Z.png",
           "name": "Letter Key_Z.png"
         }
+      },
+      {
+        "file": "assets/Backspace Alt Key2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Backspace Alt Key.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/0ffd7f3540e9120149ad819f7400e4775834ae732bb9614084b80bc9b295cd07_Backspace Alt Key.png",
+          "name": "Backspace Alt Key.png"
+        }
       }
     ]
   },
@@ -1272,11 +1284,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/tutorialtrue"
+      "referenceTo": "/layouts/dec-binary"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/tutoriallevel2"
+      "referenceTo": "/layouts/dec-binary-timed"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -1284,7 +1296,15 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/hextest"
+      "referenceTo": "/layouts/hex---binary"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/hex---decimal"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/binary-to-hex"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -1297,14 +1317,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/game-over-screen"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/hex"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/proto-binary-numbers-rand"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

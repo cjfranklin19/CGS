@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Tutorialtrue",
-  "name": "Tutorialtrue",
+  "mangledName": "Dec_45binary_32timed",
+  "name": "Dec-binary timed",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -94,6 +94,11 @@
       "name": "LevelQuestions",
       "type": "number",
       "value": 3
+    },
+    {
+      "name": "TimeLimit",
+      "type": "number",
+      "value": 30
     }
   ],
   "instances": [
@@ -326,6 +331,22 @@
       "x": 1659,
       "y": 559,
       "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TimerText",
+      "persistentUuid": "1ff1a10f-c83e-4f04-b86b-4c783e649447",
+      "width": 0,
+      "x": 1563,
+      "y": 280,
+      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1277,6 +1298,50 @@
         "align": "left",
         "verticalTextAlignment": "top"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "TimerText",
+      "persistentUuid": "31285e6c-909b-4d57-b8f8-673133c69379",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Timer",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 70,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Timer",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 70,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1311,6 +1376,9 @@
       },
       {
         "objectName": "infobox"
+      },
+      {
+        "objectName": "TimerText"
       },
       {
         "objectName": "NewSprite"
@@ -1715,6 +1783,15 @@
                 "=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"CountingDown\""
+              ]
             }
           ]
         }
@@ -2095,6 +2172,45 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"CountingDown\"",
+                ">=",
+                "30"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TimerText",
+                "Text",
+                "=",
+                "\"0\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Game Over Screen\"",
+                ""
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2157,7 +2273,7 @@
               },
               "parameters": [
                 "",
-                "\"Tutoriallevel2\"",
+                "\"MenuSelect\"",
                 ""
               ]
             }
@@ -2167,6 +2283,23 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "TimerText",
+            "Text",
+            "=",
+            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-25)))"
+          ]
         }
       ]
     }

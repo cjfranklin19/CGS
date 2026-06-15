@@ -374,7 +374,7 @@
               },
               "parameters": [
                 "",
-                "\"Tutorialtrue\"",
+                "\"Dec-binary\"",
                 ""
               ]
             }
@@ -412,7 +412,7 @@
               },
               "parameters": [
                 "",
-                "\"Hex\"",
+                "\"Hex to decimal(inprogress)\"",
                 ""
               ]
             }

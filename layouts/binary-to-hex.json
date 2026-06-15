@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "proto_32binary_32numbers_32rand",
-  "name": "proto binary numbers rand",
+  "mangledName": "binary_32to_32hex",
+  "name": "binary to hex",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -175,9 +175,363 @@
       "name": "BinaryDisplay",
       "persistentUuid": "52e7262e-ad51-40d5-8ba5-f56f47da8a42",
       "width": 0,
-      "x": 909,
-      "y": 241,
+      "x": 635,
+      "y": 313,
       "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "AnswerDisplay",
+      "persistentUuid": "d7a5f115-f193-428d-8ab2-67bae3f725a2",
+      "width": 0,
+      "x": 893,
+      "y": 449,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SCORE",
+      "persistentUuid": "a9265870-43b9-4587-a45d-6be46e8fcea4",
+      "width": 0,
+      "x": 155,
+      "y": 63,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Feedback2",
+      "persistentUuid": "5732971c-d674-4d99-84cb-9abf5f96d89f",
+      "width": 0,
+      "x": 860,
+      "y": 581,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Number_Key0",
+      "persistentUuid": "352c3577-abf4-448e-ad0c-af3b6e579244",
+      "width": 0,
+      "x": 490,
+      "y": 915,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Number_Key1",
+      "persistentUuid": "c67ac69b-b96a-4980-95df-fad93a14575f",
+      "width": 89,
+      "x": 421,
+      "y": 836,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Number_Key2",
+      "persistentUuid": "ad6f80f4-9932-4af5-9070-252818746a80",
+      "width": 0,
+      "x": 498,
+      "y": 834,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Number_Key3",
+      "persistentUuid": "47d9db40-b1c0-467c-a78d-6942ca3fc0a1",
+      "width": 0,
+      "x": 613,
+      "y": 833,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Number_Key4",
+      "persistentUuid": "a5391395-d1fa-4eec-8025-0f7e7b40597f",
+      "width": 0,
+      "x": 418,
+      "y": 737,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Number_Key5",
+      "persistentUuid": "2ed526c8-5d8a-4660-be01-ce97d9b30585",
+      "width": 0,
+      "x": 503,
+      "y": 735,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Number_Key6",
+      "persistentUuid": "d523290e-c8ff-43d0-89b7-483fde24683e",
+      "width": 0,
+      "x": 608,
+      "y": 740,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Number_Key7",
+      "persistentUuid": "efc6c264-f7c7-4535-b1cd-9ed3000b4fb3",
+      "width": 0,
+      "x": 418,
+      "y": 652,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Number_Key8",
+      "persistentUuid": "67b590d3-26ea-46f6-9520-a7d59c19f07a",
+      "width": 0,
+      "x": 509,
+      "y": 650,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Number_Key9",
+      "persistentUuid": "1360914c-752b-4ffc-96f2-8bca41188745",
+      "width": 0,
+      "x": 616,
+      "y": 658,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Letter_KeyA",
+      "persistentUuid": "122ccee4-fabc-4904-8366-b9ce925b5dd3",
+      "width": 0,
+      "x": 827,
+      "y": 663,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Letter_KeyB",
+      "persistentUuid": "7e714169-145e-4410-b1cf-7607670489ec",
+      "width": 0,
+      "x": 935,
+      "y": 661,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Letter_KeyC",
+      "persistentUuid": "a6d73b6f-4b6a-4abf-9db3-df4944d88391",
+      "width": 0,
+      "x": 1055,
+      "y": 663,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Letter_KeyD",
+      "persistentUuid": "30122e94-25f3-4b53-86ea-3dd479e5e6ca",
+      "width": 0,
+      "x": 832,
+      "y": 773,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Letter_KeyE",
+      "persistentUuid": "36fe7ed3-9571-4bd9-bf5a-adb620983d22",
+      "width": 0,
+      "x": 931,
+      "y": 775,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Letter_KeyF",
+      "persistentUuid": "65990e03-41ca-46dd-b132-9666ad47376a",
+      "width": 0,
+      "x": 1049,
+      "y": 778,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 164,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Submit_Button",
+      "persistentUuid": "12132562-7a44-488b-9e32-d3b4ba5cbf39",
+      "width": 199,
+      "x": 1524,
+      "y": 792,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "finishButton",
+      "persistentUuid": "0b5beaed-1b12-49d1-a8bc-bde8f85f0a47",
+      "width": 0,
+      "x": 1573,
+      "y": 675,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Backspace_Alt_Key",
+      "persistentUuid": "e3bf1bf2-df92-451d-9653-c4ad4c7505b5",
+      "width": 0,
+      "x": 1312,
+      "y": 666,
+      "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -13029,7 +13383,7 @@
       "string": "Text",
       "font": "",
       "textAlignment": "left",
-      "characterSize": 20,
+      "characterSize": 80,
       "color": {
         "b": 0,
         "g": 0,
@@ -13053,7 +13407,7 @@
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 20,
+        "characterSize": 80,
         "lineHeight": 0,
         "color": "0;0;0"
       }
@@ -13166,6 +13520,67 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "2b0a6e29ea810e965598acf69bc0d34ed62c9d37d9a2f81b46bae2d9ad05996d",
+      "name": "Backspace_Alt_Key",
+      "persistentUuid": "4b7aaa7b-5888-4282-ac11-a6f121f1106e",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Backspace Alt Key.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 19
+                      },
+                      {
+                        "x": 96,
+                        "y": 19
+                      },
+                      {
+                        "x": 96,
+                        "y": 81
+                      },
+                      {
+                        "x": 4,
+                        "y": 81
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -13242,10 +13657,39 @@
       },
       {
         "objectName": "Letter_KeyF"
+      },
+      {
+        "objectName": "Backspace_Alt_Key"
       }
     ]
   },
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Feedback2",
+            "Text",
+            "=",
+            "\"\""
+          ]
+        }
+      ]
+    },
     {
       "colorB": 228,
       "colorG": 176,
@@ -13385,7 +13829,7 @@
               "parameters": [
                 "BinaryString",
                 "=",
-                "ToString(Bit7)+\"  \"+ToString(Bit6)+\"  \"+ToString(Bit5)+\"  \"+ToString(Bit4)+\"  \"+ToString(Bit3)+\"  \"+ToString(Bit2)+\"  \"+ToString(Bit1)+\"  \"+ToString(Bit0)"
+                "\"Convert: \"+ToString(Bit7)+\"  \"+ToString(Bit6)+\"  \"+ToString(Bit5)+\"  \"+ToString(Bit4)+\"    \"+ToString(Bit3)+\"  \"+ToString(Bit2)+\"  \"+ToString(Bit1)+\"  \"+ToString(Bit0)+\" to hex\""
               ]
             },
             {
@@ -13885,6 +14329,11 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     },
     {
       "colorB": 228,
@@ -14501,6 +14950,43 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Backspace_Alt_Key",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "PlayerAnswer",
+                "=",
+                "SubStr(PlayerAnswer,0,StrLength(PlayerAnswer)-1)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
             {
@@ -14580,7 +15066,123 @@
                 "=",
                 "\"Correct\""
               ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Feedback2",
+                "Text",
+                "=",
+                "VariableString(ResultText)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "finishButton",
+                ""
+              ]
             }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PlayerNumber",
+                "!=",
+                "Variable(TargetHex)"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "ResultText",
+                "=",
+                "\"Incorrect, try again\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Feedback2",
+                "Text",
+                "=",
+                "VariableString(ResultText)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "PlayerAnswer",
+                "=",
+                "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "AnswerDisplay",
+                "Text",
+                "=",
+                "\"\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "finishButton",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"MenuSelect\"",
+            ""
           ]
         }
       ]
