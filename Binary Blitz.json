@@ -852,6 +852,10 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/hextest"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/post-question-results"
     },
     {
@@ -864,7 +868,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/hex-archived"
+      "referenceTo": "/layouts/hex"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -892,6 +896,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspritecontinuousbar"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/baseconversion"
     }
   ],
   "externalLayouts": []

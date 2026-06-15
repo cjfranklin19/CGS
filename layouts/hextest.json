@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "_56_45Bit_32_40Base_41",
-  "name": "8-Bit (Base)",
+  "mangledName": "HexTest",
+  "name": "HexTest",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4163025217733355,
+    "zoomFactor": 0.4303403802207683,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -171,6 +171,26 @@
       "name": "highestStreak",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "targetHex",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "hexDigit",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "hexLetterVal",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "hexLetter",
+      "type": "string",
+      "value": ""
     }
   ],
   "instances": [
@@ -184,8 +204,8 @@
       "name": "Submit_Button",
       "persistentUuid": "85eafccd-d85a-4478-9f53-24c87dd42a72",
       "width": 138,
-      "x": 1623,
-      "y": 891,
+      "x": 1746,
+      "y": 896,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -293,8 +313,8 @@
       "name": "Switch_8",
       "persistentUuid": "9c67ae53-b388-4a4c-9d5c-b30764c2ad83",
       "width": 138,
-      "x": 847,
-      "y": 851,
+      "x": 948,
+      "y": 846,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -310,8 +330,8 @@
       "name": "Switch_4",
       "persistentUuid": "e38de78b-49bc-4991-9308-d52f3db7a5d5",
       "width": 138,
-      "x": 1036,
-      "y": 851,
+      "x": 1157,
+      "y": 846,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -327,8 +347,8 @@
       "name": "Switch_2",
       "persistentUuid": "9e6be75d-0aa5-4645-89e4-fddbd8fea88f",
       "width": 138,
-      "x": 1207,
-      "y": 851,
+      "x": 1365,
+      "y": 846,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -344,8 +364,8 @@
       "name": "Switch_1",
       "persistentUuid": "d8dbce20-ba13-4d0d-a633-fa5d5f9d5f5e",
       "width": 138,
-      "x": 1396,
-      "y": 851,
+      "x": 1557,
+      "y": 846,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -548,6 +568,38 @@
       "x": 0,
       "y": -186,
       "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NumberSwitchesLabel",
+      "persistentUuid": "1002d1d5-ad9c-45b3-be19-a0d5f0aa3472",
+      "width": 0,
+      "x": 274,
+      "y": 761,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "LetterSwitchesLabel",
+      "persistentUuid": "766644bc-bdda-407e-9eee-ee98c8a522f9",
+      "width": 0,
+      "x": 1267,
+      "y": 759,
+      "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1954,6 +2006,94 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NumberSwitchesLabel",
+      "persistentUuid": "855f8787-1fb9-46c3-97e9-d6285cadd134",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Number",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Number",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 60,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "LetterSwitchesLabel",
+      "persistentUuid": "cb569a1b-b2ee-4069-8f83-88b12f61a2db",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Letter",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Letter",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 60,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2012,6 +2152,12 @@
       },
       {
         "objectName": "StreakText"
+      },
+      {
+        "objectName": "NumberSwitchesLabel"
+      },
+      {
+        "objectName": "LetterSwitchesLabel"
       }
     ]
   },
@@ -2464,20 +2610,49 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "targetNum",
+                "hexDigit",
                 "=",
-                "RandomInRange(1, 10)"
+                "RandomInRange(0, 9)"
               ]
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "TargetPrompt",
-                "Text",
+                "hexLetterVal",
                 "=",
-                "\"Convert \" + ToString(targetNum) + \" to Binary.\""
+                "RandomInRange(10, 15)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "hexLetter",
+                "=",
+                "BaseConversion::ToBase(hexLetterVal, 16)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "targetHex",
+                "=",
+                "ToString(hexDigit) + hexLetter"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "targetNum",
+                "=",
+                "BaseConversion::ToDecimal(targetHex, 16)"
               ]
             },
             {
@@ -2536,6 +2711,25 @@
               },
               "parameters": [
                 "Feedback"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TargetPrompt",
+                    "Text",
+                    "=",
+                    "\"Convert \" + targetHex + \" to binary\""
+                  ]
+                }
               ]
             }
           ]
