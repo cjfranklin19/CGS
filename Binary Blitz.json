@@ -1140,18 +1140,26 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/0ffd7f3540e9120149ad819f7400e4775834ae732bb9614084b80bc9b295cd07_Backspace Alt Key.png",
           "name": "Backspace Alt Key.png"
         }
+      },
+      {
+        "file": "Gradient.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gradient.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
   "objects": [
     {
       "assetStoreId": "29a35e4258a648e70b753fb4d1258b8f258608ad28955c51ac9f19dab31c3daf",
-      "height": 1024,
+      "height": 1080,
       "name": "Forest_Background_2",
       "persistentUuid": "2e669ce0-58c5-44d4-b715-9e24ace5b105",
-      "texture": "Free-City-Backgrounds-Pixel-Art5.png",
+      "texture": "Gradient.png",
       "type": "TiledSpriteObject::TiledSprite",
-      "width": 1024,
+      "width": 1920,
       "variables": [],
       "effects": [],
       "behaviors": []
