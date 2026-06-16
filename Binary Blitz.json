@@ -1148,6 +1148,18 @@
         "name": "Gradient.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Default-panel (1)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (1).png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/fda47cff3afe1a4d1ce358eeb44f1955949deffa84cb08cf95464df349160741_Default-panel (1).png",
+          "name": "Default-panel (1).png"
+        }
       }
     ]
   },
