@@ -353,7 +353,7 @@
               },
               "parameters": [
                 "",
-                "\"Decimal - Binary(4bit)med\"",
+                "\"Dec-binary(med)\"",
                 ""
               ]
             }
@@ -381,7 +381,7 @@
               },
               "parameters": [
                 "",
-                "\"Decimal - Binary(4bit)Hrd\"",
+                "\"Dec-binary(hrd)\"",
                 ""
               ]
             }
