@@ -224,8 +224,8 @@
       "name": "Forest_Background_2",
       "persistentUuid": "090eb901-b7cb-4e44-9959-b3ff27f321e7",
       "width": 2461,
-      "x": -248,
-      "y": -33,
+      "x": -256,
+      "y": -47,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -272,8 +272,8 @@
       "name": "SCORE",
       "persistentUuid": "a9265870-43b9-4587-a45d-6be46e8fcea4",
       "width": 0,
-      "x": 155,
-      "y": 63,
+      "x": 127,
+      "y": 71,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -613,6 +613,54 @@
       "x": 882,
       "y": 71,
       "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Streaklable",
+      "persistentUuid": "4b6217c4-5614-4679-bfb6-b93ed3744a43",
+      "width": 0,
+      "x": 81,
+      "y": 143,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "StreakText",
+      "persistentUuid": "675ab66d-5cef-477f-8344-013fd1a61db2",
+      "width": 0,
+      "x": 539,
+      "y": 143,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Score_label",
+      "persistentUuid": "83665bab-5c74-4353-be78-79e6c5b712c1",
+      "width": 0,
+      "x": 466,
+      "y": 74,
+      "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -13674,8 +13722,8 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Text",
-      "font": "",
+      "string": "0",
+      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
       "textAlignment": "left",
       "characterSize": 80,
       "color": {
@@ -13697,13 +13745,101 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Text",
-        "font": "",
+        "text": "0",
+        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 80,
         "lineHeight": 0,
         "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Streaklable",
+      "persistentUuid": "53f93bae-26f8-48e8-a502-89ca63494e2e",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Streak:",
+      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "textAlignment": "left",
+      "characterSize": 80,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Streak:",
+        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 80,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Score_label",
+      "persistentUuid": "7a5f4c76-2f14-4d72-a229-a106c9e9805b",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Pts",
+      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "textAlignment": "left",
+      "characterSize": 70,
+      "color": {
+        "b": 134,
+        "g": 233,
+        "r": 184
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Pts",
+        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 70,
+        "lineHeight": 0,
+        "color": "184;233;134"
       }
     }
   ],
@@ -13777,6 +13913,9 @@
         "objectName": "AnswerDisplay"
       },
       {
+        "objectName": "Score_label"
+      },
+      {
         "objectName": "Letter_KeyE"
       },
       {
@@ -13787,6 +13926,9 @@
       },
       {
         "objectName": "StreakText"
+      },
+      {
+        "objectName": "Streaklable"
       }
     ]
   },
