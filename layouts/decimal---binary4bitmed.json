@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Decimal_32_45_32Binary_404bit_41",
-  "name": "Decimal - Binary(4bit)",
+  "mangledName": "Decimal_32_45_32Binary_404bit_41med",
+  "name": "Decimal - Binary(4bit)med",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -4127,7 +4127,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "story box and timer for prompt works"
+      "comment": "story box works"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -4183,46 +4183,6 @@
           },
           "parameters": [
             "Story_text"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SceneJustBegins"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Hide"
-          },
-          "parameters": [
-            "TargetPrompt"
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "20"
-          ]
-        },
-        {
-          "type": {
-            "value": "Show"
-          },
-          "parameters": [
-            "TargetPrompt",
-            ""
           ]
         }
       ]

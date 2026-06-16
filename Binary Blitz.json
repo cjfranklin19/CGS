@@ -1172,6 +1172,90 @@
         "name": "Binary Blitz (4).png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Default-panel (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (2).png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/d87a353145b24625060b092f3c8c5b82d5074a41895e6df8bce8ad78221d725c_Default-panel (2).png",
+          "name": "Default-panel (2).png"
+        }
+      },
+      {
+        "file": "Level one lights animation2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Level one lights animation2.png\",\"extension\":\".png\"}",
+        "name": "Level one lights animation2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Level one lights animation3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Level one lights animation3.png\",\"extension\":\".png\"}",
+        "name": "Level one lights animation3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Level one lights animation4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Level one lights animation4.png\",\"extension\":\".png\"}",
+        "name": "Level one lights animation4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Level one lights animation5.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Level one lights animation5.png\",\"extension\":\".png\"}",
+        "name": "Level one lights animation5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Level one lights animation6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level one lights animation6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Level one lights animation7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level one lights animation7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/4.png\"}",
+        "name": "4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/5.png\"}",
+        "name": "5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "3",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1328,10 +1412,6 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/octal---binary"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/binary-to-decimal"
     },
     {
@@ -1348,15 +1428,19 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/dec-binarymed"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/dec-binaryhrd"
+      "referenceTo": "/layouts/octal---binary"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/post-question-results"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/decimal---binary4bitmed"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/decimal---binary4bithrd"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -1388,6 +1472,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/baseconversion"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autotyping"
     }
   ],
   "externalLayouts": []
