@@ -1300,7 +1300,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/8-bit-base"
+      "referenceTo": "/layouts/dec---binary-8-bit"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/octal---binary"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

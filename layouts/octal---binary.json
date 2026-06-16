@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "_56_45Bit_32_40Base_41",
-  "name": "8-Bit (Base)",
+  "mangledName": "Octal_32_45_32Binary",
+  "name": "Octal - Binary",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -171,6 +171,11 @@
       "name": "highestStreak",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "targetOct",
+      "type": "string",
+      "value": ""
     }
   ],
   "instances": [
@@ -184,58 +189,12 @@
       "name": "Submit_Button",
       "persistentUuid": "85eafccd-d85a-4478-9f53-24c87dd42a72",
       "width": 138,
-      "x": 1623,
-      "y": 891,
+      "x": 1587,
+      "y": 845,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1.0761421319796953,
-      "height": 212,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Switch_128",
-      "persistentUuid": "4aa1cf67-a991-428f-8b27-dd71b5e8084c",
-      "width": 138,
-      "x": 67,
-      "y": 851,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "BitVal",
-          "type": "number",
-          "value": 128
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 212.30769230769238,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Switch_64",
-      "persistentUuid": "de42addc-4bc1-470e-a3ac-5a533703be6f",
-      "width": 138,
-      "x": 260,
-      "y": 851,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "BitVal",
-          "type": "number",
-          "value": 64
-        }
-      ]
     },
     {
       "angle": 0,
@@ -247,8 +206,8 @@
       "name": "Switch_32",
       "persistentUuid": "a6748144-dd77-45eb-b284-6cf156d6c29d",
       "width": 138,
-      "x": 441,
-      "y": 851,
+      "x": 140,
+      "y": 795,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -270,8 +229,8 @@
       "name": "Switch_16",
       "persistentUuid": "4d5100ef-8e2c-4aab-93c9-ffeb0f4903af",
       "width": 138,
-      "x": 644,
-      "y": 851,
+      "x": 354,
+      "y": 795,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -293,8 +252,8 @@
       "name": "Switch_8",
       "persistentUuid": "9c67ae53-b388-4a4c-9d5c-b30764c2ad83",
       "width": 138,
-      "x": 847,
-      "y": 851,
+      "x": 576,
+      "y": 795,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -310,8 +269,8 @@
       "name": "Switch_4",
       "persistentUuid": "e38de78b-49bc-4991-9308-d52f3db7a5d5",
       "width": 138,
-      "x": 1036,
-      "y": 851,
+      "x": 895,
+      "y": 795,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -327,8 +286,8 @@
       "name": "Switch_2",
       "persistentUuid": "9e6be75d-0aa5-4645-89e4-fddbd8fea88f",
       "width": 138,
-      "x": 1207,
-      "y": 851,
+      "x": 1122,
+      "y": 795,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -344,8 +303,8 @@
       "name": "Switch_1",
       "persistentUuid": "d8dbce20-ba13-4d0d-a633-fa5d5f9d5f5e",
       "width": 138,
-      "x": 1396,
-      "y": 851,
+      "x": 1344,
+      "y": 795,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -2466,7 +2425,17 @@
               "parameters": [
                 "targetNum",
                 "=",
-                "RandomInRange(1, 10)"
+                "RandomInRange(1, 63)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "targetOct",
+                "=",
+                "BaseConversion::ToBase(targetNum, 8)"
               ]
             },
             {
@@ -2477,7 +2446,7 @@
                 "TargetPrompt",
                 "Text",
                 "=",
-                "\"Convert \" + ToString(targetNum) + \" to Binary.\""
+                "\"Convert \" + targetOct + \" to Binary.\""
               ]
             },
             {
