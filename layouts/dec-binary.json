@@ -94,6 +94,36 @@
       "name": "LevelQuestions",
       "type": "number",
       "value": 3
+    },
+    {
+      "name": "streak",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "correctAnswers",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "score",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "elapsedQuestionTime",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "highestStreak",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "incorrectAnswers",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -323,9 +353,41 @@
       "name": "finishButton",
       "persistentUuid": "49137cc6-7e75-4cde-aef6-d9759a546280",
       "width": 0,
-      "x": 1659,
-      "y": 559,
+      "x": 1473,
+      "y": 673,
       "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SCORE",
+      "persistentUuid": "96429372-3116-41bb-ba16-41ab792a282f",
+      "width": 0,
+      "x": 43,
+      "y": 102,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "StreakText",
+      "persistentUuid": "5ea2e808-cd35-41ca-9cc7-e32331b0710e",
+      "width": 0,
+      "x": 30,
+      "y": 206,
+      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1277,6 +1339,94 @@
         "align": "left",
         "verticalTextAlignment": "top"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "SCORE",
+      "persistentUuid": "e5bf2573-9968-450a-af1d-c3c74ce4dd43",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Score",
+      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "textAlignment": "left",
+      "characterSize": 70,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Score",
+        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 70,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "StreakText",
+      "persistentUuid": "ab1d0175-d0c6-4abf-9816-184ba5746964",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Streak",
+      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "textAlignment": "left",
+      "characterSize": 70,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Streak",
+        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 70,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1314,6 +1464,12 @@
       },
       {
         "objectName": "NewSprite"
+      },
+      {
+        "objectName": "StreakText"
+      },
+      {
+        "objectName": "SCORE"
       },
       {
         "objectName": "Label_1"
