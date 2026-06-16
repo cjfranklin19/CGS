@@ -1292,7 +1292,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/dec-binary"
+      "referenceTo": "/layouts/decimal---binary4bit"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -1300,11 +1300,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/binary-to-decimal"
+      "referenceTo": "/layouts/8-bit-base"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/8-bit-base"
+      "referenceTo": "/layouts/binary-to-decimal"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -1317,10 +1317,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/hex---binary"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/hex---decimalin-progress"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

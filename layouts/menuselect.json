@@ -293,7 +293,7 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextPressed"
+            "value": "MouseButtonFromTextReleased"
           },
           "parameters": [
             "",
@@ -325,7 +325,7 @@
               },
               "parameters": [
                 "",
-                "\"Dec-binary\"",
+                "\"Decimal - Binary(4bit)\"",
                 ""
               ]
             }
@@ -353,7 +353,7 @@
               },
               "parameters": [
                 "",
-                "\"Hex to decimal(inprogress)\"",
+                "\"Dec-binary(med)\"",
                 ""
               ]
             }
@@ -381,7 +381,7 @@
               },
               "parameters": [
                 "",
-                "\"Twocomp\"",
+                "\"Dec-binary(hrd)\"",
                 ""
               ]
             }

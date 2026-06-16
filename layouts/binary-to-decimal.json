@@ -492,8 +492,8 @@
       "name": "StreakText",
       "persistentUuid": "afd556c5-0daf-4ae5-8c6b-74664b72c8f7",
       "width": 0,
-      "x": 882,
-      "y": 71,
+      "x": 863,
+      "y": 60,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -15536,7 +15536,7 @@
           },
           "parameters": [
             "",
-            "\"8-Bit (Base)\"",
+            "\"binary to hex\"",
             ""
           ]
         }

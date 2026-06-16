@@ -3400,7 +3400,7 @@
           },
           "parameters": [
             "",
-            "\"binary to hex\"",
+            "\"binary to decimal\"",
             ""
           ]
         }
