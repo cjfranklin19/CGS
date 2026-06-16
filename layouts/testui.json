@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4753585087126939,
+    "zoomFactor": 0.40272258333259275,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -28,23 +28,6 @@
   "objectsGroups": [],
   "variables": [],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1118,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite3",
-      "persistentUuid": "26744481-9dd1-4e11-a967-29d2fa688e39",
-      "width": 1977,
-      "x": -27,
-      "y": -19,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": true,
@@ -169,6 +152,22 @@
       "x": 1406,
       "y": 815,
       "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite3",
+      "persistentUuid": "428f025b-fafb-498f-a882-b7d5eebbaace",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []

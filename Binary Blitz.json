@@ -1148,6 +1148,30 @@
         "name": "Gradient.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Binary Blitz (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Binary Blitz (2).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Binary Blitz (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Binary Blitz (3).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Binary Blitz (4).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Binary Blitz (4).png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1185,7 +1209,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Binary Blitz.png",
+                  "image": "Binary Blitz (4).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1201,20 +1225,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 21,
-                        "y": 18
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 1905,
-                        "y": 18
+                        "x": 1920,
+                        "y": 0
                       },
                       {
-                        "x": 1905,
-                        "y": 1059
+                        "x": 1920,
+                        "y": 1080
                       },
                       {
-                        "x": 21,
-                        "y": 1059
+                        "x": 0,
+                        "y": 1080
                       }
                     ]
                   ]
