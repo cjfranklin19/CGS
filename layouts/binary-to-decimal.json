@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3645833333333333,
+    "zoomFactor": 2.8496162693652503,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -512,6 +512,38 @@
       "x": -72,
       "y": -11,
       "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "StreakText",
+      "persistentUuid": "98431561-625e-4485-a13c-752955a0ee62",
+      "width": 0,
+      "x": 385,
+      "y": 161,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Streaklable",
+      "persistentUuid": "bb3c81a4-b74a-45f7-b399-e188f82a3cd5",
+      "width": 0,
+      "x": 130,
+      "y": 161,
+      "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -13604,6 +13636,49 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Streaklable",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Streak:",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 80,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Streak:",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 80,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -13686,6 +13761,9 @@
       },
       {
         "objectName": "StreakText"
+      },
+      {
+        "objectName": "Streaklable"
       }
     ]
   },
@@ -13972,7 +14050,7 @@
                   "parameters": [
                     "BinaryString",
                     "=",
-                    "\"Convert:  \"+ToString(Bit3)+\"  \"+ToString(Bit2)+\"  \"+ToString(Bit1)+\"  \"+ToString(Bit0)+\" to hex\""
+                    "\"Convert:  \"+ToString(Bit3)+\"  \"+ToString(Bit2)+\"  \"+ToString(Bit1)+\"  \"+ToString(Bit0)+\" to Decimal\""
                   ]
                 },
                 {

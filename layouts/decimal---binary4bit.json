@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4163025217733364,
+    "zoomFactor": 0.5800155239904912,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -456,6 +456,23 @@
       "x": 0,
       "y": 0,
       "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 287,
+      "keepRatio": true,
+      "layer": "",
+      "name": "storybox",
+      "persistentUuid": "f58b85c4-4804-4fd6-8535-1c7e4bcb8828",
+      "width": 1127,
+      "x": 426,
+      "y": 188,
+      "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1862,6 +1879,66 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "bfabac7f4701989359b7d48490f61e5acae297f240f3d607cc8300be39e0c68a",
+      "bottomMargin": 12,
+      "height": 48,
+      "leftMargin": 12,
+      "name": "storybox",
+      "persistentUuid": "99638f72-b175-40b7-bee3-e4cfbd1510aa",
+      "rightMargin": 12,
+      "texture": "Default-panel (1).png",
+      "tiled": false,
+      "topMargin": 12,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 48,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Story_text",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Hello converter, the hacker group Gridbreakers, have infultrated the power plant and converterd cruical code to ",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Hello converter, the hacker group Gridbreakers, have infultrated the power plant and converterd cruical code to ",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1920,6 +1997,12 @@
       },
       {
         "objectName": "StreakText"
+      },
+      {
+        "objectName": "storybox"
+      },
+      {
+        "objectName": "Story_text"
       }
     ]
   },
