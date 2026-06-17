@@ -218,7 +218,332 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
+<<<<<<< Updated upstream
       "height": 1416,
+=======
+      "height": 100,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Number_Key0",
+      "persistentUuid": "54405763-2f79-4c3c-badc-6cc6f4c8621a",
+      "width": 334,
+      "x": 434,
+      "y": 884,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Number_Key1",
+      "persistentUuid": "5f410716-a7f7-4ee4-8ceb-dae86bf2cf24",
+      "width": 0,
+      "x": 464,
+      "y": 806,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Number_Key2",
+      "persistentUuid": "5f435228-ae7b-4173-99a2-527bcd14e921",
+      "width": 0,
+      "x": 548,
+      "y": 804,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Number_Key3",
+      "persistentUuid": "7e6a0288-a0a4-4eb6-9599-e00bbe2d783d",
+      "width": 0,
+      "x": 636,
+      "y": 802,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Number_Key4",
+      "persistentUuid": "8db0dd9a-607b-4f16-bfbf-cdf463df7926",
+      "width": 0,
+      "x": 464,
+      "y": 732,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Number_Key5",
+      "persistentUuid": "a11683f1-a0b4-4519-a88d-c5dae1a73647",
+      "width": 0,
+      "x": 547,
+      "y": 728,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Number_Key6",
+      "persistentUuid": "4c4c49de-214f-4a70-9b32-34b5e79f2e74",
+      "width": 0,
+      "x": 635,
+      "y": 728,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Number_Key7",
+      "persistentUuid": "5d89a625-75b3-4bdd-86ab-ddb8eab8e77c",
+      "width": 0,
+      "x": 467,
+      "y": 649,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Number_Key8",
+      "persistentUuid": "5d95aed0-80b2-45a1-8ce0-1936287db6f2",
+      "width": 0,
+      "x": 548,
+      "y": 649,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Number_Key9",
+      "persistentUuid": "9fb6f69a-459b-4304-a6b0-27ca6e21ca06",
+      "width": 0,
+      "x": 634,
+      "y": 649,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "submitbutton",
+      "persistentUuid": "9abfa694-dad7-4d6d-a851-86316c93c2cb",
+      "width": 0,
+      "x": 1439,
+      "y": 772,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "finishButton",
+      "persistentUuid": "58bfd5dd-41d4-49df-8c71-687f2e79fb6d",
+      "width": 0,
+      "x": 1599,
+      "y": 581,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Letter_KeyA",
+      "persistentUuid": "5098d5a1-46c5-494c-ab0b-6266b5e1e060",
+      "width": 0,
+      "x": 963,
+      "y": 653,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Letter_KeyB",
+      "persistentUuid": "3c9cc28c-6233-4178-be31-977f6cc5558a",
+      "width": 0,
+      "x": 1063,
+      "y": 654,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Letter_KeyC",
+      "persistentUuid": "46246769-1a76-4407-bf6f-85354570ee27",
+      "width": 0,
+      "x": 1167,
+      "y": 656,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Letter_KeyD",
+      "persistentUuid": "4b518b32-1205-4fdc-b340-65bb31462c82",
+      "width": 0,
+      "x": 962,
+      "y": 741,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Letter_KeyE",
+      "persistentUuid": "4c6e12f3-5fb0-4117-b470-761cf60f7159",
+      "width": 0,
+      "x": 1063,
+      "y": 742,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Letter_KeyF",
+      "persistentUuid": "c3b94743-23fd-4c5a-8b5f-1d543fda8929",
+      "width": 0,
+      "x": 1167,
+      "y": 742,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Feedback",
+      "persistentUuid": "eb21c424-c9fe-47af-b8ac-c0b13528d6b3",
+      "width": 0,
+      "x": 852,
+      "y": 501,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "AnswerDisplay",
+      "persistentUuid": "d838d6ae-b452-4d1b-899e-91a898d1ccae",
+      "width": 0,
+      "x": 851,
+      "y": 388,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1165,
+>>>>>>> Stashed changes
       "keepRatio": true,
       "layer": "",
       "name": "Forest_Background_2",
@@ -14825,8 +15150,61 @@
             }
           ]
         }
+<<<<<<< Updated upstream
       ],
       "parameters": []
+=======
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "Backspace_Alt_Key",
+            "\"Left\"",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "PlayerAnswer",
+            "=",
+            "SubStr(PlayerAnswer,0,StrLength(PlayerAnswer)-1)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "player answer"
+>>>>>>> Stashed changes
     },
     {
       "colorB": 228,
