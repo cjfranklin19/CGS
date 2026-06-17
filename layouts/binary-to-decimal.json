@@ -20,11 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-<<<<<<< Updated upstream
     "zoomFactor": 0.47535850871269353,
-=======
-    "zoomFactor": 0.4753585087126931,
->>>>>>> Stashed changes
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
