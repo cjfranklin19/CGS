@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "MenuSelect",
-  "name": "MenuSelect",
+  "mangledName": "Post_45Question_32Results",
+  "name": "Post-Question Results",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -32,14 +32,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1167,
+      "height": 77,
       "keepRatio": true,
-      "layer": "background",
-      "name": "Forest_Background_2",
-      "persistentUuid": "03797994-284e-41f0-a83b-560e30629109",
-      "width": 2369,
-      "x": -242,
-      "y": -2,
+      "layer": "",
+      "name": "Score",
+      "persistentUuid": "4de73ff1-5f01-4004-a1b8-9d8b105dce83",
+      "width": 255,
+      "x": 791,
+      "y": 190,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -51,11 +51,11 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Level_title",
-      "persistentUuid": "063e4187-85f7-48d9-b885-3a5080639460",
+      "name": "Correct_Answers",
+      "persistentUuid": "35947fa6-627e-4307-bbb8-c94a22f3476e",
       "width": 0,
-      "x": 631,
-      "y": 167,
+      "x": 754,
+      "y": 375,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -63,16 +63,15 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 64,
-      "height": 106,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "EASY",
-      "persistentUuid": "248da1f7-4887-4300-8922-9074d966fa32",
-      "width": 300,
-      "x": 772,
-      "y": 414,
+      "name": "Incorrect_Answers",
+      "persistentUuid": "22bee24b-d956-42ab-b7c7-6843dd42152b",
+      "width": 0,
+      "x": 722,
+      "y": 573,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -80,16 +79,15 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 64,
-      "height": 106,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Medium",
-      "persistentUuid": "7558634f-c334-4b23-8b99-3a3562ecdf42",
-      "width": 297,
-      "x": 769,
-      "y": 557,
+      "name": "Highest_Streak",
+      "persistentUuid": "60b4d951-dd0e-44f5-8166-cf8c4fcdfe05",
+      "width": 0,
+      "x": 782,
+      "y": 787,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -97,16 +95,15 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 64,
-      "height": 106,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Hard",
-      "persistentUuid": "4cd0c347-51c0-43ca-97e3-e1b8fdaf5704",
-      "width": 302,
-      "x": 764,
-      "y": 694,
+      "name": "finishButton",
+      "persistentUuid": "6394e388-bc28-48ee-a5cd-7cfa63a3a972",
+      "width": 0,
+      "x": 822,
+      "y": 951,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -118,17 +115,18 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "Level_title",
+      "name": "Score",
+      "persistentUuid": "a7d594e7-7239-4c80-8f42-bb5ac344ec76",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Level Difficulty",
+      "string": "SCORE\n",
       "font": "",
       "textAlignment": "left",
-      "characterSize": 100,
+      "characterSize": 70,
       "color": {
         "b": 0,
         "g": 0,
@@ -148,70 +146,164 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Level Difficulty",
+        "text": "SCORE\n",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 100,
+        "characterSize": 70,
         "lineHeight": 0,
         "color": "0;0;0"
       }
     },
     {
-      "assetStoreId": "bfab3a269992cf43081e2cb8053c28aaef11f2f9e0d0cbdc00207ea271f69c2c",
-      "name": "EASY",
-      "persistentUuid": "b19b80c7-99c4-49fb-96ce-cf4ea93ade6f",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variant": "Grey Button",
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Correct_Answers",
+      "persistentUuid": "707f0fb1-01e8-461f-8947-1b6a5fac7f13",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
+      "string": "CORRECT",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 70,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
       "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 10,
-        "BottomPadding": 32,
-        "TopPadding": 16,
-        "HoveredFadeOutDuration": 0.25,
-        "LabelText": "EASY"
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "CORRECT",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 70,
+        "lineHeight": 0,
+        "color": "0;0;0"
       }
     },
     {
-      "assetStoreId": "0d3f4843e5ebb7af30fd80adf19a1c5a14164c1283f344991dc2aa14067a1262",
-      "name": "Hard",
-      "persistentUuid": "c2b32c8b-6574-45d2-b373-83035a7919be",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variant": "Red Button",
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Incorrect_Answers",
+      "persistentUuid": "8da91d6a-5096-4870-9f1f-f8167c371a47",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
+      "string": "INCORRECT",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 70,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
       "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 10,
-        "BottomPadding": 32,
-        "TopPadding": 16,
-        "HoveredFadeOutDuration": 0.25,
-        "LabelText": "HARD"
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "INCORRECT",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 70,
+        "lineHeight": 0,
+        "color": "0;0;0"
       }
     },
     {
-      "assetStoreId": "615de0316452630b9f4f6a39decc82e2449b82c1afd1ff24d6470dad2922177b",
-      "name": "Medium",
-      "persistentUuid": "d927b964-38fb-4fd2-b8ca-198cdde78f2c",
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Highest_Streak",
+      "persistentUuid": "84b34b43-128a-43d2-a9ec-9ba5df97e203",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "STREAK",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 70,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "STREAK",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 70,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "9cf9ca8be6e98fc23e76b6770d3f4d094dea09f30a49f38ef9a9d2e97c2460be",
+      "name": "finishButton",
+      "persistentUuid": "9e208eac-76bc-4bdf-9f8d-7b141da84c13",
       "type": "PanelSpriteButton::PanelSpriteButton",
-      "variant": "Yellow button",
+      "variant": "Grey Button With Shadow",
       "variables": [],
       "effects": [],
       "behaviors": [],
       "content": {
         "LeftPadding": 16,
         "RightPadding": 16,
-        "PressedLabelOffsetY": 10,
+        "PressedLabelOffsetY": 3,
         "BottomPadding": 32,
-        "TopPadding": 16,
+        "TopPadding": 32,
         "HoveredFadeOutDuration": 0.25,
-        "LabelText": "MEDIUM"
+        "LabelText": "finish"
       }
     }
   ],
@@ -219,16 +311,19 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Level_title"
+        "objectName": "Score"
       },
       {
-        "objectName": "EASY"
+        "objectName": "Correct_Answers"
       },
       {
-        "objectName": "Medium"
+        "objectName": "Incorrect_Answers"
       },
       {
-        "objectName": "Hard"
+        "objectName": "Highest_Streak"
+      },
+      {
+        "objectName": "finishButton"
       }
     ]
   },
@@ -248,42 +343,46 @@
       "actions": [
         {
           "type": {
-            "value": "SetCenterX"
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
-            "Level_title",
+            "Score",
+            "Text",
             "=",
-            "SceneWindowWidth()/2"
+            "\"Final Score: \" + ToString(finalScore)"
           ]
         },
         {
           "type": {
-            "value": "SetCenterX"
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
-            "EASY",
+            "Correct_Answers",
+            "Text",
             "=",
-            "SceneWindowWidth()/2"
+            "\"Total Correct Answers: \" + ToString(finalCorrectAnswers)"
           ]
         },
         {
           "type": {
-            "value": "SetCenterX"
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
-            "Medium",
+            "Incorrect_Answers",
+            "Text",
             "=",
-            "SceneWindowWidth()/2"
+            "\"Total Incorrect Answers: \" + ToString(finalIncorrectAnswers)"
           ]
         },
         {
           "type": {
-            "value": "SetCenterX"
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
-            "Hard",
+            "Highest_Streak",
+            "Text",
             "=",
-            "SceneWindowWidth()/2"
+            "\"Highest Streak: \" + ToString(finalHighestStreak)"
           ]
         }
       ]
@@ -299,152 +398,34 @@
             "",
             "\"Left\""
           ]
+        },
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "finishButton",
+            "",
+            "",
+            ""
+          ]
         }
       ],
-      "actions": [],
-      "events": [
+      "actions": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "EASY",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Decimal - Binary(4bit)\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "Medium",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Decimal - Binary(4bit)med\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "Hard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Decimal - Binary(4bit)Hrd\"",
-                ""
-              ]
-            }
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"MenuSelect\"",
+            ""
           ]
         }
       ]
     }
   ],
   "layers": [
-    {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera2DPlaneMaxDrawingDistance": 5000,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 3,
-      "cameraType": "",
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": true,
-      "name": "background",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
-      "effects": [
-        {
-          "effectType": "Scene3D::HemisphereLight",
-          "name": "3D Ambient Hemisphere Light",
-          "doubleParameters": {
-            "elevation": 40,
-            "intensity": 0.33,
-            "rotation": 300
-          },
-          "stringParameters": {
-            "groundColor": "127;127;127",
-            "skyColor": "255;255;255",
-            "top": "Z+"
-          },
-          "booleanParameters": {}
-        },
-        {
-          "effectType": "Scene3D::DirectionalLight",
-          "name": "3D Sun Light",
-          "doubleParameters": {
-            "distanceFromCamera": 1500,
-            "elevation": 40,
-            "frustumSize": 4000,
-            "intensity": 0.75,
-            "minimumShadowBias": 0,
-            "rotation": 300
-          },
-          "stringParameters": {
-            "color": "255;255;255",
-            "shadowQuality": "medium",
-            "top": "Z+"
-          },
-          "booleanParameters": {
-            "isCastingShadow": true
-          }
-        }
-      ]
-    },
     {
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,

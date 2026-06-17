@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "_56_45Bit_32_40Base_41",
-  "name": "8-Bit (Base)",
+  "mangledName": "Dec_32_45_32Binary_32_408_32Bit_41",
+  "name": "Dec - Binary (8 Bit)",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.38958562738273117,
+    "zoomFactor": 0.4163025217733364,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -58,104 +58,119 @@
   ],
   "variables": [
     {
-      "name": "BinaryTot",
+      "name": "binaryTot",
       "type": "number",
       "value": 0
     },
     {
-      "name": "TargetNum",
+      "name": "targetNum",
       "type": "number",
       "value": 0
     },
     {
-      "name": "ResultText",
+      "name": "resultText",
       "type": "string",
       "value": "\"\""
     },
     {
-      "name": "Score",
+      "name": "score",
       "type": "number",
       "value": 0
     },
     {
-      "name": "BasePoints",
+      "name": "basePoints",
       "type": "number",
       "value": 100
     },
     {
-      "name": "Penalty",
+      "name": "penalty",
       "type": "number",
       "value": 50
     },
     {
-      "name": "Mult",
+      "name": "mult",
       "type": "number",
       "value": 1
     },
     {
-      "name": "Streak",
+      "name": "streak",
       "type": "number",
       "value": 0
     },
     {
-      "name": "WrongStreak",
+      "name": "wrongStreak",
       "type": "number",
       "value": 0
     },
     {
-      "name": "QuestionsAnswered",
+      "name": "questionsAnswered",
       "type": "number",
       "value": 0
     },
     {
-      "name": "LevelQuestions",
+      "name": "levelQuestions",
       "type": "number",
       "value": 5
     },
     {
-      "name": "ElapsedQuestionTime",
+      "name": "elapsedQuestionTime",
       "type": "number",
       "value": 0
     },
     {
-      "name": "TimeLimit",
+      "name": "timeLimit",
       "type": "number",
       "value": 30
     },
     {
-      "name": "HintPenalty",
+      "name": "hintPenalty",
       "type": "number",
       "value": 25
     },
     {
-      "name": "HintOpen",
+      "name": "hintOpen",
       "type": "boolean",
       "value": false
     },
     {
-      "name": "HintUsedThisQuestion",
+      "name": "hintUsedThisQuestion",
       "type": "number",
       "value": 0
     },
     {
-      "name": "QuestionOpen",
+      "name": "questionOpen",
       "type": "boolean",
       "value": true
     },
     {
-      "name": "CityPower",
+      "name": "cityPower",
       "type": "number",
       "value": 0
     },
     {
-      "name": "InputLocked",
+      "name": "inputLocked",
       "type": "boolean",
       "value": false
     },
     {
-      "name": "StartNextQuestion",
+      "name": "startNextQuestion",
       "type": "boolean",
       "value": true
+    },
+    {
+      "name": "correctAnswers",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "incorrectAnswers",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "highestStreak",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -360,11 +375,11 @@
       "height": 341,
       "keepRatio": true,
       "layer": "",
-      "name": "Feedback2",
+      "name": "Feedback",
       "persistentUuid": "8c6be39b-a383-4944-9e7d-f239dcb0ecc2",
       "width": 553,
-      "x": 668,
-      "y": 372,
+      "x": 683,
+      "y": 300,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -524,14 +539,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1266,
+      "height": 1080,
       "keepRatio": true,
       "layer": "background",
       "name": "Forest_Background_2",
       "persistentUuid": "2d98a7f3-7fb5-44c0-b150-004ed20d6dbf",
       "width": 1920,
       "x": 0,
-      "y": -186,
+      "y": 0,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -571,7 +586,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2.png",
+                  "image": "Off_Switch.webp",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -591,16 +606,16 @@
                         "y": 0
                       },
                       {
-                        "x": 26,
+                        "x": 457,
                         "y": 0
                       },
                       {
-                        "x": 26,
-                        "y": 40
+                        "x": 457,
+                        "y": 812
                       },
                       {
                         "x": 0,
-                        "y": 40
+                        "y": 812
                       }
                     ]
                   ]
@@ -620,7 +635,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2_off.png",
+                  "image": "On_switch.webp",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -640,16 +655,16 @@
                         "y": 0
                       },
                       {
-                        "x": 26,
+                        "x": 457,
                         "y": 0
                       },
                       {
-                        "x": 26,
-                        "y": 40
+                        "x": 457,
+                        "y": 812
                       },
                       {
                         "x": 0,
-                        "y": 40
+                        "y": 812
                       }
                     ]
                   ]
@@ -692,7 +707,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2.png",
+                  "image": "Off_Switch.webp",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -712,16 +727,16 @@
                         "y": 0
                       },
                       {
-                        "x": 26,
+                        "x": 457,
                         "y": 0
                       },
                       {
-                        "x": 26,
-                        "y": 40
+                        "x": 457,
+                        "y": 812
                       },
                       {
                         "x": 0,
-                        "y": 40
+                        "y": 812
                       }
                     ]
                   ]
@@ -740,7 +755,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2_off.png",
+                  "image": "On_switch.webp",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -760,16 +775,16 @@
                         "y": 0
                       },
                       {
-                        "x": 26,
+                        "x": 457,
                         "y": 0
                       },
                       {
-                        "x": 26,
-                        "y": 40
+                        "x": 457,
+                        "y": 812
                       },
                       {
                         "x": 0,
-                        "y": 40
+                        "y": 812
                       }
                     ]
                   ]
@@ -812,7 +827,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2.png",
+                  "image": "Off_Switch.webp",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -832,16 +847,16 @@
                         "y": 0
                       },
                       {
-                        "x": 26,
+                        "x": 457,
                         "y": 0
                       },
                       {
-                        "x": 26,
-                        "y": 40
+                        "x": 457,
+                        "y": 812
                       },
                       {
                         "x": 0,
-                        "y": 40
+                        "y": 812
                       }
                     ]
                   ]
@@ -860,7 +875,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2_off.png",
+                  "image": "On_switch.webp",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -880,16 +895,16 @@
                         "y": 0
                       },
                       {
-                        "x": 26,
+                        "x": 457,
                         "y": 0
                       },
                       {
-                        "x": 26,
-                        "y": 40
+                        "x": 457,
+                        "y": 812
                       },
                       {
                         "x": 0,
-                        "y": 40
+                        "y": 812
                       }
                     ]
                   ]
@@ -932,7 +947,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2.png",
+                  "image": "Off_Switch.webp",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -952,16 +967,16 @@
                         "y": 0
                       },
                       {
-                        "x": 26,
+                        "x": 457,
                         "y": 0
                       },
                       {
-                        "x": 26,
-                        "y": 40
+                        "x": 457,
+                        "y": 812
                       },
                       {
                         "x": 0,
-                        "y": 40
+                        "y": 812
                       }
                     ]
                   ]
@@ -980,7 +995,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2_off.png",
+                  "image": "On_switch.webp",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1000,16 +1015,16 @@
                         "y": 0
                       },
                       {
-                        "x": 26,
+                        "x": 457,
                         "y": 0
                       },
                       {
-                        "x": 26,
-                        "y": 40
+                        "x": 457,
+                        "y": 812
                       },
                       {
                         "x": 0,
-                        "y": 40
+                        "y": 812
                       }
                     ]
                   ]
@@ -1052,7 +1067,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2.png",
+                  "image": "Off_Switch.webp",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1072,16 +1087,16 @@
                         "y": 0
                       },
                       {
-                        "x": 26,
+                        "x": 457,
                         "y": 0
                       },
                       {
-                        "x": 26,
-                        "y": 40
+                        "x": 457,
+                        "y": 812
                       },
                       {
                         "x": 0,
-                        "y": 40
+                        "y": 812
                       }
                     ]
                   ]
@@ -1100,7 +1115,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2_off.png",
+                  "image": "On_switch.webp",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1120,16 +1135,16 @@
                         "y": 0
                       },
                       {
-                        "x": 26,
+                        "x": 457,
                         "y": 0
                       },
                       {
-                        "x": 26,
-                        "y": 40
+                        "x": 457,
+                        "y": 812
                       },
                       {
                         "x": 0,
-                        "y": 40
+                        "y": 812
                       }
                     ]
                   ]
@@ -1172,7 +1187,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2.png",
+                  "image": "Off_Switch.webp",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1192,16 +1207,16 @@
                         "y": 0
                       },
                       {
-                        "x": 26,
+                        "x": 457,
                         "y": 0
                       },
                       {
-                        "x": 26,
-                        "y": 40
+                        "x": 457,
+                        "y": 812
                       },
                       {
                         "x": 0,
-                        "y": 40
+                        "y": 812
                       }
                     ]
                   ]
@@ -1220,7 +1235,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2_off.png",
+                  "image": "On_switch.webp",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1240,16 +1255,16 @@
                         "y": 0
                       },
                       {
-                        "x": 26,
+                        "x": 457,
                         "y": 0
                       },
                       {
-                        "x": 26,
-                        "y": 40
+                        "x": 457,
+                        "y": 812
                       },
                       {
                         "x": 0,
-                        "y": 40
+                        "y": 812
                       }
                     ]
                   ]
@@ -1292,7 +1307,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2.png",
+                  "image": "Off_Switch.webp",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1312,16 +1327,16 @@
                         "y": 0
                       },
                       {
-                        "x": 26,
+                        "x": 457,
                         "y": 0
                       },
                       {
-                        "x": 26,
-                        "y": 40
+                        "x": 457,
+                        "y": 812
                       },
                       {
                         "x": 0,
-                        "y": 40
+                        "y": 812
                       }
                     ]
                   ]
@@ -1340,7 +1355,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Green switch 2_off.png",
+                  "image": "On_switch.webp",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1360,16 +1375,16 @@
                         "y": 0
                       },
                       {
-                        "x": 26,
+                        "x": 457,
                         "y": 0
                       },
                       {
-                        "x": 26,
-                        "y": 40
+                        "x": 457,
+                        "y": 812
                       },
                       {
                         "x": 0,
-                        "y": 40
+                        "y": 812
                       }
                     ]
                   ]
@@ -1413,7 +1428,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "off",
+                  "image": "Off_Switch.webp",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1433,16 +1448,16 @@
                         "y": 0
                       },
                       {
-                        "x": 26,
+                        "x": 457,
                         "y": 0
                       },
                       {
-                        "x": 26,
-                        "y": 40
+                        "x": 457,
+                        "y": 812
                       },
                       {
                         "x": 0,
-                        "y": 40
+                        "y": 812
                       }
                     ]
                   ]
@@ -1462,7 +1477,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "on",
+                  "image": "On_switch.webp",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1482,16 +1497,16 @@
                         "y": 0
                       },
                       {
-                        "x": 26,
+                        "x": 457,
                         "y": 0
                       },
                       {
-                        "x": 26,
-                        "y": 40
+                        "x": 457,
+                        "y": 812
                       },
                       {
                         "x": 0,
-                        "y": 40
+                        "y": 812
                       }
                     ]
                   ]
@@ -1659,7 +1674,7 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "Feedback2",
+      "name": "Feedback",
       "persistentUuid": "6aa0f31c-0ed0-440e-b143-509bc7956319",
       "smoothed": true,
       "type": "TextObject::Text",
@@ -1981,7 +1996,7 @@
         "objectName": "Default_Panel_15"
       },
       {
-        "objectName": "Feedback2"
+        "objectName": "Feedback"
       },
       {
         "objectName": "finishButton"
@@ -2019,7 +2034,7 @@
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
-            "Feedback2",
+            "Feedback",
             "Text",
             "=",
             "\"\""
@@ -2033,7 +2048,7 @@
             "StreakText",
             "Text",
             "=",
-            "ToString(ElapsedQuestionTime)"
+            "ToString(elapsedQuestionTime)"
           ]
         },
         {
@@ -2041,7 +2056,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "Score",
+            "score",
             "=",
             "0"
           ]
@@ -2051,7 +2066,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "Mult",
+            "mult",
             "=",
             "1"
           ]
@@ -2061,7 +2076,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "Streak",
+            "streak",
             "=",
             "0"
           ]
@@ -2071,7 +2086,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "QuestionsAnswered",
+            "questionsAnswered",
             "=",
             "0"
           ]
@@ -2081,7 +2096,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "ElapsedQuestionTime",
+            "elapsedQuestionTime",
             "=",
             "0"
           ]
@@ -2091,7 +2106,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "CityPower",
+            "cityPower",
             "=",
             "0"
           ]
@@ -2101,7 +2116,7 @@
             "value": "SetBooleanVariable"
           },
           "parameters": [
-            "QuestionOpen",
+            "questionOpen",
             "False",
             ""
           ]
@@ -2111,7 +2126,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "WrongStreak",
+            "wrongStreak",
             "=",
             "0"
           ]
@@ -2121,7 +2136,7 @@
             "value": "SetBooleanVariable"
           },
           "parameters": [
-            "HintOpen",
+            "hintOpen",
             "False",
             ""
           ]
@@ -2131,7 +2146,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "HintUsedThisQuestion",
+            "hintUsedThisQuestion",
             "=",
             "0"
           ]
@@ -2141,17 +2156,9 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "BinaryTot",
+            "binaryTot",
             "=",
             "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "Hide"
-          },
-          "parameters": [
-            "TargetPrompt"
           ]
         },
         {
@@ -2161,6 +2168,23 @@
           "parameters": [
             "finishButton"
           ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "startNextQuestion",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ]
     },
@@ -2266,7 +2290,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "BinaryTot",
+            "binaryTot",
             "-",
             "Switches.Variable(BitVal)"
           ]
@@ -2325,7 +2349,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "BinaryTot",
+            "binaryTot",
             "+",
             "Switches.Variable(BitVal)"
           ]
@@ -2352,7 +2376,7 @@
             "value": "BooleanVariable"
           },
           "parameters": [
-            "StartNextQuestion",
+            "startNextQuestion",
             "True",
             ""
           ]
@@ -2362,9 +2386,9 @@
             "value": "NumberVariable"
           },
           "parameters": [
-            "QuestionsAnswered",
+            "questionsAnswered",
             "<",
-            "LevelQuestions"
+            "levelQuestions"
           ]
         }
       ],
@@ -2378,7 +2402,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "InputLocked",
+                "inputLocked",
                 "=",
                 ""
               ]
@@ -2388,9 +2412,9 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "QuestionsAnswered",
+                "questionsAnswered",
                 "<",
-                "LevelQuestions"
+                "levelQuestions"
               ]
             }
           ],
@@ -2400,7 +2424,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "StartNextQuestion",
+                "startNextQuestion",
                 "False",
                 ""
               ]
@@ -2419,7 +2443,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "QuestionOpen",
+                "questionOpen",
                 "True",
                 ""
               ]
@@ -2440,7 +2464,7 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "TargetNum",
+                "targetNum",
                 "=",
                 "RandomInRange(1, 10)"
               ]
@@ -2453,7 +2477,7 @@
                 "TargetPrompt",
                 "Text",
                 "=",
-                "\"Convert: \" + ToString(TargetNum)+ \" to Binary\""
+                "\"Convert \" + ToString(targetNum) + \" to Binary.\""
               ]
             },
             {
@@ -2461,7 +2485,7 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "BinaryTot",
+                "binaryTot",
                 "=",
                 "0"
               ]
@@ -2471,7 +2495,7 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "ElapsedQuestionTime",
+                "elapsedQuestionTime",
                 "=",
                 "0"
               ]
@@ -2481,7 +2505,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "HintOpen",
+                "hintOpen",
                 "False",
                 ""
               ]
@@ -2503,16 +2527,15 @@
                 "SCORE",
                 "Text",
                 "=",
-                "ToString(Score)"
+                "ToString(score)"
               ]
             },
             {
               "type": {
-                "value": "Show"
+                "value": "Hide"
               },
               "parameters": [
-                "Feedback2",
-                ""
+                "Feedback"
               ]
             }
           ]
@@ -2577,9 +2600,9 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "BinaryTot",
+                "binaryTot",
                 "=",
-                "Variable(TargetNum)"
+                "Variable(targetNum)"
               ]
             }
           ],
@@ -2590,27 +2613,6 @@
               },
               "parameters": [
                 "TargetPrompt"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "ResultText",
-                "=",
-                "\"Correct!\""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Feedback2",
-                "Text",
-                "=",
-                "VariableString(ResultText)"
               ]
             },
             {
@@ -2626,13 +2628,34 @@
             },
             {
               "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "resultText",
+                "=",
+                "\"Correct!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Feedback",
+                "Text",
+                "=",
+                "VariableString(resultText)"
+              ]
+            },
+            {
+              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
                 "SCORE",
                 "Text",
                 "=",
-                "ToString(Score)"
+                "ToString(score)"
               ]
             },
             {
@@ -2640,7 +2663,7 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "QuestionsAnswered",
+                "questionsAnswered",
                 "+",
                 "1"
               ]
@@ -2650,7 +2673,17 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "Streak",
+                "correctAnswers",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "streak",
                 "+",
                 "1"
               ]
@@ -2663,11 +2696,23 @@
                 "StreakText",
                 "Text",
                 "=",
-                "ToString(Streak)"
+                "ToString(streak)"
               ]
             }
           ],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Streak Multiplier Values"
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -2676,7 +2721,7 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "Streak",
+                    "streak",
                     "<=",
                     "1"
                   ]
@@ -2688,7 +2733,7 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "Score",
+                    "score",
                     "+",
                     "100"
                   ]
@@ -2703,7 +2748,7 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "Streak",
+                    "streak",
                     "=",
                     "2"
                   ]
@@ -2715,7 +2760,7 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "Score",
+                    "score",
                     "+",
                     "150"
                   ]
@@ -2730,7 +2775,7 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "Streak",
+                    "streak",
                     "=",
                     "3"
                   ]
@@ -2742,7 +2787,7 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "Score",
+                    "score",
                     "+",
                     "200"
                   ]
@@ -2757,7 +2802,7 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "Streak",
+                    "streak",
                     ">=",
                     "4"
                   ]
@@ -2769,7 +2814,7 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "Score",
+                    "score",
                     "+",
                     "250"
                   ]
@@ -2786,7 +2831,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": ""
+              "comment": "Speed Bonus Values"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -2796,7 +2841,7 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "ElapsedQuestionTime",
+                    "elapsedQuestionTime",
                     "<=",
                     "5"
                   ]
@@ -2808,7 +2853,7 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "Score",
+                    "score",
                     "+",
                     "50"
                   ]
@@ -2823,7 +2868,7 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "ElapsedQuestionTime",
+                    "elapsedQuestionTime",
                     ">=",
                     "6"
                   ]
@@ -2839,7 +2884,7 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "ElapsedQuestionTime",
+                        "elapsedQuestionTime",
                         "<=",
                         "10"
                       ]
@@ -2851,7 +2896,7 @@
                         "value": "SetNumberVariable"
                       },
                       "parameters": [
-                        "Score",
+                        "score",
                         "+",
                         "25"
                       ]
@@ -2861,6 +2906,18 @@
               ]
             },
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Changes highest streak based on streak"
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -2868,9 +2925,48 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "QuestionsAnswered",
+                    "streak",
+                    ">",
+                    "highestStreak"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "highestStreak",
+                    "=",
+                    "streak"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "If there are more questions left to answer, move on to the next question after displaying feedback"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "questionsAnswered",
                     "<",
-                    "LevelQuestions"
+                    "levelQuestions"
                   ]
                 }
               ],
@@ -2880,7 +2976,7 @@
                     "value": "Show"
                   },
                   "parameters": [
-                    "Feedback2",
+                    "Feedback",
                     ""
                   ]
                 },
@@ -2897,12 +2993,24 @@
                     "value": "SetBooleanVariable"
                   },
                   "parameters": [
-                    "StartNextQuestion",
+                    "startNextQuestion",
                     "True",
                     ""
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Reset switches after correct answer"
             },
             {
               "type": "BuiltinCommonInstructions::ForEach",
@@ -2960,9 +3068,9 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "QuestionsAnswered",
+                    "questionsAnswered",
                     "=",
-                    "LevelQuestions"
+                    "levelQuestions"
                   ]
                 }
               ],
@@ -2975,7 +3083,7 @@
                     "SCORE",
                     "Text",
                     "=",
-                    "ToString(Score)"
+                    "ToString(score)"
                   ]
                 },
                 {
@@ -2985,6 +3093,46 @@
                   "parameters": [
                     "",
                     "\"CountingDown\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "finalScore",
+                    "=",
+                    "score"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "finalCorrectAnswers",
+                    "=",
+                    "correctAnswers"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "finalIncorrectAnswers",
+                    "=",
+                    "incorrectAnswers"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "finalHighestStreak",
+                    "=",
+                    "highestStreak"
                   ]
                 },
                 {
@@ -3020,9 +3168,9 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "BinaryTot",
+                "binaryTot",
                 "!=",
-                "Variable(TargetNum)"
+                "Variable(targetNum)"
               ]
             }
           ],
@@ -3040,7 +3188,7 @@
                 "value": "SetStringVariable"
               },
               "parameters": [
-                "ResultText",
+                "resultText",
                 "=",
                 "\"Incorrect, try again!\""
               ]
@@ -3050,10 +3198,10 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "Feedback2",
+                "Feedback",
                 "Text",
                 "=",
-                "VariableString(ResultText)"
+                "VariableString(resultText)"
               ]
             },
             {
@@ -3061,7 +3209,7 @@
                 "value": "Show"
               },
               "parameters": [
-                "Feedback2",
+                "Feedback",
                 ""
               ]
             },
@@ -3070,9 +3218,19 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "Score",
+                "score",
                 "-",
                 "50"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "incorrectAnswers",
+                "+",
+                "1"
               ]
             },
             {
@@ -3083,7 +3241,7 @@
                 "SCORE",
                 "Text",
                 "=",
-                "ToString(Score)"
+                "ToString(score)"
               ]
             },
             {
@@ -3091,7 +3249,7 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "Streak",
+                "streak",
                 "=",
                 "0"
               ]
@@ -3104,7 +3262,7 @@
                 "StreakText",
                 "Text",
                 "=",
-                "ToString(Streak)"
+                "ToString(streak)"
               ]
             },
             {
@@ -3112,7 +3270,7 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "BinaryTot",
+                "binaryTot",
                 "=",
                 "0"
               ]
@@ -3130,7 +3288,7 @@
                 "value": "Hide"
               },
               "parameters": [
-                "Feedback2"
+                "Feedback"
               ]
             },
             {
@@ -3188,7 +3346,7 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "Score",
+                    "score",
                     "<",
                     "0"
                   ]
@@ -3200,7 +3358,7 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "Score",
+                    "score",
                     "=",
                     "0"
                   ]
@@ -3273,7 +3431,7 @@
             "value": "BooleanVariable"
           },
           "parameters": [
-            "InputLocked",
+            "inputLocked",
             "False",
             ""
           ]
@@ -3283,9 +3441,9 @@
             "value": "NumberVariable"
           },
           "parameters": [
-            "QuestionsAnswered",
+            "questionsAnswered",
             "<",
-            "LevelQuestions"
+            "levelQuestions"
           ]
         }
       ],
@@ -3295,7 +3453,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "TimeLimit",
+            "timeLimit",
             "-",
             "TimeDelta()"
           ]
@@ -3318,6 +3476,46 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "finalScore",
+            "=",
+            "score"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "finalCorrectAnswers",
+            "=",
+            "correctAnswers"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "finalIncorrectAnswers",
+            "=",
+            "incorrectAnswers"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "finalHighestStreak",
+            "=",
+            "highestStreak"
+          ]
+        },
         {
           "type": {
             "value": "PauseTimer"
@@ -3351,13 +3549,27 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "ELAPSED TIME"
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "SceneJustBegins"
+            "value": "BooleanVariable"
           },
           "parameters": [
+            "questionOpen",
+            "True",
             ""
           ]
         }
@@ -3365,19 +3577,12 @@
       "actions": [
         {
           "type": {
-            "value": "Wait"
+            "value": "SetNumberVariable"
           },
           "parameters": [
-            "21"
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"CountingDown\""
+            "elapsedQuestionTime",
+            "+",
+            "TimeDelta()"
           ]
         }
       ]
