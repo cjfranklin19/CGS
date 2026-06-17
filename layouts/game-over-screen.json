@@ -146,7 +146,7 @@
               },
               "parameters": [
                 "",
-                "\"Post-Question Results\"",
+                "\"MenuSelect\"",
                 ""
               ]
             }
@@ -229,10 +229,6 @@
   ],
   "behaviorsSharedData": [
     {
-      "name": "Animation",
-      "type": "AnimatableCapability::AnimatableBehavior"
-    },
-    {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
     },
@@ -247,10 +243,6 @@
     {
       "name": "Resizable",
       "type": "ResizableCapability::ResizableBehavior"
-    },
-    {
-      "name": "Scale",
-      "type": "ScalableCapability::ScalableBehavior"
     }
   ]
 }
