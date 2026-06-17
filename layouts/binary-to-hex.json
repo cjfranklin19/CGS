@@ -15576,7 +15576,7 @@
                 "Feedback2",
                 "Text",
                 "=",
-                "VariableString(resultText)"
+                "VariableString(ResultText)"
               ]
             },
             {
@@ -16083,7 +16083,7 @@
                 "Feedback2",
                 "Text",
                 "=",
-                "VariableString(resultText)"
+                "VariableString(ResultText)"
               ]
             },
             {
