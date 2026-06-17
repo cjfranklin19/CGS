@@ -528,7 +528,7 @@
       {
         "file": "assets/PLAY BUTATON.png",
         "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/PLAY BUTATON.png\",\"extension\":\".png\"}",
+        "metadata": "",
         "name": "assets/PLAY BUTATON.png",
         "smoothed": false,
         "userAdded": false
@@ -626,79 +626,7 @@
         "userAdded": false
       },
       {
-        "file": "Off_Switch.webp",
-        "kind": "image",
-        "metadata": "",
-        "name": "Off_Switch.webp",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "On_switch.webp",
-        "kind": "image",
-        "metadata": "",
-        "name": "On_switch.webp",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Off_Switch2.webp",
-        "kind": "image",
-        "metadata": "",
-        "name": "Off_Switch2.webp",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "On_switch2.webp",
-        "kind": "image",
-        "metadata": "",
-        "name": "On_switch2.webp",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Off_Switch3.webp",
-        "kind": "image",
-        "metadata": "",
-        "name": "Off_Switch3.webp",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "On_switch3.webp",
-        "kind": "image",
-        "metadata": "",
-        "name": "On_switch3.webp",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Off_Switch.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Off_Switch.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Off_Switch (1).webp",
-        "kind": "image",
-        "metadata": "",
-        "name": "Off_Switch (1).webp",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Binary Blitz.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Binary Blitz.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Number Key_Eight2.png",
+        "file": "assets/Number Key_Eight.png",
         "kind": "image",
         "metadata": "",
         "name": "Number Key_Eight.png",
@@ -710,7 +638,7 @@
         }
       },
       {
-        "file": "assets/Number Key_Five2.png",
+        "file": "assets/Number Key_Five.png",
         "kind": "image",
         "metadata": "",
         "name": "Number Key_Five.png",
@@ -722,7 +650,7 @@
         }
       },
       {
-        "file": "assets/Number Key_Four2.png",
+        "file": "assets/Number Key_Four.png",
         "kind": "image",
         "metadata": "",
         "name": "Number Key_Four.png",
@@ -734,7 +662,7 @@
         }
       },
       {
-        "file": "assets/Number Key_Nine2.png",
+        "file": "assets/Number Key_Nine.png",
         "kind": "image",
         "metadata": "",
         "name": "Number Key_Nine.png",
@@ -746,7 +674,7 @@
         }
       },
       {
-        "file": "assets/Number Key_One2.png",
+        "file": "assets/Number Key_One.png",
         "kind": "image",
         "metadata": "",
         "name": "Number Key_One.png",
@@ -758,7 +686,7 @@
         }
       },
       {
-        "file": "assets/Number Key_Seven2.png",
+        "file": "assets/Number Key_Seven.png",
         "kind": "image",
         "metadata": "",
         "name": "Number Key_Seven.png",
@@ -770,7 +698,7 @@
         }
       },
       {
-        "file": "assets/Number Key_Six2.png",
+        "file": "assets/Number Key_Six.png",
         "kind": "image",
         "metadata": "",
         "name": "Number Key_Six.png",
@@ -782,7 +710,7 @@
         }
       },
       {
-        "file": "assets/Number Key_Three2.png",
+        "file": "assets/Number Key_Three.png",
         "kind": "image",
         "metadata": "",
         "name": "Number Key_Three.png",
@@ -794,7 +722,7 @@
         }
       },
       {
-        "file": "assets/Number Key_Two2.png",
+        "file": "assets/Number Key_Two.png",
         "kind": "image",
         "metadata": "",
         "name": "Number Key_Two.png",
@@ -806,7 +734,7 @@
         }
       },
       {
-        "file": "assets/Number Key_Zero2.png",
+        "file": "assets/Number Key_Zero.png",
         "kind": "image",
         "metadata": "",
         "name": "Number Key_Zero.png",
@@ -818,7 +746,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_A2.png",
+        "file": "assets/Letter Key_A.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_A.png",
@@ -830,7 +758,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_B2.png",
+        "file": "assets/Letter Key_B.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_B.png",
@@ -842,7 +770,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_C2.png",
+        "file": "assets/Letter Key_C.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_C.png",
@@ -854,7 +782,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_D2.png",
+        "file": "assets/Letter Key_D.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_D.png",
@@ -866,7 +794,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_E2.png",
+        "file": "assets/Letter Key_E.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_E.png",
@@ -878,7 +806,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_F2.png",
+        "file": "assets/Letter Key_F.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_F.png",
@@ -890,7 +818,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_G2.png",
+        "file": "assets/Letter Key_G.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_G.png",
@@ -902,7 +830,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_H2.png",
+        "file": "assets/Letter Key_H.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_H.png",
@@ -914,7 +842,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_I2.png",
+        "file": "assets/Letter Key_I.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_I.png",
@@ -926,7 +854,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_J2.png",
+        "file": "assets/Letter Key_J.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_J.png",
@@ -938,7 +866,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_K2.png",
+        "file": "assets/Letter Key_K.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_K.png",
@@ -950,7 +878,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_L2.png",
+        "file": "assets/Letter Key_L.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_L.png",
@@ -962,7 +890,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_M2.png",
+        "file": "assets/Letter Key_M.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_M.png",
@@ -974,7 +902,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_N2.png",
+        "file": "assets/Letter Key_N.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_N.png",
@@ -986,7 +914,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_O2.png",
+        "file": "assets/Letter Key_O.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_O.png",
@@ -998,7 +926,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_P2.png",
+        "file": "assets/Letter Key_P.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_P.png",
@@ -1010,7 +938,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_Q2.png",
+        "file": "assets/Letter Key_Q.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_Q.png",
@@ -1022,7 +950,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_R2.png",
+        "file": "assets/Letter Key_R.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_R.png",
@@ -1034,7 +962,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_S2.png",
+        "file": "assets/Letter Key_S.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_S.png",
@@ -1046,7 +974,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_T2.png",
+        "file": "assets/Letter Key_T.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_T.png",
@@ -1058,7 +986,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_U2.png",
+        "file": "assets/Letter Key_U.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_U.png",
@@ -1070,7 +998,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_V2.png",
+        "file": "assets/Letter Key_V.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_V.png",
@@ -1082,7 +1010,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_W2.png",
+        "file": "assets/Letter Key_W.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_W.png",
@@ -1094,7 +1022,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_X2.png",
+        "file": "assets/Letter Key_X.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_X.png",
@@ -1106,7 +1034,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_Y2.png",
+        "file": "assets/Letter Key_Y.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_Y.png",
@@ -1118,7 +1046,7 @@
         }
       },
       {
-        "file": "assets/Letter Key_Z2.png",
+        "file": "assets/Letter Key_Z.png",
         "kind": "image",
         "metadata": "",
         "name": "Letter Key_Z.png",
@@ -1130,7 +1058,31 @@
         }
       },
       {
-        "file": "assets/Backspace Alt Key2.png",
+        "file": "assets/Enter Key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Enter Key.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/6affc681f6be0e8faf9565c9768bb3d719e6ef666372d0eecb0cda0893fa8d64_Enter Key.png",
+          "name": "Enter Key.png"
+        }
+      },
+      {
+        "file": "assets/Default-panel (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (1).png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/fda47cff3afe1a4d1ce358eeb44f1955949deffa84cb08cf95464df349160741_Default-panel (1).png",
+          "name": "Default-panel (1).png"
+        }
+      },
+      {
+        "file": "assets/Backspace Alt Key.png",
         "kind": "image",
         "metadata": "",
         "name": "Backspace Alt Key.png",
@@ -1142,118 +1094,38 @@
         }
       },
       {
-        "file": "Gradient.png",
+        "file": "assets/Default-panel (11).png",
         "kind": "image",
-        "metadata": "",
-        "name": "Gradient.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Binary Blitz (2).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Binary Blitz (2).png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Binary Blitz (3).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Binary Blitz (3).png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Binary Blitz (4).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Binary Blitz (4).png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Default-panel (2).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Default-panel (2).png",
+        "metadata": "{\"localFilePath\":\"assets/Default-panel (11).png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Default-panel (11).png",
         "smoothed": true,
         "userAdded": true,
         "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/d87a353145b24625060b092f3c8c5b82d5074a41895e6df8bce8ad78221d725c_Default-panel (2).png",
-          "name": "Default-panel (2).png"
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/1fbfda638f6a3c73c441706a80b44c9cbd06ae90428f042994c58cb5618ecc29_Default-panel (11).png",
+          "name": "Default-panel (11).png"
         }
       },
       {
-        "file": "Level one lights animation2.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"Level one lights animation2.png\",\"extension\":\".png\"}",
-        "name": "Level one lights animation2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Level one lights animation3.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"Level one lights animation3.png\",\"extension\":\".png\"}",
-        "name": "Level one lights animation3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Level one lights animation4.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"Level one lights animation4.png\",\"extension\":\".png\"}",
-        "name": "Level one lights animation4.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Level one lights animation5.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"Level one lights animation5.png\",\"extension\":\".png\"}",
-        "name": "Level one lights animation5.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Level one lights animation6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Level one lights animation6.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Level one lights animation7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Level one lights animation7.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/4.png\"}",
-        "name": "4",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/5.png\"}",
-        "name": "5",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/6.png",
+        "file": "assets/3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "1",
         "smoothed": true,
         "userAdded": false
       }
@@ -1262,76 +1134,15 @@
   "objects": [
     {
       "assetStoreId": "29a35e4258a648e70b753fb4d1258b8f258608ad28955c51ac9f19dab31c3daf",
-      "height": 1080,
+      "height": 1024,
       "name": "Forest_Background_2",
       "persistentUuid": "2e669ce0-58c5-44d4-b715-9e24ace5b105",
-      "texture": "Gradient.png",
+      "texture": "Free-City-Backgrounds-Pixel-Art5.png",
       "type": "TiledSpriteObject::TiledSprite",
-      "width": 1920,
+      "width": 1024,
       "variables": [],
       "effects": [],
       "behaviors": []
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite3",
-      "persistentUuid": "8c2da2ee-f763-4f93-8ec2-5019c438012c",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Binary Blitz (4).png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1920,
-                        "y": 0
-                      },
-                      {
-                        "x": 1920,
-                        "y": 1080
-                      },
-                      {
-                        "x": 0,
-                        "y": 1080
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1339,9 +1150,6 @@
     "children": [
       {
         "objectName": "Forest_Background_2"
-      },
-      {
-        "objectName": "NewSprite3"
       }
     ]
   },
@@ -1365,28 +1173,13 @@
           "name": "Twocomp",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "octal",
+          "type": "boolean",
+          "value": false
         }
       ]
-    },
-    {
-      "name": "finalScore",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "finalHighestStreak",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "finalCorrectAnswers",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "finalIncorrectAnswers",
-      "type": "number",
-      "value": 0
     }
   ],
   "layouts": [
@@ -1400,15 +1193,15 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/decimal---binary4bit"
+      "referenceTo": "/layouts/decimal-to-binary"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/dec-binary-timed"
+      "referenceTo": "/layouts/decimal-to-binary-timed"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/dec---binary-8-bit"
+      "referenceTo": "/layouts/8-bit-base"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -1416,31 +1209,19 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/hex-no-timer"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/hex-archived-timed"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/binary-to-hex"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/binary-to-hex-timed"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/hex---binary"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/octal---binary"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/post-question-results"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/decimal---binary4bitmed"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/decimal---binary4bithrd"
+      "referenceTo": "/layouts/octal"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -1448,7 +1229,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/testui"
+      "referenceTo": "/layouts/score-overflow"
     }
   ],
   "externalEvents": [],
@@ -1468,10 +1249,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspritecontinuousbar"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/baseconversion"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
