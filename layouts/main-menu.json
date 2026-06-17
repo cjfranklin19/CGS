@@ -366,7 +366,7 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
+                "value": "MouseButtonFromTextPressed"
               },
               "parameters": [
                 "",
@@ -476,7 +476,7 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextReleased"
+            "value": "MouseButtonFromTextPressed"
           },
           "parameters": [
             "",
