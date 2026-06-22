@@ -209,8 +209,8 @@
     },
     {
       "name": "targetOct",
-      "type": "string",
-      "value": ""
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -14064,7 +14064,7 @@
                   "parameters": [
                     "TargetOctal",
                     "=",
-                    "RandomInRange(0,15)"
+                    "RandomInRange(0,40)"
                   ]
                 },
                 {
@@ -14124,7 +14124,7 @@
                   "parameters": [
                     "BinaryString",
                     "=",
-                    "\"Convert:  \"+ToString(Bit3)+\"  \"+ToString(Bit2)+\"  \"+ToString(Bit1)+\"  \"+ToString(Bit0)+\" to Decimal\""
+                    "\"Convert:  \"+ToString(Bit3)+\"  \"+ToString(Bit2)+\"  \"+ToString(Bit1)+\"  \"+ToString(Bit0)+\" to octal\""
                   ]
                 },
                 {
