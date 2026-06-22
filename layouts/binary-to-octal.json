@@ -14082,6 +14082,26 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
+                    "Bit5",
+                    "=",
+                    "mod(floor(TargetOctal / 32), 2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Bit4",
+                    "=",
+                    "mod(floor(TargetOctal / 16), 2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
                     "Bit3",
                     "=",
                     "mod(floor(TargetOctal / 8), 2)"
@@ -14124,7 +14144,7 @@
                   "parameters": [
                     "BinaryString",
                     "=",
-                    "\"Convert:  \"+ToString(Bit3)+\"  \"+ToString(Bit2)+\"  \"+ToString(Bit1)+\"  \"+ToString(Bit0)+\" to octal\""
+                    "\"Convert:  \"+ToString(Bit5)+\" \"+ToString(Bit4)+\" \"+ToString(Bit3)+\" -  \"+ToString(Bit2)+\"  \"+ToString(Bit1)+\"  \"+ToString(Bit0)+\" to octal\""
                   ]
                 },
                 {
