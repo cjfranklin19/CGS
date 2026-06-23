@@ -1428,11 +1428,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/octal---binary"
+      "referenceTo": "/layouts/binary-to-octal"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/binary-to-octal"
+      "referenceTo": "/layouts/octal---binary"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

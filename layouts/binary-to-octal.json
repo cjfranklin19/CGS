@@ -38,7 +38,7 @@
       "value": 0
     },
     {
-      "name": "TargetOctal",
+      "name": "TargetBinary",
       "type": "number",
       "value": 0
     },
@@ -209,8 +209,13 @@
     },
     {
       "name": "targetOct",
-      "type": "number",
-      "value": 0
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "targetBin",
+      "type": "string",
+      "value": ""
     }
   ],
   "instances": [
@@ -14062,9 +14067,9 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "TargetOctal",
+                    "TargetBinary",
                     "=",
-                    "RandomInRange(0,40)"
+                    "RandomInRange(0,63)"
                   ]
                 },
                 {
@@ -14072,69 +14077,9 @@
                     "value": "SetStringVariable"
                   },
                   "parameters": [
-                    "targetOct",
+                    "targetBin",
                     "=",
-                    "BaseConversion::ToBase(TargetOctal, 8)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Bit5",
-                    "=",
-                    "mod(floor(TargetOctal / 32), 2)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Bit4",
-                    "=",
-                    "mod(floor(TargetOctal / 16), 2)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Bit3",
-                    "=",
-                    "mod(floor(TargetOctal / 8), 2)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Bit2",
-                    "=",
-                    "mod(floor(TargetOctal / 4), 2)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Bit1",
-                    "=",
-                    "mod(floor(TargetOctal / 2), 2)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Bit0",
-                    "=",
-                    "mod(TargetOctal, 2)"
+                    "BaseConversion::ToBase(TargetBinary, 2)"
                   ]
                 },
                 {
@@ -14144,7 +14089,17 @@
                   "parameters": [
                     "BinaryString",
                     "=",
-                    "\"Convert:  \"+ToString(Bit5)+\" \"+ToString(Bit4)+\" \"+ToString(Bit3)+\" -  \"+ToString(Bit2)+\"  \"+ToString(Bit1)+\"  \"+ToString(Bit0)+\" to octal\""
+                    "StrRepeat (\"0\", 6 - StrLength(targetBin)) + targetBin"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "targetOct",
+                    "=",
+                    "BaseConversion::ToBase(TargetBinary, 8)"
                   ]
                 },
                 {
@@ -14155,7 +14110,7 @@
                     "BinaryDisplay",
                     "Text",
                     "=",
-                    "BinaryString"
+                    "\"Convert: \"+BinaryString+\" to octal\""
                   ]
                 },
                 {
@@ -15007,7 +14962,7 @@
               "parameters": [
                 "PlayerNumber",
                 "=",
-                "Variable(TargetOctal)"
+                "Variable(targetOct)"
               ]
             }
           ],
@@ -15514,7 +15469,7 @@
               "parameters": [
                 "PlayerNumber",
                 "!=",
-                "Variable(TargetOctal)"
+                "Variable(targetOct)"
               ]
             }
           ],
@@ -15708,7 +15663,7 @@
           },
           "parameters": [
             "",
-            "\"binary to hex\"",
+            "\"Octal - Binary\"",
             ""
           ]
         }
