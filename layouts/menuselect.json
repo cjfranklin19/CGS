@@ -321,11 +321,21 @@
           "actions": [
             {
               "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "SceneTransition",
+                "=",
+                "\"Decimal - Binary(4bit)\""
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"Decimal - Binary(4bit)\"",
+                "\"transition scene\"",
                 ""
               ]
             }

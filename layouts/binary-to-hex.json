@@ -15434,7 +15434,7 @@
                 "Feedback2",
                 "Text",
                 "=",
-                "VariableString(resultText)"
+                "VariableString(ResultText)"
               ]
             },
             {
@@ -15941,7 +15941,7 @@
                 "Feedback2",
                 "Text",
                 "=",
-                "VariableString(resultText)"
+                "VariableString(ResultText)"
               ]
             },
             {
@@ -16104,7 +16104,7 @@
           },
           "parameters": [
             "",
-            "\"binary to hex (timed)\"",
+            "\"Post-Question ResultsBH\"",
             ""
           ]
         }
