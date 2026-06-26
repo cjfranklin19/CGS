@@ -151,7 +151,7 @@
     {
       "name": "levelQuestions",
       "type": "number",
-      "value": 18
+      "value": 12
     },
     {
       "name": "elapsedQuestionTime",
@@ -17167,7 +17167,7 @@
                         "TargetPrompt",
                         "Text",
                         "=",
-                        "\"convert: \"+BaseConversion::ToBase(TargetDecimal,2)+\" binary to decimal\""
+                        "\"convert: \" + SubStr(\"00000000\" + BaseConversion::ToBase(Variable(TargetDecimal), 2), StrLength(\"00000000\" + BaseConversion::ToBase(Variable(TargetDecimal), 2)) - 8, 8) + \" binary to decimal\""
                       ]
                     },
                     {
@@ -17241,7 +17241,7 @@
                       "parameters": [
                         "TargetDecimal",
                         "=",
-                        "RandomInRange(0,50)"
+                        "RandomInRange(0,128)"
                       ]
                     },
                     {
@@ -17317,7 +17317,7 @@
                       "parameters": [
                         "TargetDecimal",
                         "=",
-                        "RandomInRange(0,50)"
+                        "RandomInRange(0,255)"
                       ]
                     },
                     {
