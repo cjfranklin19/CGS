@@ -312,6 +312,11 @@
       "name": "checkingAnswer",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "answerWasCorrect",
+      "type": "boolean",
+      "value": false
     }
   ],
   "instances": [
@@ -16908,30 +16913,6 @@
           "parameters": [
             "finishButton"
           ]
-        },
-        {
-          "type": {
-            "value": "Hide"
-          },
-          "parameters": [
-            "Switches"
-          ]
-        },
-        {
-          "type": {
-            "value": "Hide"
-          },
-          "parameters": [
-            "numberPad"
-          ]
-        },
-        {
-          "type": {
-            "value": "Hide"
-          },
-          "parameters": [
-            "letterPad"
-          ]
         }
       ]
     },
@@ -16999,8 +16980,18 @@
                     "value": "SetBooleanVariable"
                   },
                   "parameters": [
-                    "questionOpen",
-                    "True",
+                    "answerWasCorrect",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "checkingAnswer",
+                    "False",
                     ""
                   ]
                 },
@@ -17012,6 +17003,24 @@
                     "PlayerAnswer",
                     "=",
                     "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "binaryTot",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Feedback"
                   ]
                 },
                 {
@@ -17040,34 +17049,11 @@
                 },
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "Show"
                   },
                   "parameters": [
-                    "AnswerDisplay",
-                    "Text",
-                    "=",
-                    "\"\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Feedback",
-                    "Text",
-                    "=",
-                    "\"\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "binaryTot",
-                    "=",
-                    "0"
+                    "Submit_Button",
+                    ""
                   ]
                 }
               ],
@@ -17094,7 +17080,7 @@
                       "parameters": [
                         "TargetDecimal",
                         "=",
-                        "RandomInRange(0,255)"
+                        "RandomInRange(0,10)"
                       ]
                     },
                     {
@@ -17170,7 +17156,7 @@
                       "parameters": [
                         "TargetDecimal",
                         "=",
-                        "RandomInRange(0,255)"
+                        "RandomInRange(0,10)"
                       ]
                     },
                     {
@@ -17255,7 +17241,7 @@
                       "parameters": [
                         "TargetDecimal",
                         "=",
-                        "RandomInRange(0,255)"
+                        "RandomInRange(0,50)"
                       ]
                     },
                     {
@@ -17331,7 +17317,7 @@
                       "parameters": [
                         "TargetDecimal",
                         "=",
-                        "RandomInRange(0,255)"
+                        "RandomInRange(0,50)"
                       ]
                     },
                     {
@@ -18873,6 +18859,16 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "inputLocked",
+            "False",
+            ""
+          ]
         }
       ],
       "actions": [
@@ -18882,15 +18878,56 @@
           },
           "parameters": [
             "checkingAnswer",
-            "False",
+            "True",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "inputLocked",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"FeedbackTimer\""
           ]
         }
       ],
       "events": [
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "binary correct"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "checkingAnswer",
+                "True",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "NumberVariable"
@@ -18915,6 +18952,26 @@
           "actions": [
             {
               "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Feedback",
+                "Text",
+                "=",
+                "\"Correct\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Feedback",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Hide"
               },
               "parameters": [
@@ -18923,45 +18980,22 @@
             },
             {
               "type": {
-                "value": "SetBooleanObjectVariable"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "Switches",
-                "Status",
-                "False",
-                ""
+                "score",
+                "+",
+                "basePoints"
               ]
             },
             {
               "type": {
-                "value": "SetStringVariable"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "resultText",
-                "=",
-                "\"Correct!\""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Feedback",
-                "Text",
-                "=",
-                "VariableString(resultText)"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "SCORE",
-                "Text",
-                "=",
-                "ToString(score)"
+                "streak",
+                "+",
+                "1"
               ]
             },
             {
@@ -18970,6 +19004,16 @@
               },
               "parameters": [
                 "questionsAnswered",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "numcorrectAnswers",
                 "+",
                 "1"
               ]
@@ -18989,59 +19033,9 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "streak",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "StreakText",
-                "Text",
-                "=",
-                "ToString(streak)"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "inputLocked",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "numcorrectAnswers",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
                 "binaryTot",
                 "=",
                 "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "Feedback",
-                ""
               ]
             },
             {
@@ -19050,8 +19044,69 @@
               },
               "parameters": [
                 "checkingAnswer",
+                "False",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "answerWasCorrect",
                 "True",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "inputLocked",
+                "True",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Switches"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Switches",
+                "Status",
+                "False",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Switches",
+                "Animation",
+                "=",
+                "\"off\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "SCORE",
+                "Text",
+                "=",
+                "ToString(score)"
               ]
             }
           ],
@@ -19064,9 +19119,9 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "streak",
-                    "<=",
-                    "1"
+                    "questionIndex",
+                    ">",
+                    "6"
                   ]
                 }
               ],
@@ -19076,9 +19131,9 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "score",
-                    "+",
-                    "100"
+                    "questionIndex",
+                    "=",
+                    "1"
                   ]
                 }
               ]
@@ -19119,156 +19174,6 @@
                   },
                   "parameters": [
                     "streak",
-                    "=",
-                    "3"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "score",
-                    "+",
-                    "200"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "streak",
-                    ">=",
-                    "4"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "score",
-                    "+",
-                    "250"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Speed Bonus Values"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "elapsedQuestionTime",
-                    "<=",
-                    "5"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "score",
-                    "+",
-                    "50"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "elapsedQuestionTime",
-                    ">=",
-                    "6"
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "elapsedQuestionTime",
-                        "<=",
-                        "10"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "score",
-                        "+",
-                        "25"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Changes highest streak based on streak"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "streak",
                     ">",
                     "highestStreak"
                   ]
@@ -19286,222 +19191,34 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "If there are more questions left to answer, move on to the next question after displaying feedback"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "questionsAnswered",
-                    "<",
-                    "levelQuestions"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Hide"
-                  },
-                  "parameters": [
-                    "Feedback"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Show"
-                  },
-                  "parameters": [
-                    "TargetPrompt",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "startNextQuestion",
-                    "True",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Reset switches after correct answer"
-            },
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Switches",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Switches",
-                    "Animation",
-                    "=",
-                    "\"off\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Switches",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetBooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Switches",
-                    "Status",
-                    "False",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "moved from sharing a condition with StartNextQuestion is true\nmy guess the program stopped checking the rest of the conditions once it found true\nadded a pause timer just to as a show of how long it took\nshortened the time in between questions"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "questionsAnswered",
-                    "=",
-                    "levelQuestions"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "SCORE",
-                    "Text",
-                    "=",
-                    "ToString(score)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PauseTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"CountingDown\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "finalScore",
-                    "=",
-                    "score"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "finalCorrectAnswers",
-                    "=",
-                    "numcorrectAnswers"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "finalIncorrectAnswers",
-                    "=",
-                    "incorrectAnswers"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "finalHighestStreak",
-                    "=",
-                    "highestStreak"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Show"
-                  },
-                  "parameters": [
-                    "finishButton",
-                    ""
-                  ]
-                }
-              ]
             }
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "binary incorrect"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "checkingAnswer",
+                "True",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "NumberVariable"
@@ -19526,11 +19243,21 @@
           "actions": [
             {
               "type": {
-                "value": "SetBooleanVariable"
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "checkingAnswer",
-                "False",
+                "Feedback",
+                "Text",
+                "=",
+                "\"Incorrect, try again!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Feedback",
                 ""
               ]
             },
@@ -19544,32 +19271,12 @@
             },
             {
               "type": {
-                "value": "SetStringVariable"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "resultText",
+                "streak",
                 "=",
-                "\"Incorrect, try again!\""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Feedback",
-                "Text",
-                "=",
-                "VariableString(resultText)"
-              ]
-            },
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "Feedback",
-                ""
+                "0"
               ]
             },
             {
@@ -19594,34 +19301,42 @@
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "SetBooleanVariable"
               },
               "parameters": [
-                "SCORE",
-                "Text",
-                "=",
-                "ToString(score)"
+                "checkingAnswer",
+                "False",
+                "1"
               ]
             },
             {
               "type": {
-                "value": "SetNumberVariable"
+                "value": "SetBooleanVariable"
               },
               "parameters": [
-                "streak",
-                "=",
-                "0"
+                "answerWasCorrect",
+                "False",
+                "1"
               ]
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "SetBooleanVariable"
               },
               "parameters": [
-                "StreakText",
-                "Text",
-                "=",
-                "ToString(streak)"
+                "inputLocked",
+                "False",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "startNextQuestion",
+                "False",
+                "1"
               ]
             },
             {
@@ -19636,99 +19351,74 @@
             },
             {
               "type": {
-                "value": "Wait"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "1"
+                "questionIndex",
+                "=",
+                "questionIndex"
               ]
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "SetBooleanObjectVariable"
               },
               "parameters": [
-                "Feedback"
-              ]
-            },
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "TargetPrompt",
+                "Switches",
+                "Status",
+                "False",
                 ""
               ]
-            }
-          ],
-          "events": [
+            },
             {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Switches",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetBooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Switches",
-                    "Status",
-                    "False",
-                    ""
-                  ]
-                }
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Switches",
+                "Animation",
+                "=",
+                "\"off\""
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Switches",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Switches",
-                    "Animation",
-                    "=",
-                    "\"off\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "score",
-                    "<",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "score",
-                    "=",
-                    "0"
-                  ]
-                }
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "SCORE",
+                "Text",
+                "=",
+                "ToString(score)"
               ]
             }
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "text correct"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "checkingAnswer",
+                "True",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "BuiltinCommonInstructions::Or"
@@ -19771,11 +19461,21 @@
           "actions": [
             {
               "type": {
-                "value": "SetBooleanVariable"
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "checkingAnswer",
-                "True",
+                "Feedback",
+                "Text",
+                "=",
+                "\"Correct\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Feedback",
                 ""
               ]
             },
@@ -19789,45 +19489,22 @@
             },
             {
               "type": {
-                "value": "SetBooleanObjectVariable"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "Switches",
-                "Status",
-                "False",
-                ""
+                "score",
+                "+",
+                "basePoints"
               ]
             },
             {
               "type": {
-                "value": "SetStringVariable"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "resultText",
-                "=",
-                "\"Correct!\""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Feedback",
-                "Text",
-                "=",
-                "VariableString(resultText)"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "SCORE",
-                "Text",
-                "=",
-                "ToString(score)"
+                "streak",
+                "+",
+                "1"
               ]
             },
             {
@@ -19845,47 +19522,6 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "questionIndex",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "streak",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "StreakText",
-                "Text",
-                "=",
-                "ToString(streak)"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "inputLocked",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
                 "numcorrectAnswers",
                 "+",
                 "1"
@@ -19893,685 +19529,12 @@
             },
             {
               "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "Feedback",
-                ""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Streak Multiplier Values"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "streak",
-                    "<=",
-                    "1"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "score",
-                    "+",
-                    "100"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "streak",
-                    "=",
-                    "2"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "score",
-                    "+",
-                    "150"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "streak",
-                    "=",
-                    "3"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "score",
-                    "+",
-                    "200"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "streak",
-                    ">=",
-                    "4"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "score",
-                    "+",
-                    "250"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Speed Bonus Values"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "elapsedQuestionTime",
-                    "<=",
-                    "5"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "score",
-                    "+",
-                    "50"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "elapsedQuestionTime",
-                    ">=",
-                    "6"
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "elapsedQuestionTime",
-                        "<=",
-                        "10"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "score",
-                        "+",
-                        "25"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Changes highest streak based on streak"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "streak",
-                    ">",
-                    "highestStreak"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "highestStreak",
-                    "=",
-                    "streak"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "questionIndex",
-                    ">",
-                    "6"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "questionIndex",
-                    "=",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "If there are more questions left to answer, move on to the next question after displaying feedback"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "questionsAnswered",
-                    "<",
-                    "levelQuestions"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Hide"
-                  },
-                  "parameters": [
-                    "Feedback"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Show"
-                  },
-                  "parameters": [
-                    "TargetPrompt",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "startNextQuestion",
-                    "True",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Reset switches after correct answer"
-            },
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Switches",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Switches",
-                    "Animation",
-                    "=",
-                    "\"off\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Switches",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetBooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Switches",
-                    "Status",
-                    "False",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "moved from sharing a condition with StartNextQuestion is true\nmy guess the program stopped checking the rest of the conditions once it found true\nadded a pause timer just to as a show of how long it took\nshortened the time in between questions"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "questionsAnswered",
-                    "=",
-                    "levelQuestions"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "SCORE",
-                    "Text",
-                    "=",
-                    "ToString(score)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PauseTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"CountingDown\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "finalScore",
-                    "=",
-                    "score"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "finalCorrectAnswers",
-                    "=",
-                    "numcorrectAnswers"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "finalIncorrectAnswers",
-                    "=",
-                    "incorrectAnswers"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "finalHighestStreak",
-                    "=",
-                    "highestStreak"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Show"
-                  },
-                  "parameters": [
-                    "finishButton",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "incorrect branch"
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "inputMode",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "inputMode",
-                    "=",
-                    "2"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "PlayerAnswer",
-                "!=",
-                "correctAnswers"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "checkingAnswer",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "TargetPrompt"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "resultText",
-                "=",
-                "\"Incorrect, try again!\""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Feedback",
-                "Text",
-                "=",
-                "VariableString(resultText)"
-              ]
-            },
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "Feedback",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "score",
-                "-",
-                "50"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "incorrectAnswers",
+                "questionIndex",
                 "+",
                 "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "SCORE",
-                "Text",
-                "=",
-                "ToString(score)"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "streak",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "StreakText",
-                "Text",
-                "=",
-                "ToString(streak)"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "binaryTot",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "Feedback"
-              ]
-            },
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "TargetPrompt",
-                ""
               ]
             },
             {
@@ -20583,41 +19546,73 @@
                 "=",
                 "\"\""
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "checkingAnswer",
+                "False",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "answerWasCorrect",
+                "True",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "inputLocked",
+                "True",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "SCORE",
+                "Text",
+                "=",
+                "ToString(score)"
+              ]
             }
           ],
           "events": [
             {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Switches",
-              "conditions": [],
-              "actions": [
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
                   "type": {
-                    "value": "SetBooleanObjectVariable"
+                    "value": "NumberVariable"
                   },
                   "parameters": [
-                    "Switches",
-                    "Status",
-                    "False",
-                    ""
+                    "questionIndex",
+                    ">",
+                    "6"
                   ]
                 }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Switches",
-              "conditions": [],
+              ],
               "actions": [
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                    "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "Switches",
-                    "Animation",
+                    "questionIndex",
                     "=",
-                    "\"off\""
+                    "1"
                   ]
                 }
               ]
@@ -20630,9 +19625,9 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "score",
-                    "<",
-                    "0"
+                    "streak",
+                    ">",
+                    "highestStreak"
                   ]
                 }
               ],
@@ -20642,13 +19637,286 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "score",
+                    "highestStreak",
                     "=",
-                    "0"
+                    "streak"
                   ]
                 }
               ]
             }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "text incorrect"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "checkingAnswer",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "inputMode",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "inputMode",
+                    "=",
+                    "2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "PlayerAnswer",
+                "!=",
+                "correctAnswers"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Feedback",
+                "Text",
+                "=",
+                "\"Incorrect, try again!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Feedback",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "TargetPrompt"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "streak",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "score",
+                "-",
+                "50"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "incorrectAnswers",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "PlayerAnswer",
+                "=",
+                "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "checkingAnswer",
+                "False",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "answerWasCorrect",
+                "False",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "inputLocked",
+                "False",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "startNextQuestion",
+                "False",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "SCORE",
+                "Text",
+                "=",
+                "ToString(score)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "feedback timer"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "answerWasCorrect",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"FeedbackTimer\"",
+            ">",
+            "0.5"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "Feedback"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "answerWasCorrect",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "inputLocked",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "startNextQuestion",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Show"
+          },
+          "parameters": [
+            "TargetPrompt",
+            ""
           ]
         }
       ]
@@ -20658,7 +19926,156 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextPressed"
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "answerWasCorrect",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"FeedbackTimer\"",
+            ">",
+            "0.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "Feedback"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "Feedback"
+          ]
+        },
+        {
+          "type": {
+            "value": "Show"
+          },
+          "parameters": [
+            "TargetPrompt",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "inputLocked",
+            "False",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "questionsAnswered",
+            "=",
+            "levelQuestions"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "SCORE",
+            "Text",
+            "=",
+            "ToString(score)"
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"CountingDown\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "finalScore",
+            "=",
+            "score"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "finalCorrectAnswers",
+            "=",
+            "numcorrectAnswers"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "finalIncorrectAnswers",
+            "=",
+            "incorrectAnswers"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "finalHighestStreak",
+            "=",
+            "highestStreak"
+          ]
+        },
+        {
+          "type": {
+            "value": "Show"
+          },
+          "parameters": [
+            "finishButton",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonFromTextReleased"
           },
           "parameters": [
             "",
@@ -20689,11 +20106,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
