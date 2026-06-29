@@ -59,136 +59,163 @@
   "variables": [
     {
       "name": "binaryTot",
+      "persistentUuid": "3948de66-d603-4b05-bcf6-0e45ce30e53d",
       "type": "number",
       "value": 0
     },
     {
       "name": "targetNum",
+      "persistentUuid": "523a2dd8-eef0-470a-84f0-11048cf7afff",
       "type": "number",
       "value": 0
     },
     {
       "name": "resultText",
+      "persistentUuid": "2d8dc23f-9a70-4600-91c3-85cb49d9c3d5",
       "type": "string",
       "value": "\"\""
     },
     {
       "name": "score",
+      "persistentUuid": "b26d424b-0e39-4c3d-8ac8-c6078a55148e",
       "type": "number",
       "value": 0
     },
     {
       "name": "basePoints",
+      "persistentUuid": "45947039-dea7-4679-b61c-ea5190b1138f",
       "type": "number",
       "value": 100
     },
     {
       "name": "penalty",
+      "persistentUuid": "f7186dc9-36fc-4d96-9058-b4b6f05db740",
       "type": "number",
       "value": 50
     },
     {
       "name": "mult",
+      "persistentUuid": "35d6c153-4979-4485-a0f2-11d950d85342",
       "type": "number",
       "value": 1
     },
     {
       "name": "streak",
+      "persistentUuid": "ef9ab2ad-c29c-4c4c-aaeb-cca60cd06e83",
       "type": "number",
       "value": 0
     },
     {
       "name": "wrongStreak",
+      "persistentUuid": "0c470c05-13be-4fd3-9086-f1badce898a3",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionsAnswered",
+      "persistentUuid": "915f895b-3ad8-402b-81b9-cbf07a87107a",
       "type": "number",
       "value": 0
     },
     {
       "name": "levelQuestions",
+      "persistentUuid": "ef57750e-313f-4063-aca0-66f9fe04fa59",
       "type": "number",
       "value": 5
     },
     {
       "name": "elapsedQuestionTime",
+      "persistentUuid": "612403cd-73a8-4419-8163-df329b7e569f",
       "type": "number",
       "value": 0
     },
     {
       "name": "timeLimit",
+      "persistentUuid": "adbe65a6-698a-4261-8360-0864346cb20a",
       "type": "number",
       "value": 30
     },
     {
       "name": "hintPenalty",
+      "persistentUuid": "a5b61293-d9b6-4c75-a3ec-be812b91f1a2",
       "type": "number",
       "value": 25
     },
     {
       "name": "hintOpen",
+      "persistentUuid": "33700803-388c-4684-8105-8b25a4456b3d",
       "type": "boolean",
       "value": false
     },
     {
       "name": "hintUsedThisQuestion",
+      "persistentUuid": "766d61f8-0231-41b7-9d58-be7bdcdb8caa",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionOpen",
+      "persistentUuid": "cf8372a9-476a-4cec-b153-b00fac7ec7ca",
       "type": "boolean",
       "value": true
     },
     {
       "name": "cityPower",
+      "persistentUuid": "273f54bf-599a-460d-9da0-cec03dabf6e4",
       "type": "number",
       "value": 0
     },
     {
       "name": "inputLocked",
+      "persistentUuid": "ca7df2d1-37b2-420d-8024-90695a2afb88",
       "type": "boolean",
       "value": false
     },
     {
       "name": "startNextQuestion",
+      "persistentUuid": "ca14b895-c2ee-47b3-8f24-387e7f62d989",
       "type": "boolean",
       "value": true
     },
     {
       "name": "correctAnswers",
+      "persistentUuid": "9e35eda7-e99d-4ba3-8311-293de96ade3e",
       "type": "number",
       "value": 0
     },
     {
       "name": "incorrectAnswers",
+      "persistentUuid": "d9774e5a-569e-47f8-b5de-50bf84e94a3d",
       "type": "number",
       "value": 0
     },
     {
       "name": "highestStreak",
+      "persistentUuid": "2f1974b9-1d02-4e39-a1f6-b95905c89708",
       "type": "number",
       "value": 0
     },
     {
       "name": "targetHex",
+      "persistentUuid": "a37b1920-e5ed-4d39-8e7e-7d39112f9db0",
       "type": "string",
       "value": ""
     },
     {
       "name": "hexDigit",
+      "persistentUuid": "03ca4815-de46-41be-b0d8-239ed88b081e",
       "type": "number",
       "value": 0
     },
     {
       "name": "hexLetterVal",
+      "persistentUuid": "ab5708cc-8ea0-4ed2-8a64-0b1a9aab32ce",
       "type": "number",
       "value": 0
     },
     {
       "name": "hexLetter",
+      "persistentUuid": "89a7a990-3c2b-46a8-86ea-292a5fe13368",
       "type": "string",
       "value": ""
     }

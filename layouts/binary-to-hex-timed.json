@@ -130,7 +130,7 @@
     {
       "name": "levelQuestions",
       "type": "number",
-      "value": 5
+      "value": 2
     },
     {
       "name": "questionOpen",
