@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Post_45Question_32ResultsOB",
-  "name": "Post-Question ResultsOB",
+  "mangledName": "Post_45Question_32cumulative",
+  "name": "Post-Question cumulative",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -419,7 +419,54 @@
           "parameters": [
             "SceneTransition",
             "=",
-            "\"cumulative in-progress\""
+            "\"binary to hex\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"transition scene\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "finishButton",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "SceneTransition",
+            "=",
+            "\"Credits\""
           ]
         },
         {

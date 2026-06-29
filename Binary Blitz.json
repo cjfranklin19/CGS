@@ -2824,6 +2824,150 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Traps/Saw/63cce13ef5f9e917ed2de1359357510061e462e6cc8183553c0fb0c70a3c03f9_Saw_On_8.png",
           "name": "Saw_On_8.png"
         }
+      },
+      {
+        "file": "assets/Icon Background_Blue Bordered with White Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Icon Background_Blue Bordered with White Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/c6aafabcee7775724150205315f8655043be58d2526aa7b97bad2e51fa36a5fd_Icon Background_Blue Bordered with White Border.png",
+          "name": "Icon Background_Blue Bordered with White Border.png"
+        }
+      },
+      {
+        "file": "assets/Icon Background_Brown.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Icon Background_Brown.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/7939ba85fba14815cef5709f093ca958c9399b7c4cf5b3dfd884c039f61e9932_Icon Background_Brown.png",
+          "name": "Icon Background_Brown.png"
+        }
+      },
+      {
+        "file": "assets/Icon Background_Circle White.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Icon Background_Circle White.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/4b7f93237faf966acde30ad6e093e8eed9dd0b2990d95936dfc5451427d07bea_Icon Background_Circle White.png",
+          "name": "Icon Background_Circle White.png"
+        }
+      },
+      {
+        "file": "assets/Icon Background_Dark Wood.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Icon Background_Dark Wood.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/74288ffdafa8785eae1d2f9aea454acea55352176be25ffc927d5d6eee31972f_Icon Background_Dark Wood.png",
+          "name": "Icon Background_Dark Wood.png"
+        }
+      },
+      {
+        "file": "assets/Icon Background_Green.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Icon Background_Green.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/3df6ed53ffcc6c8366cfaf47de5b8b902690ecc38c43c952ddc864654f6a5224_Icon Background_Green.png",
+          "name": "Icon Background_Green.png"
+        }
+      },
+      {
+        "file": "assets/Icon Background_Purple Angled Corner.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Icon Background_Purple Angled Corner.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/3ebd5b354f3b00ce2204ae21dabe31a597ccb77ac5829f19245409be9f5d105d_Icon Background_Purple Angled Corner.png",
+          "name": "Icon Background_Purple Angled Corner.png"
+        }
+      },
+      {
+        "file": "assets/Icon Background_Stone.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Icon Background_Stone.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/1e854416e1ae7956f9fc68fba46f488b28081586a4a4185d407ccfcba814b39a_Icon Background_Stone.png",
+          "name": "Icon Background_Stone.png"
+        }
+      },
+      {
+        "file": "assets/Icon Background_White Angled Corner.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Icon Background_White Angled Corner.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/c0f4d32632e30451af5cb7a00843e02f1d6118e54e1d97319a811f5cee29d5cb_Icon Background_White Angled Corner.png",
+          "name": "Icon Background_White Angled Corner.png"
+        }
+      },
+      {
+        "file": "assets/Icon Background_White With Blue Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Icon Background_White With Blue Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/6554ad52c2adb7c7cbf5683e6dcfd2647b89e6749c48689f79748a4200005fc6_Icon Background_White With Blue Border.png",
+          "name": "Icon Background_White With Blue Border.png"
+        }
+      },
+      {
+        "file": "assets/Icon Background_White With Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Icon Background_White With Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/37ba67f6b8f684fe33685a38374640cc43984d8b41fa8c0cd407df543c023464_Icon Background_White With Border.png",
+          "name": "Icon Background_White With Border.png"
+        }
+      },
+      {
+        "file": "assets/Icon Background_White.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Icon Background_White.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/435079c9f089c9e1d6ebffaaf912afd4089735ece823c2a0ce79ae5b56a31725_Icon Background_White.png",
+          "name": "Icon Background_White.png"
+        }
+      },
+      {
+        "file": "assets/Icon Background_Wood.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Icon Background_Wood.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/70d79b102342faacf75e05d9e47d317522e070b5d55b0be8ccf90ee3ff5e09b4_Icon Background_Wood.png",
+          "name": "Icon Background_Wood.png"
+        }
       }
     ]
   },
@@ -2965,6 +3109,10 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/main-menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/menuselect"
     },
     {
@@ -3049,7 +3197,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/main-menu"
+      "referenceTo": "/layouts/post-question-cumulative"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/credits"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
