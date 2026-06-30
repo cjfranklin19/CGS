@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "binary_32to_32hex",
-  "name": "binary to hex",
+  "mangledName": "Binary_32to_32octal",
+  "name": "Binary to octal",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3645833333333333,
+    "zoomFactor": 0.47535850871269353,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -29,245 +29,196 @@
   "variables": [
     {
       "name": "BinaryString",
-      "persistentUuid": "0daf2cc9-7830-4a1d-b339-30c684281ea3",
       "type": "string",
       "value": ""
     },
     {
       "name": "BitCount",
-      "persistentUuid": "ab7bc00d-73c5-4726-911d-253d8b421e02",
       "type": "number",
       "value": 0
     },
     {
-      "name": "HexLow",
-      "persistentUuid": "ec8a6a25-1d0b-473c-ba71-77765d5e37ce",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "HexHigh",
-      "persistentUuid": "86c23ed5-d528-4608-a8f0-43d97a2ef574",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "TargetHex",
-      "persistentUuid": "2363d9fe-6ef7-471c-a470-2da5c14b6644",
+      "name": "TargetBinary",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit0",
-      "persistentUuid": "4bac74ec-1240-4bdb-8422-41a52956e092",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit1",
-      "persistentUuid": "42647e10-ff3a-43c7-be74-98c5c2c46036",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit2",
-      "persistentUuid": "e7f8d9b4-9a2e-4290-851a-1b3485895478",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit3",
-      "persistentUuid": "d66e6493-6ea7-4380-9d26-af8d2a2061f7",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit4",
-      "persistentUuid": "8ab7e506-70ba-4591-afc2-4adbf7c9775f",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit5",
-      "persistentUuid": "d86039f3-3dcd-4f56-8e9b-2e6d2e91b7c1",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit6",
-      "persistentUuid": "30934335-3cf9-47f3-bb8f-eea6be2de20c",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit7",
-      "persistentUuid": "603cafda-bbdb-4c49-81c7-b24dd9f1fc75",
       "type": "number",
       "value": 0
     },
     {
-      "name": "HexLowText",
-      "persistentUuid": "b9494604-a40c-45e1-8252-4d6ae1340bef",
+      "name": "DecNumText",
       "type": "string",
       "value": ""
     },
     {
       "name": "HexHighText",
-      "persistentUuid": "d6f3d8f6-a324-4ac4-9668-7255906dcd01",
       "type": "string",
       "value": ""
     },
     {
       "name": "PlayerAnswer",
-      "persistentUuid": "b9192bd2-c6ad-40a6-adf8-1fd871a5caae",
       "type": "string",
       "value": ""
     },
     {
       "name": "PlayerNumber",
-      "persistentUuid": "837de251-7459-4c8e-ab83-2525dd000915",
       "type": "number",
       "value": 0
     },
     {
       "name": "ResultText",
-      "persistentUuid": "097e99b1-7d8c-4ce0-a76a-133d62bddd10",
       "type": "string",
       "value": ""
     },
     {
       "name": "score",
-      "persistentUuid": "4ea7f4e7-f33c-42fb-abfc-0c3e6f9aff3e",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionsAnswered",
-      "persistentUuid": "54935f1b-599e-43d0-857d-d3588230f837",
       "type": "number",
       "value": 0
     },
     {
       "name": "levelQuestions",
-      "persistentUuid": "65f84f0d-2223-4960-935e-5a2302a094cb",
       "type": "number",
       "value": 5
     },
     {
       "name": "questionOpen",
-      "persistentUuid": "d079675e-9ec8-4e08-8812-0497d6f2a099",
       "type": "boolean",
       "value": true
     },
     {
       "name": "inputLocked",
-      "persistentUuid": "2e05ffdd-adad-4b2d-8805-a45ef35dd81b",
       "type": "boolean",
       "value": false
     },
     {
       "name": "startNextQuestion",
-      "persistentUuid": "bf635ba8-5e75-49bd-b2e6-4eb7375a2ade",
       "type": "boolean",
       "value": true
     },
     {
       "name": "hintOpen",
-      "persistentUuid": "89c1cb21-0c2f-4c6d-ae74-3ec743de2c33",
       "type": "boolean",
       "value": false
     },
     {
       "name": "elapsedQuestionTime",
-      "persistentUuid": "b2db4bc4-0402-4dc2-bbbb-e176a2fd4d8c",
       "type": "number",
       "value": 0
     },
     {
       "name": "correctAnswers",
-      "persistentUuid": "45cf49f3-438d-49ee-bd42-8fb9adac640c",
       "type": "number",
       "value": 0
     },
     {
       "name": "streak",
-      "persistentUuid": "444fb5ea-0570-4def-a5b3-cd301a89c3e1",
       "type": "number",
       "value": 0
     },
     {
       "name": "highestStreak",
-      "persistentUuid": "23f8740a-2f70-4ce4-8ce7-1ebf6ba0e95f",
       "type": "number",
       "value": 0
     },
     {
       "name": "incorrectAnswers",
-      "persistentUuid": "401a38b1-692c-4f46-afe2-7f83711d894d",
       "type": "number",
       "value": 0
     },
     {
       "name": "timeLimit",
-      "persistentUuid": "7181e1ba-57c7-41cf-82d9-f9be3e263dc8",
       "type": "number",
       "value": 30
     },
     {
       "name": "mult",
-      "persistentUuid": "4b7d2470-aec6-4558-b850-3e799900a854",
       "type": "number",
       "value": 0
     },
     {
       "name": "cityPower",
-      "persistentUuid": "b3ea6972-c7b5-426f-a6d7-5138a9f060ca",
       "type": "number",
       "value": 0
     },
     {
       "name": "basePoints",
-      "persistentUuid": "bcf29d46-9591-4579-99d2-5626177d1c08",
       "type": "number",
       "value": 100
     },
     {
       "name": "penalty",
-      "persistentUuid": "d21c2881-2ad3-4aca-bbfd-b38c0d005443",
       "type": "number",
       "value": 50
     },
     {
       "name": "hintUsedThisQuestion",
-      "persistentUuid": "f4b64dca-b30b-4729-a089-be6a2891f3af",
       "type": "number",
       "value": 0
     },
     {
       "name": "wrongStreak",
-      "persistentUuid": "e4024050-1242-47a7-b456-ff1cca76c2ec",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "DecNum",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "targetOct",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "targetBin",
+      "type": "string",
+      "value": ""
     }
   ],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1416,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Forest_Background_2",
-      "persistentUuid": "090eb901-b7cb-4e44-9959-b3ff27f321e7",
-      "width": 2461,
-      "x": -256,
-      "y": -47,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": false,
@@ -277,8 +228,8 @@
       "name": "BinaryDisplay",
       "persistentUuid": "52e7262e-ad51-40d5-8ba5-f56f47da8a42",
       "width": 0,
-      "x": 455,
-      "y": 302,
+      "x": 257,
+      "y": 322,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -293,8 +244,8 @@
       "name": "AnswerDisplay",
       "persistentUuid": "d7a5f115-f193-428d-8ab2-67bae3f725a2",
       "width": 0,
-      "x": 893,
-      "y": 449,
+      "x": 843,
+      "y": 460,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -309,8 +260,8 @@
       "name": "SCORE",
       "persistentUuid": "a9265870-43b9-4587-a45d-6be46e8fcea4",
       "width": 0,
-      "x": 127,
-      "y": 71,
+      "x": 184,
+      "y": 75,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -341,8 +292,8 @@
       "name": "Number_Key0",
       "persistentUuid": "352c3577-abf4-448e-ad0c-af3b6e579244",
       "width": 0,
-      "x": 490,
-      "y": 915,
+      "x": 863,
+      "y": 956,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -358,8 +309,8 @@
       "name": "Number_Key1",
       "persistentUuid": "c67ac69b-b96a-4980-95df-fad93a14575f",
       "width": 89,
-      "x": 421,
-      "y": 836,
+      "x": 794,
+      "y": 877,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -374,8 +325,8 @@
       "name": "Number_Key2",
       "persistentUuid": "ad6f80f4-9932-4af5-9070-252818746a80",
       "width": 0,
-      "x": 498,
-      "y": 834,
+      "x": 871,
+      "y": 875,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -390,8 +341,8 @@
       "name": "Number_Key3",
       "persistentUuid": "47d9db40-b1c0-467c-a78d-6942ca3fc0a1",
       "width": 0,
-      "x": 613,
-      "y": 833,
+      "x": 986,
+      "y": 874,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -406,8 +357,8 @@
       "name": "Number_Key4",
       "persistentUuid": "a5391395-d1fa-4eec-8025-0f7e7b40597f",
       "width": 0,
-      "x": 418,
-      "y": 737,
+      "x": 791,
+      "y": 778,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -422,8 +373,8 @@
       "name": "Number_Key5",
       "persistentUuid": "2ed526c8-5d8a-4660-be01-ce97d9b30585",
       "width": 0,
-      "x": 503,
-      "y": 735,
+      "x": 876,
+      "y": 776,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -438,8 +389,8 @@
       "name": "Number_Key6",
       "persistentUuid": "d523290e-c8ff-43d0-89b7-483fde24683e",
       "width": 0,
-      "x": 608,
-      "y": 740,
+      "x": 981,
+      "y": 781,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -454,8 +405,8 @@
       "name": "Number_Key7",
       "persistentUuid": "efc6c264-f7c7-4535-b1cd-9ed3000b4fb3",
       "width": 0,
-      "x": 418,
-      "y": 652,
+      "x": 791,
+      "y": 693,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -470,8 +421,8 @@
       "name": "Number_Key8",
       "persistentUuid": "67b590d3-26ea-46f6-9520-a7d59c19f07a",
       "width": 0,
-      "x": 509,
-      "y": 650,
+      "x": 882,
+      "y": 691,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -486,105 +437,9 @@
       "name": "Number_Key9",
       "persistentUuid": "1360914c-752b-4ffc-96f2-8bca41188745",
       "width": 0,
-      "x": 616,
-      "y": 658,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Letter_KeyA",
-      "persistentUuid": "122ccee4-fabc-4904-8366-b9ce925b5dd3",
-      "width": 0,
-      "x": 827,
-      "y": 663,
-      "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Letter_KeyB",
-      "persistentUuid": "7e714169-145e-4410-b1cf-7607670489ec",
-      "width": 0,
-      "x": 935,
-      "y": 661,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Letter_KeyC",
-      "persistentUuid": "a6d73b6f-4b6a-4abf-9db3-df4944d88391",
-      "width": 0,
-      "x": 1055,
-      "y": 663,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Letter_KeyD",
-      "persistentUuid": "30122e94-25f3-4b53-86ea-3dd479e5e6ca",
-      "width": 0,
-      "x": 832,
-      "y": 773,
-      "zOrder": 19,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Letter_KeyE",
-      "persistentUuid": "36fe7ed3-9571-4bd9-bf5a-adb620983d22",
-      "width": 0,
-      "x": 931,
-      "y": 775,
-      "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Letter_KeyF",
-      "persistentUuid": "65990e03-41ca-46dd-b132-9666ad47376a",
-      "width": 0,
-      "x": 1049,
-      "y": 778,
-      "zOrder": 21,
+      "x": 989,
+      "y": 699,
+      "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -640,47 +495,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1161,
       "keepRatio": true,
-      "layer": "",
-      "name": "StreakText",
-      "persistentUuid": "afd556c5-0daf-4ae5-8c6b-74664b72c8f7",
-      "width": 0,
-      "x": 882,
-      "y": 71,
-      "zOrder": 25,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Streaklable",
-      "persistentUuid": "4b6217c4-5614-4679-bfb6-b93ed3744a43",
-      "width": 0,
-      "x": 81,
-      "y": 143,
-      "zOrder": 26,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "StreakText",
-      "persistentUuid": "675ab66d-5cef-477f-8344-013fd1a61db2",
-      "width": 0,
-      "x": 539,
-      "y": 143,
+      "layer": "background",
+      "name": "Forest_Background_2",
+      "persistentUuid": "2d17594c-91b7-4778-9e16-4e5c101a5bab",
+      "width": 2135,
+      "x": -72,
+      "y": -11,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -692,11 +516,11 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Score_label",
-      "persistentUuid": "83665bab-5c74-4353-be78-79e6c5b712c1",
+      "name": "StreakText",
+      "persistentUuid": "98431561-625e-4485-a13c-752955a0ee62",
       "width": 0,
-      "x": 466,
-      "y": 74,
+      "x": 490,
+      "y": 140,
       "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
@@ -704,16 +528,15 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 210,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "storybox",
-      "persistentUuid": "f0f6fae5-0ed5-4635-9938-33af608ba4c6",
-      "width": 1458,
-      "x": 240,
-      "y": 233,
+      "name": "Streaklable",
+      "persistentUuid": "bb3c81a4-b74a-45f7-b399-e188f82a3cd5",
+      "width": 0,
+      "x": 50,
+      "y": 146,
       "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
@@ -721,16 +544,15 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 244,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Story_text",
-      "persistentUuid": "3028013e-2ea9-4a45-a383-d0eec8c8798b",
-      "width": 1413,
-      "x": 264,
-      "y": 250,
+      "name": "Score_label",
+      "persistentUuid": "3982c3dc-1265-4012-874a-33985e0416f5",
+      "width": 0,
+      "x": 429,
+      "y": 77,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -751,7 +573,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Text",
-      "font": "",
+      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
       "textAlignment": "left",
       "characterSize": 65,
       "color": {
@@ -774,7 +596,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Text",
-        "font": "",
+        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 65,
@@ -13581,7 +13403,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Text",
-      "font": "",
+      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
       "textAlignment": "left",
       "characterSize": 80,
       "color": {
@@ -13604,7 +13426,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Text",
-        "font": "",
+        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 80,
@@ -13830,7 +13652,6 @@
       "bold": false,
       "italic": false,
       "name": "Streaklable",
-      "persistentUuid": "53f93bae-26f8-48e8-a502-89ca63494e2e",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -13874,7 +13695,7 @@
       "bold": false,
       "italic": false,
       "name": "Score_label",
-      "persistentUuid": "7a5f4c76-2f14-4d72-a229-a106c9e9805b",
+      "persistentUuid": "165464ad-0cab-4fad-aaab-c1e749bd1392",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -13912,77 +13733,6 @@
         "lineHeight": 0,
         "color": "184;233;134"
       }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "Story_text",
-      "persistentUuid": "4ea6a864-1ac6-4074-88a2-9f420d0755f2",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "AutoTyping",
-          "type": "AutoTyping::AutoTyping",
-          "Text": "Text",
-          "Interval": 0.06,
-          "CharacterJustAdded": false,
-          "FullText": "",
-          "TypedText": ""
-        }
-      ],
-      "string": "HQ to Converter, the Gridbreaker Syndicate realized your skill with basic conversion and has gone to their plan B, hexadecimal. Now you have to convert their binary to numbers and letters to fix the system. Remember to break the binary into two groups of 4 bits, the first half is a number 0-9, and the other half is from 10-15",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 38,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "HQ to Converter, the Gridbreaker Syndicate realized your skill with basic conversion and has gone to their plan B, hexadecimal. Now you have to convert their binary to numbers and letters to fix the system. Remember to break the binary into two groups of 4 bits, the first half is a number 0-9, and the other half is from 10-15",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 38,
-        "lineHeight": 0,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "b7b916614570780a0e1ee277966a3cd49566347fde75ac0c0c7a95554156b4e9",
-      "bottomMargin": 12,
-      "height": 48,
-      "leftMargin": 12,
-      "name": "storybox",
-      "persistentUuid": "d201f1a1-8ed5-403a-97bc-f21edc7d27a8",
-      "rightMargin": 12,
-      "texture": "Default-panel (2).png",
-      "tiled": false,
-      "topMargin": 12,
-      "type": "PanelSpriteObject::PanelSprite",
-      "width": 48,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -14055,9 +13805,6 @@
         "objectName": "AnswerDisplay"
       },
       {
-        "objectName": "Score_label"
-      },
-      {
         "objectName": "Letter_KeyE"
       },
       {
@@ -14073,10 +13820,7 @@
         "objectName": "Streaklable"
       },
       {
-        "objectName": "Story_text"
-      },
-      {
-        "objectName": "storybox"
+        "objectName": "Score_label"
       }
     ]
   },
@@ -14237,6 +13981,18 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "need to work on gettin the logic to work properly "
+    },
+    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
@@ -14311,109 +14067,19 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "HexLow",
+                    "TargetBinary",
                     "=",
-                    "RandomInRange(0,9)"
+                    "RandomInRange(0,63)"
                   ]
                 },
                 {
                   "type": {
-                    "value": "SetNumberVariable"
+                    "value": "SetStringVariable"
                   },
                   "parameters": [
-                    "HexHigh",
+                    "targetBin",
                     "=",
-                    "RandomInRange(10,15)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "TargetHex",
-                    "=",
-                    "HexLow*16+HexHigh"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Bit7",
-                    "=",
-                    "mod(floor(TargetHex/128),2)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Bit6",
-                    "=",
-                    "mod(floor(TargetHex/64),2)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Bit5",
-                    "=",
-                    "mod(floor(TargetHex/32),2)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Bit4",
-                    "=",
-                    "mod(floor(TargetHex/16),2)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Bit3",
-                    "=",
-                    "mod(floor(TargetHex/8),2)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Bit2",
-                    "=",
-                    "mod(floor(TargetHex/4),2)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Bit1",
-                    "=",
-                    "mod(floor(TargetHex/2),2)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Bit0",
-                    "=",
-                    "mod(TargetHex,2)"
+                    "BaseConversion::ToBase(TargetBinary, 2)"
                   ]
                 },
                 {
@@ -14423,7 +14089,17 @@
                   "parameters": [
                     "BinaryString",
                     "=",
-                    "\"Convert: \"+ToString(Bit7)+\"  \"+ToString(Bit6)+\"  \"+ToString(Bit5)+\"  \"+ToString(Bit4)+\"    \"+ToString(Bit3)+\"  \"+ToString(Bit2)+\"  \"+ToString(Bit1)+\"  \"+ToString(Bit0)+\" to hex\""
+                    "StrRepeat (\"0\", 6 - StrLength(targetBin)) + targetBin"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "targetOct",
+                    "=",
+                    "BaseConversion::ToBase(TargetBinary, 8)"
                   ]
                 },
                 {
@@ -14434,7 +14110,7 @@
                     "BinaryDisplay",
                     "Text",
                     "=",
-                    "BinaryString"
+                    "\"Convert: \"+BinaryString+\" to octal\""
                   ]
                 },
                 {
@@ -14505,7 +14181,7 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "HexLow",
+                        "DecNum",
                         "=",
                         "0"
                       ]
@@ -14517,7 +14193,7 @@
                         "value": "SetStringVariable"
                       },
                       "parameters": [
-                        "HexLowText",
+                        "DecNumText",
                         "=",
                         "\"0\""
                       ]
@@ -14532,7 +14208,7 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "HexLow",
+                        "DecNum",
                         "=",
                         "1"
                       ]
@@ -14544,7 +14220,7 @@
                         "value": "SetStringVariable"
                       },
                       "parameters": [
-                        "HexLowText",
+                        "DecNumText",
                         "=",
                         "\"1\""
                       ]
@@ -14559,7 +14235,7 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "HexLow",
+                        "DecNum",
                         "=",
                         "2"
                       ]
@@ -14571,7 +14247,7 @@
                         "value": "SetStringVariable"
                       },
                       "parameters": [
-                        "HexLowText",
+                        "DecNumText",
                         "=",
                         "\"2\""
                       ]
@@ -14586,7 +14262,7 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "HexLow",
+                        "DecNum",
                         "=",
                         "3"
                       ]
@@ -14598,7 +14274,7 @@
                         "value": "SetStringVariable"
                       },
                       "parameters": [
-                        "HexLowText",
+                        "DecNumText",
                         "=",
                         "\"3\""
                       ]
@@ -14613,7 +14289,7 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "HexLow",
+                        "DecNum",
                         "=",
                         "4"
                       ]
@@ -14625,7 +14301,7 @@
                         "value": "SetStringVariable"
                       },
                       "parameters": [
-                        "HexLowText",
+                        "DecNumText",
                         "=",
                         "\"4\""
                       ]
@@ -14640,7 +14316,7 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "HexLow",
+                        "DecNum",
                         "=",
                         "5"
                       ]
@@ -14652,7 +14328,7 @@
                         "value": "SetStringVariable"
                       },
                       "parameters": [
-                        "HexLowText",
+                        "DecNumText",
                         "=",
                         "\"5\""
                       ]
@@ -14667,7 +14343,7 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "HexLow",
+                        "DecNum",
                         "=",
                         "6"
                       ]
@@ -14679,7 +14355,7 @@
                         "value": "SetStringVariable"
                       },
                       "parameters": [
-                        "HexLowText",
+                        "DecNumText",
                         "=",
                         "\"6\""
                       ]
@@ -14694,7 +14370,7 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "HexLow",
+                        "DecNum",
                         "=",
                         "7"
                       ]
@@ -14706,7 +14382,7 @@
                         "value": "SetStringVariable"
                       },
                       "parameters": [
-                        "HexLowText",
+                        "DecNumText",
                         "=",
                         "\"7\""
                       ]
@@ -14721,7 +14397,7 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "HexLow",
+                        "DecNum",
                         "=",
                         "8"
                       ]
@@ -14733,7 +14409,7 @@
                         "value": "SetStringVariable"
                       },
                       "parameters": [
-                        "HexLowText",
+                        "DecNumText",
                         "=",
                         "\"8\""
                       ]
@@ -14748,7 +14424,7 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "HexLow",
+                        "DecNum",
                         "=",
                         "9"
                       ]
@@ -14760,7 +14436,7 @@
                         "value": "SetStringVariable"
                       },
                       "parameters": [
-                        "HexLowText",
+                        "DecNumText",
                         "=",
                         "\"9\""
                       ]
@@ -14780,168 +14456,6 @@
                   "comment": ""
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "HexHigh",
-                        "=",
-                        "10"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetStringVariable"
-                      },
-                      "parameters": [
-                        "HexHighText",
-                        "=",
-                        "\"A\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "HexHigh",
-                        "=",
-                        "11"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetStringVariable"
-                      },
-                      "parameters": [
-                        "HexHighText",
-                        "=",
-                        "\"B\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "HexHigh",
-                        "=",
-                        "12"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetStringVariable"
-                      },
-                      "parameters": [
-                        "HexHighText",
-                        "=",
-                        "\"C\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "HexHigh",
-                        "=",
-                        "13"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetStringVariable"
-                      },
-                      "parameters": [
-                        "HexHighText",
-                        "=",
-                        "\"D\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "HexHigh",
-                        "=",
-                        "14"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetStringVariable"
-                      },
-                      "parameters": [
-                        "HexHighText",
-                        "=",
-                        "\"E\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "HexHigh",
-                        "=",
-                        "15"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetStringVariable"
-                      },
-                      "parameters": [
-                        "HexHighText",
-                        "=",
-                        "\"F\""
-                      ]
-                    }
-                  ]
-                },
-                {
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -14956,18 +14470,7 @@
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "TargetHex",
-                        "=",
-                        "HexLowText+HexHighText"
-                      ]
-                    }
-                  ]
+                  "actions": []
                 }
               ]
             }
@@ -15356,240 +14859,6 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": ""
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "Letter_KeyA",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "PlayerAnswer",
-                "=",
-                "PlayerAnswer + Letter_KeyA.LetterDigitA"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "Letter_KeyB",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "PlayerAnswer",
-                "=",
-                "PlayerAnswer + Letter_KeyB.LetterDigitB"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "Letter_KeyC",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "PlayerAnswer",
-                "=",
-                "PlayerAnswer + Letter_KeyC.LetterDigitC"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "Letter_KeyD",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "PlayerAnswer",
-                "=",
-                "PlayerAnswer + Letter_KeyD.LetterDigitD"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "Letter_KeyE",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "PlayerAnswer",
-                "=",
-                "PlayerAnswer + Letter_KeyE.LetterDigitE"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "Letter_KeyF",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "PlayerAnswer",
-                "=",
-                "PlayerAnswer + Letter_KeyF.LetterDigitF"
-              ]
-            }
-          ]
-        },
-        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -15693,7 +14962,7 @@
               "parameters": [
                 "PlayerNumber",
                 "=",
-                "Variable(TargetHex)"
+                "Variable(targetOct)"
               ]
             }
           ],
@@ -16200,7 +15469,7 @@
               "parameters": [
                 "PlayerNumber",
                 "!=",
-                "Variable(TargetHex)"
+                "Variable(targetOct)"
               ]
             }
           ],
@@ -16394,7 +15663,7 @@
           },
           "parameters": [
             "",
-            "\"Post-Question ResultsBH\"",
+            "\"Post-Question ResultsBO\"",
             ""
           ]
         }
@@ -16572,151 +15841,63 @@
           ]
         }
       ]
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "text prompt",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneJustBegins"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "25"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"CountingDown\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneJustBegins"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"showtimer\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"showtimer\"",
-                ">=",
-                "25"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "storybox"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "Story_text"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneJustBegins"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "TargetPrompt"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "25"
-              ]
-            },
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "TargetPrompt",
-                ""
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
     }
   ],
   "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": true,
+      "name": "background",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
     {
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
@@ -16787,10 +15968,6 @@
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
-    },
-    {
-      "name": "AutoTyping",
-      "type": "AutoTyping::AutoTyping"
     },
     {
       "name": "Effect",

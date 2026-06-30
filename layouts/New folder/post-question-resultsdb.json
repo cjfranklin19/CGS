@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Post_45Question_32Results",
-  "name": "Post-Question Results",
+  "mangledName": "Post_45Question_32Resultsdb",
+  "name": "Post-Question Resultsdb",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -37,9 +37,9 @@
       "layer": "",
       "name": "Score",
       "persistentUuid": "4de73ff1-5f01-4004-a1b8-9d8b105dce83",
-      "width": 255,
-      "x": 788,
-      "y": 102,
+      "width": 496,
+      "x": 761,
+      "y": 163,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -123,7 +123,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "SCORE\n",
+      "string": "SCORE: ",
       "font": "",
       "textAlignment": "left",
       "characterSize": 70,
@@ -146,7 +146,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "SCORE\n",
+        "text": "SCORE: ",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -414,11 +414,21 @@
       "actions": [
         {
           "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "SceneTransition",
+            "=",
+            "\"Dec-binary timed\""
+          ]
+        },
+        {
+          "type": {
             "value": "Scene"
           },
           "parameters": [
             "",
-            "\"Dec-binary timed\"",
+            "\"transition scene\"",
             ""
           ]
         }

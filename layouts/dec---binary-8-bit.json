@@ -200,15 +200,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 138,
+      "depth": 1,
+      "height": 65,
       "keepRatio": true,
       "layer": "",
       "name": "Submit_Button",
       "persistentUuid": "85eafccd-d85a-4478-9f53-24c87dd42a72",
       "width": 138,
-      "x": 1623,
-      "y": 891,
+      "x": 1381,
+      "y": 993,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -217,15 +217,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1.0761421319796953,
-      "height": 212,
+      "depth": 1,
+      "height": 158,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_128",
       "persistentUuid": "4aa1cf67-a991-428f-8b27-dd71b5e8084c",
-      "width": 138,
-      "x": 67,
-      "y": 851,
+      "width": 103,
+      "x": 436,
+      "y": 819,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -240,16 +240,16 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 212.30769230769238,
+      "depth": 1,
+      "height": 158,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_64",
       "persistentUuid": "de42addc-4bc1-470e-a3ac-5a533703be6f",
-      "width": 138,
-      "x": 260,
-      "y": 851,
-      "zOrder": 3,
+      "width": 103,
+      "x": 567,
+      "y": 819,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -263,15 +263,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 212.30769230769232,
+      "depth": 1,
+      "height": 158,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_32",
       "persistentUuid": "a6748144-dd77-45eb-b284-6cf156d6c29d",
-      "width": 138,
-      "x": 441,
-      "y": 851,
+      "width": 103,
+      "x": 700,
+      "y": 819,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -286,15 +286,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 212.30769230769232,
+      "depth": 1,
+      "height": 158,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_16",
       "persistentUuid": "4d5100ef-8e2c-4aab-93c9-ffeb0f4903af",
-      "width": 138,
-      "x": 644,
-      "y": 851,
+      "width": 103,
+      "x": 838,
+      "y": 819,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -309,15 +309,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 212.30769230769232,
+      "depth": 1,
+      "height": 158,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_8",
       "persistentUuid": "9c67ae53-b388-4a4c-9d5c-b30764c2ad83",
-      "width": 138,
-      "x": 847,
-      "y": 851,
+      "width": 103,
+      "x": 972,
+      "y": 819,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -326,15 +326,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 212.30769230769232,
+      "depth": 1,
+      "height": 158,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_4",
       "persistentUuid": "e38de78b-49bc-4991-9308-d52f3db7a5d5",
-      "width": 138,
-      "x": 1036,
-      "y": 851,
+      "width": 103,
+      "x": 1106,
+      "y": 819,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -343,15 +343,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 212.30769230769232,
+      "depth": 1,
+      "height": 158,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_2",
       "persistentUuid": "9e6be75d-0aa5-4645-89e4-fddbd8fea88f",
-      "width": 138,
-      "x": 1207,
-      "y": 851,
+      "width": 103,
+      "x": 1236,
+      "y": 819,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -360,15 +360,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 212.30769230769232,
+      "depth": 1,
+      "height": 158,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_1",
       "persistentUuid": "d8dbce20-ba13-4d0d-a633-fa5d5f9d5f5e",
-      "width": 138,
-      "x": 1396,
-      "y": 851,
+      "width": 103,
+      "x": 1377,
+      "y": 819,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -378,14 +378,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 329,
+      "height": 68,
       "keepRatio": true,
       "layer": "",
       "name": "TargetPrompt",
       "persistentUuid": "6399c03b-cf6d-44af-8960-63c15734d0aa",
-      "width": 555,
-      "x": 674,
-      "y": 302,
+      "width": 886,
+      "x": 535,
+      "y": 744,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -395,14 +395,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 341,
+      "height": 66,
       "keepRatio": true,
       "layer": "",
       "name": "Feedback",
       "persistentUuid": "8c6be39b-a383-4944-9e7d-f239dcb0ecc2",
-      "width": 553,
-      "x": 683,
-      "y": 300,
+      "width": 1035,
+      "x": 443,
+      "y": 742,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -417,8 +417,8 @@
       "name": "finishButton",
       "persistentUuid": "cc4025d9-2d9d-4859-b212-5460376f3881",
       "width": 0,
-      "x": 1636,
-      "y": 548,
+      "x": 1699,
+      "y": 817,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -434,8 +434,8 @@
       "name": "TimerText",
       "persistentUuid": "492902c1-3e55-4307-b995-ec8a0a8ecd77",
       "width": 274,
-      "x": 1585,
-      "y": 41,
+      "x": 884,
+      "y": 602,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -450,8 +450,8 @@
       "name": "SCORE",
       "persistentUuid": "256271b8-7070-4ae4-b45a-ed0a08a24476",
       "width": 0,
-      "x": 76,
-      "y": 51,
+      "x": 1198,
+      "y": 587,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -466,8 +466,8 @@
       "name": "StreakText",
       "persistentUuid": "4867d215-b3d7-46c2-953c-d286599a0c5b",
       "width": 0,
-      "x": 773,
-      "y": 44,
+      "x": 408,
+      "y": 582,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -483,8 +483,8 @@
       "name": "Default_Panel_15",
       "persistentUuid": "969c933a-e572-49b9-af09-c3545fa1e0c2",
       "width": 372,
-      "x": 35,
-      "y": 28,
+      "x": 41,
+      "y": -218,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -500,8 +500,8 @@
       "name": "Default_Panel_15",
       "persistentUuid": "716686ed-f1c9-4d56-ba55-999c59d21a61",
       "width": 354,
-      "x": 1535,
-      "y": 36,
+      "x": 1637,
+      "y": -258,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -517,8 +517,8 @@
       "name": "Default_Panel_15",
       "persistentUuid": "1613c76f-83f9-401d-afe4-6f31277e26b2",
       "width": 496,
-      "x": 713,
-      "y": 43,
+      "x": 744,
+      "y": -339,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -534,26 +534,9 @@
       "name": "Default_Panel_15",
       "persistentUuid": "571dfb66-7339-4225-abc6-11f6bc4cba50",
       "width": 573,
-      "x": 669,
-      "y": 295,
+      "x": 886,
+      "y": -241,
       "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 390,
-      "keepRatio": true,
-      "layer": "panels",
-      "name": "Default_Panel_15",
-      "persistentUuid": "71b16eea-1585-4a95-84ff-f848fc0770c9",
-      "width": 1928,
-      "x": -4,
-      "y": 694,
-      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -568,9 +551,75 @@
       "name": "Forest_Background_2",
       "persistentUuid": "2d98a7f3-7fb5-44c0-b150-004ed20d6dbf",
       "width": 1920,
-      "x": 0,
-      "y": 0,
+      "x": 2,
+      "y": 6,
       "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "background",
+      "name": "NewSprite3",
+      "persistentUuid": "721bc3e4-8ea1-4b41-8631-bfa869b0efe7",
+      "width": 0,
+      "x": -7,
+      "y": 4,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "background",
+      "name": "buildings",
+      "persistentUuid": "12378e63-d8d7-4de9-a947-b540f0da0852",
+      "width": 0,
+      "x": 171,
+      "y": 81,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 365,
+      "keepRatio": true,
+      "layer": "",
+      "name": "storybox",
+      "persistentUuid": "1e813a38-2aea-4afa-8070-002d455999da",
+      "width": 1582,
+      "x": 199,
+      "y": 94,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 344,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Story_text",
+      "persistentUuid": "306b6f9c-0b26-40d5-a2fc-2cc7933dd028",
+      "width": 1435,
+      "x": 265,
+      "y": 182,
+      "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1666,9 +1715,9 @@
       "textAlignment": "center",
       "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 134,
+        "g": 233,
+        "r": 184
       },
       "content": {
         "bold": false,
@@ -1690,7 +1739,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 40,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "184;233;134"
       }
     },
     {
@@ -1710,9 +1759,9 @@
       "textAlignment": "center",
       "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 134,
+        "g": 233,
+        "r": 184
       },
       "content": {
         "bold": false,
@@ -1734,7 +1783,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 40,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "184;233;134"
       }
     },
     {
@@ -1771,11 +1820,11 @@
       "string": "Timer",
       "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
       "textAlignment": "left",
-      "characterSize": 70,
+      "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 134,
+        "g": 233,
+        "r": 184
       },
       "content": {
         "bold": false,
@@ -1795,9 +1844,9 @@
         "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 70,
+        "characterSize": 40,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "184;233;134"
       }
     },
     {
@@ -1817,9 +1866,9 @@
       "textAlignment": "left",
       "characterSize": 70,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 134,
+        "g": 233,
+        "r": 184
       },
       "content": {
         "bold": false,
@@ -1841,7 +1890,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 70,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "184;233;134"
       }
     },
     {
@@ -1922,9 +1971,9 @@
       "textAlignment": "left",
       "characterSize": 70,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 134,
+        "g": 233,
+        "r": 184
       },
       "content": {
         "bold": false,
@@ -1946,7 +1995,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 70,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "184;233;134"
       }
     },
     {
@@ -1972,6 +2021,137 @@
       "texture": "Default-panel (16).png",
       "tiled": false,
       "topMargin": 16,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 48,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "buildings",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "8bit level.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 174,
+                        "y": 13
+                      },
+                      {
+                        "x": 1456,
+                        "y": 13
+                      },
+                      {
+                        "x": 1456,
+                        "y": 375
+                      },
+                      {
+                        "x": 174,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Story_text",
+      "persistentUuid": "138f1984-a264-431c-b09f-1839293a1dce",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.06,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        }
+      ],
+      "string": "HQ to Converter, The Gridbreaker Syndicate has permanently added more bits, but this is no problem because it seems to still follow the power of two. Remember, from right to left, it goes 1, 2, 4, 6, 8, 16, 32, 64, and lastly 128",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "HQ to Converter, The Gridbreaker Syndicate has permanently added more bits, but this is no problem because it seems to still follow the power of two. Remember, from right to left, it goes 1, 2, 4, 6, 8, 16, 32, 64, and lastly 128",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "b7b916614570780a0e1ee277966a3cd49566347fde75ac0c0c7a95554156b4e9",
+      "bottomMargin": 12,
+      "height": 48,
+      "leftMargin": 12,
+      "name": "storybox",
+      "persistentUuid": "ab3ed928-144e-4815-b8c2-1e4ff2702b02",
+      "rightMargin": 12,
+      "texture": "Default-panel (2).png",
+      "tiled": false,
+      "topMargin": 12,
       "type": "PanelSpriteObject::PanelSprite",
       "width": 48,
       "variables": [],
@@ -2035,6 +2215,15 @@
       },
       {
         "objectName": "StreakText"
+      },
+      {
+        "objectName": "buildings"
+      },
+      {
+        "objectName": "storybox"
+      },
+      {
+        "objectName": "Story_text"
       }
     ]
   },
@@ -2489,7 +2678,7 @@
               "parameters": [
                 "targetNum",
                 "=",
-                "RandomInRange(1, 10)"
+                "RandomInRange(1, 32)"
               ]
             },
             {
@@ -2531,15 +2720,6 @@
                 "hintOpen",
                 "False",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"CountingDown\""
               ]
             },
             {
@@ -3441,7 +3621,7 @@
             "TimerText",
             "Text",
             "=",
-            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-30)))"
+            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-60)))"
           ]
         }
       ]
@@ -3494,7 +3674,7 @@
             "",
             "\"CountingDown\"",
             ">=",
-            "30"
+            "60"
           ]
         }
       ],
@@ -3609,6 +3789,153 @@
           ]
         }
       ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "text prompt",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "20"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"CountingDown\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"showtimer\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"showtimer\"",
+                ">=",
+                "20"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "storybox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Story_text"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "TargetPrompt"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "20"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "TargetPrompt",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -3790,6 +4117,10 @@
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "AutoTyping",
+      "type": "AutoTyping::AutoTyping"
     },
     {
       "name": "Effect",
