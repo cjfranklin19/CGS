@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4163025217733364,
+    "zoomFactor": 0.47535850871269775,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -177,15 +177,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 138,
+      "depth": 1,
+      "height": 76,
       "keepRatio": true,
       "layer": "",
       "name": "Submit_Button",
       "persistentUuid": "85eafccd-d85a-4478-9f53-24c87dd42a72",
       "width": 138,
-      "x": 1623,
-      "y": 891,
+      "x": 1399,
+      "y": 979,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -194,15 +194,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 212.30769230769232,
+      "depth": 1,
+      "height": 139,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_8",
       "persistentUuid": "9c67ae53-b388-4a4c-9d5c-b30764c2ad83",
-      "width": 138,
-      "x": 554,
-      "y": 810,
+      "width": 91,
+      "x": 575,
+      "y": 834,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -211,15 +211,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 212.30769230769232,
+      "depth": 1,
+      "height": 137,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_4",
       "persistentUuid": "e38de78b-49bc-4991-9308-d52f3db7a5d5",
-      "width": 138,
-      "x": 827,
-      "y": 805,
+      "width": 89,
+      "x": 849,
+      "y": 834,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -228,15 +228,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 212.30769230769232,
+      "depth": 1,
+      "height": 134,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_2",
       "persistentUuid": "9e6be75d-0aa5-4645-89e4-fddbd8fea88f",
-      "width": 138,
-      "x": 1084,
-      "y": 803,
+      "width": 87,
+      "x": 1116,
+      "y": 834,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -245,15 +245,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 212.30769230769232,
+      "depth": 1,
+      "height": 133,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_1",
       "persistentUuid": "d8dbce20-ba13-4d0d-a633-fa5d5f9d5f5e",
-      "width": 138,
-      "x": 1319,
-      "y": 803,
+      "width": 86,
+      "x": 1379,
+      "y": 831,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -269,8 +269,8 @@
       "name": "TargetPrompt",
       "persistentUuid": "6399c03b-cf6d-44af-8960-63c15734d0aa",
       "width": 555,
-      "x": 674,
-      "y": 302,
+      "x": 680,
+      "y": 735,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -286,8 +286,8 @@
       "name": "Feedback",
       "persistentUuid": "8c6be39b-a383-4944-9e7d-f239dcb0ecc2",
       "width": 553,
-      "x": 683,
-      "y": 300,
+      "x": 689,
+      "y": 739,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -302,9 +302,26 @@
       "name": "finishButton",
       "persistentUuid": "cc4025d9-2d9d-4859-b212-5460376f3881",
       "width": 0,
-      "x": 1636,
-      "y": 548,
+      "x": 1698,
+      "y": 768,
       "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 77,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TimerText",
+      "persistentUuid": "492902c1-3e55-4307-b995-ec8a0a8ecd77",
+      "width": 183,
+      "x": 886,
+      "y": 601,
+      "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -316,27 +333,11 @@
       "height": 90,
       "keepRatio": true,
       "layer": "",
-      "name": "TimerText",
-      "persistentUuid": "492902c1-3e55-4307-b995-ec8a0a8ecd77",
-      "width": 274,
-      "x": 1585,
-      "y": 41,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
       "name": "SCORE",
       "persistentUuid": "256271b8-7070-4ae4-b45a-ed0a08a24476",
-      "width": 0,
-      "x": 76,
-      "y": 51,
+      "width": 341,
+      "x": 1169,
+      "y": 584,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -351,8 +352,8 @@
       "name": "StreakText",
       "persistentUuid": "4867d215-b3d7-46c2-953c-d286599a0c5b",
       "width": 0,
-      "x": 773,
-      "y": 44,
+      "x": 406,
+      "y": 585,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -456,6 +457,23 @@
       "x": 0,
       "y": 0,
       "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1067,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite3",
+      "persistentUuid": "a1223fea-7eed-41dc-8962-3d8ac03f1e27",
+      "width": 1904,
+      "x": 7,
+      "y": 12,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1551,9 +1569,9 @@
       "textAlignment": "center",
       "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 134,
+        "g": 233,
+        "r": 184
       },
       "content": {
         "bold": false,
@@ -1575,7 +1593,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 40,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "184;233;134"
       }
     },
     {
@@ -1595,9 +1613,9 @@
       "textAlignment": "center",
       "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 134,
+        "g": 233,
+        "r": 184
       },
       "content": {
         "bold": false,
@@ -1619,7 +1637,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 40,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "184;233;134"
       }
     },
     {
@@ -1656,11 +1674,11 @@
       "string": "Timer",
       "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
       "textAlignment": "left",
-      "characterSize": 70,
+      "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 134,
+        "g": 233,
+        "r": 184
       },
       "content": {
         "bold": false,
@@ -1680,9 +1698,9 @@
         "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 70,
+        "characterSize": 40,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "184;233;134"
       }
     },
     {
@@ -1702,9 +1720,9 @@
       "textAlignment": "left",
       "characterSize": 70,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 134,
+        "g": 233,
+        "r": 184
       },
       "content": {
         "bold": false,
@@ -1726,7 +1744,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 70,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "184;233;134"
       }
     },
     {
@@ -1807,9 +1825,9 @@
       "textAlignment": "left",
       "characterSize": 70,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 134,
+        "g": 233,
+        "r": 184
       },
       "content": {
         "bold": false,
@@ -1831,7 +1849,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 70,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "184;233;134"
       }
     },
     {
@@ -1862,6 +1880,99 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "b7b916614570780a0e1ee277966a3cd49566347fde75ac0c0c7a95554156b4e9",
+      "bottomMargin": 12,
+      "height": 48,
+      "leftMargin": 12,
+      "name": "storybox",
+      "persistentUuid": "9c145879-e4cd-45b6-bfdc-92d75c3fced9",
+      "rightMargin": 12,
+      "texture": "Default-panel (2).png",
+      "tiled": false,
+      "topMargin": 12,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 48,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Story_text",
+      "persistentUuid": "c482e0a7-6346-48de-aa4f-e84aa7299df5",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.06,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        }
+      ],
+      "string": "Hello converter, the hacker group Gridbreakers, have infultrated the power plant and converterd cruical code to their wrong forms. It is up to you to convert them back , good luck converter and we will be in touch if you have questions and to warn you if the Gridbreakers make any changes",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Hello converter, the hacker group Gridbreakers, have infultrated the power plant and converterd cruical code to their wrong forms. It is up to you to convert them back , good luck converter and we will be in touch if you have questions and to warn you if the Gridbreakers make any changes",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite4",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite5",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
     }
   ],
   "objectsFolderStructure": {
@@ -1910,6 +2021,12 @@
         "objectName": "finishButton"
       },
       {
+        "objectName": "NewSprite4"
+      },
+      {
+        "objectName": "NewSprite5"
+      },
+      {
         "objectName": "TimerText"
       },
       {
@@ -1920,6 +2037,12 @@
       },
       {
         "objectName": "StreakText"
+      },
+      {
+        "objectName": "Story_text"
+      },
+      {
+        "objectName": "storybox"
       }
     ]
   },
@@ -3529,6 +3652,109 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"showtimer\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"showtimer\"",
+            ">=",
+            "20"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "storybox"
+          ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "Story_text"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "TargetPrompt"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Show"
+          },
+          "parameters": [
+            "TargetPrompt",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -3710,6 +3936,10 @@
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "AutoTyping",
+      "type": "AutoTyping::AutoTyping"
     },
     {
       "name": "Effect",
