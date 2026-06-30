@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Post_45Question_32Results",
-  "name": "Post-Question Results",
+  "mangledName": "Post_45Question_32ResultsDBT",
+  "name": "Post-Question ResultsDBT",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -414,11 +414,21 @@
       "actions": [
         {
           "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "SceneTransition",
+            "=",
+            "\"Dec - Binary (8 Bit)\""
+          ]
+        },
+        {
+          "type": {
             "value": "Scene"
           },
           "parameters": [
             "",
-            "\"Dec-binary timed\"",
+            "\"transition scene\"",
             ""
           ]
         }

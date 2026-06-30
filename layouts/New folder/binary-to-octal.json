@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "binary_32to_32decimal",
-  "name": "binary to decimal",
+  "mangledName": "Binary_32to_32octal",
+  "name": "Binary to octal",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -38,7 +38,7 @@
       "value": 0
     },
     {
-      "name": "TargetDec",
+      "name": "TargetBinary",
       "type": "number",
       "value": 0
     },
@@ -206,6 +206,16 @@
       "name": "DecNum",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "targetOct",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "targetBin",
+      "type": "string",
+      "value": ""
     }
   ],
   "instances": [
@@ -13971,6 +13981,18 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "need to work on gettin the logic to work properly "
+    },
+    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
@@ -14045,49 +14067,19 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "TargetDec",
+                    "TargetBinary",
                     "=",
-                    "RandomInRange(0,15)"
+                    "RandomInRange(0,63)"
                   ]
                 },
                 {
                   "type": {
-                    "value": "SetNumberVariable"
+                    "value": "SetStringVariable"
                   },
                   "parameters": [
-                    "Bit3",
+                    "targetBin",
                     "=",
-                    "mod(floor(TargetDec / 8), 2)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Bit2",
-                    "=",
-                    "mod(floor(TargetDec / 4), 2)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Bit1",
-                    "=",
-                    "mod(floor(TargetDec / 2), 2)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Bit0",
-                    "=",
-                    "mod(TargetDec, 2)"
+                    "BaseConversion::ToBase(TargetBinary, 2)"
                   ]
                 },
                 {
@@ -14097,7 +14089,17 @@
                   "parameters": [
                     "BinaryString",
                     "=",
-                    "\"Convert:  \"+ToString(Bit3)+\"  \"+ToString(Bit2)+\"  \"+ToString(Bit1)+\"  \"+ToString(Bit0)+\" to Decimal\""
+                    "StrRepeat (\"0\", 6 - StrLength(targetBin)) + targetBin"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "targetOct",
+                    "=",
+                    "BaseConversion::ToBase(TargetBinary, 8)"
                   ]
                 },
                 {
@@ -14108,7 +14110,7 @@
                     "BinaryDisplay",
                     "Text",
                     "=",
-                    "BinaryString"
+                    "\"Convert: \"+BinaryString+\" to octal\""
                   ]
                 },
                 {
@@ -14960,7 +14962,7 @@
               "parameters": [
                 "PlayerNumber",
                 "=",
-                "Variable(TargetDec)"
+                "Variable(targetOct)"
               ]
             }
           ],
@@ -15467,7 +15469,7 @@
               "parameters": [
                 "PlayerNumber",
                 "!=",
-                "Variable(TargetDec)"
+                "Variable(targetOct)"
               ]
             }
           ],
@@ -15661,7 +15663,7 @@
           },
           "parameters": [
             "",
-            "\"Post-Question ResultsBD\"",
+            "\"Post-Question ResultsBO\"",
             ""
           ]
         }
