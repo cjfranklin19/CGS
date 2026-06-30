@@ -263,13 +263,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 329,
+      "height": 73,
       "keepRatio": true,
       "layer": "",
       "name": "TargetPrompt",
       "persistentUuid": "6399c03b-cf6d-44af-8960-63c15734d0aa",
-      "width": 555,
-      "x": 680,
+      "width": 725,
+      "x": 603,
       "y": 735,
       "zOrder": 10,
       "numberProperties": [],
@@ -280,14 +280,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 341,
+      "height": 109,
       "keepRatio": true,
       "layer": "",
       "name": "Feedback",
       "persistentUuid": "8c6be39b-a383-4944-9e7d-f239dcb0ecc2",
-      "width": 553,
-      "x": 689,
-      "y": 739,
+      "width": 831,
+      "x": 559,
+      "y": 737,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -318,9 +318,9 @@
       "layer": "",
       "name": "TimerText",
       "persistentUuid": "492902c1-3e55-4307-b995-ec8a0a8ecd77",
-      "width": 183,
-      "x": 886,
-      "y": 601,
+      "width": 107,
+      "x": 913,
+      "y": 591,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -363,91 +363,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 128,
-      "keepRatio": true,
-      "layer": "panels",
-      "name": "Default_Panel_15",
-      "persistentUuid": "969c933a-e572-49b9-af09-c3545fa1e0c2",
-      "width": 372,
-      "x": 35,
-      "y": 28,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 108,
-      "keepRatio": true,
-      "layer": "panels",
-      "name": "Default_Panel_15",
-      "persistentUuid": "716686ed-f1c9-4d56-ba55-999c59d21a61",
-      "width": 354,
-      "x": 1535,
-      "y": 36,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "keepRatio": true,
-      "layer": "panels",
-      "name": "Default_Panel_15",
-      "persistentUuid": "1613c76f-83f9-401d-afe4-6f31277e26b2",
-      "width": 496,
-      "x": 713,
-      "y": 43,
-      "zOrder": 19,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 136,
-      "keepRatio": true,
-      "layer": "panels",
-      "name": "Default_Panel_15",
-      "persistentUuid": "571dfb66-7339-4225-abc6-11f6bc4cba50",
-      "width": 573,
-      "x": 669,
-      "y": 295,
-      "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 390,
-      "keepRatio": true,
-      "layer": "panels",
-      "name": "Default_Panel_15",
-      "persistentUuid": "71b16eea-1585-4a95-84ff-f848fc0770c9",
-      "width": 1928,
-      "x": -4,
-      "y": 694,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 1080,
       "keepRatio": true,
       "layer": "background",
@@ -463,17 +378,50 @@
     },
     {
       "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "background",
+      "name": "NewSprite3",
+      "persistentUuid": "d2141195-7b0d-4122-8c58-530e535558f1",
+      "width": 0,
+      "x": -4,
+      "y": -2,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1067,
+      "height": 356,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite3",
-      "persistentUuid": "a1223fea-7eed-41dc-8962-3d8ac03f1e27",
-      "width": 1904,
-      "x": 7,
-      "y": 12,
-      "zOrder": 0,
+      "name": "storybox",
+      "persistentUuid": "fcda68a2-d40d-48ec-bf6a-bc8033b70268",
+      "width": 1556,
+      "x": 175,
+      "y": 90,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 228,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Story_text",
+      "persistentUuid": "5eb6cf98-f1a1-44d4-acee-1ccf8e7523f5",
+      "width": 1589,
+      "x": 184,
+      "y": 181,
+      "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1920,7 +1868,7 @@
           "TypedText": ""
         }
       ],
-      "string": "Hello converter, the hacker group Gridbreakers, have infultrated the power plant and converterd cruical code to their wrong forms. It is up to you to convert them back , good luck converter and we will be in touch if you have questions and to warn you if the Gridbreakers make any changes",
+      "string": "HQ to Converter, the Gridbreaker Syndicate realized you are trying to save the city, so they have activated a timer. You must complete the conversion before time runs out, or it'll kick you out of the system. You got this converter, good luck",
       "font": "",
       "textAlignment": "left",
       "characterSize": 40,
@@ -1943,7 +1891,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Hello converter, the hacker group Gridbreakers, have infultrated the power plant and converterd cruical code to their wrong forms. It is up to you to convert them back , good luck converter and we will be in touch if you have questions and to warn you if the Gridbreakers make any changes",
+        "text": "HQ to Converter, the Gridbreaker Syndicate realized you are trying to save the city, so they have activated a timer. You must complete the conversion before time runs out, or it'll kick you out of the system. You got this converter, good luck",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -3440,7 +3388,7 @@
             "TimerText",
             "Text",
             "=",
-            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-30)))"
+            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-60)))"
           ]
         }
       ]
@@ -3493,7 +3441,7 @@
             "",
             "\"CountingDown\"",
             ">=",
-            "30"
+            "60"
           ]
         }
       ],
@@ -3639,7 +3587,7 @@
             "value": "Wait"
           },
           "parameters": [
-            "1"
+            "20"
           ]
         },
         {
@@ -3737,7 +3685,7 @@
             "value": "Wait"
           },
           "parameters": [
-            "1"
+            "20"
           ]
         },
         {
