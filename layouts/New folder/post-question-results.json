@@ -38,8 +38,8 @@
       "name": "Score",
       "persistentUuid": "4de73ff1-5f01-4004-a1b8-9d8b105dce83",
       "width": 255,
-      "x": 788,
-      "y": 102,
+      "x": 791,
+      "y": 190,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -418,7 +418,7 @@
           },
           "parameters": [
             "",
-            "\"Dec-binary timed\"",
+            "\"MenuSelect\"",
             ""
           ]
         }
