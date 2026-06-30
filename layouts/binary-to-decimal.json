@@ -282,8 +282,8 @@
       "name": "Number_Key0",
       "persistentUuid": "352c3577-abf4-448e-ad0c-af3b6e579244",
       "width": 0,
-      "x": 905,
-      "y": 996,
+      "x": 863,
+      "y": 956,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -299,8 +299,8 @@
       "name": "Number_Key1",
       "persistentUuid": "c67ac69b-b96a-4980-95df-fad93a14575f",
       "width": 89,
-      "x": 836,
-      "y": 917,
+      "x": 794,
+      "y": 877,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -315,8 +315,8 @@
       "name": "Number_Key2",
       "persistentUuid": "ad6f80f4-9932-4af5-9070-252818746a80",
       "width": 0,
-      "x": 913,
-      "y": 915,
+      "x": 871,
+      "y": 875,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -331,8 +331,8 @@
       "name": "Number_Key3",
       "persistentUuid": "47d9db40-b1c0-467c-a78d-6942ca3fc0a1",
       "width": 0,
-      "x": 1028,
-      "y": 914,
+      "x": 986,
+      "y": 874,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -347,8 +347,8 @@
       "name": "Number_Key4",
       "persistentUuid": "a5391395-d1fa-4eec-8025-0f7e7b40597f",
       "width": 0,
-      "x": 833,
-      "y": 818,
+      "x": 791,
+      "y": 778,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -363,8 +363,8 @@
       "name": "Number_Key5",
       "persistentUuid": "2ed526c8-5d8a-4660-be01-ce97d9b30585",
       "width": 0,
-      "x": 918,
-      "y": 816,
+      "x": 876,
+      "y": 776,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -379,8 +379,8 @@
       "name": "Number_Key6",
       "persistentUuid": "d523290e-c8ff-43d0-89b7-483fde24683e",
       "width": 0,
-      "x": 1023,
-      "y": 821,
+      "x": 981,
+      "y": 781,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -395,8 +395,8 @@
       "name": "Number_Key7",
       "persistentUuid": "efc6c264-f7c7-4535-b1cd-9ed3000b4fb3",
       "width": 0,
-      "x": 833,
-      "y": 733,
+      "x": 791,
+      "y": 693,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -411,8 +411,8 @@
       "name": "Number_Key8",
       "persistentUuid": "67b590d3-26ea-46f6-9520-a7d59c19f07a",
       "width": 0,
-      "x": 924,
-      "y": 731,
+      "x": 882,
+      "y": 691,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -427,8 +427,8 @@
       "name": "Number_Key9",
       "persistentUuid": "1360914c-752b-4ffc-96f2-8bca41188745",
       "width": 0,
-      "x": 1031,
-      "y": 739,
+      "x": 989,
+      "y": 699,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -544,56 +544,6 @@
       "x": 608,
       "y": 77,
       "zOrder": 30,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "storybox",
-      "persistentUuid": "c81dd7f2-cf36-4035-a6e4-b5f8a2a28491",
-      "width": 0,
-      "x": 2158,
-      "y": 422,
-      "zOrder": 31,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 234,
-      "keepRatio": true,
-      "layer": "",
-      "name": "storybox",
-      "persistentUuid": "20949ca1-cf61-44f8-8cf8-561d24ea9216",
-      "width": 1520,
-      "x": 213,
-      "y": 239,
-      "zOrder": 32,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 175,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Story_text",
-      "persistentUuid": "fcdfb40d-5b78-4f83-8905-050ae9a7b60a",
-      "width": 1150,
-      "x": 438,
-      "y": 270,
-      "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -13773,77 +13723,6 @@
         "lineHeight": 0,
         "color": "184;233;134"
       }
-    },
-    {
-      "assetStoreId": "b7b916614570780a0e1ee277966a3cd49566347fde75ac0c0c7a95554156b4e9",
-      "bottomMargin": 12,
-      "height": 48,
-      "leftMargin": 12,
-      "name": "storybox",
-      "persistentUuid": "4b93c842-85ca-4c58-82ba-98e803b6220c",
-      "rightMargin": 12,
-      "texture": "Default-panel (2).png",
-      "tiled": false,
-      "topMargin": 12,
-      "type": "PanelSpriteObject::PanelSprite",
-      "width": 48,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "Story_text",
-      "persistentUuid": "e9df4d3c-b2c4-49b9-aab5-188c9c4791f5",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "AutoTyping",
-          "type": "AutoTyping::AutoTyping",
-          "Text": "Text",
-          "Interval": 0.06,
-          "CharacterJustAdded": false,
-          "FullText": "",
-          "TypedText": ""
-        }
-      ],
-      "string": "HQ to Converter, the Gridbreaker Syndicate has inverted their tactics; instead of converting decimal to binary, you now have to convert binary to decimal. ",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 40,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "HQ to Converter, the Gridbreaker Syndicate has inverted their tactics; instead of converting decimal to binary, you now have to convert binary to decimal. ",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 40,
-        "lineHeight": 0,
-        "color": "0;0;0"
-      }
     }
   ],
   "objectsFolderStructure": {
@@ -13932,12 +13811,6 @@
       },
       {
         "objectName": "Score_label"
-      },
-      {
-        "objectName": "storybox"
-      },
-      {
-        "objectName": "Story_text"
       }
     ]
   },
@@ -15966,148 +15839,6 @@
           ]
         }
       ]
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "text prompt",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneJustBegins"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "20"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"CountingDown\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneJustBegins"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"showtimer\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"showtimer\"",
-                ">=",
-                "20"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "storybox"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "Story_text"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneJustBegins"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "BinaryDisplay"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "20"
-              ]
-            },
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "BinaryDisplay",
-                ""
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
     }
   ],
   "layers": [
@@ -16235,10 +15966,6 @@
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
-    },
-    {
-      "name": "AutoTyping",
-      "type": "AutoTyping::AutoTyping"
     },
     {
       "name": "Effect",

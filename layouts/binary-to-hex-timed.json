@@ -130,7 +130,7 @@
     {
       "name": "levelQuestions",
       "type": "number",
-      "value": 5
+      "value": 2
     },
     {
       "name": "questionOpen",
@@ -224,8 +224,8 @@
       "name": "Forest_Background_2",
       "persistentUuid": "090eb901-b7cb-4e44-9959-b3ff27f321e7",
       "width": 2461,
-      "x": -167,
-      "y": -252,
+      "x": -115,
+      "y": -254,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -240,8 +240,8 @@
       "name": "BinaryDisplay",
       "persistentUuid": "52e7262e-ad51-40d5-8ba5-f56f47da8a42",
       "width": 0,
-      "x": 435,
-      "y": 304,
+      "x": 635,
+      "y": 313,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -629,40 +629,6 @@
       "x": 1570,
       "y": 57,
       "zOrder": 26,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 204,
-      "keepRatio": true,
-      "layer": "",
-      "name": "storybox",
-      "persistentUuid": "b2250b4c-b44d-42e1-af12-d529a8b5634e",
-      "width": 1374,
-      "x": 274,
-      "y": 201,
-      "zOrder": 27,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 160,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Story_text",
-      "persistentUuid": "e03325c4-0516-48e8-8b1a-28c1538a4864",
-      "width": 1295,
-      "x": 327,
-      "y": 242,
-      "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -15023,77 +14989,6 @@
           ]
         }
       ]
-    },
-    {
-      "assetStoreId": "b7b916614570780a0e1ee277966a3cd49566347fde75ac0c0c7a95554156b4e9",
-      "bottomMargin": 12,
-      "height": 48,
-      "leftMargin": 12,
-      "name": "storybox",
-      "persistentUuid": "1e923888-413e-43c8-b6b2-50a6daaedba0",
-      "rightMargin": 12,
-      "texture": "Default-panel (2).png",
-      "tiled": false,
-      "topMargin": 12,
-      "type": "PanelSpriteObject::PanelSprite",
-      "width": 48,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "Story_text",
-      "persistentUuid": "b13b4bc4-f65b-4680-9677-b5a56579967c",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "AutoTyping",
-          "type": "AutoTyping::AutoTyping",
-          "Text": "Text",
-          "Interval": 0.06,
-          "CharacterJustAdded": false,
-          "FullText": "",
-          "TypedText": ""
-        }
-      ],
-      "string": "HQ to Converter, the Gridbreaker Syndicate has activated their timer again. Remember to break them into two groups of 4 bits",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 40,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "HQ to Converter, the Gridbreaker Syndicate has activated their timer again. Remember to break them into two groups of 4 bits",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 40,
-        "lineHeight": 0,
-        "color": "0;0;0"
-      }
     }
   ],
   "objectsFolderStructure": {
@@ -15179,12 +15074,6 @@
       },
       {
         "objectName": "StreakText"
-      },
-      {
-        "objectName": "storybox"
-      },
-      {
-        "objectName": "Story_text"
       }
     ]
   },
@@ -15573,6 +15462,15 @@
                     "hintOpen",
                     "False",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"CountingDown\""
                   ]
                 },
                 {
@@ -16833,7 +16731,7 @@
                 "Feedback2",
                 "Text",
                 "=",
-                "VariableString(ResultText)"
+                "VariableString(resultText)"
               ]
             },
             {
@@ -17340,7 +17238,7 @@
                 "Feedback2",
                 "Text",
                 "=",
-                "VariableString(ResultText)"
+                "VariableString(resultText)"
               ]
             },
             {
@@ -17521,7 +17419,7 @@
             "Timer",
             "Text",
             "=",
-            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-60)))"
+            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-30)))"
           ]
         }
       ]
@@ -17574,7 +17472,7 @@
             "",
             "\"CountingDown\"",
             ">=",
-            "60"
+            "30"
           ]
         }
       ],
@@ -17677,148 +17575,6 @@
           ]
         }
       ]
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "text prompt",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneJustBegins"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "18"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"CountingDown\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneJustBegins"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"showtimer\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"showtimer\"",
-                ">=",
-                "18"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "storybox"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "Story_text"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneJustBegins"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "TargetPrompt"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "18"
-              ]
-            },
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "TargetPrompt",
-                ""
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
     }
   ],
   "layers": [
@@ -17892,10 +17648,6 @@
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
-    },
-    {
-      "name": "AutoTyping",
-      "type": "AutoTyping::AutoTyping"
     },
     {
       "name": "Effect",
