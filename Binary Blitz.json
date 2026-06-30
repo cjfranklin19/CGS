@@ -3040,6 +3040,14 @@
         "name": "8bit level.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "octal to binary.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "octal to binary.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
