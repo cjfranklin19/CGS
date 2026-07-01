@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 272,
+    "build": 273,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -3057,7 +3057,7 @@
       "height": 1080,
       "name": "Forest_Background_2",
       "persistentUuid": "2e669ce0-58c5-44d4-b715-9e24ace5b105",
-      "texture": "Gradient.png",
+      "texture": "Free-City-Backgrounds-Pixel-Art2.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 1920,
       "variables": [],
