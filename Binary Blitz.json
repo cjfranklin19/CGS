@@ -3098,6 +3098,66 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "levelbackmus.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "levelbackmus.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "correct answer.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "correct answer.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "incorrect answer.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "incorrect answer.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "timed levels.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "timed levels.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "menu sound.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "menu sound.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "menu - level select.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "menu - level select.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },

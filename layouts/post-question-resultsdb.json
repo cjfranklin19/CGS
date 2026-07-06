@@ -384,6 +384,18 @@
             "=",
             "\"Highest Streak: \" + ToString(finalHighestStreak)"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "menu sound.mp3",
+            "no",
+            "25",
+            ""
+          ]
         }
       ]
     },
@@ -424,6 +436,18 @@
         },
         {
           "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "menu - level select.mp3",
+            "no",
+            "25",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "Scene"
           },
           "parameters": [
@@ -433,6 +457,11 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

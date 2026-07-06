@@ -2676,9 +2676,9 @@
           },
           "parameters": [
             "",
-            "level background sound.mp3",
+            "levelbackmus.mp3",
             "",
-            "30",
+            "2",
             ""
           ]
         }
@@ -2799,7 +2799,7 @@
             "",
             "edr-switch-click-and-beep-001a-11602.mp3",
             "",
-            "50",
+            "25",
             ""
           ]
         }
@@ -2877,7 +2877,7 @@
             "",
             "freesound_community-light-switch-off-86314.mp3",
             "no",
-            "50",
+            "25",
             ""
           ]
         }
@@ -3235,6 +3235,18 @@
                 "Animation",
                 "=",
                 "lightani"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "correct answer.mp3",
+                "no",
+                "25",
+                ""
               ]
             }
           ],
@@ -3874,6 +3886,18 @@
                 "Animation",
                 "=",
                 "lightani"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "incorrect answer.mp3",
+                "no",
+                "25",
+                ""
               ]
             }
           ],

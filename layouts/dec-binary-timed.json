@@ -2157,6 +2157,18 @@
             "True",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "timed levels.mp3",
+            "no",
+            "3",
+            ""
+          ]
         }
       ],
       "events": [
@@ -2247,7 +2259,7 @@
           "parameters": [
             "Switches",
             "Status",
-            "=",
+            "True",
             ""
           ]
         }
@@ -2261,7 +2273,7 @@
             "Switches",
             "Animation",
             "=",
-            "\"off\""
+            "\"on\""
           ]
         },
         {
@@ -2270,8 +2282,20 @@
           },
           "parameters": [
             "binaryTot",
-            "-",
+            "+",
             "Switches.Variable(BitVal)"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "edr-switch-click-and-beep-001a-11602.mp3",
+            "",
+            "25",
+            ""
           ]
         }
       ]
@@ -2306,7 +2330,7 @@
           "parameters": [
             "Switches",
             "Status",
-            "True",
+            "=",
             ""
           ]
         }
@@ -2320,7 +2344,7 @@
             "Switches",
             "Animation",
             "=",
-            "\"on\""
+            "\"off\""
           ]
         },
         {
@@ -2329,8 +2353,20 @@
           },
           "parameters": [
             "binaryTot",
-            "+",
+            "-",
             "Switches.Variable(BitVal)"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "freesound_community-light-switch-off-86314.mp3",
+            "no",
+            "25",
+            ""
           ]
         }
       ]
@@ -2667,6 +2703,18 @@
                 "Text",
                 "=",
                 "ToString(streak)"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "correct answer.mp3",
+                "no",
+                "25",
+                ""
               ]
             }
           ],
@@ -3267,6 +3315,18 @@
               },
               "parameters": [
                 "TargetPrompt",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "incorrect answer.mp3",
+                "no",
+                "25",
                 ""
               ]
             }
