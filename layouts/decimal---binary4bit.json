@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4163025217733365,
+    "zoomFactor": 0.5800155239904912,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -2669,6 +2669,18 @@
             "True",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "level background sound.mp3",
+            "",
+            "30",
+            ""
+          ]
         }
       ]
     },
@@ -2778,26 +2790,25 @@
             "+",
             "Switches.Variable(BitVal)"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "edr-switch-click-and-beep-001a-11602.mp3",
+            "",
+            "50",
+            ""
+          ]
         }
       ],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "edr-switch-click-and-beep-001a-11602.mp3",
-                "",
-                "50",
-                ""
-              ]
-            }
-          ]
+          "actions": []
         }
       ]
     },
@@ -2857,26 +2868,25 @@
             "-",
             "Switches.Variable(BitVal)"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "freesound_community-light-switch-off-86314.mp3",
+            "no",
+            "50",
+            ""
+          ]
         }
       ],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "freesound_community-light-switch-off-86314.mp3",
-                "",
-                "50",
-                ""
-              ]
-            }
-          ]
+          "actions": []
         }
       ]
     },

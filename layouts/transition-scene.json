@@ -38,8 +38,8 @@
       "name": "blackBox",
       "persistentUuid": "2ebdb9e8-423d-40f1-a94f-5b1cd428f2f5",
       "width": 2099,
-      "x": -76,
-      "y": -24,
+      "x": -78,
+      "y": -39,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -54,8 +54,8 @@
       "name": "load",
       "persistentUuid": "5bbdbeb9-55c8-4609-8024-6f753cf022cb",
       "width": 0,
-      "x": 907,
-      "y": 990,
+      "x": 1453,
+      "y": 979,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -71,26 +71,9 @@
       "name": "Saw",
       "persistentUuid": "d86da989-4ce6-4177-a051-9184d7483429",
       "width": 167,
-      "x": 2191,
-      "y": 675,
+      "x": 1269,
+      "y": 899,
       "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 375,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite",
-      "persistentUuid": "f420d8bf-c778-4cb8-aaa4-8152b492b009",
-      "width": 1686,
-      "x": 316,
-      "y": 700,
-      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -585,210 +568,6 @@
           ]
         }
       ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Van.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 935,
-                        "y": 12
-                      },
-                      {
-                        "x": 1461,
-                        "y": 12
-                      },
-                      {
-                        "x": 1461,
-                        "y": 375
-                      },
-                      {
-                        "x": 935,
-                        "y": 375
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Van.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 935,
-                        "y": 12
-                      },
-                      {
-                        "x": 1461,
-                        "y": 12
-                      },
-                      {
-                        "x": 1461,
-                        "y": 375
-                      },
-                      {
-                        "x": 935,
-                        "y": 375
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Van.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 935,
-                        "y": 12
-                      },
-                      {
-                        "x": 1461,
-                        "y": 12
-                      },
-                      {
-                        "x": 1461,
-                        "y": 375
-                      },
-                      {
-                        "x": 935,
-                        "y": 375
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Van2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 935,
-                        "y": 12
-                      },
-                      {
-                        "x": 1461,
-                        "y": 12
-                      },
-                      {
-                        "x": 1461,
-                        "y": 375
-                      },
-                      {
-                        "x": 935,
-                        "y": 375
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
@@ -805,9 +584,6 @@
       },
       {
         "objectName": "Saw"
-      },
-      {
-        "objectName": "NewSprite"
       }
     ]
   },
