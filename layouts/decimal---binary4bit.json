@@ -2752,7 +2752,7 @@
           "parameters": [
             "Switches",
             "Status",
-            "=",
+            "True",
             ""
           ]
         }
@@ -2766,7 +2766,7 @@
             "Switches",
             "Animation",
             "=",
-            "\"off\""
+            "\"on\""
           ]
         },
         {
@@ -2775,8 +2775,28 @@
           },
           "parameters": [
             "binaryTot",
-            "-",
+            "+",
             "Switches.Variable(BitVal)"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "edr-switch-click-and-beep-001a-11602.mp3",
+                "",
+                "50",
+                ""
+              ]
+            }
           ]
         }
       ]
@@ -2811,7 +2831,7 @@
           "parameters": [
             "Switches",
             "Status",
-            "True",
+            "=",
             ""
           ]
         }
@@ -2825,7 +2845,7 @@
             "Switches",
             "Animation",
             "=",
-            "\"on\""
+            "\"off\""
           ]
         },
         {
@@ -2834,8 +2854,28 @@
           },
           "parameters": [
             "binaryTot",
-            "+",
+            "-",
             "Switches.Variable(BitVal)"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "freesound_community-light-switch-off-86314.mp3",
+                "",
+                "50",
+                ""
+              ]
+            }
           ]
         }
       ]

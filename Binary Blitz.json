@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 273,
+    "build": 272,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -3050,19 +3050,23 @@
         "userAdded": false
       },
       {
-        "file": "Van.png",
-        "kind": "image",
+        "file": "edr-switch-click-and-beep-001a-11602.mp3",
+        "kind": "audio",
         "metadata": "",
-        "name": "Van.png",
-        "smoothed": true,
+        "name": "edr-switch-click-and-beep-001a-11602.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       },
       {
-        "file": "Van2.png",
-        "kind": "image",
+        "file": "freesound_community-light-switch-off-86314.mp3",
+        "kind": "audio",
         "metadata": "",
-        "name": "Van2.png",
-        "smoothed": true,
+        "name": "freesound_community-light-switch-off-86314.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       }
     ]
