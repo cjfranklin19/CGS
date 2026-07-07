@@ -2016,7 +2016,7 @@
             "",
             "timedlevelsfixed2.mp3",
             "no",
-            "3",
+            "GlobalVariable(LevelVolume)",
             ""
           ]
         },
