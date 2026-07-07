@@ -14094,6 +14094,18 @@
           "parameters": [
             "finishButton"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "levelbackmus.mp3",
+            "",
+            "2",
+            ""
+          ]
         }
       ]
     },
@@ -14647,6 +14659,18 @@
                 "=",
                 "PlayerAnswer + ToString(Number_Key0.numberDigit0)"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "",
+                "2",
+                ""
+              ]
             }
           ]
         },
@@ -14683,6 +14707,18 @@
                 "PlayerAnswer",
                 "=",
                 "PlayerAnswer + ToString(Number_Key1.numberDigit1)"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "",
+                "2",
+                ""
               ]
             }
           ]
@@ -14721,6 +14757,18 @@
                 "=",
                 "PlayerAnswer + ToString(Number_Key2.numberDigit2)"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "",
+                "2",
+                ""
+              ]
             }
           ]
         },
@@ -14757,6 +14805,18 @@
                 "PlayerAnswer",
                 "=",
                 "PlayerAnswer + ToString(Number_Key3.numberDigit3)"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "",
+                "2",
+                ""
               ]
             }
           ]
@@ -14795,6 +14855,18 @@
                 "=",
                 "PlayerAnswer + ToString(Number_Key4.numberDigit4)"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "",
+                "2",
+                ""
+              ]
             }
           ]
         },
@@ -14831,6 +14903,18 @@
                 "PlayerAnswer",
                 "=",
                 "PlayerAnswer + ToString(Number_Key5.numberDigit5)"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "",
+                "2",
+                ""
               ]
             }
           ]
@@ -14869,6 +14953,18 @@
                 "=",
                 "PlayerAnswer + ToString(Number_Key6.numberDigit6)"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "",
+                "2",
+                ""
+              ]
             }
           ]
         },
@@ -14905,6 +15001,18 @@
                 "PlayerAnswer",
                 "=",
                 "PlayerAnswer + ToString(Number_Key7.numberDigit7)"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "",
+                "2",
+                ""
               ]
             }
           ]
@@ -14943,6 +15051,18 @@
                 "=",
                 "PlayerAnswer + ToString(Number_Key8.numberDigit8)"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "",
+                "2",
+                ""
+              ]
             }
           ]
         },
@@ -14980,6 +15100,18 @@
                 "=",
                 "PlayerAnswer + ToString(Number_Key9.numberDigit9)"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "",
+                "2",
+                ""
+              ]
             }
           ]
         },
@@ -15016,6 +15148,18 @@
                 "PlayerAnswer",
                 "=",
                 "SubStr(PlayerAnswer,0,StrLength(PlayerAnswer)-1)"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "",
+                "2",
+                ""
               ]
             }
           ]
@@ -15073,6 +15217,18 @@
             "PlayerNumber",
             "=",
             "ToNumber(PlayerAnswer)"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Keybutton click.mp3",
+            "",
+            "2",
+            ""
           ]
         }
       ],
@@ -15181,6 +15337,18 @@
                 "PlayerAnswer",
                 "=",
                 "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "correct answer.mp3",
+                "no",
+                "25",
+                ""
               ]
             }
           ],
@@ -15687,6 +15855,18 @@
                 "Text",
                 "=",
                 "ToString(streak)"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "incorrect answer.mp3",
+                "no",
+                "25",
+                ""
               ]
             },
             {

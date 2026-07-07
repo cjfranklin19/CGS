@@ -3048,6 +3048,186 @@
         "name": "octal to binary.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "edr-switch-click-and-beep-001a-11602.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "edr-switch-click-and-beep-001a-11602.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "freesound_community-light-switch-off-86314.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "freesound_community-light-switch-off-86314.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "apalonbeats-lofi-hiphop-549454.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "apalonbeats-lofi-hiphop-549454.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "tithuh-level-up-0-523643.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "tithuh-level-up-0-523643.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "level background sound.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "level background sound.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "levelbackmus.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "levelbackmus.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "correct answer.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "correct answer.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "incorrect answer.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "incorrect answer.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "timed levels.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "timed levels.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "menu sound.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "menu sound.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "menu - level select.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "menu - level select.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "switch off.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "switch off.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "timed levels2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "timed levels2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "switch off2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "switch off2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Keybutton click.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Keybutton click.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "timedlevelsfixed.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "timedlevelsfixed.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "timedlevelsfixed2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "timedlevelsfixed2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "timedlevelsfixed3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "timedlevelsfixed3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -3249,7 +3429,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/hex---binary"
+      "referenceTo": "/layouts/hex---binarytimed"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -3300,7 +3480,12 @@
       "referenceTo": "/layouts/testui"
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/untitled-external-events"
+    }
+  ],
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

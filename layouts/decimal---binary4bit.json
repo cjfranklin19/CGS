@@ -2669,6 +2669,18 @@
             "True",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "levelbackmus.mp3",
+            "",
+            "2",
+            ""
+          ]
         }
       ]
     },
@@ -2752,7 +2764,7 @@
           "parameters": [
             "Switches",
             "Status",
-            "=",
+            "True",
             ""
           ]
         }
@@ -2766,7 +2778,7 @@
             "Switches",
             "Animation",
             "=",
-            "\"off\""
+            "\"on\""
           ]
         },
         {
@@ -2775,9 +2787,28 @@
           },
           "parameters": [
             "binaryTot",
-            "-",
+            "+",
             "Switches.Variable(BitVal)"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "edr-switch-click-and-beep-001a-11602.mp3",
+            "",
+            "25",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ]
     },
@@ -2811,7 +2842,7 @@
           "parameters": [
             "Switches",
             "Status",
-            "True",
+            "=",
             ""
           ]
         }
@@ -2825,7 +2856,7 @@
             "Switches",
             "Animation",
             "=",
-            "\"on\""
+            "\"off\""
           ]
         },
         {
@@ -2834,9 +2865,28 @@
           },
           "parameters": [
             "binaryTot",
-            "+",
+            "-",
             "Switches.Variable(BitVal)"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "freesound_community-light-switch-off-86314.mp3",
+            "no",
+            "25",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ]
     },
@@ -3045,7 +3095,20 @@
           ]
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Keybutton click.mp3",
+            "",
+            "2",
+            ""
+          ]
+        }
+      ],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -3185,6 +3248,18 @@
                 "Animation",
                 "=",
                 "lightani"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "correct answer.mp3",
+                "no",
+                "25",
+                ""
               ]
             }
           ],
@@ -3824,6 +3899,18 @@
                 "Animation",
                 "=",
                 "lightani"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "incorrect answer.mp3",
+                "no",
+                "25",
+                ""
               ]
             }
           ],

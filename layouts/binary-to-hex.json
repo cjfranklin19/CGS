@@ -14233,6 +14233,18 @@
           "parameters": [
             "finishButton"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "levelbackmus.mp3",
+            "",
+            "2",
+            ""
+          ]
         }
       ]
     },
@@ -15788,6 +15800,18 @@
                 "=",
                 "\"\""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "correct answer.mp3",
+                "no",
+                "25",
+                ""
+              ]
             }
           ],
           "events": [
@@ -16293,6 +16317,18 @@
                 "Text",
                 "=",
                 "ToString(streak)"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "incorrect answer.mp3",
+                "no",
+                "25",
+                ""
               ]
             },
             {

@@ -285,6 +285,18 @@
             "=",
             "SceneWindowWidth()/2"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "apalonbeats-lofi-hiphop-549454.mp3",
+            "yes",
+            "50",
+            ""
+          ]
         }
       ]
     },
@@ -331,6 +343,26 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "tithuh-level-up-0-523643.mp3",
+                "",
+                "50",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
@@ -366,6 +398,18 @@
                 "\"Decimal - Binary(4bit)med\"",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "tithuh-level-up-0-523643.mp3",
+                "",
+                "50",
+                ""
+              ]
             }
           ]
         },
@@ -392,6 +436,18 @@
               "parameters": [
                 "",
                 "\"Decimal - Binary(4bit)Hrd\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "tithuh-level-up-0-523643.mp3",
+                "",
+                "50",
                 ""
               ]
             }
