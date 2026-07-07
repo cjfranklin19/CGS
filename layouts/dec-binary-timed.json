@@ -3568,6 +3568,16 @@
         },
         {
           "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "LastPlayedLevel",
+            "=",
+            "\"Dec-binary timed\""
+          ]
+        },
+        {
+          "type": {
             "value": "Scene"
           },
           "parameters": [

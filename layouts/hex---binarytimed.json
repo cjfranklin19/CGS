@@ -4244,6 +4244,16 @@
         },
         {
           "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "LastPlayedLevel",
+            "=",
+            "\"Hex - binary(timed)\""
+          ]
+        },
+        {
+          "type": {
             "value": "PauseTimer"
           },
           "parameters": [

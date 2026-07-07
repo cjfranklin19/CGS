@@ -37,8 +37,8 @@
       "name": "game_over",
       "persistentUuid": "24cab71e-77e4-4170-acd1-39948a0c86f7",
       "width": 0,
-      "x": 744,
-      "y": 321,
+      "x": 766,
+      "y": 207,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -54,8 +54,8 @@
       "name": "finishButton",
       "persistentUuid": "3ee07a4a-fa40-413d-b5a2-9e5dca6cced6",
       "width": 253,
-      "x": 839,
-      "y": 466,
+      "x": 859,
+      "y": 343,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -146,7 +146,7 @@
               },
               "parameters": [
                 "",
-                "\"Post-Question ResultsOB\"",
+                "GlobalVariableString(LastPlayedLevel)",
                 ""
               ]
             }

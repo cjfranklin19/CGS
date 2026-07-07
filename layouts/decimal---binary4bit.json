@@ -2678,7 +2678,7 @@
             "",
             "levelbackmus.mp3",
             "",
-            "2",
+            "GlobalVariable(LevelVolume)",
             ""
           ]
         }

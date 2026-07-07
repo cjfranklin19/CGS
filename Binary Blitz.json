@@ -3228,6 +3228,125 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Square Green Slider Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square Green Slider Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/b20061f94d8b7288702975d6bd15d1a750a6b5ba429c22cb695b19210d0da8b9_Square Green Slider Border.png",
+          "name": "Square Green Slider Border.png"
+        }
+      },
+      {
+        "file": "assets/Square Green Slider Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square Green Slider Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/553dd6c98bc6b7c3539f936e1c0815fef2796c9aa3468ae90d288bdb5931076b_Square Green Slider Fill Bar.png",
+          "name": "Square Green Slider Fill Bar.png"
+        }
+      },
+      {
+        "file": "assets/Square Green Slider Thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square Green Slider Thumb.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/7f9d3fcd723e6cd77452d818e3cba9775f63acdbf98378e7276cc95bf1213e86_Square Green Slider Thumb.png",
+          "name": "Square Green Slider Thumb.png"
+        }
+      },
+      {
+        "file": "assets/On Screen Controls Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "On Screen Controls Button_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/16e804dda11f82902d6b7469420d7b3b81d68ef00af71783070dd284114e8cdc_On Screen Controls Button_Hovered.png",
+          "name": "On Screen Controls Button_Hovered.png"
+        }
+      },
+      {
+        "file": "assets/On Screen Controls Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "On Screen Controls Button_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/174644b98156cc55e10a4eb991aebb06e0a2c9f98915abb1422cababc3124de3_On Screen Controls Button_Idle.png",
+          "name": "On Screen Controls Button_Idle.png"
+        }
+      },
+      {
+        "file": "assets/On Screen Controls Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "On Screen Controls Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/5a44f1cb97ef7da59c97179346b71d3f5b913af0208795784707c062fc20749f_On Screen Controls Button_Pressed.png",
+          "name": "On Screen Controls Button_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/Roboto-Bold.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Roboto-Bold.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
+          "name": "Roboto-Bold.ttf"
+        }
+      },
+      {
+        "file": "assets/Square Blue Slider Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square Blue Slider Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/4358a20ce4a1e83f8643b287f37cefadefc1941d23cfdc50a3836ecd0dd209f1_Square Blue Slider Border.png",
+          "name": "Square Blue Slider Border.png"
+        }
+      },
+      {
+        "file": "assets/Square Blue Slider Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square Blue Slider Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/71e7d4c8549a750e6e7b6bc6508a352176cb64a57129e96bdd8f2c5bbc187820_Square Blue Slider Fill Bar.png",
+          "name": "Square Blue Slider Fill Bar.png"
+        }
+      },
+      {
+        "file": "assets/Square Blue Slider Thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square Blue Slider Thumb.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/984a68a8bbb562d3f01a8a1993720778df07d37bb3314ed6f1aaf3d4f0edede3_Square Blue Slider Thumb.png",
+          "name": "Square Blue Slider Thumb.png"
+        }
       }
     ]
   },
@@ -3364,6 +3483,21 @@
       "name": "SceneTransition",
       "type": "string",
       "value": ""
+    },
+    {
+      "name": "LastPlayedLevel",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "SoundVolume",
+      "type": "number",
+      "value": 100
+    },
+    {
+      "name": "LevelVolume",
+      "type": "number",
+      "value": 100
     }
   ],
   "layouts": [
@@ -3478,6 +3612,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/testui"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/options"
     }
   ],
   "externalEvents": [
@@ -3510,6 +3648,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/autotyping"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspriteslider"
     }
   ],
   "externalLayouts": []
