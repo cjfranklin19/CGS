@@ -2010,6 +2010,18 @@
       "actions": [
         {
           "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "timedlevelsfixed2.mp3",
+            "no",
+            "3",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
@@ -2155,18 +2167,6 @@
           "parameters": [
             "startNextQuestion",
             "True",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "timed levels.mp3",
-            "no",
-            "3",
             ""
           ]
         }
@@ -3295,6 +3295,18 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "incorrect answer.mp3",
+                "no",
+                "25",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -3315,18 +3327,6 @@
               },
               "parameters": [
                 "TargetPrompt",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "incorrect answer.mp3",
-                "no",
-                "25",
                 ""
               ]
             }

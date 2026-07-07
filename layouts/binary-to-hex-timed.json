@@ -15204,6 +15204,18 @@
       "actions": [
         {
           "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "timedlevelsfixed2.mp3",
+            "no",
+            "3",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
@@ -16897,6 +16909,18 @@
                 "=",
                 "\"\""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "correct answer.mp3",
+                "no",
+                "25",
+                ""
+              ]
             }
           ],
           "events": [
@@ -17402,6 +17426,18 @@
                 "Text",
                 "=",
                 "ToString(streak)"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "correct answer.mp3",
+                "no",
+                "25",
+                ""
               ]
             },
             {

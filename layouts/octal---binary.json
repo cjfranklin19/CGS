@@ -2357,6 +2357,18 @@
             "True",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "levelbackmus.mp3",
+            "",
+            "2",
+            ""
+          ]
         }
       ],
       "events": [
@@ -2473,6 +2485,18 @@
             "-",
             "Switches.Variable(BitVal)"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "switch off2.mp3",
+            "",
+            "25",
+            ""
+          ]
         }
       ]
     },
@@ -2531,6 +2555,18 @@
             "binaryTot",
             "+",
             "Switches.Variable(BitVal)"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "edr-switch-click-and-beep-001a-11602.mp3",
+            "",
+            "25",
+            ""
           ]
         }
       ]

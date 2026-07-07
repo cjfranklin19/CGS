@@ -2220,6 +2220,18 @@
       "actions": [
         {
           "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "timedlevelsfixed2.mp3",
+            "no",
+            "3",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
@@ -2483,6 +2495,18 @@
             "-",
             "Switches.Variable(BitVal)"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "freesound_community-light-switch-off-86314.mp3",
+            "no",
+            "25",
+            ""
+          ]
         }
       ]
     },
@@ -2541,6 +2565,18 @@
             "binaryTot",
             "+",
             "Switches.Variable(BitVal)"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "edr-switch-click-and-beep-001a-11602.mp3",
+            "",
+            "25",
+            ""
           ]
         }
       ]
@@ -2877,6 +2913,18 @@
                 "Text",
                 "=",
                 "ToString(streak)"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "correct answer.mp3",
+                "no",
+                "25",
+                ""
               ]
             }
           ],
@@ -3453,6 +3501,18 @@
                 "binaryTot",
                 "=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "incorrect answer.mp3",
+                "no",
+                "25",
+                ""
               ]
             },
             {

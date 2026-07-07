@@ -3158,6 +3158,76 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "switch off.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "switch off.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "timed levels2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "timed levels2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "switch off2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "switch off2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Keybutton click.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Keybutton click.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "timedlevelsfixed.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "timedlevelsfixed.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "timedlevelsfixed2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "timedlevelsfixed2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "timedlevelsfixed3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "timedlevelsfixed3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -3359,7 +3429,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/hex---binary"
+      "referenceTo": "/layouts/hex---binarytimed"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
