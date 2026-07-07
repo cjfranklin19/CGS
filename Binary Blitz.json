@@ -3237,7 +3237,7 @@
       "height": 1080,
       "name": "Forest_Background_2",
       "persistentUuid": "2e669ce0-58c5-44d4-b715-9e24ace5b105",
-      "texture": "Free-City-Backgrounds-Pixel-Art2.png",
+      "texture": "Gradient.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 1920,
       "variables": [],
@@ -3377,7 +3377,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/transition"
+      "referenceTo": "/layouts/transition-scene"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

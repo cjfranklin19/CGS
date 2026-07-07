@@ -120,241 +120,201 @@
   "variables": [
     {
       "name": "startNextQuestion",
-      "persistentUuid": "c4f46ed4-9c1c-4034-b330-f7c5779ccc5a",
       "type": "boolean",
       "value": true
     },
     {
       "name": "questionOpen",
-      "persistentUuid": "fa11a3d6-dbde-4006-9eb2-d96a93c57138",
       "type": "boolean",
       "value": true
     },
     {
       "name": "inputLocked",
-      "persistentUuid": "38a9b3fc-83f4-4218-b862-21b6d4c2a611",
       "type": "boolean",
       "value": false
     },
     {
       "name": "inputMode",
-      "persistentUuid": "cdba11c8-cb3e-4f5b-8585-00fd717ed20e",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionIndex",
-      "persistentUuid": "909bd155-437c-4f0f-bfaa-5fa4418f7b86",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionsAnswered",
-      "persistentUuid": "512c3888-0a8a-4d4d-a07f-83904e4b9e25",
       "type": "number",
       "value": 0
     },
     {
       "name": "levelQuestions",
-      "persistentUuid": "33a3bf3e-614b-424d-87b2-5d092520a1c9",
       "type": "number",
       "value": 12
     },
     {
       "name": "elapsedQuestionTime",
-      "persistentUuid": "87f5a345-4fcd-431e-9b6a-7ca0b29eeb7d",
       "type": "number",
       "value": 0
     },
     {
       "name": "score",
-      "persistentUuid": "e4c342ab-1bf9-4f6f-9c4d-cb421d8627bd",
       "type": "number",
       "value": 0
     },
     {
       "name": "streak",
-      "persistentUuid": "4495be89-6427-4e3b-a83e-73eaf1209014",
       "type": "number",
       "value": 0
     },
     {
       "name": "highestStreak",
-      "persistentUuid": "acf038f4-cfc0-4072-957f-d74d66738ddd",
       "type": "number",
       "value": 0
     },
     {
       "name": "numcorrectAnswers",
-      "persistentUuid": "c5efc6fe-75e6-4f7d-8af1-96b3b1d7ec2f",
       "type": "number",
       "value": 0
     },
     {
       "name": "incorrectAnswers",
-      "persistentUuid": "24f6175c-58db-4bf1-a39e-2be4356ce30d",
       "type": "number",
       "value": 0
     },
     {
       "name": "TargetDecimal",
-      "persistentUuid": "075815ea-38d7-458e-a28b-e70193519881",
       "type": "number",
       "value": 0
     },
     {
       "name": "TargetHEX",
-      "persistentUuid": "e086fbf0-6a80-46b7-9199-e2186ed7b1f7",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionText",
-      "persistentUuid": "95ad9238-b7bc-43bc-9381-cf8f7ec05e6b",
       "type": "string",
       "value": ""
     },
     {
       "name": "correctAnswerNumber",
-      "persistentUuid": "bd239cd3-e7f6-4f5a-9b3e-152ed2b1f6d7",
       "type": "number",
       "value": 0
     },
     {
       "name": "correctAnswers",
-      "persistentUuid": "706cb14c-7627-4e35-85b8-3e510b09e2bd",
       "type": "string",
       "value": ""
     },
     {
       "name": "binaryTot",
-      "persistentUuid": "a9a00ea6-6b27-4117-b973-098772c3bfec",
       "type": "number",
       "value": 0
     },
     {
       "name": "PlayerAnswer",
-      "persistentUuid": "7b2d4342-906e-4758-a6c2-7aa37b2e42fa",
       "type": "string",
       "value": ""
     },
     {
       "name": "resultText",
-      "persistentUuid": "17650ffb-f1b7-44b7-afaf-21dea0ec0a17",
       "type": "string",
       "value": "\"\""
     },
     {
       "name": "targetNum",
-      "persistentUuid": "54a98241-3361-44f3-a6fb-29c2dc90dc53",
       "type": "number",
       "value": 0
     },
     {
       "name": "basePoints",
-      "persistentUuid": "7c6574fe-c3e3-49a7-8d29-d8981c86608d",
       "type": "number",
       "value": 100
     },
     {
       "name": "penalty",
-      "persistentUuid": "51efa9b7-3261-4a2a-9de4-8c8d9e81c605",
       "type": "number",
       "value": 50
     },
     {
       "name": "mult",
-      "persistentUuid": "1fb9caa4-fbe3-435f-bc3d-67303acba319",
       "type": "number",
       "value": 1
     },
     {
       "name": "wrongStreak",
-      "persistentUuid": "f048cd56-4112-49ee-811d-80d7dc1f14a5",
       "type": "number",
       "value": 0
     },
     {
       "name": "timeLimit",
-      "persistentUuid": "b64a47c3-331f-420d-b012-898af4da1fcd",
       "type": "number",
       "value": 30
     },
     {
       "name": "hintPenalty",
-      "persistentUuid": "818f3013-2200-4ad1-b108-8fbd1a550781",
       "type": "number",
       "value": 25
     },
     {
       "name": "hintOpen",
-      "persistentUuid": "67c09985-3f06-41c9-be3d-e1ed97d09cc1",
       "type": "boolean",
       "value": false
     },
     {
       "name": "hintUsedThisQuestion",
-      "persistentUuid": "24eb09d1-04ee-4094-a82b-12a4bd37164d",
       "type": "number",
       "value": 0
     },
     {
       "name": "cityPower",
-      "persistentUuid": "db662204-57e4-413d-bae3-3ec12ff59141",
       "type": "number",
       "value": 0
     },
     {
       "name": "targetHex",
-      "persistentUuid": "8fa74ae8-35e8-4af9-981d-bd4171f36b63",
       "type": "string",
       "value": ""
     },
     {
       "name": "hexDigit",
-      "persistentUuid": "1ceb0b3f-ff8c-40f6-bca1-d1fd8ff37503",
       "type": "number",
       "value": 0
     },
     {
       "name": "hexLetterVal",
-      "persistentUuid": "b597e50c-16ba-4ffb-a105-3808bc96cf5c",
       "type": "number",
       "value": 0
     },
     {
       "name": "hexLetter",
-      "persistentUuid": "ff18200a-a9ab-4d09-9c90-7dc66abf9e62",
       "type": "string",
       "value": ""
     },
     {
       "name": "sourceValue",
-      "persistentUuid": "c4c33b7f-b7ba-4fe5-9b25-edb037e9c2b3",
       "type": "number",
       "value": 0
     },
     {
       "name": "sourceBase",
-      "persistentUuid": "7e8fbd2f-d2dd-4cbe-9623-0b89802da9ec",
       "type": "string",
       "value": ""
     },
     {
       "name": "targetBase",
-      "persistentUuid": "93732ba0-913b-4bdc-a803-3a1560f9d7bb",
       "type": "string",
       "value": ""
     },
     {
       "name": "checkingAnswer",
-      "persistentUuid": "711f18e0-f7e8-480a-b49b-8012894f7faf",
       "type": "boolean",
       "value": false
     },
     {
       "name": "answerWasCorrect",
-      "persistentUuid": "567609a8-2548-4d6b-a096-518b5535221c",
       "type": "boolean",
       "value": false
     }

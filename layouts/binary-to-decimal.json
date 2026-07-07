@@ -541,7 +541,7 @@
       "name": "Score_label",
       "persistentUuid": "3982c3dc-1265-4012-874a-33985e0416f5",
       "width": 0,
-      "x": 608,
+      "x": 429,
       "y": 77,
       "zOrder": 30,
       "numberProperties": [],
@@ -14236,7 +14236,7 @@
                   "parameters": [
                     "BinaryString",
                     "=",
-                    "\"Convert: \"+ToString(Bit3)+ToString(Bit2)+ToString(Bit1)+ToString(Bit0)+\" to Decimal\""
+                    "\"Convert:  \"+ToString(Bit3)+\"  \"+ToString(Bit2)+\"  \"+ToString(Bit1)+\"  \"+ToString(Bit0)+\" to Decimal\""
                   ]
                 },
                 {

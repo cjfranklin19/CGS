@@ -428,7 +428,7 @@
           },
           "parameters": [
             "",
-            "\"Transition\"",
+            "\"transition scene\"",
             ""
           ]
         }
@@ -475,7 +475,7 @@
           },
           "parameters": [
             "",
-            "\"Transition\"",
+            "\"transition scene\"",
             ""
           ]
         }
