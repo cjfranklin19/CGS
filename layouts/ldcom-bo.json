@@ -94,7 +94,7 @@
       "layer": "",
       "name": "Score",
       "persistentUuid": "2965c9b7-be34-4bf7-a419-f3b666045dff",
-      "width": 49,
+      "width": 406,
       "x": 953,
       "y": 266,
       "zOrder": 4,
@@ -712,7 +712,7 @@
               },
               "parameters": [
                 "",
-                "\"d58b34f7-25e6-45e9-80b9-f8a3609183e5\"",
+                "\"f779afaa-6fd8-4a7e-877b-8e39b960ce52\"",
                 "GlobalVariable(finalScore)",
                 "VariableString(PlayerName)"
               ]
@@ -768,7 +768,7 @@
               },
               "parameters": [
                 "",
-                "\"d58b34f7-25e6-45e9-80b9-f8a3609183e5\"",
+                "\"f779afaa-6fd8-4a7e-877b-8e39b960ce52\"",
                 "yes"
               ]
             }
@@ -791,7 +791,7 @@
               },
               "parameters": [
                 "",
-                "\"LD-DB\""
+                "\"LD-BO\""
               ]
             }
           ]

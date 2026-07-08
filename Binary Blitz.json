@@ -3407,6 +3407,26 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/32x32 Pixel Arcade Stick and Buttons/e7fd03ba1e055d39af18d1fa0b3ec569ac28c6ca3b3fab7fb83efae994513ef4_Right Button Yellow_Unpressed.png",
           "name": "Right Button Yellow_Unpressed.png"
         }
+      },
+      {
+        "file": "assets/Gear button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gear button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Shaded Light/7c2249b648a27eccf3bb37c888dd64e1a013ccc5bc60bb2aedae7bbeb5706e04_Gear button.png",
+          "name": "Gear button.png"
+        }
+      },
+      {
+        "file": "Base.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Base.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -3483,6 +3503,66 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite5",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Base.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 1373,
+                        "y": 0
+                      },
+                      {
+                        "x": 1373,
+                        "y": 774
+                      },
+                      {
+                        "x": 3,
+                        "y": 774
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3493,6 +3573,9 @@
       },
       {
         "objectName": "NewSprite3"
+      },
+      {
+        "objectName": "NewSprite5"
       }
     ]
   },
@@ -3564,6 +3647,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/main-menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/options"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -3707,10 +3794,6 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/options"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/ldcom-db"
     },
     {
@@ -3758,12 +3841,7 @@
       "referenceTo": "/layouts/ld-ob"
     }
   ],
-  "externalEvents": [
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/untitled-external-events"
-    }
-  ],
+  "externalEvents": [],
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
