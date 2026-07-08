@@ -3427,6 +3427,22 @@
         "name": "Base.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "StatOutline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "StatOutline.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "StatOutline2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "StatOutline2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
