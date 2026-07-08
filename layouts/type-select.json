@@ -30,22 +30,6 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Forest_Background_2",
-      "persistentUuid": "74e71323-80d8-46a1-8bf9-8afaa836a803",
-      "width": 0,
-      "x": 7,
-      "y": -6,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 64,
       "height": 155,

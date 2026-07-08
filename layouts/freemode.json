@@ -81,22 +81,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Layer",
-      "name": "Forest_Background_2",
-      "persistentUuid": "2bde4f18-4d0a-4dbe-bee2-43fe0fbbafcd",
-      "width": 0,
-      "x": 18,
-      "y": 16,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 64,
       "height": 106,
