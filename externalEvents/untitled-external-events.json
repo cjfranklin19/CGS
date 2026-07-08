@@ -1,5 +1,11 @@
 {
-  "associatedLayout": "",
+  "associatedLayout": "Decimal - Binary(4bit)",
   "name": "Untitled external events",
-  "events": []
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ]
 }

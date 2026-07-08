@@ -3347,6 +3347,66 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/984a68a8bbb562d3f01a8a1993720778df07d37bb3314ed6f1aaf3d4f0edede3_Square Blue Slider Thumb.png",
           "name": "Square Blue Slider Thumb.png"
         }
+      },
+      {
+        "file": "assets/Blank Button Green_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Button Green_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/32x32 Pixel Arcade Stick and Buttons/bbf1218957a821d29195957aeb5f526297fc86d8e286595a1467f5ec9b21b701_Blank Button Green_Pressed.png",
+          "name": "Blank Button Green_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/Blank Button Green_Unpressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Button Green_Unpressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/32x32 Pixel Arcade Stick and Buttons/8f05b07661c77d6164e382ff4bc96746aee68aaf1e78c409964ca0355aed801e_Blank Button Green_Unpressed.png",
+          "name": "Blank Button Green_Unpressed.png"
+        }
+      },
+      {
+        "file": "assets/Home.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Home.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/82549ff7c4182dba21f303ab5e365f0c2aa28ed5ec59be84c933db07a9f3e019_Home.png",
+          "name": "Home.png"
+        }
+      },
+      {
+        "file": "assets/Right Button Yellow_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Right Button Yellow_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/32x32 Pixel Arcade Stick and Buttons/6c5e7445f16e9a7276ca4e4f8325d4c61c92024bec7dde445f186e1f7a956225_Right Button Yellow_Pressed.png",
+          "name": "Right Button Yellow_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/Right Button Yellow_Unpressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Right Button Yellow_Unpressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/32x32 Pixel Arcade Stick and Buttons/e7fd03ba1e055d39af18d1fa0b3ec569ac28c6ca3b3fab7fb83efae994513ef4_Right Button Yellow_Unpressed.png",
+          "name": "Right Button Yellow_Unpressed.png"
+        }
       }
     ]
   },
@@ -3507,7 +3567,15 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/type-select"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/menuselect"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/freemode"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -3595,10 +3663,6 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/credits"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/decimal---binary4bitmed"
     },
     {
@@ -3615,7 +3679,83 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/credits"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/dec---binary-8-bitfm"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/binary-to-decimalfm"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/hex-to-binaryfm"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/binary-to-hexfm"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/binary-to-octalfm"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/octal---binaryfm"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/options"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/ldcom-db"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/ldcom-bd"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/ldcom-hb"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/ldcom-bh"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/ldcom-bo"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/ldcom-ob"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/ld-db"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/ld-bd"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/ld-hb"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/ld-bh"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/ld-bo"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/ld-ob"
     }
   ],
   "externalEvents": [
