@@ -2016,7 +2016,7 @@
             "",
             "timedlevelsfixed2.mp3",
             "no",
-            "3",
+            "GlobalVariable(LevelVolume)",
             ""
           ]
         },
@@ -3564,6 +3564,16 @@
             "Text",
             "=",
             "\"0\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "LastPlayedLevel",
+            "=",
+            "\"Dec-binary timed\""
           ]
         },
         {

@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "MenuSelect",
-  "name": "MenuSelect",
+  "mangledName": "Type_32Select",
+  "name": "Type Select",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -30,17 +30,67 @@
   "instances": [
     {
       "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Forest_Background_2",
+      "persistentUuid": "74e71323-80d8-46a1-8bf9-8afaa836a803",
+      "width": 0,
+      "x": 7,
+      "y": -6,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 155,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Storymode",
+      "persistentUuid": "dbe9de8b-ebf6-45ae-8a0d-d2ff4f52aa19",
+      "width": 385,
+      "x": 737,
+      "y": 272,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 155,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Free_mode",
+      "persistentUuid": "cbc43477-f70c-4bda-8e01-3d14223bd5d8",
+      "width": 401,
+      "x": 734,
+      "y": 543,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1167,
+      "height": 144,
       "keepRatio": true,
-      "layer": "background",
-      "name": "Forest_Background_2",
-      "persistentUuid": "03797994-284e-41f0-a83b-560e30629109",
-      "width": 2369,
-      "x": -242,
-      "y": -2,
-      "zOrder": 1,
+      "layer": "",
+      "name": "Backspace_Alt_Key",
+      "persistentUuid": "11863282-67d4-4ffe-b437-4800c690f5e8",
+      "width": 234,
+      "x": 194,
+      "y": 120,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -51,80 +101,12 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Level_title",
-      "persistentUuid": "063e4187-85f7-48d9-b885-3a5080639460",
+      "name": "Type",
+      "persistentUuid": "66c152f9-9576-492d-b391-bdd5d5262549",
       "width": 0,
-      "x": 631,
-      "y": 167,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 64,
-      "height": 106,
-      "keepRatio": true,
-      "layer": "",
-      "name": "EASY",
-      "persistentUuid": "248da1f7-4887-4300-8922-9074d966fa32",
-      "width": 300,
-      "x": 772,
-      "y": 414,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 64,
-      "height": 106,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Medium",
-      "persistentUuid": "7558634f-c334-4b23-8b99-3a3562ecdf42",
-      "width": 297,
-      "x": 769,
-      "y": 557,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 64,
-      "height": 106,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Hard",
-      "persistentUuid": "4cd0c347-51c0-43ca-97e3-e1b8fdaf5704",
-      "width": 302,
-      "x": 764,
-      "y": 694,
+      "x": 723,
+      "y": 93,
       "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 217,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Backspace_Alt_Key",
-      "persistentUuid": "533bc11a-3940-4d4e-a697-1a5e9ed50c5b",
-      "width": 255,
-      "x": 139,
-      "y": 193,
-      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -132,52 +114,9 @@
   ],
   "objects": [
     {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "Level_title",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Level Difficulty",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 100,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Level Difficulty",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 100,
-        "lineHeight": 0,
-        "color": "0;0;0"
-      }
-    },
-    {
       "assetStoreId": "bfab3a269992cf43081e2cb8053c28aaef11f2f9e0d0cbdc00207ea271f69c2c",
-      "name": "EASY",
-      "persistentUuid": "b19b80c7-99c4-49fb-96ce-cf4ea93ade6f",
+      "name": "Storymode",
+      "persistentUuid": "c68ded81-29fd-4b50-ae4d-7bafeed648ad",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variant": "Grey Button",
       "variables": [],
@@ -190,15 +129,15 @@
         "BottomPadding": 32,
         "TopPadding": 16,
         "HoveredFadeOutDuration": 0.25,
-        "LabelText": "EASY"
+        "LabelText": "Story Mode"
       }
     },
     {
-      "assetStoreId": "0d3f4843e5ebb7af30fd80adf19a1c5a14164c1283f344991dc2aa14067a1262",
-      "name": "Hard",
-      "persistentUuid": "c2b32c8b-6574-45d2-b373-83035a7919be",
+      "assetStoreId": "bfab3a269992cf43081e2cb8053c28aaef11f2f9e0d0cbdc00207ea271f69c2c",
+      "name": "Free_mode",
+      "persistentUuid": "7d8db267-3bc0-4eb1-93b5-0580d9d19f3e",
       "type": "PanelSpriteButton::PanelSpriteButton",
-      "variant": "Red Button",
+      "variant": "Grey Button",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -209,33 +148,14 @@
         "BottomPadding": 32,
         "TopPadding": 16,
         "HoveredFadeOutDuration": 0.25,
-        "LabelText": "HARD"
-      }
-    },
-    {
-      "assetStoreId": "615de0316452630b9f4f6a39decc82e2449b82c1afd1ff24d6470dad2922177b",
-      "name": "Medium",
-      "persistentUuid": "d927b964-38fb-4fd2-b8ca-198cdde78f2c",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variant": "Yellow button",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 10,
-        "BottomPadding": 32,
-        "TopPadding": 16,
-        "HoveredFadeOutDuration": 0.25,
-        "LabelText": "MEDIUM"
+        "LabelText": "Free Mode"
       }
     },
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "2b0a6e29ea810e965598acf69bc0d34ed62c9d37d9a2f81b46bae2d9ad05996d",
       "name": "Backspace_Alt_Key",
-      "persistentUuid": "22f9e008-f6cd-4acd-9804-1677074fd4d1",
+      "persistentUuid": "b0399919-a7e7-4763-9c56-15e9ed044bfa",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -291,96 +211,69 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Type",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Type Select",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 80,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Type Select",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 80,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Level_title"
+        "objectName": "Storymode"
       },
       {
-        "objectName": "EASY"
-      },
-      {
-        "objectName": "Medium"
-      },
-      {
-        "objectName": "Hard"
+        "objectName": "Free_mode"
       },
       {
         "objectName": "Backspace_Alt_Key"
+      },
+      {
+        "objectName": "Type"
       }
     ]
   },
   "events": [
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SceneJustBegins"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetCenterX"
-          },
-          "parameters": [
-            "Level_title",
-            "=",
-            "SceneWindowWidth()/2"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenterX"
-          },
-          "parameters": [
-            "EASY",
-            "=",
-            "SceneWindowWidth()/2"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenterX"
-          },
-          "parameters": [
-            "Medium",
-            "=",
-            "SceneWindowWidth()/2"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenterX"
-          },
-          "parameters": [
-            "Hard",
-            "=",
-            "SceneWindowWidth()/2"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "apalonbeats-lofi-hiphop-549454.mp3",
-            "yes",
-            "GlobalVariable(SoundVolume)",
-            ""
-          ]
-        }
-      ]
-    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -404,7 +297,7 @@
                 "value": "IsCursorOnObject"
               },
               "parameters": [
-                "EASY",
+                "Storymode",
                 "",
                 "",
                 ""
@@ -419,7 +312,7 @@
               "parameters": [
                 "SceneTransition",
                 "=",
-                "\"Decimal - Binary(4bit)\""
+                "\"MenuSelect\""
               ]
             },
             {
@@ -462,7 +355,7 @@
                 "value": "IsCursorOnObject"
               },
               "parameters": [
-                "Medium",
+                "Free_mode",
                 "",
                 "",
                 ""
@@ -472,12 +365,12 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "SetStringVariable"
               },
               "parameters": [
-                "",
-                "\"Decimal - Binary(4bit)med\"",
-                ""
+                "SceneTransition",
+                "=",
+                "\"FreeMode\""
               ]
             },
             {
@@ -491,44 +384,22 @@
                 "50",
                 ""
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+            },
             {
               "type": {
-                "value": "IsCursorOnObject"
+                "value": "Wait"
               },
               "parameters": [
-                "Hard",
-                "",
-                "",
-                ""
+                "0.3"
               ]
-            }
-          ],
-          "actions": [
+            },
             {
               "type": {
                 "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"Decimal - Binary(4bit)Hrd\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "tithuh-level-up-0-523643.mp3",
-                "",
-                "50",
+                "\"transition scene\"",
                 ""
               ]
             }
@@ -556,7 +427,7 @@
               },
               "parameters": [
                 "",
-                "\"Type Select\"",
+                "\"main menu\"",
                 ""
               ]
             }
@@ -566,60 +437,6 @@
     }
   ],
   "layers": [
-    {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera2DPlaneMaxDrawingDistance": 5000,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 3,
-      "cameraType": "",
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": true,
-      "name": "background",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
-      "effects": [
-        {
-          "effectType": "Scene3D::HemisphereLight",
-          "name": "3D Ambient Hemisphere Light",
-          "doubleParameters": {
-            "elevation": 40,
-            "intensity": 0.33,
-            "rotation": 300
-          },
-          "stringParameters": {
-            "groundColor": "127;127;127",
-            "skyColor": "255;255;255",
-            "top": "Z+"
-          },
-          "booleanParameters": {}
-        },
-        {
-          "effectType": "Scene3D::DirectionalLight",
-          "name": "3D Sun Light",
-          "doubleParameters": {
-            "distanceFromCamera": 1500,
-            "elevation": 40,
-            "frustumSize": 4000,
-            "intensity": 0.75,
-            "minimumShadowBias": 0,
-            "rotation": 300
-          },
-          "stringParameters": {
-            "color": "255;255;255",
-            "shadowQuality": "medium",
-            "top": "Z+"
-          },
-          "booleanParameters": {
-            "isCastingShadow": true
-          }
-        }
-      ]
-    },
     {
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,

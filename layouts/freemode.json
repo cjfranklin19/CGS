@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "MenuSelect",
-  "name": "MenuSelect",
+  "mangledName": "FreeMode",
+  "name": "FreeMode",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -32,30 +32,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1167,
-      "keepRatio": true,
-      "layer": "background",
-      "name": "Forest_Background_2",
-      "persistentUuid": "03797994-284e-41f0-a83b-560e30629109",
-      "width": 2369,
-      "x": -242,
-      "y": -2,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "height": 136,
       "keepRatio": true,
       "layer": "",
-      "name": "Level_title",
-      "persistentUuid": "063e4187-85f7-48d9-b885-3a5080639460",
-      "width": 0,
-      "x": 631,
-      "y": 167,
+      "name": "Backspace_Alt_Key",
+      "persistentUuid": "7e4f02f4-833f-42a6-bf83-11841219d380",
+      "width": 196,
+      "x": 202,
+      "y": 170,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -68,11 +52,11 @@
       "height": 106,
       "keepRatio": true,
       "layer": "",
-      "name": "EASY",
-      "persistentUuid": "248da1f7-4887-4300-8922-9074d966fa32",
-      "width": 300,
-      "x": 772,
-      "y": 414,
+      "name": "Decimal_to_Binary",
+      "persistentUuid": "e84a2870-9f2b-4a68-b029-f09f2231a820",
+      "width": 516,
+      "x": 726,
+      "y": 245,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -85,12 +69,28 @@
       "height": 106,
       "keepRatio": true,
       "layer": "",
-      "name": "Medium",
-      "persistentUuid": "7558634f-c334-4b23-8b99-3a3562ecdf42",
-      "width": 297,
-      "x": 769,
-      "y": 557,
+      "name": "Binary_to_Decimal",
+      "persistentUuid": "bae63a93-bc08-4246-a993-d6f8a17d2eb8",
+      "width": 530,
+      "x": 720,
+      "y": 373,
       "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Layer",
+      "name": "Forest_Background_2",
+      "persistentUuid": "2bde4f18-4d0a-4dbe-bee2-43fe0fbbafcd",
+      "width": 0,
+      "x": 18,
+      "y": 16,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -102,12 +102,12 @@
       "height": 106,
       "keepRatio": true,
       "layer": "",
-      "name": "Hard",
-      "persistentUuid": "4cd0c347-51c0-43ca-97e3-e1b8fdaf5704",
-      "width": 302,
-      "x": 764,
-      "y": 694,
-      "zOrder": 5,
+      "name": "Hex_to_binary",
+      "persistentUuid": "16c6bed0-5f26-42d6-9d14-48eb9536caa6",
+      "width": 520,
+      "x": 724,
+      "y": 500,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -115,16 +115,50 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 217,
+      "depth": 64,
+      "height": 106,
       "keepRatio": true,
       "layer": "",
-      "name": "Backspace_Alt_Key",
-      "persistentUuid": "533bc11a-3940-4d4e-a697-1a5e9ed50c5b",
-      "width": 255,
-      "x": 139,
-      "y": 193,
-      "zOrder": 6,
+      "name": "Binary_to_Hex",
+      "persistentUuid": "546957cc-0cbf-42a9-97d2-9b8faf36fb64",
+      "width": 522,
+      "x": 720,
+      "y": 637,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 106,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Octal_to_Binary",
+      "persistentUuid": "a7edf106-bb94-4742-a08e-8d868173f55b",
+      "width": 525,
+      "x": 708,
+      "y": 769,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 106,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Binary_to_Octal",
+      "persistentUuid": "803b3512-0b45-457f-9744-0ec4d63f4ea0",
+      "width": 517,
+      "x": 710,
+      "y": 911,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -132,54 +166,11 @@
   ],
   "objects": [
     {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "Level_title",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Level Difficulty",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 100,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Level Difficulty",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 100,
-        "lineHeight": 0,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "bfab3a269992cf43081e2cb8053c28aaef11f2f9e0d0cbdc00207ea271f69c2c",
-      "name": "EASY",
-      "persistentUuid": "b19b80c7-99c4-49fb-96ce-cf4ea93ade6f",
+      "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
+      "name": "Decimal_to_Binary",
+      "persistentUuid": "ff891a01-3463-403b-976f-73ebd06b12af",
       "type": "PanelSpriteButton::PanelSpriteButton",
-      "variant": "Grey Button",
+      "variant": "Green Button",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -190,15 +181,15 @@
         "BottomPadding": 32,
         "TopPadding": 16,
         "HoveredFadeOutDuration": 0.25,
-        "LabelText": "EASY"
+        "LabelText": "Decimal to Binary"
       }
     },
     {
-      "assetStoreId": "0d3f4843e5ebb7af30fd80adf19a1c5a14164c1283f344991dc2aa14067a1262",
-      "name": "Hard",
-      "persistentUuid": "c2b32c8b-6574-45d2-b373-83035a7919be",
+      "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
+      "name": "Binary_to_Decimal",
+      "persistentUuid": "d07c653a-0672-40b3-98b6-ba857f04be89",
       "type": "PanelSpriteButton::PanelSpriteButton",
-      "variant": "Red Button",
+      "variant": "Green Button",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -209,15 +200,15 @@
         "BottomPadding": 32,
         "TopPadding": 16,
         "HoveredFadeOutDuration": 0.25,
-        "LabelText": "HARD"
+        "LabelText": "Binaryt to Decimal"
       }
     },
     {
-      "assetStoreId": "615de0316452630b9f4f6a39decc82e2449b82c1afd1ff24d6470dad2922177b",
-      "name": "Medium",
-      "persistentUuid": "d927b964-38fb-4fd2-b8ca-198cdde78f2c",
+      "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
+      "name": "Hex_to_binary",
+      "persistentUuid": "e34babd0-8372-4939-8b77-f7a2fb2cdbc2",
       "type": "PanelSpriteButton::PanelSpriteButton",
-      "variant": "Yellow button",
+      "variant": "Green Button",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -228,14 +219,71 @@
         "BottomPadding": 32,
         "TopPadding": 16,
         "HoveredFadeOutDuration": 0.25,
-        "LabelText": "MEDIUM"
+        "LabelText": "Hex to Binary"
+      }
+    },
+    {
+      "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
+      "name": "Binary_to_Hex",
+      "persistentUuid": "d2e31f75-b1fd-4ecd-b305-670f0fd7af3a",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Green Button",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25,
+        "LabelText": "Binary to Hex"
+      }
+    },
+    {
+      "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
+      "name": "Octal_to_Binary",
+      "persistentUuid": "a418c101-c517-4e6c-bf23-a760ca1ed418",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Green Button",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25,
+        "LabelText": "Ocatal to Binary"
+      }
+    },
+    {
+      "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
+      "name": "Binary_to_Octal",
+      "persistentUuid": "720f2fd6-f934-4a87-9bc5-ecadb780ee1e",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Green Button",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25,
+        "LabelText": "Binaryt to Octal"
       }
     },
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "2b0a6e29ea810e965598acf69bc0d34ed62c9d37d9a2f81b46bae2d9ad05996d",
       "name": "Backspace_Alt_Key",
-      "persistentUuid": "22f9e008-f6cd-4acd-9804-1677074fd4d1",
+      "persistentUuid": "d9863722-d355-4a91-b082-ee685cc18466",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -297,16 +345,22 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Level_title"
+        "objectName": "Decimal_to_Binary"
       },
       {
-        "objectName": "EASY"
+        "objectName": "Binary_to_Decimal"
       },
       {
-        "objectName": "Medium"
+        "objectName": "Hex_to_binary"
       },
       {
-        "objectName": "Hard"
+        "objectName": "Binary_to_Hex"
+      },
+      {
+        "objectName": "Octal_to_Binary"
+      },
+      {
+        "objectName": "Binary_to_Octal"
       },
       {
         "objectName": "Backspace_Alt_Key"
@@ -332,7 +386,7 @@
             "value": "SetCenterX"
           },
           "parameters": [
-            "Level_title",
+            "Decimal_to_Binary",
             "=",
             "SceneWindowWidth()/2"
           ]
@@ -342,7 +396,7 @@
             "value": "SetCenterX"
           },
           "parameters": [
-            "EASY",
+            "Binary_to_Decimal",
             "=",
             "SceneWindowWidth()/2"
           ]
@@ -352,7 +406,7 @@
             "value": "SetCenterX"
           },
           "parameters": [
-            "Medium",
+            "Hex_to_binary",
             "=",
             "SceneWindowWidth()/2"
           ]
@@ -362,7 +416,27 @@
             "value": "SetCenterX"
           },
           "parameters": [
-            "Hard",
+            "Binary_to_Hex",
+            "=",
+            "SceneWindowWidth()/2"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenterX"
+          },
+          "parameters": [
+            "Octal_to_Binary",
+            "=",
+            "SceneWindowWidth()/2"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenterX"
+          },
+          "parameters": [
+            "Binary_to_Octal",
             "=",
             "SceneWindowWidth()/2"
           ]
@@ -404,7 +478,7 @@
                 "value": "IsCursorOnObject"
               },
               "parameters": [
-                "EASY",
+                "Decimal_to_Binary",
                 "",
                 "",
                 ""
@@ -419,7 +493,7 @@
               "parameters": [
                 "SceneTransition",
                 "=",
-                "\"Decimal - Binary(4bit)\""
+                "\"Dec - Binary (8 Bit)FM\""
               ]
             },
             {
@@ -462,7 +536,7 @@
                 "value": "IsCursorOnObject"
               },
               "parameters": [
-                "Medium",
+                "Binary_to_Decimal",
                 "",
                 "",
                 ""
@@ -472,12 +546,12 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "SetStringVariable"
               },
               "parameters": [
-                "",
-                "\"Decimal - Binary(4bit)med\"",
-                ""
+                "SceneTransition",
+                "=",
+                "\"binary to decimalFM\""
               ]
             },
             {
@@ -489,6 +563,24 @@
                 "tithuh-level-up-0-523643.mp3",
                 "",
                 "50",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"transition scene\"",
                 ""
               ]
             }
@@ -502,7 +594,7 @@
                 "value": "IsCursorOnObject"
               },
               "parameters": [
-                "Hard",
+                "Hex_to_binary",
                 "",
                 "",
                 ""
@@ -512,12 +604,12 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "SetStringVariable"
               },
               "parameters": [
-                "",
-                "\"Decimal - Binary(4bit)Hrd\"",
-                ""
+                "SceneTransition",
+                "=",
+                "\"Hex to binaryFM\""
               ]
             },
             {
@@ -529,6 +621,198 @@
                 "tithuh-level-up-0-523643.mp3",
                 "",
                 "50",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"transition scene\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Binary_to_Hex",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "SceneTransition",
+                "=",
+                "\"binary to hexFM\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "tithuh-level-up-0-523643.mp3",
+                "",
+                "50",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"transition scene\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Binary_to_Octal",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "SceneTransition",
+                "=",
+                "\"Binary to octalFM\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "tithuh-level-up-0-523643.mp3",
+                "",
+                "50",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"transition scene\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Octal_to_Binary",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "SceneTransition",
+                "=",
+                "\"Octal to BinaryFM\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "tithuh-level-up-0-523643.mp3",
+                "",
+                "50",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"transition scene\"",
                 ""
               ]
             }
@@ -563,6 +847,11 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -578,7 +867,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": true,
-      "name": "background",
+      "name": "Layer",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -710,10 +999,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "Text",
-      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }

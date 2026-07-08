@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Game_32Over_32Screen",
-  "name": "Game Over Screen",
+  "mangledName": "LD_45BD",
+  "name": "LD-BD",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -27,86 +27,10 @@
   },
   "objectsGroups": [],
   "variables": [],
-  "instances": [
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "game_over",
-      "persistentUuid": "24cab71e-77e4-4170-acd1-39948a0c86f7",
-      "width": 0,
-      "x": 766,
-      "y": 207,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 64,
-      "height": 72,
-      "keepRatio": true,
-      "layer": "",
-      "name": "finishButton",
-      "persistentUuid": "3ee07a4a-fa40-413d-b5a2-9e5dca6cced6",
-      "width": 253,
-      "x": 859,
-      "y": 343,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    }
-  ],
-  "objects": [
-    {
-      "assetStoreId": "b654e184e2272c75af1bc34b0a20d87d0ea436e7d5e1a4cec8b4ce7d02ef9e8e",
-      "name": "game_over",
-      "persistentUuid": "fe621238-04e7-45e5-b394-8be5d8fe24ab",
-      "type": "LeaderboardDialog::LeaderboardDialog",
-      "variant": "Skull game over dialog",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "Prefix": "",
-        "LeaderboardId": ""
-      }
-    },
-    {
-      "assetStoreId": "9cf9ca8be6e98fc23e76b6770d3f4d094dea09f30a49f38ef9a9d2e97c2460be",
-      "name": "finishButton",
-      "persistentUuid": "d296a35a-242f-423f-bad7-e9a8820512cc",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variant": "Grey Button With Shadow",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 3,
-        "BottomPadding": 32,
-        "TopPadding": 32,
-        "HoveredFadeOutDuration": 0.25,
-        "LabelText": "Finish"
-      }
-    }
-  ],
+  "instances": [],
+  "objects": [],
   "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "game_over"
-      },
-      {
-        "objectName": "finishButton"
-      }
-    ]
+    "folderName": "__ROOT"
   },
   "events": [
     {
@@ -114,50 +38,23 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextReleased"
+            "value": "Leaderboards::IsLeaderboardViewLoaded"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
           },
           "parameters": [
             "",
-            "\"Left\""
-          ]
-        }
-      ],
-      "actions": [],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "finishButton",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "GlobalVariableString(LastPlayedLevel)",
-                ""
-              ]
-            }
+            "\"main menu\"",
+            ""
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [

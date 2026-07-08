@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Hex_32_45_32binary_40timed_41",
-  "name": "Hex - binary(timed)",
+  "mangledName": "Octal_32_45_32BinaryFM",
+  "name": "Octal - BinaryFM",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4163025217733357,
+    "zoomFactor": 0.4163025217733364,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -173,29 +173,9 @@
       "value": 0
     },
     {
-      "name": "targetHex",
+      "name": "targetOct",
       "type": "string",
       "value": ""
-    },
-    {
-      "name": "hexDigit",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "hexLetterVal",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "hexLetter",
-      "type": "string",
-      "value": ""
-    },
-    {
-      "name": "lightani",
-      "type": "number",
-      "value": 0
     }
   ],
   "instances": [
@@ -209,8 +189,8 @@
       "name": "Submit_Button",
       "persistentUuid": "85eafccd-d85a-4478-9f53-24c87dd42a72",
       "width": 138,
-      "x": 1389,
-      "y": 990,
+      "x": 1462,
+      "y": 985,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -220,60 +200,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 131,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Switch_128",
-      "persistentUuid": "4aa1cf67-a991-428f-8b27-dd71b5e8084c",
-      "width": 85,
-      "x": 446,
-      "y": 842,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "BitVal",
-          "type": "number",
-          "value": 128
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 140,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Switch_64",
-      "persistentUuid": "de42addc-4bc1-470e-a3ac-5a533703be6f",
-      "width": 90,
-      "x": 575,
-      "y": 838,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "BitVal",
-          "type": "number",
-          "value": 64
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 141,
+      "height": 154,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_32",
       "persistentUuid": "a6748144-dd77-45eb-b284-6cf156d6c29d",
-      "width": 92,
-      "x": 707,
-      "y": 836,
+      "width": 100,
+      "x": 440,
+      "y": 822,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -289,14 +223,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 140,
+      "height": 154,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_16",
       "persistentUuid": "4d5100ef-8e2c-4aab-93c9-ffeb0f4903af",
-      "width": 91,
-      "x": 842,
-      "y": 836,
+      "width": 100,
+      "x": 565,
+      "y": 822,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -312,14 +246,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 148,
+      "height": 152,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_8",
       "persistentUuid": "9c67ae53-b388-4a4c-9d5c-b30764c2ad83",
-      "width": 96,
-      "x": 980,
-      "y": 836,
+      "width": 105,
+      "x": 695,
+      "y": 825,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -329,14 +263,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 146,
+      "height": 160,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_4",
       "persistentUuid": "e38de78b-49bc-4991-9308-d52f3db7a5d5",
-      "width": 95,
-      "x": 1116,
-      "y": 836,
+      "width": 104,
+      "x": 1100,
+      "y": 822,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -346,14 +280,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 141,
+      "height": 155,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_2",
       "persistentUuid": "9e6be75d-0aa5-4645-89e4-fddbd8fea88f",
-      "width": 96,
-      "x": 1250,
-      "y": 836,
+      "width": 101,
+      "x": 1247,
+      "y": 827,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -363,14 +297,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 139,
+      "height": 148,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_1",
       "persistentUuid": "d8dbce20-ba13-4d0d-a633-fa5d5f9d5f5e",
-      "width": 91,
-      "x": 1390,
-      "y": 836,
+      "width": 96,
+      "x": 1384,
+      "y": 826,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -380,14 +314,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 329,
+      "height": 56,
       "keepRatio": true,
       "layer": "",
       "name": "TargetPrompt",
       "persistentUuid": "6399c03b-cf6d-44af-8960-63c15734d0aa",
-      "width": 749,
-      "x": 583,
-      "y": 731,
+      "width": 908,
+      "x": 498,
+      "y": 725,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -397,14 +331,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 341,
+      "height": 59,
       "keepRatio": true,
       "layer": "",
       "name": "Feedback",
       "persistentUuid": "8c6be39b-a383-4944-9e7d-f239dcb0ecc2",
-      "width": 553,
-      "x": 679,
-      "y": 729,
+      "width": 947,
+      "x": 477,
+      "y": 726,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -419,8 +353,8 @@
       "name": "finishButton",
       "persistentUuid": "cc4025d9-2d9d-4859-b212-5460376f3881",
       "width": 0,
-      "x": 1709,
-      "y": 815,
+      "x": 1636,
+      "y": 548,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -436,8 +370,8 @@
       "name": "TimerText",
       "persistentUuid": "492902c1-3e55-4307-b995-ec8a0a8ecd77",
       "width": 274,
-      "x": 905,
-      "y": 612,
+      "x": 2046,
+      "y": 536,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -453,7 +387,7 @@
       "persistentUuid": "256271b8-7070-4ae4-b45a-ed0a08a24476",
       "width": 0,
       "x": 1185,
-      "y": 583,
+      "y": 585,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -468,7 +402,7 @@
       "name": "StreakText",
       "persistentUuid": "4867d215-b3d7-46c2-953c-d286599a0c5b",
       "width": 0,
-      "x": 393,
+      "x": 425,
       "y": 580,
       "zOrder": 16,
       "numberProperties": [],
@@ -485,8 +419,8 @@
       "name": "Default_Panel_15",
       "persistentUuid": "969c933a-e572-49b9-af09-c3545fa1e0c2",
       "width": 372,
-      "x": 1311,
-      "y": -454,
+      "x": 125,
+      "y": -270,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -502,8 +436,8 @@
       "name": "Default_Panel_15",
       "persistentUuid": "716686ed-f1c9-4d56-ba55-999c59d21a61",
       "width": 354,
-      "x": 1514,
-      "y": -325,
+      "x": 161,
+      "y": -175,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -519,8 +453,8 @@
       "name": "Default_Panel_15",
       "persistentUuid": "1613c76f-83f9-401d-afe4-6f31277e26b2",
       "width": 496,
-      "x": 717,
-      "y": -434,
+      "x": 527,
+      "y": -339,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -536,8 +470,8 @@
       "name": "Default_Panel_15",
       "persistentUuid": "571dfb66-7339-4225-abc6-11f6bc4cba50",
       "width": 573,
-      "x": -30,
-      "y": -431,
+      "x": 579,
+      "y": -285,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -547,47 +481,32 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1266,
+      "height": 390,
+      "keepRatio": true,
+      "layer": "panels",
+      "name": "Default_Panel_15",
+      "persistentUuid": "71b16eea-1585-4a95-84ff-f848fc0770c9",
+      "width": 1928,
+      "x": 1068,
+      "y": -391,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
       "keepRatio": true,
       "layer": "background",
       "name": "Forest_Background_2",
       "persistentUuid": "2d98a7f3-7fb5-44c0-b150-004ed20d6dbf",
       "width": 1920,
       "x": 0,
-      "y": -186,
+      "y": 0,
       "zOrder": 22,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NumberSwitchesLabel",
-      "persistentUuid": "1002d1d5-ad9c-45b3-be19-a0d5f0aa3472",
-      "width": 0,
-      "x": 601,
-      "y": 806,
-      "zOrder": 23,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "LetterSwitchesLabel",
-      "persistentUuid": "766644bc-bdda-407e-9eee-ee98c8a522f9",
-      "width": 0,
-      "x": 1203,
-      "y": 798,
-      "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -599,11 +518,11 @@
       "keepRatio": true,
       "layer": "background",
       "name": "NewSprite3",
-      "persistentUuid": "1e0ed29d-397d-4ec5-89e4-a31ef9ae87d0",
+      "persistentUuid": "6e66fb0e-f070-41d6-ac6f-0db3c3728953",
       "width": 0,
-      "x": -1,
-      "y": 3,
-      "zOrder": 25,
+      "x": -2,
+      "y": 0,
+      "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -614,12 +533,12 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "bdf145b8-5477-43a7-a90d-f8de363e3a19",
+      "name": "NewSprite5",
+      "persistentUuid": "c1e113c2-01bc-42dc-9adf-67874d8ff1ba",
       "width": 0,
-      "x": 130,
-      "y": 85,
-      "zOrder": 26,
+      "x": 164,
+      "y": 77,
+      "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -628,15 +547,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 369,
+      "height": 364,
       "keepRatio": true,
       "layer": "",
       "name": "storybox",
-      "persistentUuid": "ffe70e75-0907-4570-ac4d-1d0f9d41685d",
-      "width": 1466,
-      "x": 223,
-      "y": 91,
-      "zOrder": 27,
+      "persistentUuid": "91562a35-217d-45ff-a83c-b31c8eee8cc9",
+      "width": 1587,
+      "x": 168,
+      "y": 83,
+      "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -645,15 +564,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 329,
+      "height": 182,
       "keepRatio": true,
       "layer": "",
       "name": "Story_text",
-      "persistentUuid": "9f52260d-4f81-4f59-aaa2-79d5f4fda6ac",
-      "width": 1230,
-      "x": 328,
-      "y": 167,
-      "zOrder": 28,
+      "persistentUuid": "9a8ad3fe-df17-4c62-8dfa-8b0678f4ef56",
+      "width": 1421,
+      "x": 243,
+      "y": 194,
+      "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1854,11 +1773,11 @@
       "string": "Timer",
       "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
       "textAlignment": "left",
-      "characterSize": 30,
+      "characterSize": 40,
       "color": {
-        "b": 134,
-        "g": 233,
-        "r": 184
+        "b": 0,
+        "g": 0,
+        "r": 0
       },
       "content": {
         "bold": false,
@@ -1878,9 +1797,9 @@
         "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 30,
+        "characterSize": 40,
         "lineHeight": 0,
-        "color": "184;233;134"
+        "color": "0;0;0"
       }
     },
     {
@@ -2062,94 +1981,6 @@
       "behaviors": []
     },
     {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "NumberSwitchesLabel",
-      "persistentUuid": "855f8787-1fb9-46c3-97e9-d6285cadd134",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Number",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 40,
-      "color": {
-        "b": 134,
-        "g": 233,
-        "r": 184
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Number",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 40,
-        "lineHeight": 0,
-        "color": "184;233;134"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "LetterSwitchesLabel",
-      "persistentUuid": "cb569a1b-b2ee-4069-8f83-88b12f61a2db",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Letter",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 40,
-      "color": {
-        "b": 134,
-        "g": 233,
-        "r": 184
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Letter",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 40,
-        "lineHeight": 0,
-        "color": "184;233;134"
-      }
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite4",
@@ -2158,9 +1989,20 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
+      "animations": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite5",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
       "animations": [
         {
-          "name": "0",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2169,7 +2011,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Hex to binary.png",
+                  "image": "octal to binary.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2185,264 +2027,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 239,
-                        "y": 9
+                        "x": 429,
+                        "y": 15
                       },
                       {
-                        "x": 1409,
-                        "y": 9
+                        "x": 1175,
+                        "y": 15
                       },
                       {
-                        "x": 1409,
+                        "x": 1175,
                         "y": 375
                       },
                       {
-                        "x": 239,
-                        "y": 375
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "1",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Hex to binary2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 239,
-                        "y": 9
-                      },
-                      {
-                        "x": 1409,
-                        "y": 9
-                      },
-                      {
-                        "x": 1409,
-                        "y": 375
-                      },
-                      {
-                        "x": 239,
-                        "y": 375
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "2",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Hex to binary3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 239,
-                        "y": 9
-                      },
-                      {
-                        "x": 1409,
-                        "y": 9
-                      },
-                      {
-                        "x": 1409,
-                        "y": 375
-                      },
-                      {
-                        "x": 239,
-                        "y": 375
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "3",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "6",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 239,
-                        "y": 9
-                      },
-                      {
-                        "x": 1409,
-                        "y": 9
-                      },
-                      {
-                        "x": 1409,
-                        "y": 375
-                      },
-                      {
-                        "x": 239,
-                        "y": 375
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "4",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Hex to binary5.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 239,
-                        "y": 9
-                      },
-                      {
-                        "x": 1409,
-                        "y": 9
-                      },
-                      {
-                        "x": 1409,
-                        "y": 375
-                      },
-                      {
-                        "x": 239,
-                        "y": 375
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "5",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "7",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 239,
-                        "y": 9
-                      },
-                      {
-                        "x": 1409,
-                        "y": 9
-                      },
-                      {
-                        "x": 1409,
-                        "y": 375
-                      },
-                      {
-                        "x": 239,
+                        "x": 429,
                         "y": 375
                       }
                     ]
@@ -2459,7 +2056,7 @@
       "bold": false,
       "italic": false,
       "name": "Story_text",
-      "persistentUuid": "99147762-f319-4e97-8d21-1968eb0a12f9",
+      "persistentUuid": "43ca65f2-9ca4-4136-8a38-86e78b5a0da5",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -2476,7 +2073,7 @@
           "TypedText": ""
         }
       ],
-      "string": "HQ to Converter, the Gridbreaker Syndicate has changed to Hexadecimal to Binary, but it's ok because it follows the same rules as before, split the number and letter apart, and compute their individual bits ",
+      "string": "HQ to Converter, the Gridbreaker Syndicate has switched to octal to binary; it's similar to before. Remember to split the number, then convert its individual parts",
       "font": "",
       "textAlignment": "left",
       "characterSize": 40,
@@ -2499,7 +2096,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "HQ to Converter, the Gridbreaker Syndicate has changed to Hexadecimal to Binary, but it's ok because it follows the same rules as before, split the number and letter apart, and compute their individual bits ",
+        "text": "HQ to Converter, the Gridbreaker Syndicate has switched to octal to binary; it's similar to before. Remember to split the number, then convert its individual parts",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -2514,7 +2111,7 @@
       "height": 48,
       "leftMargin": 12,
       "name": "storybox",
-      "persistentUuid": "1b4a9ec5-5355-4fac-bd68-e82e1207c3d4",
+      "persistentUuid": "c5376f13-bae5-487a-a32a-fd8ccfeec3ac",
       "rightMargin": 12,
       "texture": "Default-panel (2).png",
       "tiled": false,
@@ -2545,6 +2142,12 @@
         "objectName": "Switch_8"
       },
       {
+        "objectName": "NewSprite4"
+      },
+      {
+        "objectName": "NewSprite5"
+      },
+      {
         "objectName": "Switch_4"
       },
       {
@@ -2572,9 +2175,6 @@
         "objectName": "finishButton"
       },
       {
-        "objectName": "NewSprite4"
-      },
-      {
         "objectName": "TimerText"
       },
       {
@@ -2587,16 +2187,10 @@
         "objectName": "StreakText"
       },
       {
-        "objectName": "NumberSwitchesLabel"
-      },
-      {
-        "objectName": "LetterSwitchesLabel"
+        "objectName": "storybox"
       },
       {
         "objectName": "Story_text"
-      },
-      {
-        "objectName": "storybox"
       }
     ]
   },
@@ -2616,25 +2210,13 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "timedlevelsfixed2.mp3",
-            "no",
-            "3",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
             "Feedback",
             "Text",
             "=",
-            ""
+            "\"\""
           ]
         },
         {
@@ -2775,6 +2357,18 @@
             "True",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "levelbackmus.mp3",
+            "",
+            "2",
+            ""
+          ]
         }
       ],
       "events": [
@@ -2898,7 +2492,7 @@
           },
           "parameters": [
             "",
-            "switch off.mp3",
+            "switch off2.mp3",
             "",
             "25",
             ""
@@ -3085,49 +2679,30 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "hexDigit",
-                "=",
-                "RandomInRange(0, 9)"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "hexLetterVal",
-                "=",
-                "RandomInRange(10, 15)"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "hexLetter",
-                "=",
-                "BaseConversion::ToBase(hexLetterVal, 16)"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "targetHex",
-                "=",
-                "ToString(hexDigit) + hexLetter"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
                 "targetNum",
                 "=",
-                "BaseConversion::ToDecimal(targetHex, 16)"
+                "RandomInRange(1, 63)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "targetOct",
+                "=",
+                "BaseConversion::ToBase(targetNum, 8)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TargetPrompt",
+                "Text",
+                "=",
+                "\"Convert \" + targetOct + \" to Binary.\""
               ]
             },
             {
@@ -3177,25 +2752,6 @@
               },
               "parameters": [
                 "Feedback"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "TargetPrompt",
-                    "Text",
-                    "=",
-                    "\"Convert \" + targetHex + \" to binary\""
-                  ]
-                }
               ]
             }
           ]
@@ -3357,39 +2913,6 @@
                 "Text",
                 "=",
                 "ToString(streak)"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "lightani",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "NewSprite4",
-                "Animation",
-                "=",
-                "lightani"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "correct answer.mp3",
-                "no",
-                "25",
-                ""
               ]
             }
           ],
@@ -3970,18 +3493,6 @@
             },
             {
               "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "incorrect answer.mp3",
-                "no",
-                "25",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -4003,27 +3514,6 @@
               "parameters": [
                 "TargetPrompt",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "lightani",
-                "-",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "NewSprite4",
-                "Animation",
-                "=",
-                "lightani"
               ]
             }
           ],
@@ -4126,7 +3616,7 @@
           },
           "parameters": [
             "",
-            "\"Post-Question ResultsHB\"",
+            "\"Post-Question ResultsOB\"",
             ""
           ]
         }
@@ -4144,7 +3634,7 @@
             "TimerText",
             "Text",
             "=",
-            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-60)))"
+            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-30)))"
           ]
         }
       ]
@@ -4197,7 +3687,7 @@
             "",
             "\"CountingDown\"",
             ">=",
-            "60"
+            "30"
           ]
         }
       ],
@@ -4244,16 +3734,6 @@
         },
         {
           "type": {
-            "value": "SetStringVariable"
-          },
-          "parameters": [
-            "LastPlayedLevel",
-            "=",
-            "\"Hex - binary(timed)\""
-          ]
-        },
-        {
-          "type": {
             "value": "PauseTimer"
           },
           "parameters": [
@@ -4278,7 +3758,7 @@
           },
           "parameters": [
             "",
-            "\"Game Over Screen\"",
+            "\"cumulative in-progress\"",
             ""
           ]
         }
@@ -4333,6 +3813,7 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {

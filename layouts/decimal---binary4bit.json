@@ -189,8 +189,8 @@
       "name": "Submit_Button",
       "persistentUuid": "85eafccd-d85a-4478-9f53-24c87dd42a72",
       "width": 176,
-      "x": 1394,
-      "y": 998,
+      "x": 1423,
+      "y": 991,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -206,8 +206,8 @@
       "name": "Switch_8",
       "persistentUuid": "9c67ae53-b388-4a4c-9d5c-b30764c2ad83",
       "width": 118,
-      "x": 551,
-      "y": 821,
+      "x": 525,
+      "y": 771,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -223,8 +223,8 @@
       "name": "Switch_4",
       "persistentUuid": "e38de78b-49bc-4991-9308-d52f3db7a5d5",
       "width": 109,
-      "x": 834,
-      "y": 826,
+      "x": 811,
+      "y": 766,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -241,7 +241,7 @@
       "persistentUuid": "9e6be75d-0aa5-4645-89e4-fddbd8fea88f",
       "width": 109,
       "x": 1112,
-      "y": 831,
+      "y": 771,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -251,14 +251,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 128,
+      "height": 147,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_1",
       "persistentUuid": "d8dbce20-ba13-4d0d-a633-fa5d5f9d5f5e",
-      "width": 90,
-      "x": 1388,
-      "y": 839,
+      "width": 114,
+      "x": 1402,
+      "y": 775,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -268,14 +268,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 329,
+      "height": 55,
       "keepRatio": true,
       "layer": "",
       "name": "TargetPrompt",
       "persistentUuid": "6399c03b-cf6d-44af-8960-63c15734d0aa",
       "width": 1344,
-      "x": 300,
-      "y": 733,
+      "x": 302,
+      "y": 681,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -285,14 +285,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 341,
+      "height": 48,
       "keepRatio": true,
       "layer": "",
       "name": "Feedback",
       "persistentUuid": "8c6be39b-a383-4944-9e7d-f239dcb0ecc2",
       "width": 1448,
-      "x": 239,
-      "y": 734,
+      "x": 253,
+      "y": 681,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -302,14 +302,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 64,
-      "height": 60,
+      "height": 76,
       "keepRatio": true,
       "layer": "",
       "name": "finishButton",
       "persistentUuid": "cc4025d9-2d9d-4859-b212-5460376f3881",
-      "width": 173,
-      "x": 1724,
-      "y": 770,
+      "width": 113,
+      "x": 932,
+      "y": 975,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -341,8 +341,8 @@
       "name": "SCORE",
       "persistentUuid": "256271b8-7070-4ae4-b45a-ed0a08a24476",
       "width": 0,
-      "x": 1128,
-      "y": 575,
+      "x": 1187,
+      "y": 578,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -468,22 +468,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "background",
-      "name": "NewSprite3",
-      "persistentUuid": "79de66ea-410d-4b65-874f-32b1256f4354",
-      "width": 0,
-      "x": 9,
-      "y": 1,
-      "zOrder": 23,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 453,
@@ -492,8 +476,8 @@
       "name": "NewSprite4",
       "persistentUuid": "ac04bb7d-f4e0-480d-bcaf-9fbacbb3fbff",
       "width": 1799,
-      "x": 34,
-      "y": 36,
+      "x": -4,
+      "y": 24,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -535,14 +519,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 379,
+      "height": 401,
       "keepRatio": true,
       "layer": "",
       "name": "storybox",
       "persistentUuid": "8993dadf-072f-4ba6-b87a-c5dd8704958c",
       "width": 1582,
-      "x": 175,
-      "y": 83,
+      "x": 163,
+      "y": 45,
       "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
@@ -558,9 +542,43 @@
       "name": "Story_text",
       "persistentUuid": "3e28cefb-52c4-4643-9998-c3bfc333d80f",
       "width": 1517,
-      "x": 226,
-      "y": 182,
+      "x": 200,
+      "y": 151,
       "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 79,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Gear_button",
+      "persistentUuid": "ede0f459-4cff-4322-a772-d87b2db12944",
+      "width": 79,
+      "x": 1770,
+      "y": 608,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1075,
+      "keepRatio": true,
+      "layer": "background",
+      "name": "NewSprite5",
+      "persistentUuid": "38fbcd67-327c-49bb-9393-0f512c06e225",
+      "width": 1926,
+      "x": -3,
+      "y": 2,
+      "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2430,6 +2448,67 @@
         "lineHeight": 0,
         "color": "184;233;134"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "6bdaed997d916656193c5304e631bcb2c892046461490306550e6321c489e3df",
+      "name": "Gear_button",
+      "persistentUuid": "ce080e30-9e67-434b-8080-11671a2170ab",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Gear button.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 50,
+                        "y": 0
+                      },
+                      {
+                        "x": 50,
+                        "y": 48
+                      },
+                      {
+                        "x": 0,
+                        "y": 48
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2503,6 +2582,9 @@
       },
       {
         "objectName": "NewSprite4"
+      },
+      {
+        "objectName": "Gear_button"
       }
     ]
   },
@@ -2678,7 +2760,7 @@
             "",
             "levelbackmus.mp3",
             "",
-            "2",
+            "GlobalVariable(LevelVolume)",
             ""
           ]
         }

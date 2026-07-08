@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Hex_32_45_32binary_40timed_41",
-  "name": "Hex - binary(timed)",
+  "mangledName": "Dec_32_45_32Binary_32_408_32Bit_41FM",
+  "name": "Dec - Binary (8 Bit)FM",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4163025217733357,
+    "zoomFactor": 0.4163025217733364,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -171,31 +171,6 @@
       "name": "highestStreak",
       "type": "number",
       "value": 0
-    },
-    {
-      "name": "targetHex",
-      "type": "string",
-      "value": ""
-    },
-    {
-      "name": "hexDigit",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "hexLetterVal",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "hexLetter",
-      "type": "string",
-      "value": ""
-    },
-    {
-      "name": "lightani",
-      "type": "number",
-      "value": 0
     }
   ],
   "instances": [
@@ -203,14 +178,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 71,
+      "height": 65,
       "keepRatio": true,
       "layer": "",
       "name": "Submit_Button",
       "persistentUuid": "85eafccd-d85a-4478-9f53-24c87dd42a72",
       "width": 138,
-      "x": 1389,
-      "y": 990,
+      "x": 1381,
+      "y": 993,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -220,14 +195,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 131,
+      "height": 158,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_128",
       "persistentUuid": "4aa1cf67-a991-428f-8b27-dd71b5e8084c",
-      "width": 85,
-      "x": 446,
-      "y": 842,
+      "width": 103,
+      "x": 436,
+      "y": 819,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -243,15 +218,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 140,
+      "height": 158,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_64",
       "persistentUuid": "de42addc-4bc1-470e-a3ac-5a533703be6f",
-      "width": 90,
-      "x": 575,
-      "y": 838,
-      "zOrder": 3,
+      "width": 103,
+      "x": 567,
+      "y": 819,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -266,14 +241,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 141,
+      "height": 158,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_32",
       "persistentUuid": "a6748144-dd77-45eb-b284-6cf156d6c29d",
-      "width": 92,
-      "x": 707,
-      "y": 836,
+      "width": 103,
+      "x": 700,
+      "y": 819,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -289,14 +264,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 140,
+      "height": 158,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_16",
       "persistentUuid": "4d5100ef-8e2c-4aab-93c9-ffeb0f4903af",
-      "width": 91,
-      "x": 842,
-      "y": 836,
+      "width": 103,
+      "x": 838,
+      "y": 819,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -312,14 +287,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 148,
+      "height": 158,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_8",
       "persistentUuid": "9c67ae53-b388-4a4c-9d5c-b30764c2ad83",
-      "width": 96,
-      "x": 980,
-      "y": 836,
+      "width": 103,
+      "x": 972,
+      "y": 819,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -329,14 +304,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 146,
+      "height": 158,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_4",
       "persistentUuid": "e38de78b-49bc-4991-9308-d52f3db7a5d5",
-      "width": 95,
-      "x": 1116,
-      "y": 836,
+      "width": 103,
+      "x": 1106,
+      "y": 819,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -346,14 +321,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 141,
+      "height": 158,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_2",
       "persistentUuid": "9e6be75d-0aa5-4645-89e4-fddbd8fea88f",
-      "width": 96,
-      "x": 1250,
-      "y": 836,
+      "width": 103,
+      "x": 1236,
+      "y": 819,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -363,14 +338,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 139,
+      "height": 158,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_1",
       "persistentUuid": "d8dbce20-ba13-4d0d-a633-fa5d5f9d5f5e",
-      "width": 91,
-      "x": 1390,
-      "y": 836,
+      "width": 103,
+      "x": 1377,
+      "y": 819,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -380,14 +355,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 329,
+      "height": 68,
       "keepRatio": true,
       "layer": "",
       "name": "TargetPrompt",
       "persistentUuid": "6399c03b-cf6d-44af-8960-63c15734d0aa",
-      "width": 749,
-      "x": 583,
-      "y": 731,
+      "width": 886,
+      "x": 535,
+      "y": 744,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -397,14 +372,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 341,
+      "height": 66,
       "keepRatio": true,
       "layer": "",
       "name": "Feedback",
       "persistentUuid": "8c6be39b-a383-4944-9e7d-f239dcb0ecc2",
-      "width": 553,
-      "x": 679,
-      "y": 729,
+      "width": 1035,
+      "x": 443,
+      "y": 742,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -419,8 +394,8 @@
       "name": "finishButton",
       "persistentUuid": "cc4025d9-2d9d-4859-b212-5460376f3881",
       "width": 0,
-      "x": 1709,
-      "y": 815,
+      "x": 1699,
+      "y": 817,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -436,8 +411,8 @@
       "name": "TimerText",
       "persistentUuid": "492902c1-3e55-4307-b995-ec8a0a8ecd77",
       "width": 274,
-      "x": 905,
-      "y": 612,
+      "x": 884,
+      "y": 602,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -452,8 +427,8 @@
       "name": "SCORE",
       "persistentUuid": "256271b8-7070-4ae4-b45a-ed0a08a24476",
       "width": 0,
-      "x": 1185,
-      "y": 583,
+      "x": 1198,
+      "y": 587,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -468,8 +443,8 @@
       "name": "StreakText",
       "persistentUuid": "4867d215-b3d7-46c2-953c-d286599a0c5b",
       "width": 0,
-      "x": 393,
-      "y": 580,
+      "x": 408,
+      "y": 582,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -485,8 +460,8 @@
       "name": "Default_Panel_15",
       "persistentUuid": "969c933a-e572-49b9-af09-c3545fa1e0c2",
       "width": 372,
-      "x": 1311,
-      "y": -454,
+      "x": 41,
+      "y": -218,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -502,8 +477,8 @@
       "name": "Default_Panel_15",
       "persistentUuid": "716686ed-f1c9-4d56-ba55-999c59d21a61",
       "width": 354,
-      "x": 1514,
-      "y": -325,
+      "x": 1637,
+      "y": -258,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -519,8 +494,8 @@
       "name": "Default_Panel_15",
       "persistentUuid": "1613c76f-83f9-401d-afe4-6f31277e26b2",
       "width": 496,
-      "x": 717,
-      "y": -434,
+      "x": 744,
+      "y": -339,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -536,8 +511,8 @@
       "name": "Default_Panel_15",
       "persistentUuid": "571dfb66-7339-4225-abc6-11f6bc4cba50",
       "width": 573,
-      "x": -30,
-      "y": -431,
+      "x": 886,
+      "y": -241,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -547,47 +522,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1266,
+      "height": 1080,
       "keepRatio": true,
       "layer": "background",
       "name": "Forest_Background_2",
       "persistentUuid": "2d98a7f3-7fb5-44c0-b150-004ed20d6dbf",
       "width": 1920,
-      "x": 0,
-      "y": -186,
+      "x": 2,
+      "y": 6,
       "zOrder": 22,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NumberSwitchesLabel",
-      "persistentUuid": "1002d1d5-ad9c-45b3-be19-a0d5f0aa3472",
-      "width": 0,
-      "x": 601,
-      "y": 806,
-      "zOrder": 23,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "LetterSwitchesLabel",
-      "persistentUuid": "766644bc-bdda-407e-9eee-ee98c8a522f9",
-      "width": 0,
-      "x": 1203,
-      "y": 798,
-      "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -599,11 +542,11 @@
       "keepRatio": true,
       "layer": "background",
       "name": "NewSprite3",
-      "persistentUuid": "1e0ed29d-397d-4ec5-89e4-a31ef9ae87d0",
+      "persistentUuid": "721bc3e4-8ea1-4b41-8631-bfa869b0efe7",
       "width": 0,
-      "x": -1,
-      "y": 3,
-      "zOrder": 25,
+      "x": -7,
+      "y": 4,
+      "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -613,13 +556,13 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "bdf145b8-5477-43a7-a90d-f8de363e3a19",
+      "layer": "background",
+      "name": "buildings",
+      "persistentUuid": "12378e63-d8d7-4de9-a947-b540f0da0852",
       "width": 0,
-      "x": 130,
-      "y": 85,
-      "zOrder": 26,
+      "x": 171,
+      "y": 81,
+      "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -628,15 +571,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 369,
+      "height": 365,
       "keepRatio": true,
       "layer": "",
       "name": "storybox",
-      "persistentUuid": "ffe70e75-0907-4570-ac4d-1d0f9d41685d",
-      "width": 1466,
-      "x": 223,
-      "y": 91,
-      "zOrder": 27,
+      "persistentUuid": "1e813a38-2aea-4afa-8070-002d455999da",
+      "width": 1582,
+      "x": 199,
+      "y": 94,
+      "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -645,15 +588,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 329,
+      "height": 344,
       "keepRatio": true,
       "layer": "",
       "name": "Story_text",
-      "persistentUuid": "9f52260d-4f81-4f59-aaa2-79d5f4fda6ac",
-      "width": 1230,
-      "x": 328,
-      "y": 167,
-      "zOrder": 28,
+      "persistentUuid": "306b6f9c-0b26-40d5-a2fc-2cc7933dd028",
+      "width": 1435,
+      "x": 265,
+      "y": 182,
+      "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1854,7 +1797,7 @@
       "string": "Timer",
       "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
       "textAlignment": "left",
-      "characterSize": 30,
+      "characterSize": 40,
       "color": {
         "b": 134,
         "g": 233,
@@ -1878,7 +1821,7 @@
         "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 30,
+        "characterSize": 40,
         "lineHeight": 0,
         "color": "184;233;134"
       }
@@ -2062,97 +2005,9 @@
       "behaviors": []
     },
     {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "NumberSwitchesLabel",
-      "persistentUuid": "855f8787-1fb9-46c3-97e9-d6285cadd134",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Number",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 40,
-      "color": {
-        "b": 134,
-        "g": 233,
-        "r": 184
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Number",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 40,
-        "lineHeight": 0,
-        "color": "184;233;134"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "LetterSwitchesLabel",
-      "persistentUuid": "cb569a1b-b2ee-4069-8f83-88b12f61a2db",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Letter",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 40,
-      "color": {
-        "b": 134,
-        "g": 233,
-        "r": 184
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Letter",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 40,
-        "lineHeight": 0,
-        "color": "184;233;134"
-      }
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite4",
+      "name": "buildings",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2160,7 +2015,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "0",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2169,7 +2024,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Hex to binary.png",
+                  "image": "8bit level.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2185,264 +2040,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 239,
-                        "y": 9
+                        "x": 174,
+                        "y": 13
                       },
                       {
-                        "x": 1409,
-                        "y": 9
+                        "x": 1456,
+                        "y": 13
                       },
                       {
-                        "x": 1409,
+                        "x": 1456,
                         "y": 375
                       },
                       {
-                        "x": 239,
-                        "y": 375
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "1",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Hex to binary2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 239,
-                        "y": 9
-                      },
-                      {
-                        "x": 1409,
-                        "y": 9
-                      },
-                      {
-                        "x": 1409,
-                        "y": 375
-                      },
-                      {
-                        "x": 239,
-                        "y": 375
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "2",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Hex to binary3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 239,
-                        "y": 9
-                      },
-                      {
-                        "x": 1409,
-                        "y": 9
-                      },
-                      {
-                        "x": 1409,
-                        "y": 375
-                      },
-                      {
-                        "x": 239,
-                        "y": 375
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "3",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "6",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 239,
-                        "y": 9
-                      },
-                      {
-                        "x": 1409,
-                        "y": 9
-                      },
-                      {
-                        "x": 1409,
-                        "y": 375
-                      },
-                      {
-                        "x": 239,
-                        "y": 375
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "4",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Hex to binary5.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 239,
-                        "y": 9
-                      },
-                      {
-                        "x": 1409,
-                        "y": 9
-                      },
-                      {
-                        "x": 1409,
-                        "y": 375
-                      },
-                      {
-                        "x": 239,
-                        "y": 375
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "5",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "7",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 239,
-                        "y": 9
-                      },
-                      {
-                        "x": 1409,
-                        "y": 9
-                      },
-                      {
-                        "x": 1409,
-                        "y": 375
-                      },
-                      {
-                        "x": 239,
+                        "x": 174,
                         "y": 375
                       }
                     ]
@@ -2459,7 +2069,7 @@
       "bold": false,
       "italic": false,
       "name": "Story_text",
-      "persistentUuid": "99147762-f319-4e97-8d21-1968eb0a12f9",
+      "persistentUuid": "138f1984-a264-431c-b09f-1839293a1dce",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -2476,7 +2086,7 @@
           "TypedText": ""
         }
       ],
-      "string": "HQ to Converter, the Gridbreaker Syndicate has changed to Hexadecimal to Binary, but it's ok because it follows the same rules as before, split the number and letter apart, and compute their individual bits ",
+      "string": "HQ to Converter, The Gridbreaker Syndicate has permanently added more bits, but this is no problem because it seems to still follow the power of two. Remember, from right to left, it goes 1, 2, 4, 6, 8, 16, 32, 64, and lastly 128",
       "font": "",
       "textAlignment": "left",
       "characterSize": 40,
@@ -2499,7 +2109,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "HQ to Converter, the Gridbreaker Syndicate has changed to Hexadecimal to Binary, but it's ok because it follows the same rules as before, split the number and letter apart, and compute their individual bits ",
+        "text": "HQ to Converter, The Gridbreaker Syndicate has permanently added more bits, but this is no problem because it seems to still follow the power of two. Remember, from right to left, it goes 1, 2, 4, 6, 8, 16, 32, 64, and lastly 128",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -2514,7 +2124,7 @@
       "height": 48,
       "leftMargin": 12,
       "name": "storybox",
-      "persistentUuid": "1b4a9ec5-5355-4fac-bd68-e82e1207c3d4",
+      "persistentUuid": "ab3ed928-144e-4815-b8c2-1e4ff2702b02",
       "rightMargin": 12,
       "texture": "Default-panel (2).png",
       "tiled": false,
@@ -2572,9 +2182,6 @@
         "objectName": "finishButton"
       },
       {
-        "objectName": "NewSprite4"
-      },
-      {
         "objectName": "TimerText"
       },
       {
@@ -2587,16 +2194,13 @@
         "objectName": "StreakText"
       },
       {
-        "objectName": "NumberSwitchesLabel"
-      },
-      {
-        "objectName": "LetterSwitchesLabel"
-      },
-      {
-        "objectName": "Story_text"
+        "objectName": "buildings"
       },
       {
         "objectName": "storybox"
+      },
+      {
+        "objectName": "Story_text"
       }
     ]
   },
@@ -2634,7 +2238,7 @@
             "Feedback",
             "Text",
             "=",
-            ""
+            "\"\""
           ]
         },
         {
@@ -2898,8 +2502,8 @@
           },
           "parameters": [
             "",
-            "switch off.mp3",
-            "",
+            "freesound_community-light-switch-off-86314.mp3",
+            "no",
             "25",
             ""
           ]
@@ -3085,49 +2689,20 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "hexDigit",
-                "=",
-                "RandomInRange(0, 9)"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "hexLetterVal",
-                "=",
-                "RandomInRange(10, 15)"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "hexLetter",
-                "=",
-                "BaseConversion::ToBase(hexLetterVal, 16)"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "targetHex",
-                "=",
-                "ToString(hexDigit) + hexLetter"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
                 "targetNum",
                 "=",
-                "BaseConversion::ToDecimal(targetHex, 16)"
+                "RandomInRange(1, 32)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TargetPrompt",
+                "Text",
+                "=",
+                "\"Convert \" + ToString(targetNum) + \" to Binary.\""
               ]
             },
             {
@@ -3177,25 +2752,6 @@
               },
               "parameters": [
                 "Feedback"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "TargetPrompt",
-                    "Text",
-                    "=",
-                    "\"Convert \" + targetHex + \" to binary\""
-                  ]
-                }
               ]
             }
           ]
@@ -3357,27 +2913,6 @@
                 "Text",
                 "=",
                 "ToString(streak)"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "lightani",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "NewSprite4",
-                "Animation",
-                "=",
-                "lightani"
               ]
             },
             {
@@ -4004,27 +3539,6 @@
                 "TargetPrompt",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "lightani",
-                "-",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "NewSprite4",
-                "Animation",
-                "=",
-                "lightani"
-              ]
             }
           ],
           "events": [
@@ -4126,7 +3640,7 @@
           },
           "parameters": [
             "",
-            "\"Post-Question ResultsHB\"",
+            "\"LDCom-DB\"",
             ""
           ]
         }
@@ -4244,16 +3758,6 @@
         },
         {
           "type": {
-            "value": "SetStringVariable"
-          },
-          "parameters": [
-            "LastPlayedLevel",
-            "=",
-            "\"Hex - binary(timed)\""
-          ]
-        },
-        {
-          "type": {
             "value": "PauseTimer"
           },
           "parameters": [
@@ -4333,6 +3837,7 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
