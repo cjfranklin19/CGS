@@ -4377,5 +4377,10 @@
       "referenceTo": "/eventsFunctionsExtensions/buttonstates"
     }
   ],
-  "externalLayouts": []
+  "externalLayouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/level"
+    }
+  ]
 }
