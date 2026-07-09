@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5079575118131792,
+    "zoomFactor": 0.5250860067782567,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -59,145 +59,145 @@
   "variables": [
     {
       "name": "binaryTot",
-      "persistentUuid": "edab07a0-720a-4ab9-87cc-d37b630ad222",
+      "persistentUuid": "b4bc1f11-f68d-4042-96c2-ae8b9ef61310",
       "type": "number",
       "value": 0
     },
     {
       "name": "targetNum",
-      "persistentUuid": "4a9d829c-9236-4cd2-bd5d-a83ca3800135",
+      "persistentUuid": "1880ddeb-adc0-49e0-8658-20af3e2e8aa2",
       "type": "number",
       "value": 0
     },
     {
       "name": "resultText",
-      "persistentUuid": "a69a5c31-df74-4660-bd85-af5707f8060a",
+      "persistentUuid": "2e577d6c-f484-486a-94c3-b9ad955dd11e",
       "type": "string",
       "value": "\"\""
     },
     {
       "name": "score",
-      "persistentUuid": "462ecb59-6b90-4db9-998b-3082cff25805",
+      "persistentUuid": "26fe2bd7-4cfe-40c0-8643-65588f795f1a",
       "type": "number",
       "value": 0
     },
     {
       "name": "basePoints",
-      "persistentUuid": "38945c9d-1825-4aaa-a810-f8f7de65d5b2",
+      "persistentUuid": "16b3f5bb-ed9d-456f-8291-c92f62e581ae",
       "type": "number",
       "value": 100
     },
     {
       "name": "penalty",
-      "persistentUuid": "32ba7e0a-d50b-4efa-a5dd-247a24d8abd6",
+      "persistentUuid": "9f62e1da-f6ae-4e96-bacd-3071affb686d",
       "type": "number",
       "value": 50
     },
     {
       "name": "mult",
-      "persistentUuid": "75a610d7-23e2-4cb5-a7c9-6967d84bdee6",
+      "persistentUuid": "340f862d-2a1a-4ece-9743-5a6267997078",
       "type": "number",
       "value": 1
     },
     {
       "name": "streak",
-      "persistentUuid": "d1408872-a6b9-4ae7-9c4c-9282ba49ddab",
+      "persistentUuid": "87acbc33-9801-4e70-b0c0-6e1f37c2d3b8",
       "type": "number",
       "value": 0
     },
     {
       "name": "wrongStreak",
-      "persistentUuid": "16992d4d-5b8d-441a-baf8-75a883a77d50",
+      "persistentUuid": "bfc437a0-348b-4edd-afeb-5f83b309c915",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionsAnswered",
-      "persistentUuid": "80aba6ff-53a9-463c-a8c4-c9d80e210a52",
+      "persistentUuid": "14a91efe-d41a-426b-a778-6bfecaf7679a",
       "type": "number",
       "value": 0
     },
     {
       "name": "levelQuestions",
-      "persistentUuid": "da0925f8-85d9-45c9-bf07-21259150cadf",
+      "persistentUuid": "918914e9-54ee-4a00-b8a7-801c4cc12412",
       "type": "number",
       "value": 5
     },
     {
       "name": "elapsedQuestionTime",
-      "persistentUuid": "847cc457-3070-4ad7-be44-ed8b9e45babd",
+      "persistentUuid": "d94d31d3-85cc-46b9-b37e-d2731994be1f",
       "type": "number",
       "value": 0
     },
     {
       "name": "timeLimit",
-      "persistentUuid": "a7ccc214-1618-45a3-a1f4-531403b93a7f",
+      "persistentUuid": "bdf8de74-4843-4b97-9a94-1d71284ea623",
       "type": "number",
       "value": 30
     },
     {
       "name": "hintPenalty",
-      "persistentUuid": "a69416dd-15fc-499a-91c5-4929783724a1",
+      "persistentUuid": "5fd7ecab-9a11-47ae-8c31-c09b66b25ba9",
       "type": "number",
       "value": 25
     },
     {
       "name": "hintOpen",
-      "persistentUuid": "dc749f76-c4ec-448e-9b3a-034c2768775c",
+      "persistentUuid": "2bc2d68e-cf32-4654-a16a-e01600803190",
       "type": "boolean",
       "value": false
     },
     {
       "name": "hintUsedThisQuestion",
-      "persistentUuid": "ef6f00b6-6bcc-489c-8e74-b0e40ba2670b",
+      "persistentUuid": "389b4315-c573-4580-af9a-c6ce6c7d02c6",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionOpen",
-      "persistentUuid": "f10c6697-fe6e-4616-aa31-f8d0125be735",
+      "persistentUuid": "d4902704-4b1b-4ded-81c9-279d007120e7",
       "type": "boolean",
       "value": true
     },
     {
       "name": "cityPower",
-      "persistentUuid": "6b2b2c8c-1eff-4f7c-b043-f94c2da2501d",
+      "persistentUuid": "313359df-3def-4495-8a43-aaaeee53d98a",
       "type": "number",
       "value": 0
     },
     {
       "name": "inputLocked",
-      "persistentUuid": "fc4c848f-00e9-457f-9f76-a050b8703354",
+      "persistentUuid": "f47a245d-98d7-47f3-8059-3c85706fea39",
       "type": "boolean",
       "value": false
     },
     {
       "name": "startNextQuestion",
-      "persistentUuid": "7d63365a-04b3-44f6-8ae1-eb1b50b2dff7",
+      "persistentUuid": "11237778-ff51-4ca4-b7f7-9973dff38705",
       "type": "boolean",
       "value": true
     },
     {
       "name": "correctAnswers",
-      "persistentUuid": "7d167088-1c55-4683-bfdf-4fdbfbcbb1fc",
+      "persistentUuid": "15d3ee07-e12b-4aa4-913c-d2b1d7d760cf",
       "type": "number",
       "value": 0
     },
     {
       "name": "incorrectAnswers",
-      "persistentUuid": "aac8f1fb-74b2-4b3b-af80-6d63f069b968",
+      "persistentUuid": "0bf5fa05-fcd2-4a55-bbb3-514f96ff0172",
       "type": "number",
       "value": 0
     },
     {
       "name": "highestStreak",
-      "persistentUuid": "7aa8ffc6-7daa-456f-915a-409340dcb021",
+      "persistentUuid": "436b7eae-ac50-44fd-93f1-72bb216fc6aa",
       "type": "number",
       "value": 0
     },
     {
       "name": "lightani",
-      "persistentUuid": "bf56ef10-1616-4133-be21-15ecfd88b2c1",
+      "persistentUuid": "20f291e7-88f6-4fae-a5d6-61ebe0506cd8",
       "type": "number",
       "value": 0
     }
@@ -493,13 +493,12 @@
       "angle": 0,
       "customSize": true,
       "depth": 0.9575757575757576,
-      "height": 158,
-      "keepRatio": true,
+      "height": 174,
       "layer": "",
       "name": "submit_button",
       "persistentUuid": "9e204d0e-acda-4d31-986a-447e3481de98",
-      "width": 158,
-      "x": 1394,
+      "width": 200,
+      "x": 1422,
       "y": 930,
       "zOrder": 35,
       "numberProperties": [],
@@ -509,16 +508,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 158,
-      "keepRatio": true,
+      "depth": 1.2658227848101267,
+      "height": 174,
       "layer": "",
       "name": "hint_button",
       "persistentUuid": "09869a29-fb83-4cd5-943d-74661a308868",
-      "width": 158,
-      "x": 392,
+      "width": 200,
+      "x": 293,
       "y": 930,
-      "zOrder": 36,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1693,7 +1691,18 @@
       "variant": "Grey Button With Shadow",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "content": {
         "LeftPadding": 16,
         "RightPadding": 16,
@@ -2771,8 +2780,23 @@
             "GlobalVariable(LevelVolume)",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "finishButton",
+            "no",
+            ""
+          ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -3813,6 +3837,16 @@
                     "finishButton",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "finishButton",
+                    "yes",
+                    ""
+                  ]
                 }
               ]
             }
@@ -4077,21 +4111,20 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextReleased"
+            "value": "ButtonStates::ButtonFSM::IsClicked"
           },
           "parameters": [
-            "",
-            "\"Left\""
+            "finishButton",
+            "ButtonFSM",
+            ""
           ]
         },
         {
           "type": {
-            "value": "IsCursorOnObject"
+            "value": "PanelSpriteButton::PanelSpriteButton::IsActivated"
           },
           "parameters": [
             "finishButton",
-            "",
-            "",
             ""
           ]
         }
@@ -4579,7 +4612,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "",
       "renderingType": "",
       "visibility": true,
@@ -4642,6 +4675,10 @@
     {
       "name": "AutoTyping",
       "type": "AutoTyping::AutoTyping"
+    },
+    {
+      "name": "ButtonFSM",
+      "type": "ButtonStates::ButtonFSM"
     },
     {
       "name": "Effect",

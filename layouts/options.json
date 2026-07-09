@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.243683698838009,
+    "zoomFactor": 0.7562477198107298,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -28,23 +28,6 @@
   "objectsGroups": [],
   "variables": [],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 64,
-      "height": 40,
-      "keepRatio": true,
-      "layer": "",
-      "name": "VolumeSlider",
-      "persistentUuid": "8cceb0b5-35f5-4c47-b7e0-f27b9b27e113",
-      "width": 331,
-      "x": 841,
-      "y": 319,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": false,
@@ -86,8 +69,8 @@
       "name": "LevelTitle",
       "persistentUuid": "47f89ed7-7813-44c8-ba38-e443182a4d94",
       "width": 0,
-      "x": 371,
-      "y": 370,
+      "x": 538,
+      "y": 382,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -95,17 +78,32 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 64,
-      "height": 32,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "LevelSlider",
-      "persistentUuid": "ab9a17bc-0135-4073-b558-9fdc8c11d280",
-      "width": 329,
-      "x": 846,
-      "y": 397,
+      "name": "MusicSlider",
+      "persistentUuid": "0d802cb5-c473-45e3-bf20-b989b4dd0484",
+      "width": 0,
+      "x": 832,
+      "y": 333,
       "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SFXSlider",
+      "persistentUuid": "9491d281-9019-40e9-93f7-e4476f020a71",
+      "width": 0,
+      "x": 832,
+      "y": 411,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -113,35 +111,18 @@
   ],
   "objects": [
     {
-      "assetStoreId": "84dcf81d35efee74a6cab51b4103acc5443e7f39fd7366e2ac58641e60323b4a",
-      "name": "VolumeSlider",
-      "persistentUuid": "ca109027-7709-4230-9fa0-a7f5393ad9b2",
-      "type": "PanelSpriteSlider::PanelSpriteSlider",
-      "variant": "Square Green Slider",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "BarTopPadding": 3,
-        "BarLeftPadding": 3,
-        "BarRightPadding": 3,
-        "BarBottomPadding": 4,
-        "LabelMargin": 4,
-        "InitialValue": 100
-      }
-    },
-    {
       "assetStoreId": "",
       "bold": false,
       "italic": false,
       "name": "volumetitle",
+      "persistentUuid": "a9778b43-9c88-4486-9f88-91a193adffe5",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Volume: ",
+      "string": "Music: ",
       "font": "",
       "textAlignment": "left",
       "characterSize": 70,
@@ -164,7 +145,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Volume: ",
+        "text": "Music: ",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -197,13 +178,14 @@
       "bold": false,
       "italic": false,
       "name": "LevelTitle",
+      "persistentUuid": "782867ed-dfd0-4ba9-9342-2e29e4bdca26",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Level Sound: ",
+      "string": "SFX: ",
       "font": "",
       "textAlignment": "left",
       "characterSize": 70,
@@ -226,7 +208,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Level Sound: ",
+        "text": "SFX: ",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -236,9 +218,26 @@
       }
     },
     {
+      "assetStoreId": "84dcf81d35efee74a6cab51b4103acc5443e7f39fd7366e2ac58641e60323b4a",
+      "name": "MusicSlider",
+      "persistentUuid": "8418d2ad-2659-4eeb-a15b-0f846c1d1a00",
+      "type": "PanelSpriteSlider::PanelSpriteSlider",
+      "variant": "Square Green Slider",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "BarTopPadding": 3,
+        "BarLeftPadding": 3,
+        "BarRightPadding": 3,
+        "BarBottomPadding": 4,
+        "LabelMargin": 4
+      }
+    },
+    {
       "assetStoreId": "d32eb2703c5acb4488d36fef28164ddf46d8f5b2f3f7a97fa11640cf8d1d91e9",
-      "name": "LevelSlider",
-      "persistentUuid": "d033cac0-ba27-4b17-a69d-618389a6fa91",
+      "name": "SFXSlider",
+      "persistentUuid": "a537c740-bfef-4dcb-a785-d5963d62c91d",
       "type": "PanelSpriteSlider::PanelSpriteSlider",
       "variant": "Square Blue Slider",
       "variables": [],
@@ -257,9 +256,6 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "VolumeSlider"
-      },
-      {
         "objectName": "returnbutton"
       },
       {
@@ -269,37 +265,14 @@
         "objectName": "LevelTitle"
       },
       {
-        "objectName": "LevelSlider"
+        "objectName": "MusicSlider"
+      },
+      {
+        "objectName": "SFXSlider"
       }
     ]
   },
   "events": [
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "SoundVolume",
-            "=",
-            "VolumeSlider.Value()"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "LevelVolume",
-            "=",
-            "LevelSlider.Value()"
-          ]
-        }
-      ]
-    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -368,8 +341,29 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+          },
+          "parameters": [
+            "MusicSlider",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Settings.MusicVolume",
+            "=",
+            "MusicSlider.Value()"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
