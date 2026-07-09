@@ -5,7 +5,7 @@
   "name": "Options",
   "r": 247,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 249,
   "uiSettings": {
@@ -26,7 +26,13 @@
     "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "TempSettings",
+      "type": "string",
+      "value": ""
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -162,7 +168,18 @@
       "variant": "On Screen Controls Button",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "content": {
         "LeftPadding": 0,
         "RightPadding": 0,
@@ -278,11 +295,69 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextReleased"
+            "value": "SceneJustBegins"
           },
           "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ReadStringFromStorage"
+          },
+          "parameters": [
+            "\"Settings\"",
+            "\"Settings\"",
             "",
-            "\"Left\""
+            "TempSettings"
+          ]
+        },
+        {
+          "type": {
+            "value": "JSONToVariableStructure2"
+          },
+          "parameters": [
+            "VariableString(TempSettings)",
+            "Settings"
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+          },
+          "parameters": [
+            "MusicSlider",
+            "=",
+            "GlobalVariable(Settings.MusicVolume)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+          },
+          "parameters": [
+            "SFXSlider",
+            "=",
+            "GlobalVariable(Settings.SFXVolume)",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "returnbutton",
+            "ButtonFSM",
+            ""
           ]
         }
       ],
@@ -298,43 +373,23 @@
             "50",
             ""
           ]
-        }
-      ],
-      "events": [
+        },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "returnbutton",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.3"
-              ]
-            },
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"main menu\"",
-                ""
-              ]
-            }
+          "type": {
+            "value": "EcrireFichierTxt"
+          },
+          "parameters": [
+            "\"Settings\"",
+            "\"Settings\"",
+            "GlobalVarToJSON(Settings)"
+          ]
+        },
+        {
+          "type": {
+            "value": "PopScene"
+          },
+          "parameters": [
+            ""
           ]
         }
       ]
@@ -364,6 +419,38 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+          },
+          "parameters": [
+            "SFXSlider",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Settings.SFXVolume",
+            "=",
+            "SFXSlider.Value()"
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -489,8 +576,16 @@
   ],
   "behaviorsSharedData": [
     {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    },
+    {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "ButtonFSM",
+      "type": "ButtonStates::ButtonFSM"
     },
     {
       "name": "Effect",

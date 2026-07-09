@@ -59,121 +59,145 @@
   "variables": [
     {
       "name": "binaryTot",
+      "persistentUuid": "8e0e52b2-2d7c-48e2-bd2f-542547200a8c",
       "type": "number",
       "value": 0
     },
     {
       "name": "targetNum",
+      "persistentUuid": "31a9a141-4d7c-45e9-af1b-e574d4318799",
       "type": "number",
       "value": 0
     },
     {
       "name": "resultText",
+      "persistentUuid": "d6812b77-3a93-404d-8fa6-cccd3bd28ab0",
       "type": "string",
       "value": "\"\""
     },
     {
       "name": "score",
+      "persistentUuid": "49a2c2f9-cc19-4cc2-a147-5bddcfe4aa87",
       "type": "number",
       "value": 0
     },
     {
       "name": "basePoints",
+      "persistentUuid": "36d6365b-6dea-4114-a185-0deae7f30540",
       "type": "number",
       "value": 100
     },
     {
       "name": "penalty",
+      "persistentUuid": "b4e35db5-713c-4d7c-a2a6-173ab3743edf",
       "type": "number",
       "value": 50
     },
     {
       "name": "mult",
+      "persistentUuid": "75cc49b7-613c-46ab-81ff-d2e4a1a4924c",
       "type": "number",
       "value": 1
     },
     {
       "name": "streak",
+      "persistentUuid": "675af5cc-4b0e-4847-8648-0bb598e04a65",
       "type": "number",
       "value": 0
     },
     {
       "name": "wrongStreak",
+      "persistentUuid": "fd892edb-772b-4bc3-9102-34253ac12b84",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionsAnswered",
+      "persistentUuid": "06ce939d-d938-48f3-9c5d-afb3f5ae0582",
       "type": "number",
       "value": 0
     },
     {
       "name": "levelQuestions",
+      "persistentUuid": "a63bbd3f-b544-45bc-90c9-0ef845a0405c",
       "type": "number",
       "value": 5
     },
     {
       "name": "elapsedQuestionTime",
+      "persistentUuid": "65687e47-85a7-4ba3-a1c8-6d08d15cd2e1",
       "type": "number",
       "value": 0
     },
     {
       "name": "timeLimit",
+      "persistentUuid": "4efd67d4-a6ce-4787-a9df-b354d7da4d49",
       "type": "number",
       "value": 30
     },
     {
       "name": "hintPenalty",
+      "persistentUuid": "a67a3dcc-f227-42ae-b927-0fe5166ba5c3",
       "type": "number",
       "value": 25
     },
     {
       "name": "hintOpen",
+      "persistentUuid": "dd20693a-8c58-481e-a7a6-75e0495f87c4",
       "type": "boolean",
       "value": false
     },
     {
       "name": "hintUsedThisQuestion",
+      "persistentUuid": "c375fd6a-606e-4eb7-b53b-100c1454095c",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionOpen",
+      "persistentUuid": "5d94ffd2-d886-4f2e-942b-8b9fed00acc5",
       "type": "boolean",
       "value": true
     },
     {
       "name": "cityPower",
+      "persistentUuid": "d4f98d2b-c5a3-4f21-9611-0bb837c38a63",
       "type": "number",
       "value": 0
     },
     {
       "name": "inputLocked",
+      "persistentUuid": "00a44abb-4c92-4701-a5d5-bbc1a31995e4",
       "type": "boolean",
       "value": false
     },
     {
       "name": "startNextQuestion",
+      "persistentUuid": "e0cb4cf9-0687-470f-b03c-1a8790614b8d",
       "type": "boolean",
       "value": true
     },
     {
       "name": "correctAnswers",
+      "persistentUuid": "90f6dfc3-817b-4589-8b71-46b639134312",
       "type": "number",
       "value": 0
     },
     {
       "name": "incorrectAnswers",
+      "persistentUuid": "2fce9df1-8e54-4421-b7d1-16b93a3bae76",
       "type": "number",
       "value": 0
     },
     {
       "name": "highestStreak",
+      "persistentUuid": "405cb4df-db6d-46b1-8651-3502979e634c",
       "type": "number",
       "value": 0
     },
     {
       "name": "lightani",
+      "persistentUuid": "783b5fd7-51d9-4d12-a9fb-9ef70d6aec89",
       "type": "number",
       "value": 0
     }
@@ -4402,12 +4426,20 @@
   ],
   "behaviorsSharedData": [
     {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    },
+    {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
     },
     {
       "name": "AutoTyping",
       "type": "AutoTyping::AutoTyping"
+    },
+    {
+      "name": "ButtonFSM",
+      "type": "ButtonStates::ButtonFSM"
     },
     {
       "name": "Effect",

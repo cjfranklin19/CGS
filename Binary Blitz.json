@@ -3582,6 +3582,54 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/848f861767e7ce4581dba9e122ee7bafeaca57987655cebe1f78ab31d1300f0f_Square White Slider Thumb.png",
           "name": "Square White Slider Thumb.png"
         }
+      },
+      {
+        "file": "menu - level select2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "menu - level select2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "menu sound2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "menu sound2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "timedlevelsfixed4.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "timedlevelsfixed4.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "levelbackmus2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "levelbackmus2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Base2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Base2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -3656,7 +3704,18 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 4,
+          "leftEdgeAnchor": 4,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 4,
+          "topEdgeAnchor": 4,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -3717,7 +3776,18 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -3778,7 +3848,18 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -3834,11 +3915,23 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "gear_button",
+      "persistentUuid": "698ec60b-fd3d-4636-9e5e-bb6a2830d440",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -3889,6 +3982,68 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Stat_Outline",
+      "persistentUuid": "d9110039-0f36-4023-bc3d-3c29df0577ad",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "StatOutline2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "StatOutline2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 958,
+                        "y": 0
+                      },
+                      {
+                        "x": 958,
+                        "y": 132
+                      },
+                      {
+                        "x": 0,
+                        "y": 132
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3908,6 +4063,9 @@
       },
       {
         "objectName": "gear_button"
+      },
+      {
+        "objectName": "Stat_Outline"
       }
     ]
   },
@@ -3971,12 +4129,12 @@
         {
           "name": "MusicVolume",
           "type": "number",
-          "value": 0
+          "value": 100
         },
         {
           "name": "SFXVolume",
           "type": "number",
-          "value": 0
+          "value": 100
         }
       ]
     }
@@ -4179,7 +4337,12 @@
       "referenceTo": "/layouts/ld-ob"
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/subhint-button-animation"
+    }
+  ],
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

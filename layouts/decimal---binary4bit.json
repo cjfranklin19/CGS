@@ -5,7 +5,7 @@
   "name": "Decimal - Binary(4bit)",
   "r": 0,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 0,
   "uiSettings": {
@@ -59,145 +59,121 @@
   "variables": [
     {
       "name": "binaryTot",
-      "persistentUuid": "b4bc1f11-f68d-4042-96c2-ae8b9ef61310",
       "type": "number",
       "value": 0
     },
     {
       "name": "targetNum",
-      "persistentUuid": "1880ddeb-adc0-49e0-8658-20af3e2e8aa2",
       "type": "number",
       "value": 0
     },
     {
       "name": "resultText",
-      "persistentUuid": "2e577d6c-f484-486a-94c3-b9ad955dd11e",
       "type": "string",
       "value": "\"\""
     },
     {
       "name": "score",
-      "persistentUuid": "26fe2bd7-4cfe-40c0-8643-65588f795f1a",
       "type": "number",
       "value": 0
     },
     {
       "name": "basePoints",
-      "persistentUuid": "16b3f5bb-ed9d-456f-8291-c92f62e581ae",
       "type": "number",
       "value": 100
     },
     {
       "name": "penalty",
-      "persistentUuid": "9f62e1da-f6ae-4e96-bacd-3071affb686d",
       "type": "number",
       "value": 50
     },
     {
       "name": "mult",
-      "persistentUuid": "340f862d-2a1a-4ece-9743-5a6267997078",
       "type": "number",
       "value": 1
     },
     {
       "name": "streak",
-      "persistentUuid": "87acbc33-9801-4e70-b0c0-6e1f37c2d3b8",
       "type": "number",
       "value": 0
     },
     {
       "name": "wrongStreak",
-      "persistentUuid": "bfc437a0-348b-4edd-afeb-5f83b309c915",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionsAnswered",
-      "persistentUuid": "14a91efe-d41a-426b-a778-6bfecaf7679a",
       "type": "number",
       "value": 0
     },
     {
       "name": "levelQuestions",
-      "persistentUuid": "918914e9-54ee-4a00-b8a7-801c4cc12412",
       "type": "number",
       "value": 5
     },
     {
       "name": "elapsedQuestionTime",
-      "persistentUuid": "d94d31d3-85cc-46b9-b37e-d2731994be1f",
       "type": "number",
       "value": 0
     },
     {
       "name": "timeLimit",
-      "persistentUuid": "bdf8de74-4843-4b97-9a94-1d71284ea623",
       "type": "number",
       "value": 30
     },
     {
       "name": "hintPenalty",
-      "persistentUuid": "5fd7ecab-9a11-47ae-8c31-c09b66b25ba9",
       "type": "number",
       "value": 25
     },
     {
       "name": "hintOpen",
-      "persistentUuid": "2bc2d68e-cf32-4654-a16a-e01600803190",
       "type": "boolean",
       "value": false
     },
     {
       "name": "hintUsedThisQuestion",
-      "persistentUuid": "389b4315-c573-4580-af9a-c6ce6c7d02c6",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionOpen",
-      "persistentUuid": "d4902704-4b1b-4ded-81c9-279d007120e7",
       "type": "boolean",
       "value": true
     },
     {
       "name": "cityPower",
-      "persistentUuid": "313359df-3def-4495-8a43-aaaeee53d98a",
       "type": "number",
       "value": 0
     },
     {
       "name": "inputLocked",
-      "persistentUuid": "f47a245d-98d7-47f3-8059-3c85706fea39",
       "type": "boolean",
       "value": false
     },
     {
       "name": "startNextQuestion",
-      "persistentUuid": "11237778-ff51-4ca4-b7f7-9973dff38705",
       "type": "boolean",
       "value": true
     },
     {
       "name": "correctAnswers",
-      "persistentUuid": "15d3ee07-e12b-4aa4-913c-d2b1d7d760cf",
       "type": "number",
       "value": 0
     },
     {
       "name": "incorrectAnswers",
-      "persistentUuid": "0bf5fa05-fcd2-4a55-bbb3-514f96ff0172",
       "type": "number",
       "value": 0
     },
     {
       "name": "highestStreak",
-      "persistentUuid": "436b7eae-ac50-44fd-93f1-72bb216fc6aa",
       "type": "number",
       "value": 0
     },
     {
       "name": "lightani",
-      "persistentUuid": "20f291e7-88f6-4fae-a5d6-61ebe0506cd8",
       "type": "number",
       "value": 0
     }
@@ -213,8 +189,8 @@
       "name": "Switch_8",
       "persistentUuid": "9c67ae53-b388-4a4c-9d5c-b30764c2ad83",
       "width": 118,
-      "x": 402,
-      "y": 771,
+      "x": 440,
+      "y": 769,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -230,8 +206,8 @@
       "name": "Switch_4",
       "persistentUuid": "e38de78b-49bc-4991-9308-d52f3db7a5d5",
       "width": 109,
-      "x": 811,
-      "y": 766,
+      "x": 773,
+      "y": 771,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -247,8 +223,8 @@
       "name": "Switch_2",
       "persistentUuid": "9e6be75d-0aa5-4645-89e4-fddbd8fea88f",
       "width": 109,
-      "x": 1112,
-      "y": 771,
+      "x": 1145,
+      "y": 767,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -264,7 +240,7 @@
       "name": "Switch_1",
       "persistentUuid": "d8dbce20-ba13-4d0d-a633-fa5d5f9d5f5e",
       "width": 114,
-      "x": 1402,
+      "x": 1461,
       "y": 775,
       "zOrder": 9,
       "numberProperties": [],
@@ -315,9 +291,9 @@
       "name": "finishButton",
       "persistentUuid": "cc4025d9-2d9d-4859-b212-5460376f3881",
       "width": 113,
-      "x": 932,
-      "y": 975,
-      "zOrder": 13,
+      "x": 902,
+      "y": 978,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2461,68 +2437,6 @@
           ]
         }
       ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Stat_Outline",
-      "persistentUuid": "d9110039-0f36-4023-bc3d-3c29df0577ad",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "StatOutline2",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "StatOutline2",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 958,
-                        "y": 0
-                      },
-                      {
-                        "x": 958,
-                        "y": 132
-                      },
-                      {
-                        "x": 0,
-                        "y": 132
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2599,9 +2513,6 @@
       },
       {
         "objectName": "Gear_button"
-      },
-      {
-        "objectName": "Stat_Outline"
       }
     ]
   },
@@ -2771,13 +2682,14 @@
         },
         {
           "type": {
-            "value": "PlaySound"
+            "value": "PlaySoundOnChannel"
           },
           "parameters": [
             "",
-            "levelbackmus.mp3",
-            "",
-            "GlobalVariable(LevelVolume)",
+            "levelbackmus2.mp3",
+            "1",
+            "yes",
+            "GlobalVariable(Settings.MusicVolume)",
             ""
           ]
         },
@@ -2789,6 +2701,32 @@
             "finishButton",
             "no",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustResumed"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetSoundChannelVolume"
+          },
+          "parameters": [
+            "",
+            "1",
+            "=",
+            "GlobalVariable(Settings.MusicVolume)"
           ]
         }
       ]
@@ -2913,7 +2851,7 @@
             "",
             "edr-switch-click-and-beep-001a-11602.mp3",
             "",
-            "25",
+            "GlobalVariable(Settings.SFXVolume)",
             ""
           ]
         }
@@ -4436,6 +4374,39 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "gear_button",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"Options\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "sub/hint button animation"
     }
   ],
   "layers": [
@@ -4558,7 +4529,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "background",
       "renderingType": "",
       "visibility": true,
@@ -4668,6 +4639,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    },
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"

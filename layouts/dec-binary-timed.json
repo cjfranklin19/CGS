@@ -1,13 +1,13 @@
 {
-  "b": 255,
+  "b": 0,
   "disableInputWhenNotFocused": true,
   "mangledName": "Dec_45binary_32timed",
   "name": "Dec-binary timed",
-  "r": 247,
+  "r": 0,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
-  "v": 249,
+  "v": 0,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.47535850871269775,
+    "zoomFactor": 0.44485159988866946,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -178,31 +178,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 76,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Submit_Button",
-      "persistentUuid": "85eafccd-d85a-4478-9f53-24c87dd42a72",
-      "width": 138,
-      "x": 1399,
-      "y": 979,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 139,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_8",
       "persistentUuid": "9c67ae53-b388-4a4c-9d5c-b30764c2ad83",
       "width": 91,
-      "x": 575,
-      "y": 834,
+      "x": 406,
+      "y": 787,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -218,8 +201,8 @@
       "name": "Switch_4",
       "persistentUuid": "e38de78b-49bc-4991-9308-d52f3db7a5d5",
       "width": 89,
-      "x": 849,
-      "y": 834,
+      "x": 766,
+      "y": 791,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -236,7 +219,7 @@
       "persistentUuid": "9e6be75d-0aa5-4645-89e4-fddbd8fea88f",
       "width": 87,
       "x": 1116,
-      "y": 834,
+      "y": 809,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -269,8 +252,8 @@
       "name": "TargetPrompt",
       "persistentUuid": "6399c03b-cf6d-44af-8960-63c15734d0aa",
       "width": 725,
-      "x": 603,
-      "y": 735,
+      "x": 599,
+      "y": 704,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -280,14 +263,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 109,
+      "height": 64,
       "keepRatio": true,
       "layer": "",
       "name": "Feedback",
       "persistentUuid": "8c6be39b-a383-4944-9e7d-f239dcb0ecc2",
       "width": 831,
-      "x": 559,
-      "y": 737,
+      "x": 551,
+      "y": 707,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -302,8 +285,8 @@
       "name": "finishButton",
       "persistentUuid": "cc4025d9-2d9d-4859-b212-5460376f3881",
       "width": 0,
-      "x": 1698,
-      "y": 768,
+      "x": 864,
+      "y": 983,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -336,8 +319,8 @@
       "name": "SCORE",
       "persistentUuid": "256271b8-7070-4ae4-b45a-ed0a08a24476",
       "width": 341,
-      "x": 1169,
-      "y": 584,
+      "x": 1190,
+      "y": 570,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -352,25 +335,9 @@
       "name": "StreakText",
       "persistentUuid": "4867d215-b3d7-46c2-953c-d286599a0c5b",
       "width": 0,
-      "x": 406,
-      "y": 585,
+      "x": 678,
+      "y": 570,
       "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "background",
-      "name": "NewSprite3",
-      "persistentUuid": "d2141195-7b0d-4122-8c58-530e535558f1",
-      "width": 0,
-      "x": 0,
-      "y": -2,
-      "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -379,14 +346,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 356,
+      "height": 390,
       "keepRatio": true,
       "layer": "",
       "name": "storybox",
       "persistentUuid": "fcda68a2-d40d-48ec-bf6a-bc8033b70268",
-      "width": 1556,
-      "x": 179,
-      "y": 98,
+      "width": 1662,
+      "x": 126,
+      "y": 51,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -402,9 +369,123 @@
       "name": "Story_text",
       "persistentUuid": "5eb6cf98-f1a1-44d4-acee-1ccf8e7523f5",
       "width": 1589,
-      "x": 184,
-      "y": 181,
+      "x": 191,
+      "y": 132,
       "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "gear_button",
+      "persistentUuid": "f20d82db-8b73-449b-8e6a-ef4cf7f73ea7",
+      "width": 0,
+      "x": 1662,
+      "y": 515,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 174,
+      "layer": "",
+      "name": "submit_button",
+      "persistentUuid": "bc446a5f-c4aa-448a-a9ed-acce859f6ce3",
+      "width": 200,
+      "x": 1422,
+      "y": 930,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 174,
+      "layer": "",
+      "name": "hint_button",
+      "persistentUuid": "551ab028-585d-42f6-b58c-784fb6b8d0ba",
+      "width": 200,
+      "x": 293,
+      "y": 930,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1077,
+      "keepRatio": true,
+      "layer": "background",
+      "name": "NewSprite5",
+      "persistentUuid": "adb3dc39-90cc-4983-9c32-07429af632ec",
+      "width": 1919,
+      "x": 1,
+      "y": 0,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 177,
+      "keepRatio": true,
+      "layer": "background",
+      "name": "Stat_Outline",
+      "persistentUuid": "f08cd77b-4ce9-491a-8a43-17cd0b603397",
+      "width": 1384,
+      "x": 286,
+      "y": 590,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Streak_label",
+      "persistentUuid": "2dffc742-abe5-425b-ae0e-215e48280836",
+      "width": 0,
+      "x": 314,
+      "y": 579,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Score_label",
+      "persistentUuid": "5f115411-a4cb-4f4e-a643-0d921e6f3201",
+      "width": 0,
+      "x": 1462,
+      "y": 579,
+      "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1646,7 +1727,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Score",
+      "string": "0",
       "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
       "textAlignment": "left",
       "characterSize": 70,
@@ -1669,7 +1750,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Score",
+        "text": "0",
         "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -1751,7 +1832,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Streak",
+      "string": "0",
       "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
       "textAlignment": "left",
       "characterSize": 70,
@@ -1774,7 +1855,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Streak",
+        "text": "0",
         "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -1856,9 +1937,9 @@
       "textAlignment": "left",
       "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -1880,7 +1961,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 40,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "150;198;146"
       }
     },
     {
@@ -1898,12 +1979,150 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite5",
+      "persistentUuid": "308fb40c-7bb0-48aa-97c2-a6795772fd42",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "animations": []
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Base2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 1373,
+                        "y": 0
+                      },
+                      {
+                        "x": 1373,
+                        "y": 774
+                      },
+                      {
+                        "x": 3,
+                        "y": 774
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Streak_label",
+      "persistentUuid": "3b7b42c8-b4b4-460b-8b3e-5a404695ffd2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Streak:",
+      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 146,
+        "g": 198,
+        "r": 150
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Streak:",
+        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 60,
+        "lineHeight": 0,
+        "color": "150;198;146"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Score_label",
+      "persistentUuid": "ded59259-8e68-4578-8421-8acb9391fe14",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Pts",
+      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 146,
+        "g": 198,
+        "r": 150
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Pts",
+        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 60,
+        "lineHeight": 0,
+        "color": "150;198;146"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1967,6 +2186,12 @@
         "objectName": "NewSprite"
       },
       {
+        "objectName": "Streak_label"
+      },
+      {
+        "objectName": "Score_label"
+      },
+      {
         "objectName": "StreakText"
       },
       {
@@ -1993,13 +2218,14 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySound"
+            "value": "PlaySoundOnChannel"
           },
           "parameters": [
             "",
-            "timedlevelsfixed2.mp3",
-            "no",
-            "GlobalVariable(LevelVolume)",
+            "timedlevelsfixed4.mp3",
+            "1",
+            "yes",
+            "GlobalVariable(Settings.MusicVolume)",
             ""
           ]
         },
@@ -2163,6 +2389,39 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustResumed"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetSoundChannelVolume"
+          },
+          "parameters": [
+            "",
+            "1",
+            "=",
+            "GlobalVariable(Settings.MusicVolume)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "sub/hint button animation"
+    },
+    {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -2277,7 +2536,7 @@
             "",
             "edr-switch-click-and-beep-001a-11602.mp3",
             "",
-            "25",
+            "GlobalVariable(Settings.SFXVolume)",
             ""
           ]
         }
@@ -2348,7 +2607,7 @@
             "",
             "freesound_community-light-switch-off-86314.mp3",
             "no",
-            "25",
+            "GlobalVariable(Settings.SFXVolume)",
             ""
           ]
         }
@@ -3766,6 +4025,32 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "gear_button",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"Options\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
     }
@@ -3947,12 +4232,20 @@
   ],
   "behaviorsSharedData": [
     {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    },
+    {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
     },
     {
       "name": "AutoTyping",
       "type": "AutoTyping::AutoTyping"
+    },
+    {
+      "name": "ButtonFSM",
+      "type": "ButtonStates::ButtonFSM"
     },
     {
       "name": "Effect",

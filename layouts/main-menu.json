@@ -26,20 +26,26 @@
     "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "TempSettings",
+      "type": "string",
+      "value": ""
+    }
+  ],
   "instances": [
     {
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 528,
+      "height": 463,
       "keepRatio": true,
       "layer": "",
       "name": "NewSprite",
       "persistentUuid": "7baa0c24-b5d4-4c8a-abca-1c35a11076a2",
       "width": 582,
-      "x": 966,
-      "y": 884,
+      "x": 963,
+      "y": 810,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -71,8 +77,8 @@
       "name": "GreenButton",
       "persistentUuid": "87dfd357-f65f-4a65-b810-c3c86afdd9dc",
       "width": 0,
-      "x": 829,
-      "y": 964,
+      "x": 825,
+      "y": 968,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -319,6 +325,33 @@
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "menu sound2.mp3",
+            "yes",
+            "GlobalVariable(Settings.MusicVolume)",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
         {
@@ -520,7 +553,7 @@
             "",
             "tithuh-level-up-0-523643.mp3",
             "",
-            "50",
+            "GlobalVariable(Settings.SFXVolume)",
             ""
           ]
         }
@@ -544,14 +577,6 @@
           "actions": [
             {
               "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.3"
-              ]
-            },
-            {
-              "type": {
                 "value": "Scene"
               },
               "parameters": [
@@ -567,48 +592,6 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
-        {
-          "type": {
-            "value": "SceneJustBegins"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySoundOnChannel"
-          },
-          "parameters": [
-            "",
-            "apalonbeats-lofi-hiphop-549454.mp3",
-            "0",
-            "yes",
-            "GlobalVariable(SoundVolume)",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonFromTextReleased"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        },
         {
           "type": {
             "value": "ButtonStates::ButtonFSM::IsClicked"
@@ -629,42 +612,45 @@
             "",
             "tithuh-level-up-0-523643.mp3",
             "",
-            "50",
+            "GlobalVariable(Settings.SFXVolume)",
             ""
           ]
-        }
-      ],
-      "events": [
+        },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.3"
-              ]
-            },
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Options\"",
-                ""
-              ]
-            }
+          "type": {
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"Options\""
           ]
         }
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Options\"",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -789,6 +775,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    },
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
