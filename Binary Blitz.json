@@ -3458,6 +3458,94 @@
         "metadata": "",
         "name": "Not Jam Mono Clean 13.ttf",
         "userAdded": false
+      },
+      {
+        "file": "SubmitButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SubmitButton.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "HintButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HintButton.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "SettingsButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SettingsButton.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Van3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Van3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Van4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Van4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Van5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Van5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Van6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Van6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Van7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Van7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Van8.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Van8.png\",\"extension\":\".png\"}",
+        "name": "Van8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Van9.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Van9.png\",\"extension\":\".png\"}",
+        "name": "Van9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Van10.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Van10.png\",\"extension\":\".png\"}",
+        "name": "Van10.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -3583,6 +3671,188 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "submit_button",
+      "persistentUuid": "b282ee21-50ba-46c0-a4e3-34fa10a2cd2c",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "SubmitButton.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 60
+                      },
+                      {
+                        "x": 256,
+                        "y": 60
+                      },
+                      {
+                        "x": 256,
+                        "y": 196
+                      },
+                      {
+                        "x": 0,
+                        "y": 196
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "hint_button",
+      "persistentUuid": "8b072246-0da9-49c9-925c-44ba1ddcb0cb",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "HintButton.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 60
+                      },
+                      {
+                        "x": 256,
+                        "y": 60
+                      },
+                      {
+                        "x": 256,
+                        "y": 196
+                      },
+                      {
+                        "x": 0,
+                        "y": 196
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "gear_button",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "SettingsButton.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 60,
+                        "y": 60
+                      },
+                      {
+                        "x": 204,
+                        "y": 60
+                      },
+                      {
+                        "x": 204,
+                        "y": 196
+                      },
+                      {
+                        "x": 60,
+                        "y": 196
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3593,6 +3863,15 @@
       },
       {
         "objectName": "NewSprite5"
+      },
+      {
+        "objectName": "submit_button"
+      },
+      {
+        "objectName": "hint_button"
+      },
+      {
+        "objectName": "gear_button"
       }
     ]
   },

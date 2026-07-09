@@ -329,16 +329,6 @@
             "=",
             "SceneWindowWidth()/2"
           ]
-        },
-        {
-          "type": {
-            "value": "SetX"
-          },
-          "parameters": [
-            "GreenButton",
-            "=",
-            "SceneWindowWidth()/2"
-          ]
         }
       ]
     },

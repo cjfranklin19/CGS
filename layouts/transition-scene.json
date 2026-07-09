@@ -26,7 +26,13 @@
     "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "vanAni",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -54,8 +60,8 @@
       "name": "load",
       "persistentUuid": "5bbdbeb9-55c8-4609-8024-6f753cf022cb",
       "width": 0,
-      "x": 1453,
-      "y": 979,
+      "x": 1083,
+      "y": 957,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -63,16 +69,15 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 181,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Saw",
-      "persistentUuid": "d86da989-4ce6-4177-a051-9184d7483429",
-      "width": 167,
-      "x": 1269,
-      "y": 899,
+      "name": "vanANI",
+      "persistentUuid": "4886f99c-2484-46c3-bdce-586a12ca63f1",
+      "width": 0,
+      "x": 1236,
+      "y": 655,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -568,6 +573,214 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "vanANI",
+      "persistentUuid": "24deb7eb-d91a-4955-91d4-4c78f17b64f5",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "0",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Van7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 30,
+                        "y": 10
+                      },
+                      {
+                        "x": 559,
+                        "y": 10
+                      },
+                      {
+                        "x": 559,
+                        "y": 375
+                      },
+                      {
+                        "x": 30,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Van8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 30,
+                        "y": 10
+                      },
+                      {
+                        "x": 559,
+                        "y": 10
+                      },
+                      {
+                        "x": 559,
+                        "y": 375
+                      },
+                      {
+                        "x": 30,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Van9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 30,
+                        "y": 10
+                      },
+                      {
+                        "x": 559,
+                        "y": 10
+                      },
+                      {
+                        "x": 559,
+                        "y": 375
+                      },
+                      {
+                        "x": 30,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Van10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 30,
+                        "y": 10
+                      },
+                      {
+                        "x": 559,
+                        "y": 10
+                      },
+                      {
+                        "x": 559,
+                        "y": 375
+                      },
+                      {
+                        "x": 30,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -584,6 +797,9 @@
       },
       {
         "objectName": "Saw"
+      },
+      {
+        "objectName": "vanANI"
       }
     ]
   },
@@ -608,6 +824,63 @@
           "parameters": [
             "",
             "SceneTransition"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"FrameTimer\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"FrameTimer\"",
+            ">",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "vanAni",
+            "=",
+            "mod(Variable(vanAni)+1,4)"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "vanANI",
+            "Animation",
+            "=",
+            "Variable(vanAni)"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"FrameTimer\""
           ]
         }
       ]
