@@ -246,6 +246,22 @@
           "parameters": [
             "Hint"
           ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "hintbox"
+          ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "FinishButton"
+          ]
         }
       ]
     },
@@ -338,6 +354,14 @@
           "parameters": [
             "Hint"
           ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "hintbox"
+          ]
         }
       ]
     },
@@ -422,6 +446,15 @@
           },
           "parameters": [
             "Hint",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Show"
+          },
+          "parameters": [
+            "hintbox",
             ""
           ]
         }

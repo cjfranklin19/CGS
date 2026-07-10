@@ -3675,6 +3675,23 @@
         "metadata": "",
         "name": "Not Jam Mono Clean14.ttf",
         "userAdded": false
+      },
+      {
+        "file": "menu - level select3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "menu - level select3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Not Jam Mono Clean15.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Not Jam Mono Clean15.ttf",
+        "userAdded": false
       }
     ]
   },
@@ -4170,7 +4187,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Streak:",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "font": "Not Jam Mono Clean15.ttf",
       "textAlignment": "left",
       "characterSize": 60,
       "color": {
@@ -4193,7 +4210,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Streak:",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "font": "Not Jam Mono Clean15.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 60,
@@ -4214,7 +4231,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Pts",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "font": "Not Jam Mono Clean15.ttf",
       "textAlignment": "left",
       "characterSize": 60,
       "color": {
@@ -4237,7 +4254,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Pts",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "font": "Not Jam Mono Clean15.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 60,

@@ -235,7 +235,7 @@
       "persistentUuid": "d7a5f115-f193-428d-8ab2-67bae3f725a2",
       "width": 0,
       "x": 843,
-      "y": 460,
+      "y": 506,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -250,8 +250,8 @@
       "name": "SCORE",
       "persistentUuid": "a9265870-43b9-4587-a45d-6be46e8fcea4",
       "width": 0,
-      "x": 184,
-      "y": 75,
+      "x": 678,
+      "y": 554,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -266,8 +266,8 @@
       "name": "Feedback2",
       "persistentUuid": "5732971c-d674-4d99-84cb-9abf5f96d89f",
       "width": 0,
-      "x": 860,
-      "y": 581,
+      "x": 829,
+      "y": 612,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -444,8 +444,8 @@
       "name": "Submit_Button",
       "persistentUuid": "12132562-7a44-488b-9e32-d3b4ba5cbf39",
       "width": 199,
-      "x": 1524,
-      "y": 792,
+      "x": 1974,
+      "y": 716,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -460,8 +460,8 @@
       "name": "finishButton",
       "persistentUuid": "0b5beaed-1b12-49d1-a8bc-bde8f85f0a47",
       "width": 0,
-      "x": 1573,
-      "y": 675,
+      "x": 1973,
+      "y": 601,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -476,8 +476,8 @@
       "name": "Backspace_Alt_Key",
       "persistentUuid": "e3bf1bf2-df92-451d-9653-c4ad4c7505b5",
       "width": 0,
-      "x": 1312,
-      "y": 666,
+      "x": 1238,
+      "y": 746,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -790,14 +790,14 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Score",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "string": "0",
+      "font": "Not Jam Mono Clean15.ttf",
       "textAlignment": "left",
       "characterSize": 70,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -813,13 +813,13 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Score",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "text": "0",
+        "font": "Not Jam Mono Clean15.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 70,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "150;198;146"
       }
     },
     {
@@ -13419,6 +13419,7 @@
       "bold": false,
       "italic": false,
       "name": "AnswerDisplay",
+      "persistentUuid": "cd3a86c7-aebf-4b4d-84db-c8c0f75c0086",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -13426,13 +13427,13 @@
       "effects": [],
       "behaviors": [],
       "string": "Text",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "font": "Not Jam Mono Clean15.ttf",
       "textAlignment": "left",
       "characterSize": 80,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -13449,12 +13450,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "Text",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "font": "Not Jam Mono Clean15.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 80,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "150;198;146"
       }
     },
     {
@@ -13632,6 +13633,7 @@
       "bold": false,
       "italic": false,
       "name": "StreakText",
+      "persistentUuid": "b3d91c4b-a651-4b65-9671-dcfaf48ce08a",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -13643,9 +13645,9 @@
       "textAlignment": "left",
       "characterSize": 80,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -13667,7 +13669,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 80,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "150;198;146"
       }
     },
     {
@@ -13675,6 +13677,7 @@
       "bold": false,
       "italic": false,
       "name": "Streaklable",
+      "persistentUuid": "4d94c207-3b81-4142-a644-762f63674433",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -13682,13 +13685,13 @@
       "effects": [],
       "behaviors": [],
       "string": "Streak:",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "font": "Not Jam Mono Clean15.ttf",
       "textAlignment": "left",
       "characterSize": 80,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -13705,12 +13708,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "Streak:",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "font": "Not Jam Mono Clean15.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 80,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "150;198;146"
       }
     },
     {
@@ -13726,13 +13729,13 @@
       "effects": [],
       "behaviors": [],
       "string": "Pts",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "font": "Not Jam Mono Clean15.ttf",
       "textAlignment": "left",
       "characterSize": 70,
       "color": {
-        "b": 134,
-        "g": 233,
-        "r": 184
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -13749,12 +13752,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "Pts",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "font": "Not Jam Mono Clean15.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 70,
         "lineHeight": 0,
-        "color": "184;233;134"
+        "color": "150;198;146"
       }
     },
     {
@@ -13801,9 +13804,9 @@
       "textAlignment": "left",
       "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -13825,7 +13828,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 40,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "150;198;146"
       }
     }
   ],

@@ -29,7 +29,6 @@
   "variables": [
     {
       "name": "TempSettings",
-      "persistentUuid": "97eddb75-c285-4150-8466-f2e666ef1a09",
       "type": "string",
       "value": ""
     }
@@ -78,8 +77,8 @@
       "name": "GreenButton",
       "persistentUuid": "87dfd357-f65f-4a65-b810-c3c86afdd9dc",
       "width": 0,
-      "x": 825,
-      "y": 968,
+      "x": 832,
+      "y": 936,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -548,12 +547,13 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySound"
+            "value": "PlaySoundOnChannel"
           },
           "parameters": [
             "",
-            "tithuh-level-up-0-523643.mp3",
-            "",
+            "menu - level select3.mp3",
+            "2",
+            "no",
             "GlobalVariable(Settings.SFXVolume)",
             ""
           ]
@@ -607,12 +607,13 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySound"
+            "value": "PlaySoundOnChannel"
           },
           "parameters": [
             "",
-            "tithuh-level-up-0-523643.mp3",
-            "",
+            "menu - level select3.mp3",
+            "2",
+            "no",
             "GlobalVariable(Settings.SFXVolume)",
             ""
           ]

@@ -178,31 +178,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 65,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Submit_Button",
-      "persistentUuid": "85eafccd-d85a-4478-9f53-24c87dd42a72",
-      "width": 138,
-      "x": 1381,
-      "y": 993,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 158,
       "keepRatio": true,
       "layer": "",
       "name": "Switch_128",
       "persistentUuid": "4aa1cf67-a991-428f-8b27-dd71b5e8084c",
       "width": 103,
-      "x": 436,
-      "y": 819,
+      "x": 433,
+      "y": 790,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -224,8 +207,8 @@
       "name": "Switch_64",
       "persistentUuid": "de42addc-4bc1-470e-a3ac-5a533703be6f",
       "width": 103,
-      "x": 567,
-      "y": 819,
+      "x": 564,
+      "y": 790,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -247,8 +230,8 @@
       "name": "Switch_32",
       "persistentUuid": "a6748144-dd77-45eb-b284-6cf156d6c29d",
       "width": 103,
-      "x": 700,
-      "y": 819,
+      "x": 697,
+      "y": 790,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -270,8 +253,8 @@
       "name": "Switch_16",
       "persistentUuid": "4d5100ef-8e2c-4aab-93c9-ffeb0f4903af",
       "width": 103,
-      "x": 838,
-      "y": 819,
+      "x": 835,
+      "y": 790,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -293,8 +276,8 @@
       "name": "Switch_8",
       "persistentUuid": "9c67ae53-b388-4a4c-9d5c-b30764c2ad83",
       "width": 103,
-      "x": 972,
-      "y": 819,
+      "x": 969,
+      "y": 790,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -310,8 +293,8 @@
       "name": "Switch_4",
       "persistentUuid": "e38de78b-49bc-4991-9308-d52f3db7a5d5",
       "width": 103,
-      "x": 1106,
-      "y": 819,
+      "x": 1103,
+      "y": 790,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -327,8 +310,8 @@
       "name": "Switch_2",
       "persistentUuid": "9e6be75d-0aa5-4645-89e4-fddbd8fea88f",
       "width": 103,
-      "x": 1236,
-      "y": 819,
+      "x": 1233,
+      "y": 790,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -344,8 +327,8 @@
       "name": "Switch_1",
       "persistentUuid": "d8dbce20-ba13-4d0d-a633-fa5d5f9d5f5e",
       "width": 103,
-      "x": 1377,
-      "y": 819,
+      "x": 1374,
+      "y": 790,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -354,15 +337,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 68,
-      "keepRatio": true,
+      "depth": 0.9411764705882352,
+      "height": 64,
       "layer": "",
       "name": "TargetPrompt",
       "persistentUuid": "6399c03b-cf6d-44af-8960-63c15734d0aa",
-      "width": 886,
-      "x": 535,
-      "y": 744,
+      "width": 831,
+      "x": 551,
+      "y": 707,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -371,32 +353,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 66,
-      "keepRatio": true,
+      "depth": 0.8028985507246377,
+      "height": 64,
       "layer": "",
       "name": "Feedback",
       "persistentUuid": "8c6be39b-a383-4944-9e7d-f239dcb0ecc2",
-      "width": 1035,
-      "x": 443,
-      "y": 742,
+      "width": 831,
+      "x": 551,
+      "y": 707,
       "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "finishButton",
-      "persistentUuid": "cc4025d9-2d9d-4859-b212-5460376f3881",
-      "width": 0,
-      "x": 1699,
-      "y": 817,
-      "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -412,7 +377,7 @@
       "persistentUuid": "492902c1-3e55-4307-b995-ec8a0a8ecd77",
       "width": 274,
       "x": 884,
-      "y": 602,
+      "y": 561,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -427,8 +392,8 @@
       "name": "SCORE",
       "persistentUuid": "256271b8-7070-4ae4-b45a-ed0a08a24476",
       "width": 0,
-      "x": 1198,
-      "y": 587,
+      "x": 1190,
+      "y": 554,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -443,25 +408,9 @@
       "name": "StreakText",
       "persistentUuid": "4867d215-b3d7-46c2-953c-d286599a0c5b",
       "width": 0,
-      "x": 408,
-      "y": 582,
+      "x": 678,
+      "y": 554,
       "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "background",
-      "name": "NewSprite3",
-      "persistentUuid": "721bc3e4-8ea1-4b41-8631-bfa869b0efe7",
-      "width": 0,
-      "x": -7,
-      "y": 4,
-      "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1603,13 +1552,13 @@
       "effects": [],
       "behaviors": [],
       "string": "Prompt",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "font": "Not Jam Mono Clean15.ttf",
       "textAlignment": "center",
       "characterSize": 40,
       "color": {
-        "b": 134,
-        "g": 233,
-        "r": 184
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -1626,12 +1575,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "Prompt",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "font": "Not Jam Mono Clean15.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
         "characterSize": 40,
         "lineHeight": 0,
-        "color": "184;233;134"
+        "color": "150;198;146"
       }
     },
     {
@@ -1647,13 +1596,13 @@
       "effects": [],
       "behaviors": [],
       "string": "Feeback",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "font": "Not Jam Mono Clean15.ttf",
       "textAlignment": "center",
       "characterSize": 40,
       "color": {
-        "b": 134,
-        "g": 233,
-        "r": 184
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -1670,12 +1619,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "Feeback",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "font": "Not Jam Mono Clean15.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
         "characterSize": 40,
         "lineHeight": 0,
-        "color": "184;233;134"
+        "color": "150;198;146"
       }
     },
     {
@@ -1710,13 +1659,13 @@
       "effects": [],
       "behaviors": [],
       "string": "Timer",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "font": "Not Jam Mono Clean15.ttf",
       "textAlignment": "left",
       "characterSize": 40,
       "color": {
-        "b": 134,
-        "g": 233,
-        "r": 184
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -1733,12 +1682,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "Timer",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "font": "Not Jam Mono Clean15.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 40,
         "lineHeight": 0,
-        "color": "184;233;134"
+        "color": "150;198;146"
       }
     },
     {
@@ -1753,14 +1702,14 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Score",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "string": "0",
+      "font": "Not Jam Mono Clean15.ttf",
       "textAlignment": "left",
       "characterSize": 70,
       "color": {
-        "b": 134,
-        "g": 233,
-        "r": 184
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -1776,13 +1725,13 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Score",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "text": "0",
+        "font": "Not Jam Mono Clean15.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 70,
         "lineHeight": 0,
-        "color": "184;233;134"
+        "color": "150;198;146"
       }
     },
     {
@@ -1858,14 +1807,14 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Streak",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "string": "0",
+      "font": "Not Jam Mono Clean15.ttf",
       "textAlignment": "left",
       "characterSize": 70,
       "color": {
-        "b": 134,
-        "g": 233,
-        "r": 184
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -1881,13 +1830,13 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Streak",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "text": "0",
+        "font": "Not Jam Mono Clean15.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 70,
         "lineHeight": 0,
-        "color": "184;233;134"
+        "color": "150;198;146"
       }
     },
     {
@@ -1923,6 +1872,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "buildings",
+      "persistentUuid": "a25a68d8-f690-4e76-9895-325a14d88e12",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2002,9 +1952,87 @@
         }
       ],
       "string": "HQ to Converter, The Gridbreaker Syndicate has permanently added more bits, but this is no problem because it seems to still follow the power of two. Remember, from right to left, it goes 1, 2, 4, 6, 8, 16, 32, 64, and lastly 128",
-      "font": "",
+      "font": "Not Jam Mono Clean15.ttf",
       "textAlignment": "left",
       "characterSize": 40,
+      "color": {
+        "b": 146,
+        "g": 198,
+        "r": 150
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "HQ to Converter, The Gridbreaker Syndicate has permanently added more bits, but this is no problem because it seems to still follow the power of two. Remember, from right to left, it goes 1, 2, 4, 6, 8, 16, 32, 64, and lastly 128",
+        "font": "Not Jam Mono Clean15.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "150;198;146"
+      }
+    },
+    {
+      "assetStoreId": "b7b916614570780a0e1ee277966a3cd49566347fde75ac0c0c7a95554156b4e9",
+      "bottomMargin": 12,
+      "height": 48,
+      "leftMargin": 12,
+      "name": "storybox",
+      "persistentUuid": "ab3ed928-144e-4815-b8c2-1e4ff2702b02",
+      "rightMargin": 12,
+      "texture": "Default-panel (2).png",
+      "tiled": false,
+      "topMargin": 12,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 48,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "b7b916614570780a0e1ee277966a3cd49566347fde75ac0c0c7a95554156b4e9",
+      "bottomMargin": 12,
+      "height": 48,
+      "leftMargin": 12,
+      "name": "hintbox",
+      "persistentUuid": "b1af85e9-58d7-4431-981c-133355564feb",
+      "rightMargin": 12,
+      "texture": "Default-panel (2).png",
+      "tiled": false,
+      "topMargin": 12,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 48,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Hint",
+      "persistentUuid": "fea27d11-947d-4594-b3aa-1774d01001b9",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
       "color": {
         "b": 0,
         "g": 0,
@@ -2024,31 +2052,14 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "HQ to Converter, The Gridbreaker Syndicate has permanently added more bits, but this is no problem because it seems to still follow the power of two. Remember, from right to left, it goes 1, 2, 4, 6, 8, 16, 32, 64, and lastly 128",
+        "text": "Text",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 40,
+        "characterSize": 20,
         "lineHeight": 0,
         "color": "0;0;0"
       }
-    },
-    {
-      "assetStoreId": "b7b916614570780a0e1ee277966a3cd49566347fde75ac0c0c7a95554156b4e9",
-      "bottomMargin": 12,
-      "height": 48,
-      "leftMargin": 12,
-      "name": "storybox",
-      "persistentUuid": "ab3ed928-144e-4815-b8c2-1e4ff2702b02",
-      "rightMargin": 12,
-      "texture": "Default-panel (2).png",
-      "tiled": false,
-      "topMargin": 12,
-      "type": "PanelSpriteObject::PanelSprite",
-      "width": 48,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -2112,6 +2123,12 @@
         "objectName": "buildings"
       },
       {
+        "objectName": "Hint"
+      },
+      {
+        "objectName": "hintbox"
+      },
+      {
         "objectName": "storybox"
       },
       {
@@ -2135,13 +2152,14 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySound"
+            "value": "PlaySoundOnChannel"
           },
           "parameters": [
             "",
-            "timedlevelsfixed2.mp3",
-            "no",
-            "3",
+            "timedlevelsfixed4.mp3",
+            "1",
+            "yes",
+            "GlobalVariable(Settings.MusicVolume)",
             ""
           ]
         },
@@ -2294,6 +2312,18 @@
             "True",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+          },
+          "parameters": [
+            "",
+            "\"level\"",
+            "-3",
+            "2",
+            "32"
+          ]
         }
       ],
       "events": [
@@ -2301,6 +2331,58 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustResumed"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetSoundChannelVolume"
+          },
+          "parameters": [
+            "",
+            "1",
+            "=",
+            "GlobalVariable(Settings.MusicVolume)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustResumed"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetSoundChannelVolume"
+          },
+          "parameters": [
+            "",
+            "2",
+            "=",
+            "GlobalVariable(Settings.SFXVolume)"
+          ]
         }
       ]
     },
@@ -2413,13 +2495,14 @@
         },
         {
           "type": {
-            "value": "PlaySound"
+            "value": "PlaySoundOnChannel"
           },
           "parameters": [
             "",
-            "freesound_community-light-switch-off-86314.mp3",
+            "switch off3.mp3",
+            "2",
             "no",
-            "25",
+            "GlobalVariable(Settings.SFXVolume)",
             ""
           ]
         }
@@ -2484,13 +2567,14 @@
         },
         {
           "type": {
-            "value": "PlaySound"
+            "value": "PlaySoundOnChannel"
           },
           "parameters": [
             "",
-            "edr-switch-click-and-beep-001a-11602.mp3",
-            "",
-            "25",
+            "switch on2.mp3",
+            "2",
+            "no",
+            "GlobalVariable(Settings.SFXVolume)",
             ""
           ]
         }
@@ -2832,13 +2916,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundOnChannel"
               },
               "parameters": [
                 "",
                 "correct answer.mp3",
+                "2",
                 "no",
-                "25",
+                "GlobalVariable(Settings.SFXVolume)",
                 ""
               ]
             }
@@ -3420,13 +3505,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundOnChannel"
               },
               "parameters": [
                 "",
                 "incorrect answer.mp3",
+                "2",
                 "no",
-                "25",
+                "GlobalVariable(Settings.SFXVolume)",
                 ""
               ]
             },
@@ -3898,6 +3984,40 @@
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "gear_button",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"Options\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "sub/hint button animation"
     }
   ],
   "layers": [
