@@ -3700,6 +3700,16 @@
             "\"Game Over Screen\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "LastPlayedLevel",
+            "=",
+            "\"Dec-Binary(8 bit)\""
+          ]
         }
       ]
     },
