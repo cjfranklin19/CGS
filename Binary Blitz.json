@@ -3891,7 +3891,13 @@
       "persistentUuid": "8b072246-0da9-49c9-925c-44ba1ddcb0cb",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "toggle",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
