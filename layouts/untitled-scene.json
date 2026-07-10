@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "LD_45BO",
-  "name": "LD-BO",
+  "mangledName": "Untitled_32scene",
+  "name": "Untitled scene",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -32,31 +32,7 @@
   "objectsFolderStructure": {
     "folderName": "__ROOT"
   },
-  "events": [
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "Leaderboards::IsLeaderboardViewLoaded"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"main menu\"",
-            ""
-          ]
-        }
-      ]
-    }
-  ],
+  "events": [],
   "layers": [
     {
       "ambientLightColorB": 200,

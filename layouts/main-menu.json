@@ -29,7 +29,7 @@
   "variables": [
     {
       "name": "TempSettings",
-      "persistentUuid": "cd372aef-b163-4faf-8c89-15603e7b4d23",
+      "persistentUuid": "97eddb75-c285-4150-8466-f2e666ef1a09",
       "type": "string",
       "value": ""
     }
@@ -807,6 +807,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "Tween",
