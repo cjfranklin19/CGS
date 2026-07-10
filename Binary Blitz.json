@@ -3630,6 +3630,14 @@
         "name": "Base2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "FinishButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "FinishButton.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -3706,13 +3714,13 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 4,
           "leftEdgeAnchor": 4,
-          "name": "Anchor",
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 4,
           "topEdgeAnchor": 4,
-          "type": "AnchorBehavior::AnchorBehavior",
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -4044,6 +4052,67 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite6",
+      "persistentUuid": "6561ef05-049b-40af-9765-c8b5bf2ec1d3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FinishButton.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 60
+                      },
+                      {
+                        "x": 256,
+                        "y": 60
+                      },
+                      {
+                        "x": 256,
+                        "y": 196
+                      },
+                      {
+                        "x": 0,
+                        "y": 196
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -4066,6 +4135,9 @@
       },
       {
         "objectName": "Stat_Outline"
+      },
+      {
+        "objectName": "NewSprite6"
       }
     ]
   },

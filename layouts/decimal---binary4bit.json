@@ -59,145 +59,121 @@
   "variables": [
     {
       "name": "binaryTot",
-      "persistentUuid": "2f0bba66-ca5c-4d4b-b58b-ab9aba0cf366",
       "type": "number",
       "value": 0
     },
     {
       "name": "targetNum",
-      "persistentUuid": "c61715a3-d533-4baf-8873-b7e8697f23a9",
       "type": "number",
       "value": 0
     },
     {
       "name": "resultText",
-      "persistentUuid": "843cac72-b43d-445a-8ed6-4bcd6290a20b",
       "type": "string",
       "value": "\"\""
     },
     {
       "name": "score",
-      "persistentUuid": "c3165746-0fc0-40bc-8fd9-ad6d324ba543",
       "type": "number",
       "value": 0
     },
     {
       "name": "basePoints",
-      "persistentUuid": "c92e369e-d768-4601-8ec3-df8e811a10b4",
       "type": "number",
       "value": 100
     },
     {
       "name": "penalty",
-      "persistentUuid": "dd9ae4fd-314e-438a-81e5-bd5e6ccf9980",
       "type": "number",
       "value": 50
     },
     {
       "name": "mult",
-      "persistentUuid": "f65e8011-73f7-458c-a75c-9166afc369ab",
       "type": "number",
       "value": 1
     },
     {
       "name": "streak",
-      "persistentUuid": "e88cf868-ef27-4794-be4d-2027d8e13171",
       "type": "number",
       "value": 0
     },
     {
       "name": "wrongStreak",
-      "persistentUuid": "171d9ccf-6e77-420e-84a4-98ed21f39c2a",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionsAnswered",
-      "persistentUuid": "12836491-59d8-45b4-89d4-f23f43e1b578",
       "type": "number",
       "value": 0
     },
     {
       "name": "levelQuestions",
-      "persistentUuid": "91893f0a-5d5f-45c1-9b48-babe4c961e43",
       "type": "number",
       "value": 5
     },
     {
       "name": "elapsedQuestionTime",
-      "persistentUuid": "8d65c0a9-d44f-4376-95df-07c27dad8ee5",
       "type": "number",
       "value": 0
     },
     {
       "name": "timeLimit",
-      "persistentUuid": "0f060962-f4ff-4c9b-bf77-ce27b60bd628",
       "type": "number",
       "value": 30
     },
     {
       "name": "hintPenalty",
-      "persistentUuid": "cf2f191e-f800-4a88-9140-eaac4bae4536",
       "type": "number",
       "value": 25
     },
     {
       "name": "hintOpen",
-      "persistentUuid": "0f081e67-5ae7-42dc-882f-cb93ba0172ca",
       "type": "boolean",
       "value": false
     },
     {
       "name": "hintUsedThisQuestion",
-      "persistentUuid": "bfc83394-4d21-42c0-94f6-b771320bb92a",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionOpen",
-      "persistentUuid": "e100ebf9-128b-4e15-8e3c-61b89f4b4ec5",
       "type": "boolean",
       "value": true
     },
     {
       "name": "cityPower",
-      "persistentUuid": "76e17cc4-41be-4f0f-8af6-795a4bc108c7",
       "type": "number",
       "value": 0
     },
     {
       "name": "inputLocked",
-      "persistentUuid": "98bcf363-53c9-4e2a-a886-7ca48f7135e4",
       "type": "boolean",
       "value": false
     },
     {
       "name": "startNextQuestion",
-      "persistentUuid": "381e4ce3-142a-4022-b681-78e45b40c401",
       "type": "boolean",
       "value": true
     },
     {
       "name": "correctAnswers",
-      "persistentUuid": "0a49463a-41de-4bba-89ac-ece1163d2d5e",
       "type": "number",
       "value": 0
     },
     {
       "name": "incorrectAnswers",
-      "persistentUuid": "2ea5730c-e257-42d1-9749-351e06482989",
       "type": "number",
       "value": 0
     },
     {
       "name": "highestStreak",
-      "persistentUuid": "e4633f29-ea47-4a45-b772-b2c10f8c9124",
       "type": "number",
       "value": 0
     },
     {
       "name": "lightani",
-      "persistentUuid": "b328064b-5bef-4e61-9ac7-e3cc6b5d1a9e",
       "type": "number",
       "value": 0
     }
@@ -2461,6 +2437,18 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite",
+      "persistentUuid": "8959dcc1-213e-47b9-9f25-78d94eedb9f2",
+      "texture": "",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -2537,6 +2525,9 @@
       },
       {
         "objectName": "Gear_button"
+      },
+      {
+        "objectName": "NewTiledSprite"
       }
     ]
   },
@@ -4553,7 +4544,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": false,
+      "isLocked": true,
       "name": "background",
       "renderingType": "",
       "visibility": true,
