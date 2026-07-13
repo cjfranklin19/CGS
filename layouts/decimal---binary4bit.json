@@ -59,145 +59,121 @@
   "variables": [
     {
       "name": "binaryTot",
-      "persistentUuid": "22139d51-94e6-4bb7-82f2-ee3d4f7fbfda",
       "type": "number",
       "value": 0
     },
     {
       "name": "targetNum",
-      "persistentUuid": "13b0ece1-c8a9-4d5d-aed1-1ac634095184",
       "type": "number",
       "value": 0
     },
     {
       "name": "resultText",
-      "persistentUuid": "1f68e540-8b66-4194-8ef3-ec4a221d9678",
       "type": "string",
       "value": "\"\""
     },
     {
       "name": "score",
-      "persistentUuid": "c576075d-f362-4431-a364-78b939a6e0bb",
       "type": "number",
       "value": 0
     },
     {
       "name": "basePoints",
-      "persistentUuid": "385c6522-bdc4-490a-8270-68b6e5461a95",
       "type": "number",
       "value": 100
     },
     {
       "name": "penalty",
-      "persistentUuid": "2387539b-8048-4db6-8ead-32bd9bc07fb7",
       "type": "number",
       "value": 50
     },
     {
       "name": "mult",
-      "persistentUuid": "1e5fdf7c-a6cf-4705-8ccc-a87b646c70d7",
       "type": "number",
       "value": 1
     },
     {
       "name": "streak",
-      "persistentUuid": "60dbbd57-055a-4a79-a661-6c9612fe9b36",
       "type": "number",
       "value": 0
     },
     {
       "name": "wrongStreak",
-      "persistentUuid": "b2fac1b0-21ec-4197-9e4b-65d40d5a606c",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionsAnswered",
-      "persistentUuid": "cf964e64-72c2-4fbf-a817-00dc786083ad",
       "type": "number",
       "value": 0
     },
     {
       "name": "levelQuestions",
-      "persistentUuid": "7c0c589e-c6c1-46b8-869d-facea8c9c574",
       "type": "number",
       "value": 5
     },
     {
       "name": "elapsedQuestionTime",
-      "persistentUuid": "f31c0ff2-326f-4cf0-93b9-8388403c9cfb",
       "type": "number",
       "value": 0
     },
     {
       "name": "timeLimit",
-      "persistentUuid": "87bb4899-b9a5-44f7-aa4b-07329466ee62",
       "type": "number",
       "value": 30
     },
     {
       "name": "hintPenalty",
-      "persistentUuid": "1fa88c85-9fdc-4862-80a9-268a676dbb65",
       "type": "number",
       "value": 25
     },
     {
       "name": "hintOpen",
-      "persistentUuid": "effac85d-1b88-42f6-b6ed-dffa4aeade3e",
       "type": "boolean",
       "value": false
     },
     {
       "name": "hintUsedThisQuestion",
-      "persistentUuid": "1c1d8db2-e22b-4f65-bd6b-de3516410895",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionOpen",
-      "persistentUuid": "1e6dfd9d-a842-45fb-9059-f5486195de5a",
       "type": "boolean",
       "value": true
     },
     {
       "name": "cityPower",
-      "persistentUuid": "cf382e6d-d219-4f29-a2f3-3e3d772ff5b6",
       "type": "number",
       "value": 0
     },
     {
       "name": "inputLocked",
-      "persistentUuid": "d21a7ab1-5a4e-4b02-b8aa-d2cd4a2e49db",
       "type": "boolean",
       "value": false
     },
     {
       "name": "startNextQuestion",
-      "persistentUuid": "c3de8e9c-440c-45c3-98ae-78969c4a7541",
       "type": "boolean",
       "value": true
     },
     {
       "name": "correctAnswers",
-      "persistentUuid": "88dfa78e-b167-45db-8493-8334cb69ce39",
       "type": "number",
       "value": 0
     },
     {
       "name": "incorrectAnswers",
-      "persistentUuid": "01b1dfa4-a65d-4fe6-8ac5-7befbebb154e",
       "type": "number",
       "value": 0
     },
     {
       "name": "highestStreak",
-      "persistentUuid": "ac5ace6d-cb35-44b5-ac12-1a610e00cc45",
       "type": "number",
       "value": 0
     },
     {
       "name": "lightani",
-      "persistentUuid": "f45f0546-4ff5-43f7-80a7-0919af3ecd8f",
       "type": "number",
       "value": 0
     }
@@ -2498,6 +2474,23 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "b7b916614570780a0e1ee277966a3cd49566347fde75ac0c0c7a95554156b4e9",
+      "bottomMargin": 12,
+      "height": 48,
+      "leftMargin": 12,
+      "name": "storybox2",
+      "persistentUuid": "937baf80-f422-4c69-bd44-fba13f60e4fd",
+      "rightMargin": 12,
+      "texture": "Default-panel (2).png",
+      "tiled": false,
+      "topMargin": 12,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 48,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -2550,6 +2543,9 @@
       },
       {
         "objectName": "SCORE"
+      },
+      {
+        "objectName": "storybox2"
       },
       {
         "objectName": "NewSprite"
@@ -4486,7 +4482,61 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
+      "name": "Layer",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
       "name": "lights",
       "renderingType": "",
       "visibility": true,
@@ -4648,7 +4698,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": false,
+      "isLocked": true,
       "name": "",
       "renderingType": "",
       "visibility": true,

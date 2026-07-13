@@ -54,22 +54,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 174,
-      "layer": "",
-      "name": "FinishButton",
-      "persistentUuid": "f97090a2-85b2-4f73-b1e6-ce52c4e3ab33",
-      "width": 200,
-      "x": 875.5,
-      "y": 930,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 1,
       "height": 157,
       "keepRatio": true,

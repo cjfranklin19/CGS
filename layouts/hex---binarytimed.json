@@ -59,169 +59,141 @@
   "variables": [
     {
       "name": "binaryTot",
-      "persistentUuid": "9b1f4220-c7d5-44b5-b8c3-cd828be553ff",
       "type": "number",
       "value": 0
     },
     {
       "name": "targetNum",
-      "persistentUuid": "37341e71-af2d-427b-9509-e1e0004cc8fa",
       "type": "number",
       "value": 0
     },
     {
       "name": "resultText",
-      "persistentUuid": "4e1b6b47-49dc-41dc-8d62-073520d00467",
       "type": "string",
       "value": "\"\""
     },
     {
       "name": "score",
-      "persistentUuid": "f7a583e6-f5d9-4d94-8872-c36fb2e5c0a9",
       "type": "number",
       "value": 0
     },
     {
       "name": "basePoints",
-      "persistentUuid": "757404fc-74be-4f73-be10-d1c3ae4d96c0",
       "type": "number",
       "value": 100
     },
     {
       "name": "penalty",
-      "persistentUuid": "4a729640-26c1-4b15-b7a8-52b745678017",
       "type": "number",
       "value": 50
     },
     {
       "name": "mult",
-      "persistentUuid": "1be48e60-87e3-431d-82f0-31ccb7078c45",
       "type": "number",
       "value": 1
     },
     {
       "name": "streak",
-      "persistentUuid": "c67d2b6d-253c-49b0-8b0d-fa8264ad303a",
       "type": "number",
       "value": 0
     },
     {
       "name": "wrongStreak",
-      "persistentUuid": "4b503564-1332-49fe-970f-73d9ff8cc777",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionsAnswered",
-      "persistentUuid": "8bb41ce0-ff8d-44b3-801c-d19dc13386a9",
       "type": "number",
       "value": 0
     },
     {
       "name": "levelQuestions",
-      "persistentUuid": "597ff49f-9d68-45bd-8241-85b0b458f96e",
       "type": "number",
       "value": 5
     },
     {
       "name": "elapsedQuestionTime",
-      "persistentUuid": "02db0c16-f39f-4b49-9116-aeb32bd99bcd",
       "type": "number",
       "value": 0
     },
     {
       "name": "timeLimit",
-      "persistentUuid": "130a9380-665c-4769-8500-f19117512185",
       "type": "number",
       "value": 30
     },
     {
       "name": "hintPenalty",
-      "persistentUuid": "25548850-fdff-4f8f-be1b-d44374451707",
       "type": "number",
       "value": 25
     },
     {
       "name": "hintOpen",
-      "persistentUuid": "4250557f-2f16-4b21-a9dd-86456e5d98fb",
       "type": "boolean",
       "value": false
     },
     {
       "name": "hintUsedThisQuestion",
-      "persistentUuid": "e0b359c9-db31-4e93-897f-1e2624536ba7",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionOpen",
-      "persistentUuid": "f638ca93-5dea-4e56-b0f1-3bfddf99494d",
       "type": "boolean",
       "value": true
     },
     {
       "name": "cityPower",
-      "persistentUuid": "b6459345-479f-4cfb-9de2-7f4392209e2d",
       "type": "number",
       "value": 0
     },
     {
       "name": "inputLocked",
-      "persistentUuid": "9b1dfcc2-b6b4-4c60-8baa-a0e05ae6e145",
       "type": "boolean",
       "value": false
     },
     {
       "name": "startNextQuestion",
-      "persistentUuid": "8919c443-44bb-4110-9569-9d01f63493e9",
       "type": "boolean",
       "value": true
     },
     {
       "name": "correctAnswers",
-      "persistentUuid": "d6578d0a-4914-474c-ab44-e3f8de7c440e",
       "type": "number",
       "value": 0
     },
     {
       "name": "incorrectAnswers",
-      "persistentUuid": "f06c7680-6b79-4f6e-8aac-2c11164d0de5",
       "type": "number",
       "value": 0
     },
     {
       "name": "highestStreak",
-      "persistentUuid": "b5502c5f-516c-4d91-b623-95e944bfdda7",
       "type": "number",
       "value": 0
     },
     {
       "name": "targetHex",
-      "persistentUuid": "ea01e3ca-9627-4741-9e4a-623bf46eeefa",
       "type": "string",
       "value": ""
     },
     {
       "name": "hexDigit",
-      "persistentUuid": "131cf0f3-93e5-4747-a9ee-ed266a726767",
       "type": "number",
       "value": 0
     },
     {
       "name": "hexLetterVal",
-      "persistentUuid": "03719e2a-803d-428c-b827-cba74a5e4cb6",
       "type": "number",
       "value": 0
     },
     {
       "name": "hexLetter",
-      "persistentUuid": "2a548f5e-b704-4c04-8f19-12de87112665",
       "type": "string",
       "value": ""
     },
     {
       "name": "lightani",
-      "persistentUuid": "d2c1c001-09d5-4c80-9c9b-1f1e60d1ccb4",
       "type": "number",
       "value": 0
     }
