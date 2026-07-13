@@ -29,6 +29,7 @@
   "variables": [
     {
       "name": "TempSettings",
+      "persistentUuid": "efb76666-5212-487b-adc8-ef02cc2bcea6",
       "type": "string",
       "value": ""
     }

@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5800155239904936,
+    "zoomFactor": 0.4598521426736405,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -59,121 +59,145 @@
   "variables": [
     {
       "name": "binaryTot",
+      "persistentUuid": "a3678367-99de-493b-8a25-b06f17dd0b49",
       "type": "number",
       "value": 0
     },
     {
       "name": "targetNum",
+      "persistentUuid": "e276958c-ae01-4447-ba82-d00502eebea5",
       "type": "number",
       "value": 0
     },
     {
       "name": "resultText",
+      "persistentUuid": "96ded03c-5067-47da-b584-3679a7f41195",
       "type": "string",
       "value": "\"\""
     },
     {
       "name": "score",
+      "persistentUuid": "ccda3395-9125-4f2e-8a23-44e5c1d5cf26",
       "type": "number",
       "value": 0
     },
     {
       "name": "basePoints",
+      "persistentUuid": "312fb10b-e2b8-4c28-b359-0eb15d316b60",
       "type": "number",
       "value": 100
     },
     {
       "name": "penalty",
+      "persistentUuid": "dca03bfb-625f-4e3b-8b90-ed15c7d4eb21",
       "type": "number",
       "value": 50
     },
     {
       "name": "mult",
+      "persistentUuid": "de576c82-6498-49c2-9c13-27bd46be619b",
       "type": "number",
       "value": 1
     },
     {
       "name": "streak",
+      "persistentUuid": "8ab876d5-85d7-452b-b948-61f46902c5e5",
       "type": "number",
       "value": 0
     },
     {
       "name": "wrongStreak",
+      "persistentUuid": "31735ade-8e54-4eeb-a7fa-fd53b3e196df",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionsAnswered",
+      "persistentUuid": "4e28d279-9c6e-49e2-b58a-2ffd5147bd7d",
       "type": "number",
       "value": 0
     },
     {
       "name": "levelQuestions",
+      "persistentUuid": "89d8a5cf-4a55-497e-aa09-98b5fff5c1ad",
       "type": "number",
       "value": 5
     },
     {
       "name": "elapsedQuestionTime",
+      "persistentUuid": "0f26517c-2c21-4cc1-a857-c4ee1657482e",
       "type": "number",
       "value": 0
     },
     {
       "name": "timeLimit",
+      "persistentUuid": "de269591-ce43-478c-9926-79d45ea028c8",
       "type": "number",
       "value": 30
     },
     {
       "name": "hintPenalty",
+      "persistentUuid": "ba6a0bf3-3ab0-4d58-98a5-5e7fcd68bfce",
       "type": "number",
       "value": 25
     },
     {
       "name": "hintOpen",
+      "persistentUuid": "c4e17712-5bc8-430b-8c0c-4b06b29b088e",
       "type": "boolean",
       "value": false
     },
     {
       "name": "hintUsedThisQuestion",
+      "persistentUuid": "a11ed69f-4afa-4d2d-b2cd-fd940f9d6b3c",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionOpen",
+      "persistentUuid": "6122345a-e224-4278-a35c-0ad9588de481",
       "type": "boolean",
       "value": true
     },
     {
       "name": "cityPower",
+      "persistentUuid": "e3cb778d-1fab-470e-827f-9d7c9c56c45f",
       "type": "number",
       "value": 0
     },
     {
       "name": "inputLocked",
+      "persistentUuid": "80abcdfc-518c-46bc-ac30-8b68436ddd25",
       "type": "boolean",
       "value": false
     },
     {
       "name": "startNextQuestion",
+      "persistentUuid": "57f408c1-bf4a-4e09-84c0-390dc07f0886",
       "type": "boolean",
       "value": true
     },
     {
       "name": "correctAnswers",
+      "persistentUuid": "b1dc3b26-9ff3-4ac5-bb94-6156c27a540f",
       "type": "number",
       "value": 0
     },
     {
       "name": "incorrectAnswers",
+      "persistentUuid": "e86cc75d-9096-4303-b02c-be9509d2cce7",
       "type": "number",
       "value": 0
     },
     {
       "name": "highestStreak",
+      "persistentUuid": "a60cce78-d32c-48e3-a216-4cb821344324",
       "type": "number",
       "value": 0
     },
     {
       "name": "lightani",
+      "persistentUuid": "6e55dfb6-bbbc-44ee-86bc-483072716ee7",
       "type": "number",
       "value": 0
     }
@@ -545,6 +569,22 @@
       "x": 307,
       "y": 202,
       "zOrder": 42,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Timer_Ring",
+      "persistentUuid": "fe244261-c848-4c78-a33e-1eda6c5cf9d8",
+      "width": 0,
+      "x": 1,
+      "y": 0,
+      "zOrder": 43,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2474,6 +2514,607 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Timer_Ring",
+      "persistentUuid": "8a88bed0-a6d5-475f-94e3-52d2abde8169",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TimerCircle -3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 904,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 680
+                      },
+                      {
+                        "x": 904,
+                        "y": 680
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TimerCircle -3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 904,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 680
+                      },
+                      {
+                        "x": 904,
+                        "y": 680
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TimerCircle -4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 904,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 680
+                      },
+                      {
+                        "x": 904,
+                        "y": 680
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TimerCircle - 4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 904,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 680
+                      },
+                      {
+                        "x": 904,
+                        "y": 680
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TimerCircle - 5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 904,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 680
+                      },
+                      {
+                        "x": 904,
+                        "y": 680
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TimerCircle - 6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 904,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 680
+                      },
+                      {
+                        "x": 904,
+                        "y": 680
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TimerCircle - 7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 904,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 680
+                      },
+                      {
+                        "x": 904,
+                        "y": 680
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TimerCircle -9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 904,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 680
+                      },
+                      {
+                        "x": 904,
+                        "y": 680
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TimerCircle -10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 904,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 680
+                      },
+                      {
+                        "x": 904,
+                        "y": 680
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TimerCircle -11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 904,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 680
+                      },
+                      {
+                        "x": 904,
+                        "y": 680
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TimerCircle - 11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 904,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 680
+                      },
+                      {
+                        "x": 904,
+                        "y": 680
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TimerCircle - 12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 904,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 680
+                      },
+                      {
+                        "x": 904,
+                        "y": 680
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TimerCircle - 13.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 904,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 680
+                      },
+                      {
+                        "x": 904,
+                        "y": 680
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TimerCircle - 14.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 904,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 680
+                      },
+                      {
+                        "x": 904,
+                        "y": 680
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TimerCircle -16.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 904,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 680
+                      },
+                      {
+                        "x": 904,
+                        "y": 680
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "TimerCircle -17.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 904,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 568
+                      },
+                      {
+                        "x": 1016,
+                        "y": 680
+                      },
+                      {
+                        "x": 904,
+                        "y": 680
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2553,6 +3194,9 @@
       },
       {
         "objectName": "NewTiledSprite"
+      },
+      {
+        "objectName": "Timer_Ring"
       }
     ]
   },
@@ -4602,7 +5246,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": false,
+      "isLocked": true,
       "name": "background",
       "renderingType": "",
       "visibility": true,
