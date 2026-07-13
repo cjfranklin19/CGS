@@ -3836,6 +3836,142 @@
         "name": "3Key.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "0Key2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "0Key2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "5Key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5Key.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "1Key3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1Key3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "2Key2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "2Key2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "3Key2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3Key2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "4Key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4Key.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "6Key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6Key.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "7Key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "7Key.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "8Key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8Key.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "9Key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9Key.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "AKey.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AKey.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "BKey.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BKey.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "CKey.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CKey.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "DKey.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DKey.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "EKey.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "EKey.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "FKey.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "FKey.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Backspace.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Backspace.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -4385,7 +4521,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Pts",
+      "string": ":Pts",
       "font": "Not Jam Mono Clean15.ttf",
       "textAlignment": "left",
       "characterSize": 60,
@@ -4408,7 +4544,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Pts",
+        "text": ":Pts",
         "font": "Not Jam Mono Clean15.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",

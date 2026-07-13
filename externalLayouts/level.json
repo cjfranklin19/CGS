@@ -71,23 +71,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 177,
-      "keepRatio": true,
-      "layer": "background",
-      "name": "Stat_Outline",
-      "persistentUuid": "d6566ed1-a5b9-4f1e-988a-f09840719220",
-      "width": 1384,
-      "x": 264,
-      "y": 615,
-      "zOrder": 33,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 0,
       "height": 177,
       "layer": "",
