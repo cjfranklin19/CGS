@@ -291,8 +291,8 @@
       "name": "finishButton",
       "persistentUuid": "cc4025d9-2d9d-4859-b212-5460376f3881",
       "width": 113,
-      "x": 902,
-      "y": 978,
+      "x": 905,
+      "y": 1111,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -301,13 +301,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 76.325,
+      "depth": 1,
+      "height": 76,
       "keepRatio": true,
       "layer": "",
       "name": "SCORE",
       "persistentUuid": "256271b8-7070-4ae4-b45a-ed0a08a24476",
-      "width": 43,
+      "width": 269,
       "x": 1190,
       "y": 574,
       "zOrder": 15,
@@ -392,8 +392,8 @@
       "name": "storybox",
       "persistentUuid": "8993dadf-072f-4ba6-b87a-c5dd8704958c",
       "width": 1774,
-      "x": 64,
-      "y": 33,
+      "x": 69,
+      "y": 43,
       "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
@@ -503,48 +503,48 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 90,
-      "keepRatio": true,
-      "layer": "hintlayer",
-      "name": "Hint",
-      "persistentUuid": "9635a9be-c4a6-4547-b375-edf945504beb",
-      "width": 1343,
-      "x": 265,
-      "y": 203,
-      "zOrder": 40,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 294,
-      "keepRatio": true,
-      "layer": "hintlayer",
-      "name": "hintbox",
-      "persistentUuid": "6b36da92-a51f-4935-9fa0-c7d8706538c8",
-      "width": 1550,
-      "x": 170,
-      "y": 103,
-      "zOrder": 39,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 171,
       "layer": "hintlayer",
       "name": "FinishButton",
       "persistentUuid": "88d2983e-e0a3-4a62-9d8e-c1d6001e5a40",
       "width": 200,
-      "x": 875,
+      "x": 873,
       "y": 930,
       "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 561,
+      "keepRatio": true,
+      "layer": "panels",
+      "name": "hintbox",
+      "persistentUuid": "31b21369-ad51-4d3e-b14c-bad5d5d1d6d0",
+      "width": 1813,
+      "x": 59,
+      "y": 0,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 90,
+      "keepRatio": true,
+      "layer": "panels",
+      "name": "Hint",
+      "persistentUuid": "8b420748-65b2-40ec-a8cf-8d440e17ee18",
+      "width": 1285,
+      "x": 307,
+      "y": 202,
+      "zOrder": 42,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2704,14 +2704,6 @@
         },
         {
           "type": {
-            "value": "Hide"
-          },
-          "parameters": [
-            "finishButton"
-          ]
-        },
-        {
-          "type": {
             "value": "SetBooleanVariable"
           },
           "parameters": [
@@ -2740,6 +2732,16 @@
           "parameters": [
             "finishButton",
             "no",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "FinishButton",
+            "ButtonFSM",
             ""
           ]
         }
@@ -3106,7 +3108,7 @@
               "parameters": [
                 "targetNum",
                 "=",
-                "RandomInRange(1, 10)"
+                "RandomInRange(0, 10)"
               ]
             },
             {
@@ -3367,13 +3369,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundOnChannel"
               },
               "parameters": [
                 "",
                 "correct answer.mp3",
+                "2",
                 "no",
-                "25",
+                "GlobalVariable(Settings.SFXVolume)",
                 ""
               ]
             }
@@ -3832,10 +3835,20 @@
                 },
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "AmountHintUsed",
+                    "=",
+                    "hintUsedThisQuestion"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Show"
                   },
                   "parameters": [
-                    "finishButton",
+                    "FinishButton",
                     ""
                   ]
                 },
@@ -3847,6 +3860,16 @@
                     "finishButton",
                     "yes",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "FinishButton",
+                    "ButtonFSM",
+                    "yes"
                   ]
                 }
               ]
@@ -4028,13 +4051,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundOnChannel"
               },
               "parameters": [
                 "",
                 "incorrect answer.mp3",
+                "2",
                 "no",
-                "25",
+                "GlobalVariable(Settings.SFXVolume)",
                 ""
               ]
             }
@@ -4127,18 +4151,18 @@
             "value": "ButtonStates::ButtonFSM::IsClicked"
           },
           "parameters": [
-            "finishButton",
+            "FinishButton",
             "ButtonFSM",
             ""
           ]
         },
         {
           "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::IsActivated"
+            "value": "BehaviorActivated"
           },
           "parameters": [
-            "finishButton",
-            ""
+            "FinishButton",
+            "ButtonFSM"
           ]
         }
       ],
@@ -4451,32 +4475,6 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "ButtonStates::ButtonFSM::IsClicked"
-          },
-          "parameters": [
-            "gear_button",
-            "ButtonFSM",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PushScene"
-          },
-          "parameters": [
-            "",
-            "\"Options\""
-          ]
-        }
-      ]
-    },
-    {
       "type": "BuiltinCommonInstructions::Link",
       "include": {
         "includeConfig": 0
@@ -4551,7 +4549,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "background",
+      "name": "panels",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -4604,8 +4602,8 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
-      "name": "panels",
+      "isLocked": false,
+      "name": "background",
       "renderingType": "",
       "visibility": true,
       "cameras": [],

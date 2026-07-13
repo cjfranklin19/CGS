@@ -184,7 +184,7 @@
         "BottomPadding": 32,
         "TopPadding": 16,
         "HoveredFadeOutDuration": 0.25,
-        "LabelText": "Binaryt to Decimal"
+        "LabelText": "Binary to Decimal"
       }
     },
     {
@@ -260,7 +260,7 @@
         "BottomPadding": 32,
         "TopPadding": 16,
         "HoveredFadeOutDuration": 0.25,
-        "LabelText": "Binaryt to Octal"
+        "LabelText": "Binary to Octal"
       }
     },
     {

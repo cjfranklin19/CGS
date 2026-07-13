@@ -284,8 +284,8 @@
       "name": "finishButton",
       "persistentUuid": "cc4025d9-2d9d-4859-b212-5460376f3881",
       "width": 0,
-      "x": 864,
-      "y": 983,
+      "x": 887,
+      "y": 1210,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -345,15 +345,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 390,
+      "height": 498,
       "keepRatio": true,
       "layer": "",
       "name": "storybox",
       "persistentUuid": "fcda68a2-d40d-48ec-bf6a-bc8033b70268",
-      "width": 1662,
-      "x": 126,
-      "y": 51,
-      "zOrder": 24,
+      "width": 1778,
+      "x": 63,
+      "y": -17,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -487,6 +487,38 @@
       "x": 1462,
       "y": 579,
       "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 171,
+      "layer": "",
+      "name": "FinishButton",
+      "persistentUuid": "5c3ddb54-ee87-40eb-b098-587ce469716c",
+      "width": 200,
+      "x": 873,
+      "y": 930,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "panels",
+      "name": "Hint",
+      "persistentUuid": "4711d2e0-535a-4f91-8e4a-4159a822fc00",
+      "width": 0,
+      "x": 912,
+      "y": -254,
+      "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2137,14 +2169,14 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Text",
+      "string": "HHINTINTINTINT",
       "font": "",
       "textAlignment": "left",
-      "characterSize": 20,
+      "characterSize": 70,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -2160,13 +2192,13 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Text",
+        "text": "HHINTINTINTINT",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 20,
+        "characterSize": 70,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "150;198;146"
       }
     },
     {
@@ -2176,6 +2208,23 @@
       "leftMargin": 12,
       "name": "hintbox",
       "persistentUuid": "dabfb14e-31f8-4207-a578-fb460b4c1278",
+      "rightMargin": 12,
+      "texture": "Default-panel (2).png",
+      "tiled": false,
+      "topMargin": 12,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 48,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "b7b916614570780a0e1ee277966a3cd49566347fde75ac0c0c7a95554156b4e9",
+      "bottomMargin": 12,
+      "height": 48,
+      "leftMargin": 12,
+      "name": "hintbox2",
+      "persistentUuid": "a720c1d9-0169-4093-814f-487427ab1819",
       "rightMargin": 12,
       "texture": "Default-panel (2).png",
       "tiled": false,
@@ -2261,6 +2310,9 @@
       },
       {
         "objectName": "Story_text"
+      },
+      {
+        "objectName": "hintbox2"
       },
       {
         "objectName": "storybox"
@@ -4221,6 +4273,60 @@
       "isLightingLayer": false,
       "isLocked": false,
       "name": "panels",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Hintlayer",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
