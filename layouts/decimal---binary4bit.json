@@ -3868,16 +3868,6 @@
                 },
                 {
                   "type": {
-                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
-                  },
-                  "parameters": [
-                    "finishButton",
-                    "yes",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
