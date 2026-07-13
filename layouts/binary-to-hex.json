@@ -29,186 +29,223 @@
   "variables": [
     {
       "name": "BinaryString",
+      "persistentUuid": "21157368-f57f-4a58-a8a4-b45b78715822",
       "type": "string",
       "value": ""
     },
     {
       "name": "BitCount",
+      "persistentUuid": "b7733b96-0b46-43ef-8e47-1b66cd96814d",
       "type": "number",
       "value": 0
     },
     {
       "name": "HexLow",
+      "persistentUuid": "b48b571f-50f1-4497-85d9-90f783ee4266",
       "type": "number",
       "value": 0
     },
     {
       "name": "HexHigh",
+      "persistentUuid": "9baede56-f83f-4b94-bd2e-54c30311a5e9",
       "type": "number",
       "value": 0
     },
     {
       "name": "TargetHex",
+      "persistentUuid": "b179d3c0-439e-433c-b020-7d2cd32a693f",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit0",
+      "persistentUuid": "fc95889f-ac4a-44f4-ad20-fb14d4f53c3e",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit1",
+      "persistentUuid": "f211d718-cd7f-49cf-8fae-874c8b05b4b9",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit2",
+      "persistentUuid": "bf259eb8-b337-4d70-931a-2a786de5b93b",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit3",
+      "persistentUuid": "22bac0c9-2302-48a2-a6cf-89c1931f87bb",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit4",
+      "persistentUuid": "5684788c-39cd-4b28-b017-1d891a596eba",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit5",
+      "persistentUuid": "b7c02e70-d92c-4b8e-96b1-5af7edc29679",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit6",
+      "persistentUuid": "7d0c7f6b-d0f1-4b54-89ff-435a3b28f4d6",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit7",
+      "persistentUuid": "279d43e2-809c-4e0d-9bd9-e592ecda2ab5",
       "type": "number",
       "value": 0
     },
     {
       "name": "HexLowText",
+      "persistentUuid": "a6b48e5c-ac86-4403-bbe3-526be410dd2f",
       "type": "string",
       "value": ""
     },
     {
       "name": "HexHighText",
+      "persistentUuid": "32d93582-6c1c-4108-9f2c-d56da9a3231f",
       "type": "string",
       "value": ""
     },
     {
       "name": "PlayerAnswer",
+      "persistentUuid": "48acbd29-dabd-4d14-8ddc-3f4fcd4d720b",
       "type": "string",
       "value": ""
     },
     {
       "name": "PlayerNumber",
+      "persistentUuid": "c38eed08-e725-40a8-8158-09191bf02252",
       "type": "number",
       "value": 0
     },
     {
       "name": "ResultText",
+      "persistentUuid": "d19ee21d-100f-4929-80d4-0c2510f551a7",
       "type": "string",
       "value": ""
     },
     {
       "name": "score",
+      "persistentUuid": "79a8cd66-9f19-40d7-aaa4-dfc5575df859",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionsAnswered",
+      "persistentUuid": "a27fc4cb-a452-403b-828c-0cb8894bcf49",
       "type": "number",
       "value": 0
     },
     {
       "name": "levelQuestions",
+      "persistentUuid": "677aa87f-43c7-4a68-bcc0-b6bd7a0fc9eb",
       "type": "number",
       "value": 5
     },
     {
       "name": "questionOpen",
+      "persistentUuid": "40e9f291-d44f-4af3-986a-5fe1a64103b6",
       "type": "boolean",
       "value": true
     },
     {
       "name": "inputLocked",
+      "persistentUuid": "537e9a57-bff6-4bb0-8822-eceb05189e83",
       "type": "boolean",
       "value": false
     },
     {
       "name": "startNextQuestion",
+      "persistentUuid": "b8d5254b-f622-42c5-937e-01fdbc38df54",
       "type": "boolean",
       "value": true
     },
     {
       "name": "hintOpen",
+      "persistentUuid": "96524988-883a-488c-bb71-d5c9e59f8d80",
       "type": "boolean",
       "value": false
     },
     {
       "name": "elapsedQuestionTime",
+      "persistentUuid": "200d49b9-9cec-4563-b33b-4ca2b92d9d8f",
       "type": "number",
       "value": 0
     },
     {
       "name": "correctAnswers",
+      "persistentUuid": "d308bb4c-1f97-4355-8ce6-9746a5dd10e1",
       "type": "number",
       "value": 0
     },
     {
       "name": "streak",
+      "persistentUuid": "ff7c395b-9de3-47ba-b425-8ae80780ab75",
       "type": "number",
       "value": 0
     },
     {
       "name": "highestStreak",
+      "persistentUuid": "5ea67b51-9506-487b-afc5-deac74f6b42e",
       "type": "number",
       "value": 0
     },
     {
       "name": "incorrectAnswers",
+      "persistentUuid": "9811835e-e12f-4206-b647-e42326b11a91",
       "type": "number",
       "value": 0
     },
     {
       "name": "timeLimit",
+      "persistentUuid": "8ac7236a-5e14-42a9-85f5-778d41e2864d",
       "type": "number",
       "value": 30
     },
     {
       "name": "mult",
+      "persistentUuid": "714a7632-4438-457d-82f1-4c32f6293ea4",
       "type": "number",
       "value": 0
     },
     {
       "name": "cityPower",
+      "persistentUuid": "d5c87c5c-6c8f-4356-9a06-ea1bec0ecf11",
       "type": "number",
       "value": 0
     },
     {
       "name": "basePoints",
+      "persistentUuid": "c4f4cd72-8e98-4ab4-ad4d-dfb98969ba40",
       "type": "number",
       "value": 100
     },
     {
       "name": "penalty",
+      "persistentUuid": "4f04b735-3d3a-4c8d-9b40-4cf8a0cd2245",
       "type": "number",
       "value": 50
     },
     {
       "name": "hintUsedThisQuestion",
+      "persistentUuid": "6567d9a0-fe99-4d95-b351-0a4edb3772ce",
       "type": "number",
       "value": 0
     },
     {
       "name": "wrongStreak",
+      "persistentUuid": "d1423ce6-cc73-4873-a032-519e85e6d29b",
       "type": "number",
       "value": 0
     }
@@ -14177,19 +14214,72 @@
             "value": "Hide"
           },
           "parameters": [
-            "finishButton"
+            "FinishButton"
           ]
         },
         {
           "type": {
-            "value": "PlaySound"
+            "value": "PlaySoundOnChannel"
           },
           "parameters": [
             "",
-            "levelbackmus.mp3",
+            "levelbackmus2.mp3",
+            "1",
+            "yes",
+            "GlobalVariable(Settings.MusicVolume)",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustResumed"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetSoundChannelVolume"
+          },
+          "parameters": [
+            "",
+            "1",
+            "=",
+            "GlobalVariable(Settings.MusicVolume)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustResumed"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetSoundChannelVolume"
+          },
+          "parameters": [
             "",
             "2",
-            ""
+            "=",
+            "GlobalVariable(Settings.SFXVolume)"
           ]
         }
       ]
@@ -14977,6 +15067,19 @@
                 "=",
                 "PlayerAnswer + ToString(Number_Key0.numberDigit0)"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
+              ]
             }
           ]
         },
@@ -15013,6 +15116,19 @@
                 "PlayerAnswer",
                 "=",
                 "PlayerAnswer + ToString(Number_Key1.numberDigit1)"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
               ]
             }
           ]
@@ -15051,6 +15167,19 @@
                 "=",
                 "PlayerAnswer + ToString(Number_Key2.numberDigit2)"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
+              ]
             }
           ]
         },
@@ -15087,6 +15216,19 @@
                 "PlayerAnswer",
                 "=",
                 "PlayerAnswer + ToString(Number_Key3.numberDigit3)"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
               ]
             }
           ]
@@ -15125,6 +15267,19 @@
                 "=",
                 "PlayerAnswer + ToString(Number_Key4.numberDigit4)"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
+              ]
             }
           ]
         },
@@ -15161,6 +15316,19 @@
                 "PlayerAnswer",
                 "=",
                 "PlayerAnswer + ToString(Number_Key5.numberDigit5)"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
               ]
             }
           ]
@@ -15199,6 +15367,19 @@
                 "=",
                 "PlayerAnswer + ToString(Number_Key6.numberDigit6)"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
+              ]
             }
           ]
         },
@@ -15235,6 +15416,19 @@
                 "PlayerAnswer",
                 "=",
                 "PlayerAnswer + ToString(Number_Key7.numberDigit7)"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
               ]
             }
           ]
@@ -15273,6 +15467,19 @@
                 "=",
                 "PlayerAnswer + ToString(Number_Key8.numberDigit8)"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
+              ]
             }
           ]
         },
@@ -15309,6 +15516,19 @@
                 "PlayerAnswer",
                 "=",
                 "PlayerAnswer + ToString(Number_Key9.numberDigit9)"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
               ]
             }
           ]
@@ -15359,6 +15579,19 @@
                 "=",
                 "PlayerAnswer + Letter_KeyA.LetterDigitA"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
+              ]
             }
           ]
         },
@@ -15395,6 +15628,19 @@
                 "PlayerAnswer",
                 "=",
                 "PlayerAnswer + Letter_KeyB.LetterDigitB"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
               ]
             }
           ]
@@ -15433,6 +15679,19 @@
                 "=",
                 "PlayerAnswer + Letter_KeyC.LetterDigitC"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
+              ]
             }
           ]
         },
@@ -15469,6 +15728,19 @@
                 "PlayerAnswer",
                 "=",
                 "PlayerAnswer + Letter_KeyD.LetterDigitD"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
               ]
             }
           ]
@@ -15507,6 +15779,19 @@
                 "=",
                 "PlayerAnswer + Letter_KeyE.LetterDigitE"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
+              ]
             }
           ]
         },
@@ -15544,6 +15829,19 @@
                 "=",
                 "PlayerAnswer + Letter_KeyF.LetterDigitF"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
+              ]
             }
           ]
         },
@@ -15580,6 +15878,19 @@
                 "PlayerAnswer",
                 "=",
                 "SubStr(PlayerAnswer,0,StrLength(PlayerAnswer)-1)"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
               ]
             }
           ]
@@ -15621,7 +15932,7 @@
             "value": "IsCursorOnObject"
           },
           "parameters": [
-            "Submit_Button",
+            "submit_button",
             "",
             "",
             ""
@@ -15749,13 +16060,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundOnChannel"
               },
               "parameters": [
                 "",
                 "correct answer.mp3",
+                "2",
                 "no",
-                "25",
+                "GlobalVariable(Settings.SFXVolume)",
                 ""
               ]
             }
@@ -16152,7 +16464,7 @@
                     "value": "Show"
                   },
                   "parameters": [
-                    "finishButton",
+                    "FinishButton",
                     ""
                   ]
                 }
@@ -16267,13 +16579,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundOnChannel"
               },
               "parameters": [
                 "",
                 "incorrect answer.mp3",
+                "2",
                 "no",
-                "25",
+                "GlobalVariable(Settings.SFXVolume)",
                 ""
               ]
             },
@@ -16350,21 +16663,11 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextReleased"
+            "value": "ButtonStates::ButtonFSM::IsClicked"
           },
           "parameters": [
-            "",
-            "\"Left\""
-          ]
-        },
-        {
-          "type": {
-            "value": "IsCursorOnObject"
-          },
-          "parameters": [
-            "finishButton",
-            "",
-            "",
+            "FinishButton",
+            "ButtonFSM",
             ""
           ]
         }
