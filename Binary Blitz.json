@@ -3692,6 +3692,102 @@
         "metadata": "",
         "name": "Not Jam Mono Clean15.ttf",
         "userAdded": false
+      },
+      {
+        "file": "8bit level2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8bit level2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "8bit level3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8bit level3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "8bit level4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8bit level4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "8bit level5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8bit level5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "8bit level6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8bit level6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "8bit level7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8bit level7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "8bit level8.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"8bit level8.png\",\"extension\":\".png\"}",
+        "name": "8bit level8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "8bit level9.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"8bit level9.png\",\"extension\":\".png\"}",
+        "name": "8bit level9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "8bit level10.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"8bit level10.png\",\"extension\":\".png\"}",
+        "name": "8bit level10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "8bit level11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8bit level11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "8bit level12.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"8bit level12.png\",\"extension\":\".png\"}",
+        "name": "8bit level12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "8",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },

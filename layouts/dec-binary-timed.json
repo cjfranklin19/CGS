@@ -171,6 +171,11 @@
       "name": "highestStreak",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "lightani",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -337,40 +342,6 @@
       "x": 678,
       "y": 570,
       "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 498,
-      "keepRatio": true,
-      "layer": "",
-      "name": "storybox",
-      "persistentUuid": "fcda68a2-d40d-48ec-bf6a-bc8033b70268",
-      "width": 1778,
-      "x": 63,
-      "y": -17,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 228,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Story_text",
-      "persistentUuid": "5eb6cf98-f1a1-44d4-acee-1ccf8e7523f5",
-      "width": 1589,
-      "x": 191,
-      "y": 132,
-      "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2234,6 +2205,18 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite6",
+      "persistentUuid": "dc65db43-add5-4128-97fb-961fd92c8b5a",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
     }
   ],
   "objectsFolderStructure": {
@@ -2319,6 +2302,9 @@
       },
       {
         "objectName": "Hint"
+      },
+      {
+        "objectName": "NewSprite6"
       }
     ]
   },
@@ -2496,6 +2482,16 @@
           "parameters": [
             "startNextQuestion",
             "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "FinishButton",
+            "ButtonFSM",
             ""
           ]
         }
@@ -3100,6 +3096,16 @@
                 "GlobalVariable(Settings.SFXVolume)",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "lightani",
+                "+",
+                "1"
+              ]
             }
           ],
           "events": [
@@ -3542,8 +3548,18 @@
                     "value": "Show"
                   },
                   "parameters": [
-                    "finishButton",
+                    "FinishButton",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "FinishButton",
+                    "ButtonFSM",
+                    "yes"
                   ]
                 }
               ]
@@ -3805,6 +3821,15 @@
             "",
             "",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BehaviorActivated"
+          },
+          "parameters": [
+            "FinishButton",
+            "ButtonFSM"
           ]
         }
       ],

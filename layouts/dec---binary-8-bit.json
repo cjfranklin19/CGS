@@ -1,13 +1,13 @@
 {
-  "b": 255,
+  "b": 0,
   "disableInputWhenNotFocused": true,
   "mangledName": "Dec_32_45_32Binary_32_408_32Bit_41",
   "name": "Dec - Binary (8 Bit)",
-  "r": 247,
+  "r": 0,
   "standardSortMethod": true,
   "stopSoundsOnStartup": false,
   "title": "",
-  "v": 249,
+  "v": 0,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -169,6 +169,11 @@
     },
     {
       "name": "highestStreak",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "lightani",
       "type": "number",
       "value": 0
     }
@@ -393,7 +398,7 @@
       "persistentUuid": "256271b8-7070-4ae4-b45a-ed0a08a24476",
       "width": 0,
       "x": 1190,
-      "y": 554,
+      "y": 575,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -401,15 +406,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 76,
       "keepRatio": true,
       "layer": "",
       "name": "StreakText",
       "persistentUuid": "4867d215-b3d7-46c2-953c-d286599a0c5b",
-      "width": 0,
-      "x": 678,
-      "y": 554,
+      "width": 43,
+      "x": 613,
+      "y": 575,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -435,15 +441,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 365,
+      "height": 456,
       "keepRatio": true,
       "layer": "",
       "name": "storybox",
       "persistentUuid": "1e813a38-2aea-4afa-8070-002d455999da",
-      "width": 1582,
-      "x": 199,
-      "y": 94,
-      "zOrder": 25,
+      "width": 1821,
+      "x": 53,
+      "y": 3,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1880,7 +1886,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "0",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1890,6 +1896,251 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "8bit level.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 174,
+                        "y": 13
+                      },
+                      {
+                        "x": 1456,
+                        "y": 13
+                      },
+                      {
+                        "x": 1456,
+                        "y": 375
+                      },
+                      {
+                        "x": 174,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "8bit level8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 174,
+                        "y": 13
+                      },
+                      {
+                        "x": 1456,
+                        "y": 13
+                      },
+                      {
+                        "x": 1456,
+                        "y": 375
+                      },
+                      {
+                        "x": 174,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "8bit level9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 174,
+                        "y": 13
+                      },
+                      {
+                        "x": 1456,
+                        "y": 13
+                      },
+                      {
+                        "x": 1456,
+                        "y": 375
+                      },
+                      {
+                        "x": 174,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "8bit level10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 174,
+                        "y": 13
+                      },
+                      {
+                        "x": 1456,
+                        "y": 13
+                      },
+                      {
+                        "x": 1456,
+                        "y": 375
+                      },
+                      {
+                        "x": 174,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "4",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 174,
+                        "y": 13
+                      },
+                      {
+                        "x": 1456,
+                        "y": 13
+                      },
+                      {
+                        "x": 1456,
+                        "y": 375
+                      },
+                      {
+                        "x": 174,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "5",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "8bit level12.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2323,6 +2574,16 @@
             "-3",
             "2",
             "32"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "FinishButton",
+            "ButtonFSM",
+            ""
           ]
         }
       ],
@@ -2786,7 +3047,7 @@
             "value": "IsCursorOnObject"
           },
           "parameters": [
-            "Submit_Button",
+            "submit_button",
             "",
             "",
             ""
@@ -2925,6 +3186,27 @@
                 "no",
                 "GlobalVariable(Settings.SFXVolume)",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "lightani",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "buildings",
+                "Animation",
+                "=",
+                "lightani"
               ]
             }
           ],
@@ -3365,10 +3647,20 @@
                 },
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "AmountHintUsed",
+                    "=",
+                    "hintUsedThisQuestion"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Show"
                   },
                   "parameters": [
-                    "finishButton",
+                    "FinishButton",
                     ""
                   ]
                 }
@@ -3540,6 +3832,27 @@
                 "TargetPrompt",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "lightani",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "buildings",
+                "Animation",
+                "=",
+                "lightani"
+              ]
             }
           ],
           "events": [
@@ -3615,22 +3928,21 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextPressed"
+            "value": "ButtonStates::ButtonFSM::IsClicked"
           },
           "parameters": [
-            "",
-            "\"Left\""
+            "FinishButton",
+            "ButtonFSM",
+            ""
           ]
         },
         {
           "type": {
-            "value": "IsCursorOnObject"
+            "value": "BehaviorActivated"
           },
           "parameters": [
-            "finishButton",
-            "",
-            "",
-            ""
+            "FinishButton",
+            "ButtonFSM"
           ]
         }
       ],
@@ -3759,6 +4071,16 @@
         },
         {
           "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "AmountHintUsed",
+            "=",
+            "hintUsedThisQuestion"
+          ]
+        },
+        {
+          "type": {
             "value": "PauseTimer"
           },
           "parameters": [
@@ -3865,7 +4187,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "20"
+                "19"
               ]
             },
             {
@@ -3963,7 +4285,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "20"
+                "19"
               ]
             },
             {
