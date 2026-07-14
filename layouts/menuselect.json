@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3645833333333333,
+    "zoomFactor": 0.4598521426736335,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -34,11 +34,11 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Level_title",
+      "name": "Unnamed",
       "persistentUuid": "063e4187-85f7-48d9-b885-3a5080639460",
       "width": 0,
-      "x": 631,
-      "y": 167,
+      "x": 452,
+      "y": 154,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -98,16 +98,31 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 217,
-      "keepRatio": true,
+      "depth": 2,
+      "height": 227,
       "layer": "",
       "name": "Backspace_Alt_Key",
       "persistentUuid": "533bc11a-3940-4d4e-a697-1a5e9ed50c5b",
-      "width": 255,
-      "x": 139,
-      "y": 193,
+      "width": 454,
+      "x": 689,
+      "y": 798,
       "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "background",
+      "name": "sunsetBG",
+      "persistentUuid": "9d7d5a20-4707-4ae8-8331-821cd3904586",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -118,7 +133,8 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "Level_title",
+      "name": "Unnamed",
+      "persistentUuid": "1894742b-3304-4067-8517-2b6892cb70f6",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -126,7 +142,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Level Difficulty",
-      "font": "",
+      "font": "Not Jam Mono Clean 13.ttf",
       "textAlignment": "left",
       "characterSize": 100,
       "color": {
@@ -149,7 +165,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Level Difficulty",
-        "font": "",
+        "font": "Not Jam Mono Clean 13.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 100,
@@ -235,7 +251,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Backspace Alt Key.png",
+                  "image": "BackButton.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -251,20 +267,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 4,
-                        "y": 19
+                        "x": 128,
+                        "y": 60
                       },
                       {
-                        "x": 96,
-                        "y": 19
+                        "x": 384,
+                        "y": 60
                       },
                       {
-                        "x": 96,
-                        "y": 81
+                        "x": 384,
+                        "y": 196
                       },
                       {
-                        "x": 4,
-                        "y": 81
+                        "x": 128,
+                        "y": 196
                       }
                     ]
                   ]
@@ -280,7 +296,7 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Level_title"
+        "objectName": "Unnamed"
       },
       {
         "objectName": "EASY"
@@ -315,7 +331,7 @@
             "value": "SetCenterX"
           },
           "parameters": [
-            "Level_title",
+            "Unnamed",
             "=",
             "SceneWindowWidth()/2"
           ]

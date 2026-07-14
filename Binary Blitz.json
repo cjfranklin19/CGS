@@ -3996,6 +3996,13 @@
         "name": "BackButton.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Not Jam Mono Clean16.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Not Jam Mono Clean16.ttf",
+        "userAdded": false
       }
     ]
   },
@@ -4545,7 +4552,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": ":Pts",
+      "string": "Pts",
       "font": "Not Jam Mono Clean15.ttf",
       "textAlignment": "left",
       "characterSize": 60,
@@ -4568,7 +4575,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": ":Pts",
+        "text": "Pts",
         "font": "Not Jam Mono Clean15.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",

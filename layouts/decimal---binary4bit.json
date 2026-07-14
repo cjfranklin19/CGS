@@ -59,121 +59,145 @@
   "variables": [
     {
       "name": "binaryTot",
+      "persistentUuid": "919f0288-ccf9-4082-b68b-461617d68cdc",
       "type": "number",
       "value": 0
     },
     {
       "name": "targetNum",
+      "persistentUuid": "3f9075fa-75be-4734-a1d9-4477eb2a95bf",
       "type": "number",
       "value": 0
     },
     {
       "name": "resultText",
+      "persistentUuid": "8c15b561-a110-4b48-af70-f5bc47493184",
       "type": "string",
       "value": "\"\""
     },
     {
       "name": "score",
+      "persistentUuid": "4a3617e0-02c9-4e7e-bdcf-a5b53fbb9775",
       "type": "number",
       "value": 0
     },
     {
       "name": "basePoints",
+      "persistentUuid": "d99593df-39ee-47e3-ba42-a467aa5f48b9",
       "type": "number",
       "value": 100
     },
     {
       "name": "penalty",
+      "persistentUuid": "c0d0138f-8eec-487f-9c3b-206f0475a365",
       "type": "number",
       "value": 50
     },
     {
       "name": "mult",
+      "persistentUuid": "ce229e18-1006-4cb3-84cd-a400495170b0",
       "type": "number",
       "value": 1
     },
     {
       "name": "streak",
+      "persistentUuid": "54880824-c9ed-4a92-8b18-cbf9ea46ece1",
       "type": "number",
       "value": 0
     },
     {
       "name": "wrongStreak",
+      "persistentUuid": "8cb209bf-254b-4a6e-a71f-27059d7608b1",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionsAnswered",
+      "persistentUuid": "fb1485d9-7de6-4d0d-8e3c-10fc99aaa708",
       "type": "number",
       "value": 0
     },
     {
       "name": "levelQuestions",
+      "persistentUuid": "e6f55710-7b56-4d2c-b851-2050c1b137d9",
       "type": "number",
       "value": 5
     },
     {
       "name": "elapsedQuestionTime",
+      "persistentUuid": "575ef425-39bc-4376-b92f-d3a73f6f278c",
       "type": "number",
       "value": 0
     },
     {
       "name": "timeLimit",
+      "persistentUuid": "22551b0a-6ed0-406b-9c0b-e60d048cb654",
       "type": "number",
       "value": 30
     },
     {
       "name": "hintPenalty",
+      "persistentUuid": "14df9553-67c7-4976-9c0c-afe6612ca85a",
       "type": "number",
       "value": 25
     },
     {
       "name": "hintOpen",
+      "persistentUuid": "5ae56b2c-72d0-48b3-bc07-63096038efa0",
       "type": "boolean",
       "value": false
     },
     {
       "name": "hintUsedThisQuestion",
+      "persistentUuid": "e37cfbd6-d7e0-4b0e-8dc0-bf525861ba8a",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionOpen",
+      "persistentUuid": "481d1d3c-77b4-4b2f-a08e-e6d7b7f1cff4",
       "type": "boolean",
       "value": true
     },
     {
       "name": "cityPower",
+      "persistentUuid": "6bcc986b-8eea-4390-ac01-555c84e5002c",
       "type": "number",
       "value": 0
     },
     {
       "name": "inputLocked",
+      "persistentUuid": "6b400b60-f7de-449b-9134-cfaf61b1dde7",
       "type": "boolean",
       "value": false
     },
     {
       "name": "startNextQuestion",
+      "persistentUuid": "1e3323ac-9f2f-428a-ad44-7d441ee1c996",
       "type": "boolean",
       "value": true
     },
     {
       "name": "correctAnswers",
+      "persistentUuid": "7100257c-95a4-48d0-97c4-458453fbcbb4",
       "type": "number",
       "value": 0
     },
     {
       "name": "incorrectAnswers",
+      "persistentUuid": "f215e097-9b07-4a53-922f-2fa05fc9a3fe",
       "type": "number",
       "value": 0
     },
     {
       "name": "highestStreak",
+      "persistentUuid": "a4b9f232-95e4-4b50-81ea-14cd1ba27afe",
       "type": "number",
       "value": 0
     },
     {
       "name": "lightani",
+      "persistentUuid": "316f5bb5-e3a4-49c9-a93a-c2b1c0a557b9",
       "type": "number",
       "value": 0
     }
@@ -223,8 +247,8 @@
       "name": "Switch_2",
       "persistentUuid": "9e6be75d-0aa5-4645-89e4-fddbd8fea88f",
       "width": 109,
-      "x": 1145,
-      "y": 767,
+      "x": 1143,
+      "y": 776,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -233,15 +257,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 147,
-      "keepRatio": true,
+      "depth": 0.956140350877193,
+      "height": 148,
       "layer": "",
       "name": "Switch_1",
       "persistentUuid": "d8dbce20-ba13-4d0d-a633-fa5d5f9d5f5e",
-      "width": 114,
-      "x": 1461,
-      "y": 775,
+      "width": 109,
+      "x": 1458,
+      "y": 777,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
