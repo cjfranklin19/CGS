@@ -1,13 +1,13 @@
 {
-  "b": 255,
+  "b": 0,
   "disableInputWhenNotFocused": true,
   "mangledName": "Dec_32_45_32Binary_32_408_32Bit_41FM",
   "name": "Dec - Binary (8 Bit)FM",
-  "r": 247,
+  "r": 0,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 249,
+  "v": 0,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -504,50 +504,17 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1034,
       "keepRatio": true,
       "layer": "background",
-      "name": "buildings",
-      "persistentUuid": "12378e63-d8d7-4de9-a947-b540f0da0852",
-      "width": 0,
-      "x": 171,
-      "y": 81,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 365,
-      "keepRatio": true,
-      "layer": "",
-      "name": "storybox",
-      "persistentUuid": "1e813a38-2aea-4afa-8070-002d455999da",
-      "width": 1582,
-      "x": 199,
-      "y": 94,
-      "zOrder": 25,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 344,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Story_text",
-      "persistentUuid": "306b6f9c-0b26-40d5-a2fc-2cc7933dd028",
-      "width": 1435,
-      "x": 265,
-      "y": 182,
-      "zOrder": 26,
+      "name": "sunsetBG",
+      "persistentUuid": "c93630bf-3090-413a-a068-fe3eb488c635",
+      "width": 1681,
+      "x": 119,
+      "y": -458,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1959,6 +1926,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "buildings",
+      "persistentUuid": "3ac533a2-7f8f-47a6-a15b-036ee85c0401",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2042,9 +2010,9 @@
       "textAlignment": "left",
       "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -2066,7 +2034,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 40,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "150;198;146"
       }
     },
     {
@@ -3863,6 +3831,18 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "change to show the question at beginning "
     },
     {
       "colorB": 228,

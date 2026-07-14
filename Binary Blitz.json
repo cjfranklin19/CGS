@@ -4003,6 +4003,78 @@
         "metadata": "",
         "name": "Not Jam Mono Clean16.ttf",
         "userAdded": false
+      },
+      {
+        "file": "BinHex.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BinHex.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "DecBin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DecBin.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "BinDec.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BinDec.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "HexBin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HexBin.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "OctBin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "OctBin.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "BinOct.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BinOct.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "EasyButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "EasyButton.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "MediumButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MediumButton.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "HardButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HardButton.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },

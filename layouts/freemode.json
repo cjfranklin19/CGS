@@ -37,111 +37,9 @@
       "name": "Backspace_Alt_Key",
       "persistentUuid": "7e4f02f4-833f-42a6-bf83-11841219d380",
       "width": 516,
-      "x": 701,
-      "y": 844,
+      "x": 722,
+      "y": 849,
       "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 64,
-      "height": 106,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Decimal_to_Binary",
-      "persistentUuid": "e84a2870-9f2b-4a68-b029-f09f2231a820",
-      "width": 516,
-      "x": 707,
-      "y": 89,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 64,
-      "height": 106,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Binary_to_Decimal",
-      "persistentUuid": "bae63a93-bc08-4246-a993-d6f8a17d2eb8",
-      "width": 530,
-      "x": 701,
-      "y": 224,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 64,
-      "height": 106,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Hex_to_binary",
-      "persistentUuid": "16c6bed0-5f26-42d6-9d14-48eb9536caa6",
-      "width": 520,
-      "x": 703,
-      "y": 351,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 64,
-      "height": 106,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Binary_to_Hex",
-      "persistentUuid": "546957cc-0cbf-42a9-97d2-9b8faf36fb64",
-      "width": 522,
-      "x": 701,
-      "y": 484,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 64,
-      "height": 106,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Octal_to_Binary",
-      "persistentUuid": "a7edf106-bb94-4742-a08e-8d868173f55b",
-      "width": 525,
-      "x": 706,
-      "y": 618,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 64,
-      "height": 106,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Binary_to_Octal",
-      "persistentUuid": "803b3512-0b45-457f-9744-0ec4d63f4ea0",
-      "width": 517,
-      "x": 708,
-      "y": 774,
-      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -158,6 +56,118 @@
       "x": 0,
       "y": 0,
       "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "binary_to_hex",
+      "persistentUuid": "ce989b96-2f5f-4c26-8103-a6d42a61bba0",
+      "width": 0,
+      "x": 985,
+      "y": 445,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Decimal_to_binary",
+      "persistentUuid": "8dd5dfab-278f-4c54-b464-f96aef16ed61",
+      "width": 0,
+      "x": 385,
+      "y": 290,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Binary_to_decimal",
+      "persistentUuid": "ea55d628-595e-4f50-8e07-d1d0ec74bbaa",
+      "width": 0,
+      "x": 985,
+      "y": 278,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Hex_to_Binary",
+      "persistentUuid": "dfbc1e16-23ed-4796-8592-f3ad64cf5f02",
+      "width": 0,
+      "x": 385,
+      "y": 445,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Octal_to_Binary2",
+      "persistentUuid": "02533500-1487-4171-92f3-2bded4454199",
+      "width": 0,
+      "x": 985,
+      "y": 600,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Binary_to_octal",
+      "persistentUuid": "46813d02-44cb-4b3a-9f8a-7589b5019f57",
+      "width": 0,
+      "x": 385,
+      "y": 600,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Freemode",
+      "persistentUuid": "d98d14c1-8b7e-4dc0-a4e9-fb8c6656b123",
+      "width": 0,
+      "x": 499,
+      "y": 163,
+      "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -338,6 +348,416 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "binary_to_hex",
+      "persistentUuid": "016f5245-447b-4a1f-b744-4441ab266b0e",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "BinHex.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 60
+                      },
+                      {
+                        "x": 492,
+                        "y": 60
+                      },
+                      {
+                        "x": 492,
+                        "y": 196
+                      },
+                      {
+                        "x": 100,
+                        "y": 196
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Decimal_to_binary",
+      "persistentUuid": "daa46606-07ff-463c-83a9-72bc28f9510c",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "DecBin.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 60
+                      },
+                      {
+                        "x": 492,
+                        "y": 60
+                      },
+                      {
+                        "x": 492,
+                        "y": 196
+                      },
+                      {
+                        "x": 100,
+                        "y": 196
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Hex_to_Binary",
+      "persistentUuid": "4fd6ab1c-cbdf-4636-a986-c0079293374f",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "HexBin.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 60
+                      },
+                      {
+                        "x": 492,
+                        "y": 60
+                      },
+                      {
+                        "x": 492,
+                        "y": 196
+                      },
+                      {
+                        "x": 100,
+                        "y": 196
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Binary_to_decimal",
+      "persistentUuid": "f79c2c5f-b686-4b94-a3a6-c8d211fbd98a",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "BinDec.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 60
+                      },
+                      {
+                        "x": 492,
+                        "y": 60
+                      },
+                      {
+                        "x": 492,
+                        "y": 196
+                      },
+                      {
+                        "x": 100,
+                        "y": 196
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Octal_to_Binary2",
+      "persistentUuid": "4ff16f2c-544b-4d8e-9406-d9cd125c7762",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "OctBin.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 60
+                      },
+                      {
+                        "x": 492,
+                        "y": 60
+                      },
+                      {
+                        "x": 492,
+                        "y": 196
+                      },
+                      {
+                        "x": 100,
+                        "y": 196
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Binary_to_octal",
+      "persistentUuid": "480d602f-2d7d-4437-919b-be7a784ba9ed",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "BinOct.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 60
+                      },
+                      {
+                        "x": 492,
+                        "y": 60
+                      },
+                      {
+                        "x": 492,
+                        "y": 196
+                      },
+                      {
+                        "x": 100,
+                        "y": 196
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Freemode",
+      "persistentUuid": "f5bfd769-313f-4e15-ab28-d9cc12f2c1d6",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Free Mode Selection:",
+      "font": "Not Jam Mono Clean16.ttf",
+      "textAlignment": "left",
+      "characterSize": 80,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Free Mode Selection:",
+        "font": "Not Jam Mono Clean16.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 80,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -363,6 +783,27 @@
       },
       {
         "objectName": "Backspace_Alt_Key"
+      },
+      {
+        "objectName": "Freemode"
+      },
+      {
+        "objectName": "binary_to_hex"
+      },
+      {
+        "objectName": "Octal_to_Binary2"
+      },
+      {
+        "objectName": "Binary_to_octal"
+      },
+      {
+        "objectName": "Decimal_to_binary"
+      },
+      {
+        "objectName": "Hex_to_Binary"
+      },
+      {
+        "objectName": "Binary_to_decimal"
       }
     ]
   },
@@ -380,66 +821,6 @@
         }
       ],
       "actions": [
-        {
-          "type": {
-            "value": "SetCenterX"
-          },
-          "parameters": [
-            "Decimal_to_Binary",
-            "=",
-            "SceneWindowWidth()/2"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenterX"
-          },
-          "parameters": [
-            "Binary_to_Decimal",
-            "=",
-            "SceneWindowWidth()/2"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenterX"
-          },
-          "parameters": [
-            "Hex_to_binary",
-            "=",
-            "SceneWindowWidth()/2"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenterX"
-          },
-          "parameters": [
-            "Binary_to_Hex",
-            "=",
-            "SceneWindowWidth()/2"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenterX"
-          },
-          "parameters": [
-            "Octal_to_Binary",
-            "=",
-            "SceneWindowWidth()/2"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenterX"
-          },
-          "parameters": [
-            "Binary_to_Octal",
-            "=",
-            "SceneWindowWidth()/2"
-          ]
-        },
         {
           "type": {
             "value": "PlaySound"
@@ -477,7 +858,7 @@
                 "value": "IsCursorOnObject"
               },
               "parameters": [
-                "Decimal_to_Binary",
+                "Decimal_to_binary",
                 "",
                 "",
                 ""
@@ -535,7 +916,7 @@
                 "value": "IsCursorOnObject"
               },
               "parameters": [
-                "Binary_to_Decimal",
+                "Binary_to_decimal",
                 "",
                 "",
                 ""
@@ -593,7 +974,7 @@
                 "value": "IsCursorOnObject"
               },
               "parameters": [
-                "Hex_to_binary",
+                "Hex_to_Binary",
                 "",
                 "",
                 ""
@@ -651,7 +1032,7 @@
                 "value": "IsCursorOnObject"
               },
               "parameters": [
-                "Binary_to_Hex",
+                "binary_to_hex",
                 "",
                 "",
                 ""
@@ -709,7 +1090,7 @@
                 "value": "IsCursorOnObject"
               },
               "parameters": [
-                "Binary_to_Octal",
+                "Binary_to_octal",
                 "",
                 "",
                 ""
@@ -767,7 +1148,7 @@
                 "value": "IsCursorOnObject"
               },
               "parameters": [
-                "Octal_to_Binary",
+                "Octal_to_Binary2",
                 "",
                 "",
                 ""
@@ -865,7 +1246,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": false,
+      "isLocked": true,
       "name": "bg",
       "renderingType": "",
       "visibility": true,

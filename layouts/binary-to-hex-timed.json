@@ -15501,6 +15501,18 @@
             "ButtonFSM",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+          },
+          "parameters": [
+            "",
+            "\"level\"",
+            "-3",
+            "2",
+            "32"
+          ]
         }
       ]
     },

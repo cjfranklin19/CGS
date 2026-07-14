@@ -29,186 +29,223 @@
   "variables": [
     {
       "name": "BinaryString",
+      "persistentUuid": "3f7a1791-710d-4b09-9844-db7879d12d76",
       "type": "string",
       "value": ""
     },
     {
       "name": "BitCount",
+      "persistentUuid": "e58dccde-a265-4a96-863f-8a7c20ab78c1",
       "type": "number",
       "value": 0
     },
     {
       "name": "HexLow",
+      "persistentUuid": "46a2d72f-e128-4953-9abd-acf8dcdda822",
       "type": "number",
       "value": 0
     },
     {
       "name": "HexHigh",
+      "persistentUuid": "1cfa790d-9ae1-430c-a9bd-e6b1b3a11745",
       "type": "number",
       "value": 0
     },
     {
       "name": "TargetHex",
+      "persistentUuid": "a7890293-7b26-4600-8aeb-4f6a14ee81a1",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit0",
+      "persistentUuid": "bcfea52b-8bd6-4487-85d3-b83774e42120",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit1",
+      "persistentUuid": "694ac552-0b9c-49ae-9b0b-f309ed5dbd94",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit2",
+      "persistentUuid": "b1b76337-0d62-4721-8954-ffd01c7df730",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit3",
+      "persistentUuid": "de284ecf-ecf5-4bdb-ae3f-8f2c0db90ac9",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit4",
+      "persistentUuid": "72d1c68a-3b6e-4ba5-8fb0-01dbf918ba37",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit5",
+      "persistentUuid": "489e9e9c-09c6-4f66-86c3-cbdb9cc5ff8c",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit6",
+      "persistentUuid": "c228e2cb-af64-4ba9-8931-b274fb0e6eeb",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit7",
+      "persistentUuid": "3ceae613-3fb8-4050-bdc6-51d2ea641128",
       "type": "number",
       "value": 0
     },
     {
       "name": "HexLowText",
+      "persistentUuid": "8c5f31a0-1677-4f34-a4f4-c23a694afef2",
       "type": "string",
       "value": ""
     },
     {
       "name": "HexHighText",
+      "persistentUuid": "6026d0a0-b179-4110-9e02-00f44eb03546",
       "type": "string",
       "value": ""
     },
     {
       "name": "PlayerAnswer",
+      "persistentUuid": "e5cc8cfc-8730-4751-8713-a424c913bd12",
       "type": "string",
       "value": ""
     },
     {
       "name": "PlayerNumber",
+      "persistentUuid": "5c70300b-f2a6-40bb-ab0c-ca39e30147d1",
       "type": "number",
       "value": 0
     },
     {
       "name": "ResultText",
+      "persistentUuid": "ac12ac2b-aa4f-40d2-aec2-b876284e9c7f",
       "type": "string",
       "value": ""
     },
     {
       "name": "score",
+      "persistentUuid": "0b6caf36-eb9e-4a9a-ada3-22e3c7dd114d",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionsAnswered",
+      "persistentUuid": "d2ac51d1-490d-43c8-84e6-0646ad52fb2f",
       "type": "number",
       "value": 0
     },
     {
       "name": "levelQuestions",
+      "persistentUuid": "92618024-6ba3-4b2b-be58-2e64e29630c6",
       "type": "number",
       "value": 5
     },
     {
       "name": "questionOpen",
+      "persistentUuid": "90d2c245-3efe-442a-b981-db9f538eab4d",
       "type": "boolean",
       "value": true
     },
     {
       "name": "inputLocked",
+      "persistentUuid": "9b55f266-c841-46a4-a23e-4dab0dc6c982",
       "type": "boolean",
       "value": false
     },
     {
       "name": "startNextQuestion",
+      "persistentUuid": "9dd7e9f7-33a9-4cd9-ac4c-671905b4a20a",
       "type": "boolean",
       "value": true
     },
     {
       "name": "hintOpen",
+      "persistentUuid": "61255462-f483-468a-889a-ad8f30aa1190",
       "type": "boolean",
       "value": false
     },
     {
       "name": "elapsedQuestionTime",
+      "persistentUuid": "9b241efe-d6e2-4a40-8a9a-3d343c4cf5b5",
       "type": "number",
       "value": 0
     },
     {
       "name": "correctAnswers",
+      "persistentUuid": "8f3f048a-efbc-4823-9dbd-ff9eddfe0a33",
       "type": "number",
       "value": 0
     },
     {
       "name": "streak",
+      "persistentUuid": "d8c96544-f289-46d6-98aa-f0fd7ee61eb3",
       "type": "number",
       "value": 0
     },
     {
       "name": "highestStreak",
+      "persistentUuid": "ea2b355f-1340-42b6-bcc3-4d16a430f622",
       "type": "number",
       "value": 0
     },
     {
       "name": "incorrectAnswers",
+      "persistentUuid": "7e615cd7-cc6b-4c51-93a9-aa8a67d17035",
       "type": "number",
       "value": 0
     },
     {
       "name": "timeLimit",
+      "persistentUuid": "3f581e58-21ef-4766-9b52-fc426afdbb36",
       "type": "number",
       "value": 30
     },
     {
       "name": "mult",
+      "persistentUuid": "3385b685-19cf-439c-bcf1-d7d369e93bba",
       "type": "number",
       "value": 0
     },
     {
       "name": "cityPower",
+      "persistentUuid": "6759906d-af86-4136-ad00-2869513ff50e",
       "type": "number",
       "value": 0
     },
     {
       "name": "basePoints",
+      "persistentUuid": "13e189bd-bd38-4f5e-80d4-b4dae2813955",
       "type": "number",
       "value": 100
     },
     {
       "name": "penalty",
+      "persistentUuid": "37b0318d-808a-44f3-8710-62778aba681d",
       "type": "number",
       "value": 50
     },
     {
       "name": "hintUsedThisQuestion",
+      "persistentUuid": "dfcab583-184c-4fe9-88cb-0cc960dbc76d",
       "type": "number",
       "value": 0
     },
     {
       "name": "wrongStreak",
+      "persistentUuid": "9a1050cf-7f98-49c5-80a9-270349ef4580",
       "type": "number",
       "value": 0
     }

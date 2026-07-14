@@ -664,7 +664,7 @@
           "parameters": [
             "hint_button",
             "toggle",
-            "True",
+            "False",
             ""
           ]
         }
@@ -722,21 +722,12 @@
         },
         {
           "type": {
-            "value": "PickRandomInstance"
-          },
-          "parameters": [
-            "",
-            "hint_button"
-          ]
-        },
-        {
-          "type": {
             "value": "BooleanObjectVariable"
           },
           "parameters": [
             "hint_button",
             "toggle",
-            "False",
+            "True",
             ""
           ]
         }

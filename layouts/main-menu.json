@@ -29,19 +29,16 @@
   "variables": [
     {
       "name": "TempSettings",
-      "persistentUuid": "69ad102d-8462-466f-9890-87e09ebf6680",
       "type": "string",
       "value": ""
     },
     {
       "name": "hintUsedThisQuestion",
-      "persistentUuid": "f5909b2c-b288-4cd2-af74-e4b5a0ab15c7",
       "type": "number",
       "value": 0
     },
     {
       "name": "score",
-      "persistentUuid": "bcb74646-7722-4133-8973-e15c389e83bb",
       "type": "number",
       "value": 0
     }
