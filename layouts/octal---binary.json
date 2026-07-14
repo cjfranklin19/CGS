@@ -189,8 +189,8 @@
       "name": "Submit_Button",
       "persistentUuid": "85eafccd-d85a-4478-9f53-24c87dd42a72",
       "width": 138,
-      "x": 1462,
-      "y": 985,
+      "x": 2065,
+      "y": 648,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -338,24 +338,8 @@
       "persistentUuid": "8c6be39b-a383-4944-9e7d-f239dcb0ecc2",
       "width": 947,
       "x": 477,
-      "y": 726,
+      "y": 656,
       "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "finishButton",
-      "persistentUuid": "cc4025d9-2d9d-4859-b212-5460376f3881",
-      "width": 0,
-      "x": 1636,
-      "y": 548,
-      "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -386,8 +370,8 @@
       "name": "SCORE",
       "persistentUuid": "256271b8-7070-4ae4-b45a-ed0a08a24476",
       "width": 0,
-      "x": 1185,
-      "y": 585,
+      "x": 1190,
+      "y": 575,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -402,8 +386,8 @@
       "name": "StreakText",
       "persistentUuid": "4867d215-b3d7-46c2-953c-d286599a0c5b",
       "width": 0,
-      "x": 425,
-      "y": 580,
+      "x": 613,
+      "y": 575,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -499,29 +483,13 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "background",
-      "name": "NewSprite3",
-      "persistentUuid": "6e66fb0e-f070-41d6-ac6f-0db3c3728953",
-      "width": 0,
-      "x": -2,
-      "y": 0,
-      "zOrder": 23,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
       "layer": "",
       "name": "NewSprite5",
       "persistentUuid": "c1e113c2-01bc-42dc-9adf-67874d8ff1ba",
       "width": 0,
       "x": 164,
       "y": 77,
-      "zOrder": 24,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -530,15 +498,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 364,
+      "height": 451,
       "keepRatio": true,
       "layer": "",
       "name": "storybox",
       "persistentUuid": "91562a35-217d-45ff-a83c-b31c8eee8cc9",
-      "width": 1587,
-      "x": 168,
-      "y": 83,
-      "zOrder": 25,
+      "width": 1724,
+      "x": 113,
+      "y": 25,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1647,13 +1615,13 @@
       "effects": [],
       "behaviors": [],
       "string": "Prompt",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "center",
       "characterSize": 40,
       "color": {
-        "b": 134,
-        "g": 233,
-        "r": 184
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -1670,12 +1638,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "Prompt",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
         "characterSize": 40,
         "lineHeight": 0,
-        "color": "184;233;134"
+        "color": "150;198;146"
       }
     },
     {
@@ -1691,13 +1659,13 @@
       "effects": [],
       "behaviors": [],
       "string": "Feeback",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "center",
       "characterSize": 40,
       "color": {
-        "b": 134,
-        "g": 233,
-        "r": 184
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -1714,12 +1682,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "Feeback",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
         "characterSize": 40,
         "lineHeight": 0,
-        "color": "184;233;134"
+        "color": "150;198;146"
       }
     },
     {
@@ -1797,14 +1765,14 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Score",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "string": "0",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
       "characterSize": 70,
       "color": {
-        "b": 134,
-        "g": 233,
-        "r": 184
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -1820,13 +1788,13 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Score",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "text": "0",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 70,
         "lineHeight": 0,
-        "color": "184;233;134"
+        "color": "150;198;146"
       }
     },
     {
@@ -1902,14 +1870,14 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Streak",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "string": "0",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
       "characterSize": 70,
       "color": {
-        "b": 134,
-        "g": 233,
-        "r": 184
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -1925,13 +1893,13 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Streak",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "text": "0",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 70,
         "lineHeight": 0,
-        "color": "184;233;134"
+        "color": "150;198;146"
       }
     },
     {
@@ -1978,6 +1946,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite5",
+      "persistentUuid": "9f831c93-4a36-4e4c-b788-dec3d28a4daa",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2057,13 +2026,13 @@
         }
       ],
       "string": "HQ to Converter, the Gridbreaker Syndicate has switched to octal to binary; it's similar to before. Remember to split the number, then convert its individual parts",
-      "font": "",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
       "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -2080,12 +2049,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "HQ to Converter, the Gridbreaker Syndicate has switched to octal to binary; it's similar to before. Remember to split the number, then convert its individual parts",
-        "font": "",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 40,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "150;198;146"
       }
     },
     {

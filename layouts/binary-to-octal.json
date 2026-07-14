@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.47535850871269353,
+    "zoomFactor": 0.41630252177333305,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -221,15 +221,16 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 71,
       "keepRatio": true,
       "layer": "",
       "name": "BinaryDisplay",
       "persistentUuid": "52e7262e-ad51-40d5-8ba5-f56f47da8a42",
-      "width": 0,
-      "x": 257,
-      "y": 322,
+      "width": 1502,
+      "x": 551,
+      "y": 707,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -260,8 +261,8 @@
       "name": "SCORE",
       "persistentUuid": "a9265870-43b9-4587-a45d-6be46e8fcea4",
       "width": 0,
-      "x": 184,
-      "y": 75,
+      "x": 1190,
+      "y": 575,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -277,7 +278,7 @@
       "persistentUuid": "5732971c-d674-4d99-84cb-9abf5f96d89f",
       "width": 0,
       "x": 860,
-      "y": 581,
+      "y": 707,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -292,8 +293,8 @@
       "name": "Number_Key0",
       "persistentUuid": "352c3577-abf4-448e-ad0c-af3b6e579244",
       "width": 0,
-      "x": 863,
-      "y": 956,
+      "x": 1122,
+      "y": 971,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -309,8 +310,8 @@
       "name": "Number_Key1",
       "persistentUuid": "c67ac69b-b96a-4980-95df-fad93a14575f",
       "width": 89,
-      "x": 794,
-      "y": 877,
+      "x": 606,
+      "y": 839,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -325,8 +326,8 @@
       "name": "Number_Key2",
       "persistentUuid": "ad6f80f4-9932-4af5-9070-252818746a80",
       "width": 0,
-      "x": 871,
-      "y": 875,
+      "x": 758,
+      "y": 852,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -341,8 +342,8 @@
       "name": "Number_Key3",
       "persistentUuid": "47d9db40-b1c0-467c-a78d-6942ca3fc0a1",
       "width": 0,
-      "x": 986,
-      "y": 874,
+      "x": 907,
+      "y": 856,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -357,8 +358,8 @@
       "name": "Number_Key4",
       "persistentUuid": "a5391395-d1fa-4eec-8025-0f7e7b40597f",
       "width": 0,
-      "x": 791,
-      "y": 778,
+      "x": 1017,
+      "y": 853,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -373,8 +374,8 @@
       "name": "Number_Key5",
       "persistentUuid": "2ed526c8-5d8a-4660-be01-ce97d9b30585",
       "width": 0,
-      "x": 876,
-      "y": 776,
+      "x": 1135,
+      "y": 875,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -389,8 +390,8 @@
       "name": "Number_Key6",
       "persistentUuid": "d523290e-c8ff-43d0-89b7-483fde24683e",
       "width": 0,
-      "x": 981,
-      "y": 781,
+      "x": 628,
+      "y": 988,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -405,8 +406,8 @@
       "name": "Number_Key7",
       "persistentUuid": "efc6c264-f7c7-4535-b1cd-9ed3000b4fb3",
       "width": 0,
-      "x": 791,
-      "y": 693,
+      "x": 762,
+      "y": 979,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -421,8 +422,8 @@
       "name": "Number_Key8",
       "persistentUuid": "67b590d3-26ea-46f6-9520-a7d59c19f07a",
       "width": 0,
-      "x": 882,
-      "y": 691,
+      "x": 872,
+      "y": 946,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -437,8 +438,8 @@
       "name": "Number_Key9",
       "persistentUuid": "1360914c-752b-4ffc-96f2-8bca41188745",
       "width": 0,
-      "x": 989,
-      "y": 699,
+      "x": 1006,
+      "y": 971,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -486,8 +487,8 @@
       "name": "Backspace_Alt_Key",
       "persistentUuid": "e3bf1bf2-df92-451d-9653-c4ad4c7505b5",
       "width": 0,
-      "x": 1312,
-      "y": 666,
+      "x": 1410,
+      "y": 885,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -502,8 +503,8 @@
       "name": "StreakText",
       "persistentUuid": "98431561-625e-4485-a13c-752955a0ee62",
       "width": 0,
-      "x": 490,
-      "y": 140,
+      "x": 613,
+      "y": 575,
       "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
@@ -518,8 +519,8 @@
       "name": "Streaklable",
       "persistentUuid": "bb3c81a4-b74a-45f7-b399-e188f82a3cd5",
       "width": 0,
-      "x": 50,
-      "y": 146,
+      "x": -236,
+      "y": -140,
       "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
@@ -534,8 +535,8 @@
       "name": "Score_label",
       "persistentUuid": "3982c3dc-1265-4012-874a-33985e0416f5",
       "width": 0,
-      "x": 429,
-      "y": 77,
+      "x": 2092,
+      "y": 149,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -551,8 +552,8 @@
       "name": "Story_text",
       "persistentUuid": "70027a2f-d2e1-4024-af55-54f39990a02a",
       "width": 1466,
-      "x": 220,
-      "y": 271,
+      "x": 541,
+      "y": -267,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -568,8 +569,8 @@
       "name": "storybox",
       "persistentUuid": "0efd010d-b30e-4dec-98d2-c70e8cef7025",
       "width": 1542,
-      "x": 196,
-      "y": 245,
+      "x": 54,
+      "y": -572,
       "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
@@ -590,13 +591,13 @@
       "effects": [],
       "behaviors": [],
       "string": "Text",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
       "characterSize": 65,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -613,12 +614,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "Text",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 65,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "150;198;146"
       }
     },
     {
@@ -634,13 +635,13 @@
       "effects": [],
       "behaviors": [],
       "string": "Feeback",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "center",
       "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -657,12 +658,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "Feeback",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
         "characterSize": 40,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "150;198;146"
       }
     },
     {
@@ -784,14 +785,14 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Score",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "string": "0",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
       "characterSize": 70,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -807,13 +808,13 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Score",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "text": "0",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 70,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "150;198;146"
       }
     },
     {
@@ -843,7 +844,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Number Key_Zero.png",
+                  "image": "0Key.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -859,20 +860,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -907,20 +908,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -955,20 +956,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -1003,20 +1004,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -1051,20 +1052,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -1099,20 +1100,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -1147,20 +1148,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -1195,20 +1196,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -1243,20 +1244,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -1291,20 +1292,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -2609,7 +2610,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Number Key_Two.png",
+                  "image": "2Key.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2625,20 +2626,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -2673,20 +2674,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -2721,20 +2722,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -2769,20 +2770,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -2817,20 +2818,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -2865,20 +2866,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -2913,20 +2914,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -2961,20 +2962,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -3009,20 +3010,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -3057,20 +3058,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -3108,7 +3109,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Number Key_Three.png",
+                  "image": "3Key.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3124,20 +3125,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -3172,20 +3173,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -3220,20 +3221,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -3268,20 +3269,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -3316,20 +3317,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -3364,20 +3365,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -3412,20 +3413,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -3460,20 +3461,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -3508,20 +3509,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -3556,20 +3557,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -3607,7 +3608,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Number Key_Four.png",
+                  "image": "4Key.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3623,20 +3624,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -3671,20 +3672,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -3719,20 +3720,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -3767,20 +3768,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -3815,20 +3816,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -3863,20 +3864,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -3911,20 +3912,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -3959,20 +3960,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -4007,20 +4008,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -4055,20 +4056,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -4106,7 +4107,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Number Key_Five.png",
+                  "image": "5Key.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4122,20 +4123,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -4170,20 +4171,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -4218,20 +4219,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -4266,20 +4267,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -4314,20 +4315,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -4362,20 +4363,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -4410,20 +4411,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -4458,20 +4459,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -4506,20 +4507,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -4554,20 +4555,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -4605,7 +4606,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Number Key_Six.png",
+                  "image": "6Key.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4621,20 +4622,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -4669,20 +4670,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -4717,20 +4718,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -4765,20 +4766,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -4813,20 +4814,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -4861,20 +4862,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -4909,20 +4910,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -4957,20 +4958,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -5005,20 +5006,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -5053,20 +5054,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -5104,7 +5105,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Number Key_Seven.png",
+                  "image": "7Key.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5120,20 +5121,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -5168,20 +5169,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -5216,20 +5217,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -5264,20 +5265,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -5312,20 +5313,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -5360,20 +5361,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -5408,20 +5409,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -5456,20 +5457,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -5504,20 +5505,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -5552,20 +5553,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -5603,7 +5604,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Number Key_Eight.png",
+                  "image": "8Key.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5619,20 +5620,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 12,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 88,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 88,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 12,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -5667,20 +5668,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 12,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 88,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 88,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 12,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -5715,20 +5716,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 12,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 88,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 88,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 12,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -5763,20 +5764,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 12,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 88,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 88,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 12,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -5811,20 +5812,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 12,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 88,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 88,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 12,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -5859,20 +5860,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 12,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 88,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 88,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 12,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -5907,20 +5908,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 12,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 88,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 88,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 12,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -5955,20 +5956,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 12,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 88,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 88,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 12,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -6003,20 +6004,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 12,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 88,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 88,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 12,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -6051,20 +6052,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 12,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 88,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 88,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 12,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -6102,7 +6103,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Number Key_Nine.png",
+                  "image": "9Key.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6118,20 +6119,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -6166,20 +6167,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -6214,20 +6215,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -6262,20 +6263,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -6310,20 +6311,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -6358,20 +6359,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -6406,20 +6407,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -6454,20 +6455,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -6502,20 +6503,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -6550,20 +6551,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -6601,7 +6602,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Number Key_One.png",
+                  "image": "1Key.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6617,20 +6618,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -6665,20 +6666,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -6713,20 +6714,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -6761,20 +6762,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -6809,20 +6810,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -6857,20 +6858,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -6905,20 +6906,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -6953,20 +6954,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -7001,20 +7002,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -7049,20 +7050,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 14
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 14
+                        "x": 32,
+                        "y": 0
                       },
                       {
-                        "x": 87,
-                        "y": 86
+                        "x": 32,
+                        "y": 32
                       },
                       {
-                        "x": 13,
-                        "y": 86
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -13413,6 +13414,7 @@
       "bold": false,
       "italic": false,
       "name": "AnswerDisplay",
+      "persistentUuid": "bf58a9f5-3187-4132-9ece-b2a8e66c5422",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -13420,13 +13422,13 @@
       "effects": [],
       "behaviors": [],
       "string": "Text",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
       "characterSize": 80,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -13443,12 +13445,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "Text",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 80,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "150;198;146"
       }
     },
     {
@@ -13581,7 +13583,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Backspace Alt Key.png",
+                  "image": "Backspace.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13597,20 +13599,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 4,
-                        "y": 19
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 96,
-                        "y": 19
+                        "x": 64,
+                        "y": 0
                       },
                       {
-                        "x": 96,
-                        "y": 81
+                        "x": 64,
+                        "y": 32
                       },
                       {
-                        "x": 4,
-                        "y": 81
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -13626,6 +13628,7 @@
       "bold": false,
       "italic": false,
       "name": "StreakText",
+      "persistentUuid": "4928b5d6-1588-4fc3-a731-0d76e2ec288b",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -13633,13 +13636,13 @@
       "effects": [],
       "behaviors": [],
       "string": "0",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
-      "characterSize": 80,
+      "characterSize": 65,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -13656,12 +13659,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "0",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 80,
+        "characterSize": 65,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "150;198;146"
       }
     },
     {
@@ -13669,6 +13672,7 @@
       "bold": false,
       "italic": false,
       "name": "Streaklable",
+      "persistentUuid": "625989cb-74df-4241-97f5-f41285225191",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -13720,13 +13724,13 @@
       "effects": [],
       "behaviors": [],
       "string": "Pts",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
       "characterSize": 70,
       "color": {
-        "b": 134,
-        "g": 233,
-        "r": 184
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -13743,12 +13747,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "Pts",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 70,
         "lineHeight": 0,
-        "color": "184;233;134"
+        "color": "150;198;146"
       }
     },
     {
@@ -13795,9 +13799,9 @@
       "textAlignment": "left",
       "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -13819,7 +13823,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 40,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "150;198;146"
       }
     }
   ],

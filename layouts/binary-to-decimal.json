@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.420110610600186,
+    "zoomFactor": 0.44485159988866696,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -29,186 +29,223 @@
   "variables": [
     {
       "name": "BinaryString",
+      "persistentUuid": "a640f702-2098-4dfa-8ddd-5f7ee95dc53d",
       "type": "string",
       "value": ""
     },
     {
       "name": "BitCount",
+      "persistentUuid": "4bb5bf36-123c-457b-aa45-78d0fc109490",
       "type": "number",
       "value": 0
     },
     {
       "name": "TargetDec",
+      "persistentUuid": "a27f387a-7d45-4785-b834-052379cee81d",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit0",
+      "persistentUuid": "e736e878-aed9-461a-8b92-4a9e8a2ae73b",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit1",
+      "persistentUuid": "6407f77d-da5f-46b2-94a7-5e5d9fb5a333",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit2",
+      "persistentUuid": "4d5addf9-9001-4bd3-91c3-18740da6e449",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit3",
+      "persistentUuid": "7baf1ab5-e803-4e87-9572-46b54e0d36fc",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit4",
+      "persistentUuid": "56c0dc95-374d-4073-b849-01e511a674a3",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit5",
+      "persistentUuid": "0579be62-fd93-46cc-886f-2fff202f6775",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit6",
+      "persistentUuid": "0549d93d-d2d4-4751-a68f-e50c1af2d7e6",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit7",
+      "persistentUuid": "8582a1aa-d6bf-4973-80db-4a0450e2ea9d",
       "type": "number",
       "value": 0
     },
     {
       "name": "DecNumText",
+      "persistentUuid": "36aaa866-9d41-4c76-8d69-c0f543672d69",
       "type": "string",
       "value": ""
     },
     {
       "name": "HexHighText",
+      "persistentUuid": "f7ba04e4-87d7-4077-aa14-93afb5129aaf",
       "type": "string",
       "value": ""
     },
     {
       "name": "PlayerAnswer",
+      "persistentUuid": "8ed455b6-c122-4f44-be38-1596e8b3db2c",
       "type": "string",
       "value": ""
     },
     {
       "name": "PlayerNumber",
+      "persistentUuid": "ebae512c-47dc-4039-a76c-af0b14d45c33",
       "type": "number",
       "value": 0
     },
     {
       "name": "ResultText",
+      "persistentUuid": "a829129e-e9a3-4b4a-a966-d4c3980dd37e",
       "type": "string",
       "value": ""
     },
     {
       "name": "score",
+      "persistentUuid": "b34be30c-7d5c-4f74-8ae9-3d415aa7b3ff",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionsAnswered",
+      "persistentUuid": "88f0b8fa-f505-450a-947d-a277dd6fe9ad",
       "type": "number",
       "value": 0
     },
     {
       "name": "levelQuestions",
+      "persistentUuid": "befc0917-9fc7-460d-9bd4-f36e9c395155",
       "type": "number",
       "value": 5
     },
     {
       "name": "questionOpen",
+      "persistentUuid": "1e079733-217a-467e-b9e3-8d56b12ef2cd",
       "type": "boolean",
       "value": true
     },
     {
       "name": "inputLocked",
+      "persistentUuid": "ddd2a9ff-04db-4a83-bf1b-4ce2b4b86977",
       "type": "boolean",
       "value": false
     },
     {
       "name": "startNextQuestion",
+      "persistentUuid": "83987000-edbd-429e-a1d8-01b5730970f4",
       "type": "boolean",
       "value": true
     },
     {
       "name": "hintOpen",
+      "persistentUuid": "3ffe1932-e1b0-4f99-bf72-ead704e2a830",
       "type": "boolean",
       "value": false
     },
     {
       "name": "elapsedQuestionTime",
+      "persistentUuid": "4def5aed-dbea-44a5-ac01-c22dc1797d51",
       "type": "number",
       "value": 0
     },
     {
       "name": "correctAnswers",
+      "persistentUuid": "06471c1e-4124-4ab1-9260-3fb6f1aac459",
       "type": "number",
       "value": 0
     },
     {
       "name": "streak",
+      "persistentUuid": "4065f920-5b6a-41d1-bc6f-25935b49f069",
       "type": "number",
       "value": 0
     },
     {
       "name": "highestStreak",
+      "persistentUuid": "f85eed22-d3e7-4110-a48b-2483401723a0",
       "type": "number",
       "value": 0
     },
     {
       "name": "incorrectAnswers",
+      "persistentUuid": "2dfa7187-e2a6-444f-b625-aee7847e4eb6",
       "type": "number",
       "value": 0
     },
     {
       "name": "timeLimit",
+      "persistentUuid": "25bb88cf-3a14-4dfc-bbab-02cd8efc557b",
       "type": "number",
       "value": 30
     },
     {
       "name": "mult",
+      "persistentUuid": "a3878ccb-876b-41df-878b-691216073089",
       "type": "number",
       "value": 0
     },
     {
       "name": "cityPower",
+      "persistentUuid": "f8b8c2a5-f1e7-4149-94a1-2db7b56cf7f6",
       "type": "number",
       "value": 0
     },
     {
       "name": "basePoints",
+      "persistentUuid": "f8c1470c-a5e3-4eb1-8aa4-05eda690a732",
       "type": "number",
       "value": 100
     },
     {
       "name": "penalty",
+      "persistentUuid": "79e26c66-5f82-4177-987a-437d90e7f4a5",
       "type": "number",
       "value": 50
     },
     {
       "name": "hintUsedThisQuestion",
+      "persistentUuid": "141b113e-53d8-47f1-ace9-a9651643efd9",
       "type": "number",
       "value": 0
     },
     {
       "name": "wrongStreak",
+      "persistentUuid": "185074d8-c04b-4034-97f5-248603699655",
       "type": "number",
       "value": 0
     },
     {
       "name": "DecNum",
+      "persistentUuid": "b3dab951-07c8-43b8-9b35-b45f74eb5a91",
       "type": "number",
       "value": 0
     },
     {
       "name": "lightani",
+      "persistentUuid": "da4f87b8-d41e-420c-905c-50ecb9184090",
       "type": "number",
       "value": 0
     }
@@ -15980,6 +16017,16 @@
                   "parameters": [
                     "FinishButton",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "FinishButton",
+                    "ButtonFSM",
+                    "yes"
                   ]
                 }
               ]
