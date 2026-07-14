@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2796226521839377,
+    "zoomFactor": 0.3768772036750878,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -31,6 +31,16 @@
       "name": "TempSettings",
       "type": "string",
       "value": ""
+    },
+    {
+      "name": "hintUsedThisQuestion",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "score",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -74,12 +84,12 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "GreenButton",
-      "persistentUuid": "87dfd357-f65f-4a65-b810-c3c86afdd9dc",
+      "name": "gear_button",
+      "persistentUuid": "6fd6040a-119b-4e62-b630-a0538aa10079",
       "width": 0,
-      "x": 832,
-      "y": 936,
-      "zOrder": 5,
+      "x": 835,
+      "y": 859,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -303,6 +313,106 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "hintbox",
+      "persistentUuid": "e4a4a08c-b4a6-4c3c-a6a6-941ab1f3f8bd",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Hint",
+      "persistentUuid": "8eb209ff-d854-449b-ab54-772747b71538",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "SCORE",
+      "persistentUuid": "361deb52-524d-4ff8-9c6c-cde757e22c46",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -319,6 +429,15 @@
       },
       {
         "objectName": "NewSprite2"
+      },
+      {
+        "objectName": "hintbox"
+      },
+      {
+        "objectName": "Hint"
+      },
+      {
+        "objectName": "SCORE"
       }
     ]
   },
@@ -598,7 +717,7 @@
             "value": "ButtonStates::ButtonFSM::IsClicked"
           },
           "parameters": [
-            "GreenButton",
+            "gear_button",
             "ButtonFSM",
             ""
           ]
@@ -653,6 +772,13 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "sub/hint button animation"
     }
   ],
   "layers": [

@@ -29,223 +29,186 @@
   "variables": [
     {
       "name": "BinaryString",
-      "persistentUuid": "39299343-1924-4c77-a9ad-3ca014e14608",
       "type": "string",
       "value": ""
     },
     {
       "name": "BitCount",
-      "persistentUuid": "a85aa3d5-185d-4a2e-887e-9e7dacd7794f",
       "type": "number",
       "value": 0
     },
     {
       "name": "HexLow",
-      "persistentUuid": "4ee52e76-0a4a-4d3f-a12e-e8b815d5d030",
       "type": "number",
       "value": 0
     },
     {
       "name": "HexHigh",
-      "persistentUuid": "659b73a8-4fa4-4ae5-8ba7-89c57b0a7264",
       "type": "number",
       "value": 0
     },
     {
       "name": "TargetHex",
-      "persistentUuid": "9ec2bebe-7248-4a33-aa77-23209fe264de",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit0",
-      "persistentUuid": "48ef5422-3809-44d5-a13d-d8eb1ad04ae0",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit1",
-      "persistentUuid": "17609437-fa32-49dc-bea6-32b530afc3ec",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit2",
-      "persistentUuid": "2e27e2dc-f00d-49c4-b916-5d1559ea6133",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit3",
-      "persistentUuid": "6d103a6f-8034-46e4-baf3-7ce0369351b1",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit4",
-      "persistentUuid": "8111ddb9-2e89-4d87-966d-7e25c1a008c5",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit5",
-      "persistentUuid": "dbba8861-457d-445d-bef8-8bc9e20cfda4",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit6",
-      "persistentUuid": "027b161b-1ea7-4661-a220-9045947bfcdb",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit7",
-      "persistentUuid": "1c8b0fa8-dede-44fc-8e30-dd0d450b73af",
       "type": "number",
       "value": 0
     },
     {
       "name": "HexLowText",
-      "persistentUuid": "03598390-bace-4cf8-b420-1658d6ddfc06",
       "type": "string",
       "value": ""
     },
     {
       "name": "HexHighText",
-      "persistentUuid": "b2e22d15-c2b3-42f0-b224-aac12fa1c3ab",
       "type": "string",
       "value": ""
     },
     {
       "name": "PlayerAnswer",
-      "persistentUuid": "ad2a19e1-de42-4bd7-a3c3-3e08357bd8a3",
       "type": "string",
       "value": ""
     },
     {
       "name": "PlayerNumber",
-      "persistentUuid": "fbdca35f-2b79-4189-a749-47ebe841ca14",
       "type": "number",
       "value": 0
     },
     {
       "name": "ResultText",
-      "persistentUuid": "23368b15-1665-4c0d-a93c-6b78d6f89d08",
       "type": "string",
       "value": ""
     },
     {
       "name": "score",
-      "persistentUuid": "26d558e6-11b4-4da3-8e18-39a1e11ff23f",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionsAnswered",
-      "persistentUuid": "2936d7f6-7410-4714-9346-d3a0d194a5de",
       "type": "number",
       "value": 0
     },
     {
       "name": "levelQuestions",
-      "persistentUuid": "505f7683-ce58-4556-9de3-133a8b8de476",
       "type": "number",
       "value": 5
     },
     {
       "name": "questionOpen",
-      "persistentUuid": "4a071e32-689b-43d4-a39f-09cd0ac0d54b",
       "type": "boolean",
       "value": true
     },
     {
       "name": "inputLocked",
-      "persistentUuid": "53fd0ceb-8831-4c27-a717-4e4dee635ddb",
       "type": "boolean",
       "value": false
     },
     {
       "name": "startNextQuestion",
-      "persistentUuid": "b9cd937a-dfa3-4bf5-921e-454d9e39e686",
       "type": "boolean",
       "value": true
     },
     {
       "name": "hintOpen",
-      "persistentUuid": "2cbb0434-f212-4bc8-8055-641d66c6fd20",
       "type": "boolean",
       "value": false
     },
     {
       "name": "elapsedQuestionTime",
-      "persistentUuid": "a75055a6-b132-4922-887e-ec2453e63f34",
       "type": "number",
       "value": 0
     },
     {
       "name": "correctAnswers",
-      "persistentUuid": "54da092d-868d-405f-ac64-b3be7236222f",
       "type": "number",
       "value": 0
     },
     {
       "name": "streak",
-      "persistentUuid": "d4524cc5-5a30-409d-be76-a449c600123f",
       "type": "number",
       "value": 0
     },
     {
       "name": "highestStreak",
-      "persistentUuid": "d8545c35-59d0-49b3-8a51-f1b5e755e8c0",
       "type": "number",
       "value": 0
     },
     {
       "name": "incorrectAnswers",
-      "persistentUuid": "a70912ee-72e8-4ec1-84c9-a18975c1814c",
       "type": "number",
       "value": 0
     },
     {
       "name": "timeLimit",
-      "persistentUuid": "96e3e424-494b-4568-bc02-cb60076ca791",
       "type": "number",
       "value": 30
     },
     {
       "name": "mult",
-      "persistentUuid": "0f3bda38-e40c-427d-b505-17d815b4415f",
       "type": "number",
       "value": 0
     },
     {
       "name": "cityPower",
-      "persistentUuid": "7a266833-1823-45d9-9f7e-5255661319ea",
       "type": "number",
       "value": 0
     },
     {
       "name": "basePoints",
-      "persistentUuid": "d29ea4a6-d942-4cd7-aa21-1a65dfc634f7",
       "type": "number",
       "value": 100
     },
     {
       "name": "penalty",
-      "persistentUuid": "9ca39b67-fefb-4624-8601-9a52b4e11e9d",
       "type": "number",
       "value": 50
     },
     {
       "name": "hintUsedThisQuestion",
-      "persistentUuid": "988e0936-a308-4826-9d0c-a3ff8954fc14",
       "type": "number",
       "value": 0
     },
     {
       "name": "wrongStreak",
-      "persistentUuid": "5c8743b3-0c25-42f3-9f31-043558b61309",
       "type": "number",
       "value": 0
     }
@@ -295,8 +258,8 @@
       "name": "Number_Key0",
       "persistentUuid": "39885c7a-c974-4a7e-a700-3d75d8a3cae4",
       "width": 80,
-      "x": 1140,
-      "y": 870,
+      "x": 1093,
+      "y": 873,
       "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
@@ -312,8 +275,8 @@
       "name": "Number_Key2",
       "persistentUuid": "66397134-6a50-41dd-9d7d-9f3287c91797",
       "width": 80,
-      "x": 840,
-      "y": 770,
+      "x": 793,
+      "y": 773,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -329,8 +292,8 @@
       "name": "Number_Key1",
       "persistentUuid": "f8a001d6-310b-4f43-aaac-63e5c17e7656",
       "width": 80,
-      "x": 740,
-      "y": 770,
+      "x": 693,
+      "y": 773,
       "zOrder": 34,
       "numberProperties": [],
       "stringProperties": [],
@@ -346,8 +309,8 @@
       "name": "Number_Key3",
       "persistentUuid": "a21a2084-5f43-403a-89a4-4c990a3f6a39",
       "width": 80,
-      "x": 940,
-      "y": 770,
+      "x": 893,
+      "y": 773,
       "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
@@ -364,7 +327,7 @@
       "persistentUuid": "611809eb-1cb2-4a38-bd09-40d953163595",
       "width": 1542,
       "x": 354,
-      "y": 635,
+      "y": 700,
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
@@ -380,7 +343,7 @@
       "persistentUuid": "2d401ffa-3c8e-4130-a960-7085649ebc09",
       "width": 0,
       "x": 771,
-      "y": 651,
+      "y": 700,
       "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
@@ -396,8 +359,8 @@
       "name": "Backspace_Alt_Key",
       "persistentUuid": "3ef877a1-aa9a-4557-86c1-78bee2be527e",
       "width": 122,
-      "x": 1582,
-      "y": 770,
+      "x": 1535,
+      "y": 773,
       "zOrder": 39,
       "numberProperties": [],
       "stringProperties": [],
@@ -413,8 +376,8 @@
       "name": "Number_Key4",
       "persistentUuid": "a292a8ac-163c-4c72-a52d-413735432996",
       "width": 80,
-      "x": 1040,
-      "y": 770,
+      "x": 993,
+      "y": 773,
       "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
@@ -430,8 +393,8 @@
       "name": "Number_Key5",
       "persistentUuid": "518debb1-05e5-4b77-88bc-bec79086cbea",
       "width": 80,
-      "x": 1140,
-      "y": 770,
+      "x": 1093,
+      "y": 773,
       "zOrder": 41,
       "numberProperties": [],
       "stringProperties": [],
@@ -447,8 +410,8 @@
       "name": "Number_Key6",
       "persistentUuid": "685f2337-065e-48c3-a5a6-06cdb8c70889",
       "width": 80,
-      "x": 740,
-      "y": 870,
+      "x": 693,
+      "y": 873,
       "zOrder": 42,
       "numberProperties": [],
       "stringProperties": [],
@@ -464,8 +427,8 @@
       "name": "Number_Key7",
       "persistentUuid": "52e1b40b-6718-446e-a04c-99cd5fa5e3e3",
       "width": 80,
-      "x": 840,
-      "y": 870,
+      "x": 793,
+      "y": 873,
       "zOrder": 43,
       "numberProperties": [],
       "stringProperties": [],
@@ -481,8 +444,8 @@
       "name": "Number_Key8",
       "persistentUuid": "16c7c926-2496-4f3f-856e-8da6c98d410b",
       "width": 80,
-      "x": 940,
-      "y": 870,
+      "x": 893,
+      "y": 873,
       "zOrder": 44,
       "numberProperties": [],
       "stringProperties": [],
@@ -498,8 +461,8 @@
       "name": "Number_Key9",
       "persistentUuid": "3acbedd3-5145-4ba6-b88d-ff549545aed4",
       "width": 80,
-      "x": 1040,
-      "y": 870,
+      "x": 993,
+      "y": 873,
       "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
@@ -515,8 +478,8 @@
       "name": "Letter_KeyA",
       "persistentUuid": "ad1dad08-b3a6-44e7-af1c-3c6a4e685cf4",
       "width": 80,
-      "x": 1260,
-      "y": 770,
+      "x": 1213,
+      "y": 773,
       "zOrder": 46,
       "numberProperties": [],
       "stringProperties": [],
@@ -532,8 +495,8 @@
       "name": "Letter_KeyB",
       "persistentUuid": "da8c82af-4336-40d0-98ae-e9500743b0c0",
       "width": 80,
-      "x": 1360,
-      "y": 770,
+      "x": 1313,
+      "y": 773,
       "zOrder": 47,
       "numberProperties": [],
       "stringProperties": [],
@@ -549,8 +512,8 @@
       "name": "Letter_KeyC",
       "persistentUuid": "137369ad-de58-4082-99d2-dabb2a548485",
       "width": 80,
-      "x": 1460,
-      "y": 770,
+      "x": 1413,
+      "y": 773,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -566,8 +529,8 @@
       "name": "Letter_KeyE",
       "persistentUuid": "8715bf56-e732-4c2c-84c7-dc4031416285",
       "width": 80,
-      "x": 1360,
-      "y": 870,
+      "x": 1313,
+      "y": 873,
       "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
@@ -583,8 +546,8 @@
       "name": "Letter_KeyF",
       "persistentUuid": "379ff1a3-166d-42cc-a305-5339a302d314",
       "width": 80,
-      "x": 1460,
-      "y": 870,
+      "x": 1413,
+      "y": 873,
       "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
@@ -600,8 +563,8 @@
       "name": "Letter_KeyD",
       "persistentUuid": "a4e90820-c4e9-4374-a65b-60f475325830",
       "width": 80,
-      "x": 1260,
-      "y": 870,
+      "x": 1213,
+      "y": 873,
       "zOrder": 52,
       "numberProperties": [],
       "stringProperties": [],
@@ -638,6 +601,55 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SCORE",
+      "persistentUuid": "197a1d80-cf2c-4c51-bd2d-dd4764be7eea",
+      "width": 0,
+      "x": 1190,
+      "y": 575,
+      "zOrder": 55,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 71,
+      "keepRatio": true,
+      "layer": "",
+      "name": "StreakText",
+      "persistentUuid": "b6d1b2e3-1746-47e6-8099-ed05dd448906",
+      "width": 49,
+      "x": 615,
+      "y": 575,
+      "zOrder": 56,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 174,
+      "layer": "",
+      "name": "FinishButton",
+      "persistentUuid": "5d70f0c9-188f-4545-b2e3-46bc4fd05b8e",
+      "width": 200,
+      "x": 875,
+      "y": 930,
+      "zOrder": 57,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -656,7 +668,7 @@
       "string": "Text",
       "font": "Not Jam Mono Clean15.ttf",
       "textAlignment": "left",
-      "characterSize": 65,
+      "characterSize": 50,
       "color": {
         "b": 146,
         "g": 198,
@@ -680,7 +692,7 @@
         "font": "Not Jam Mono Clean15.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 65,
+        "characterSize": 50,
         "lineHeight": 0,
         "color": "150;198;146"
       }
@@ -848,10 +860,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Score",
+      "string": "0",
       "font": "Not Jam Mono Clean15.ttf",
       "textAlignment": "left",
-      "characterSize": 70,
+      "characterSize": 65,
       "color": {
         "b": 146,
         "g": 198,
@@ -871,11 +883,11 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Score",
+        "text": "0",
         "font": "Not Jam Mono Clean15.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 70,
+        "characterSize": 65,
         "lineHeight": 0,
         "color": "150;198;146"
       }
@@ -12138,7 +12150,7 @@
       "string": "0",
       "font": "Not Jam Mono Clean15.ttf",
       "textAlignment": "left",
-      "characterSize": 80,
+      "characterSize": 65,
       "color": {
         "b": 146,
         "g": 198,
@@ -12162,7 +12174,7 @@
         "font": "Not Jam Mono Clean15.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 80,
+        "characterSize": 65,
         "lineHeight": 0,
         "color": "150;198;146"
       }
@@ -14256,6 +14268,15 @@
                   },
                   "parameters": [
                     "Feedback2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "BinaryDisplay",
+                    ""
                   ]
                 }
               ],
@@ -16413,7 +16434,7 @@
           },
           "parameters": [
             "",
-            "\"LDCom-BH\"",
+            "\"Post-Question ResultsBH\"",
             ""
           ]
         }

@@ -622,7 +622,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Level one lights animation.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -630,7 +630,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Off_Switch.webp",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -638,7 +638,7 @@
         "kind": "image",
         "metadata": "",
         "name": "On_switch.webp",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1190,7 +1190,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Level one lights animation2.png\",\"extension\":\".png\"}",
         "name": "Level one lights animation2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1198,7 +1198,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Level one lights animation3.png\",\"extension\":\".png\"}",
         "name": "Level one lights animation3.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1206,7 +1206,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Level one lights animation4.png\",\"extension\":\".png\"}",
         "name": "Level one lights animation4.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1214,7 +1214,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Level one lights animation5.png\",\"extension\":\".png\"}",
         "name": "Level one lights animation5.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1230,7 +1230,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Level one lights animation7.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1238,7 +1238,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/4.png\"}",
         "name": "4",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1246,7 +1246,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/5.png\"}",
         "name": "5",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1254,7 +1254,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "3",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2974,7 +2974,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Hex to binary.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2982,7 +2982,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Hex to binary2.png\",\"extension\":\".png\"}",
         "name": "Hex to binary2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2990,7 +2990,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Hex to binary3.png\",\"extension\":\".png\"}",
         "name": "Hex to binary3.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2998,7 +2998,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Hex to binary4.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3006,7 +3006,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Hex to binary5.png\",\"extension\":\".png\"}",
         "name": "Hex to binary5.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3014,7 +3014,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Hex to binary6.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3022,7 +3022,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "6",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3030,7 +3030,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "7",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3038,7 +3038,7 @@
         "kind": "image",
         "metadata": "",
         "name": "8bit level.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3046,7 +3046,7 @@
         "kind": "image",
         "metadata": "",
         "name": "octal to binary.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3425,7 +3425,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Base.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3433,7 +3433,7 @@
         "kind": "image",
         "metadata": "",
         "name": "StatOutline.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3449,7 +3449,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "StatOutline2",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3464,7 +3464,7 @@
         "kind": "image",
         "metadata": "",
         "name": "SubmitButton.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3472,7 +3472,7 @@
         "kind": "image",
         "metadata": "",
         "name": "HintButton.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3480,7 +3480,7 @@
         "kind": "image",
         "metadata": "",
         "name": "SettingsButton.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3520,7 +3520,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Van7.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3528,7 +3528,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Van8.png\",\"extension\":\".png\"}",
         "name": "Van8.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3536,7 +3536,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Van9.png\",\"extension\":\".png\"}",
         "name": "Van9.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3544,7 +3544,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Van10.png\",\"extension\":\".png\"}",
         "name": "Van10.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3628,7 +3628,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Base2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3636,7 +3636,7 @@
         "kind": "image",
         "metadata": "",
         "name": "FinishButton.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3698,7 +3698,7 @@
         "kind": "image",
         "metadata": "",
         "name": "8bit level2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3706,7 +3706,7 @@
         "kind": "image",
         "metadata": "",
         "name": "8bit level3.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3714,7 +3714,7 @@
         "kind": "image",
         "metadata": "",
         "name": "8bit level4.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3722,7 +3722,7 @@
         "kind": "image",
         "metadata": "",
         "name": "8bit level5.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3730,7 +3730,7 @@
         "kind": "image",
         "metadata": "",
         "name": "8bit level6.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3738,7 +3738,7 @@
         "kind": "image",
         "metadata": "",
         "name": "8bit level7.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3746,7 +3746,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"8bit level8.png\",\"extension\":\".png\"}",
         "name": "8bit level8.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3754,7 +3754,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"8bit level9.png\",\"extension\":\".png\"}",
         "name": "8bit level9.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3762,7 +3762,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"8bit level10.png\",\"extension\":\".png\"}",
         "name": "8bit level10.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3770,7 +3770,7 @@
         "kind": "image",
         "metadata": "",
         "name": "8bit level11.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3778,7 +3778,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"8bit level12.png\",\"extension\":\".png\"}",
         "name": "8bit level12.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3786,7 +3786,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "8",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3794,7 +3794,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Binary to Decimal.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3802,7 +3802,7 @@
         "kind": "image",
         "metadata": "",
         "name": "0Key.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3810,7 +3810,7 @@
         "kind": "image",
         "metadata": "",
         "name": "1Key.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3818,7 +3818,7 @@
         "kind": "image",
         "metadata": "",
         "name": "1Key2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3826,7 +3826,7 @@
         "kind": "image",
         "metadata": "",
         "name": "2Key.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3834,7 +3834,7 @@
         "kind": "image",
         "metadata": "",
         "name": "3Key.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3842,7 +3842,7 @@
         "kind": "image",
         "metadata": "",
         "name": "0Key2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3850,7 +3850,7 @@
         "kind": "image",
         "metadata": "",
         "name": "5Key.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3858,7 +3858,7 @@
         "kind": "image",
         "metadata": "",
         "name": "1Key3.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3866,15 +3866,7 @@
         "kind": "image",
         "metadata": "",
         "name": "2Key2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "3Key2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "3Key2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3886,11 +3878,19 @@
         "userAdded": false
       },
       {
+        "file": "3Key2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3Key2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
         "file": "6Key.png",
         "kind": "image",
         "metadata": "",
         "name": "6Key.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3898,7 +3898,7 @@
         "kind": "image",
         "metadata": "",
         "name": "7Key.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3906,7 +3906,7 @@
         "kind": "image",
         "metadata": "",
         "name": "8Key.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3914,7 +3914,7 @@
         "kind": "image",
         "metadata": "",
         "name": "9Key.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3922,7 +3922,7 @@
         "kind": "image",
         "metadata": "",
         "name": "AKey.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3930,7 +3930,7 @@
         "kind": "image",
         "metadata": "",
         "name": "BKey.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3938,7 +3938,7 @@
         "kind": "image",
         "metadata": "",
         "name": "CKey.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3946,7 +3946,7 @@
         "kind": "image",
         "metadata": "",
         "name": "DKey.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3954,7 +3954,7 @@
         "kind": "image",
         "metadata": "",
         "name": "EKey.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3962,7 +3962,7 @@
         "kind": "image",
         "metadata": "",
         "name": "FKey.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3970,6 +3970,14 @@
         "kind": "image",
         "metadata": "",
         "name": "Backspace.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Settings Button Level.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Settings Button Level.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -4552,6 +4560,78 @@
         "lineHeight": 0,
         "color": "150;198;146"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "levelsettings",
+      "persistentUuid": "9a02fc32-2f24-4e2e-ae35-1f174f3f61d5",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Settings Button Level.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 60,
+                        "y": 60
+                      },
+                      {
+                        "x": 204,
+                        "y": 60
+                      },
+                      {
+                        "x": 204,
+                        "y": 196
+                      },
+                      {
+                        "x": 60,
+                        "y": 196
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -4583,6 +4663,9 @@
       },
       {
         "objectName": "Score_label"
+      },
+      {
+        "objectName": "levelsettings"
       }
     ]
   },
