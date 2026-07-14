@@ -3980,6 +3980,22 @@
         "name": "Settings Button Level.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "BG.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BG.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "BackButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BackButton.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -4632,6 +4648,67 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "sunsetBG",
+      "persistentUuid": "9e6e214d-4921-4115-8f5d-27381c0f6837",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "BG.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -4666,6 +4743,9 @@
       },
       {
         "objectName": "levelsettings"
+      },
+      {
+        "objectName": "sunsetBG"
       }
     ]
   },
