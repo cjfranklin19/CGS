@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.4201106106001813,
+    "zoomFactor": 0.4448515998886656,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -29,223 +29,186 @@
   "variables": [
     {
       "name": "BinaryString",
-      "persistentUuid": "4ef25c8f-96e7-4626-beba-48889ef08f51",
       "type": "string",
       "value": ""
     },
     {
       "name": "BitCount",
-      "persistentUuid": "8c9536da-7d12-4ca6-ac6f-2a821fa9955e",
       "type": "number",
       "value": 0
     },
     {
       "name": "HexLow",
-      "persistentUuid": "e307b728-4dde-46ff-b89f-a7ef5479a997",
       "type": "number",
       "value": 0
     },
     {
       "name": "HexHigh",
-      "persistentUuid": "1bbb0c85-b6c4-44ed-a3f7-d87ca0221882",
       "type": "number",
       "value": 0
     },
     {
       "name": "TargetHex",
-      "persistentUuid": "2a9a36e4-e3b9-4dde-b643-f8328abc34b4",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit0",
-      "persistentUuid": "aae2ed2f-8c5e-427d-ae48-ab6dfc0deaf7",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit1",
-      "persistentUuid": "3a2aa497-bd84-43a9-a99a-e2d79cdb833c",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit2",
-      "persistentUuid": "b22c2daf-c3fb-4b65-8950-88566cf9f540",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit3",
-      "persistentUuid": "05759bd7-2b92-4c48-9967-e74b9b027123",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit4",
-      "persistentUuid": "19f0bd93-5c6d-47b0-8dd5-332bcb816c1a",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit5",
-      "persistentUuid": "220eff37-4dc8-42fd-8464-75b0ae2e3a69",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit6",
-      "persistentUuid": "31947efc-88a8-4669-8818-e075e8a79cde",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit7",
-      "persistentUuid": "18d43112-f05f-4e4e-876d-afe4af2beaf6",
       "type": "number",
       "value": 0
     },
     {
       "name": "HexLowText",
-      "persistentUuid": "eb43c05b-6c39-4eb6-935e-0a9964e921bf",
       "type": "string",
       "value": ""
     },
     {
       "name": "HexHighText",
-      "persistentUuid": "602a2f2d-b625-4dce-9205-5916b1b55682",
       "type": "string",
       "value": ""
     },
     {
       "name": "PlayerAnswer",
-      "persistentUuid": "345d7e9a-674f-4234-a323-54f88b07fa28",
       "type": "string",
       "value": ""
     },
     {
       "name": "PlayerNumber",
-      "persistentUuid": "7e2d3454-beed-4cfe-8443-5ad9d516c1fe",
       "type": "number",
       "value": 0
     },
     {
       "name": "ResultText",
-      "persistentUuid": "914892c9-ee90-4956-8529-e2a24dc80835",
       "type": "string",
       "value": ""
     },
     {
       "name": "score",
-      "persistentUuid": "95a3894b-4f53-4a70-bd4c-4cb776e88ddd",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionsAnswered",
-      "persistentUuid": "86dc4419-5ee2-4121-834d-35ecd73c94bf",
       "type": "number",
       "value": 0
     },
     {
       "name": "levelQuestions",
-      "persistentUuid": "a5ff189e-363c-498a-9c34-469bcfa3cb4a",
       "type": "number",
       "value": 5
     },
     {
       "name": "questionOpen",
-      "persistentUuid": "febba879-0802-4413-a23d-358e5515fdca",
       "type": "boolean",
       "value": true
     },
     {
       "name": "inputLocked",
-      "persistentUuid": "baafd79d-2795-43c1-932f-f53b282c094d",
       "type": "boolean",
       "value": false
     },
     {
       "name": "startNextQuestion",
-      "persistentUuid": "000ff298-8adc-48cf-9d04-7150556104ba",
       "type": "boolean",
       "value": true
     },
     {
       "name": "hintOpen",
-      "persistentUuid": "972b00a9-d273-4afe-9604-49a7203c512d",
       "type": "boolean",
       "value": false
     },
     {
       "name": "elapsedQuestionTime",
-      "persistentUuid": "de43dc1a-85ef-478c-be49-cff37267709e",
       "type": "number",
       "value": 0
     },
     {
       "name": "correctAnswers",
-      "persistentUuid": "53d545ad-b4a6-4792-9e1b-f846b9fbe991",
       "type": "number",
       "value": 0
     },
     {
       "name": "streak",
-      "persistentUuid": "bcafad7a-8a77-4c7e-821c-3f612119f52e",
       "type": "number",
       "value": 0
     },
     {
       "name": "highestStreak",
-      "persistentUuid": "4b453877-78e1-43bc-b92a-3fa00db33d3c",
       "type": "number",
       "value": 0
     },
     {
       "name": "incorrectAnswers",
-      "persistentUuid": "4a32e062-68e8-4f31-b9f1-dd09e55e87ce",
       "type": "number",
       "value": 0
     },
     {
       "name": "timeLimit",
-      "persistentUuid": "3ae24ec4-acfe-480c-a6de-1e08e0c0ed3f",
       "type": "number",
       "value": 30
     },
     {
       "name": "mult",
-      "persistentUuid": "93d8ad3f-00bd-4dba-8331-74c91f4643d1",
       "type": "number",
       "value": 0
     },
     {
       "name": "cityPower",
-      "persistentUuid": "7e799f98-4593-4ef4-9fc3-0c2e692c6ee9",
       "type": "number",
       "value": 0
     },
     {
       "name": "basePoints",
-      "persistentUuid": "736627b8-8060-4abd-ba28-472a096f0819",
       "type": "number",
       "value": 100
     },
     {
       "name": "penalty",
-      "persistentUuid": "2df16a6e-6297-480b-a460-525ea6ac5a5a",
       "type": "number",
       "value": 50
     },
     {
       "name": "hintUsedThisQuestion",
-      "persistentUuid": "5d3f86d2-c73e-4067-9f67-5abf30ba5da6",
       "type": "number",
       "value": 0
     },
     {
       "name": "wrongStreak",
-      "persistentUuid": "337c36d6-c4cf-4fda-9ddf-6020782c45be",
       "type": "number",
       "value": 0
     }
@@ -253,15 +216,16 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 73,
       "keepRatio": true,
       "layer": "",
       "name": "BinaryDisplay",
       "persistentUuid": "52e7262e-ad51-40d5-8ba5-f56f47da8a42",
-      "width": 0,
-      "x": 435,
-      "y": 304,
+      "width": 1332,
+      "x": 354,
+      "y": 700,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -276,8 +240,8 @@
       "name": "AnswerDisplay",
       "persistentUuid": "d7a5f115-f193-428d-8ab2-67bae3f725a2",
       "width": 0,
-      "x": 893,
-      "y": 449,
+      "x": 490,
+      "y": 773,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -285,15 +249,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 76,
       "keepRatio": true,
       "layer": "",
       "name": "SCORE",
       "persistentUuid": "a9265870-43b9-4587-a45d-6be46e8fcea4",
-      "width": 0,
-      "x": 155,
-      "y": 63,
+      "width": 364,
+      "x": 1190,
+      "y": 575,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -308,8 +273,8 @@
       "name": "Feedback2",
       "persistentUuid": "5732971c-d674-4d99-84cb-9abf5f96d89f",
       "width": 0,
-      "x": 860,
-      "y": 581,
+      "x": 771,
+      "y": 700,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -538,15 +503,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 80,
       "keepRatio": true,
       "layer": "",
       "name": "Letter_KeyD",
       "persistentUuid": "30122e94-25f3-4b53-86ea-3dd479e5e6ca",
-      "width": 0,
-      "x": 1242,
-      "y": 904,
+      "width": 80,
+      "x": 1213,
+      "y": 873,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -554,15 +520,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 80,
       "keepRatio": true,
       "layer": "",
       "name": "Letter_KeyE",
       "persistentUuid": "36fe7ed3-9571-4bd9-bf5a-adb620983d22",
-      "width": 0,
-      "x": 1152,
-      "y": 1427,
+      "width": 80,
+      "x": 1313,
+      "y": 873,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -570,15 +537,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 80,
       "keepRatio": true,
       "layer": "",
       "name": "Letter_KeyF",
       "persistentUuid": "65990e03-41ca-46dd-b132-9666ad47376a",
-      "width": 0,
-      "x": 1650,
-      "y": 1232,
+      "width": 80,
+      "x": 1413,
+      "y": 873,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -587,47 +555,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 164,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Submit_Button",
-      "persistentUuid": "12132562-7a44-488b-9e32-d3b4ba5cbf39",
-      "width": 199,
-      "x": 2352,
-      "y": 778,
-      "zOrder": 22,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "finishButton",
-      "persistentUuid": "0b5beaed-1b12-49d1-a8bc-bde8f85f0a47",
-      "width": 0,
-      "x": 2251,
-      "y": 508,
-      "zOrder": 23,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "depth": 0,
+      "height": 64,
       "keepRatio": true,
       "layer": "",
       "name": "Backspace_Alt_Key",
       "persistentUuid": "e3bf1bf2-df92-451d-9653-c4ad4c7505b5",
-      "width": 0,
-      "x": 2123,
-      "y": 986,
+      "width": 122,
+      "x": 1535,
+      "y": 773,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -642,8 +578,8 @@
       "name": "StreakText",
       "persistentUuid": "afd556c5-0daf-4ae5-8c6b-74664b72c8f7",
       "width": 0,
-      "x": 882,
-      "y": 71,
+      "x": 613,
+      "y": 575,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -658,8 +594,8 @@
       "name": "Timer",
       "persistentUuid": "a288a643-bfb0-427b-ae3e-5d794f24658d",
       "width": 0,
-      "x": 1570,
-      "y": 57,
+      "x": 905,
+      "y": 575,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -669,15 +605,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 204,
+      "height": 490,
       "keepRatio": true,
       "layer": "",
       "name": "storybox",
       "persistentUuid": "b2250b4c-b44d-42e1-af12-d529a8b5634e",
-      "width": 1374,
-      "x": 274,
-      "y": 201,
-      "zOrder": 27,
+      "width": 1801,
+      "x": 67,
+      "y": 3,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -692,8 +628,8 @@
       "name": "Story_text",
       "persistentUuid": "e03325c4-0516-48e8-8b1a-28c1538a4864",
       "width": 1295,
-      "x": 327,
-      "y": 242,
+      "x": 294,
+      "y": 228,
       "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
@@ -701,15 +637,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
+      "customSize": true,
+      "depth": 0,
+      "height": 174,
       "layer": "",
       "name": "FinishButton",
       "persistentUuid": "54d4cd1d-bd75-4a1b-a94e-21c4e97dd143",
-      "width": 0,
-      "x": 2002,
-      "y": 631,
+      "width": 200,
+      "x": 875,
+      "y": 930,
       "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
@@ -717,15 +653,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
+      "customSize": true,
+      "depth": 1,
+      "height": 55,
       "layer": "",
-      "name": "submit_button",
-      "persistentUuid": "e42d613f-660c-46b4-8896-444fb2d410c6",
-      "width": 0,
-      "x": 1903,
-      "y": 466,
+      "name": "Decimal",
+      "persistentUuid": "f03cb856-0a20-420a-8bc0-b198200472f9",
+      "width": 305,
+      "x": 238,
+      "y": 773,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -746,13 +682,13 @@
       "effects": [],
       "behaviors": [],
       "string": "Text",
-      "font": "",
+      "font": "Not Jam Mono Clean15.ttf",
       "textAlignment": "left",
-      "characterSize": 65,
+      "characterSize": 50,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -769,12 +705,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "Text",
-        "font": "",
+        "font": "Not Jam Mono Clean15.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 65,
+        "characterSize": 50,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "150;198;146"
       }
     },
     {
@@ -899,7 +835,7 @@
       "string": "Time",
       "font": "Not Jam Mono Clean15.ttf",
       "textAlignment": "left",
-      "characterSize": 100,
+      "characterSize": 65,
       "color": {
         "b": 146,
         "g": 198,
@@ -923,7 +859,7 @@
         "font": "Not Jam Mono Clean15.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 100,
+        "characterSize": 65,
         "lineHeight": 0,
         "color": "150;198;146"
       }
@@ -943,7 +879,7 @@
       "string": "0",
       "font": "Not Jam Mono Clean15.ttf",
       "textAlignment": "left",
-      "characterSize": 70,
+      "characterSize": 65,
       "color": {
         "b": 146,
         "g": 198,
@@ -967,7 +903,7 @@
         "font": "Not Jam Mono Clean15.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 70,
+        "characterSize": 65,
         "lineHeight": 0,
         "color": "150;198;146"
       }
@@ -13579,7 +13515,7 @@
       "string": "Text",
       "font": "Not Jam Mono Clean15.ttf",
       "textAlignment": "left",
-      "characterSize": 80,
+      "characterSize": 50,
       "color": {
         "b": 146,
         "g": 198,
@@ -13603,7 +13539,7 @@
         "font": "Not Jam Mono Clean15.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 80,
+        "characterSize": 50,
         "lineHeight": 0,
         "color": "150;198;146"
       }
@@ -13793,7 +13729,7 @@
       "string": "0",
       "font": "Not Jam Mono Clean15.ttf",
       "textAlignment": "left",
-      "characterSize": 80,
+      "characterSize": 65,
       "color": {
         "b": 146,
         "g": 198,
@@ -13817,7 +13753,7 @@
         "font": "Not Jam Mono Clean15.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 80,
+        "characterSize": 65,
         "lineHeight": 0,
         "color": "150;198;146"
       }
@@ -15159,6 +15095,121 @@
         "lineHeight": 0,
         "color": "150;198;146"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Decimal",
+      "persistentUuid": "3abd76ca-3629-4569-ae79-0ed2a83e5bfc",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Decimal:",
+      "font": "Not Jam Mono Clean15.ttf",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 146,
+        "g": 198,
+        "r": 150
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Decimal:",
+        "font": "Not Jam Mono Clean15.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 50,
+        "lineHeight": 0,
+        "color": "150;198;146"
+      }
+    },
+    {
+      "assetStoreId": "b7b916614570780a0e1ee277966a3cd49566347fde75ac0c0c7a95554156b4e9",
+      "bottomMargin": 12,
+      "height": 48,
+      "leftMargin": 12,
+      "name": "hintbox",
+      "persistentUuid": "c16acc85-6e78-4dfa-8947-1bb5caa1fc82",
+      "rightMargin": 12,
+      "texture": "Default-panel (2).png",
+      "tiled": false,
+      "topMargin": 12,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 48,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Hint",
+      "persistentUuid": "e631d3c9-d5c4-4ef3-bd96-470cf764da37",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.06,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        }
+      ],
+      "string": "hinty",
+      "font": "Not Jam Mono Clean15.ttf",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 146,
+        "g": 198,
+        "r": 150
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "hinty",
+        "font": "Not Jam Mono Clean15.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "150;198;146"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -15249,7 +15300,16 @@
         "objectName": "storybox"
       },
       {
+        "objectName": "hintbox"
+      },
+      {
         "objectName": "Story_text"
+      },
+      {
+        "objectName": "Hint"
+      },
+      {
+        "objectName": "Decimal"
       }
     ]
   },

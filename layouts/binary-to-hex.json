@@ -580,7 +580,7 @@
       "persistentUuid": "c7649da1-2d50-45e0-9e98-3521e88d2094",
       "width": 0,
       "x": 490,
-      "y": 838,
+      "y": 773,
       "zOrder": 53,
       "numberProperties": [],
       "stringProperties": [],
@@ -596,7 +596,7 @@
       "persistentUuid": "c8201196-34a9-43e6-8786-fb63786c484b",
       "width": 0,
       "x": 238,
-      "y": 838,
+      "y": 773,
       "zOrder": 54,
       "numberProperties": [],
       "stringProperties": [],
@@ -13665,6 +13665,18 @@
         "lineHeight": 0,
         "color": "150;198;146"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "persistentUuid": "702df75b-a793-45ab-b0b1-aae0b1ef695e",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
     }
   ],
   "objectsFolderStructure": {
@@ -13738,6 +13750,9 @@
       },
       {
         "objectName": "Decimal_"
+      },
+      {
+        "objectName": "NewSprite"
       },
       {
         "objectName": "Letter_KeyE"
