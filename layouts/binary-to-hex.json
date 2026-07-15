@@ -650,6 +650,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "townhouses",
+      "persistentUuid": "03bad97a-151f-4e3f-808c-d855c3834e0c",
+      "width": 0,
+      "x": 170,
+      "y": 74,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -13669,14 +13685,63 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite",
+      "name": "townhouses",
       "persistentUuid": "702df75b-a793-45ab-b0b1-aae0b1ef695e",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "animations": []
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Binary to hex7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 289,
+                        "y": 112
+                      },
+                      {
+                        "x": 1209,
+                        "y": 112
+                      },
+                      {
+                        "x": 1209,
+                        "y": 375
+                      },
+                      {
+                        "x": 289,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -13752,7 +13817,7 @@
         "objectName": "Decimal_"
       },
       {
-        "objectName": "NewSprite"
+        "objectName": "townhouses"
       },
       {
         "objectName": "Letter_KeyE"

@@ -29,191 +29,229 @@
   "variables": [
     {
       "name": "BinaryString",
+      "persistentUuid": "60e458a6-7ca7-4cf2-ba97-a6f952e5afde",
       "type": "string",
       "value": ""
     },
     {
       "name": "BitCount",
+      "persistentUuid": "fa7450f5-3896-42ac-96ac-1a116a5645f9",
       "type": "number",
       "value": 0
     },
     {
       "name": "TargetBinary",
+      "persistentUuid": "8348a835-d788-4a92-add2-00081dc743fd",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit0",
+      "persistentUuid": "bc660fd1-2918-4e71-a004-92498b2b31ea",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit1",
+      "persistentUuid": "1dda4a55-bbd2-4230-ae06-fc63807723ea",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit2",
+      "persistentUuid": "398b0b67-b817-4db9-bce3-00636e925bdc",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit3",
+      "persistentUuid": "2a0b6984-750c-4ff2-bfe4-d3235e12bc9d",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit4",
+      "persistentUuid": "b67344b9-9a5b-470f-a6af-d95d86e9ed6a",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit5",
+      "persistentUuid": "8838b352-8a37-4094-a4ff-5ed3fa555d20",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit6",
+      "persistentUuid": "82a926fa-aa0a-4865-8851-171528d43c64",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit7",
+      "persistentUuid": "59002297-6f24-4da6-956e-f4ae6a28e237",
       "type": "number",
       "value": 0
     },
     {
       "name": "DecNumText",
+      "persistentUuid": "8c701737-fd0c-4f64-8681-da9f59bea51f",
       "type": "string",
       "value": ""
     },
     {
       "name": "HexHighText",
+      "persistentUuid": "0393dcbb-ed12-4764-8030-2ba01b72f985",
       "type": "string",
       "value": ""
     },
     {
       "name": "PlayerAnswer",
+      "persistentUuid": "45c5f95c-cc48-4b39-bcfc-c050d58e2595",
       "type": "string",
       "value": ""
     },
     {
       "name": "PlayerNumber",
+      "persistentUuid": "b3d3e081-d938-42c9-bdb8-ef0ebb9e4abd",
       "type": "number",
       "value": 0
     },
     {
       "name": "ResultText",
+      "persistentUuid": "d8dcc13c-aaef-497c-b612-652764ad8dab",
       "type": "string",
       "value": ""
     },
     {
       "name": "score",
+      "persistentUuid": "95e1f628-29db-4332-b1bf-4196614c12af",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionsAnswered",
+      "persistentUuid": "262c6086-eeee-466b-b913-562522d7c5cf",
       "type": "number",
       "value": 0
     },
     {
       "name": "levelQuestions",
+      "persistentUuid": "7840023c-2506-4945-affb-3b07a0f5b02f",
       "type": "number",
       "value": 5
     },
     {
       "name": "questionOpen",
+      "persistentUuid": "d3b75995-8641-4aff-92be-1eab3e398230",
       "type": "boolean",
       "value": true
     },
     {
       "name": "inputLocked",
+      "persistentUuid": "5c65bbc0-a97e-4eac-a790-e40f2299e19a",
       "type": "boolean",
       "value": false
     },
     {
       "name": "startNextQuestion",
+      "persistentUuid": "4fa19d03-5bdc-4a7f-a55a-30a27704c758",
       "type": "boolean",
       "value": true
     },
     {
       "name": "hintOpen",
+      "persistentUuid": "7ca6b519-9244-46e6-aca2-d549275387aa",
       "type": "boolean",
       "value": false
     },
     {
       "name": "elapsedQuestionTime",
+      "persistentUuid": "4119a322-48a9-4778-987a-a9158bc26012",
       "type": "number",
       "value": 0
     },
     {
       "name": "correctAnswers",
+      "persistentUuid": "48d296f5-ef13-4172-8fb7-16d53e402f39",
       "type": "number",
       "value": 0
     },
     {
       "name": "streak",
+      "persistentUuid": "0719f9d5-b68d-43ca-9333-c8c1cd1751e8",
       "type": "number",
       "value": 0
     },
     {
       "name": "highestStreak",
+      "persistentUuid": "26e2b623-119b-49f7-a4dd-22ddc4a66c27",
       "type": "number",
       "value": 0
     },
     {
       "name": "incorrectAnswers",
+      "persistentUuid": "f69d2d11-ffd5-4f52-bf9e-95d8d355f734",
       "type": "number",
       "value": 0
     },
     {
       "name": "timeLimit",
+      "persistentUuid": "5e0296f3-557c-477b-a17d-d6d531633dc3",
       "type": "number",
       "value": 30
     },
     {
       "name": "mult",
+      "persistentUuid": "b9ab69ab-bfab-4ba9-9c6a-c9a5e342474d",
       "type": "number",
       "value": 0
     },
     {
       "name": "cityPower",
+      "persistentUuid": "e78a5954-980a-4908-a35a-8c13a1cee2bd",
       "type": "number",
       "value": 0
     },
     {
       "name": "basePoints",
+      "persistentUuid": "1b174fba-fd6d-4a5f-b649-7da9866b789c",
       "type": "number",
       "value": 100
     },
     {
       "name": "penalty",
+      "persistentUuid": "9b8e0da6-06cd-4537-82dc-ddd65af9aa74",
       "type": "number",
       "value": 50
     },
     {
       "name": "hintUsedThisQuestion",
+      "persistentUuid": "d08ea7ab-8105-4cc2-a06b-71d2ce0de8bd",
       "type": "number",
       "value": 0
     },
     {
       "name": "wrongStreak",
+      "persistentUuid": "d41a3099-90d8-4f5d-ac7b-348c56857ee3",
       "type": "number",
       "value": 0
     },
     {
       "name": "DecNum",
+      "persistentUuid": "78ea43ce-28ea-49c7-a7d8-add96d94a134",
       "type": "number",
       "value": 0
     },
     {
       "name": "targetOct",
+      "persistentUuid": "2f833cfd-96c7-43d0-8ca0-f08cf6492f01",
       "type": "string",
       "value": ""
     },
     {
       "name": "targetBin",
+      "persistentUuid": "2658238d-32a0-49cf-b79a-09f170893c7e",
       "type": "string",
       "value": ""
     }
@@ -552,9 +590,9 @@
       "name": "Story_text",
       "persistentUuid": "70027a2f-d2e1-4024-af55-54f39990a02a",
       "width": 1466,
-      "x": 541,
-      "y": -267,
-      "zOrder": 33,
+      "x": 239,
+      "y": 136,
+      "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -572,6 +610,56 @@
       "x": 54,
       "y": -572,
       "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "police",
+      "persistentUuid": "85504130-c9be-46f7-97be-8e98f6d81251",
+      "width": 0,
+      "x": 135,
+      "y": 44,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 452,
+      "keepRatio": true,
+      "layer": "",
+      "name": "hintbox",
+      "persistentUuid": "2198dec3-7dab-41fe-8719-d7720080349d",
+      "width": 1645,
+      "x": 174,
+      "y": -513,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 446,
+      "keepRatio": true,
+      "layer": "",
+      "name": "storybox",
+      "persistentUuid": "1d124efb-16a6-4e35-a799-653ba49357cb",
+      "width": 1601,
+      "x": 134,
+      "y": -3,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -13825,6 +13913,84 @@
         "lineHeight": 0,
         "color": "150;198;146"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "police",
+      "persistentUuid": "9194ec97-85bc-4d81-bd53-40dc8b6022a2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Binary to octal.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 199,
+                        "y": 40
+                      },
+                      {
+                        "x": 1564,
+                        "y": 40
+                      },
+                      {
+                        "x": 1564,
+                        "y": 375
+                      },
+                      {
+                        "x": 199,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "b7b916614570780a0e1ee277966a3cd49566347fde75ac0c0c7a95554156b4e9",
+      "bottomMargin": 12,
+      "height": 48,
+      "leftMargin": 12,
+      "name": "hintbox",
+      "persistentUuid": "ee5cc537-99bc-4731-a9a2-c33250506788",
+      "rightMargin": 12,
+      "texture": "Default-panel (2).png",
+      "tiled": false,
+      "topMargin": 12,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 48,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -13919,6 +14085,12 @@
       },
       {
         "objectName": "storybox"
+      },
+      {
+        "objectName": "hintbox"
+      },
+      {
+        "objectName": "police"
       }
     ]
   },

@@ -4075,6 +4075,22 @@
         "name": "HardButton.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Binary to hex7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Binary to hex7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Binary to octal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Binary to octal.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },

@@ -15210,6 +15210,18 @@
         "lineHeight": 0,
         "color": "150;198;146"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "persistentUuid": "a3a21081-9ed8-4b0f-87d1-602cbd05bcd8",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
     }
   ],
   "objectsFolderStructure": {
@@ -15298,6 +15310,9 @@
       },
       {
         "objectName": "storybox"
+      },
+      {
+        "objectName": "NewSprite"
       },
       {
         "objectName": "hintbox"
