@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 273,
+    "build": 274,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -4255,7 +4255,7 @@
       {
         "file": "Cumulative door21.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Cumulative door21.png\",\"extension\":\".png\"}",
         "name": "Cumulative door21.png",
         "smoothed": true,
         "userAdded": false
@@ -4263,7 +4263,7 @@
       {
         "file": "Cumulative door22.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Cumulative door22.png\",\"extension\":\".png\"}",
         "name": "Cumulative door22.png",
         "smoothed": true,
         "userAdded": false
@@ -4271,7 +4271,7 @@
       {
         "file": "Cumulative door23.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Cumulative door23.png\",\"extension\":\".png\"}",
         "name": "Cumulative door23.png",
         "smoothed": true,
         "userAdded": false
@@ -4279,7 +4279,7 @@
       {
         "file": "Cumulative door24.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Cumulative door24.png\",\"extension\":\".png\"}",
         "name": "Cumulative door24.png",
         "smoothed": true,
         "userAdded": false
@@ -4287,7 +4287,7 @@
       {
         "file": "Cumulative door25.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Cumulative door25.png\",\"extension\":\".png\"}",
         "name": "Cumulative door25.png",
         "smoothed": true,
         "userAdded": false
@@ -4295,7 +4295,7 @@
       {
         "file": "Cumulative door26.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Cumulative door26.png\",\"extension\":\".png\"}",
         "name": "Cumulative door26.png",
         "smoothed": true,
         "userAdded": false
@@ -4303,7 +4303,7 @@
       {
         "file": "Cumulative door27.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Cumulative door27.png\",\"extension\":\".png\"}",
         "name": "Cumulative door27.png",
         "smoothed": true,
         "userAdded": false
@@ -4311,7 +4311,7 @@
       {
         "file": "Cumulative door28.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Cumulative door28.png\",\"extension\":\".png\"}",
         "name": "Cumulative door28.png",
         "smoothed": true,
         "userAdded": false
@@ -4319,7 +4319,7 @@
       {
         "file": "Cumulative door29.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Cumulative door29.png\",\"extension\":\".png\"}",
         "name": "Cumulative door29.png",
         "smoothed": true,
         "userAdded": false
@@ -4327,7 +4327,7 @@
       {
         "file": "Cumulative door30.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Cumulative door30.png\",\"extension\":\".png\"}",
         "name": "Cumulative door30.png",
         "smoothed": true,
         "userAdded": false
@@ -4335,7 +4335,7 @@
       {
         "file": "Cumulative door31.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Cumulative door31.png\",\"extension\":\".png\"}",
         "name": "Cumulative door31.png",
         "smoothed": true,
         "userAdded": false
@@ -4343,7 +4343,7 @@
       {
         "file": "Cumulative door32.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Cumulative door32.png\",\"extension\":\".png\"}",
         "name": "Cumulative door32.png",
         "smoothed": true,
         "userAdded": false
@@ -4351,7 +4351,7 @@
       {
         "file": "Cumulative door33.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Cumulative door33.png\",\"extension\":\".png\"}",
         "name": "Cumulative door33.png",
         "smoothed": true,
         "userAdded": false
@@ -4359,7 +4359,7 @@
       {
         "file": "Cumulative door34.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Cumulative door34.png\",\"extension\":\".png\"}",
         "name": "Cumulative door34.png",
         "smoothed": true,
         "userAdded": false
@@ -4367,7 +4367,7 @@
       {
         "file": "Cumulative door35.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Cumulative door35.png\",\"extension\":\".png\"}",
         "name": "Cumulative door35.png",
         "smoothed": true,
         "userAdded": false
@@ -4375,7 +4375,7 @@
       {
         "file": "Cumulative door36.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Cumulative door36.png\",\"extension\":\".png\"}",
         "name": "Cumulative door36.png",
         "smoothed": true,
         "userAdded": false
@@ -4383,7 +4383,7 @@
       {
         "file": "Cumulative door37.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Cumulative door37.png\",\"extension\":\".png\"}",
         "name": "Cumulative door37.png",
         "smoothed": true,
         "userAdded": false
@@ -4391,7 +4391,7 @@
       {
         "file": "Cumulative door38.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Cumulative door38.png\",\"extension\":\".png\"}",
         "name": "Cumulative door38.png",
         "smoothed": true,
         "userAdded": false
@@ -4399,7 +4399,7 @@
       {
         "file": "Cumulative door39.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Cumulative door39.png\",\"extension\":\".png\"}",
         "name": "Cumulative door39.png",
         "smoothed": true,
         "userAdded": false
@@ -4407,7 +4407,7 @@
       {
         "file": "Cumulative door40.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Cumulative door40.png\",\"extension\":\".png\"}",
         "name": "Cumulative door40.png",
         "smoothed": true,
         "userAdded": false
@@ -4431,7 +4431,7 @@
       {
         "file": "Cumulative door43.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Cumulative door43.png\",\"extension\":\".png\"}",
         "name": "Cumulative door43.png",
         "smoothed": true,
         "userAdded": false
@@ -4439,7 +4439,7 @@
       {
         "file": "Cumulative door44.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Cumulative door44.png\",\"extension\":\".png\"}",
         "name": "Cumulative door44.png",
         "smoothed": true,
         "userAdded": false
@@ -4447,7 +4447,7 @@
       {
         "file": "Cumulative door45.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Cumulative door45.png\",\"extension\":\".png\"}",
         "name": "Cumulative door45.png",
         "smoothed": true,
         "userAdded": false
@@ -4455,7 +4455,7 @@
       {
         "file": "Cumulative door46.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Cumulative door46.png\",\"extension\":\".png\"}",
         "name": "Cumulative door46.png",
         "smoothed": true,
         "userAdded": false
@@ -4487,7 +4487,7 @@
       {
         "file": "Cumulative door50.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Cumulative door50.png\",\"extension\":\".png\"}",
         "name": "Cumulative door50.png",
         "smoothed": true,
         "userAdded": false
@@ -4503,7 +4503,7 @@
       {
         "file": "Cumulative door52.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Cumulative door52.png\",\"extension\":\".png\"}",
         "name": "Cumulative door52.png",
         "smoothed": true,
         "userAdded": false
@@ -4511,8 +4511,176 @@
       {
         "file": "Cumulative door53.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Cumulative door53.png\",\"extension\":\".png\"}",
         "name": "Cumulative door53.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fullAnimation.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fullAnimation",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fullAnimation2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fullAnimation2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fullAnimation3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fullAnimation3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fullAnimation4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fullAnimation4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fullAnimation5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fullAnimation5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fullAnimation6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fullAnimation6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fullAnimation7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fullAnimation7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fullAnimation8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fullAnimation8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fullAnimation9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fullAnimation9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fullAnimation10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fullAnimation10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fullAnimation11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fullAnimation11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fullAnimation12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fullAnimation12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fullAnimation13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fullAnimation13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fullAnimation14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fullAnimation14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fullAnimation15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fullAnimation15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fullAnimation16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fullAnimation16",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fullAnimation17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fullAnimation17",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fullAnimation18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fullAnimation18",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fullAnimation19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fullAnimation19",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fullAnimation20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fullAnimation20",
         "smoothed": true,
         "userAdded": false
       }

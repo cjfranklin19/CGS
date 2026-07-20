@@ -29,186 +29,223 @@
   "variables": [
     {
       "name": "BinaryString",
+      "persistentUuid": "f7712403-23bc-4d8b-a6c3-8b4e0c9364d4",
       "type": "string",
       "value": ""
     },
     {
       "name": "BitCount",
+      "persistentUuid": "05b65283-6f72-46a1-81b6-954b398596fe",
       "type": "number",
       "value": 0
     },
     {
       "name": "HexLow",
+      "persistentUuid": "36c44fd3-d9e2-45da-ada2-d8c5dd787742",
       "type": "number",
       "value": 0
     },
     {
       "name": "HexHigh",
+      "persistentUuid": "0f3f317d-4483-4a2b-be9f-6b5c8c632c82",
       "type": "number",
       "value": 0
     },
     {
       "name": "TargetHex",
+      "persistentUuid": "3e63861b-69d7-42e8-9a96-523c796a1827",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit0",
+      "persistentUuid": "c355da5b-91f7-43f4-a578-a0461b216748",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit1",
+      "persistentUuid": "82513371-83b4-44dd-983f-60d22947765e",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit2",
+      "persistentUuid": "c609d165-b962-46b3-b99f-c2a39635ba24",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit3",
+      "persistentUuid": "1ac9833c-95fd-405c-a294-36d28f4e0d64",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit4",
+      "persistentUuid": "151124d6-bbb4-42ec-b9ed-f28afafe1506",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit5",
+      "persistentUuid": "a0dd61f1-13ed-408a-9a55-5715fb857e5f",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit6",
+      "persistentUuid": "8f517c0a-b3b9-4a57-8f07-8e41a41b2e9b",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit7",
+      "persistentUuid": "74285076-10b8-40bb-8867-82c921a202ed",
       "type": "number",
       "value": 0
     },
     {
       "name": "HexLowText",
+      "persistentUuid": "d7da71f9-a66c-48a5-83e3-46a0e6ef82d4",
       "type": "string",
       "value": ""
     },
     {
       "name": "HexHighText",
+      "persistentUuid": "19a29c96-9f68-4fd2-aded-0a2d3c99905b",
       "type": "string",
       "value": ""
     },
     {
       "name": "PlayerAnswer",
+      "persistentUuid": "31ccb0b9-71d8-4c5d-b608-8dab02278e1e",
       "type": "string",
       "value": ""
     },
     {
       "name": "PlayerNumber",
+      "persistentUuid": "147cf3e5-1ec5-4133-a468-3d9d1dc4ef1f",
       "type": "number",
       "value": 0
     },
     {
       "name": "ResultText",
+      "persistentUuid": "66cf8a38-7322-4eaf-870e-5c717a56e917",
       "type": "string",
       "value": ""
     },
     {
       "name": "score",
+      "persistentUuid": "b2ff5bc5-a72d-4758-8a31-269478300374",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionsAnswered",
+      "persistentUuid": "6668ba14-c5cf-4ea8-9f1e-e2b315ba7626",
       "type": "number",
       "value": 0
     },
     {
       "name": "levelQuestions",
+      "persistentUuid": "82090d00-12b4-4138-bfa9-d86cda1f7168",
       "type": "number",
       "value": 5
     },
     {
       "name": "questionOpen",
+      "persistentUuid": "aea77f81-0e07-4866-97d5-5ab551dc858d",
       "type": "boolean",
       "value": true
     },
     {
       "name": "inputLocked",
+      "persistentUuid": "6410eac4-1195-4d01-ac14-0d364938b76a",
       "type": "boolean",
       "value": false
     },
     {
       "name": "startNextQuestion",
+      "persistentUuid": "24beea4d-55a7-445c-a2b3-cd185e745f16",
       "type": "boolean",
       "value": true
     },
     {
       "name": "hintOpen",
+      "persistentUuid": "98d77789-b6bf-4cf2-84be-c2d13f02b5cd",
       "type": "boolean",
       "value": false
     },
     {
       "name": "elapsedQuestionTime",
+      "persistentUuid": "fb4260c8-7843-48f7-b84b-3b7a3f5025dd",
       "type": "number",
       "value": 0
     },
     {
       "name": "correctAnswers",
+      "persistentUuid": "37b5f4e3-5bce-4ddf-a44e-e3c7e3128501",
       "type": "number",
       "value": 0
     },
     {
       "name": "streak",
+      "persistentUuid": "955b5a90-7642-42a5-a5de-4864eab10ff7",
       "type": "number",
       "value": 0
     },
     {
       "name": "highestStreak",
+      "persistentUuid": "86eb162d-425a-4635-8f3c-f07a28949abe",
       "type": "number",
       "value": 0
     },
     {
       "name": "incorrectAnswers",
+      "persistentUuid": "b37c2e8d-a41a-45bf-870e-590dc86e2cd3",
       "type": "number",
       "value": 0
     },
     {
       "name": "timeLimit",
+      "persistentUuid": "4ec56ccf-d12a-4fa6-a73c-96681dd39649",
       "type": "number",
       "value": 30
     },
     {
       "name": "mult",
+      "persistentUuid": "dcc672e0-49ba-4af6-ae01-fac6c68c49f6",
       "type": "number",
       "value": 0
     },
     {
       "name": "cityPower",
+      "persistentUuid": "6dc06c32-6fe9-4d39-9de3-95a65723b0a9",
       "type": "number",
       "value": 0
     },
     {
       "name": "basePoints",
+      "persistentUuid": "e5b9904d-6930-4f19-9564-8ec1ace63002",
       "type": "number",
       "value": 100
     },
     {
       "name": "penalty",
+      "persistentUuid": "bdb1e66e-5b3b-42f6-8a33-be52a0fec5ea",
       "type": "number",
       "value": 50
     },
     {
       "name": "hintUsedThisQuestion",
+      "persistentUuid": "6a280b0b-ddc9-446d-bb32-9c1254a0c0c5",
       "type": "number",
       "value": 0
     },
     {
       "name": "wrongStreak",
+      "persistentUuid": "3b0818a1-eb18-4fdf-8e36-08e230ed57c4",
       "type": "number",
       "value": 0
     }
@@ -14040,56 +14077,68 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "sound optics",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
-          "type": {
-            "value": "SceneJustResumed"
-          },
-          "parameters": [
-            ""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustResumed"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetSoundChannelVolume"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "GlobalVariable(Settings.MusicVolume)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustResumed"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetSoundChannelVolume"
+              },
+              "parameters": [
+                "",
+                "2",
+                "=",
+                "GlobalVariable(Settings.SFXVolume)"
+              ]
+            }
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetSoundChannelVolume"
-          },
-          "parameters": [
-            "",
-            "1",
-            "=",
-            "GlobalVariable(Settings.MusicVolume)"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SceneJustResumed"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetSoundChannelVolume"
-          },
-          "parameters": [
-            "",
-            "2",
-            "=",
-            "GlobalVariable(Settings.SFXVolume)"
-          ]
-        }
-      ]
+      "parameters": []
     },
     {
       "colorB": 228,

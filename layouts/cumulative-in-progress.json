@@ -120,201 +120,241 @@
   "variables": [
     {
       "name": "startNextQuestion",
+      "persistentUuid": "45667ed4-1778-4846-80dd-c0e3e7ca5a92",
       "type": "boolean",
       "value": true
     },
     {
       "name": "questionOpen",
+      "persistentUuid": "949564fe-0292-4461-bdfd-24efb555f0f5",
       "type": "boolean",
       "value": true
     },
     {
       "name": "inputLocked",
+      "persistentUuid": "b1d9588c-d6a3-4923-9eeb-0861c839befa",
       "type": "boolean",
       "value": false
     },
     {
       "name": "inputMode",
+      "persistentUuid": "c8dbfa21-a1f9-4d4f-9351-1b2fbfbd1c93",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionIndex",
+      "persistentUuid": "c754eef0-b5be-4792-ad63-ea07f34e5ae7",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionsAnswered",
+      "persistentUuid": "df152916-791e-40d8-9390-04d3c7e9e513",
       "type": "number",
       "value": 0
     },
     {
       "name": "levelQuestions",
+      "persistentUuid": "7b6b5002-c4a4-49a3-ad71-92282a903709",
       "type": "number",
       "value": 12
     },
     {
       "name": "elapsedQuestionTime",
+      "persistentUuid": "8defa714-21db-4e7c-b25e-ea9ae98422d2",
       "type": "number",
       "value": 0
     },
     {
       "name": "score",
+      "persistentUuid": "0e0ab6b8-9d7c-4704-b031-985f0e653bfd",
       "type": "number",
       "value": 0
     },
     {
       "name": "streak",
+      "persistentUuid": "7a53d841-53da-41d1-9bba-a97cebe6d7f4",
       "type": "number",
       "value": 0
     },
     {
       "name": "highestStreak",
+      "persistentUuid": "e8ef671b-af85-45e1-9889-564165545e0f",
       "type": "number",
       "value": 0
     },
     {
       "name": "numcorrectAnswers",
+      "persistentUuid": "d9972df1-6878-438f-a84f-95e8665d3414",
       "type": "number",
       "value": 0
     },
     {
       "name": "incorrectAnswers",
+      "persistentUuid": "6ad34e71-46a8-4d0c-b3f3-01372f011970",
       "type": "number",
       "value": 0
     },
     {
       "name": "TargetDecimal",
+      "persistentUuid": "ac29e079-edc2-4acf-9bc7-9d417e2f6e3d",
       "type": "number",
       "value": 0
     },
     {
       "name": "TargetHEX",
+      "persistentUuid": "e42a493c-f2f2-4a5c-b81a-454478999a30",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionText",
+      "persistentUuid": "d3ef201b-5427-4ab2-a2fd-9e5a8e3dbd47",
       "type": "string",
       "value": ""
     },
     {
       "name": "correctAnswerNumber",
+      "persistentUuid": "2b4cee02-a74b-46d8-b0f7-758b4686c42e",
       "type": "number",
       "value": 0
     },
     {
       "name": "correctAnswers",
+      "persistentUuid": "b2a2344f-fd9a-466d-8c6a-1c079d25d35b",
       "type": "string",
       "value": ""
     },
     {
       "name": "binaryTot",
+      "persistentUuid": "115b2618-13ef-4ea2-a9bd-81cbc65081c3",
       "type": "number",
       "value": 0
     },
     {
       "name": "PlayerAnswer",
+      "persistentUuid": "fb06b99d-9249-4e2e-bcc0-4b6aa1b7fb98",
       "type": "string",
       "value": ""
     },
     {
       "name": "resultText",
+      "persistentUuid": "80e08999-9491-444d-84c6-699567f596a9",
       "type": "string",
       "value": "\"\""
     },
     {
       "name": "targetNum",
+      "persistentUuid": "12942d90-ffd2-47ba-9598-707e6206db78",
       "type": "number",
       "value": 0
     },
     {
       "name": "basePoints",
+      "persistentUuid": "12da3955-1943-4a73-8b44-dbc683378551",
       "type": "number",
       "value": 100
     },
     {
       "name": "penalty",
+      "persistentUuid": "84118b55-558b-49ea-93d1-51575a84a453",
       "type": "number",
       "value": 50
     },
     {
       "name": "mult",
+      "persistentUuid": "e5d5a939-4666-43f5-94b6-19c297596cdc",
       "type": "number",
       "value": 1
     },
     {
       "name": "wrongStreak",
+      "persistentUuid": "272fc817-b5c5-44bd-a7b3-0c417f9aed38",
       "type": "number",
       "value": 0
     },
     {
       "name": "timeLimit",
+      "persistentUuid": "1abcc225-287c-4929-9db7-c1e577c5aba7",
       "type": "number",
       "value": 30
     },
     {
       "name": "hintPenalty",
+      "persistentUuid": "9b43f3ad-d39c-4907-8878-001a900bce2d",
       "type": "number",
       "value": 25
     },
     {
       "name": "hintOpen",
+      "persistentUuid": "39f3cc0e-f8de-4c48-af27-5469106b5f12",
       "type": "boolean",
       "value": false
     },
     {
       "name": "hintUsedThisQuestion",
+      "persistentUuid": "fbc2e9ef-5c42-407b-8909-05a7004509ac",
       "type": "number",
       "value": 0
     },
     {
       "name": "cityPower",
+      "persistentUuid": "5ba1a720-0db2-4d1a-9b5b-8236349d170e",
       "type": "number",
       "value": 0
     },
     {
       "name": "targetHex",
+      "persistentUuid": "959711e6-417b-43af-9b04-d290bab3828d",
       "type": "string",
       "value": ""
     },
     {
       "name": "hexDigit",
+      "persistentUuid": "902c2133-0468-43f8-9638-d7e8870859c5",
       "type": "number",
       "value": 0
     },
     {
       "name": "hexLetterVal",
+      "persistentUuid": "7ca8e14d-cfaf-4543-a363-9a1eccb20120",
       "type": "number",
       "value": 0
     },
     {
       "name": "hexLetter",
+      "persistentUuid": "b99f7735-472b-4912-b22c-cf6546bbeea9",
       "type": "string",
       "value": ""
     },
     {
       "name": "sourceValue",
+      "persistentUuid": "14a8cf90-eef3-4f73-8f09-1ccf6e50b3e0",
       "type": "number",
       "value": 0
     },
     {
       "name": "sourceBase",
+      "persistentUuid": "110ee0bc-bb0d-4c6d-9dba-c8d5963efd79",
       "type": "string",
       "value": ""
     },
     {
       "name": "targetBase",
+      "persistentUuid": "1df4ffb7-43d4-4609-83c1-36223454fa64",
       "type": "string",
       "value": ""
     },
     {
       "name": "checkingAnswer",
+      "persistentUuid": "ae2199cd-77ef-49be-b21a-f0af3eca0851",
       "type": "boolean",
       "value": false
     },
     {
       "name": "answerWasCorrect",
+      "persistentUuid": "fa6efa5a-ca96-4892-b605-67aae76405fc",
       "type": "boolean",
       "value": false
     }
@@ -1047,6 +1087,22 @@
       "x": 321,
       "y": 209,
       "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "doorLock",
+      "persistentUuid": "7ee077ab-22a9-4caf-a297-2bddad5b783e",
+      "width": 0,
+      "x": 1888,
+      "y": 170,
+      "zOrder": 53,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -16604,9 +16660,9 @@
       "textAlignment": "left",
       "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -16628,7 +16684,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 40,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "150;198;146"
       }
     },
     {
@@ -16648,11 +16704,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cumulative door21.png",
+                  "image": "fullAnimation",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16688,7 +16745,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cumulative door22.png",
+                  "image": "fullAnimation2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16724,7 +16781,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cumulative door23.png",
+                  "image": "fullAnimation3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16760,7 +16817,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cumulative door24.png",
+                  "image": "fullAnimation4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16796,7 +16853,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cumulative door25.png",
+                  "image": "fullAnimation5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16832,7 +16889,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cumulative door26.png",
+                  "image": "fullAnimation6",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16868,7 +16925,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cumulative door27.png",
+                  "image": "fullAnimation7",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16904,7 +16961,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cumulative door28.png",
+                  "image": "fullAnimation8",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16940,7 +16997,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cumulative door29.png",
+                  "image": "fullAnimation9",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16976,7 +17033,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cumulative door30.png",
+                  "image": "fullAnimation10",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17012,7 +17069,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cumulative door31.png",
+                  "image": "fullAnimation11",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17048,7 +17105,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cumulative door32.png",
+                  "image": "fullAnimation12",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17084,7 +17141,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cumulative door33.png",
+                  "image": "fullAnimation13",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17120,7 +17177,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cumulative door34.png",
+                  "image": "fullAnimation14",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17156,7 +17213,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cumulative door35.png",
+                  "image": "fullAnimation15",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17192,7 +17249,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cumulative door36.png",
+                  "image": "fullAnimation16",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17228,7 +17285,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cumulative door37.png",
+                  "image": "fullAnimation17",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17264,7 +17321,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cumulative door38.png",
+                  "image": "fullAnimation18",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17300,7 +17357,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cumulative door39.png",
+                  "image": "fullAnimation19",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17336,7 +17393,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cumulative door40.png",
+                  "image": "fullAnimation20",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17379,7 +17436,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite4",
+      "name": "doorLock",
       "persistentUuid": "1b66b5fd-ff68-40ae-a0bb-f6c8a7e5161d",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -17490,6 +17547,7 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -17538,6 +17596,7 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -17586,6 +17645,7 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -17634,6 +17694,7 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -17730,6 +17791,7 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -17874,6 +17936,7 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -17922,11 +17985,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cumulative door51.png",
+                  "image": "11",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17970,6 +18034,7 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -18148,7 +18213,7 @@
         "objectName": "door_animation"
       },
       {
-        "objectName": "NewSprite4"
+        "objectName": "doorLock"
       }
     ]
   },
@@ -22059,6 +22124,60 @@
       "isLightingLayer": false,
       "isLocked": false,
       "name": "panels",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Layer",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
