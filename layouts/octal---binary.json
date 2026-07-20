@@ -231,7 +231,7 @@
       "persistentUuid": "a6748144-dd77-45eb-b284-6cf156d6c29d",
       "width": 100,
       "x": 440,
-      "y": 822,
+      "y": 766,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -254,7 +254,7 @@
       "persistentUuid": "4d5100ef-8e2c-4aab-93c9-ffeb0f4903af",
       "width": 100,
       "x": 565,
-      "y": 822,
+      "y": 766,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -277,7 +277,7 @@
       "persistentUuid": "9c67ae53-b388-4a4c-9d5c-b30764c2ad83",
       "width": 105,
       "x": 695,
-      "y": 825,
+      "y": 769,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -294,7 +294,7 @@
       "persistentUuid": "e38de78b-49bc-4991-9308-d52f3db7a5d5",
       "width": 104,
       "x": 1100,
-      "y": 822,
+      "y": 766,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -311,7 +311,7 @@
       "persistentUuid": "9e6be75d-0aa5-4645-89e4-fddbd8fea88f",
       "width": 101,
       "x": 1247,
-      "y": 827,
+      "y": 771,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -328,7 +328,7 @@
       "persistentUuid": "d8dbce20-ba13-4d0d-a633-fa5d5f9d5f5e",
       "width": 96,
       "x": 1384,
-      "y": 826,
+      "y": 770,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -343,9 +343,9 @@
       "layer": "",
       "name": "TargetPrompt",
       "persistentUuid": "6399c03b-cf6d-44af-8960-63c15734d0aa",
-      "width": 908,
-      "x": 498,
-      "y": 725,
+      "width": 1408,
+      "x": 255,
+      "y": 695,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -360,9 +360,9 @@
       "layer": "",
       "name": "Feedback",
       "persistentUuid": "8c6be39b-a383-4944-9e7d-f239dcb0ecc2",
-      "width": 947,
-      "x": 477,
-      "y": 656,
+      "width": 1402,
+      "x": 255,
+      "y": 695,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -378,8 +378,8 @@
       "name": "TimerText",
       "persistentUuid": "492902c1-3e55-4307-b995-ec8a0a8ecd77",
       "width": 274,
-      "x": 2046,
-      "y": 536,
+      "x": 856,
+      "y": 576,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -504,22 +504,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite5",
-      "persistentUuid": "c1e113c2-01bc-42dc-9adf-67874d8ff1ba",
-      "width": 0,
-      "x": 164,
-      "y": 77,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 451,
@@ -528,7 +512,7 @@
       "name": "storybox",
       "persistentUuid": "91562a35-217d-45ff-a83c-b31c8eee8cc9",
       "width": 1724,
-      "x": 113,
+      "x": 83,
       "y": 25,
       "zOrder": 0,
       "numberProperties": [],
@@ -548,6 +532,22 @@
       "x": 243,
       "y": 194,
       "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Layer",
+      "name": "Hospital",
+      "persistentUuid": "3236cc68-0d10-4c85-9087-87e2fb45f498",
+      "width": 0,
+      "x": 162,
+      "y": 45,
+      "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1750,9 +1750,9 @@
       "textAlignment": "left",
       "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -1774,7 +1774,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 40,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "150;198;146"
       }
     },
     {
@@ -1969,7 +1969,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite5",
+      "name": "Hospital",
       "persistentUuid": "9f831c93-4a36-4e4c-b788-dec3d28a4daa",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -2121,7 +2121,7 @@
         "objectName": "NewSprite4"
       },
       {
-        "objectName": "NewSprite5"
+        "objectName": "Hospital"
       },
       {
         "objectName": "Switch_4"
@@ -2321,7 +2321,7 @@
             "value": "Hide"
           },
           "parameters": [
-            "finishButton"
+            "FinishButton"
           ]
         },
         {
@@ -2336,24 +2336,109 @@
         },
         {
           "type": {
-            "value": "PlaySound"
+            "value": "PlaySoundOnChannel"
           },
           "parameters": [
             "",
-            "levelbackmus.mp3",
-            "",
-            "2",
+            "timedlevelsfixed3.mp3",
+            "1",
+            "yes",
+            "GlobalVariable(Settings.MusicVolume)",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "FinishButton",
+            "ButtonFSM",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+          },
+          "parameters": [
+            "",
+            "\"level\"",
+            "-3",
+            "2",
+            "32"
+          ]
         }
-      ],
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "sound optics",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustResumed"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetSoundChannelVolume"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "GlobalVariable(Settings.MusicVolume)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustResumed"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetSoundChannelVolume"
+              },
+              "parameters": [
+                "",
+                "2",
+                "=",
+                "GlobalVariable(Settings.SFXVolume)"
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "parameters": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -2464,13 +2549,14 @@
         },
         {
           "type": {
-            "value": "PlaySound"
+            "value": "PlaySoundOnChannel"
           },
           "parameters": [
             "",
-            "switch off2.mp3",
-            "",
-            "25",
+            "switch off3.mp3",
+            "2",
+            "no",
+            "GlobalVariable(Settings.SFXVolume)",
             ""
           ]
         }
@@ -2535,13 +2621,14 @@
         },
         {
           "type": {
-            "value": "PlaySound"
+            "value": "PlaySoundOnChannel"
           },
           "parameters": [
             "",
-            "edr-switch-click-and-beep-001a-11602.mp3",
-            "",
-            "25",
+            "switch on2.mp3",
+            "2",
+            "no",
+            "GlobalVariable(Settings.SFXVolume)",
             ""
           ]
         }
@@ -2678,7 +2765,7 @@
                 "TargetPrompt",
                 "Text",
                 "=",
-                "\"Convert \" + targetOct + \" to Binary.\""
+                "\"Convert \" + targetOct + \" to Octal Binary.\""
               ]
             },
             {
@@ -2763,14 +2850,28 @@
             "value": "IsCursorOnObject"
           },
           "parameters": [
-            "Submit_Button",
+            "submit_button",
             "",
             "",
             ""
           ]
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySoundOnChannel"
+          },
+          "parameters": [
+            "",
+            "Keybutton click.mp3",
+            "2",
+            "no",
+            "GlobalVariable(Settings.SFXVolume)",
+            ""
+          ]
+        }
+      ],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -2889,6 +2990,19 @@
                 "Text",
                 "=",
                 "ToString(streak)"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "correct answer.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
               ]
             }
           ],
@@ -3332,8 +3446,18 @@
                     "value": "Show"
                   },
                   "parameters": [
-                    "finishButton",
+                    "FinishButton",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "FinishButton",
+                    "ButtonFSM",
+                    "yes"
                   ]
                 }
               ]
@@ -3491,6 +3615,19 @@
                 "TargetPrompt",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "incorrect answer.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
+              ]
             }
           ],
           "events": [
@@ -3566,22 +3703,21 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextPressed"
+            "value": "ButtonStates::ButtonFSM::IsClicked"
           },
           "parameters": [
-            "",
-            "\"Left\""
+            "FinishButton",
+            "ButtonFSM",
+            ""
           ]
         },
         {
           "type": {
-            "value": "IsCursorOnObject"
+            "value": "BehaviorActivated"
           },
           "parameters": [
-            "finishButton",
-            "",
-            "",
-            ""
+            "FinishButton",
+            "ButtonFSM"
           ]
         }
       ],
@@ -3610,7 +3746,7 @@
             "TimerText",
             "Text",
             "=",
-            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-30)))"
+            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-60)))"
           ]
         }
       ]
@@ -3663,7 +3799,7 @@
             "",
             "\"CountingDown\"",
             ">=",
-            "30"
+            "60"
           ]
         }
       ],
@@ -3734,7 +3870,7 @@
           },
           "parameters": [
             "",
-            "\"cumulative in-progress\"",
+            "\"Post-Question ResultsOB\"",
             ""
           ]
         }
@@ -3926,6 +4062,13 @@
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "sub/hint button animation"
     }
   ],
   "layers": [
@@ -3996,6 +4139,60 @@
       "isLightingLayer": false,
       "isLocked": false,
       "name": "panels",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Layer",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
