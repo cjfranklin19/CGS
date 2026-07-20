@@ -120,241 +120,201 @@
   "variables": [
     {
       "name": "startNextQuestion",
-      "persistentUuid": "22dd30f6-1b38-4786-ade1-c7819d5a6b3e",
       "type": "boolean",
       "value": true
     },
     {
       "name": "questionOpen",
-      "persistentUuid": "afc1ec41-2ebf-4646-898b-e16af5f3a027",
       "type": "boolean",
       "value": true
     },
     {
       "name": "inputLocked",
-      "persistentUuid": "1db35ade-8bcb-489e-8a6b-7440d445615c",
       "type": "boolean",
       "value": false
     },
     {
       "name": "inputMode",
-      "persistentUuid": "b76b7942-c057-4224-8131-a50affcec5e0",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionIndex",
-      "persistentUuid": "12c4a0a5-a02f-4766-b9c2-6390627be7f8",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionsAnswered",
-      "persistentUuid": "be5b8933-bd51-45be-bd6f-9f39bfcce08e",
       "type": "number",
       "value": 0
     },
     {
       "name": "levelQuestions",
-      "persistentUuid": "9bd9a637-683f-4a9e-9156-70f5f1dd3aab",
       "type": "number",
       "value": 12
     },
     {
       "name": "elapsedQuestionTime",
-      "persistentUuid": "e7423155-22fb-418a-abf8-867683e19c2d",
       "type": "number",
       "value": 0
     },
     {
       "name": "score",
-      "persistentUuid": "c7506b98-f64a-414a-9c9e-ef8ac5ba03e1",
       "type": "number",
       "value": 0
     },
     {
       "name": "streak",
-      "persistentUuid": "af8299f0-1c18-4a11-8a3a-beefb81b3013",
       "type": "number",
       "value": 0
     },
     {
       "name": "highestStreak",
-      "persistentUuid": "07e63026-6d64-4914-959e-89b152247f2a",
       "type": "number",
       "value": 0
     },
     {
       "name": "numcorrectAnswers",
-      "persistentUuid": "e73ac163-3fcb-49a7-8500-8bf60b7ec29d",
       "type": "number",
       "value": 0
     },
     {
       "name": "incorrectAnswers",
-      "persistentUuid": "1dd80782-0d50-4259-89f5-dc5086d8a5dc",
       "type": "number",
       "value": 0
     },
     {
       "name": "TargetDecimal",
-      "persistentUuid": "9c17a2ff-50f6-479a-95ff-24806fa6e903",
       "type": "number",
       "value": 0
     },
     {
       "name": "TargetHEX",
-      "persistentUuid": "b37e7e33-53eb-4b0a-8ee4-6f9fc556d668",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionText",
-      "persistentUuid": "47b6c0ca-d54b-4d52-89c6-76ec7dbc269c",
       "type": "string",
       "value": ""
     },
     {
       "name": "correctAnswerNumber",
-      "persistentUuid": "e4a2e08b-d44c-4c7a-9108-30b247474d4b",
       "type": "number",
       "value": 0
     },
     {
       "name": "correctAnswers",
-      "persistentUuid": "2dbb8e93-cd85-4da0-b2dc-559935b1f73a",
       "type": "string",
       "value": ""
     },
     {
       "name": "binaryTot",
-      "persistentUuid": "246eb822-54e3-4998-b9f5-26bbffd22fa3",
       "type": "number",
       "value": 0
     },
     {
       "name": "PlayerAnswer",
-      "persistentUuid": "01ccc508-2a4c-4f95-a2b3-968be5aa1f4b",
       "type": "string",
       "value": ""
     },
     {
       "name": "resultText",
-      "persistentUuid": "b8c4b854-fd22-42b4-9fa8-f7069d0b4f12",
       "type": "string",
       "value": "\"\""
     },
     {
       "name": "targetNum",
-      "persistentUuid": "512664df-91a3-406e-8ad9-8f9ad47694cd",
       "type": "number",
       "value": 0
     },
     {
       "name": "basePoints",
-      "persistentUuid": "dbcb75f6-fed7-49ff-bf8c-a5722e86110c",
       "type": "number",
       "value": 100
     },
     {
       "name": "penalty",
-      "persistentUuid": "15c75905-365a-4aff-b078-7bd9d6d537b4",
       "type": "number",
       "value": 50
     },
     {
       "name": "mult",
-      "persistentUuid": "f7b8e942-f058-4ec9-b41e-d38b293f59ce",
       "type": "number",
       "value": 1
     },
     {
       "name": "wrongStreak",
-      "persistentUuid": "5fb1b550-826c-4ac3-a683-6950c3bfcec7",
       "type": "number",
       "value": 0
     },
     {
       "name": "timeLimit",
-      "persistentUuid": "14e04bbb-3921-474d-9ece-23bd7ab6f1e5",
       "type": "number",
       "value": 30
     },
     {
       "name": "hintPenalty",
-      "persistentUuid": "ed1d0046-20ac-480b-8d23-0c192d5140e9",
       "type": "number",
       "value": 25
     },
     {
       "name": "hintOpen",
-      "persistentUuid": "26abd75c-2005-4729-87a3-c5d190f40815",
       "type": "boolean",
       "value": false
     },
     {
       "name": "hintUsedThisQuestion",
-      "persistentUuid": "2198a986-ede8-4daf-ae8e-39586dd33ba8",
       "type": "number",
       "value": 0
     },
     {
       "name": "cityPower",
-      "persistentUuid": "0515065e-18e4-4f77-95db-6e7478d1acbf",
       "type": "number",
       "value": 0
     },
     {
       "name": "targetHex",
-      "persistentUuid": "b5af1a60-c7a2-427e-b9fc-0cf2b9d1d2a0",
       "type": "string",
       "value": ""
     },
     {
       "name": "hexDigit",
-      "persistentUuid": "0a17194d-14ef-4318-a674-71432f822ff6",
       "type": "number",
       "value": 0
     },
     {
       "name": "hexLetterVal",
-      "persistentUuid": "194abf82-50d0-4831-8786-448982ab84f2",
       "type": "number",
       "value": 0
     },
     {
       "name": "hexLetter",
-      "persistentUuid": "f897147a-de7d-4a5c-984d-bf6b7157cbb1",
       "type": "string",
       "value": ""
     },
     {
       "name": "sourceValue",
-      "persistentUuid": "8e1727cc-f626-4094-9e07-c8068bcd9592",
       "type": "number",
       "value": 0
     },
     {
       "name": "sourceBase",
-      "persistentUuid": "56b30b51-c840-4b73-9f5d-755b30ea975d",
       "type": "string",
       "value": ""
     },
     {
       "name": "targetBase",
-      "persistentUuid": "f506714a-8019-4c75-981c-08e28324af90",
       "type": "string",
       "value": ""
     },
     {
       "name": "checkingAnswer",
-      "persistentUuid": "8782c9ed-226c-4260-87b2-7036c3d09467",
       "type": "boolean",
       "value": false
     },
     {
       "name": "answerWasCorrect",
-      "persistentUuid": "45404130-02e1-468d-90d1-1e3c0e339aa8",
       "type": "boolean",
       "value": false
     }
@@ -16670,6 +16630,1389 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "door_animation",
+      "persistentUuid": "08935f50-9638-4ed5-ac4c-2d057444dd7b",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "fullAnimation",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door21.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door22.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door23.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door24.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door25.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door26.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door27.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door28.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door29.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door30.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door31.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door32.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door33.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door34.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door35.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door36.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door37.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door38.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door39.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door40.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite4",
+      "persistentUuid": "1b66b5fd-ff68-40ae-a0bb-f6c8a7e5161d",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "0",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door41.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door42.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door43.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door44.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "4",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door45.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "5",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door46.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "6",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door47.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "7",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door53.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "8",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door48.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "9",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door49.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "10",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door50.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "11",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door51.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "12",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door52.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -16800,6 +18143,12 @@
       },
       {
         "objectName": "Story_text"
+      },
+      {
+        "objectName": "door_animation"
+      },
+      {
+        "objectName": "NewSprite4"
       }
     ]
   },

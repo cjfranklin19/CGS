@@ -29,229 +29,229 @@
   "variables": [
     {
       "name": "BinaryString",
-      "persistentUuid": "60e458a6-7ca7-4cf2-ba97-a6f952e5afde",
+      "persistentUuid": "f9954e02-945c-411f-9d3a-f50d8cc44a4d",
       "type": "string",
       "value": ""
     },
     {
       "name": "BitCount",
-      "persistentUuid": "fa7450f5-3896-42ac-96ac-1a116a5645f9",
+      "persistentUuid": "941c21a5-dcdd-4838-96ab-742cda5a599a",
       "type": "number",
       "value": 0
     },
     {
       "name": "TargetBinary",
-      "persistentUuid": "8348a835-d788-4a92-add2-00081dc743fd",
+      "persistentUuid": "001f21a4-b8c8-4537-808c-cdc1b10d8686",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit0",
-      "persistentUuid": "bc660fd1-2918-4e71-a004-92498b2b31ea",
+      "persistentUuid": "f1dfab33-34c1-4a5f-af9e-abd2095d04b2",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit1",
-      "persistentUuid": "1dda4a55-bbd2-4230-ae06-fc63807723ea",
+      "persistentUuid": "b5441bb9-1123-4641-9bc6-267c931d15f2",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit2",
-      "persistentUuid": "398b0b67-b817-4db9-bce3-00636e925bdc",
+      "persistentUuid": "30f3d593-d365-4f4f-bdfd-7d2552136a53",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit3",
-      "persistentUuid": "2a0b6984-750c-4ff2-bfe4-d3235e12bc9d",
+      "persistentUuid": "e0f43b35-5c5b-4af5-9a48-8abe69a6ff3a",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit4",
-      "persistentUuid": "b67344b9-9a5b-470f-a6af-d95d86e9ed6a",
+      "persistentUuid": "a70d10a6-4612-4b5d-a6f3-aa86794ce852",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit5",
-      "persistentUuid": "8838b352-8a37-4094-a4ff-5ed3fa555d20",
+      "persistentUuid": "1e6b644c-2bc5-4a58-bff2-b6f07284eb74",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit6",
-      "persistentUuid": "82a926fa-aa0a-4865-8851-171528d43c64",
+      "persistentUuid": "5ad59cef-1be9-4716-aa8a-b2942aab6b05",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit7",
-      "persistentUuid": "59002297-6f24-4da6-956e-f4ae6a28e237",
+      "persistentUuid": "00189046-07f3-4307-a29f-22dab54a735c",
       "type": "number",
       "value": 0
     },
     {
       "name": "DecNumText",
-      "persistentUuid": "8c701737-fd0c-4f64-8681-da9f59bea51f",
+      "persistentUuid": "e229d5aa-1355-49a5-bf0e-3bc4dff1f4a8",
       "type": "string",
       "value": ""
     },
     {
       "name": "HexHighText",
-      "persistentUuid": "0393dcbb-ed12-4764-8030-2ba01b72f985",
+      "persistentUuid": "cdd3a4a2-fb35-4a07-a800-58917b7bf7bd",
       "type": "string",
       "value": ""
     },
     {
       "name": "PlayerAnswer",
-      "persistentUuid": "45c5f95c-cc48-4b39-bcfc-c050d58e2595",
+      "persistentUuid": "2ef5ef37-23b7-45e6-ad14-fec815a7029c",
       "type": "string",
       "value": ""
     },
     {
       "name": "PlayerNumber",
-      "persistentUuid": "b3d3e081-d938-42c9-bdb8-ef0ebb9e4abd",
+      "persistentUuid": "b789e989-e18d-45cc-a462-0471ceb7aa92",
       "type": "number",
       "value": 0
     },
     {
       "name": "ResultText",
-      "persistentUuid": "d8dcc13c-aaef-497c-b612-652764ad8dab",
+      "persistentUuid": "a7e8dfe1-390c-495b-a220-10b08447e6a4",
       "type": "string",
       "value": ""
     },
     {
       "name": "score",
-      "persistentUuid": "95e1f628-29db-4332-b1bf-4196614c12af",
+      "persistentUuid": "72620f55-ccf4-48a9-bbbf-77477919843e",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionsAnswered",
-      "persistentUuid": "262c6086-eeee-466b-b913-562522d7c5cf",
+      "persistentUuid": "921bebfc-c374-4d09-b120-7fc0b9d8b014",
       "type": "number",
       "value": 0
     },
     {
       "name": "levelQuestions",
-      "persistentUuid": "7840023c-2506-4945-affb-3b07a0f5b02f",
+      "persistentUuid": "26eb1906-3914-477c-afe2-4b20c20d59b0",
       "type": "number",
       "value": 5
     },
     {
       "name": "questionOpen",
-      "persistentUuid": "d3b75995-8641-4aff-92be-1eab3e398230",
+      "persistentUuid": "e4553e68-712b-4362-b8a8-b2f5b817cf59",
       "type": "boolean",
       "value": true
     },
     {
       "name": "inputLocked",
-      "persistentUuid": "5c65bbc0-a97e-4eac-a790-e40f2299e19a",
+      "persistentUuid": "c3317589-3e58-4a97-a5f5-f7fea4aa5ff1",
       "type": "boolean",
       "value": false
     },
     {
       "name": "startNextQuestion",
-      "persistentUuid": "4fa19d03-5bdc-4a7f-a55a-30a27704c758",
+      "persistentUuid": "7c255a0c-012b-49b5-b87c-d1d6f1cdb08e",
       "type": "boolean",
       "value": true
     },
     {
       "name": "hintOpen",
-      "persistentUuid": "7ca6b519-9244-46e6-aca2-d549275387aa",
+      "persistentUuid": "1e81d3fe-1fc6-4bef-953f-14175c75d857",
       "type": "boolean",
       "value": false
     },
     {
       "name": "elapsedQuestionTime",
-      "persistentUuid": "4119a322-48a9-4778-987a-a9158bc26012",
+      "persistentUuid": "1aab6203-b709-4690-8706-a7f25fe4f2d1",
       "type": "number",
       "value": 0
     },
     {
       "name": "correctAnswers",
-      "persistentUuid": "48d296f5-ef13-4172-8fb7-16d53e402f39",
+      "persistentUuid": "b4cb9e13-460e-43c3-b6f8-634413abf855",
       "type": "number",
       "value": 0
     },
     {
       "name": "streak",
-      "persistentUuid": "0719f9d5-b68d-43ca-9333-c8c1cd1751e8",
+      "persistentUuid": "e0459e2e-6081-4722-8d16-e0d63cd5c0c9",
       "type": "number",
       "value": 0
     },
     {
       "name": "highestStreak",
-      "persistentUuid": "26e2b623-119b-49f7-a4dd-22ddc4a66c27",
+      "persistentUuid": "0681ac66-6397-4720-ac82-14dbb0f69892",
       "type": "number",
       "value": 0
     },
     {
       "name": "incorrectAnswers",
-      "persistentUuid": "f69d2d11-ffd5-4f52-bf9e-95d8d355f734",
+      "persistentUuid": "47472ab7-a83d-402d-ab27-80f32f5edf75",
       "type": "number",
       "value": 0
     },
     {
       "name": "timeLimit",
-      "persistentUuid": "5e0296f3-557c-477b-a17d-d6d531633dc3",
+      "persistentUuid": "74904a30-765f-489c-b761-5526f57e1549",
       "type": "number",
       "value": 30
     },
     {
       "name": "mult",
-      "persistentUuid": "b9ab69ab-bfab-4ba9-9c6a-c9a5e342474d",
+      "persistentUuid": "cfde6208-abc6-4e40-af22-e1dff1f23344",
       "type": "number",
       "value": 0
     },
     {
       "name": "cityPower",
-      "persistentUuid": "e78a5954-980a-4908-a35a-8c13a1cee2bd",
+      "persistentUuid": "22020862-9820-419a-b534-dea47f3e3705",
       "type": "number",
       "value": 0
     },
     {
       "name": "basePoints",
-      "persistentUuid": "1b174fba-fd6d-4a5f-b649-7da9866b789c",
+      "persistentUuid": "064fa826-7951-47ed-9780-3a240dbb1d92",
       "type": "number",
       "value": 100
     },
     {
       "name": "penalty",
-      "persistentUuid": "9b8e0da6-06cd-4537-82dc-ddd65af9aa74",
+      "persistentUuid": "852e2e3a-6e1e-484e-8c14-600f943696be",
       "type": "number",
       "value": 50
     },
     {
       "name": "hintUsedThisQuestion",
-      "persistentUuid": "d08ea7ab-8105-4cc2-a06b-71d2ce0de8bd",
+      "persistentUuid": "f160e0d4-39dd-49f0-91b0-9ae90768fab6",
       "type": "number",
       "value": 0
     },
     {
       "name": "wrongStreak",
-      "persistentUuid": "d41a3099-90d8-4f5d-ac7b-348c56857ee3",
+      "persistentUuid": "5d3af654-f416-4216-9ee2-c1c30add87e4",
       "type": "number",
       "value": 0
     },
     {
       "name": "DecNum",
-      "persistentUuid": "78ea43ce-28ea-49c7-a7d8-add96d94a134",
+      "persistentUuid": "7486e135-6466-4d27-a717-3b5c63e8ca5d",
       "type": "number",
       "value": 0
     },
     {
       "name": "targetOct",
-      "persistentUuid": "2f833cfd-96c7-43d0-8ca0-f08cf6492f01",
+      "persistentUuid": "7b9df85d-050a-46c3-8bc0-3e4126fbd17a",
       "type": "string",
       "value": ""
     },
     {
       "name": "targetBin",
-      "persistentUuid": "2658238d-32a0-49cf-b79a-09f170893c7e",
+      "persistentUuid": "658ac1da-63a5-4339-8fe8-4022c1bd4bbd",
       "type": "string",
       "value": ""
     }
