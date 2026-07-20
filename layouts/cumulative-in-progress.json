@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4027225833325952,
+    "zoomFactor": 0.47535850871269836,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -547,8 +547,8 @@
       "name": "TargetPrompt",
       "persistentUuid": "6399c03b-cf6d-44af-8960-63c15734d0aa",
       "width": 1156,
-      "x": 364,
-      "y": 236,
+      "x": 374,
+      "y": 538,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -564,8 +564,8 @@
       "name": "Feedback",
       "persistentUuid": "8c6be39b-a383-4944-9e7d-f239dcb0ecc2",
       "width": 553,
-      "x": 678,
-      "y": 300,
+      "x": 675,
+      "y": 545,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -730,8 +730,8 @@
       "name": "Number_Key0",
       "persistentUuid": "2f716e7a-bef1-4c99-b663-e78ee1d39759",
       "width": 80,
-      "x": 266,
-      "y": 850,
+      "x": 268,
+      "y": 895,
       "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
@@ -747,8 +747,8 @@
       "name": "Number_Key1",
       "persistentUuid": "0e1923da-436b-4bf7-b7db-cc0d68d63ac8",
       "width": 80,
-      "x": 363,
-      "y": 851,
+      "x": 365,
+      "y": 896,
       "zOrder": 46,
       "numberProperties": [],
       "stringProperties": [],
@@ -764,8 +764,8 @@
       "name": "Number_Key2",
       "persistentUuid": "419d86fa-e718-46df-a8bd-bef967f7db74",
       "width": 80,
-      "x": 464,
-      "y": 851,
+      "x": 466,
+      "y": 896,
       "zOrder": 47,
       "numberProperties": [],
       "stringProperties": [],
@@ -781,8 +781,8 @@
       "name": "Number_Key3",
       "persistentUuid": "13b653c8-f02f-460a-a695-e5cd134f257d",
       "width": 80,
-      "x": 571,
-      "y": 853,
+      "x": 573,
+      "y": 898,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -798,8 +798,8 @@
       "name": "Number_Key4",
       "persistentUuid": "b0f116dc-83c8-49de-a4d1-8726c66e00f1",
       "width": 80,
-      "x": 676,
-      "y": 851,
+      "x": 678,
+      "y": 896,
       "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
@@ -815,8 +815,8 @@
       "name": "Number_Key5",
       "persistentUuid": "e2958c5b-9626-4574-aa26-7e921528c4de",
       "width": 80,
-      "x": 265,
-      "y": 927,
+      "x": 267,
+      "y": 972,
       "zOrder": 44,
       "numberProperties": [],
       "stringProperties": [],
@@ -832,8 +832,8 @@
       "name": "Number_Key6",
       "persistentUuid": "520847bb-b65d-4a29-a007-45ff05328990",
       "width": 80,
-      "x": 366,
-      "y": 928,
+      "x": 368,
+      "y": 973,
       "zOrder": 44,
       "numberProperties": [],
       "stringProperties": [],
@@ -849,8 +849,8 @@
       "name": "Number_Key7",
       "persistentUuid": "a8d5805b-6250-4772-b76e-88701fad6f8f",
       "width": 80,
-      "x": 463,
-      "y": 930,
+      "x": 465,
+      "y": 975,
       "zOrder": 44,
       "numberProperties": [],
       "stringProperties": [],
@@ -866,8 +866,8 @@
       "name": "Number_Key8",
       "persistentUuid": "d76fa065-bfa9-4f47-9731-3fb6a7159e2c",
       "width": 80,
-      "x": 570,
-      "y": 931,
+      "x": 572,
+      "y": 976,
       "zOrder": 44,
       "numberProperties": [],
       "stringProperties": [],
@@ -883,8 +883,8 @@
       "name": "Number_Key9",
       "persistentUuid": "bcc0fec4-81ef-437b-be59-0b75690e0d7e",
       "width": 80,
-      "x": 676,
-      "y": 932,
+      "x": 678,
+      "y": 977,
       "zOrder": 44,
       "numberProperties": [],
       "stringProperties": [],
@@ -900,8 +900,8 @@
       "name": "Letter_KeyA",
       "persistentUuid": "79567fae-159e-4180-9d35-52eda7dd4330",
       "width": 80,
-      "x": 1190,
-      "y": 846,
+      "x": 1192,
+      "y": 891,
       "zOrder": 36,
       "numberProperties": [],
       "stringProperties": [],
@@ -917,8 +917,8 @@
       "name": "Letter_KeyB",
       "persistentUuid": "77e37fff-b950-4b07-b427-14c09455b8c3",
       "width": 80,
-      "x": 1313,
-      "y": 844,
+      "x": 1315,
+      "y": 889,
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
@@ -934,8 +934,8 @@
       "name": "Letter_KeyC",
       "persistentUuid": "f9fe4ed0-2cf7-47c8-9839-b602bd63de2a",
       "width": 80,
-      "x": 1439,
-      "y": 844,
+      "x": 1441,
+      "y": 889,
       "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
@@ -951,8 +951,8 @@
       "name": "Letter_KeyD",
       "persistentUuid": "44383c45-0a38-42fa-88a8-861eeb4c04f9",
       "width": 80,
-      "x": 1188,
-      "y": 937,
+      "x": 1190,
+      "y": 982,
       "zOrder": 39,
       "numberProperties": [],
       "stringProperties": [],
@@ -968,8 +968,8 @@
       "name": "Letter_KeyE",
       "persistentUuid": "1c3a6bcd-d206-432f-8907-43f85ece9e56",
       "width": 80,
-      "x": 1310,
-      "y": 934,
+      "x": 1312,
+      "y": 979,
       "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
@@ -985,8 +985,8 @@
       "name": "Letter_KeyF",
       "persistentUuid": "dbe19795-7f6e-4af9-8ae7-6031bc0b8619",
       "width": 80,
-      "x": 1439,
-      "y": 933,
+      "x": 1441,
+      "y": 978,
       "zOrder": 41,
       "numberProperties": [],
       "stringProperties": [],
@@ -1018,8 +1018,8 @@
       "name": "Backspace_Alt_Key",
       "persistentUuid": "f4b2a26d-9c40-41d3-8ffd-b4b9c317ca46",
       "width": 100,
-      "x": 1688,
-      "y": 878,
+      "x": 1690,
+      "y": 923,
       "zOrder": 43,
       "numberProperties": [],
       "stringProperties": [],
@@ -1035,8 +1035,8 @@
       "name": "storybox",
       "persistentUuid": "0651ac72-2393-4ade-b65a-356ca07e6d9b",
       "width": 1741,
-      "x": 110,
-      "y": -291,
+      "x": 50,
+      "y": 84,
       "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
@@ -1052,25 +1052,9 @@
       "name": "Story_text",
       "persistentUuid": "2f1a7742-f272-4275-88a3-21ecdd045456",
       "width": 1289,
-      "x": 275,
-      "y": -194,
+      "x": 333,
+      "y": 140,
       "zOrder": 51,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "doorLock",
-      "persistentUuid": "7ee077ab-22a9-4caf-a297-2bddad5b783e",
-      "width": 0,
-      "x": 1888,
-      "y": 170,
-      "zOrder": 53,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1085,8 +1069,8 @@
       "name": "Switch_128",
       "persistentUuid": "1e548e32-d939-4ec3-bdeb-9c71df037e18",
       "width": 138,
-      "x": 150,
-      "y": 618,
+      "x": 152,
+      "y": 663,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -1108,8 +1092,8 @@
       "name": "Switch_64",
       "persistentUuid": "6aa8810d-77c6-4564-bbec-4375ac5c5101",
       "width": 138,
-      "x": 343,
-      "y": 618,
+      "x": 345,
+      "y": 663,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -1131,8 +1115,8 @@
       "name": "Switch_32",
       "persistentUuid": "ebd66e32-b188-4755-8e2e-c34934283eb8",
       "width": 138,
-      "x": 524,
-      "y": 618,
+      "x": 526,
+      "y": 663,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -1154,8 +1138,8 @@
       "name": "Switch_16",
       "persistentUuid": "080f7174-0837-4d33-a757-1d4fbb0409fe",
       "width": 138,
-      "x": 727,
-      "y": 618,
+      "x": 729,
+      "y": 663,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -1177,8 +1161,8 @@
       "name": "Switch_8",
       "persistentUuid": "ef94a1e7-deb2-403d-ba02-3547c362c4df",
       "width": 138,
-      "x": 1031,
-      "y": 618,
+      "x": 1033,
+      "y": 663,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -1194,8 +1178,8 @@
       "name": "Switch_4",
       "persistentUuid": "23879018-94eb-49a0-ad04-879aa3de8a75",
       "width": 138,
-      "x": 1240,
-      "y": 618,
+      "x": 1242,
+      "y": 663,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -1211,8 +1195,8 @@
       "name": "Switch_2",
       "persistentUuid": "d527cce9-bbba-4bb7-976d-d68cbdde850f",
       "width": 138,
-      "x": 1448,
-      "y": 618,
+      "x": 1450,
+      "y": 663,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -1228,8 +1212,8 @@
       "name": "Switch_1",
       "persistentUuid": "5e8bd61a-25b9-4b34-bf08-2b7df4e9efb6",
       "width": 138,
-      "x": 1640,
-      "y": 618,
+      "x": 1642,
+      "y": 663,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -1247,6 +1231,38 @@
       "x": 875,
       "y": 930,
       "zOrder": 54,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Layer",
+      "name": "door_animation",
+      "persistentUuid": "31380f5e-9251-499a-b459-e263e13ca4de",
+      "width": 0,
+      "x": 153,
+      "y": -20,
+      "zOrder": 55,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Layer",
+      "name": "doorLock",
+      "persistentUuid": "a3d530b2-f103-4482-abe9-4f186af56aa1",
+      "width": 0,
+      "x": 152,
+      "y": -26,
+      "zOrder": 56,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -18622,7 +18638,29 @@
             "value": "Hide"
           },
           "parameters": [
-            "finishButton"
+            "FinishButton"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+          },
+          "parameters": [
+            "",
+            "\"level\"",
+            "-3",
+            "2",
+            "32"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "FinishButton",
+            "ButtonFSM",
+            ""
           ]
         }
       ]
@@ -18672,6 +18710,18 @@
           ],
           "actions": [],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Recheck the logic for hex "
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
@@ -18763,7 +18813,7 @@
                     "value": "Show"
                   },
                   "parameters": [
-                    "Submit_Button",
+                    "submit_button",
                     ""
                   ]
                 }
@@ -18829,7 +18879,7 @@
                         "value": "Show"
                       },
                       "parameters": [
-                        "Submit_Button",
+                        "submit_button",
                         ""
                       ]
                     },
@@ -18914,7 +18964,7 @@
                         "value": "Show"
                       },
                       "parameters": [
-                        "Submit_Button",
+                        "submit_button",
                         ""
                       ]
                     },
@@ -19084,7 +19134,7 @@
                         "value": "Show"
                       },
                       "parameters": [
-                        "Submit_Button",
+                        "submit_button",
                         ""
                       ]
                     },
@@ -19205,7 +19255,7 @@
                         "value": "Show"
                       },
                       "parameters": [
-                        "Submit_Button",
+                        "submit_button",
                         ""
                       ]
                     },
@@ -19290,7 +19340,7 @@
                         "value": "Show"
                       },
                       "parameters": [
-                        "Submit_Button",
+                        "submit_button",
                         ""
                       ]
                     },
@@ -19416,6 +19466,19 @@
                 "-",
                 "Switches.Variable(BitVal)"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "switch off3.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
+              ]
             }
           ]
         },
@@ -19474,6 +19537,19 @@
                 "binaryTot",
                 "+",
                 "Switches.Variable(BitVal)"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "switch on2.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
               ]
             }
           ]
@@ -19569,6 +19645,19 @@
                 "=",
                 "PlayerAnswer + \"0\""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
+              ]
             }
           ]
         },
@@ -19633,6 +19722,19 @@
                 "PlayerAnswer",
                 "=",
                 "PlayerAnswer + \"1\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
               ]
             }
           ]
@@ -19699,6 +19801,19 @@
                 "=",
                 "PlayerAnswer + \"2\""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
+              ]
             }
           ]
         },
@@ -19763,6 +19878,19 @@
                 "PlayerAnswer",
                 "=",
                 "PlayerAnswer + \"3\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
               ]
             }
           ]
@@ -19829,6 +19957,19 @@
                 "=",
                 "PlayerAnswer + \"4\""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
+              ]
             }
           ]
         },
@@ -19893,6 +20034,19 @@
                 "PlayerAnswer",
                 "=",
                 "PlayerAnswer + \"5\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
               ]
             }
           ]
@@ -19959,6 +20113,19 @@
                 "=",
                 "PlayerAnswer + \"6\""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
+              ]
             }
           ]
         },
@@ -20023,6 +20190,19 @@
                 "PlayerAnswer",
                 "=",
                 "PlayerAnswer + \"7\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
               ]
             }
           ]
@@ -20089,6 +20269,19 @@
                 "=",
                 "PlayerAnswer + \"8\""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
+              ]
             }
           ]
         },
@@ -20154,6 +20347,19 @@
                 "=",
                 "PlayerAnswer + \"9\""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
+              ]
             }
           ]
         },
@@ -20213,6 +20419,19 @@
                 "=",
                 "PlayerAnswer + \"A\""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
+              ]
             }
           ]
         },
@@ -20259,6 +20478,19 @@
                 "PlayerAnswer",
                 "=",
                 "PlayerAnswer + \"B\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
               ]
             }
           ]
@@ -20307,6 +20539,19 @@
                 "=",
                 "PlayerAnswer + \"C\""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
+              ]
             }
           ]
         },
@@ -20353,6 +20598,19 @@
                 "PlayerAnswer",
                 "=",
                 "PlayerAnswer + \"D\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
               ]
             }
           ]
@@ -20401,6 +20659,19 @@
                 "=",
                 "PlayerAnswer + \"E\""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
+              ]
             }
           ]
         },
@@ -20447,6 +20718,19 @@
                 "PlayerAnswer",
                 "=",
                 "PlayerAnswer + \"F\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "Keybutton click.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
               ]
             }
           ]
@@ -20516,6 +20800,19 @@
             "=",
             "SubStr(PlayerAnswer,0,StrLength(PlayerAnswer)-1)"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundOnChannel"
+          },
+          "parameters": [
+            "",
+            "Keybutton click.mp3",
+            "2",
+            "no",
+            "GlobalVariable(Settings.SFXVolume)",
+            ""
+          ]
         }
       ]
     },
@@ -20565,7 +20862,7 @@
             "value": "IsCursorOnObject"
           },
           "parameters": [
-            "Submit_Button",
+            "submit_button",
             "",
             "",
             ""
@@ -20610,6 +20907,19 @@
           "parameters": [
             "",
             "\"FeedbackTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundOnChannel"
+          },
+          "parameters": [
+            "",
+            "Keybutton click.mp3",
+            "2",
+            "no",
+            "GlobalVariable(Settings.SFXVolume)",
+            ""
           ]
         }
       ],
@@ -20818,6 +21128,40 @@
                 "Text",
                 "=",
                 "ToString(score)"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "correct answer.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "lightAnimat",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "doorLock",
+                "Animation",
+                "=",
+                "lightAnimat"
               ]
             }
           ],
@@ -21228,6 +21572,40 @@
                 "=",
                 "ToString(score)"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "incorrect answer.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "lightAnimat",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "doorLock",
+                "Animation",
+                "=",
+                "lightAnimat"
+              ]
             }
           ]
         },
@@ -21423,6 +21801,40 @@
                 "Text",
                 "=",
                 "ToString(score)"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "correct answer.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "lightAnimat",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "doorLock",
+                "Animation",
+                "=",
+                "lightAnimat"
               ]
             }
           ],
@@ -21666,6 +22078,40 @@
                 "=",
                 "ToString(score)"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "incorrect answer.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "lightAnimat",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "doorLock",
+                "Animation",
+                "=",
+                "lightAnimat"
+              ]
             }
           ]
         }
@@ -21901,8 +22347,18 @@
             "value": "Show"
           },
           "parameters": [
-            "finishButton",
+            "FinishButton",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "FinishButton",
+            "ButtonFSM",
+            "yes"
           ]
         }
       ]
@@ -21924,10 +22380,19 @@
             "value": "IsCursorOnObject"
           },
           "parameters": [
-            "finishButton",
+            "FinishButton",
             "",
             "",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BehaviorActivated"
+          },
+          "parameters": [
+            "FinishButton",
+            "ButtonFSM"
           ]
         }
       ],
@@ -22203,8 +22668,41 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Index"
+          },
+          "parameters": [
+            "doorLock",
+            "Animation",
+            "=",
+            "12"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+          },
+          "parameters": [
+            "doorLock",
+            "Animation"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "doorLock",
+            "Animation",
+            "=",
+            "\"door_animation\""
+          ]
+        }
+      ]
     }
   ],
   "layers": [

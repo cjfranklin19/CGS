@@ -5450,20 +5450,24 @@
   "variables": [
     {
       "name": "Levels",
+      "persistentUuid": "1b824b55-67a0-423d-ab28-22891d787114",
       "type": "structure",
       "children": [
         {
           "name": "Hex",
+          "persistentUuid": "cc143445-ec1c-4d1d-908c-de0a718ace41",
           "type": "boolean",
           "value": false
         },
         {
           "name": "Tutorialtrue",
+          "persistentUuid": "2d71b56c-a4a4-4aff-aa33-7de4f45dea22",
           "type": "boolean",
           "value": false
         },
         {
           "name": "Twocomp",
+          "persistentUuid": "335e3406-8a03-4fcd-b18b-94a8093d8624",
           "type": "boolean",
           "value": false
         }
@@ -5471,45 +5475,54 @@
     },
     {
       "name": "finalScore",
+      "persistentUuid": "39182502-53ea-4209-b8eb-e70889899629",
       "type": "number",
       "value": 0
     },
     {
       "name": "finalHighestStreak",
+      "persistentUuid": "7889896d-0914-45e0-b302-35f95246f88d",
       "type": "number",
       "value": 0
     },
     {
       "name": "finalCorrectAnswers",
+      "persistentUuid": "80877fdd-c716-4e09-84ae-b988a87040b1",
       "type": "number",
       "value": 0
     },
     {
       "name": "finalIncorrectAnswers",
+      "persistentUuid": "ad0e6d13-fcb4-451e-a030-6f07ea4a21b3",
       "type": "number",
       "value": 0
     },
     {
       "name": "SceneTransition",
+      "persistentUuid": "961dd22f-3658-42e2-9386-212a361c8b26",
       "type": "string",
       "value": ""
     },
     {
       "name": "LastPlayedLevel",
+      "persistentUuid": "5c418477-31f5-4d09-925b-5cd1237d548d",
       "type": "string",
       "value": ""
     },
     {
       "name": "Settings",
+      "persistentUuid": "23f5de1f-cb3c-44c9-80a9-04501d6c9cfa",
       "type": "structure",
       "children": [
         {
           "name": "MusicVolume",
+          "persistentUuid": "21cfcfa3-3b3d-4bfe-9923-a4503265ff59",
           "type": "number",
           "value": 100
         },
         {
           "name": "SFXVolume",
+          "persistentUuid": "85aded8b-7d1e-4e83-a7b3-3095eaca8ff9",
           "type": "number",
           "value": 100
         }
@@ -5517,6 +5530,12 @@
     },
     {
       "name": "AmountHintUsed",
+      "persistentUuid": "5ec03113-9bed-4351-92a1-8908ef424e0a",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "lightAnimat",
       "type": "number",
       "value": 0
     }
