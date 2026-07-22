@@ -264,8 +264,8 @@
       "name": "Switch_1",
       "persistentUuid": "d8dbce20-ba13-4d0d-a633-fa5d5f9d5f5e",
       "width": 86,
-      "x": 1379,
-      "y": 831,
+      "x": 1375,
+      "y": 812,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -330,8 +330,8 @@
       "name": "TimerText",
       "persistentUuid": "492902c1-3e55-4307-b995-ec8a0a8ecd77",
       "width": 159,
-      "x": 903,
-      "y": 586,
+      "x": 893,
+      "y": 588,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -391,105 +391,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 174,
-      "layer": "",
-      "name": "submit_button",
-      "persistentUuid": "bc446a5f-c4aa-448a-a9ed-acce859f6ce3",
-      "width": 200,
-      "x": 1422,
-      "y": 930,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 174,
-      "layer": "",
-      "name": "hint_button",
-      "persistentUuid": "551ab028-585d-42f6-b58c-784fb6b8d0ba",
-      "width": 200,
-      "x": 293,
-      "y": 930,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1077,
-      "keepRatio": true,
-      "layer": "background",
-      "name": "NewSprite5",
-      "persistentUuid": "adb3dc39-90cc-4983-9c32-07429af632ec",
-      "width": 1919,
-      "x": 1,
-      "y": 0,
-      "zOrder": 29,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 177,
-      "keepRatio": true,
-      "layer": "background",
-      "name": "Stat_Outline",
-      "persistentUuid": "f08cd77b-4ce9-491a-8a43-17cd0b603397",
-      "width": 1384,
-      "x": 286,
-      "y": 590,
-      "zOrder": 33,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 88,
-      "layer": "",
-      "name": "Streak_label",
-      "persistentUuid": "2dffc742-abe5-425b-ae0e-215e48280836",
-      "width": 260,
-      "x": 320,
-      "y": 592,
-      "zOrder": 34,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 151.8,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Score_label",
-      "persistentUuid": "5f115411-a4cb-4f4e-a643-0d921e6f3201",
-      "width": 330,
-      "x": 1475,
-      "y": 590,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
       "height": 171,
       "layer": "",
       "name": "FinishButton",
@@ -522,15 +423,65 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 195,
+      "height": 340,
       "keepRatio": true,
       "layer": "",
-      "name": "levelsettings",
-      "persistentUuid": "64d41ffb-1f8d-4144-aad0-4717f4d3b3ce",
-      "width": 195,
-      "x": 1725,
-      "y": 646,
-      "zOrder": 38,
+      "name": "Story_text",
+      "persistentUuid": "98e92a92-ee0d-429a-8e2a-e49730c20ef9",
+      "width": 1772,
+      "x": 124,
+      "y": 147,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 391,
+      "keepRatio": true,
+      "layer": "",
+      "name": "storybox",
+      "persistentUuid": "daa7ca8e-c922-4ee9-a1fa-24c1189415d1",
+      "width": 1726,
+      "x": 106,
+      "y": 79,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 891,
+      "keepRatio": true,
+      "layer": "nightbg",
+      "name": "NightBG",
+      "persistentUuid": "b2816c6c-220e-4ebb-8035-9471746bac3c",
+      "width": 1813,
+      "x": 59,
+      "y": -362,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "nightbg",
+      "name": "FireStation",
+      "persistentUuid": "5bff4274-c0ff-49ac-87bc-454bcbfac3af",
+      "width": 0,
+      "x": 7,
+      "y": 153,
+      "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2319,16 +2270,17 @@
           ]
         },
         {
-          "name": "",
+          "name": "1",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../OneDrive - Norfolk State University/Attachments/decimal to binary timed.png",
+                  "image": "1",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2367,16 +2319,17 @@
           ]
         },
         {
-          "name": "",
+          "name": "2",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../OneDrive - Norfolk State University/Attachments/decimal to binary timed.png",
+                  "image": "2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2415,16 +2368,17 @@
           ]
         },
         {
-          "name": "",
+          "name": "3",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../OneDrive - Norfolk State University/Attachments/decimal to binary timed.png",
+                  "image": "9",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2463,16 +2417,17 @@
           ]
         },
         {
-          "name": "",
+          "name": "4",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../OneDrive - Norfolk State University/Attachments/decimal to binary timed.png",
+                  "image": "10",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2511,11 +2466,12 @@
           ]
         },
         {
-          "name": "",
+          "name": "5",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -2817,7 +2773,7 @@
             "value": "Hide"
           },
           "parameters": [
-            "finishButton"
+            "FinishButton"
           ]
         },
         {
@@ -2838,6 +2794,18 @@
             "FinishButton",
             "ButtonFSM",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+          },
+          "parameters": [
+            "",
+            "\"level\"",
+            "-3",
+            "2",
+            "32"
           ]
         }
       ],
@@ -4589,6 +4557,60 @@
       "isLightingLayer": false,
       "isLocked": false,
       "name": "background",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "nightbg",
       "renderingType": "",
       "visibility": true,
       "cameras": [],

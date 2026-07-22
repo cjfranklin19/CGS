@@ -4721,7 +4721,7 @@
       {
         "file": "../../../OneDrive - Norfolk State University/Attachments/decimal to binary timed.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"../../../OneDrive - Norfolk State University/Attachments/decimal to binary timed.png\",\"extension\":\".png\"}",
         "name": "../../../OneDrive - Norfolk State University/Attachments/decimal to binary timed.png",
         "smoothed": true,
         "userAdded": false
@@ -4747,6 +4747,38 @@
         "kind": "image",
         "metadata": "",
         "name": "Level one lights animation9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "1",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "10",
         "smoothed": true,
         "userAdded": false
       }
