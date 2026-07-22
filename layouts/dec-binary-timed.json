@@ -59,121 +59,145 @@
   "variables": [
     {
       "name": "binaryTot",
+      "persistentUuid": "d0f6d229-2150-48f7-aa50-cbc587b11eba",
       "type": "number",
       "value": 0
     },
     {
       "name": "targetNum",
+      "persistentUuid": "eb647048-d637-4725-a986-0dfe54465f01",
       "type": "number",
       "value": 0
     },
     {
       "name": "resultText",
+      "persistentUuid": "156afcbb-73c4-40d8-b33f-42e06aad273c",
       "type": "string",
       "value": "\"\""
     },
     {
       "name": "score",
+      "persistentUuid": "eb7a1e34-2d6b-4367-883d-08ca1a3d9c33",
       "type": "number",
       "value": 0
     },
     {
       "name": "basePoints",
+      "persistentUuid": "4aad4ea0-6600-484f-ab5d-66bd9ea1ecf2",
       "type": "number",
       "value": 100
     },
     {
       "name": "penalty",
+      "persistentUuid": "d324c6dc-e615-4fb5-9b00-c14ba12e13af",
       "type": "number",
       "value": 50
     },
     {
       "name": "mult",
+      "persistentUuid": "a665c168-13c0-43c9-8aaf-482425ce496b",
       "type": "number",
       "value": 1
     },
     {
       "name": "streak",
+      "persistentUuid": "ed243320-0700-417e-89b7-c0a78a02417c",
       "type": "number",
       "value": 0
     },
     {
       "name": "wrongStreak",
+      "persistentUuid": "a378e32f-99dd-422e-b6c0-d9b7262478e4",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionsAnswered",
+      "persistentUuid": "28d24996-9957-4da9-8a36-ff4943c74b45",
       "type": "number",
       "value": 0
     },
     {
       "name": "levelQuestions",
+      "persistentUuid": "e67c9c20-d5f2-4e08-9e70-f98430a0a62c",
       "type": "number",
       "value": 5
     },
     {
       "name": "elapsedQuestionTime",
+      "persistentUuid": "35a0f256-f601-4a22-80fb-5ee523bbd0fc",
       "type": "number",
       "value": 0
     },
     {
       "name": "timeLimit",
+      "persistentUuid": "76b1971d-400d-4032-95ee-bf46414d74c4",
       "type": "number",
       "value": 30
     },
     {
       "name": "hintPenalty",
+      "persistentUuid": "9dc17e4d-aeec-4eea-97c3-bc27097b9acb",
       "type": "number",
       "value": 25
     },
     {
       "name": "hintOpen",
+      "persistentUuid": "b12ab85f-f332-4ee8-9aa0-c0474a393541",
       "type": "boolean",
       "value": false
     },
     {
       "name": "hintUsedThisQuestion",
+      "persistentUuid": "b0696b34-f8dd-4e3b-a813-d3cae4d31a53",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionOpen",
+      "persistentUuid": "af929559-182a-426d-9f14-d2cc482bcd09",
       "type": "boolean",
       "value": true
     },
     {
       "name": "cityPower",
+      "persistentUuid": "f73663a3-682e-454c-a164-64af9e519c87",
       "type": "number",
       "value": 0
     },
     {
       "name": "inputLocked",
+      "persistentUuid": "0ad5e8a2-5827-4d69-8d05-a864248346cf",
       "type": "boolean",
       "value": false
     },
     {
       "name": "startNextQuestion",
+      "persistentUuid": "7c772ad3-40af-4d55-81a6-f60cb72996a2",
       "type": "boolean",
       "value": true
     },
     {
       "name": "correctAnswers",
+      "persistentUuid": "4f71cb8a-7f3c-441d-93db-b7f2018e4fbc",
       "type": "number",
       "value": 0
     },
     {
       "name": "incorrectAnswers",
+      "persistentUuid": "63580a6b-17d4-4deb-8667-3c67c927a070",
       "type": "number",
       "value": 0
     },
     {
       "name": "highestStreak",
+      "persistentUuid": "2f7a790c-15b6-4418-8a97-5cc8eab7551e",
       "type": "number",
       "value": 0
     },
     {
       "name": "lightani",
+      "persistentUuid": "8fc98241-2a81-46d8-9756-48047b719172",
       "type": "number",
       "value": 0
     }
@@ -356,8 +380,8 @@
       "name": "gear_button",
       "persistentUuid": "f20d82db-8b73-449b-8e6a-ef4cf7f73ea7",
       "width": 201,
-      "x": 1708,
-      "y": 575,
+      "x": 1729,
+      "y": -290,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -490,6 +514,23 @@
       "x": 912,
       "y": -254,
       "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 195,
+      "keepRatio": true,
+      "layer": "",
+      "name": "levelsettings",
+      "persistentUuid": "64d41ffb-1f8d-4144-aad0-4717f4d3b3ce",
+      "width": 195,
+      "x": 1725,
+      "y": 646,
+      "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2217,6 +2258,307 @@
       "effects": [],
       "behaviors": [],
       "animations": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "FireStation",
+      "persistentUuid": "78df0340-4509-45e2-b4b4-4fdd0a213350",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "0",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "decimal to binary timed.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 593,
+                        "y": 1
+                      },
+                      {
+                        "x": 1472,
+                        "y": 1
+                      },
+                      {
+                        "x": 1472,
+                        "y": 375
+                      },
+                      {
+                        "x": 593,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../../../OneDrive - Norfolk State University/Attachments/decimal to binary timed.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 593,
+                        "y": 1
+                      },
+                      {
+                        "x": 1472,
+                        "y": 1
+                      },
+                      {
+                        "x": 1472,
+                        "y": 375
+                      },
+                      {
+                        "x": 593,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../../../OneDrive - Norfolk State University/Attachments/decimal to binary timed.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 593,
+                        "y": 1
+                      },
+                      {
+                        "x": 1472,
+                        "y": 1
+                      },
+                      {
+                        "x": 1472,
+                        "y": 375
+                      },
+                      {
+                        "x": 593,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../../../OneDrive - Norfolk State University/Attachments/decimal to binary timed.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 593,
+                        "y": 1
+                      },
+                      {
+                        "x": 1472,
+                        "y": 1
+                      },
+                      {
+                        "x": 1472,
+                        "y": 375
+                      },
+                      {
+                        "x": 593,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../../../OneDrive - Norfolk State University/Attachments/decimal to binary timed.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 593,
+                        "y": 1
+                      },
+                      {
+                        "x": 1472,
+                        "y": 1
+                      },
+                      {
+                        "x": 1472,
+                        "y": 375
+                      },
+                      {
+                        "x": 593,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../../../OneDrive - Norfolk State University/Attachments/decimal to binary timed.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 593,
+                        "y": 1
+                      },
+                      {
+                        "x": 1472,
+                        "y": 1
+                      },
+                      {
+                        "x": 1472,
+                        "y": 375
+                      },
+                      {
+                        "x": 593,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2305,6 +2647,9 @@
       },
       {
         "objectName": "NewSprite6"
+      },
+      {
+        "objectName": "FireStation"
       }
     ]
   },

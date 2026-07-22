@@ -4693,6 +4693,62 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "NighBG.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NighBG.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "badending 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "badending 5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "decimal to binary timed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "decimal to binary timed.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "../../../OneDrive - Norfolk State University/Attachments/decimal to binary timed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../../../OneDrive - Norfolk State University/Attachments/decimal to binary timed.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Level one lights animation8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level one lights animation8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "../../../OneDrive - Norfolk State University/Attachments/Level one lights animation.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"../../../OneDrive - Norfolk State University/Attachments/Level one lights animation.png\",\"extension\":\".png\"}",
+        "name": "../../../OneDrive - Norfolk State University/Attachments/Level one lights animation.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Level one lights animation9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level one lights animation9.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -5406,6 +5462,67 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NightBG",
+      "persistentUuid": "39322d19-58af-48b9-9c54-bf9b7d5b5d59",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "badending 5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -5443,6 +5560,9 @@
       },
       {
         "objectName": "sunsetBG"
+      },
+      {
+        "objectName": "NightBG"
       }
     ]
   },

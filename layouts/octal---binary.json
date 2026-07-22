@@ -2097,6 +2097,77 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "b7b916614570780a0e1ee277966a3cd49566347fde75ac0c0c7a95554156b4e9",
+      "bottomMargin": 12,
+      "height": 48,
+      "leftMargin": 12,
+      "name": "hintbox",
+      "persistentUuid": "99b1aa41-db53-4fba-947f-86990619ae41",
+      "rightMargin": 12,
+      "texture": "Default-panel (2).png",
+      "tiled": false,
+      "topMargin": 12,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 48,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Hint",
+      "persistentUuid": "ffc892f1-7e9b-469b-896e-0712a5ca26b8",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.06,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        }
+      ],
+      "string": "HQ to Converter, the Gridbreaker Syndicate has switched to octal to binary; it's similar to before. Remember to split the number, then convert its individual parts",
+      "font": "Not Jam Mono Clean16.ttf",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 146,
+        "g": 198,
+        "r": 150
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "HQ to Converter, the Gridbreaker Syndicate has switched to octal to binary; it's similar to before. Remember to split the number, then convert its individual parts",
+        "font": "Not Jam Mono Clean16.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "150;198;146"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2166,7 +2237,13 @@
         "objectName": "storybox"
       },
       {
+        "objectName": "hintbox"
+      },
+      {
         "objectName": "Story_text"
+      },
+      {
+        "objectName": "Hint"
       }
     ]
   },
