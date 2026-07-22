@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5250860067782557,
+    "zoomFactor": 0.2705012603962579,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -423,40 +423,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 340,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Story_text",
-      "persistentUuid": "98e92a92-ee0d-429a-8e2a-e49730c20ef9",
-      "width": 1772,
-      "x": 124,
-      "y": 147,
-      "zOrder": 39,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 391,
-      "keepRatio": true,
-      "layer": "",
-      "name": "storybox",
-      "persistentUuid": "daa7ca8e-c922-4ee9-a1fa-24c1189415d1",
-      "width": 1726,
-      "x": 106,
-      "y": 79,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 891,
       "keepRatio": true,
       "layer": "nightbg",
@@ -479,9 +445,43 @@
       "name": "FireStation",
       "persistentUuid": "5bff4274-c0ff-49ac-87bc-454bcbfac3af",
       "width": 0,
-      "x": 7,
-      "y": 153,
+      "x": 26,
+      "y": 78,
       "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 493,
+      "keepRatio": true,
+      "layer": "panels",
+      "name": "storybox",
+      "persistentUuid": "df4926ed-32ea-4b83-84c8-c0fa0fdf3fa3",
+      "width": 1831,
+      "x": 38,
+      "y": -11,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 257,
+      "keepRatio": true,
+      "layer": "panels",
+      "name": "Story_text",
+      "persistentUuid": "006dc21c-98af-4b74-bf00-6a466c5806e7",
+      "width": 1345,
+      "x": 318,
+      "y": 87,
+      "zOrder": 47,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2476,7 +2476,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../OneDrive - Norfolk State University/Attachments/decimal to binary timed.png",
+                  "image": "../../../../OneDrive - Norfolk State University/Attachments/decimal to binary timed.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3419,6 +3419,17 @@
                 "+",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "FireStation",
+                "Animation",
+                "=",
+                "lightani"
+              ]
             }
           ],
           "events": [
@@ -4043,6 +4054,27 @@
                 "TargetPrompt",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "lightani",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "FireStation",
+                "Animation",
+                "=",
+                "lightani"
+              ]
             }
           ],
           "events": [
@@ -4664,7 +4696,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "panels",
+      "name": "Hintlayer",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -4718,7 +4750,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Hintlayer",
+      "name": "panels",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
