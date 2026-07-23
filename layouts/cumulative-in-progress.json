@@ -21236,6 +21236,16 @@
           "conditions": [
             {
               "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "Number_Key6",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Or"
               },
               "parameters": [],
@@ -21260,16 +21270,6 @@
                     "2"
                   ]
                 }
-              ]
-            },
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "Number_Key3",
-                "ButtonFSM",
-                ""
               ]
             }
           ],
@@ -21304,21 +21304,11 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
                 "Number_Key7",
-                "",
-                "",
+                "ButtonFSM",
                 ""
               ]
             },
@@ -21382,21 +21372,11 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
                 "Number_Key8",
-                "",
-                "",
+                "ButtonFSM",
                 ""
               ]
             },
@@ -21460,21 +21440,11 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
                 "Number_Key9",
-                "",
-                "",
+                "ButtonFSM",
                 ""
               ]
             },
@@ -21550,21 +21520,11 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
                 "Letter_KeyA",
-                "",
-                "",
+                "ButtonFSM",
                 ""
               ]
             },
@@ -21610,21 +21570,11 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
                 "Letter_KeyB",
-                "",
-                "",
+                "ButtonFSM",
                 ""
               ]
             },
@@ -21670,21 +21620,11 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
                 "Letter_KeyC",
-                "",
-                "",
+                "ButtonFSM",
                 ""
               ]
             },
@@ -21730,21 +21670,11 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
                 "Letter_KeyD",
-                "",
-                "",
+                "ButtonFSM",
                 ""
               ]
             },
@@ -21790,21 +21720,11 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
                 "Letter_KeyE",
-                "",
-                "",
+                "ButtonFSM",
                 ""
               ]
             },
@@ -21850,21 +21770,11 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
                 "Letter_KeyF",
-                "",
-                "",
+                "ButtonFSM",
                 ""
               ]
             },
