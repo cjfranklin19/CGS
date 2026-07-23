@@ -37,7 +37,7 @@
       "layer": "",
       "name": "Score",
       "persistentUuid": "4de73ff1-5f01-4004-a1b8-9d8b105dce83",
-      "width": 255,
+      "width": 902,
       "x": 728,
       "y": 212,
       "zOrder": 1,
@@ -102,8 +102,8 @@
       "name": "finishButton",
       "persistentUuid": "6394e388-bc28-48ee-a5cd-7cfa63a3a972",
       "width": 0,
-      "x": 822,
-      "y": 951,
+      "x": 142,
+      "y": 1491,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -137,6 +137,22 @@
       "x": 734,
       "y": 570,
       "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "back",
+      "name": "FinishButton",
+      "persistentUuid": "6b22485c-c52e-4c14-802c-f273dda0c6df",
+      "width": 0,
+      "x": 797,
+      "y": 669,
+      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -494,7 +510,7 @@
             "value": "IsCursorOnObject"
           },
           "parameters": [
-            "finishButton",
+            "FinishButton",
             "",
             "",
             ""
