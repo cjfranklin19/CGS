@@ -59,141 +59,169 @@
   "variables": [
     {
       "name": "binaryTot",
+      "persistentUuid": "de78ca6e-d528-4c15-b200-5a74338e48cd",
       "type": "number",
       "value": 0
     },
     {
       "name": "targetNum",
+      "persistentUuid": "7cfe7cc2-a9c9-4ca8-8692-e109e0aa8579",
       "type": "number",
       "value": 0
     },
     {
       "name": "resultText",
+      "persistentUuid": "331692f9-7cb1-4766-b7fb-7e93b6147b95",
       "type": "string",
       "value": "\"\""
     },
     {
       "name": "score",
+      "persistentUuid": "e2537619-378a-4de8-9157-228ad9507888",
       "type": "number",
       "value": 0
     },
     {
       "name": "basePoints",
+      "persistentUuid": "c789745b-6e8c-46e5-b05d-7aa0e01b7086",
       "type": "number",
       "value": 100
     },
     {
       "name": "penalty",
+      "persistentUuid": "931bb902-c4ed-4a6d-b32c-a2b7db6fbebb",
       "type": "number",
       "value": 50
     },
     {
       "name": "mult",
+      "persistentUuid": "f3acf2ed-d0bf-4738-b4ff-4cdb778428a7",
       "type": "number",
       "value": 1
     },
     {
       "name": "streak",
+      "persistentUuid": "84f070a4-43c0-491c-a77a-26d40dab8379",
       "type": "number",
       "value": 0
     },
     {
       "name": "wrongStreak",
+      "persistentUuid": "617dd801-a61d-4f56-ab03-d1cb259a40c4",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionsAnswered",
+      "persistentUuid": "74d04be1-437e-43e8-be42-2569dd0a511e",
       "type": "number",
       "value": 0
     },
     {
       "name": "levelQuestions",
+      "persistentUuid": "a08f8bcd-6100-4ba1-a29e-a06cc1c2bade",
       "type": "number",
       "value": 5
     },
     {
       "name": "elapsedQuestionTime",
+      "persistentUuid": "c6f13b52-cec9-469a-8128-7d2326067627",
       "type": "number",
       "value": 0
     },
     {
       "name": "timeLimit",
+      "persistentUuid": "f844704d-f10d-4db8-87fc-067bdbcb53bf",
       "type": "number",
       "value": 30
     },
     {
       "name": "hintPenalty",
+      "persistentUuid": "8e2beba5-05e5-4bbf-83a4-716a33a6e1af",
       "type": "number",
       "value": 25
     },
     {
       "name": "hintOpen",
+      "persistentUuid": "ac43f2c4-c9d9-4b1e-af3f-a021f18f983c",
       "type": "boolean",
       "value": false
     },
     {
       "name": "hintUsedThisQuestion",
+      "persistentUuid": "46438ee8-147d-4f63-835b-bc9e7c44de61",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionOpen",
+      "persistentUuid": "1704bf92-df9b-4826-a285-fbec424ce4e2",
       "type": "boolean",
       "value": true
     },
     {
       "name": "cityPower",
+      "persistentUuid": "665fdd00-c995-4e4d-867d-1f3e4ee5e588",
       "type": "number",
       "value": 0
     },
     {
       "name": "inputLocked",
+      "persistentUuid": "d4d7f6ec-5b11-463a-80db-8fa250f5a434",
       "type": "boolean",
       "value": false
     },
     {
       "name": "startNextQuestion",
+      "persistentUuid": "b0168c12-b9c1-462f-bea4-39a3f013da3b",
       "type": "boolean",
       "value": true
     },
     {
       "name": "correctAnswers",
+      "persistentUuid": "91864490-2ba5-4b2a-b0ff-583190476e36",
       "type": "number",
       "value": 0
     },
     {
       "name": "incorrectAnswers",
+      "persistentUuid": "0a4a8a9a-22d3-4f9b-8359-66eccaedcf9d",
       "type": "number",
       "value": 0
     },
     {
       "name": "highestStreak",
+      "persistentUuid": "97b19539-8d55-4144-976b-2b500ddb983f",
       "type": "number",
       "value": 0
     },
     {
       "name": "targetHex",
+      "persistentUuid": "2d9a7108-4832-4e46-af61-9ecdb2597ee5",
       "type": "string",
       "value": ""
     },
     {
       "name": "hexDigit",
+      "persistentUuid": "1f553669-fe94-4515-8494-826976e7494a",
       "type": "number",
       "value": 0
     },
     {
       "name": "hexLetterVal",
+      "persistentUuid": "1617af85-0332-4d77-b2aa-0e1c3523ea79",
       "type": "number",
       "value": 0
     },
     {
       "name": "hexLetter",
+      "persistentUuid": "71d95d59-53d5-43aa-ae86-547cd9391349",
       "type": "string",
       "value": ""
     },
     {
       "name": "lightani",
+      "persistentUuid": "1373a821-5c8a-4769-a115-e8c277d96601",
       "type": "number",
       "value": 0
     }
@@ -419,8 +447,8 @@
       "name": "TimerText",
       "persistentUuid": "492902c1-3e55-4307-b995-ec8a0a8ecd77",
       "width": 274,
-      "x": 879,
-      "y": 567,
+      "x": 894,
+      "y": 577,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -588,6 +616,22 @@
       "x": 875,
       "y": 930,
       "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 891,
+      "layer": "background",
+      "name": "NightBG",
+      "persistentUuid": "7e4f6688-ccc0-4777-8652-514b3348573c",
+      "width": 1813,
+      "x": 51,
+      "y": -380,
+      "zOrder": 44,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
