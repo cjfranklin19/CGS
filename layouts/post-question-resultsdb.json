@@ -37,7 +37,7 @@
       "layer": "",
       "name": "Score",
       "persistentUuid": "4de73ff1-5f01-4004-a1b8-9d8b105dce83",
-      "width": 496,
+      "width": 853,
       "x": 645,
       "y": 152,
       "zOrder": 1,
@@ -79,13 +79,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 76,
       "keepRatio": true,
       "layer": "",
       "name": "Highest_Streak",
       "persistentUuid": "60b4d951-dd0e-44f5-8166-cf8c4fcdfe05",
-      "width": 0,
+      "width": 607,
       "x": 645,
       "y": 255,
       "zOrder": 4,
@@ -143,17 +144,16 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1074,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
-      "layer": "background",
-      "name": "Icon_Background",
-      "persistentUuid": "e1f82e8f-2754-4c74-9bcb-db7f28b6f5cd",
-      "width": 1921,
+      "layer": "",
+      "name": "NightBG",
+      "persistentUuid": "e7f985c5-f9da-42e4-940b-44068954f771",
+      "width": 0,
       "x": 2,
-      "y": 3,
-      "zOrder": 8,
+      "y": 5,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -173,13 +173,13 @@
       "effects": [],
       "behaviors": [],
       "string": "SCORE: ",
-      "font": "",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
       "characterSize": 70,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -196,12 +196,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "SCORE: ",
-        "font": "",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 70,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -217,13 +217,13 @@
       "effects": [],
       "behaviors": [],
       "string": "CORRECT",
-      "font": "",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
       "characterSize": 70,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -240,12 +240,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "CORRECT",
-        "font": "",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 70,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -261,13 +261,13 @@
       "effects": [],
       "behaviors": [],
       "string": "INCORRECT",
-      "font": "",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
       "characterSize": 70,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -284,12 +284,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "INCORRECT",
-        "font": "",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 70,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -305,13 +305,13 @@
       "effects": [],
       "behaviors": [],
       "string": "STREAK",
-      "font": "",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
       "characterSize": 70,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -328,12 +328,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "STREAK",
-        "font": "",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 70,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -368,13 +368,13 @@
       "effects": [],
       "behaviors": [],
       "string": "Hint Used:",
-      "font": "",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
       "characterSize": 70,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -391,12 +391,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "Hint Used:",
-        "font": "",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 70,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
