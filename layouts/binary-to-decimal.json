@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.44485159988866696,
+    "zoomFactor": 0.37687720367508915,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -572,12 +572,12 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "bank",
-      "persistentUuid": "87afe65b-4fea-4864-b4a7-07e459fb58e6",
+      "name": "SCORE",
+      "persistentUuid": "6a9b05c3-4124-45b4-86fc-6cda164b5b8c",
       "width": 0,
-      "x": 171,
-      "y": 83,
-      "zOrder": 1,
+      "x": 1272,
+      "y": 574,
+      "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -586,15 +586,98 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 431,
+      "height": 227,
       "keepRatio": true,
-      "layer": "story",
+      "layer": "",
+      "name": "StreakText",
+      "persistentUuid": "982b02b5-f092-4408-a490-5d17ab0a69d3",
+      "width": 46,
+      "x": 613,
+      "y": 574,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 891,
+      "layer": "background",
+      "name": "NightBG",
+      "persistentUuid": "3bc3e2b4-8760-4204-b006-81135486e2d9",
+      "width": 1813,
+      "x": 51,
+      "y": -380,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 523,
+      "keepRatio": true,
+      "layer": "pannel",
       "name": "storybox",
-      "persistentUuid": "bcb3f801-5d0f-42c9-a2e1-9c3ec00379f8",
-      "width": 1653,
-      "x": 113,
-      "y": 47,
-      "zOrder": 36,
+      "persistentUuid": "cc44cdb8-c99c-4c1a-89ed-30870b70c84a",
+      "width": 1817,
+      "x": 49,
+      "y": 2,
+      "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "bank",
+      "name": "bank",
+      "persistentUuid": "b7168449-cc70-4a2a-b8bd-8b3706c01560",
+      "width": 0,
+      "x": 145,
+      "y": 140,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 516,
+      "keepRatio": true,
+      "layer": "hint",
+      "name": "hintbox",
+      "persistentUuid": "0266dd77-34ec-493b-beae-86ff86e8a541",
+      "width": 1813,
+      "x": 51,
+      "y": 4,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 143,
+      "keepRatio": true,
+      "layer": "hint",
+      "name": "Hint",
+      "persistentUuid": "62aa445b-fcc8-4084-af89-6b34621150eb",
+      "width": 1244,
+      "x": 265,
+      "y": 201,
+      "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -13659,9 +13742,9 @@
       "effects": [],
       "behaviors": [],
       "string": "0",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
-      "characterSize": 80,
+      "characterSize": 65,
       "color": {
         "b": 146,
         "g": 198,
@@ -13682,10 +13765,10 @@
         "smoothed": true,
         "underlined": false,
         "text": "0",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 80,
+        "characterSize": 65,
         "lineHeight": 0,
         "color": "150;198;146"
       }
@@ -13818,7 +13901,7 @@
         }
       ],
       "string": "HQ to Converter, the Gridbreaker Syndicate has inverted their tactics; instead of converting decimal to binary, you now have to convert binary to decimal. ",
-      "font": "",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
       "characterSize": 40,
       "color": {
@@ -13841,7 +13924,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "HQ to Converter, the Gridbreaker Syndicate has inverted their tactics; instead of converting decimal to binary, you now have to convert binary to decimal. ",
-        "font": "",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 40,
@@ -13922,14 +14005,14 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Text",
-      "font": "",
+      "string": "the binary follows the same rules as the switchs. \njust add the bits together to get the right decimal",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
-      "characterSize": 20,
+      "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -13945,13 +14028,13 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Text",
-        "font": "",
+        "text": "the binary follows the same rules as the switchs. \njust add the bits together to get the right decimal",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 20,
+        "characterSize": 40,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "150;198;146"
       }
     },
     {
@@ -16666,7 +16749,61 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "hint",
+      "name": "bank",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "pannel",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -16786,6 +16923,60 @@
       "isLightingLayer": false,
       "isLocked": false,
       "name": "story",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "hint",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
