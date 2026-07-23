@@ -781,6 +781,15 @@
             "hintbox",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"CountingDown\""
+          ]
         }
       ]
     }
