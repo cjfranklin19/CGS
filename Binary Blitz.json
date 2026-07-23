@@ -5293,6 +5293,110 @@
         "name": "../../../OneDrive - Norfolk State University/animation/Cumulative door20.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "goodending1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "goodending1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "goodending2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "goodending2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "goodending3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "goodending3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "goodending4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "goodending4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "goodending5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "goodending5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "goodending6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "goodending6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "goodending7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "goodending7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "goodending8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "goodending8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "goodending9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "goodending9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "goodending10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "goodending10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "goodending11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "goodending11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "goodending12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "goodending12.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },

@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7315786463753089,
+    "zoomFactor": 0.41630252177333743,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -1027,29 +1027,13 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "Layer",
+      "layer": "door",
       "name": "doorLock",
       "persistentUuid": "5fb011dd-57c5-4f90-9a3b-27b81ac7e705",
       "width": 0,
-      "x": 142,
-      "y": 71,
+      "x": 135,
+      "y": -8,
       "zOrder": 85,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Layer",
-      "name": "door_animaiton",
-      "persistentUuid": "a635dc6f-717c-40c1-bd89-ce4a76620ab1",
-      "width": 0,
-      "x": 139,
-      "y": 77,
-      "zOrder": 84,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1098,8 +1082,8 @@
       "name": "hintbox",
       "persistentUuid": "654985b1-1ca0-4355-b03d-8644f02ab555",
       "width": 1782,
-      "x": 195,
-      "y": 355,
+      "x": 92,
+      "y": 7,
       "zOrder": 88,
       "numberProperties": [],
       "stringProperties": [],
@@ -1117,6 +1101,56 @@
       "x": 927,
       "y": 254,
       "zOrder": 89,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1164,
+      "keepRatio": true,
+      "layer": "fade",
+      "name": "fade",
+      "persistentUuid": "a6029d2b-4f5c-4333-a658-9e8201ab51a9",
+      "width": 2096,
+      "x": -38,
+      "y": -50,
+      "zOrder": 90,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 570,
+      "keepRatio": true,
+      "layer": "police",
+      "name": "Police",
+      "persistentUuid": "cea229c2-3f7b-48a9-9e7c-7b264dfe16bd",
+      "width": 1013,
+      "x": 419,
+      "y": -207,
+      "zOrder": 91,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "police",
+      "name": "NightBG",
+      "persistentUuid": "85b5156d-60e3-48ae-b56f-87ca7c78560b",
+      "width": 0,
+      "x": 35,
+      "y": -467,
+      "zOrder": 92,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -19233,6 +19267,530 @@
         "lineHeight": 0,
         "color": "150;198;146"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "fade",
+      "persistentUuid": "0da39d57-74da-499e-acfe-d85d6002dea7",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite4",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Police",
+      "persistentUuid": "b7051127-f50b-49f3-ad83-7c8d280c2edd",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "goodending1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 29,
+                        "y": 150
+                      },
+                      {
+                        "x": 465,
+                        "y": 150
+                      },
+                      {
+                        "x": 465,
+                        "y": 270
+                      },
+                      {
+                        "x": 29,
+                        "y": 270
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "goodending2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 29,
+                        "y": 150
+                      },
+                      {
+                        "x": 465,
+                        "y": 150
+                      },
+                      {
+                        "x": 465,
+                        "y": 270
+                      },
+                      {
+                        "x": 29,
+                        "y": 270
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "goodending3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 29,
+                        "y": 150
+                      },
+                      {
+                        "x": 465,
+                        "y": 150
+                      },
+                      {
+                        "x": 465,
+                        "y": 270
+                      },
+                      {
+                        "x": 29,
+                        "y": 270
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "goodending4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 29,
+                        "y": 150
+                      },
+                      {
+                        "x": 465,
+                        "y": 150
+                      },
+                      {
+                        "x": 465,
+                        "y": 270
+                      },
+                      {
+                        "x": 29,
+                        "y": 270
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "goodending5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 29,
+                        "y": 150
+                      },
+                      {
+                        "x": 465,
+                        "y": 150
+                      },
+                      {
+                        "x": 465,
+                        "y": 270
+                      },
+                      {
+                        "x": 29,
+                        "y": 270
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "goodending6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 29,
+                        "y": 150
+                      },
+                      {
+                        "x": 465,
+                        "y": 150
+                      },
+                      {
+                        "x": 465,
+                        "y": 270
+                      },
+                      {
+                        "x": 29,
+                        "y": 270
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "goodending7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 29,
+                        "y": 150
+                      },
+                      {
+                        "x": 465,
+                        "y": 150
+                      },
+                      {
+                        "x": 465,
+                        "y": 270
+                      },
+                      {
+                        "x": 29,
+                        "y": 270
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "goodending8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 29,
+                        "y": 150
+                      },
+                      {
+                        "x": 465,
+                        "y": 150
+                      },
+                      {
+                        "x": 465,
+                        "y": 270
+                      },
+                      {
+                        "x": 29,
+                        "y": 270
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "goodending9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 29,
+                        "y": 150
+                      },
+                      {
+                        "x": 465,
+                        "y": 150
+                      },
+                      {
+                        "x": 465,
+                        "y": 270
+                      },
+                      {
+                        "x": 29,
+                        "y": 270
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "goodending10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 29,
+                        "y": 150
+                      },
+                      {
+                        "x": 465,
+                        "y": 150
+                      },
+                      {
+                        "x": 465,
+                        "y": 270
+                      },
+                      {
+                        "x": 29,
+                        "y": 270
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "goodending11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 29,
+                        "y": 150
+                      },
+                      {
+                        "x": 465,
+                        "y": 150
+                      },
+                      {
+                        "x": 465,
+                        "y": 270
+                      },
+                      {
+                        "x": 29,
+                        "y": 270
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "goodending12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 29,
+                        "y": 150
+                      },
+                      {
+                        "x": 465,
+                        "y": 150
+                      },
+                      {
+                        "x": 465,
+                        "y": 270
+                      },
+                      {
+                        "x": 29,
+                        "y": 270
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -19311,6 +19869,9 @@
         "objectName": "Letter_KeyF"
       },
       {
+        "objectName": "fade"
+      },
+      {
         "objectName": "Decimal"
       },
       {
@@ -19377,6 +19938,9 @@
         "objectName": "doorLock"
       },
       {
+        "objectName": "Police"
+      },
+      {
         "objectName": "door_animaiton"
       }
     ]
@@ -19397,13 +19961,14 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySound"
+            "value": "PlaySoundOnChannel"
           },
           "parameters": [
             "",
-            "timedlevelsfixed3.mp3",
-            "no",
-            "3",
+            "timedlevelsfixed4.mp3",
+            "1",
+            "yes",
+            "GlobalVariable(Settings.MusicVolume)",
             ""
           ]
         },
@@ -19697,6 +20262,70 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "name": "music logic",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustResumed"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetSoundChannelVolume"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "GlobalVariable(Settings.MusicVolume)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustResumed"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetSoundChannelVolume"
+              },
+              "parameters": [
+                "",
+                "2",
+                "=",
+                "GlobalVariable(Settings.SFXVolume)"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
       "name": "question",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -19729,7 +20358,7 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "questionsAnswered",
+                "NumberOfCorrectAnswers",
                 "<",
                 "levelQuestions"
               ]
@@ -23785,6 +24414,32 @@
       "conditions": [
         {
           "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "fade",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "AnimatableCapability::AnimatableBehavior::Index"
           },
           "parameters": [
@@ -23814,6 +24469,53 @@
             "Animation",
             "=",
             "\"door_animation\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "doorLock",
+            "Animation",
+            "=",
+            "\"door_animation\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+          },
+          "parameters": [
+            "doorLock",
+            "Animation"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+          },
+          "parameters": [
+            "fade",
+            "Tween",
+            "\"fadein\"",
+            "255",
+            "\"easeInQuad\"",
+            "1",
+            ""
           ]
         }
       ]
@@ -23893,7 +24595,61 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Layer",
+      "name": "police",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "door",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -24269,6 +25025,60 @@
           }
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "fade",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
@@ -24311,6 +25121,10 @@
     {
       "name": "Text",
       "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
     }
   ]
 }
