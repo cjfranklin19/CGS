@@ -1,13 +1,13 @@
 {
-  "b": 255,
+  "b": 155,
   "disableInputWhenNotFocused": true,
   "mangledName": "cumulative_32in_45progress",
   "name": "cumulative in-progress",
-  "r": 247,
+  "r": 155,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 249,
+  "v": 155,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.44485159988867007,
+    "zoomFactor": 0.7315786463753089,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -363,6 +363,24 @@
       "persistentUuid": "fa6efa5a-ca96-4892-b605-67aae76405fc",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "HexLow",
+      "persistentUuid": "cc9476ab-d808-47ec-a27a-9aa91695b3cd",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "HexHigh",
+      "persistentUuid": "3dc614eb-c0a0-4348-80c3-fe63c760d330",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "NumberOfCorrectAnswers",
+      "persistentUuid": "b5417968-259e-479e-8312-7d36a799f849",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -442,8 +460,8 @@
       "name": "TimerText",
       "persistentUuid": "492902c1-3e55-4307-b995-ec8a0a8ecd77",
       "width": 224,
-      "x": 837,
-      "y": 571,
+      "x": 871,
+      "y": 593,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -511,22 +529,6 @@
       "x": 1735,
       "y": -471,
       "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 55,
-      "layer": "",
-      "name": "AnswerDisplay",
-      "persistentUuid": "5694019b-e7dc-43c4-ad10-5a1c7efdfb68",
-      "width": 122,
-      "x": 483,
-      "y": 769,
-      "zOrder": 42,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -987,6 +989,137 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "buttons",
+      "name": "AnswerDisplay",
+      "persistentUuid": "41fb2cdf-51a7-49b1-82c2-9a16c554edd7",
+      "width": 0,
+      "x": 490,
+      "y": 773,
+      "zOrder": 81,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "panels",
+      "name": "storybox",
+      "persistentUuid": "c70684be-0c84-48cf-be65-2b5a4727963a",
+      "width": 0,
+      "x": 779,
+      "y": -387,
+      "zOrder": 82,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Layer",
+      "name": "doorLock",
+      "persistentUuid": "5fb011dd-57c5-4f90-9a3b-27b81ac7e705",
+      "width": 0,
+      "x": 142,
+      "y": 71,
+      "zOrder": 85,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Layer",
+      "name": "door_animaiton",
+      "persistentUuid": "a635dc6f-717c-40c1-bd89-ce4a76620ab1",
+      "width": 0,
+      "x": 139,
+      "y": 77,
+      "zOrder": 84,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 476,
+      "keepRatio": true,
+      "layer": "story",
+      "name": "storybox",
+      "persistentUuid": "d8a54d60-69c3-4096-925f-87bea68a35ee",
+      "width": 1783,
+      "x": 85,
+      "y": 4,
+      "zOrder": 86,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 172,
+      "keepRatio": true,
+      "layer": "story",
+      "name": "Story_text",
+      "persistentUuid": "38f17214-3737-4300-ad41-b1e5618bee83",
+      "width": 1398,
+      "x": 284,
+      "y": 153,
+      "zOrder": 87,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 477,
+      "keepRatio": true,
+      "layer": "Hint",
+      "name": "hintbox",
+      "persistentUuid": "654985b1-1ca0-4355-b03d-8644f02ab555",
+      "width": 1782,
+      "x": 195,
+      "y": 355,
+      "zOrder": 88,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Hint",
+      "name": "Hint",
+      "persistentUuid": "6aaa0eee-5b66-417c-819d-52cea9ac007c",
+      "width": 0,
+      "x": 927,
+      "y": 254,
+      "zOrder": 89,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1008,11 +1141,22 @@
           "name": "BitVal",
           "persistentUuid": "b67f8d65-a3ed-4baf-9dc1-e7e2bfea550f",
           "type": "number",
-          "value": 0
+          "value": 64
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "animations": [
         {
           "name": "off",
@@ -1131,11 +1275,22 @@
           "name": "BitVal",
           "persistentUuid": "ad9de8a9-6cf0-4a01-9d57-2ac52209a62b",
           "type": "number",
-          "value": 0
+          "value": 32
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "animations": [
         {
           "name": "off",
@@ -1253,11 +1408,22 @@
           "name": "BitVal",
           "persistentUuid": "93baed99-63aa-4858-ad1a-081ab605223b",
           "type": "number",
-          "value": 0
+          "value": 16
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "animations": [
         {
           "name": "off",
@@ -1379,7 +1545,18 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "animations": [
         {
           "name": "off",
@@ -1501,7 +1678,18 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "animations": [
         {
           "name": "off",
@@ -1623,7 +1811,18 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "animations": [
         {
           "name": "off",
@@ -1745,7 +1944,18 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "animations": [
         {
           "name": "off",
@@ -1857,7 +2067,7 @@
           "name": "BitVal",
           "persistentUuid": "52c4df72-c906-451c-af50-03c5f40f2cda",
           "type": "number",
-          "value": 0
+          "value": 128
         },
         {
           "name": "Status",
@@ -1867,7 +2077,18 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "animations": [
         {
           "name": "off",
@@ -2555,7 +2776,18 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "animations": [
         {
           "name": "Zero",
@@ -3055,7 +3287,18 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "animations": [
         {
           "name": "One",
@@ -3555,7 +3798,18 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "animations": [
         {
           "name": "Two",
@@ -4055,7 +4309,18 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "animations": [
         {
           "name": "Three",
@@ -4555,7 +4820,18 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "animations": [
         {
           "name": "Four",
@@ -5055,7 +5331,18 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "animations": [
         {
           "name": "Five",
@@ -5555,7 +5842,18 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "animations": [
         {
           "name": "Six",
@@ -6055,7 +6353,18 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "animations": [
         {
           "name": "Seven",
@@ -6555,7 +6864,18 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "animations": [
         {
           "name": "Eight",
@@ -7055,7 +7375,18 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "animations": [
         {
           "name": "Nine",
@@ -7552,10 +7883,27 @@
           "persistentUuid": "fc2247b7-b9e1-4792-adf5-ce449261eea4",
           "type": "string",
           "value": "a"
+        },
+        {
+          "name": "bitval",
+          "persistentUuid": "12174c95-530e-4b95-a161-a3c13d4ae2e5",
+          "type": "number",
+          "value": 10
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "animations": [
         {
           "name": "A",
@@ -8823,7 +9171,18 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "animations": [
         {
           "name": "B",
@@ -10091,7 +10450,18 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "animations": [
         {
           "name": "C",
@@ -11359,7 +11729,18 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "animations": [
         {
           "name": "D",
@@ -12627,7 +13008,18 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "animations": [
         {
           "name": "E",
@@ -15224,7 +15616,18 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "animations": [
         {
           "name": "F",
@@ -16560,7 +16963,7 @@
         }
       ],
       "string": "HQ to Converter, you've made it to the power plant. Now, to take back control, you must use your knowledge of the previous events to get back the system, as a last-ditch effort, they have put a timer on this level too, but we believe in you",
-      "font": "",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
       "characterSize": 40,
       "color": {
@@ -16583,7 +16986,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "HQ to Converter, you've made it to the power plant. Now, to take back control, you must use your knowledge of the previous events to get back the system, as a last-ditch effort, they have put a timer on this level too, but we believe in you",
-        "font": "",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 40,
@@ -17234,6 +17637,739 @@
               ]
             }
           ]
+        },
+        {
+          "name": "door_animation",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door13.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door14.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door15.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door16.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door17.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door18.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door19.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door20.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -17277,6 +18413,823 @@
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 50,
+        "lineHeight": 0,
+        "color": "150;198;146"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "door_animaiton",
+      "persistentUuid": "bba916ad-7a52-41b2-8bf5-31a054bed679",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Cumulative door54",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door54.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door55.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door56.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door57.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door58.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door59.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door60.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door61.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door62.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door63.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door64.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door65.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door66.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door67.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door68.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door69.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door70.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door71.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door72.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cumulative door73.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 399,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 15
+                      },
+                      {
+                        "x": 1201,
+                        "y": 374
+                      },
+                      {
+                        "x": 399,
+                        "y": 374
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "b7b916614570780a0e1ee277966a3cd49566347fde75ac0c0c7a95554156b4e9",
+      "bottomMargin": 12,
+      "height": 48,
+      "leftMargin": 12,
+      "name": "hintbox",
+      "persistentUuid": "808ad8ad-92a5-413f-b8c5-16bf92c6a192",
+      "rightMargin": 12,
+      "texture": "Default-panel (2).png",
+      "tiled": false,
+      "topMargin": 12,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 48,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Hint",
+      "persistentUuid": "a974326a-da64-4bd1-a3c4-2215f9024627",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.06,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        }
+      ],
+      "string": "hint",
+      "font": "Not Jam Mono Clean16.ttf",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 146,
+        "g": 198,
+        "r": 150
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "hint",
+        "font": "Not Jam Mono Clean16.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
         "lineHeight": 0,
         "color": "150;198;146"
       }
@@ -17412,10 +19365,19 @@
         "objectName": "storybox"
       },
       {
+        "objectName": "hintbox"
+      },
+      {
         "objectName": "Story_text"
       },
       {
+        "objectName": "Hint"
+      },
+      {
         "objectName": "doorLock"
+      },
+      {
+        "objectName": "door_animaiton"
       }
     ]
   },
@@ -17697,6 +19659,36 @@
             "ButtonFSM",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Switches",
+            "ButtonFSM",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "numberPad",
+            "ButtonFSM",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "letterPad",
+            "ButtonFSM",
+            ""
+          ]
         }
       ]
     },
@@ -17881,6 +19873,17 @@
                     },
                     {
                       "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Switches",
+                        "Status",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                       },
                       "parameters": [
@@ -17926,6 +19929,46 @@
                         "inputMode",
                         "=",
                         "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Switches",
+                        "ButtonFSM",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "binaryTot",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "numberPad",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "letterPad",
+                        "ButtonFSM",
+                        ""
                       ]
                     }
                   ]
@@ -18012,6 +20055,36 @@
                         "=",
                         "1"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Switches",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "numberPad",
+                        "ButtonFSM",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "letterPad",
+                        "ButtonFSM",
+                        ""
+                      ]
                     }
                   ]
                 },
@@ -18038,6 +20111,17 @@
                         "TargetDecimal",
                         "=",
                         "RandomInRange(0,255)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Switches",
+                        "Status",
+                        "False",
+                        ""
                       ]
                     },
                     {
@@ -18087,6 +20171,46 @@
                         "inputMode",
                         "=",
                         "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Switches",
+                        "ButtonFSM",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "binaryTot",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "numberPad",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "letterPad",
+                        "ButtonFSM",
+                        ""
                       ]
                     }
                   ]
@@ -18182,6 +20306,36 @@
                         "=",
                         "2"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Switches",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "numberPad",
+                        "ButtonFSM",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "letterPad",
+                        "ButtonFSM",
+                        "yes"
+                      ]
                     }
                   ]
                 },
@@ -18208,6 +20362,17 @@
                         "TargetDecimal",
                         "=",
                         "RandomInRange(0,63)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Switches",
+                        "Status",
+                        "False",
+                        ""
                       ]
                     },
                     {
@@ -18303,6 +20468,46 @@
                         "=",
                         "0"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Switches",
+                        "ButtonFSM",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "binaryTot",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "numberPad",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "letterPad",
+                        "ButtonFSM",
+                        ""
+                      ]
                     }
                   ]
                 },
@@ -18388,6 +20593,36 @@
                         "=",
                         "1"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Switches",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "numberPad",
+                        "ButtonFSM",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "letterPad",
+                        "ButtonFSM",
+                        ""
+                      ]
                     }
                   ]
                 }
@@ -18412,21 +20647,11 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
                 "Switches",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "Switches",
-                "",
-                "",
+                "ButtonFSM",
                 ""
               ]
             }
@@ -18450,21 +20675,11 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
                 "Switches",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "Switches",
-                "",
-                "",
+                "ButtonFSM",
                 ""
               ]
             },
@@ -18522,21 +20737,11 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
                 "Switches",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "Switches",
-                "",
-                "",
+                "ButtonFSM",
                 ""
               ]
             },
@@ -18623,21 +20828,11 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
                 "Number_Key0",
-                "",
-                "",
+                "ButtonFSM",
                 ""
               ]
             },
@@ -18701,21 +20896,11 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
                 "Number_Key1",
-                "",
-                "",
+                "ButtonFSM",
                 ""
               ]
             },
@@ -18779,21 +20964,11 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
                 "Number_Key2",
-                "",
-                "",
+                "ButtonFSM",
                 ""
               ]
             },
@@ -18857,21 +21032,11 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
                 "Number_Key3",
-                "",
-                "",
+                "ButtonFSM",
                 ""
               ]
             },
@@ -18935,21 +21100,11 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
                 "Number_Key4",
-                "",
-                "",
+                "ButtonFSM",
                 ""
               ]
             },
@@ -19013,21 +21168,11 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
                 "Number_Key5",
-                "",
-                "",
+                "ButtonFSM",
                 ""
               ]
             },
@@ -19091,26 +21236,6 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "Number_Key6",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "BuiltinCommonInstructions::Or"
               },
               "parameters": [],
@@ -19135,6 +21260,16 @@
                     "2"
                   ]
                 }
+              ]
+            },
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "Number_Key3",
+                "ButtonFSM",
+                ""
               ]
             }
           ],
@@ -20198,6 +22333,16 @@
                 "=",
                 "lightAnimat"
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "NumberOfCorrectAnswers",
+                "+",
+                "1"
+              ]
             }
           ],
           "events": [
@@ -20871,6 +23016,16 @@
                 "=",
                 "lightAnimat"
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "NumberOfCorrectAnswers",
+                "+",
+                "1"
+              ]
             }
           ],
           "events": [
@@ -21310,7 +23465,7 @@
             "value": "NumberVariable"
           },
           "parameters": [
-            "questionsAnswered",
+            "NumberOfCorrectAnswers",
             "=",
             "levelQuestions"
           ]
@@ -21462,6 +23617,7 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -21569,6 +23725,7 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -21702,6 +23859,18 @@
       "parameters": []
     },
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "this has to change"
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -21738,6 +23907,13 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "sub/hint button animation"
     }
   ],
   "layers": [
@@ -21754,6 +23930,60 @@
       "isLightingLayer": false,
       "isLocked": false,
       "name": "background",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Layer",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -21861,7 +24091,61 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Layer",
+      "name": "story",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Hint",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -21982,7 +24266,7 @@
       "isLocked": false,
       "name": "switches layer",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
