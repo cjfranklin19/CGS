@@ -503,22 +503,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "AnswerDisplay",
-      "persistentUuid": "4b3a3855-46ed-4bf0-8945-3ee4f081bc20",
-      "width": 0,
-      "x": 1943,
-      "y": -131,
-      "zOrder": 34,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 103,
