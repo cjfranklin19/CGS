@@ -1,13 +1,13 @@
 {
-  "b": 255,
+  "b": 0,
   "disableInputWhenNotFocused": true,
   "mangledName": "binary_32to_32hex_32_40timed_41",
   "name": "binary to hex (timed)",
-  "r": 247,
+  "r": 0,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 249,
+  "v": 0,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -29,186 +29,223 @@
   "variables": [
     {
       "name": "BinaryString",
+      "persistentUuid": "4428c08f-e7da-4a35-889f-70a2d8820f41",
       "type": "string",
       "value": ""
     },
     {
       "name": "BitCount",
+      "persistentUuid": "b82f2050-e6e5-4a12-8a40-b605eb35a2d9",
       "type": "number",
       "value": 0
     },
     {
       "name": "HexLow",
+      "persistentUuid": "85e71aa1-8634-4e18-a08f-6cd966bf8943",
       "type": "number",
       "value": 0
     },
     {
       "name": "HexHigh",
+      "persistentUuid": "589aad59-448b-4eca-b7cd-c850d4b6a5e1",
       "type": "number",
       "value": 0
     },
     {
       "name": "TargetHex",
+      "persistentUuid": "17135a40-36b8-4038-8d5b-1f01d28e3eda",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit0",
+      "persistentUuid": "7e3932ca-0c4e-4519-b7e0-2986863644b7",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit1",
+      "persistentUuid": "59320d08-cc63-4837-b284-b0705d0989e7",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit2",
+      "persistentUuid": "35426715-b5c5-490c-8cc3-f9dfe7bfab30",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit3",
+      "persistentUuid": "f318e8d3-59e9-4727-9c95-06b2955a6732",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit4",
+      "persistentUuid": "1c4b0f2c-81ef-454f-9d09-74504b0e1d98",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit5",
+      "persistentUuid": "4d55528b-075f-4757-a94b-7fed7964362f",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit6",
+      "persistentUuid": "897cbcea-db62-43a8-ad6e-717bfc2576bb",
       "type": "number",
       "value": 0
     },
     {
       "name": "Bit7",
+      "persistentUuid": "3356b1d2-8a3a-45d7-b5f1-68fbad918903",
       "type": "number",
       "value": 0
     },
     {
       "name": "HexLowText",
+      "persistentUuid": "d32181b1-9a3b-4df3-9e1a-36c8b314becc",
       "type": "string",
       "value": ""
     },
     {
       "name": "HexHighText",
+      "persistentUuid": "953a8bd8-b5f9-46fb-bf16-11b26d97e2fc",
       "type": "string",
       "value": ""
     },
     {
       "name": "PlayerAnswer",
+      "persistentUuid": "9f42101a-b8fc-4c6c-82ee-2e542a00d43f",
       "type": "string",
       "value": ""
     },
     {
       "name": "PlayerNumber",
+      "persistentUuid": "0bdaf261-9afc-4e9c-964d-f7912706a212",
       "type": "number",
       "value": 0
     },
     {
       "name": "ResultText",
+      "persistentUuid": "f9fd7ab3-f764-4f49-ae7f-4119e7109669",
       "type": "string",
       "value": ""
     },
     {
       "name": "score",
+      "persistentUuid": "56760030-7f92-49ef-9de8-92490ea82f9c",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionsAnswered",
+      "persistentUuid": "30a793a1-6966-4176-a18f-b52bfe08a2e0",
       "type": "number",
       "value": 0
     },
     {
       "name": "levelQuestions",
+      "persistentUuid": "0bb7128c-9476-49a9-94d1-9a8473496ab0",
       "type": "number",
       "value": 5
     },
     {
       "name": "questionOpen",
+      "persistentUuid": "dd316f8b-c06f-409b-b45e-66b087650392",
       "type": "boolean",
       "value": true
     },
     {
       "name": "inputLocked",
+      "persistentUuid": "8c3ece7c-a9d8-4fab-ae84-f5f1c0a9f831",
       "type": "boolean",
       "value": false
     },
     {
       "name": "startNextQuestion",
+      "persistentUuid": "e4bccdcd-63be-4e22-91a0-8d483e0697f1",
       "type": "boolean",
       "value": true
     },
     {
       "name": "hintOpen",
+      "persistentUuid": "4dbb6bc2-3f96-4481-9980-fea94d02f000",
       "type": "boolean",
       "value": false
     },
     {
       "name": "elapsedQuestionTime",
+      "persistentUuid": "a6120fdb-aa89-4fae-8184-798c1207a12c",
       "type": "number",
       "value": 0
     },
     {
       "name": "correctAnswers",
+      "persistentUuid": "a24c4754-9c96-4080-8faa-4c0e0be9ef8c",
       "type": "number",
       "value": 0
     },
     {
       "name": "streak",
+      "persistentUuid": "178e0d6f-cddc-4f4f-90a4-1df3cf8f9e1f",
       "type": "number",
       "value": 0
     },
     {
       "name": "highestStreak",
+      "persistentUuid": "0cc0ca5e-f6fc-432b-8540-5726e3efb384",
       "type": "number",
       "value": 0
     },
     {
       "name": "incorrectAnswers",
+      "persistentUuid": "718ff250-9b3e-42d4-823c-91822aa2d4e7",
       "type": "number",
       "value": 0
     },
     {
       "name": "timeLimit",
+      "persistentUuid": "b1af38fa-f93e-4330-9625-6e9b84111771",
       "type": "number",
       "value": 30
     },
     {
       "name": "mult",
+      "persistentUuid": "37042a91-048d-4c19-84cc-c536c43da0f1",
       "type": "number",
       "value": 0
     },
     {
       "name": "cityPower",
+      "persistentUuid": "939ff188-5aea-41fd-95ad-542bc0af8c25",
       "type": "number",
       "value": 0
     },
     {
       "name": "basePoints",
+      "persistentUuid": "2ae84608-8773-4e94-b292-7d61896f83b6",
       "type": "number",
       "value": 100
     },
     {
       "name": "penalty",
+      "persistentUuid": "cc9a20f1-dbdc-4a2e-b352-caac3ab43faa",
       "type": "number",
       "value": 50
     },
     {
       "name": "hintUsedThisQuestion",
+      "persistentUuid": "d8dd5234-b3cf-4388-a388-304f8b9df7ea",
       "type": "number",
       "value": 0
     },
     {
       "name": "wrongStreak",
+      "persistentUuid": "3ba5e20d-14fc-45e4-ba28-e12bece5b87d",
       "type": "number",
       "value": 0
     }
@@ -604,40 +641,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 490,
-      "keepRatio": true,
-      "layer": "",
-      "name": "storybox",
-      "persistentUuid": "b2250b4c-b44d-42e1-af12-d529a8b5634e",
-      "width": 1801,
-      "x": 67,
-      "y": 3,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 160,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Story_text",
-      "persistentUuid": "e03325c4-0516-48e8-8b1a-28c1538a4864",
-      "width": 1295,
-      "x": 294,
-      "y": 228,
-      "zOrder": 28,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 0,
       "height": 174,
       "layer": "",
@@ -663,6 +666,105 @@
       "x": 238,
       "y": 773,
       "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 891,
+      "layer": "background",
+      "name": "NightBG",
+      "persistentUuid": "807e9045-2c40-42ef-b7a3-33adb592f031",
+      "width": 1813,
+      "x": 51,
+      "y": -380,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "background",
+      "name": "townhall",
+      "persistentUuid": "f7e73c4a-4b5f-4c25-abba-6c4e30064dcc",
+      "width": 0,
+      "x": 166,
+      "y": 133,
+      "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 504,
+      "keepRatio": true,
+      "layer": "story layet",
+      "name": "storybox",
+      "persistentUuid": "7c508973-7d8c-4507-bc9b-5739914750b4",
+      "width": 1812,
+      "x": 51,
+      "y": 3,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 142,
+      "keepRatio": true,
+      "layer": "story layet",
+      "name": "Story_text",
+      "persistentUuid": "aa5d52a8-48d8-409e-8ebf-3ae6a1de1760",
+      "width": 1440,
+      "x": 234,
+      "y": 164,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 506,
+      "keepRatio": true,
+      "layer": "hint layer",
+      "name": "hintbox",
+      "persistentUuid": "62e49bea-aac8-42bb-9235-9f869fcf2af0",
+      "width": 1806,
+      "x": 53,
+      "y": 1,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "hint layer",
+      "name": "Hint",
+      "persistentUuid": "8a4c2f81-4c59-4d24-9283-3eb77231126b",
+      "width": 0,
+      "x": 851,
+      "y": 216,
+      "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -15214,14 +15316,308 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite",
+      "name": "townhall",
       "persistentUuid": "a3a21081-9ed8-4b0f-87d1-602cbd05bcd8",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "animations": []
+      "animations": [
+        {
+          "name": "0",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Binary to hex timed.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 391,
+                        "y": 10
+                      },
+                      {
+                        "x": 1209,
+                        "y": 10
+                      },
+                      {
+                        "x": 1209,
+                        "y": 375
+                      },
+                      {
+                        "x": 391,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 391,
+                        "y": 10
+                      },
+                      {
+                        "x": 1209,
+                        "y": 10
+                      },
+                      {
+                        "x": 1209,
+                        "y": 375
+                      },
+                      {
+                        "x": 391,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "15",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 391,
+                        "y": 10
+                      },
+                      {
+                        "x": 1209,
+                        "y": 10
+                      },
+                      {
+                        "x": 1209,
+                        "y": 375
+                      },
+                      {
+                        "x": 391,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "16",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 391,
+                        "y": 10
+                      },
+                      {
+                        "x": 1209,
+                        "y": 10
+                      },
+                      {
+                        "x": 1209,
+                        "y": 375
+                      },
+                      {
+                        "x": 391,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "4",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "17",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 391,
+                        "y": 10
+                      },
+                      {
+                        "x": 1209,
+                        "y": 10
+                      },
+                      {
+                        "x": 1209,
+                        "y": 375
+                      },
+                      {
+                        "x": 391,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "5",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "18",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 391,
+                        "y": 10
+                      },
+                      {
+                        "x": 1209,
+                        "y": 10
+                      },
+                      {
+                        "x": 1209,
+                        "y": 375
+                      },
+                      {
+                        "x": 391,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -15312,7 +15708,7 @@
         "objectName": "storybox"
       },
       {
-        "objectName": "NewSprite"
+        "objectName": "townhall"
       },
       {
         "objectName": "hintbox"
@@ -18345,6 +18741,168 @@
     }
   ],
   "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "background",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "story layet",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "hint layer",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
     {
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
