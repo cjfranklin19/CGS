@@ -59,116 +59,139 @@
   "variables": [
     {
       "name": "binaryTot",
+      "persistentUuid": "7b8b7d9b-5791-4971-bf42-6db9ce2b3e61",
       "type": "number",
       "value": 0
     },
     {
       "name": "targetNum",
+      "persistentUuid": "37172941-d92c-44e6-ba89-f02e0737e52c",
       "type": "number",
       "value": 0
     },
     {
       "name": "resultText",
+      "persistentUuid": "ab1392dd-4803-4ae2-b1ec-08002861f408",
       "type": "string",
       "value": "\"\""
     },
     {
       "name": "score",
+      "persistentUuid": "b542ab69-b20d-4015-aa43-3f66f83cf0c9",
       "type": "number",
       "value": 0
     },
     {
       "name": "basePoints",
+      "persistentUuid": "18311714-2669-4f10-b156-fef8d40f3983",
       "type": "number",
       "value": 100
     },
     {
       "name": "penalty",
+      "persistentUuid": "bcc9680e-7a10-4894-888f-623965b38e28",
       "type": "number",
       "value": 50
     },
     {
       "name": "mult",
+      "persistentUuid": "05ef028b-0e80-4c4c-84a2-1941c567bf9c",
       "type": "number",
       "value": 1
     },
     {
       "name": "streak",
+      "persistentUuid": "23aa2d02-0508-456f-b0b9-8f2279eadb9d",
       "type": "number",
       "value": 0
     },
     {
       "name": "wrongStreak",
+      "persistentUuid": "8c2247f2-a7dc-4aff-b58a-c1e0c21b801b",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionsAnswered",
+      "persistentUuid": "c2c90229-343f-4fdb-ac32-9ecd8b8f24bf",
       "type": "number",
       "value": 0
     },
     {
       "name": "levelQuestions",
+      "persistentUuid": "5bd7abe2-6fca-40b4-9358-abab6fddaadf",
       "type": "number",
       "value": 10
     },
     {
       "name": "elapsedQuestionTime",
+      "persistentUuid": "e3d999be-6bbb-4406-ae71-749369a46c4c",
       "type": "number",
       "value": 0
     },
     {
       "name": "timeLimit",
+      "persistentUuid": "26150aae-9c92-4885-b0be-c1b289ae0832",
       "type": "number",
       "value": 30
     },
     {
       "name": "hintPenalty",
+      "persistentUuid": "02c2cc59-f20c-439e-ae72-de5f88fcc599",
       "type": "number",
       "value": 25
     },
     {
       "name": "hintOpen",
+      "persistentUuid": "4351a3fb-49be-4045-9549-bb9225fad59e",
       "type": "boolean",
       "value": false
     },
     {
       "name": "hintUsedThisQuestion",
+      "persistentUuid": "11f1af68-cd3e-4cf9-be09-9cc520371d2f",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionOpen",
+      "persistentUuid": "ff48f925-86b1-4684-bd2b-6e2e347fd755",
       "type": "boolean",
       "value": true
     },
     {
       "name": "cityPower",
+      "persistentUuid": "96c29d71-4f88-4c2c-b276-d1af8203bf83",
       "type": "number",
       "value": 0
     },
     {
       "name": "inputLocked",
+      "persistentUuid": "3fa96bad-c39d-45ff-80e1-5936d426def7",
       "type": "boolean",
       "value": false
     },
     {
       "name": "startNextQuestion",
+      "persistentUuid": "228250a2-c457-4ef3-961d-d2a7df66e1ca",
       "type": "boolean",
       "value": true
     },
     {
       "name": "correctAnswers",
+      "persistentUuid": "3a5b0f65-6244-4e14-a6a8-e662f0b6651a",
       "type": "number",
       "value": 0
     },
     {
       "name": "incorrectAnswers",
+      "persistentUuid": "af8e6e8b-d645-4582-aeed-c2d4a50ca74e",
       "type": "number",
       "value": 0
     },
     {
       "name": "highestStreak",
+      "persistentUuid": "171ef176-7058-4e10-8dff-0a182e8e4216",
       "type": "number",
       "value": 0
     }
@@ -506,15 +529,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1034,
-      "keepRatio": true,
+      "height": 891,
       "layer": "background",
       "name": "sunsetBG",
       "persistentUuid": "c93630bf-3090-413a-a068-fe3eb488c635",
-      "width": 1681,
-      "x": 119,
-      "y": -458,
-      "zOrder": 21,
+      "width": 1813,
+      "x": 51,
+      "y": -380,
+      "zOrder": 44,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1606,13 +1628,13 @@
       "effects": [],
       "behaviors": [],
       "string": "Prompt",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "center",
       "characterSize": 40,
       "color": {
-        "b": 134,
-        "g": 233,
-        "r": 184
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -1629,12 +1651,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "Prompt",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
         "characterSize": 40,
         "lineHeight": 0,
-        "color": "184;233;134"
+        "color": "150;198;146"
       }
     },
     {
@@ -1650,13 +1672,13 @@
       "effects": [],
       "behaviors": [],
       "string": "Feeback",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "center",
       "characterSize": 40,
       "color": {
-        "b": 134,
-        "g": 233,
-        "r": 184
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -1673,12 +1695,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "Feeback",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
         "characterSize": 40,
         "lineHeight": 0,
-        "color": "184;233;134"
+        "color": "150;198;146"
       }
     },
     {
@@ -1713,13 +1735,13 @@
       "effects": [],
       "behaviors": [],
       "string": "Timer",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
       "characterSize": 40,
       "color": {
-        "b": 134,
-        "g": 233,
-        "r": 184
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -1736,12 +1758,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "Timer",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 40,
         "lineHeight": 0,
-        "color": "184;233;134"
+        "color": "150;198;146"
       }
     },
     {
@@ -1757,13 +1779,13 @@
       "effects": [],
       "behaviors": [],
       "string": "0",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
       "characterSize": 70,
       "color": {
-        "b": 134,
-        "g": 233,
-        "r": 184
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -1780,12 +1802,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "0",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 70,
         "lineHeight": 0,
-        "color": "184;233;134"
+        "color": "150;198;146"
       }
     },
     {
@@ -1862,7 +1884,7 @@
       "effects": [],
       "behaviors": [],
       "string": "0",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
       "characterSize": 70,
       "color": {
@@ -1885,7 +1907,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "0",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 70,
@@ -2206,18 +2228,6 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "timedlevelsfixed2.mp3",
-            "no",
-            "3",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
@@ -2353,7 +2363,7 @@
             "value": "Hide"
           },
           "parameters": [
-            "finishButton"
+            "FinishButton"
           ]
         },
         {
@@ -2377,6 +2387,19 @@
             "2",
             "32"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundOnChannel"
+          },
+          "parameters": [
+            "",
+            "menu sound2.mp3",
+            "1",
+            "yes",
+            "GlobalVariable(Settings.MusicVolume)",
+            ""
+          ]
         }
       ],
       "events": [
@@ -2388,11 +2411,68 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "sub/hint button animation"
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "music logic",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustResumed"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetSoundChannelVolume"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "GlobalVariable(Settings.MusicVolume)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustResumed"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetSoundChannelVolume"
+              },
+              "parameters": [
+                "",
+                "2",
+                "=",
+                "GlobalVariable(Settings.SFXVolume)"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -2503,13 +2583,14 @@
         },
         {
           "type": {
-            "value": "PlaySound"
+            "value": "PlaySoundOnChannel"
           },
           "parameters": [
             "",
-            "freesound_community-light-switch-off-86314.mp3",
+            "switch off3.mp3",
+            "2",
             "no",
-            "25",
+            "GlobalVariable(Settings.SFXVolume)",
             ""
           ]
         }
@@ -2574,13 +2655,14 @@
         },
         {
           "type": {
-            "value": "PlaySound"
+            "value": "PlaySoundOnChannel"
           },
           "parameters": [
             "",
-            "edr-switch-click-and-beep-001a-11602.mp3",
-            "",
-            "25",
+            "switch on2.mp3",
+            "2",
+            "no",
+            "GlobalVariable(Settings.SFXVolume)",
             ""
           ]
         }
@@ -3706,6 +3788,7 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -3945,6 +4028,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3991,6 +4075,13 @@
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "sub/hint button animation"
     }
   ],
   "layers": [
