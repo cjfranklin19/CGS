@@ -16324,6 +16324,16 @@
                 },
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "AmountHintUsed",
+                    "=",
+                    "hintUsedThisQuestion"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Show"
                   },
                   "parameters": [

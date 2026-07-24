@@ -427,38 +427,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "SCORE",
-      "persistentUuid": "256271b8-7070-4ae4-b45a-ed0a08a24476",
-      "width": 0,
-      "x": 1190,
-      "y": 554,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "StreakText",
-      "persistentUuid": "4867d215-b3d7-46c2-953c-d286599a0c5b",
-      "width": 0,
-      "x": 678,
-      "y": 554,
-      "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 128,
@@ -1872,50 +1840,6 @@
       ]
     },
     {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "StreakText",
-      "persistentUuid": "02285acd-9503-446e-9df8-bdf131ce2bcf",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "0",
-      "font": "Not Jam Mono Clean16.ttf",
-      "textAlignment": "left",
-      "characterSize": 70,
-      "color": {
-        "b": 134,
-        "g": 233,
-        "r": 184
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "0",
-        "font": "Not Jam Mono Clean16.ttf",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 70,
-        "lineHeight": 0,
-        "color": "184;233;134"
-      }
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite2",
@@ -2136,6 +2060,50 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "StreakText",
+      "persistentUuid": "2a169aa1-9701-41fc-9915-3b4923b4d9cb",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "Not Jam Mono Clean16.ttf",
+      "textAlignment": "left",
+      "characterSize": 70,
+      "color": {
+        "b": 134,
+        "g": 233,
+        "r": 184
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
+        "font": "Not Jam Mono Clean16.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 70,
+        "lineHeight": 0,
+        "color": "184;233;134"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2193,13 +2161,13 @@
         "objectName": "SCORE"
       },
       {
+        "objectName": "StreakText"
+      },
+      {
         "objectName": "hintbox"
       },
       {
         "objectName": "NewSprite"
-      },
-      {
-        "objectName": "StreakText"
       },
       {
         "objectName": "buildings"
@@ -3004,13 +2972,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundOnChannel"
               },
               "parameters": [
                 "",
                 "correct answer.mp3",
+                "2",
                 "no",
-                "25",
+                "GlobalVariable(Settings.SFXVolume)",
                 ""
               ]
             }
@@ -3592,18 +3561,6 @@
             },
             {
               "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "incorrect answer.mp3",
-                "no",
-                "25",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -3624,6 +3581,19 @@
               },
               "parameters": [
                 "TargetPrompt",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "incorrect answer.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
                 ""
               ]
             }

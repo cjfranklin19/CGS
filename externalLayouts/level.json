@@ -132,6 +132,38 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SCORE",
+      "persistentUuid": "9f6bc490-0008-49bf-89f9-57bfec88a655",
+      "width": 0,
+      "x": 1190,
+      "y": 575,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "StreakText",
+      "persistentUuid": "f53000bf-f61f-454a-b7d6-eeff4db1861c",
+      "width": 0,
+      "x": 613,
+      "y": 575,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {

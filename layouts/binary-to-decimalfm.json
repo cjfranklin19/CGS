@@ -264,39 +264,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 891,
-      "layer": "",
-      "name": "sunsetBG",
-      "persistentUuid": "425b0b14-4551-4212-9ee9-018c69640df7",
-      "width": 1813,
-      "x": 51,
-      "y": -380,
-      "zOrder": 32,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 45,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TargetPrompt",
-      "persistentUuid": "2633e0d0-76de-4493-8f70-0cd958d9e15f",
-      "width": 845,
-      "x": 551,
-      "y": 707,
-      "zOrder": 33,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 1,
       "height": 64,
       "layer": "",
@@ -304,7 +271,7 @@
       "persistentUuid": "d19f191c-b9fd-4209-9ec5-8c359a9b7b7e",
       "width": 865,
       "x": 551,
-      "y": 707,
+      "y": 696,
       "zOrder": 34,
       "numberProperties": [],
       "stringProperties": [],
@@ -575,6 +542,39 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 891,
+      "layer": "background",
+      "name": "sunsetBG",
+      "persistentUuid": "207e0222-c201-4550-be80-19db7e50292f",
+      "width": 1813,
+      "x": 51,
+      "y": -380,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 71,
+      "keepRatio": true,
+      "layer": "Layer",
+      "name": "BinaryDisplay",
+      "persistentUuid": "89038e26-1d41-48a7-9634-b42d4ce806fe",
+      "width": 1312,
+      "x": 438,
+      "y": 696,
+      "zOrder": 52,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -591,13 +591,13 @@
       "effects": [],
       "behaviors": [],
       "string": "Text",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
-      "characterSize": 65,
+      "characterSize": 60,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -614,12 +614,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "Text",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 65,
+        "characterSize": 60,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "150;198;146"
       }
     },
     {
@@ -13723,50 +13723,6 @@
       }
     },
     {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "Score_label",
-      "persistentUuid": "165464ad-0cab-4fad-aaab-c1e749bd1392",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Pts",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
-      "textAlignment": "left",
-      "characterSize": 70,
-      "color": {
-        "b": 134,
-        "g": 233,
-        "r": 184
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Pts",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 70,
-        "lineHeight": 0,
-        "color": "184;233;134"
-      }
-    },
-    {
       "assetStoreId": "b7b916614570780a0e1ee277966a3cd49566347fde75ac0c0c7a95554156b4e9",
       "bottomMargin": 12,
       "height": 48,
@@ -13880,6 +13836,67 @@
         "lineHeight": 0,
         "color": "150;198;146"
       }
+    },
+    {
+      "assetStoreId": "b7b916614570780a0e1ee277966a3cd49566347fde75ac0c0c7a95554156b4e9",
+      "bottomMargin": 12,
+      "height": 48,
+      "leftMargin": 12,
+      "name": "hintbox",
+      "persistentUuid": "23569da2-e1f6-457d-9e58-5d66651b4d0c",
+      "rightMargin": 12,
+      "texture": "Default-panel (2).png",
+      "tiled": false,
+      "topMargin": 12,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 48,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Hint",
+      "persistentUuid": "adae2ec9-40a6-4dd3-9395-b960ce132dae",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Hint",
+      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "textAlignment": "left",
+      "characterSize": 70,
+      "color": {
+        "b": 134,
+        "g": 233,
+        "r": 184
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Hint",
+        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 70,
+        "lineHeight": 0,
+        "color": "184;233;134"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -13970,10 +13987,13 @@
         "objectName": "Streaklable"
       },
       {
-        "objectName": "Score_label"
+        "objectName": "Hint"
       },
       {
         "objectName": "storybox"
+      },
+      {
+        "objectName": "hintbox"
       },
       {
         "objectName": "Story_text"
@@ -14285,6 +14305,15 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "BinaryDisplay",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetBooleanVariable"
@@ -14778,13 +14807,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundOnChannel"
               },
               "parameters": [
                 "",
                 "Keybutton click.mp3",
-                "",
                 "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
                 ""
               ]
             }
@@ -14827,13 +14857,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundOnChannel"
               },
               "parameters": [
                 "",
                 "Keybutton click.mp3",
-                "",
                 "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
                 ""
               ]
             }
@@ -14876,13 +14907,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundOnChannel"
               },
               "parameters": [
                 "",
                 "Keybutton click.mp3",
-                "",
                 "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
                 ""
               ]
             }
@@ -14925,13 +14957,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundOnChannel"
               },
               "parameters": [
                 "",
                 "Keybutton click.mp3",
-                "",
                 "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
                 ""
               ]
             }
@@ -14974,13 +15007,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundOnChannel"
               },
               "parameters": [
                 "",
                 "Keybutton click.mp3",
-                "",
                 "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
                 ""
               ]
             }
@@ -15023,13 +15057,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundOnChannel"
               },
               "parameters": [
                 "",
                 "Keybutton click.mp3",
-                "",
                 "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
                 ""
               ]
             }
@@ -15072,13 +15107,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundOnChannel"
               },
               "parameters": [
                 "",
                 "Keybutton click.mp3",
-                "",
                 "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
                 ""
               ]
             }
@@ -15121,13 +15157,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundOnChannel"
               },
               "parameters": [
                 "",
                 "Keybutton click.mp3",
-                "",
                 "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
                 ""
               ]
             }
@@ -15170,13 +15207,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundOnChannel"
               },
               "parameters": [
                 "",
                 "Keybutton click.mp3",
-                "",
                 "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
                 ""
               ]
             }
@@ -15219,13 +15257,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundOnChannel"
               },
               "parameters": [
                 "",
                 "Keybutton click.mp3",
-                "",
                 "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
                 ""
               ]
             }
@@ -15268,13 +15307,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundOnChannel"
               },
               "parameters": [
                 "",
                 "Keybutton click.mp3",
-                "",
                 "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
                 ""
               ]
             }
@@ -15337,13 +15377,14 @@
         },
         {
           "type": {
-            "value": "PlaySound"
+            "value": "PlaySoundOnChannel"
           },
           "parameters": [
             "",
             "Keybutton click.mp3",
-            "",
             "2",
+            "no",
+            "GlobalVariable(Settings.SFXVolume)",
             ""
           ]
         }
@@ -15369,7 +15410,7 @@
                 "value": "Hide"
               },
               "parameters": [
-                "TargetPrompt"
+                "BinaryDisplay"
               ]
             },
             {
@@ -15457,13 +15498,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundOnChannel"
               },
               "parameters": [
                 "",
                 "correct answer.mp3",
+                "2",
                 "no",
-                "25",
+                "GlobalVariable(Settings.SFXVolume)",
                 ""
               ]
             }
@@ -15857,10 +15899,20 @@
                 },
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "AmountHintUsed",
+                    "=",
+                    "hintUsedThisQuestion"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Show"
                   },
                   "parameters": [
-                    "finishButton",
+                    "FinishButton",
                     ""
                   ]
                 }
@@ -15888,7 +15940,7 @@
                 "value": "Hide"
               },
               "parameters": [
-                "TargetPrompt"
+                "BinaryDisplay"
               ]
             },
             {
@@ -15975,18 +16027,6 @@
             },
             {
               "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "incorrect answer.mp3",
-                "no",
-                "25",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -16006,7 +16046,7 @@
                 "value": "Show"
               },
               "parameters": [
-                "TargetPrompt",
+                "BinaryDisplay",
                 ""
               ]
             },
@@ -16018,6 +16058,19 @@
                 "PlayerAnswer",
                 "=",
                 "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "incorrect answer.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
               ]
             }
           ],
@@ -16058,21 +16111,11 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextReleased"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        },
-        {
-          "type": {
-            "value": "IsCursorOnObject"
+            "value": "ButtonStates::ButtonFSM::IsClicked"
           },
           "parameters": [
             "FinishButton",
-            "",
-            "",
+            "ButtonFSM",
             ""
           ]
         }
@@ -16273,6 +16316,7 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -16363,6 +16407,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -16404,6 +16449,13 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "sub/hint button animation"
     }
   ],
   "layers": [
@@ -16418,7 +16470,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "background",
       "renderingType": "",
       "visibility": true,
@@ -16488,6 +16540,60 @@
           "width": 0
         }
       ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Layer",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",
