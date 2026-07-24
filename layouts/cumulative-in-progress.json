@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4913877545329421,
+    "zoomFactor": 0.3768772036750924,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -19352,7 +19352,7 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.12,
+              "timeBetweenFrames": 0.16,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -24283,13 +24283,12 @@
             "TimerText",
             "Text",
             "=",
-            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-90)))"
+            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-3)))"
           ]
         }
       ]
     },
     {
-      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -24300,7 +24299,7 @@
             "",
             "\"CountingDown\"",
             ">=",
-            "90"
+            "3"
           ]
         }
       ],
@@ -24397,7 +24396,6 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
