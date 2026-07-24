@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.41630252177333743,
+    "zoomFactor": 0.4913877545329421,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -1031,8 +1031,8 @@
       "name": "doorLock",
       "persistentUuid": "5fb011dd-57c5-4f90-9a3b-27b81ac7e705",
       "width": 0,
-      "x": 135,
-      "y": -8,
+      "x": 132,
+      "y": 91,
       "zOrder": 85,
       "numberProperties": [],
       "stringProperties": [],
@@ -1048,8 +1048,8 @@
       "name": "storybox",
       "persistentUuid": "d8a54d60-69c3-4096-925f-87bea68a35ee",
       "width": 1783,
-      "x": 85,
-      "y": 4,
+      "x": 63,
+      "y": -5,
       "zOrder": 86,
       "numberProperties": [],
       "stringProperties": [],
@@ -1065,8 +1065,8 @@
       "name": "Story_text",
       "persistentUuid": "38f17214-3737-4300-ad41-b1e5618bee83",
       "width": 1398,
-      "x": 284,
-      "y": 153,
+      "x": 281,
+      "y": 134,
       "zOrder": 87,
       "numberProperties": [],
       "stringProperties": [],
@@ -1082,8 +1082,8 @@
       "name": "hintbox",
       "persistentUuid": "654985b1-1ca0-4355-b03d-8644f02ab555",
       "width": 1782,
-      "x": 92,
-      "y": 7,
+      "x": 84,
+      "y": 2,
       "zOrder": 88,
       "numberProperties": [],
       "stringProperties": [],
@@ -1115,8 +1115,8 @@
       "name": "fade",
       "persistentUuid": "a6029d2b-4f5c-4333-a658-9e8201ab51a9",
       "width": 2096,
-      "x": -38,
-      "y": -50,
+      "x": -92,
+      "y": -29,
       "zOrder": 90,
       "numberProperties": [],
       "stringProperties": [],
@@ -1125,32 +1125,32 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 2,
-      "height": 570,
+      "depth": 3,
+      "height": 724,
       "keepRatio": true,
       "layer": "police",
       "name": "Police",
-      "persistentUuid": "cea229c2-3f7b-48a9-9e7c-7b264dfe16bd",
-      "width": 1013,
-      "x": 419,
-      "y": -207,
-      "zOrder": 91,
+      "persistentUuid": "dfbbad4f-3e8a-4617-a021-6fb34243a283",
+      "width": 1287,
+      "x": 334,
+      "y": -262,
+      "zOrder": 93,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "police",
-      "name": "NightBG",
-      "persistentUuid": "85b5156d-60e3-48ae-b56f-87ca7c78560b",
-      "width": 0,
-      "x": 35,
-      "y": -467,
-      "zOrder": 92,
+      "customSize": true,
+      "depth": 0,
+      "height": 891,
+      "layer": "goodending back",
+      "name": "goodending_background",
+      "persistentUuid": "6749b7c4-3f3f-43dc-b5df-bb612f07122f",
+      "width": 1813,
+      "x": 51,
+      "y": -380,
+      "zOrder": 44,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -19351,8 +19351,8 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
+              "looping": true,
+              "timeBetweenFrames": 0.12,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -19791,6 +19791,67 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "goodending_background",
+      "persistentUuid": "812e4ba0-9095-4de8-b543-11d4b304a368",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "badending 1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -19942,6 +20003,9 @@
       },
       {
         "objectName": "door_animaiton"
+      },
+      {
+        "objectName": "goodending_background"
       }
     ]
   },
@@ -23255,8 +23319,8 @@
               },
               "parameters": [
                 "questionIndex",
-                "=",
-                "questionIndex"
+                "+",
+                "1"
               ]
             },
             {
@@ -23324,6 +23388,45 @@
                 "Animation",
                 "=",
                 "lightAnimat"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "NumberOfCorrectAnswers",
+                "-",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "questionIndex",
+                    ">",
+                    "6"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "questionIndex",
+                    "=",
+                    "1"
+                  ]
+                }
               ]
             }
           ]
@@ -23841,6 +23944,45 @@
                 "=",
                 "lightAnimat"
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "NumberOfCorrectAnswers",
+                "-",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "questionIndex",
+                    ">",
+                    "6"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "questionIndex",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -24069,15 +24211,6 @@
             "finalHighestStreak",
             "=",
             "highestStreak"
-          ]
-        },
-        {
-          "type": {
-            "value": "Show"
-          },
-          "parameters": [
-            "FinishButton",
-            ""
           ]
         },
         {
@@ -24432,6 +24565,22 @@
             "=",
             "0"
           ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "Police"
+          ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "goodending_background"
+          ]
         }
       ]
     },
@@ -24521,6 +24670,88 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Tween::HasFinished"
+          },
+          "parameters": [
+            "fade",
+            "Tween",
+            "\"fadein\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+          },
+          "parameters": [
+            "fade",
+            "Tween",
+            "\"fadeout\"",
+            "0",
+            "\"easeOutQuad\"",
+            "10",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "doorLock"
+          ]
+        },
+        {
+          "type": {
+            "value": "Show"
+          },
+          "parameters": [
+            "goodending_background",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Show"
+          },
+          "parameters": [
+            "Police",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Show"
+          },
+          "parameters": [
+            "FinishButton",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "TargetPrompt"
+          ]
+        }
+      ]
+    },
+    {
       "type": "BuiltinCommonInstructions::Link",
       "include": {
         "includeConfig": 0
@@ -24595,9 +24826,71 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
+      "name": "goodending back",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::ExponentialFog",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "density": 0.0012
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        },
+        {
+          "effectType": "Blur",
+          "name": "Effect",
+          "doubleParameters": {
+            "blur": 3,
+            "kernelSize": 5,
+            "quality": 1,
+            "resolution": 2
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
       "name": "police",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {

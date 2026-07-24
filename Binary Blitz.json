@@ -5397,6 +5397,14 @@
         "name": "goodending12.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "badending 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "badending 1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
