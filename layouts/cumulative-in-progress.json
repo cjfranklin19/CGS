@@ -24283,7 +24283,7 @@
             "TimerText",
             "Text",
             "=",
-            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-3)))"
+            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-90)))"
           ]
         }
       ]
@@ -24299,7 +24299,7 @@
             "",
             "\"CountingDown\"",
             ">=",
-            "3"
+            "90"
           ]
         }
       ],
