@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.24488383633725502,
+    "zoomFactor": 0.4027225833325918,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -268,7 +268,7 @@
       "persistentUuid": "52e7262e-ad51-40d5-8ba5-f56f47da8a42",
       "width": 1502,
       "x": 551,
-      "y": 707,
+      "y": 685,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -493,39 +493,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 164,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Submit_Button",
-      "persistentUuid": "12132562-7a44-488b-9e32-d3b4ba5cbf39",
-      "width": 199,
-      "x": 1993,
-      "y": 362,
-      "zOrder": 22,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "finishButton",
-      "persistentUuid": "0b5beaed-1b12-49d1-a8bc-bde8f85f0a47",
-      "width": 0,
-      "x": 1950,
-      "y": 587,
-      "zOrder": 23,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
@@ -558,38 +525,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Streaklable",
-      "persistentUuid": "bb3c81a4-b74a-45f7-b399-e188f82a3cd5",
-      "width": 0,
-      "x": -236,
-      "y": -140,
-      "zOrder": 29,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Score_label",
-      "persistentUuid": "3982c3dc-1265-4012-874a-33985e0416f5",
-      "width": 0,
-      "x": 2092,
-      "y": 149,
-      "zOrder": 30,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 188,
@@ -598,8 +533,8 @@
       "name": "Story_text",
       "persistentUuid": "70027a2f-d2e1-4024-af55-54f39990a02a",
       "width": 1466,
-      "x": 239,
-      "y": 136,
+      "x": 214,
+      "y": 121,
       "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
@@ -609,64 +544,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 223,
-      "keepRatio": true,
-      "layer": "",
-      "name": "storybox",
-      "persistentUuid": "0efd010d-b30e-4dec-98d2-c70e8cef7025",
-      "width": 1542,
-      "x": 54,
-      "y": -572,
-      "zOrder": 32,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "police",
-      "persistentUuid": "85504130-c9be-46f7-97be-8e98f6d81251",
-      "width": 0,
-      "x": 135,
-      "y": 44,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 452,
-      "keepRatio": true,
-      "layer": "",
-      "name": "hintbox",
-      "persistentUuid": "2198dec3-7dab-41fe-8719-d7720080349d",
-      "width": 1645,
-      "x": 174,
-      "y": -513,
-      "zOrder": 34,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 446,
+      "height": 464,
       "keepRatio": true,
       "layer": "",
       "name": "storybox",
       "persistentUuid": "1d124efb-16a6-4e35-a799-653ba49357cb",
-      "width": 1601,
-      "x": 134,
-      "y": -3,
+      "width": 1859,
+      "x": 34,
+      "y": 17,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -700,6 +585,55 @@
       "x": 238,
       "y": 773,
       "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Layer",
+      "name": "police",
+      "persistentUuid": "d7e1e589-34b0-4207-97a7-88edd79febd6",
+      "width": 0,
+      "x": 163,
+      "y": 68,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 463,
+      "keepRatio": true,
+      "layer": "hint",
+      "name": "hintbox",
+      "persistentUuid": "6d76306c-bf71-4b6c-b4fa-8f5126c61276",
+      "width": 1853,
+      "x": 40,
+      "y": 19,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "hint",
+      "name": "Hint",
+      "persistentUuid": "5d98a1cb-9ea3-4ab2-8726-22f4c88ae5f2",
+      "width": 0,
+      "x": 240,
+      "y": 180,
+      "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -14088,14 +14022,14 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Text",
-      "font": "",
+      "string": "Group the numbe in 3s\nEX:001110 -> 001 - 110 which equals to 1 and 6 respectively",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
-      "characterSize": 20,
+      "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -14111,13 +14045,13 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Text",
-        "font": "",
+        "text": "Group the numbe in 3s\nEX:001110 -> 001 - 110 which equals to 1 and 6 respectively",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 20,
+        "characterSize": 40,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "150;198;146"
       }
     }
   ],
@@ -16709,6 +16643,60 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
+      "name": "Layer",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
       "name": "",
       "renderingType": "",
       "visibility": true,
@@ -16724,6 +16712,60 @@
           "width": 0
         }
       ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "hint",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",
