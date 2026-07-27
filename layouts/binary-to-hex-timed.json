@@ -286,23 +286,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 76,
-      "keepRatio": true,
-      "layer": "",
-      "name": "SCORE",
-      "persistentUuid": "a9265870-43b9-4587-a45d-6be46e8fcea4",
-      "width": 364,
-      "x": 1190,
-      "y": 575,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
@@ -602,22 +585,6 @@
       "x": 1535,
       "y": 773,
       "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "StreakText",
-      "persistentUuid": "afd556c5-0daf-4ae5-8c6b-74664b72c8f7",
-      "width": 0,
-      "x": 613,
-      "y": 575,
-      "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -17779,6 +17746,27 @@
                 "GlobalVariable(Settings.SFXVolume)",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "lightAnimat",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "townhall",
+                "Animation",
+                "=",
+                "lightAnimat"
+              ]
             }
           ],
           "events": [
@@ -18342,6 +18330,27 @@
                 "PlayerAnswer",
                 "=",
                 "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "lightAnimat",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "townhall",
+                "Animation",
+                "=",
+                "lightAnimat"
               ]
             }
           ],

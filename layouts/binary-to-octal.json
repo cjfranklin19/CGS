@@ -15666,6 +15666,27 @@
                 "=",
                 "\"\""
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "lightAnimat",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "police",
+                "Animation",
+                "=",
+                "lightAnimat"
+              ]
             }
           ],
           "events": [
@@ -16216,6 +16237,27 @@
                 "PlayerAnswer",
                 "=",
                 "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "lightAnimat",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "police",
+                "Animation",
+                "=",
+                "lightAnimat"
               ]
             }
           ],

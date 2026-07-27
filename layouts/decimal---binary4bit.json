@@ -2158,7 +2158,44 @@
               "looping": false,
               "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": []
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Level one lights animation10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 156,
+                        "y": 0
+                      },
+                      {
+                        "x": 1124,
+                        "y": 0
+                      },
+                      {
+                        "x": 1124,
+                        "y": 375
+                      },
+                      {
+                        "x": 156,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -2170,7 +2207,44 @@
               "looping": false,
               "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": []
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "19",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 156,
+                        "y": 0
+                      },
+                      {
+                        "x": 1124,
+                        "y": 0
+                      },
+                      {
+                        "x": 1124,
+                        "y": 375
+                      },
+                      {
+                        "x": 156,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -2180,8 +2254,46 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": []
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Level one lights animation12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 156,
+                        "y": 0
+                      },
+                      {
+                        "x": 1124,
+                        "y": 0
+                      },
+                      {
+                        "x": 1124,
+                        "y": 375
+                      },
+                      {
+                        "x": 156,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -2191,8 +2303,46 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": []
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Level one lights animation13.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 156,
+                        "y": 0
+                      },
+                      {
+                        "x": 1124,
+                        "y": 0
+                      },
+                      {
+                        "x": 1124,
+                        "y": 375
+                      },
+                      {
+                        "x": 156,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -2202,8 +2352,46 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": []
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Level one lights animation14.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 156,
+                        "y": 0
+                      },
+                      {
+                        "x": 1124,
+                        "y": 0
+                      },
+                      {
+                        "x": 1124,
+                        "y": 375
+                      },
+                      {
+                        "x": 156,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
             }
           ]
         }

@@ -5487,6 +5487,102 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "Level one lights animation10.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Level one lights animation10.png\",\"extension\":\".png\"}",
+        "name": "Level one lights animation10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Level one lights animation11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level one lights animation11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Level one lights animation12.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Level one lights animation12.png\",\"extension\":\".png\"}",
+        "name": "Level one lights animation12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Level one lights animation13.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Level one lights animation13.png\",\"extension\":\".png\"}",
+        "name": "Level one lights animation13.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Level one lights animation14.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Level one lights animation14.png\",\"extension\":\".png\"}",
+        "name": "Level one lights animation14.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "19",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "octal to binary2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"octal to binary2.png\",\"extension\":\".png\"}",
+        "name": "octal to binary2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "octal to binary3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"octal to binary3.png\",\"extension\":\".png\"}",
+        "name": "octal to binary3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "octal to binary4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"octal to binary4.png\",\"extension\":\".png\"}",
+        "name": "octal to binary4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "octal to binary5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "octal to binary5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "octal to binary6.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"octal to binary6.png\",\"extension\":\".png\"}",
+        "name": "octal to binary6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "20",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
