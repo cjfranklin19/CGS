@@ -3136,7 +3136,7 @@
                     "TargetPrompt",
                     "Text",
                     "=",
-                    "\"Convert \" + targetHex + \" to binary\""
+                    "\"Convert \" +ToUpperCase( targetHex )+ \" to binary\""
                   ]
                 }
               ]

@@ -1,13 +1,13 @@
 {
-  "b": 255,
+  "b": 0,
   "disableInputWhenNotFocused": true,
   "mangledName": "Octal_32_45_32BinaryFM",
   "name": "Octal - BinaryFM",
-  "r": 247,
+  "r": 0,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 249,
+  "v": 0,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4163025217733364,
+    "zoomFactor": 0.4303403802207695,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -59,121 +59,145 @@
   "variables": [
     {
       "name": "binaryTot",
+      "persistentUuid": "3e478397-1035-45ed-aea1-fc2b98760201",
       "type": "number",
       "value": 0
     },
     {
       "name": "targetNum",
+      "persistentUuid": "17e64f27-f6e5-4ab2-8343-2401bbd5cb28",
       "type": "number",
       "value": 0
     },
     {
       "name": "resultText",
+      "persistentUuid": "8971771a-2a45-4677-b2b8-cc77e8f33796",
       "type": "string",
       "value": "\"\""
     },
     {
       "name": "score",
+      "persistentUuid": "9afdb4cf-1eef-44ee-a08c-5c5b253ac559",
       "type": "number",
       "value": 0
     },
     {
       "name": "basePoints",
+      "persistentUuid": "733a1b82-7437-43b0-a392-db6477b0c61e",
       "type": "number",
       "value": 100
     },
     {
       "name": "penalty",
+      "persistentUuid": "ad8100bf-3311-4e81-8d58-1698bfa6c9c0",
       "type": "number",
       "value": 50
     },
     {
       "name": "mult",
+      "persistentUuid": "a11ae1d5-639a-46c7-b627-fe2bb0a4e810",
       "type": "number",
       "value": 1
     },
     {
       "name": "streak",
+      "persistentUuid": "8e600f7a-4bfb-47d5-881a-038d1d47c959",
       "type": "number",
       "value": 0
     },
     {
       "name": "wrongStreak",
+      "persistentUuid": "d0d6dfb2-b810-411e-b110-d6aad07f5eee",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionsAnswered",
+      "persistentUuid": "d195cb43-bf61-4383-b990-249669f0b799",
       "type": "number",
       "value": 0
     },
     {
       "name": "levelQuestions",
+      "persistentUuid": "8eb0c88b-ae66-4ab4-90cc-9016c565d54a",
       "type": "number",
       "value": 10
     },
     {
       "name": "elapsedQuestionTime",
+      "persistentUuid": "0663fb27-6c1c-414b-8862-2b7f616d3eae",
       "type": "number",
       "value": 0
     },
     {
       "name": "timeLimit",
+      "persistentUuid": "22376e99-1a4f-4950-893d-1eb898e0b6ef",
       "type": "number",
       "value": 30
     },
     {
       "name": "hintPenalty",
+      "persistentUuid": "c8f75c8a-936b-4f7c-b79f-bf77acda655b",
       "type": "number",
       "value": 25
     },
     {
       "name": "hintOpen",
+      "persistentUuid": "1ab87c7f-4eda-430c-9b82-f0858a067c13",
       "type": "boolean",
       "value": false
     },
     {
       "name": "hintUsedThisQuestion",
+      "persistentUuid": "11c0705e-222e-44ee-ab5f-0a7dc5df14e6",
       "type": "number",
       "value": 0
     },
     {
       "name": "questionOpen",
+      "persistentUuid": "7b5ad6e4-9698-4b31-a091-0b2c8014c172",
       "type": "boolean",
       "value": true
     },
     {
       "name": "cityPower",
+      "persistentUuid": "22b78702-a96a-40d8-bf15-150b14cee0bc",
       "type": "number",
       "value": 0
     },
     {
       "name": "inputLocked",
+      "persistentUuid": "68a18526-c408-45c8-ae05-82395268087a",
       "type": "boolean",
       "value": false
     },
     {
       "name": "startNextQuestion",
+      "persistentUuid": "33915f2a-9677-4b68-9bae-bd357138647c",
       "type": "boolean",
       "value": true
     },
     {
       "name": "correctAnswers",
+      "persistentUuid": "3328b928-408f-4bda-a79f-2d474387f186",
       "type": "number",
       "value": 0
     },
     {
       "name": "incorrectAnswers",
+      "persistentUuid": "82ead1f1-ca7b-4f51-9fd9-3fb1709ab090",
       "type": "number",
       "value": 0
     },
     {
       "name": "highestStreak",
+      "persistentUuid": "39409e2a-5726-4ec1-94b4-e201230af8ef",
       "type": "number",
       "value": 0
     },
     {
       "name": "targetOct",
+      "persistentUuid": "7b3d5ec9-c4bc-4853-833b-e7d49b6faa1b",
       "type": "string",
       "value": ""
     }
@@ -189,8 +213,8 @@
       "name": "Submit_Button",
       "persistentUuid": "85eafccd-d85a-4478-9f53-24c87dd42a72",
       "width": 138,
-      "x": 1462,
-      "y": 985,
+      "x": 1912,
+      "y": 1045,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -207,7 +231,7 @@
       "persistentUuid": "a6748144-dd77-45eb-b284-6cf156d6c29d",
       "width": 100,
       "x": 440,
-      "y": 822,
+      "y": 770,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -230,7 +254,7 @@
       "persistentUuid": "4d5100ef-8e2c-4aab-93c9-ffeb0f4903af",
       "width": 100,
       "x": 565,
-      "y": 822,
+      "y": 770,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -253,7 +277,7 @@
       "persistentUuid": "9c67ae53-b388-4a4c-9d5c-b30764c2ad83",
       "width": 105,
       "x": 695,
-      "y": 825,
+      "y": 770,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -270,7 +294,7 @@
       "persistentUuid": "e38de78b-49bc-4991-9308-d52f3db7a5d5",
       "width": 104,
       "x": 1100,
-      "y": 822,
+      "y": 770,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -287,7 +311,7 @@
       "persistentUuid": "9e6be75d-0aa5-4645-89e4-fddbd8fea88f",
       "width": 101,
       "x": 1247,
-      "y": 827,
+      "y": 770,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -304,7 +328,7 @@
       "persistentUuid": "d8dbce20-ba13-4d0d-a633-fa5d5f9d5f5e",
       "width": 96,
       "x": 1384,
-      "y": 826,
+      "y": 770,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -321,7 +345,7 @@
       "persistentUuid": "6399c03b-cf6d-44af-8960-63c15734d0aa",
       "width": 908,
       "x": 498,
-      "y": 725,
+      "y": 699,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -338,7 +362,7 @@
       "persistentUuid": "8c6be39b-a383-4944-9e7d-f239dcb0ecc2",
       "width": 947,
       "x": 477,
-      "y": 726,
+      "y": 696,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -353,8 +377,8 @@
       "name": "finishButton",
       "persistentUuid": "cc4025d9-2d9d-4859-b212-5460376f3881",
       "width": 0,
-      "x": 1636,
-      "y": 548,
+      "x": 1970,
+      "y": 638,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -379,183 +403,32 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "SCORE",
-      "persistentUuid": "256271b8-7070-4ae4-b45a-ed0a08a24476",
-      "width": 0,
-      "x": 1185,
-      "y": 585,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "StreakText",
-      "persistentUuid": "4867d215-b3d7-46c2-953c-d286599a0c5b",
-      "width": 0,
-      "x": 425,
-      "y": 580,
-      "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 128,
-      "keepRatio": true,
-      "layer": "panels",
-      "name": "Default_Panel_15",
-      "persistentUuid": "969c933a-e572-49b9-af09-c3545fa1e0c2",
-      "width": 372,
-      "x": 125,
-      "y": -270,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 108,
-      "keepRatio": true,
-      "layer": "panels",
-      "name": "Default_Panel_15",
-      "persistentUuid": "716686ed-f1c9-4d56-ba55-999c59d21a61",
-      "width": 354,
-      "x": 161,
-      "y": -175,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "keepRatio": true,
-      "layer": "panels",
-      "name": "Default_Panel_15",
-      "persistentUuid": "1613c76f-83f9-401d-afe4-6f31277e26b2",
-      "width": 496,
-      "x": 527,
-      "y": -339,
-      "zOrder": 19,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 136,
-      "keepRatio": true,
-      "layer": "panels",
-      "name": "Default_Panel_15",
-      "persistentUuid": "571dfb66-7339-4225-abc6-11f6bc4cba50",
-      "width": 573,
-      "x": 579,
-      "y": -285,
-      "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 390,
-      "keepRatio": true,
-      "layer": "panels",
-      "name": "Default_Panel_15",
-      "persistentUuid": "71b16eea-1585-4a95-84ff-f848fc0770c9",
-      "width": 1928,
-      "x": 1068,
-      "y": -391,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
+      "depth": 0,
+      "height": 891,
       "layer": "background",
-      "name": "NewSprite3",
-      "persistentUuid": "6e66fb0e-f070-41d6-ac6f-0db3c3728953",
-      "width": 0,
-      "x": -2,
-      "y": 0,
+      "name": "sunsetBG",
+      "persistentUuid": "842dc0be-3a29-43b6-8cf0-209f5dae11a8",
+      "width": 1813,
+      "x": 51,
+      "y": -380,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 174,
+      "layer": "",
+      "name": "FinishButton",
+      "persistentUuid": "98bb89b1-2bd2-497e-8e36-42a7d6b1b04a",
+      "width": 200,
+      "x": 857,
+      "y": 930,
       "zOrder": 23,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite5",
-      "persistentUuid": "c1e113c2-01bc-42dc-9adf-67874d8ff1ba",
-      "width": 0,
-      "x": 164,
-      "y": 77,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 364,
-      "keepRatio": true,
-      "layer": "",
-      "name": "storybox",
-      "persistentUuid": "91562a35-217d-45ff-a83c-b31c8eee8cc9",
-      "width": 1587,
-      "x": 168,
-      "y": 83,
-      "zOrder": 25,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 182,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Story_text",
-      "persistentUuid": "9a8ad3fe-df17-4c62-8dfa-8b0678f4ef56",
-      "width": 1421,
-      "x": 243,
-      "y": 194,
-      "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1647,13 +1520,13 @@
       "effects": [],
       "behaviors": [],
       "string": "Prompt",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "center",
       "characterSize": 40,
       "color": {
-        "b": 134,
-        "g": 233,
-        "r": 184
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -1670,12 +1543,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "Prompt",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
         "characterSize": 40,
         "lineHeight": 0,
-        "color": "184;233;134"
+        "color": "150;198;146"
       }
     },
     {
@@ -1691,13 +1564,13 @@
       "effects": [],
       "behaviors": [],
       "string": "Feeback",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "center",
       "characterSize": 40,
       "color": {
-        "b": 134,
-        "g": 233,
-        "r": 184
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -1714,12 +1587,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "Feeback",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
         "characterSize": 40,
         "lineHeight": 0,
-        "color": "184;233;134"
+        "color": "150;198;146"
       }
     },
     {
@@ -1786,50 +1659,6 @@
       }
     },
     {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "SCORE",
-      "persistentUuid": "a9812cd8-6648-4ac2-b0eb-8f65300fce44",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Score",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
-      "textAlignment": "left",
-      "characterSize": 70,
-      "color": {
-        "b": 134,
-        "g": 233,
-        "r": 184
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Score",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 70,
-        "lineHeight": 0,
-        "color": "184;233;134"
-      }
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite",
@@ -1891,50 +1720,6 @@
       ]
     },
     {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "StreakText",
-      "persistentUuid": "02285acd-9503-446e-9df8-bdf131ce2bcf",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Streak",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
-      "textAlignment": "left",
-      "characterSize": 70,
-      "color": {
-        "b": 134,
-        "g": 233,
-        "r": 184
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Streak",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 70,
-        "lineHeight": 0,
-        "color": "184;233;134"
-      }
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite2",
@@ -1973,66 +1758,6 @@
       "effects": [],
       "behaviors": [],
       "animations": []
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite5",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "octal to binary.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 429,
-                        "y": 15
-                      },
-                      {
-                        "x": 1175,
-                        "y": 15
-                      },
-                      {
-                        "x": 1175,
-                        "y": 375
-                      },
-                      {
-                        "x": 429,
-                        "y": 375
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     },
     {
       "assetStoreId": "",
@@ -2104,6 +1829,155 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "StreakText",
+      "persistentUuid": "3e6f76ca-46e6-488d-a254-316e7d8fc065",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "Not Jam Mono Clean16.ttf",
+      "textAlignment": "left",
+      "characterSize": 65,
+      "color": {
+        "b": 146,
+        "g": 198,
+        "r": 150
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
+        "font": "Not Jam Mono Clean16.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 65,
+        "lineHeight": 0,
+        "color": "150;198;146"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "SCORE",
+      "persistentUuid": "67bbe00a-0aa1-4f46-9d32-6924baa2c371",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "Not Jam Mono Clean16.ttf",
+      "textAlignment": "left",
+      "characterSize": 65,
+      "color": {
+        "b": 146,
+        "g": 198,
+        "r": 150
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
+        "font": "Not Jam Mono Clean16.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 65,
+        "lineHeight": 0,
+        "color": "150;198;146"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Hint",
+      "persistentUuid": "d9029b62-c4f0-477d-ad01-03772fc5118b",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "b7b916614570780a0e1ee277966a3cd49566347fde75ac0c0c7a95554156b4e9",
+      "bottomMargin": 12,
+      "height": 48,
+      "leftMargin": 12,
+      "name": "hintbox",
+      "persistentUuid": "489862e0-960c-4e93-840b-3f5df0ee4671",
+      "rightMargin": 12,
+      "texture": "Default-panel (2).png",
+      "tiled": false,
+      "topMargin": 12,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 48,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -2128,9 +2002,6 @@
         "objectName": "NewSprite4"
       },
       {
-        "objectName": "NewSprite5"
-      },
-      {
         "objectName": "Switch_4"
       },
       {
@@ -2144,6 +2015,15 @@
       },
       {
         "objectName": "TargetPrompt"
+      },
+      {
+        "objectName": "StreakText"
+      },
+      {
+        "objectName": "SCORE"
+      },
+      {
+        "objectName": "Hint"
       },
       {
         "objectName": "NewSprite2"
@@ -2161,16 +2041,13 @@
         "objectName": "TimerText"
       },
       {
-        "objectName": "SCORE"
-      },
-      {
         "objectName": "NewSprite"
       },
       {
-        "objectName": "StreakText"
+        "objectName": "storybox"
       },
       {
-        "objectName": "storybox"
+        "objectName": "hintbox"
       },
       {
         "objectName": "Story_text"
@@ -2328,7 +2205,7 @@
             "value": "Hide"
           },
           "parameters": [
-            "finishButton"
+            "FinishButton"
           ]
         },
         {
@@ -2343,13 +2220,36 @@
         },
         {
           "type": {
-            "value": "PlaySound"
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
           },
           "parameters": [
             "",
-            "levelbackmus.mp3",
-            "",
+            "\"level\"",
+            "-3",
             "2",
+            "32"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundOnChannel"
+          },
+          "parameters": [
+            "",
+            "menu sound2.mp3",
+            "1",
+            "yes",
+            "GlobalVariable(Settings.MusicVolume)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "FinishButton",
+            "ButtonFSM",
             ""
           ]
         }
@@ -2361,6 +2261,70 @@
           "actions": []
         }
       ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "music logic",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustResumed"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetSoundChannelVolume"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "GlobalVariable(Settings.MusicVolume)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustResumed"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetSoundChannelVolume"
+              },
+              "parameters": [
+                "",
+                "2",
+                "=",
+                "GlobalVariable(Settings.SFXVolume)"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -2471,13 +2435,14 @@
         },
         {
           "type": {
-            "value": "PlaySound"
+            "value": "PlaySoundOnChannel"
           },
           "parameters": [
             "",
-            "switch off2.mp3",
-            "",
-            "25",
+            "switch off3.mp3",
+            "2",
+            "no",
+            "GlobalVariable(Settings.SFXVolume)",
             ""
           ]
         }
@@ -2542,13 +2507,14 @@
         },
         {
           "type": {
-            "value": "PlaySound"
+            "value": "PlaySoundOnChannel"
           },
           "parameters": [
             "",
-            "edr-switch-click-and-beep-001a-11602.mp3",
-            "",
-            "25",
+            "switch on2.mp3",
+            "2",
+            "no",
+            "GlobalVariable(Settings.SFXVolume)",
             ""
           ]
         }
@@ -2770,14 +2736,28 @@
             "value": "IsCursorOnObject"
           },
           "parameters": [
-            "Submit_Button",
+            "submit_button",
             "",
             "",
             ""
           ]
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySoundOnChannel"
+          },
+          "parameters": [
+            "",
+            "Keybutton click.mp3",
+            "2",
+            "no",
+            "GlobalVariable(Settings.SFXVolume)",
+            ""
+          ]
+        }
+      ],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -2896,6 +2876,19 @@
                 "Text",
                 "=",
                 "ToString(streak)"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "correct answer.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
               ]
             }
           ],
@@ -3339,8 +3332,18 @@
                     "value": "Show"
                   },
                   "parameters": [
-                    "finishButton",
+                    "FinishButton",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "FinishButton",
+                    "ButtonFSM",
+                    "yes"
                   ]
                 }
               ]
@@ -3498,6 +3501,19 @@
                 "TargetPrompt",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "incorrect answer.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
+              ]
             }
           ],
           "events": [
@@ -3573,21 +3589,11 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextPressed"
+            "value": "ButtonStates::ButtonFSM::IsClicked"
           },
           "parameters": [
-            "",
-            "\"Left\""
-          ]
-        },
-        {
-          "type": {
-            "value": "IsCursorOnObject"
-          },
-          "parameters": [
-            "finishButton",
-            "",
-            "",
+            "FinishButton",
+            "ButtonFSM",
             ""
           ]
         }
@@ -3599,13 +3605,14 @@
           },
           "parameters": [
             "",
-            "\"Post-Question ResultsOB\"",
+            "\"LDCom-OB\"",
             ""
           ]
         }
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
@@ -3660,6 +3667,7 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -3887,6 +3895,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3933,6 +3942,13 @@
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "sub/hint button animation"
     }
   ],
   "layers": [
