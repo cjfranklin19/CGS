@@ -6622,6 +6622,10 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/binary-to-hexfm"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/dec---binary-8-bitfm"
     },
     {
@@ -6634,7 +6638,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/binary-to-hexfm"
+      "referenceTo": "/layouts/binary-to-hexfm2"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

@@ -1047,7 +1047,7 @@
               "parameters": [
                 "SceneTransition",
                 "=",
-                "\"binary to hexFM\""
+                "\"Binary to HexFM\""
               ]
             },
             {
