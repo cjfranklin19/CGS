@@ -29,6 +29,7 @@
   "variables": [
     {
       "name": "vanAni",
+      "persistentUuid": "76f63d21-d770-4c41-9a03-e5fc04385857",
       "type": "number",
       "value": 0
     }
