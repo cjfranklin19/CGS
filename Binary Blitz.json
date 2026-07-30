@@ -5599,6 +5599,14 @@
         "name": "FreePlayButton.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "Binary to Decimal6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Binary to Decimal6.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
