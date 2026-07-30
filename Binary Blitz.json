@@ -3978,7 +3978,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Settings Button Level.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -5582,6 +5582,22 @@
         "metadata": "{\"extension\":\".png\"}",
         "name": "20",
         "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "StoryModeButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "StoryModeButton.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "FreePlayButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "FreePlayButton.png",
+        "smoothed": false,
         "userAdded": false
       }
     ]

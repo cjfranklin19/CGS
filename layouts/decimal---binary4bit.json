@@ -2470,7 +2470,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "The right most switch(bit) is always 1, going the left it inscrease by powers of two\nSwtiches go as follows 123, 64, 32, 16, 8, 4, 2, 1",
+      "string": "The right most switch(bit) is always 1, going the left it inscrease by powers of two\nSwtiches go as follows 128, 64, 32, 16, 8, 4, 2, 1",
       "font": "Not Jam Mono Clean15.ttf",
       "textAlignment": "left",
       "characterSize": 40,
@@ -2493,7 +2493,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "The right most switch(bit) is always 1, going the left it inscrease by powers of two\nSwtiches go as follows 123, 64, 32, 16, 8, 4, 2, 1",
+        "text": "The right most switch(bit) is always 1, going the left it inscrease by powers of two\nSwtiches go as follows 128, 64, 32, 16, 8, 4, 2, 1",
         "font": "Not Jam Mono Clean15.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -4058,6 +4058,19 @@
             },
             {
               "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "incorrect answer.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -4100,19 +4113,6 @@
                 "Animation",
                 "=",
                 "lightani"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySoundOnChannel"
-              },
-              "parameters": [
-                "",
-                "incorrect answer.mp3",
-                "2",
-                "no",
-                "GlobalVariable(Settings.SFXVolume)",
-                ""
               ]
             }
           ],
@@ -4700,7 +4700,7 @@
       "isLocked": false,
       "name": "panels",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
