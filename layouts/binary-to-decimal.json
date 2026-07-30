@@ -576,8 +576,8 @@
       "name": "storybox",
       "persistentUuid": "cc44cdb8-c99c-4c1a-89ed-30870b70c84a",
       "width": 1817,
-      "x": -14,
-      "y": -417,
+      "x": 28,
+      "y": -20,
       "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
@@ -609,8 +609,8 @@
       "name": "hintbox",
       "persistentUuid": "0266dd77-34ec-493b-beae-86ff86e8a541",
       "width": 1813,
-      "x": 57,
-      "y": -416,
+      "x": 29,
+      "y": -13,
       "zOrder": 47,
       "numberProperties": [],
       "stringProperties": [],
@@ -13953,7 +13953,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../OneDrive - Norfolk State University/Attachments/Binary to Decimal.png",
+                  "image": "Binary to Decimal6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

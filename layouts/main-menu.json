@@ -460,11 +460,12 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySound"
+            "value": "PlaySoundOnChannel"
           },
           "parameters": [
             "",
             "menu sound2.mp3",
+            "1",
             "yes",
             "GlobalVariable(Settings.MusicVolume)",
             ""
