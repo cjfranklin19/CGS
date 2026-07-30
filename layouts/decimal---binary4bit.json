@@ -4700,7 +4700,7 @@
       "isLocked": false,
       "name": "panels",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
