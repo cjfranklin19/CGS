@@ -29,6 +29,7 @@
   "variables": [
     {
       "name": "PlayerName",
+      "persistentUuid": "113a02ae-7e33-4ba5-bf2d-c05f961a6d37",
       "type": "string",
       "value": ""
     }
@@ -55,31 +56,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 109,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Blank_Button_Green",
-      "persistentUuid": "3d25ff48-9663-4614-818e-69e1d1260a5e",
-      "width": 199,
-      "x": 1167,
-      "y": 554,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 103,
       "keepRatio": true,
       "layer": "",
       "name": "Score",
       "persistentUuid": "2965c9b7-be34-4bf7-a419-f3b666045dff",
       "width": 406,
-      "x": 953,
-      "y": 266,
+      "x": 966,
+      "y": 364,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -111,7 +95,7 @@
       "name": "Home",
       "persistentUuid": "0ce722eb-e25b-4366-8e84-f6309ed8e76d",
       "width": 190,
-      "x": 1198,
+      "x": 1472,
       "y": 702,
       "zOrder": 6,
       "numberProperties": [],
@@ -127,8 +111,8 @@
       "name": "ScoreLabel",
       "persistentUuid": "705a26df-d28b-4c1a-b688-0020b3af5840",
       "width": 0,
-      "x": 698,
-      "y": 260,
+      "x": 676,
+      "y": 364,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -146,6 +130,38 @@
       "x": 284,
       "y": 521,
       "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Layer",
+      "name": "sunsetBG",
+      "persistentUuid": "d42d932c-3ce6-4624-9981-5e0bee7e1a1b",
+      "width": 0,
+      "x": 3,
+      "y": 5,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Layer",
+      "name": "submit_button",
+      "persistentUuid": "e8abfb29-5dae-477a-9d8e-31c8b7b34177",
+      "width": 0,
+      "x": 1187,
+      "y": 491,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -294,6 +310,7 @@
       "bold": false,
       "italic": false,
       "name": "Score",
+      "persistentUuid": "ee00f52e-5de2-475a-9c36-188c628283d9",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -301,13 +318,13 @@
       "effects": [],
       "behaviors": [],
       "string": "0",
-      "font": "",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
       "characterSize": 80,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -324,12 +341,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "0",
-        "font": "",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 80,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -337,6 +354,7 @@
       "bold": false,
       "italic": false,
       "name": "LeaderBoardtext",
+      "persistentUuid": "41a5cca3-4a96-4ebc-9bd0-9cc07b2e2d1c",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -344,13 +362,13 @@
       "effects": [],
       "behaviors": [],
       "string": "check the leaderboard ->",
-      "font": "",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
       "characterSize": 80,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -367,12 +385,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "check the leaderboard ->",
-        "font": "",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 80,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -492,13 +510,13 @@
       "effects": [],
       "behaviors": [],
       "string": "Score:",
-      "font": "",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
       "characterSize": 80,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -515,12 +533,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "Score:",
-        "font": "",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 80,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -536,13 +554,13 @@
       "effects": [],
       "behaviors": [],
       "string": "Enter name/nickname",
-      "font": "",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
       "characterSize": 45,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -559,12 +577,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "Enter name/nickname",
-        "font": "",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 45,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     }
   ],
@@ -665,7 +683,7 @@
                 "value": "IsCursorOnObject"
               },
               "parameters": [
-                "Blank_Button_Green",
+                "submit_button",
                 "",
                 "",
                 ""
@@ -784,6 +802,60 @@
     }
   ],
   "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Layer",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
     {
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,

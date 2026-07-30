@@ -62,8 +62,8 @@
       "name": "Score",
       "persistentUuid": "2965c9b7-be34-4bf7-a419-f3b666045dff",
       "width": 370,
-      "x": 953,
-      "y": 266,
+      "x": 966,
+      "y": 364,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -95,8 +95,8 @@
       "name": "Home",
       "persistentUuid": "0ce722eb-e25b-4366-8e84-f6309ed8e76d",
       "width": 190,
-      "x": 1198,
-      "y": 702,
+      "x": 1472,
+      "y": 687,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -111,8 +111,8 @@
       "name": "ScoreLabel",
       "persistentUuid": "705a26df-d28b-4c1a-b688-0020b3af5840",
       "width": 0,
-      "x": 698,
-      "y": 260,
+      "x": 676,
+      "y": 364,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -159,7 +159,7 @@
       "name": "submit_button",
       "persistentUuid": "57040ed8-ef2b-4b82-9298-535a75bd777e",
       "width": 0,
-      "x": 1170,
+      "x": 1187,
       "y": 491,
       "zOrder": 10,
       "numberProperties": [],
@@ -310,6 +310,7 @@
       "bold": false,
       "italic": false,
       "name": "Score",
+      "persistentUuid": "d565b551-3b05-4bf1-a1b9-a70833a181c0",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -317,13 +318,13 @@
       "effects": [],
       "behaviors": [],
       "string": "0",
-      "font": "",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
       "characterSize": 80,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -340,12 +341,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "0",
-        "font": "",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 80,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -353,6 +354,7 @@
       "bold": false,
       "italic": false,
       "name": "LeaderBoardtext",
+      "persistentUuid": "01a14963-a0d7-46f1-98ff-86503ca24068",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -360,13 +362,13 @@
       "effects": [],
       "behaviors": [],
       "string": "check the leaderboard ->",
-      "font": "",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
       "characterSize": 80,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -383,12 +385,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "check the leaderboard ->",
-        "font": "",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 80,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -508,13 +510,13 @@
       "effects": [],
       "behaviors": [],
       "string": "Score:",
-      "font": "",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
       "characterSize": 80,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -531,12 +533,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "Score:",
-        "font": "",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 80,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -552,13 +554,13 @@
       "effects": [],
       "behaviors": [],
       "string": "Enter name/nickname",
-      "font": "",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
       "characterSize": 45,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -575,12 +577,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "Enter name/nickname",
-        "font": "",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 45,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     }
   ],
