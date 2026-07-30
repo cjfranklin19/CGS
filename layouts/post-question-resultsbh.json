@@ -38,8 +38,8 @@
       "name": "Score",
       "persistentUuid": "4de73ff1-5f01-4004-a1b8-9d8b105dce83",
       "width": 255,
-      "x": 788,
-      "y": 102,
+      "x": 645,
+      "y": 152,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -54,7 +54,7 @@
       "name": "Correct_Answers",
       "persistentUuid": "35947fa6-627e-4307-bbb8-c94a22f3476e",
       "width": 0,
-      "x": 754,
+      "x": 645,
       "y": 375,
       "zOrder": 2,
       "numberProperties": [],
@@ -70,8 +70,8 @@
       "name": "Incorrect_Answers",
       "persistentUuid": "22bee24b-d956-42ab-b7c7-6843dd42152b",
       "width": 0,
-      "x": 722,
-      "y": 573,
+      "x": 645,
+      "y": 482,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -86,8 +86,8 @@
       "name": "Highest_Streak",
       "persistentUuid": "60b4d951-dd0e-44f5-8166-cf8c4fcdfe05",
       "width": 0,
-      "x": 782,
-      "y": 787,
+      "x": 645,
+      "y": 255,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -99,12 +99,44 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "finishButton",
-      "persistentUuid": "6394e388-bc28-48ee-a5cd-7cfa63a3a972",
+      "name": "FinishButton",
+      "persistentUuid": "4a8069af-6b28-4fc1-b21a-6e50b422dffe",
       "width": 0,
-      "x": 822,
-      "y": 951,
+      "x": 728,
+      "y": 743,
       "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Layer",
+      "name": "HintsUsed",
+      "persistentUuid": "bbff4a23-9ae6-467b-b8f2-7d204b303137",
+      "width": 0,
+      "x": 645,
+      "y": 603,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Layer",
+      "name": "NightBG",
+      "persistentUuid": "1a301152-a039-45f5-9b31-462ffe53a83d",
+      "width": 0,
+      "x": 1,
+      "y": 1,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -124,13 +156,13 @@
       "effects": [],
       "behaviors": [],
       "string": "SCORE\n",
-      "font": "",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
       "characterSize": 70,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -147,12 +179,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "SCORE\n",
-        "font": "",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 70,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -168,13 +200,13 @@
       "effects": [],
       "behaviors": [],
       "string": "CORRECT",
-      "font": "",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
       "characterSize": 70,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -191,12 +223,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "CORRECT",
-        "font": "",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 70,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -212,13 +244,13 @@
       "effects": [],
       "behaviors": [],
       "string": "INCORRECT",
-      "font": "",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
       "characterSize": 70,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -235,12 +267,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "INCORRECT",
-        "font": "",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 70,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -256,13 +288,13 @@
       "effects": [],
       "behaviors": [],
       "string": "STREAK",
-      "font": "",
+      "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
       "characterSize": 70,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -279,12 +311,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "STREAK",
-        "font": "",
+        "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 70,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -305,6 +337,50 @@
         "HoveredFadeOutDuration": 0.25,
         "LabelText": "finish"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "HintsUsed",
+      "persistentUuid": "d57f3742-9bbf-4e2e-8bbb-3f02086eb52a",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Hint Used:",
+      "font": "Not Jam Mono Clean16.ttf",
+      "textAlignment": "left",
+      "characterSize": 70,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Hint Used:",
+        "font": "Not Jam Mono Clean16.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 70,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -315,6 +391,9 @@
       },
       {
         "objectName": "Correct_Answers"
+      },
+      {
+        "objectName": "HintsUsed"
       },
       {
         "objectName": "Incorrect_Answers"
@@ -384,6 +463,30 @@
             "=",
             "\"Highest Streak: \" + ToString(finalHighestStreak)"
           ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "HintsUsed",
+            "Text",
+            "=",
+            "\"Hint Used: \"+ToString(AmountHintUsed)"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundOnChannel"
+          },
+          "parameters": [
+            "",
+            "menu sound2.mp3",
+            "1",
+            "yes",
+            "GlobalVariable(Settings.MusicVolume)",
+            ""
+          ]
         }
       ]
     },
@@ -404,7 +507,7 @@
             "value": "IsCursorOnObject"
           },
           "parameters": [
-            "finishButton",
+            "FinishButton",
             "",
             "",
             ""
@@ -431,11 +534,78 @@
             "\"transition scene\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundOnChannel"
+          },
+          "parameters": [
+            "",
+            "menu - level select3.mp3",
+            "2",
+            "no",
+            "GlobalVariable(Settings.SFXVolume)",
+            ""
+          ]
         }
       ]
     }
   ],
   "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Layer",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
     {
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
