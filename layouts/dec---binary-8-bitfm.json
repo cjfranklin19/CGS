@@ -412,23 +412,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 90,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TimerText",
-      "persistentUuid": "492902c1-3e55-4307-b995-ec8a0a8ecd77",
-      "width": 274,
-      "x": 884,
-      "y": 590,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 128,
       "keepRatio": true,
       "layer": "panels",
@@ -3450,7 +3433,7 @@
                     "value": "Show"
                   },
                   "parameters": [
-                    "finishButton",
+                    "FinishButton",
                     ""
                   ]
                 },
