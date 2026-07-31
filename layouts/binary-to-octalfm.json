@@ -524,6 +524,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 174,
+      "layer": "",
+      "name": "FinishButton",
+      "persistentUuid": "05133355-b1f0-4999-b8f5-0f3ad60e5be7",
+      "width": 200,
+      "x": 875,
+      "y": 930,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -15985,6 +16001,15 @@
             "FinishButton",
             "ButtonFSM",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BehaviorActivated"
+          },
+          "parameters": [
+            "FinishButton",
+            "ButtonFSM"
           ]
         }
       ],

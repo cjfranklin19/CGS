@@ -14146,6 +14146,16 @@
             "2",
             "32"
           ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "FinishButton",
+            "ButtonFSM",
+            ""
+          ]
         }
       ]
     },
@@ -15883,6 +15893,16 @@
                     "FinishButton",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "FinishButton",
+                    "ButtonFSM",
+                    "yes"
+                  ]
                 }
               ]
             }
@@ -16085,6 +16105,15 @@
             "FinishButton",
             "ButtonFSM",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BehaviorActivated"
+          },
+          "parameters": [
+            "FinishButton",
+            "ButtonFSM"
           ]
         }
       ],

@@ -3596,6 +3596,15 @@
             "ButtonFSM",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BehaviorActivated"
+          },
+          "parameters": [
+            "FinishButton",
+            "ButtonFSM"
+          ]
         }
       ],
       "actions": [

@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4163025217733364,
+    "zoomFactor": 1.2031142879249406,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -385,7 +385,7 @@
       "persistentUuid": "6399c03b-cf6d-44af-8960-63c15734d0aa",
       "width": 886,
       "x": 535,
-      "y": 681,
+      "y": 691,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -402,7 +402,7 @@
       "persistentUuid": "8c6be39b-a383-4944-9e7d-f239dcb0ecc2",
       "width": 1441,
       "x": 256,
-      "y": 681,
+      "y": 690,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -505,6 +505,22 @@
       "x": 51,
       "y": -380,
       "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 174,
+      "layer": "",
+      "name": "FinishButton",
+      "persistentUuid": "c598fd15-1a72-466c-8fb6-ca9d4f9a46f6",
+      "width": 200,
+      "x": 875,
+      "y": 930,
+      "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2368,6 +2384,16 @@
             "GlobalVariable(Settings.MusicVolume)",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "FinishButton",
+            "ButtonFSM",
+            ""
+          ]
         }
       ],
       "events": [
@@ -3427,6 +3453,16 @@
                     "finishButton",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "FinishButton",
+                    "ButtonFSM",
+                    "yes"
+                  ]
                 }
               ]
             }
@@ -3671,22 +3707,21 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextPressed"
+            "value": "ButtonStates::ButtonFSM::IsClicked"
           },
           "parameters": [
-            "",
-            "\"Left\""
+            "FinishButton",
+            "ButtonFSM",
+            ""
           ]
         },
         {
           "type": {
-            "value": "IsCursorOnObject"
+            "value": "BehaviorActivated"
           },
           "parameters": [
             "FinishButton",
-            "",
-            "",
-            ""
+            "ButtonFSM"
           ]
         }
       ],
