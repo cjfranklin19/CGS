@@ -44,7 +44,7 @@
       "name": "volumetitle",
       "persistentUuid": "f2eff59e-38bb-4ddc-b113-cefa2d27bd82",
       "width": 0,
-      "x": 519,
+      "x": 472,
       "y": 343,
       "zOrder": 3,
       "numberProperties": [],
@@ -76,8 +76,8 @@
       "name": "LevelTitle",
       "persistentUuid": "47f89ed7-7813-44c8-ba38-e443182a4d94",
       "width": 0,
-      "x": 540,
-      "y": 439,
+      "x": 480,
+      "y": 437,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -144,6 +144,38 @@
       "x": 809,
       "y": 735,
       "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FontSlider",
+      "persistentUuid": "11407a08-4dd0-466c-a0a3-29a71d39de93",
+      "width": 0,
+      "x": 820,
+      "y": 546,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Fontsize",
+      "persistentUuid": "b12e51ca-335b-4314-ac30-e2db5971d04a",
+      "width": 0,
+      "x": 487,
+      "y": 525,
+      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -920,6 +952,70 @@
         "HoveredFadeOutDuration": 0.2,
         "LabelText": "menu"
       }
+    },
+    {
+      "assetStoreId": "45afdba7f8f67b0fe35ab1d8625524652d2984479d262274601f45076aada07a",
+      "name": "FontSlider",
+      "persistentUuid": "f8405c01-08d7-4684-b8f6-2ddcdf09ecf3",
+      "type": "PanelSpriteSlider::PanelSpriteSlider",
+      "variant": "Red TinySwords Pixel Slider",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "BarTopPadding": 3,
+        "BarLeftPadding": 3,
+        "BarRightPadding": 3,
+        "BarBottomPadding": 4,
+        "LabelMargin": 4,
+        "MinValue": 0,
+        "MaxValue": 80,
+        "InitialValue": 40
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Fontsize",
+      "persistentUuid": "225a57d5-ffed-4004-9141-57a8d25f53cb",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Fontsize:",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 70,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Fontsize:",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 70,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -935,6 +1031,9 @@
         "objectName": "volumetitle"
       },
       {
+        "objectName": "Fontsize"
+      },
+      {
         "objectName": "LevelTitle"
       },
       {
@@ -945,6 +1044,9 @@
       },
       {
         "objectName": "Icon_Background"
+      },
+      {
+        "objectName": "FontSlider"
       }
     ]
   },
@@ -1001,6 +1103,17 @@
             "SFXSlider",
             "=",
             "GlobalVariable(Settings.SFXVolume)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+          },
+          "parameters": [
+            "FontSlider",
+            "=",
+            "GlobalVariable(Settings.FontSize)",
             ""
           ]
         }
@@ -1101,6 +1214,32 @@
             "Settings.SFXVolume",
             "=",
             "SFXSlider.Value()"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+          },
+          "parameters": [
+            "FontSlider",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Settings.FontSize",
+            "=",
+            "FontSlider.Value()"
           ]
         }
       ]

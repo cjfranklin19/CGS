@@ -5607,6 +5607,53 @@
         "name": "Binary to Decimal6.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/RedTinySwordsPixelSliderBorder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RedTinySwordsPixelSliderBorder.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/Pixel Frog/e38a2f6c570e85bc9ffd2e6a34046678084749ac66136785afc3250e54946d4a_RedTinySwordsPixelSliderBorder.png",
+          "name": "RedTinySwordsPixelSliderBorder.png"
+        }
+      },
+      {
+        "file": "assets/RedTinySwordsPixelSliderFillBar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RedTinySwordsPixelSliderFillBar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/Pixel Frog/28b269bf64d3c53c438ba7f674558d774302ee8f50bd186d5a9ce7b010af876b_RedTinySwordsPixelSliderFillBar.png",
+          "name": "RedTinySwordsPixelSliderFillBar.png"
+        }
+      },
+      {
+        "file": "assets/RedTinySwordsPixelSliderThumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RedTinySwordsPixelSliderThumb.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/Pixel Frog/7cc421acb4e9e43a9261e1fc56c9bfe28bdcbd8f097bf1cd2977780331e1583b_RedTinySwordsPixelSliderThumb.png",
+          "name": "RedTinySwordsPixelSliderThumb.png"
+        }
+      },
+      {
+        "file": "assets/NotoSansArabicUI-Black2.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\NotoSansArabicUI-Black.ttf2",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/Pixel Frog/58f64bcc48842f9a938582fee628aa6f6b2c229db5f8e4c82a09b3ab0b7ceed5_NotoSansArabicUI-Black.ttf",
+          "name": "NotoSansArabicUI-Black.ttf"
+        }
       }
     ]
   },
@@ -6492,6 +6539,12 @@
       "persistentUuid": "23f5de1f-cb3c-44c9-80a9-04501d6c9cfa",
       "type": "structure",
       "children": [
+        {
+          "name": "FontSize",
+          "persistentUuid": "423c07bd-d21b-488a-a603-26e6407d131e",
+          "type": "number",
+          "value": 40
+        },
         {
           "name": "MusicVolume",
           "persistentUuid": "21cfcfa3-3b3d-4bfe-9923-a4503265ff59",
