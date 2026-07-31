@@ -603,6 +603,23 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "GreyButton",
+      "persistentUuid": "52bf4cb0-6b1b-4122-a6bc-0ffc38bb7f91",
+      "width": 131,
+      "x": 33,
+      "y": 659,
+      "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -2535,6 +2552,25 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "bfab3a269992cf43081e2cb8053c28aaef11f2f9e0d0cbdc00207ea271f69c2c",
+      "name": "GreyButton",
+      "persistentUuid": "33ff7845-70d7-4a19-b3d4-d17d4e457712",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Grey Button",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25,
+        "LabelText": "skip"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2614,6 +2650,9 @@
       },
       {
         "objectName": "Gear_button"
+      },
+      {
+        "objectName": "GreyButton"
       }
     ]
   },
@@ -4521,6 +4560,118 @@
         "includeConfig": 0
       },
       "target": "sub/hint button animation"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "prototype for skip text button"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "GreyButton"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Show"
+          },
+          "parameters": [
+            "GreyButton",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "GreyButton",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Show"
+          },
+          "parameters": [
+            "TargetPrompt",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "storybox"
+          ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "Story_text"
+          ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "GreyButton"
+          ]
+        }
+      ]
     }
   ],
   "layers": [

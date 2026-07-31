@@ -10,7 +10,7 @@
   "name": "PanelSpriteButton",
   "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Interface Elements/Interface Elements_interface_ui_button_ok_cta_clock_tap.svg",
   "shortDescription": "Resizeable button with a label.",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": [
     "A button that can be used for menus and most labelled buttons of a game. The button can be customized with a background for each state and a label. It handles user interactions and a simple condition can be used to check if it is clicked.",
     "",
@@ -2701,7 +2701,7 @@
                 },
                 {
                   "type": {
-                    "value": "Cache"
+                    "value": "Hide"
                   },
                   "parameters": [
                     "Hovered"
@@ -2709,7 +2709,7 @@
                 },
                 {
                   "type": {
-                    "value": "Cache"
+                    "value": "Hide"
                   },
                   "parameters": [
                     "Pressed"
@@ -2717,7 +2717,7 @@
                 },
                 {
                   "type": {
-                    "value": "ChangePlan"
+                    "value": "SetZOrder"
                   },
                   "parameters": [
                     "Hovered",
@@ -2727,7 +2727,7 @@
                 },
                 {
                   "type": {
-                    "value": "ChangePlan"
+                    "value": "SetZOrder"
                   },
                   "parameters": [
                     "Pressed",
@@ -2917,7 +2917,7 @@
                     },
                     {
                       "type": {
-                        "value": "Montre"
+                        "value": "Show"
                       },
                       "parameters": [
                         "Idle",
@@ -2926,7 +2926,7 @@
                     },
                     {
                       "type": {
-                        "value": "Cache"
+                        "value": "Hide"
                       },
                       "parameters": [
                         "Pressed"
@@ -2990,7 +2990,7 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "Cache"
+                            "value": "Hide"
                           },
                           "parameters": [
                             "Hovered"
@@ -3018,7 +3018,7 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "Cache"
+                        "value": "Hide"
                       },
                       "parameters": [
                         "Hovered"
@@ -3092,7 +3092,7 @@
                     },
                     {
                       "type": {
-                        "value": "Cache"
+                        "value": "Hide"
                       },
                       "parameters": [
                         "Idle"
@@ -3100,7 +3100,7 @@
                     },
                     {
                       "type": {
-                        "value": "Montre"
+                        "value": "Show"
                       },
                       "parameters": [
                         "Hovered",
@@ -3109,7 +3109,7 @@
                     },
                     {
                       "type": {
-                        "value": "Cache"
+                        "value": "Hide"
                       },
                       "parameters": [
                         "Pressed"
@@ -3212,7 +3212,7 @@
                     },
                     {
                       "type": {
-                        "value": "Cache"
+                        "value": "Hide"
                       },
                       "parameters": [
                         "Idle"
@@ -3220,7 +3220,7 @@
                     },
                     {
                       "type": {
-                        "value": "Cache"
+                        "value": "Hide"
                       },
                       "parameters": [
                         "Hovered"
@@ -3228,7 +3228,7 @@
                     },
                     {
                       "type": {
-                        "value": "Montre"
+                        "value": "Show"
                       },
                       "parameters": [
                         "Pressed",
@@ -3292,7 +3292,7 @@
                     },
                     {
                       "type": {
-                        "value": "Cache"
+                        "value": "Hide"
                       },
                       "parameters": [
                         "Idle"
@@ -3300,7 +3300,7 @@
                     },
                     {
                       "type": {
-                        "value": "Montre"
+                        "value": "Show"
                       },
                       "parameters": [
                         "Hovered",
@@ -3309,7 +3309,7 @@
                     },
                     {
                       "type": {
-                        "value": "Cache"
+                        "value": "Hide"
                       },
                       "parameters": [
                         "Pressed"
