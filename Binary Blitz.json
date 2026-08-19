@@ -3986,7 +3986,7 @@
         "kind": "image",
         "metadata": "",
         "name": "BG.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3994,7 +3994,7 @@
         "kind": "image",
         "metadata": "",
         "name": "BackButton.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4009,7 +4009,7 @@
         "kind": "image",
         "metadata": "",
         "name": "BinHex.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4017,7 +4017,7 @@
         "kind": "image",
         "metadata": "",
         "name": "DecBin.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4025,7 +4025,7 @@
         "kind": "image",
         "metadata": "",
         "name": "BinDec.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4033,7 +4033,7 @@
         "kind": "image",
         "metadata": "",
         "name": "HexBin.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4041,7 +4041,7 @@
         "kind": "image",
         "metadata": "",
         "name": "OctBin.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4057,7 +4057,7 @@
         "kind": "image",
         "metadata": "",
         "name": "EasyButton.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4065,7 +4065,7 @@
         "kind": "image",
         "metadata": "",
         "name": "MediumButton.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4073,7 +4073,7 @@
         "kind": "image",
         "metadata": "",
         "name": "HardButton.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4081,7 +4081,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Binary to hex7.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4089,7 +4089,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Binary to octal.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4097,7 +4097,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Cumulative door1.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4105,7 +4105,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Cumulative door2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4113,7 +4113,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Cumulative door3.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4121,7 +4121,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Cumulative door4.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4129,7 +4129,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Cumulative door5.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4137,7 +4137,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Cumulative door6.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4145,7 +4145,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Cumulative door7.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4153,7 +4153,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Cumulative door8.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4161,7 +4161,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Cumulative door9.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4169,7 +4169,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Cumulative door10.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4177,7 +4177,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Cumulative door11.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4185,7 +4185,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Cumulative door12.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4193,7 +4193,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Cumulative door13.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4201,7 +4201,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Cumulative door14.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4209,7 +4209,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Cumulative door15.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4217,7 +4217,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Cumulative door16.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4225,7 +4225,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Cumulative door17.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4233,7 +4233,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Cumulative door18.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4241,7 +4241,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Cumulative door19.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4249,7 +4249,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Cumulative door20.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4257,7 +4257,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Cumulative door21.png\",\"extension\":\".png\"}",
         "name": "Cumulative door21.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4265,7 +4265,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Cumulative door22.png\",\"extension\":\".png\"}",
         "name": "Cumulative door22.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4273,7 +4273,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Cumulative door23.png\",\"extension\":\".png\"}",
         "name": "Cumulative door23.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4281,7 +4281,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Cumulative door24.png\",\"extension\":\".png\"}",
         "name": "Cumulative door24.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4329,7 +4329,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Cumulative door30.png\",\"extension\":\".png\"}",
         "name": "Cumulative door30.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4337,7 +4337,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Cumulative door31.png\",\"extension\":\".png\"}",
         "name": "Cumulative door31.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4345,7 +4345,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Cumulative door32.png\",\"extension\":\".png\"}",
         "name": "Cumulative door32.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4353,7 +4353,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Cumulative door33.png\",\"extension\":\".png\"}",
         "name": "Cumulative door33.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4361,7 +4361,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Cumulative door34.png\",\"extension\":\".png\"}",
         "name": "Cumulative door34.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4369,7 +4369,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Cumulative door35.png\",\"extension\":\".png\"}",
         "name": "Cumulative door35.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4377,7 +4377,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Cumulative door36.png\",\"extension\":\".png\"}",
         "name": "Cumulative door36.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4385,7 +4385,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Cumulative door37.png\",\"extension\":\".png\"}",
         "name": "Cumulative door37.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4393,7 +4393,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Cumulative door38.png\",\"extension\":\".png\"}",
         "name": "Cumulative door38.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4401,7 +4401,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Cumulative door39.png\",\"extension\":\".png\"}",
         "name": "Cumulative door39.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4409,7 +4409,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Cumulative door40.png\",\"extension\":\".png\"}",
         "name": "Cumulative door40.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4417,7 +4417,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Cumulative door41.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4425,7 +4425,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Cumulative door42.png\",\"extension\":\".png\"}",
         "name": "Cumulative door42.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4433,7 +4433,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Cumulative door43.png\",\"extension\":\".png\"}",
         "name": "Cumulative door43.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4441,7 +4441,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Cumulative door44.png\",\"extension\":\".png\"}",
         "name": "Cumulative door44.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4449,7 +4449,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Cumulative door45.png\",\"extension\":\".png\"}",
         "name": "Cumulative door45.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4465,7 +4465,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Cumulative door47.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4473,7 +4473,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Cumulative door48.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4489,7 +4489,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Cumulative door50.png\",\"extension\":\".png\"}",
         "name": "Cumulative door50.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4497,15 +4497,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Cumulative door51.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Cumulative door52.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"Cumulative door52.png\",\"extension\":\".png\"}",
-        "name": "Cumulative door52.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4513,6 +4505,14 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Cumulative door53.png\",\"extension\":\".png\"}",
         "name": "Cumulative door53.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Cumulative door52.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Cumulative door52.png\",\"extension\":\".png\"}",
+        "name": "Cumulative door52.png",
         "smoothed": true,
         "userAdded": false
       },

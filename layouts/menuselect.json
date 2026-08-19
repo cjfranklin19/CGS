@@ -567,13 +567,14 @@
         },
         {
           "type": {
-            "value": "PlaySound"
+            "value": "PlaySoundOnChannel"
           },
           "parameters": [
             "",
-            "apalonbeats-lofi-hiphop-549454.mp3",
+            "menu sound2.mp3",
+            "1",
             "yes",
-            "GlobalVariable(SoundVolume)",
+            "GlobalVariable(Settings.MusicVolume)",
             ""
           ]
         }
@@ -622,13 +623,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundOnChannel"
               },
               "parameters": [
                 "",
                 "tithuh-level-up-0-523643.mp3",
-                "",
-                "50",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
                 ""
               ]
             },
@@ -680,13 +682,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundOnChannel"
               },
               "parameters": [
                 "",
                 "tithuh-level-up-0-523643.mp3",
-                "",
-                "50",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
                 ""
               ]
             }
@@ -720,13 +723,14 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "PlaySoundOnChannel"
               },
               "parameters": [
                 "",
                 "tithuh-level-up-0-523643.mp3",
-                "",
-                "50",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
                 ""
               ]
             }
