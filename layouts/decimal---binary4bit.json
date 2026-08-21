@@ -357,14 +357,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 453,
+      "height": 397,
       "keepRatio": true,
       "layer": "lights",
       "name": "NewSprite4",
       "persistentUuid": "ac04bb7d-f4e0-480d-bcaf-9fbacbb3fbff",
-      "width": 1799,
-      "x": -4,
-      "y": 24,
+      "width": 1576,
+      "x": 111,
+      "y": 71,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -611,7 +611,7 @@
       "height": 64,
       "keepRatio": true,
       "layer": "",
-      "name": "GreyButton",
+      "name": "skipButton",
       "persistentUuid": "52bf4cb0-6b1b-4122-a6bc-0ffc38bb7f91",
       "width": 131,
       "x": 33,
@@ -2555,7 +2555,7 @@
     },
     {
       "assetStoreId": "bfab3a269992cf43081e2cb8053c28aaef11f2f9e0d0cbdc00207ea271f69c2c",
-      "name": "GreyButton",
+      "name": "skipButton",
       "persistentUuid": "33ff7845-70d7-4a19-b3d4-d17d4e457712",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variant": "Grey Button",
@@ -2652,7 +2652,7 @@
         "objectName": "Gear_button"
       },
       {
-        "objectName": "GreyButton"
+        "objectName": "skipButton"
       }
     ]
   },
@@ -3994,7 +3994,7 @@
                   "parameters": [
                     "accuracyPercentage",
                     "=",
-                    "(correctAnswers / (correctAnswers+incorrectAnswers))*100"
+                    "floor((correctAnswers / (correctAnswers+incorrectAnswers))*100)"
                   ]
                 },
                 {
@@ -4005,7 +4005,7 @@
                     "Accuracy",
                     "Text",
                     "=",
-                    "\"Accuracy: \"+ ToString(floor(accuracyPercentage)) +\"%\""
+                    "\"Accuracy: \"+ ToString(accuracyPercentage) +\"%\""
                   ]
                 }
               ]
@@ -4555,6 +4555,14 @@
           "parameters": [
             "Story_text"
           ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "skipButton"
+          ]
         }
       ]
     },
@@ -4635,7 +4643,7 @@
             "value": "Hide"
           },
           "parameters": [
-            "GreyButton"
+            "skipButton"
           ]
         },
         {
@@ -4651,7 +4659,7 @@
             "value": "Show"
           },
           "parameters": [
-            "GreyButton",
+            "skipButton",
             ""
           ]
         }
@@ -4665,7 +4673,7 @@
             "value": "IsCursorOnObject"
           },
           "parameters": [
-            "GreyButton",
+            "skipButton",
             "",
             "",
             ""
@@ -4712,7 +4720,7 @@
             "value": "Hide"
           },
           "parameters": [
-            "GreyButton"
+            "skipButton"
           ]
         }
       ]
