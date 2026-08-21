@@ -119,8 +119,8 @@
       "name": "HintsUsed",
       "persistentUuid": "577d79ca-df3c-4f73-afff-bea8a0053e0d",
       "width": 0,
-      "x": 652,
-      "y": 603,
+      "x": 645,
+      "y": 587,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -151,9 +151,25 @@
       "name": "NightBG",
       "persistentUuid": "e7f985c5-f9da-42e4-940b-44068954f771",
       "width": 0,
-      "x": 2,
-      "y": 5,
+      "x": 0,
+      "y": -2,
       "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Accuracy",
+      "persistentUuid": "4e04f177-532d-4d2a-bce6-7b5d4a8b92b5",
+      "width": 0,
+      "x": 651,
+      "y": 681,
+      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1095,6 +1111,17 @@
             "yes",
             "GlobalVariable(Settings.MusicVolume)",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Accuracy",
+            "Text",
+            "=",
+            "\"Accuracy: \"+ToString(accuracyPercentage)+\"%\""
           ]
         }
       ]

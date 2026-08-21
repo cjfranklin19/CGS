@@ -3339,13 +3339,14 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySound"
+            "value": "PlaySoundOnChannel"
           },
           "parameters": [
             "",
             "Keybutton click.mp3",
-            "",
             "2",
+            "no",
+            "GlobalVariable(Settings.SFXVolume)",
             ""
           ]
         }
@@ -3984,6 +3985,27 @@
                     "FinishButton",
                     "ButtonFSM",
                     "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "accuracyPercentage",
+                    "=",
+                    "(correctAnswers / (correctAnswers+incorrectAnswers))*100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Accuracy",
+                    "Text",
+                    "=",
+                    "\"Accuracy: \"+ ToString(floor(accuracyPercentage)) +\"%\""
                   ]
                 }
               ]
