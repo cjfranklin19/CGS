@@ -119,7 +119,7 @@
       "persistentUuid": "d3bb8440-0c8a-41d3-80ca-7001ef4525cc",
       "width": 0,
       "x": 645,
-      "y": 603,
+      "y": 587,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -137,6 +137,22 @@
       "x": -1,
       "y": 3,
       "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Accuracy",
+      "persistentUuid": "a20b1809-97ef-49c0-b484-b2dfbedc6bc1",
+      "width": 0,
+      "x": 645,
+      "y": 681,
+      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -486,6 +502,17 @@
             "yes",
             "GlobalVariable(Settings.MusicVolume)",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Accuracy",
+            "Text",
+            "=",
+            "\"Accuracy: \"+ToString(accuracyPercentage)+\"%\""
           ]
         }
       ]

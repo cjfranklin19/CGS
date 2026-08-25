@@ -119,7 +119,7 @@
       "persistentUuid": "921fefb9-6906-465f-92f9-87fe93a91f1e",
       "width": 0,
       "x": 645,
-      "y": 603,
+      "y": 587,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -137,6 +137,22 @@
       "x": 728,
       "y": 743,
       "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Accuracy",
+      "persistentUuid": "e07f017c-15cd-47c1-ae15-e6726a4f3f72",
+      "width": 0,
+      "x": 668,
+      "y": 681,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -473,6 +489,30 @@
             "Text",
             "=",
             "\"Hint Used: \"+ToString(AmountHintUsed)"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundOnChannel"
+          },
+          "parameters": [
+            "",
+            "menu sound2.mp3",
+            "1",
+            "yes",
+            "GlobalVariable(Settings.MusicVolume)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Accuracy",
+            "Text",
+            "=",
+            "\"Accuracy: \"+ToString(accuracyPercentage)+\"%\""
           ]
         }
       ]

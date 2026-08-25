@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.31928945896901634,
+    "zoomFactor": 0.5800155239904861,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -119,7 +119,7 @@
       "persistentUuid": "18422cbb-0a4f-4a6a-bf73-3e6ab0b50f92",
       "width": 0,
       "x": 645,
-      "y": 603,
+      "y": 587,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -153,6 +153,22 @@
       "x": -3,
       "y": -3,
       "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Accuracy",
+      "persistentUuid": "ff976c54-35fd-41df-b4d2-2121f735bc37",
+      "width": 0,
+      "x": 645,
+      "y": 681,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -502,6 +518,17 @@
             "yes",
             "GlobalVariable(Settings.MusicVolume)",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Accuracy",
+            "Text",
+            "=",
+            "\"Accuracy: \"+ToString(accuracyPercentage)+\"%\""
           ]
         }
       ]
