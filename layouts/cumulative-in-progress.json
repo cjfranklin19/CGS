@@ -24474,6 +24474,27 @@
             "ButtonFSM",
             "yes"
           ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "accuracyPercentage",
+            "=",
+            "floor((numcorrectAnswers/ (numcorrectAnswers+incorrectAnswers))*100)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Accuracy",
+            "Text",
+            "=",
+            "\"Accuracy: \"+ ToString(accuracyPercentage) +\"%\""
+          ]
         }
       ]
     },

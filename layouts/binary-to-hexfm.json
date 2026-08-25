@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3645833333333333,
+    "zoomFactor": 0.5800155239904861,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -15723,6 +15723,27 @@
                   "parameters": [
                     "finishButton",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "accuracyPercentage",
+                    "=",
+                    "floor((correctAnswers/ (correctAnswers+incorrectAnswers))*100)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Accuracy",
+                    "Text",
+                    "=",
+                    "\"Accuracy: \"+ ToString(accuracyPercentage) +\"%\""
                   ]
                 }
               ]
