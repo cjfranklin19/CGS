@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.43034038022076565,
+    "zoomFactor": 0.4598521426736336,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -171,12 +171,29 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 106,
+      "keepRatio": true,
+      "layer": "",
+      "name": "_1_comp",
+      "persistentUuid": "5eeee34c-6cbb-4e08-a374-f660fea22899",
+      "width": 538,
+      "x": 707,
+      "y": 801,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
     {
       "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
-      "name": "Decimal_to_Binary",
+      "name": "_1_comp",
       "persistentUuid": "ff891a01-3463-403b-976f-73ebd06b12af",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variant": "Green Button",
@@ -190,7 +207,7 @@
         "BottomPadding": 32,
         "TopPadding": 16,
         "HoveredFadeOutDuration": 0.25,
-        "LabelText": "Decimal to Binary"
+        "LabelText": "1 Complemt"
       }
     },
     {
@@ -764,7 +781,7 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Decimal_to_Binary"
+        "objectName": "_1_comp"
       },
       {
         "objectName": "Binary_to_Decimal"
@@ -1155,6 +1172,65 @@
               },
               "parameters": [
                 "Octal_to_Binary2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "SceneTransition",
+                "=",
+                "\"Octal to BinaryFM\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "tithuh-level-up-0-523643.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"transition scene\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "_1_comp",
                 "",
                 "",
                 ""

@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.13935037485556998,
+    "zoomFactor": 0.26167741169921843,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -381,26 +381,21 @@
       "persistentUuid": "b5417968-259e-479e-8312-7d36a799f849",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "oneCompSource",
+      "persistentUuid": "456e21b6-554f-4765-a709-c771c1681de4",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "oneCompAnswer",
+      "persistentUuid": "869418ca-f3ef-4abc-956e-60d2536e5a61",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 138,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Submit_Button",
-      "persistentUuid": "85eafccd-d85a-4478-9f53-24c87dd42a72",
-      "width": 138,
-      "x": 1953,
-      "y": 273,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": true,
@@ -436,22 +431,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "finishButton",
-      "persistentUuid": "cc4025d9-2d9d-4859-b212-5460376f3881",
-      "width": 0,
-      "x": 1933,
-      "y": -139,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 90,
@@ -463,40 +442,6 @@
       "x": 871,
       "y": 593,
       "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 128,
-      "keepRatio": true,
-      "layer": "panels",
-      "name": "Default_Panel_15",
-      "persistentUuid": "969c933a-e572-49b9-af09-c3545fa1e0c2",
-      "width": 372,
-      "x": 1745,
-      "y": -344,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 108,
-      "keepRatio": true,
-      "layer": "panels",
-      "name": "Default_Panel_15",
-      "persistentUuid": "716686ed-f1c9-4d56-ba55-999c59d21a61",
-      "width": 354,
-      "x": 1735,
-      "y": -471,
-      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -17651,7 +17596,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door1.png",
+                  "image": "Cumulative door54.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17687,7 +17632,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door2.png",
+                  "image": "Cumulative door55.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17723,7 +17668,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door3.png",
+                  "image": "Cumulative door56.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17759,7 +17704,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door4.png",
+                  "image": "Cumulative door57.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17795,7 +17740,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door5.png",
+                  "image": "Cumulative door58.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17831,7 +17776,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door6.png",
+                  "image": "Cumulative door59.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17867,7 +17812,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door7.png",
+                  "image": "Cumulative door60.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17903,7 +17848,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door8.png",
+                  "image": "Cumulative door61.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17939,7 +17884,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door9.png",
+                  "image": "Cumulative door62.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17975,7 +17920,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door10.png",
+                  "image": "Cumulative door63.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -18011,7 +17956,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door11.png",
+                  "image": "Cumulative door64.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -18047,7 +17992,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door12.png",
+                  "image": "Cumulative door65.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -18083,7 +18028,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door13.png",
+                  "image": "Cumulative door66.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -18119,7 +18064,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door14.png",
+                  "image": "Cumulative door67.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -18155,7 +18100,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door15.png",
+                  "image": "Cumulative door68.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -18191,7 +18136,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door16.png",
+                  "image": "Cumulative door69.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -18227,7 +18172,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door17.png",
+                  "image": "Cumulative door70.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -18263,7 +18208,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door18.png",
+                  "image": "Cumulative door71.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -18299,7 +18244,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door19.png",
+                  "image": "Cumulative door72.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -18335,7 +18280,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../OneDrive - Norfolk State University/animation/Cumulative door20.png",
+                  "image": "Cumulative door73.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -20889,7 +20834,7 @@
                         "TargetPrompt",
                         "Text",
                         "=",
-                        "\"convert: \"+BaseConversion::ToBase(TargetDecimal,16)+\" hex to binary\""
+                        "\"convert: \"+ToUpperCase(BaseConversion::ToBase(TargetDecimal,16))+\" hex to binary\""
                       ]
                     },
                     {
@@ -21570,6 +21515,244 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "questionIndex",
+                        "=",
+                        "7"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "oneCompSource",
+                        "=",
+                        "RandomInRange(0, 255)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "oneCompAnswer",
+                        "=",
+                        "255-oneCompSource"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Switches",
+                        "Status",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "TargetPrompt",
+                        "Text",
+                        "=",
+                        "\"Find the 1's complement: \" + SubStr(\"00000000\" + BaseConversion::ToBase(Variable(oneCompSource), 2), StrLength(\"00000000\" + BaseConversion::ToBase(Variable(oneCompSource), 2)) - 8, 8)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "correctAnswerNumber",
+                        "=",
+                        "oneCompAnswer"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "Switches",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Show"
+                      },
+                      "parameters": [
+                        "submit_button",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "inputMode",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Switches",
+                        "ButtonFSM",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "binaryTot",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "numberPad",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "letterPad",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetXY"
+                      },
+                      "parameters": [
+                        "Switch_128",
+                        "=",
+                        "402",
+                        "=",
+                        "770"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetXY"
+                      },
+                      "parameters": [
+                        "Switch_64",
+                        "=",
+                        "552",
+                        "=",
+                        "770"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetXY"
+                      },
+                      "parameters": [
+                        "Switch_32",
+                        "=",
+                        "702",
+                        "=",
+                        "770"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetXY"
+                      },
+                      "parameters": [
+                        "Switch_16",
+                        "=",
+                        "852",
+                        "=",
+                        "770"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetXY"
+                      },
+                      "parameters": [
+                        "Switch_8",
+                        "=",
+                        "1002",
+                        "=",
+                        "770"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetXY"
+                      },
+                      "parameters": [
+                        "Switch_4",
+                        "=",
+                        "1152",
+                        "=",
+                        "770"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetXY"
+                      },
+                      "parameters": [
+                        "Switch_2",
+                        "=",
+                        "1302",
+                        "=",
+                        "770"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetXY"
+                      },
+                      "parameters": [
+                        "Switch_1",
+                        "=",
+                        "1452",
+                        "=",
+                        "770"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
                 }
               ]
             }
@@ -23664,7 +23847,7 @@
                   "parameters": [
                     "questionIndex",
                     ">",
-                    "6"
+                    "7"
                   ]
                 }
               ],
@@ -23933,7 +24116,7 @@
                   "parameters": [
                     "questionIndex",
                     ">",
-                    "6"
+                    "7"
                   ]
                 }
               ],
@@ -24219,7 +24402,7 @@
                   "parameters": [
                     "questionIndex",
                     ">",
-                    "6"
+                    "7"
                   ]
                 }
               ],
@@ -24669,6 +24852,7 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {

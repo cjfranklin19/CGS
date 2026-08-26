@@ -86,9 +86,25 @@
       "name": "FinishButton",
       "persistentUuid": "f6881d73-fb61-4dcd-8680-6d70063dac07",
       "width": 0,
-      "x": 865,
-      "y": 161,
+      "x": 832,
+      "y": 295,
       "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "GameOver_txt",
+      "persistentUuid": "c17a6721-8bf0-41a4-8887-22a89e66ab31",
+      "width": 0,
+      "x": 676,
+      "y": 227,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -332,6 +348,50 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "GameOver_txt",
+      "persistentUuid": "22cdfc9e-825c-434a-bf85-a6296143cbb6",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "GAME OVER",
+      "font": "Not Jam Mono Clean16.ttf",
+      "textAlignment": "center",
+      "characterSize": 100,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "GAME OVER",
+        "font": "Not Jam Mono Clean16.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 100,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -345,6 +405,9 @@
       },
       {
         "objectName": "Power_shut_down_"
+      },
+      {
+        "objectName": "GameOver_txt"
       }
     ]
   },

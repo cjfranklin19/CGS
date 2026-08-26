@@ -6626,6 +6626,7 @@
     },
     {
       "name": "FinalAccuracy_",
+      "persistentUuid": "8c7d9153-e5de-4d79-a28a-30b17836f23c",
       "type": "number",
       "value": 0
     }
@@ -6745,6 +6746,10 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/1s-comp-building"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/game-over-screen"
     },
     {
@@ -6754,10 +6759,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/credits"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/binary-to-hexfm"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -6773,7 +6774,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/binary-to-hexfm2"
+      "referenceTo": "/layouts/binary-to-hexfm"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -6782,6 +6783,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/octal---binaryfm"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/1s-comp-buildingfm"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -6809,6 +6814,10 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/ldcom-1comp"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/ld-db"
     },
     {
@@ -6830,6 +6839,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/ld-ob"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/ld-1comp"
     }
   ],
   "externalEvents": [
