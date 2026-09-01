@@ -1,8 +1,8 @@
 {
   "b": 0,
   "disableInputWhenNotFocused": true,
-  "mangledName": "_49s_32comp_32building",
-  "name": "1s comp building",
+  "mangledName": "_49s_32comp",
+  "name": "1s comp",
   "r": 0,
   "standardSortMethod": true,
   "stopSoundsOnStartup": false,
@@ -421,23 +421,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 90,
-      "keepRatio": true,
-      "layer": "",
-      "name": "TimerText",
-      "persistentUuid": "492902c1-3e55-4307-b995-ec8a0a8ecd77",
-      "width": 274,
-      "x": 884,
-      "y": 561,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
@@ -462,8 +445,8 @@
       "name": "storybox",
       "persistentUuid": "1e813a38-2aea-4afa-8070-002d455999da",
       "width": 1821,
-      "x": 58,
-      "y": -12,
+      "x": 48,
+      "y": 1,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -490,15 +473,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 518,
+      "height": 519,
       "keepRatio": true,
       "layer": "",
       "name": "hintbox",
       "persistentUuid": "b042da3d-d38b-40a7-9028-6bbd6a338730",
-      "width": 1833,
-      "x": 32,
+      "width": 1781,
+      "x": 59,
       "y": 3,
-      "zOrder": 27,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -513,8 +496,8 @@
       "name": "Hint",
       "persistentUuid": "b3e33abf-2f3f-47bc-9f6f-5926a7292b49",
       "width": 1637,
-      "x": 234,
-      "y": 139,
+      "x": 172,
+      "y": 142,
       "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
@@ -2291,7 +2274,7 @@
           "TypedText": ""
         }
       ],
-      "string": "HQ to Converter, The Gridbreaker Syndicate has permanently added more bits, but this is no problem because it seems to still follow the power of two. Remember, from right to left, it goes 1, 2, 4, 6, 8, 16, 32, 64, and lastly 128",
+      "string": "HQ to Converter, you're close to taking down the Gridbreaker syndicate. They have flipped the ones complement of the surrounding area, flip them back to continue",
       "font": "Not Jam Mono Clean15.ttf",
       "textAlignment": "left",
       "characterSize": 40,
@@ -2314,7 +2297,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "HQ to Converter, The Gridbreaker Syndicate has permanently added more bits, but this is no problem because it seems to still follow the power of two. Remember, from right to left, it goes 1, 2, 4, 6, 8, 16, 32, 64, and lastly 128",
+        "text": "HQ to Converter, you're close to taking down the Gridbreaker syndicate. They have flipped the ones complement of the surrounding area, flip them back to continue",
         "font": "Not Jam Mono Clean15.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -2369,7 +2352,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "8Bits follows the same rules as 4 bits\n\nIt is easier to rule out the larger numbers first when adding in your head",
+      "string": "in 1's Complement you need to change all zeros to ones and one to zero\n\nEX: 0110 -> 1001",
       "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
       "characterSize": 40,
@@ -2392,7 +2375,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "8Bits follows the same rules as 4 bits\n\nIt is easier to rule out the larger numbers first when adding in your head",
+        "text": "in 1's Complement you need to change all zeros to ones and one to zero\n\nEX: 0110 -> 1001",
         "font": "Not Jam Mono Clean16.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -4105,7 +4088,7 @@
           },
           "parameters": [
             "",
-            "\"Post-Question ResultsDB8\"",
+            "\"Post-Question Results1comp\"",
             ""
           ]
         }
@@ -4355,7 +4338,6 @@
           ]
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4390,7 +4372,7 @@
                 "",
                 "\"showtimer\"",
                 ">=",
-                "20"
+                "19"
               ]
             }
           ],

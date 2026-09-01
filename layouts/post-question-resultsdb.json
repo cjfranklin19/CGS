@@ -1020,67 +1020,6 @@
           ]
         }
       ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "6f3a04d5c864d1b5299ba1e49b2b6611a69e4911ab056a71ef8178881d9216e3",
-      "name": "Print_Screen_Key",
-      "persistentUuid": "638a78e1-c611-4686-9584-745ac5b913d7",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Print Screen Key.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 12,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 14
-                      },
-                      {
-                        "x": 88,
-                        "y": 86
-                      },
-                      {
-                        "x": 12,
-                        "y": 86
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1106,9 +1045,6 @@
       },
       {
         "objectName": "finishButton"
-      },
-      {
-        "objectName": "Print_Screen_Key"
       }
     ]
   },
@@ -1281,7 +1217,21 @@
           ]
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySoundOnChannel"
+          },
+          "parameters": [
+            "",
+            "menu - level select3.mp3",
+            "2",
+            "no",
+            "GlobalVariable(Settings.SFXVolume)",
+            ""
+          ]
+        }
+      ],
       "events": [
         {
           "type": "BuiltinCommonInstructions::JsCode",

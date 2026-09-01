@@ -1004,15 +1004,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 311,
       "keepRatio": true,
       "layer": "Hint",
       "name": "Hint",
       "persistentUuid": "6aaa0eee-5b66-417c-819d-52cea9ac007c",
-      "width": 0,
-      "x": 927,
-      "y": 254,
+      "width": 1765,
+      "x": 116,
+      "y": 147,
       "zOrder": 89,
       "numberProperties": [],
       "stringProperties": [],
@@ -19138,17 +19139,7 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "AutoTyping",
-          "type": "AutoTyping::AutoTyping",
-          "Text": "Text",
-          "Interval": 0.06,
-          "CharacterJustAdded": false,
-          "FullText": "",
-          "TypedText": ""
-        }
-      ],
+      "behaviors": [],
       "string": "hint",
       "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
@@ -20672,6 +20663,17 @@
                         "=",
                         "770"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Hint",
+                        "Text",
+                        "=",
+                        "\"The right most switch(bit) is always 1, going the left it inscrease by powers of two\nSwtiches go as follows 128, 64, 32, 16, 8, 4, 2, 1\""
+                      ]
                     }
                   ]
                 },
@@ -20786,6 +20788,17 @@
                         "letterPad",
                         "ButtonFSM",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Hint",
+                        "Text",
+                        "=",
+                        "\"the binary follows the same rules as the switchs. \njust add the bits together to get the right decimal\nEX:0010 = 2\""
                       ]
                     }
                   ]
@@ -21010,6 +21023,17 @@
                         "=",
                         "770"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Hint",
+                        "Text",
+                        "=",
+                        "\"Take the individual parts of the Hex code and break them into their four bit forms\nEX: 7E  -> 7  E \n      7= 0111\n      E= 1110\n      7E= 01111110\""
+                      ]
                     }
                   ]
                 },
@@ -21133,6 +21157,17 @@
                         "letterPad",
                         "ButtonFSM",
                         "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Hint",
+                        "Text",
+                        "=",
+                        "\"remember to group in 4s from right to left\nHex goes 0-15, 0-9 are regular decimal and 10-15 are A-F\n\nEX: 01101011 -> 0110 - 1011 = 6 B\""
                       ]
                     }
                   ]
@@ -21398,6 +21433,17 @@
                         "ButtonFSM",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Hint",
+                        "Text",
+                        "=",
+                        "\"Split the number, then convert those numbers into their three bits\nEX: 34 -> 3 - 4 -> 011 100\""
+                      ]
                     }
                   ]
                 },
@@ -21434,7 +21480,7 @@
                         "TargetPrompt",
                         "Text",
                         "=",
-                        "\"convert: \"+BaseConversion::ToBase(TargetDecimal,2)+\" binary to octal\""
+                        "\"convert: \" + SubStr(\"000000\" + BaseConversion::ToBase(Variable(TargetDecimal), 2), StrLength(\"000000\" + BaseConversion::ToBase(Variable(TargetDecimal), 2)) - 6, 6) + \" binary to octal\""
                       ]
                     },
                     {
@@ -21512,6 +21558,17 @@
                         "letterPad",
                         "ButtonFSM",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Hint",
+                        "Text",
+                        "=",
+                        "\"Group the numbe in 3s\nEX:001110 -> 001 - 110 which equals to 1 and 6 respectively\""
                       ]
                     }
                   ]
@@ -21745,6 +21802,17 @@
                         "1452",
                         "=",
                         "770"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Hint",
+                        "Text",
+                        "=",
+                        "\"in 1's Complement you need to change all zeros to ones and one to zero\n\nEX: 0110 -> 1001\""
                       ]
                     }
                   ]
@@ -24739,7 +24807,7 @@
             "TimerText",
             "Text",
             "=",
-            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-90)))"
+            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-180)))"
           ]
         }
       ]
@@ -24755,7 +24823,7 @@
             "",
             "\"CountingDown\"",
             ">=",
-            "90"
+            "180"
           ]
         }
       ],
@@ -24852,7 +24920,6 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
