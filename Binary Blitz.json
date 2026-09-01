@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 280,
+    "build": 281,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -5653,6 +5653,18 @@
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/Pixel Frog/58f64bcc48842f9a938582fee628aa6f6b2c229db5f8e4c82a09b3ab0b7ceed5_NotoSansArabicUI-Black.ttf",
           "name": "NotoSansArabicUI-Black.ttf"
+        }
+      },
+      {
+        "file": "assets/Print Screen Key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Print Screen Key.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/6c1ff824094ed2befd29dd3f98f550a464b9fcf345c9c0f0380106ec471e6c39_Print Screen Key.png",
+          "name": "Print Screen Key.png"
         }
       }
     ]

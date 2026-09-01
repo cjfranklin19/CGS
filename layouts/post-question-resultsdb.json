@@ -173,6 +173,23 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 220,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Print_Screen_Key",
+      "persistentUuid": "ed093160-19d1-473f-a9bd-64149171b8f1",
+      "width": 288,
+      "x": 1202,
+      "y": 746,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1003,6 +1020,67 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "6f3a04d5c864d1b5299ba1e49b2b6611a69e4911ab056a71ef8178881d9216e3",
+      "name": "Print_Screen_Key",
+      "persistentUuid": "638a78e1-c611-4686-9584-745ac5b913d7",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Print Screen Key.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 14
+                      },
+                      {
+                        "x": 88,
+                        "y": 14
+                      },
+                      {
+                        "x": 88,
+                        "y": 86
+                      },
+                      {
+                        "x": 12,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1028,6 +1106,9 @@
       },
       {
         "objectName": "finishButton"
+      },
+      {
+        "objectName": "Print_Screen_Key"
       }
     ]
   },
@@ -1131,21 +1212,11 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextReleased"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        },
-        {
-          "type": {
-            "value": "IsCursorOnObject"
+            "value": "ButtonStates::ButtonFSM::IsClicked"
           },
           "parameters": [
             "FinishButton",
-            "",
-            "",
+            "ButtonFSM",
             ""
           ]
         }
@@ -1188,8 +1259,41 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "Print_Screen_Key",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "runtimeScene.setBackgroundColor(100,100,240);",
+            "window.print();"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ]
     }
   ],
   "layers": [
