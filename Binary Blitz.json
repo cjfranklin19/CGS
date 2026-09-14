@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 281,
+    "build": 282,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -6703,6 +6703,11 @@
     {
       "name": "FinalAccuracy_",
       "persistentUuid": "8c7d9153-e5de-4d79-a28a-30b17836f23c",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "LVLDIFF",
       "type": "number",
       "value": 0
     }
