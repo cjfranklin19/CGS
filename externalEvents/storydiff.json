@@ -103,6 +103,16 @@
             "=",
             "100"
           ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "allottedLvlTime",
+            "=",
+            "90"
+          ]
         }
       ]
     },
@@ -149,6 +159,16 @@
             "maxRange",
             "=",
             "255"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "allottedLvlTime",
+            "=",
+            "120"
           ]
         }
       ]
