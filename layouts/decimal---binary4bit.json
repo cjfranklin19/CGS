@@ -2840,6 +2840,16 @@
             "ButtonFSM",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "maxRange",
+            "=",
+            "15"
+          ]
         }
       ]
     },
@@ -3147,7 +3157,7 @@
           "parameters": [
             "questionsAnswered",
             "<",
-            "levelQuestions"
+            "numOfQuestions"
           ]
         }
       ],
@@ -3173,7 +3183,7 @@
               "parameters": [
                 "questionsAnswered",
                 "<",
-                "levelQuestions"
+                "numOfQuestions"
               ]
             }
           ],
@@ -3216,7 +3226,7 @@
               "parameters": [
                 "targetNum",
                 "=",
-                "RandomInRange(0, Variable(maxRange))"
+                "RandomInRange(0, GlobalVariable(maxRange))"
               ]
             },
             {
@@ -3756,7 +3766,7 @@
                   "parameters": [
                     "questionsAnswered",
                     "<",
-                    "levelQuestions"
+                    "numOfQuestions"
                   ]
                 }
               ],
@@ -3877,7 +3887,7 @@
                   "parameters": [
                     "questionsAnswered",
                     "=",
-                    "levelQuestions"
+                    "numOfQuestions"
                   ]
                 }
               ],
@@ -4326,7 +4336,7 @@
           "parameters": [
             "questionsAnswered",
             "<",
-            "levelQuestions"
+            "numOfQuestions"
           ]
         }
       ],

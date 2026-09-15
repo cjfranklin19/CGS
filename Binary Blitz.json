@@ -6948,6 +6948,17 @@
       "persistentUuid": "111c5bd1-c263-4a46-b2d9-17060f41c79d",
       "type": "string",
       "value": ""
+    },
+    {
+      "name": "allottedTime",
+      "persistentUuid": "9681b09c-33e3-434b-872a-5f8f4f32c690",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "numOfQuestions",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [

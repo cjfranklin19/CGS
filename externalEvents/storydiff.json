@@ -52,9 +52,19 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "allottedLvlTime",
+            "allottedTime",
             "=",
             "60"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "numOfQuestions",
+            "=",
+            "5"
           ]
         }
       ]
@@ -86,12 +96,12 @@
         },
         {
           "type": {
-            "value": "SetStringVariable"
+            "value": "SetNumberVariable"
           },
           "parameters": [
-            "LVLDIFF_NAME",
+            "numOfQuestions",
             "=",
-            "\"Easy\""
+            "10"
           ]
         },
         {
@@ -102,6 +112,26 @@
             "maxRange",
             "=",
             "100"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "LVLDIFF_NAME",
+            "=",
+            "\"Medium\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "allottedTime",
+            "=",
+            "90"
           ]
         }
       ]
@@ -133,12 +163,22 @@
         },
         {
           "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "numOfQuestions",
+            "=",
+            "15"
+          ]
+        },
+        {
+          "type": {
             "value": "SetStringVariable"
           },
           "parameters": [
             "LVLDIFF_NAME",
             "=",
-            "\"Easy\""
+            "\"Hard\""
           ]
         },
         {
@@ -149,6 +189,16 @@
             "maxRange",
             "=",
             "255"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "allottedTime",
+            "=",
+            "60"
           ]
         }
       ]

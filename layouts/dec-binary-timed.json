@@ -2788,6 +2788,16 @@
             "2",
             "32"
           ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "maxRange",
+            "=",
+            "15"
+          ]
         }
       ],
       "events": [
@@ -3076,7 +3086,7 @@
           "parameters": [
             "questionsAnswered",
             "<",
-            "levelQuestions"
+            "numOfQuestions"
           ]
         }
       ],
@@ -3102,7 +3112,7 @@
               "parameters": [
                 "questionsAnswered",
                 "<",
-                "levelQuestions"
+                "numOfQuestions"
               ]
             }
           ],
@@ -3154,7 +3164,7 @@
               "parameters": [
                 "targetNum",
                 "=",
-                "RandomInRange(1, 10)"
+                "RandomInRange(0, GlobalVariable(maxRange))"
               ]
             },
             {
@@ -3679,7 +3689,7 @@
                   "parameters": [
                     "questionsAnswered",
                     "<",
-                    "levelQuestions"
+                    "numOfQuestions"
                   ]
                 }
               ],
@@ -3783,7 +3793,7 @@
                   "parameters": [
                     "questionsAnswered",
                     "=",
-                    "levelQuestions"
+                    "numOfQuestions"
                   ]
                 }
               ],
@@ -4205,7 +4215,7 @@
             "TimerText",
             "Text",
             "=",
-            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-60)))"
+            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-allottedTime)))"
           ]
         }
       ]
@@ -4230,7 +4240,7 @@
           "parameters": [
             "questionsAnswered",
             "<",
-            "levelQuestions"
+            "numOfQuestions"
           ]
         }
       ],
