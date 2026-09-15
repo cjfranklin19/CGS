@@ -200,6 +200,12 @@
       "persistentUuid": "834f5965-448a-402c-9907-c3575a2d7cca",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "allottedLvlTime",
+      "persistentUuid": "664e1658-cb90-4b29-9d1f-5ba5606bec1c",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -3210,7 +3216,7 @@
               "parameters": [
                 "targetNum",
                 "=",
-                "RandomInRange(0, 10)"
+                "RandomInRange(0, Variable(maxRange))"
               ]
             },
             {
