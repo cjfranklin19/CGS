@@ -287,189 +287,6 @@
           ]
         }
       ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "easy_button",
-      "persistentUuid": "5dfe3429-c8ca-47f2-9452-6c40a67a23a7",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "EasyButton.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 128,
-                        "y": 60
-                      },
-                      {
-                        "x": 384,
-                        "y": 60
-                      },
-                      {
-                        "x": 384,
-                        "y": 196
-                      },
-                      {
-                        "x": 128,
-                        "y": 196
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "medium_button",
-      "persistentUuid": "7fd03ff3-c66b-4fb8-91f8-2480e18e7bc0",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "MediumButton.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 128,
-                        "y": 60
-                      },
-                      {
-                        "x": 384,
-                        "y": 60
-                      },
-                      {
-                        "x": 384,
-                        "y": 196
-                      },
-                      {
-                        "x": 128,
-                        "y": 196
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "hard_button",
-      "persistentUuid": "34d5d2cd-8317-4ef1-8980-e659e2ea1d8c",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "HardButton.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 128,
-                        "y": 60
-                      },
-                      {
-                        "x": 384,
-                        "y": 60
-                      },
-                      {
-                        "x": 384,
-                        "y": 196
-                      },
-                      {
-                        "x": 128,
-                        "y": 196
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
@@ -489,15 +306,6 @@
       },
       {
         "objectName": "Backspace_Alt_Key"
-      },
-      {
-        "objectName": "easy_button"
-      },
-      {
-        "objectName": "medium_button"
-      },
-      {
-        "objectName": "hard_button"
       }
     ]
   },
@@ -672,12 +480,12 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "SetStringVariable"
               },
               "parameters": [
-                "",
-                "\"Decimal - Binary(4bit)med\"",
-                ""
+                "SceneTransition",
+                "=",
+                "\"Decimal - Binary(4bit)\""
               ]
             },
             {
@@ -733,6 +541,16 @@
                 "GlobalVariable(Settings.SFXVolume)",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "SceneTransition",
+                "=",
+                "\"Decimal - Binary(4bit)\""
+              ]
             }
           ]
         },
@@ -765,6 +583,18 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "storyDiff"
     }
   ],
   "layers": [
