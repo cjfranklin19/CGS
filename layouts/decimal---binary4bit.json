@@ -3456,6 +3456,16 @@
             },
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "lightAnimat",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
@@ -3467,23 +3477,13 @@
             },
             {
               "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "lightani",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
                 "NewSprite4",
                 "Animation",
                 "=",
-                "lightani"
+                "lightAnimat"
               ]
             },
             {

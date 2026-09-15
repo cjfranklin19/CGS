@@ -6957,6 +6957,12 @@
     },
     {
       "name": "numOfQuestions",
+      "persistentUuid": "c5209162-8ad7-4d59-a13e-bd77abb0b4b1",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "questionsAnweredGlobal",
       "type": "number",
       "value": 0
     }
