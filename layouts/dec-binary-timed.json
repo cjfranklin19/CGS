@@ -2798,6 +2798,36 @@
             "=",
             "15"
           ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "updatelight",
+            "False",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "correct_answerlight",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "lightAnimat",
+            "=",
+            "0"
+          ]
         }
       ],
       "events": [
@@ -2809,56 +2839,68 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "music logic",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
-          "type": {
-            "value": "SceneJustResumed"
-          },
-          "parameters": [
-            ""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustResumed"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetSoundChannelVolume"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "GlobalVariable(Settings.MusicVolume)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustResumed"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetSoundChannelVolume"
+              },
+              "parameters": [
+                "",
+                "2",
+                "=",
+                "GlobalVariable(Settings.SFXVolume)"
+              ]
+            }
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetSoundChannelVolume"
-          },
-          "parameters": [
-            "",
-            "1",
-            "=",
-            "GlobalVariable(Settings.MusicVolume)"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SceneJustResumed"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetSoundChannelVolume"
-          },
-          "parameters": [
-            "",
-            "2",
-            "=",
-            "GlobalVariable(Settings.SFXVolume)"
-          ]
-        }
-      ]
+      "parameters": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -3352,6 +3394,16 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
+                "correct_answerlight",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
                 "questionsAnswered",
                 "+",
                 "1"
@@ -3399,27 +3451,6 @@
                 "no",
                 "GlobalVariable(Settings.SFXVolume)",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "lightani",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "FireStation",
-                "Animation",
-                "=",
-                "lightani"
               ]
             }
           ],
@@ -4072,7 +4103,7 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "lightani",
+                "lightAnimat",
                 "-",
                 "1"
               ]
@@ -4153,6 +4184,51 @@
                 }
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "lightProgress"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "updatelight",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "FireStation",
+            "Animation",
+            "=",
+            "lightAnimat"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "updatelight",
+            "False",
+            "1"
           ]
         }
       ]

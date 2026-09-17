@@ -6962,9 +6962,15 @@
       "value": 0
     },
     {
-      "name": "questionsAnweredGlobal",
+      "name": "correct_answerlight",
+      "persistentUuid": "6af501d8-67c1-44fb-81b2-3d5e37564e50",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "updatelight",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -7193,6 +7199,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/storydiff"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/lightprogress"
     }
   ],
   "eventsFunctionsExtensions": [

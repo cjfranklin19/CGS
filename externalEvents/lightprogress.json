@@ -1,25 +1,13 @@
 {
   "associatedLayout": "Decimal - Binary(4bit)",
-  "name": "storyDiff",
+  "name": "lightProgress",
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "ButtonStates::ButtonFSM::IsClicked"
-          },
-          "parameters": [
-            "easy_button",
-            "ButtonFSM",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
+            "value": "NumberVariable"
           },
           "parameters": [
             "LVLDIFF",
@@ -29,12 +17,24 @@
         },
         {
           "type": {
-            "value": "SetStringVariable"
+            "value": "NumberVariable"
           },
           "parameters": [
-            "LVLDIFF_NAME",
-            "=",
-            "\"Easy\""
+            "correct_answerlight",
+            ">=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "lightAnimat",
+            "+",
+            "1"
           ]
         },
         {
@@ -42,29 +42,19 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "maxRange",
+            "correct_answerlight",
             "=",
-            "15"
+            "0"
           ]
         },
         {
           "type": {
-            "value": "SetNumberVariable"
+            "value": "SetBooleanVariable"
           },
           "parameters": [
-            "allottedTime",
-            "=",
-            "60"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "numOfQuestions",
-            "=",
-            "5"
+            "updatelight",
+            "True",
+            "1"
           ]
         }
       ]
@@ -74,19 +64,7 @@
       "conditions": [
         {
           "type": {
-            "value": "ButtonStates::ButtonFSM::IsClicked"
-          },
-          "parameters": [
-            "medium_button",
-            "ButtonFSM",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
+            "value": "NumberVariable"
           },
           "parameters": [
             "LVLDIFF",
@@ -96,57 +74,12 @@
         },
         {
           "type": {
-            "value": "SetNumberVariable"
+            "value": "NumberVariable"
           },
           "parameters": [
-            "numOfQuestions",
-            "=",
-            "10"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "maxRange",
-            "=",
-            "100"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetStringVariable"
-          },
-          "parameters": [
-            "LVLDIFF_NAME",
-            "=",
-            "\"Medium\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "allottedTime",
-            "=",
-            "90"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "ButtonStates::ButtonFSM::IsClicked"
-          },
-          "parameters": [
-            "hard_button",
-            "ButtonFSM",
-            ""
+            "correct_answerlight",
+            ">=",
+            "2"
           ]
         }
       ],
@@ -156,6 +89,41 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
+            "lightAnimat",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "correct_answerlight",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "updatelight",
+            "True",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
             "LVLDIFF",
             "=",
             "3"
@@ -163,32 +131,24 @@
         },
         {
           "type": {
-            "value": "SetNumberVariable"
+            "value": "NumberVariable"
           },
           "parameters": [
-            "numOfQuestions",
-            "=",
-            "15"
+            "correct_answerlight",
+            ">=",
+            "3"
           ]
-        },
-        {
-          "type": {
-            "value": "SetStringVariable"
-          },
-          "parameters": [
-            "LVLDIFF_NAME",
-            "=",
-            "\"Hard\""
-          ]
-        },
+        }
+      ],
+      "actions": [
         {
           "type": {
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "maxRange",
-            "=",
-            "255"
+            "lightAnimat",
+            "+",
+            "1"
           ]
         },
         {
@@ -196,9 +156,19 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "allottedTime",
+            "correct_answerlight",
             "=",
-            "120"
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "updatelight",
+            "True",
+            "1"
           ]
         }
       ]

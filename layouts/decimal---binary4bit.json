@@ -206,6 +206,18 @@
       "persistentUuid": "664e1658-cb90-4b29-9d1f-5ba5606bec1c",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "leveltype",
+      "persistentUuid": "16bda400-d466-485c-aa52-aba2c4bcadd7",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "leveltype1",
+      "persistentUuid": "320c1133-262f-4509-ae8c-b7e471c2c169",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -2850,6 +2862,36 @@
             "=",
             "15"
           ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "updatelight",
+            "False",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "correct_answerlight",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "lightAnimat",
+            "=",
+            "0"
+          ]
         }
       ]
     },
@@ -3347,6 +3389,11 @@
       ],
       "events": [
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -3429,6 +3476,16 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
+                "correct_answerlight",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
                 "questionsAnswered",
                 "+",
                 "1"
@@ -3456,16 +3513,6 @@
             },
             {
               "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "lightAnimat",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
@@ -3473,17 +3520,6 @@
                 "Text",
                 "=",
                 "ToString(streak)"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "NewSprite4",
-                "Animation",
-                "=",
-                "lightAnimat"
               ]
             },
             {
@@ -4176,7 +4212,7 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "lightani",
+                "lightAnimat",
                 "-",
                 "1"
               ]
@@ -4189,7 +4225,7 @@
                 "NewSprite4",
                 "Animation",
                 "=",
-                "lightani"
+                "lightAnimat"
               ]
             }
           ],
@@ -4257,6 +4293,51 @@
                 }
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "lightProgress"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "updatelight",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "NewSprite4",
+            "Animation",
+            "=",
+            "lightAnimat"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "updatelight",
+            "False",
+            "1"
           ]
         }
       ]
