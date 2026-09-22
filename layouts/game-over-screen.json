@@ -436,21 +436,11 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextReleased"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        },
-        {
-          "type": {
-            "value": "IsCursorOnObject"
+            "value": "ButtonStates::ButtonFSM::IsClicked"
           },
           "parameters": [
             "FinishButton",
-            "",
-            "",
+            "ButtonFSM",
             ""
           ]
         }

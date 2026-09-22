@@ -121,7 +121,7 @@
       "name": "levelQuestions",
       "persistentUuid": "ddc32f40-8869-4727-9c54-9da2915aed4f",
       "type": "number",
-      "value": 5
+      "value": 0
     },
     {
       "name": "elapsedQuestionTime",
@@ -2972,7 +2972,7 @@
           "parameters": [
             "questionsAnswered",
             "<",
-            "levelQuestions"
+            "numOfQuestions"
           ]
         }
       ],
@@ -2998,7 +2998,7 @@
               "parameters": [
                 "questionsAnswered",
                 "<",
-                "levelQuestions"
+                "numOfQuestions"
               ]
             }
           ],
@@ -3564,7 +3564,7 @@
                   "parameters": [
                     "questionsAnswered",
                     "<",
-                    "levelQuestions"
+                    "numOfQuestions"
                   ]
                 }
               ],
@@ -3668,7 +3668,7 @@
                   "parameters": [
                     "questionsAnswered",
                     "=",
-                    "levelQuestions"
+                    "numOfQuestions"
                   ]
                 }
               ],
