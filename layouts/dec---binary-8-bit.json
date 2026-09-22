@@ -3020,7 +3020,7 @@
               "parameters": [
                 "targetNum",
                 "=",
-                "RandomInRange(1, 32)"
+                "RandomInRange(0, GlobalVariable(maxRange))"
               ]
             },
             {
@@ -4071,7 +4071,7 @@
             "TimerText",
             "Text",
             "=",
-            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-60)))"
+            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-allottedTime)))"
           ]
         }
       ]

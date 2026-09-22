@@ -416,6 +416,16 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "easy_button",
+                "ButtonFSM",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -475,6 +485,16 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "medium_button",
+                "ButtonFSM",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -498,6 +518,24 @@
                 "2",
                 "no",
                 "GlobalVariable(Settings.SFXVolume)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"transition scene\"",
                 ""
               ]
             }
@@ -516,17 +554,27 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "hard_button",
+                "ButtonFSM",
+                ""
+              ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "SetStringVariable"
               },
               "parameters": [
-                "",
-                "\"Decimal - Binary(4bit)Hrd\"",
-                ""
+                "SceneTransition",
+                "=",
+                "\"Decimal - Binary(4bit)\""
               ]
             },
             {
@@ -544,12 +592,20 @@
             },
             {
               "type": {
-                "value": "SetStringVariable"
+                "value": "Wait"
               },
               "parameters": [
-                "SceneTransition",
-                "=",
-                "\"Decimal - Binary(4bit)\""
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"transition scene\"",
+                ""
               ]
             }
           ]

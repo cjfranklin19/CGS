@@ -6951,21 +6951,25 @@
     },
     {
       "name": "allottedTime",
+      "persistentUuid": "9681b09c-33e3-434b-872a-5f8f4f32c690",
       "type": "number",
       "value": 0
     },
     {
       "name": "numOfQuestions",
+      "persistentUuid": "c5209162-8ad7-4d59-a13e-bd77abb0b4b1",
       "type": "number",
       "value": 0
     },
     {
       "name": "correct_answerlight",
+      "persistentUuid": "6af501d8-67c1-44fb-81b2-3d5e37564e50",
       "type": "number",
       "value": 0
     },
     {
       "name": "updatelight",
+      "persistentUuid": "269aeab9-2350-426d-a661-5c7845964bd9",
       "type": "boolean",
       "value": false
     }
@@ -7199,7 +7203,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/lightprogess"
+      "referenceTo": "/externalEvents/lightprogress"
     }
   ],
   "eventsFunctionsExtensions": [

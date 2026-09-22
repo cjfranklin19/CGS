@@ -206,6 +206,18 @@
       "persistentUuid": "664e1658-cb90-4b29-9d1f-5ba5606bec1c",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "leveltype",
+      "persistentUuid": "16bda400-d466-485c-aa52-aba2c4bcadd7",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "leveltype1",
+      "persistentUuid": "320c1133-262f-4509-ae8c-b7e471c2c169",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -3187,7 +3199,7 @@
           "parameters": [
             "questionsAnswered",
             "<",
-            "levelQuestions"
+            "numOfQuestions"
           ]
         }
       ],
@@ -3213,7 +3225,7 @@
               "parameters": [
                 "questionsAnswered",
                 "<",
-                "levelQuestions"
+                "numOfQuestions"
               ]
             }
           ],
@@ -3256,7 +3268,7 @@
               "parameters": [
                 "targetNum",
                 "=",
-                "RandomInRange(0, Variable(maxRange))"
+                "RandomInRange(0, GlobalVariable(maxRange))"
               ]
             },
             {
@@ -3376,6 +3388,11 @@
         }
       ],
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
         {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
@@ -3785,7 +3802,7 @@
                   "parameters": [
                     "questionsAnswered",
                     "<",
-                    "levelQuestions"
+                    "numOfQuestions"
                   ]
                 }
               ],
@@ -3906,7 +3923,7 @@
                   "parameters": [
                     "questionsAnswered",
                     "=",
-                    "levelQuestions"
+                    "numOfQuestions"
                   ]
                 }
               ],
@@ -4285,7 +4302,7 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "lightProgess"
+      "target": "lightProgress"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -4400,7 +4417,7 @@
           "parameters": [
             "questionsAnswered",
             "<",
-            "levelQuestions"
+            "numOfQuestions"
           ]
         }
       ],
