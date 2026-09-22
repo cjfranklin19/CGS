@@ -2642,6 +2642,36 @@
             "ButtonFSM",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "updatelight",
+            "False",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "correct_answerlight",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "lightAnimat",
+            "=",
+            "0"
+          ]
         }
       ],
       "events": [
@@ -3208,6 +3238,16 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
+                "correct_answerlight",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
                 "questionsAnswered",
                 "+",
                 "1"
@@ -3255,27 +3295,6 @@
                 "no",
                 "GlobalVariable(Settings.SFXVolume)",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "lightani",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "buildings",
-                "Animation",
-                "=",
-                "lightani"
               ]
             }
           ],
@@ -3938,7 +3957,7 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "lightani",
+                "lightAnimat",
                 "-",
                 "1"
               ]
@@ -3951,7 +3970,7 @@
                 "buildings",
                 "Animation",
                 "=",
-                "lightani"
+                "lightAnimat"
               ]
             }
           ],
@@ -4019,6 +4038,51 @@
                 }
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "lightProgress"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "updatelight",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "buildings",
+            "Animation",
+            "=",
+            "lightAnimat"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "updatelight",
+            "False",
+            "1"
           ]
         }
       ]
