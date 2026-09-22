@@ -6948,6 +6948,26 @@
       "persistentUuid": "111c5bd1-c263-4a46-b2d9-17060f41c79d",
       "type": "string",
       "value": ""
+    },
+    {
+      "name": "allottedTime",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "numOfQuestions",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "correct_answerlight",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "updatelight",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -7176,6 +7196,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/storydiff"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/lightprogess"
     }
   ],
   "eventsFunctionsExtensions": [

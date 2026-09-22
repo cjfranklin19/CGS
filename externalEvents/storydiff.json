@@ -19,22 +19,22 @@
       "actions": [
         {
           "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "LVLDIFF",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
             "value": "SetStringVariable"
           },
           "parameters": [
             "LVLDIFF_NAME",
             "=",
             "\"Easy\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "LVLDIFF",
+            "=",
+            "1"
           ]
         },
         {
@@ -56,6 +56,16 @@
             "=",
             "60"
           ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "numOfQuestions",
+            "=",
+            "5"
+          ]
         }
       ]
     },
@@ -76,22 +86,22 @@
       "actions": [
         {
           "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "LVLDIFF_NAME",
+            "=",
+            "\"Medium\""
+          ]
+        },
+        {
+          "type": {
             "value": "SetNumberVariable"
           },
           "parameters": [
             "LVLDIFF",
             "=",
             "2"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetStringVariable"
-          },
-          "parameters": [
-            "LVLDIFF_NAME",
-            "=",
-            "\"Easy\""
           ]
         },
         {
@@ -109,9 +119,19 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "allottedLvlTime",
+            "allottedTime",
             "=",
             "90"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "numOfQuestions",
+            "=",
+            "10"
           ]
         }
       ]
@@ -133,22 +153,22 @@
       "actions": [
         {
           "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "LVLDIFF_NAME",
+            "=",
+            "\"Hard\""
+          ]
+        },
+        {
+          "type": {
             "value": "SetNumberVariable"
           },
           "parameters": [
             "LVLDIFF",
             "=",
             "3"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetStringVariable"
-          },
-          "parameters": [
-            "LVLDIFF_NAME",
-            "=",
-            "\"Easy\""
           ]
         },
         {
@@ -166,9 +186,19 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "allottedLvlTime",
+            "allottedTime",
             "=",
             "120"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "numOfQuestions",
+            "=",
+            "15"
           ]
         }
       ]
