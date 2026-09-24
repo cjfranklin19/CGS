@@ -15893,6 +15893,36 @@
             "2",
             "32"
           ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "updatelight",
+            "False",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "correct_answerlight",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "lightAnimat",
+            "=",
+            "0"
+          ]
         }
       ]
     },
@@ -16037,7 +16067,7 @@
                   "parameters": [
                     "HexLow",
                     "=",
-                    "RandomInRange(0,9)"
+                    "RandomInRange(0,GlobalVariable(maxRange))"
                   ]
                 },
                 {
@@ -17688,6 +17718,16 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
+                "correct_answerlight",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
                 "questionsAnswered",
                 "+",
                 "1"
@@ -17745,27 +17785,6 @@
                 "no",
                 "GlobalVariable(Settings.SFXVolume)",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "lightAnimat",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "townhall",
-                "Animation",
-                "=",
-                "lightAnimat"
               ]
             }
           ],
@@ -18408,6 +18427,51 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "lightProgress"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "updatelight",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "townhall",
+            "Animation",
+            "=",
+            "lightAnimat"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "updatelight",
+            "False",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -18455,7 +18519,7 @@
             "Timer",
             "Text",
             "=",
-            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-60)))"
+            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-allottedTime)))"
           ]
         }
       ]
@@ -18770,6 +18834,11 @@
         "includeConfig": 0
       },
       "target": "sub/hint button animation"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
