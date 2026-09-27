@@ -14366,6 +14366,46 @@
             "ButtonFSM",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "updatelight",
+            "False",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "correct_answerlight",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "lightAnimat",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "maxRange",
+            "=",
+            "63"
+          ]
         }
       ]
     },
@@ -14474,7 +14514,7 @@
               "parameters": [
                 "questionsAnswered",
                 "<",
-                "levelQuestions"
+                "numOfQuestions"
               ]
             }
           ],
@@ -14500,7 +14540,7 @@
                   "parameters": [
                     "questionsAnswered",
                     "<",
-                    "levelQuestions"
+                    "numOfQuestions"
                   ]
                 }
               ],
@@ -14522,7 +14562,7 @@
                   "parameters": [
                     "TargetBinary",
                     "=",
-                    "RandomInRange(0,63)"
+                    "RandomInRange(0,GlobalVariable(maxRange))"
                   ]
                 },
                 {
@@ -15621,6 +15661,16 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
+                "correct_answerlight",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
                 "questionsAnswered",
                 "+",
                 "1"
@@ -15665,27 +15715,6 @@
                 "PlayerAnswer",
                 "=",
                 "\"\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "lightAnimat",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "police",
-                "Animation",
-                "=",
-                "lightAnimat"
               ]
             }
           ],
@@ -15955,7 +15984,7 @@
                   "parameters": [
                     "questionsAnswered",
                     "<",
-                    "levelQuestions"
+                    "numOfQuestions"
                   ]
                 }
               ],
@@ -16011,7 +16040,7 @@
                   "parameters": [
                     "questionsAnswered",
                     "=",
-                    "levelQuestions"
+                    "numOfQuestions"
                   ]
                 }
               ],
@@ -16315,6 +16344,51 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "lightProgress"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "updatelight",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "police",
+            "Animation",
+            "=",
+            "lightAnimat"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "updatelight",
+            "False",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -16380,7 +16454,7 @@
           "parameters": [
             "questionsAnswered",
             "<",
-            "levelQuestions"
+            "numOfQuestions"
           ]
         }
       ],

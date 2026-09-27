@@ -2657,6 +2657,46 @@
             "2",
             "32"
           ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "updatelight",
+            "False",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "correct_answerlight",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "lightAnimat",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "maxRange",
+            "=",
+            "63"
+          ]
         }
       ]
     },
@@ -3033,7 +3073,7 @@
               "parameters": [
                 "targetNum",
                 "=",
-                "RandomInRange(1, 63)"
+                "RandomInRange(0, GlobalVariable(maxRange))"
               ]
             },
             {
