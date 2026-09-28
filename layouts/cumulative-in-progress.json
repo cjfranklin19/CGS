@@ -20222,6 +20222,36 @@
             "ButtonFSM",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "updatelight",
+            "False",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "correct_answerlight",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "lightAnimat",
+            "=",
+            "0"
+          ]
         }
       ]
     },
@@ -20328,7 +20358,7 @@
               "parameters": [
                 "NumberOfCorrectAnswers",
                 "<",
-                "levelQuestions"
+                "numOfQuestions"
               ]
             }
           ],
@@ -20465,7 +20495,7 @@
                       "parameters": [
                         "TargetDecimal",
                         "=",
-                        "RandomInRange(0,10)"
+                        "RandomInRange(0,15)"
                       ]
                     },
                     {
@@ -20699,7 +20729,7 @@
                       "parameters": [
                         "TargetDecimal",
                         "=",
-                        "RandomInRange(0,10)"
+                        "RandomInRange(0,15)"
                       ]
                     },
                     {
@@ -20825,7 +20855,7 @@
                       "parameters": [
                         "TargetDecimal",
                         "=",
-                        "RandomInRange(0,255)"
+                        "RandomInRange(0,GlobalVariable(maxRange))"
                       ]
                     },
                     {
@@ -21059,7 +21089,7 @@
                       "parameters": [
                         "TargetDecimal",
                         "=",
-                        "RandomInRange(0,255)"
+                        "RandomInRange(0,GlobalVariable(maxRange))"
                       ]
                     },
                     {
@@ -21194,7 +21224,7 @@
                       "parameters": [
                         "TargetDecimal",
                         "=",
-                        "RandomInRange(0,63)"
+                        "RandomInRange(0,GlobalVariable(maxRange))"
                       ]
                     },
                     {
@@ -21469,7 +21499,7 @@
                       "parameters": [
                         "TargetDecimal",
                         "=",
-                        "RandomInRange(0,63)"
+                        "RandomInRange(0,GlobalVariable(maxRange))"
                       ]
                     },
                     {
@@ -21595,7 +21625,7 @@
                       "parameters": [
                         "oneCompSource",
                         "=",
-                        "RandomInRange(0, 255)"
+                        "RandomInRange(0, GlobalVariable(maxRange))"
                       ]
                     },
                     {
@@ -23300,6 +23330,16 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
+                "correct_answerlight",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
                 "questionsAnswered",
                 "+",
                 "1"
@@ -23424,27 +23464,6 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "lightAnimat",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "doorLock",
-                "Animation",
-                "=",
-                "lightAnimat"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
                 "NumberOfCorrectAnswers",
                 "+",
                 "1"
@@ -23462,7 +23481,7 @@
                   "parameters": [
                     "questionIndex",
                     ">",
-                    "6"
+                    "7"
                   ]
                 }
               ],
@@ -24052,6 +24071,16 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
+                "correct_answerlight",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
                 "questionsAnswered",
                 "+",
                 "1"
@@ -24139,27 +24168,6 @@
                 "no",
                 "GlobalVariable(Settings.SFXVolume)",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "lightAnimat",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "doorLock",
-                "Animation",
-                "=",
-                "lightAnimat"
               ]
             },
             {
@@ -24651,7 +24659,7 @@
           "parameters": [
             "NumberOfCorrectAnswers",
             "=",
-            "levelQuestions"
+            "numOfQuestions"
           ]
         }
       ],
@@ -24750,6 +24758,51 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "lightProgress"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "updatelight",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "doorLock",
+            "Animation",
+            "=",
+            "lightAnimat"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "updatelight",
+            "False",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -24807,7 +24860,7 @@
             "TimerText",
             "Text",
             "=",
-            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-180)))"
+            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-600)))"
           ]
         }
       ]
@@ -24823,7 +24876,7 @@
             "",
             "\"CountingDown\"",
             ">=",
-            "180"
+            "600"
           ]
         }
       ],

@@ -15716,6 +15716,19 @@
                 "=",
                 "\"\""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "correct answer.mp3",
+                "2",
+                "no",
+                "GlobalVariable(Settings.SFXVolume)",
+                ""
+              ]
             }
           ],
           "events": [

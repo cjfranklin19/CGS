@@ -2657,6 +2657,36 @@
             "ButtonFSM",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "updatelight",
+            "False",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "correct_answerlight",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "lightAnimat",
+            "=",
+            "0"
+          ]
         }
       ],
       "events": [
@@ -2957,7 +2987,7 @@
           "parameters": [
             "questionsAnswered",
             "<",
-            "levelQuestions"
+            "numOfQuestions"
           ]
         }
       ],
@@ -2983,7 +3013,7 @@
               "parameters": [
                 "questionsAnswered",
                 "<",
-                "levelQuestions"
+                "numOfQuestions"
               ]
             }
           ],
@@ -3035,7 +3065,7 @@
               "parameters": [
                 "oneCompSource",
                 "=",
-                "RandomInRange(0, 255)"
+                "RandomInRange(0, GlobalVariable(maxRange))"
               ]
             },
             {
@@ -3243,6 +3273,16 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
+                "correct_answerlight",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
                 "questionsAnswered",
                 "+",
                 "1"
@@ -3290,27 +3330,6 @@
                 "no",
                 "GlobalVariable(Settings.SFXVolume)",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "lightani",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "buildings",
-                "Animation",
-                "=",
-                "lightani"
               ]
             }
           ],
@@ -3580,7 +3599,7 @@
                   "parameters": [
                     "questionsAnswered",
                     "<",
-                    "levelQuestions"
+                    "numOfQuestions"
                   ]
                 }
               ],
@@ -3684,7 +3703,7 @@
                   "parameters": [
                     "questionsAnswered",
                     "=",
-                    "levelQuestions"
+                    "numOfQuestions"
                   ]
                 }
               ],
@@ -3973,7 +3992,7 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "lightani",
+                "lightAnimat",
                 "-",
                 "1"
               ]
@@ -3986,7 +4005,7 @@
                 "buildings",
                 "Animation",
                 "=",
-                "lightani"
+                "lightAnimat"
               ]
             }
           ],
@@ -4059,6 +4078,63 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "need to make a church level for this lightprogession "
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "lightProgress"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "updatelight",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "buildings",
+            "Animation",
+            "=",
+            "lightAnimat"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "updatelight",
+            "False",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -4106,7 +4182,7 @@
             "TimerText",
             "Text",
             "=",
-            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-60)))"
+            "ToString(round(abs(TimerElapsedTime(\"CountingDown\")-allottedTime)))"
           ]
         }
       ]
@@ -4131,7 +4207,7 @@
           "parameters": [
             "questionsAnswered",
             "<",
-            "levelQuestions"
+            "numOfQuestions"
           ]
         }
       ],
