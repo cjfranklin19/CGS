@@ -13889,6 +13889,7 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -13937,11 +13938,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Binary to octal.png",
+                  "image": "Binary to octal - Copy.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13985,8 +13987,46 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": []
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Binary to octal - Copy (2).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 199,
+                        "y": 40
+                      },
+                      {
+                        "x": 1564,
+                        "y": 40
+                      },
+                      {
+                        "x": 1564,
+                        "y": 375
+                      },
+                      {
+                        "x": 199,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -13996,8 +14036,46 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": []
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "21",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 199,
+                        "y": 40
+                      },
+                      {
+                        "x": 1564,
+                        "y": 40
+                      },
+                      {
+                        "x": 1564,
+                        "y": 375
+                      },
+                      {
+                        "x": 199,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -14007,8 +14085,46 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": []
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Binary to octal - Copy (4).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 199,
+                        "y": 40
+                      },
+                      {
+                        "x": 1564,
+                        "y": 40
+                      },
+                      {
+                        "x": 1564,
+                        "y": 375
+                      },
+                      {
+                        "x": 199,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -14018,8 +14134,46 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": []
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "22",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 199,
+                        "y": 40
+                      },
+                      {
+                        "x": 1564,
+                        "y": 40
+                      },
+                      {
+                        "x": 1564,
+                        "y": 375
+                      },
+                      {
+                        "x": 199,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
             }
           ]
         }

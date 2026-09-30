@@ -4087,7 +4087,7 @@
       {
         "file": "Binary to octal.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Binary to octal.png\",\"extension\":\".png\"}",
         "name": "Binary to octal.png",
         "smoothed": false,
         "userAdded": false
@@ -5666,6 +5666,62 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/6c1ff824094ed2befd29dd3f98f550a464b9fcf345c9c0f0380106ec471e6c39_Print Screen Key.png",
           "name": "Print Screen Key.png"
         }
+      },
+      {
+        "file": "Binary to octal - Copy.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Binary to octal - Copy.png\",\"extension\":\".png\"}",
+        "name": "Binary to octal - Copy.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Binary to octal - Copy (2).png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Binary to octal - Copy (2).png\",\"extension\":\".png\"}",
+        "name": "Binary to octal - Copy (2).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Binary to octal - Copy (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Binary to octal - Copy (3).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Binary to octal - Copy (4).png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Binary to octal - Copy (4).png\",\"extension\":\".png\"}",
+        "name": "Binary to octal - Copy (4).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Binary to octal - Copy (5).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Binary to octal - Copy (5).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "21",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "22",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
