@@ -663,7 +663,7 @@
       "persistentUuid": "f7e73c4a-4b5f-4c25-abba-6c4e30064dcc",
       "width": 0,
       "x": 166,
-      "y": 133,
+      "y": 70,
       "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
@@ -713,8 +713,8 @@
       "name": "hintbox",
       "persistentUuid": "62e49bea-aac8-42bb-9235-9f869fcf2af0",
       "width": 1806,
-      "x": -51,
-      "y": 1,
+      "x": 30,
+      "y": 5,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -16067,7 +16067,7 @@
                   "parameters": [
                     "HexLow",
                     "=",
-                    "RandomInRange(0,GlobalVariable(maxRange))"
+                    "RandomInRange(0,9)"
                   ]
                 },
                 {
@@ -18572,7 +18572,7 @@
             "",
             "\"CountingDown\"",
             ">=",
-            "60"
+            "allottedTime"
           ]
         }
       ],

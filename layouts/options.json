@@ -60,8 +60,8 @@
       "name": "returnbutton",
       "persistentUuid": "bc69a6ea-02f4-4fff-8abb-77af8037a915",
       "width": 0,
-      "x": 807,
-      "y": 620,
+      "x": 804,
+      "y": 573,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -141,41 +141,9 @@
       "name": "menubutton",
       "persistentUuid": "a0075f65-5554-4816-83c8-cb164a471588",
       "width": 0,
-      "x": 809,
-      "y": 735,
+      "x": 804,
+      "y": 675,
       "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "FontSlider",
-      "persistentUuid": "11407a08-4dd0-466c-a0a3-29a71d39de93",
-      "width": 0,
-      "x": 820,
-      "y": 546,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Fontsize",
-      "persistentUuid": "b12e51ca-335b-4314-ac30-e2db5971d04a",
-      "width": 0,
-      "x": 487,
-      "y": 525,
-      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1105,17 +1073,6 @@
             "GlobalVariable(Settings.SFXVolume)",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
-          },
-          "parameters": [
-            "FontSlider",
-            "=",
-            "GlobalVariable(Settings.FontSize)",
-            ""
-          ]
         }
       ]
     },
@@ -1142,7 +1099,7 @@
             "",
             "tithuh-level-up-0-523643.mp3",
             "",
-            "50",
+            "GlobalVariable(Settings.SFXVolume)",
             ""
           ]
         },
@@ -1223,32 +1180,6 @@
       "conditions": [
         {
           "type": {
-            "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
-          },
-          "parameters": [
-            "FontSlider",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "Settings.FontSize",
-            "=",
-            "FontSlider.Value()"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "value": "ButtonStates::ButtonFSM::IsClicked"
           },
           "parameters": [
@@ -1266,6 +1197,18 @@
           "parameters": [
             "",
             "\"main menu\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "tithuh-level-up-0-523643.mp3",
+            "",
+            "GlobalVariable(Settings.SFXVolume)",
             ""
           ]
         }

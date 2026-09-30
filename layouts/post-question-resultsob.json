@@ -577,6 +577,16 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "FinishButton",
+            "ButtonFSM",
+            ""
+          ]
         }
       ],
       "actions": [

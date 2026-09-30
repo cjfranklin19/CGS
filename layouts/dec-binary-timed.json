@@ -410,7 +410,7 @@
       "persistentUuid": "5bff4274-c0ff-49ac-87bc-454bcbfac3af",
       "width": 0,
       "x": 26,
-      "y": 78,
+      "y": 70,
       "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
@@ -1945,6 +1945,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite4",
+      "persistentUuid": "cc09bfdf-93aa-474f-860d-8a2375df80e3",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2457,7 +2458,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../OneDrive - Norfolk State University/Attachments/decimal to binary timed.png",
+                  "image": "../../../../OneDrive - Norfolk State University/Attachments/decimal to binary timed.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4344,7 +4345,7 @@
             "",
             "\"CountingDown\"",
             ">=",
-            "60"
+            "allottedTime"
           ]
         }
       ],

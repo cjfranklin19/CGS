@@ -632,7 +632,7 @@
       "persistentUuid": "bb3e329c-894b-44ca-8ac4-a2c29fa017c6",
       "width": 0,
       "x": 138,
-      "y": 72,
+      "y": 70,
       "zOrder": 47,
       "numberProperties": [],
       "stringProperties": [],
@@ -2886,6 +2886,16 @@
             "=",
             "0"
           ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "maxRange",
+            "=",
+            "9"
+          ]
         }
       ]
     },
@@ -4433,7 +4443,7 @@
             "",
             "\"CountingDown\"",
             ">=",
-            "60"
+            "allottedTime"
           ]
         }
       ],

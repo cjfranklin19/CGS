@@ -406,7 +406,7 @@
       "persistentUuid": "492902c1-3e55-4307-b995-ec8a0a8ecd77",
       "width": 274,
       "x": 884,
-      "y": 561,
+      "y": 575,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -422,7 +422,7 @@
       "persistentUuid": "12378e63-d8d7-4de9-a947-b540f0da0852",
       "width": 0,
       "x": 171,
-      "y": 81,
+      "y": 70,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -4188,7 +4188,7 @@
             "",
             "\"CountingDown\"",
             ">=",
-            "60"
+            "allottedTime"
           ]
         }
       ],

@@ -296,22 +296,6 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "SCORE",
-      "persistentUuid": "a9265870-43b9-4587-a45d-6be46e8fcea4",
-      "width": 0,
-      "x": 1190,
-      "y": 575,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
       "name": "Feedback2",
       "persistentUuid": "5732971c-d674-4d99-84cb-9abf5f96d89f",
       "width": 0,
@@ -509,22 +493,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "StreakText",
-      "persistentUuid": "98431561-625e-4485-a13c-752955a0ee62",
-      "width": 0,
-      "x": 613,
-      "y": 575,
-      "zOrder": 28,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 188,
@@ -599,7 +567,7 @@
       "persistentUuid": "d7e1e589-34b0-4207-97a7-88edd79febd6",
       "width": 0,
       "x": 163,
-      "y": 68,
+      "y": 70,
       "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
@@ -13916,7 +13884,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "0",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -13960,6 +13928,98 @@
                   ]
                 }
               ]
+            }
+          ]
+        },
+        {
+          "name": "1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Binary to octal.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 199,
+                        "y": 40
+                      },
+                      {
+                        "x": 1564,
+                        "y": 40
+                      },
+                      {
+                        "x": 1564,
+                        "y": 375
+                      },
+                      {
+                        "x": 199,
+                        "y": 375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": []
+            }
+          ]
+        },
+        {
+          "name": "3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": []
+            }
+          ]
+        },
+        {
+          "name": "4",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": []
+            }
+          ]
+        },
+        {
+          "name": "5",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": []
             }
           ]
         }

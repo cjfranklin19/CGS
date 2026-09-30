@@ -261,8 +261,8 @@
       "name": "storybox",
       "persistentUuid": "f0f6fae5-0ed5-4635-9938-33af608ba4c6",
       "width": 1817,
-      "x": 50,
-      "y": -7,
+      "x": 47,
+      "y": 0,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -665,7 +665,7 @@
       "persistentUuid": "03bad97a-151f-4e3f-808c-d855c3834e0c",
       "width": 0,
       "x": 170,
-      "y": 74,
+      "y": 70,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -14509,7 +14509,7 @@
                   "parameters": [
                     "HexLow",
                     "=",
-                    "RandomInRange(0,GlobalVariable(maxRange))"
+                    "RandomInRange(0,9)"
                   ]
                 },
                 {
