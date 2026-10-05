@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 282,
+    "build": 283,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -5720,6 +5720,70 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "22",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "1comp.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1comp.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "1comp2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1comp2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "1comp3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"1comp3.png\",\"extension\":\".png\"}",
+        "name": "1comp3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "1comp4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"1comp4.png\",\"extension\":\".png\"}",
+        "name": "1comp4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "1comp5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1comp5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "1comp6.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"1comp6.png\",\"extension\":\".png\"}",
+        "name": "1comp6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "1comp7.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"1comp7.png\",\"extension\":\".png\"}",
+        "name": "1comp7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "1comp8.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"1comp8.png\",\"extension\":\".png\"}",
+        "name": "1comp8.png",
         "smoothed": true,
         "userAdded": false
       }

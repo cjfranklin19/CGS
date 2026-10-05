@@ -425,7 +425,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "background",
-      "name": "buildings",
+      "name": "church",
       "persistentUuid": "12378e63-d8d7-4de9-a947-b540f0da0852",
       "width": 0,
       "x": 171,
@@ -1949,7 +1949,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "buildings",
+      "name": "church",
       "persistentUuid": "a25a68d8-f690-4e76-9895-325a14d88e12",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -1967,7 +1967,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "8bit level.png",
+                  "image": "1comp2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1983,19 +1983,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 174,
-                        "y": 13
+                        "x": 429,
+                        "y": 43
                       },
                       {
-                        "x": 1456,
-                        "y": 13
+                        "x": 1173,
+                        "y": 43
                       },
                       {
-                        "x": 1456,
+                        "x": 1173,
                         "y": 375
                       },
                       {
-                        "x": 174,
+                        "x": 429,
                         "y": 375
                       }
                     ]
@@ -2016,7 +2016,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "8bit level8.png",
+                  "image": "1comp3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2032,19 +2032,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 174,
-                        "y": 13
+                        "x": 429,
+                        "y": 43
                       },
                       {
-                        "x": 1456,
-                        "y": 13
+                        "x": 1173,
+                        "y": 43
                       },
                       {
-                        "x": 1456,
+                        "x": 1173,
                         "y": 375
                       },
                       {
-                        "x": 174,
+                        "x": 429,
                         "y": 375
                       }
                     ]
@@ -2065,7 +2065,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "8bit level9.png",
+                  "image": "1comp4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2081,19 +2081,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 174,
-                        "y": 13
+                        "x": 429,
+                        "y": 43
                       },
                       {
-                        "x": 1456,
-                        "y": 13
+                        "x": 1173,
+                        "y": 43
                       },
                       {
-                        "x": 1456,
+                        "x": 1173,
                         "y": 375
                       },
                       {
-                        "x": 174,
+                        "x": 429,
                         "y": 375
                       }
                     ]
@@ -2114,7 +2114,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "8bit level10.png",
+                  "image": "1comp6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2130,19 +2130,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 174,
-                        "y": 13
+                        "x": 429,
+                        "y": 43
                       },
                       {
-                        "x": 1456,
-                        "y": 13
+                        "x": 1173,
+                        "y": 43
                       },
                       {
-                        "x": 1456,
+                        "x": 1173,
                         "y": 375
                       },
                       {
-                        "x": 174,
+                        "x": 429,
                         "y": 375
                       }
                     ]
@@ -2163,7 +2163,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "8",
+                  "image": "1comp7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2179,19 +2179,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 174,
-                        "y": 13
+                        "x": 429,
+                        "y": 43
                       },
                       {
-                        "x": 1456,
-                        "y": 13
+                        "x": 1173,
+                        "y": 43
                       },
                       {
-                        "x": 1456,
+                        "x": 1173,
                         "y": 375
                       },
                       {
-                        "x": 174,
+                        "x": 429,
                         "y": 375
                       }
                     ]
@@ -2212,7 +2212,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "8bit level12.png",
+                  "image": "1comp8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2228,19 +2228,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 174,
-                        "y": 13
+                        "x": 429,
+                        "y": 43
                       },
                       {
-                        "x": 1456,
-                        "y": 13
+                        "x": 1173,
+                        "y": 43
                       },
                       {
-                        "x": 1456,
+                        "x": 1173,
                         "y": 375
                       },
                       {
-                        "x": 174,
+                        "x": 429,
                         "y": 375
                       }
                     ]
@@ -2443,7 +2443,7 @@
         "objectName": "StreakText"
       },
       {
-        "objectName": "buildings"
+        "objectName": "church"
       },
       {
         "objectName": "Hint"
@@ -4002,7 +4002,7 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
-                "buildings",
+                "church",
                 "Animation",
                 "=",
                 "lightAnimat"
@@ -4116,7 +4116,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
           },
           "parameters": [
-            "buildings",
+            "church",
             "Animation",
             "=",
             "lightAnimat"
