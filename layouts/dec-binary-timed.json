@@ -2829,6 +2829,16 @@
             "=",
             "15"
           ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "level_name",
+            "=",
+            "\"Decimal to Binary Timed\""
+          ]
         }
       ],
       "events": [
@@ -3928,6 +3938,16 @@
                     "Text",
                     "=",
                     "\"Accuracy: \"+ ToString(accuracyPercentage) +\"%\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "level_name_display",
+                    "=",
+                    "level_name"
                   ]
                 }
               ]

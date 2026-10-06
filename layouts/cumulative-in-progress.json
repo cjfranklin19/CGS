@@ -25332,6 +25332,11 @@
         "includeConfig": 0
       },
       "target": "sub/hint button animation"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

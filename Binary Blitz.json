@@ -5786,6 +5786,22 @@
         "name": "1comp8.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Skip.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skip.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Print.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Print.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -6881,6 +6897,183 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "level_name_display2",
+      "persistentUuid": "be171268-64ce-43ce-9d6c-086c85b45ce6",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "Not Jam Mono Clean14.ttf",
+      "textAlignment": "left",
+      "characterSize": 70,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "Not Jam Mono Clean14.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 70,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "print",
+      "persistentUuid": "5ac3b028-296d-4433-96bb-8c8f13e3721b",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Print.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 256,
+                        "y": 0
+                      },
+                      {
+                        "x": 256,
+                        "y": 136
+                      },
+                      {
+                        "x": 0,
+                        "y": 136
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Skip",
+      "persistentUuid": "e7918ff9-607b-4aba-9e28-a09861c5715a",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Skip.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 256,
+                        "y": 0
+                      },
+                      {
+                        "x": 256,
+                        "y": 136
+                      },
+                      {
+                        "x": 0,
+                        "y": 136
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -6936,6 +7129,15 @@
       },
       {
         "objectName": "hard_button"
+      },
+      {
+        "objectName": "level_name_display2"
+      },
+      {
+        "objectName": "print"
+      },
+      {
+        "objectName": "Skip"
       }
     ]
   },
@@ -7092,6 +7294,24 @@
       "persistentUuid": "269aeab9-2350-426d-a661-5c7845964bd9",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "finish_game_once_",
+      "persistentUuid": "93fe7b36-dbd4-4fea-86af-52d03f8fc94b",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "level_name",
+      "persistentUuid": "99bf142b-31cb-4712-b155-d16a4e73098f",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "level_name_display",
+      "persistentUuid": "917a8bfa-9708-4a46-b904-82f2c94810ba",
+      "type": "string",
+      "value": ""
     }
   ],
   "layouts": [
