@@ -164,6 +164,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 55,
+      "layer": "",
+      "name": "Skip",
+      "persistentUuid": "b0ab27c1-6318-4fa2-8f4f-5dcbdf7969bd",
+      "width": 112,
+      "x": 49,
+      "y": 663,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -178,7 +194,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.41630252177333293,
+    "zoomFactor": 0.9538618542089515,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"

@@ -2672,6 +2672,16 @@
             "=",
             "0"
           ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "level_name",
+            "=",
+            "\"Decimal to Binary 8-Bit\""
+          ]
         }
       ],
       "events": [
@@ -3781,6 +3791,16 @@
                     "Text",
                     "=",
                     "\"Accuracy: \"+ ToString(accuracyPercentage) +\"%\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "level_name_display",
+                    "=",
+                    "level_name"
                   ]
                 }
               ]

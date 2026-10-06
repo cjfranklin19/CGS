@@ -14620,6 +14620,16 @@
             "=",
             "0"
           ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "level_name",
+            "=",
+            "\"Binary to Decimal\""
+          ]
         }
       ]
     },
@@ -16356,6 +16366,16 @@
                     "Text",
                     "=",
                     "\"Accuracy: \"+ ToString(accuracyPercentage) +\"%\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "level_name_display",
+                    "=",
+                    "level_name"
                   ]
                 }
               ]

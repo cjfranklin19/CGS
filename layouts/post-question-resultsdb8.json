@@ -551,6 +551,17 @@
             "=",
             "\"Accuracy: \"+ToString(accuracyPercentage)+\"%\""
           ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "level_name_display2",
+            "Text",
+            "=",
+            "level_name_display"
+          ]
         }
       ]
     },
@@ -618,7 +629,7 @@
             "value": "IsCursorOnObject"
           },
           "parameters": [
-            "Print_Screen_Key",
+            "print",
             "",
             "",
             ""
