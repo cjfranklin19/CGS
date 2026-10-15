@@ -38,7 +38,7 @@
       "name": "Score",
       "persistentUuid": "4de73ff1-5f01-4004-a1b8-9d8b105dce83",
       "width": 1190,
-      "x": 645,
+      "x": 250,
       "y": 152,
       "zOrder": 1,
       "numberProperties": [],
@@ -55,7 +55,7 @@
       "name": "Correct_Answers",
       "persistentUuid": "35947fa6-627e-4307-bbb8-c94a22f3476e",
       "width": 1010,
-      "x": 645,
+      "x": 250,
       "y": 370,
       "zOrder": 2,
       "numberProperties": [],
@@ -72,7 +72,7 @@
       "name": "Incorrect_Answers",
       "persistentUuid": "22bee24b-d956-42ab-b7c7-6843dd42152b",
       "width": 1143,
-      "x": 645,
+      "x": 250,
       "y": 482,
       "zOrder": 3,
       "numberProperties": [],
@@ -89,7 +89,7 @@
       "name": "Highest_Streak",
       "persistentUuid": "60b4d951-dd0e-44f5-8166-cf8c4fcdfe05",
       "width": 1055,
-      "x": 645,
+      "x": 250,
       "y": 255,
       "zOrder": 4,
       "numberProperties": [],
@@ -122,7 +122,7 @@
       "name": "HintsUsed",
       "persistentUuid": "31922951-e6b6-4ce3-9801-b77cb616d4e6",
       "width": 1333,
-      "x": 645,
+      "x": 250,
       "y": 587,
       "zOrder": 6,
       "numberProperties": [],
@@ -154,7 +154,7 @@
       "name": "FinishButton",
       "persistentUuid": "dc985331-2530-4a25-b1e0-838345e8ab50",
       "width": 0,
-      "x": 728,
+      "x": 250,
       "y": 743,
       "zOrder": 8,
       "numberProperties": [],
@@ -171,7 +171,7 @@
       "name": "Accuracy",
       "persistentUuid": "b275cae3-e9db-4f24-9474-5d3388e479d9",
       "width": 1251,
-      "x": 645,
+      "x": 250,
       "y": 681,
       "zOrder": 9,
       "numberProperties": [],
@@ -180,17 +180,32 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 210,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Print_Screen_Key",
-      "persistentUuid": "3c26124e-e697-4dcb-8277-0663db0a5609",
-      "width": 240,
-      "x": 1223,
-      "y": 772,
+      "name": "print",
+      "persistentUuid": "f0aac03f-5628-41f7-8af2-c33c82a0a24b",
+      "width": 0,
+      "x": 532,
+      "y": 801,
       "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "level_name_display2",
+      "persistentUuid": "0772eac8-d2c1-4f82-9eb7-aa0f722e3747",
+      "width": 0,
+      "x": 250,
+      "y": 74,
+      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -552,6 +567,17 @@
             "=",
             "\"Accuracy: \"+ToString(accuracyPercentage)+\"%\""
           ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "level_name_display2",
+            "Text",
+            "=",
+            "level_name_display"
+          ]
         }
       ]
     },
@@ -642,7 +668,7 @@
             "value": "IsCursorOnObject"
           },
           "parameters": [
-            "Print_Screen_Key",
+            "print",
             "",
             "",
             ""

@@ -16367,16 +16367,6 @@
                     "=",
                     "\"Accuracy: \"+ ToString(accuracyPercentage) +\"%\""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "level_name_display",
-                    "=",
-                    "level_name"
-                  ]
                 }
               ]
             }

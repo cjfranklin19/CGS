@@ -2686,6 +2686,32 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "level_name",
+            "=",
+            "\"Octal to Binary\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "level_name_display",
+            "=",
+            "level_name"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
       "actions": []
     },
     {
