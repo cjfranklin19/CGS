@@ -4,6 +4,7 @@
   "mangledName": "binary_32to_32decimalFM",
   "name": "binary to decimalFM",
   "r": 0,
+  "renderer3DWorldScale": 100,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",

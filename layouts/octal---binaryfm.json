@@ -4,6 +4,7 @@
   "mangledName": "Octal_32_45_32BinaryFM",
   "name": "Octal - BinaryFM",
   "r": 0,
+  "renderer3DWorldScale": 100,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",

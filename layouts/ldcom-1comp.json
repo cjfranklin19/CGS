@@ -4,6 +4,7 @@
   "mangledName": "LDCom_451comp",
   "name": "LDCom-1comp",
   "r": 247,
+  "renderer3DWorldScale": 100,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",

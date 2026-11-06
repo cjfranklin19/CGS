@@ -4,6 +4,7 @@
   "mangledName": "Decimal_32_45_32Binary_404bit_41",
   "name": "Decimal - Binary(4bit)",
   "r": 0,
+  "renderer3DWorldScale": 100,
   "standardSortMethod": true,
   "stopSoundsOnStartup": false,
   "title": "",
@@ -1845,13 +1846,13 @@
       "effects": [],
       "behaviors": [],
       "string": "Timer",
-      "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+      "font": "Not Jam Mono Clean14.ttf",
       "textAlignment": "left",
       "characterSize": 50,
       "color": {
-        "b": 134,
-        "g": 233,
-        "r": 184
+        "b": 146,
+        "g": 198,
+        "r": 150
       },
       "content": {
         "bold": false,
@@ -1868,12 +1869,12 @@
         "smoothed": true,
         "underlined": false,
         "text": "Timer",
-        "font": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "font": "Not Jam Mono Clean14.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 50,
         "lineHeight": 0,
-        "color": "184;233;134"
+        "color": "150;198;146"
       }
     },
     {

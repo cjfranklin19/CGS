@@ -4,6 +4,7 @@
   "mangledName": "Options",
   "name": "Options",
   "r": 0,
+  "renderer3DWorldScale": 100,
   "standardSortMethod": true,
   "stopSoundsOnStartup": false,
   "title": "",

@@ -4,6 +4,7 @@
   "mangledName": "binary_32to_32hex_32_40timed_41",
   "name": "binary to hex (timed)",
   "r": 0,
+  "renderer3DWorldScale": 100,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
@@ -598,8 +599,8 @@
       "name": "Timer",
       "persistentUuid": "a288a643-bfb0-427b-ae3e-5d794f24658d",
       "width": 0,
-      "x": 905,
-      "y": 575,
+      "x": 839,
+      "y": 571,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -679,8 +680,8 @@
       "name": "storybox",
       "persistentUuid": "7c508973-7d8c-4507-bc9b-5739914750b4",
       "width": 1812,
-      "x": 12,
-      "y": -2,
+      "x": 61,
+      "y": 5,
       "zOrder": 46,
       "numberProperties": [],
       "stringProperties": [],
@@ -713,7 +714,7 @@
       "name": "hintbox",
       "persistentUuid": "62e49bea-aac8-42bb-9235-9f869fcf2af0",
       "width": 1806,
-      "x": 30,
+      "x": 61,
       "y": 5,
       "zOrder": 48,
       "numberProperties": [],
@@ -888,50 +889,6 @@
         "TopPadding": 32,
         "HoveredFadeOutDuration": 0.25,
         "LabelText": "finish"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "Timer",
-      "persistentUuid": "5b286379-7f01-45b7-8c5c-2a6240b4b839",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Time",
-      "font": "Not Jam Mono Clean15.ttf",
-      "textAlignment": "left",
-      "characterSize": 65,
-      "color": {
-        "b": 146,
-        "g": 198,
-        "r": 150
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Time",
-        "font": "Not Jam Mono Clean15.ttf",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 65,
-        "lineHeight": 0,
-        "color": "150;198;146"
       }
     },
     {
@@ -15603,9 +15560,6 @@
       },
       {
         "objectName": "Feedback2"
-      },
-      {
-        "objectName": "Timer"
       },
       {
         "objectName": "finishButton"

@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 283,
+    "build": 284,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -7074,6 +7074,50 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Timer",
+      "persistentUuid": "5b286379-7f01-45b7-8c5c-2a6240b4b839",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Time",
+      "font": "Not Jam Mono Clean15.ttf",
+      "textAlignment": "left",
+      "characterSize": 65,
+      "color": {
+        "b": 146,
+        "g": 198,
+        "r": 150
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Time",
+        "font": "Not Jam Mono Clean15.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 65,
+        "lineHeight": 0,
+        "color": "150;198;146"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -7138,6 +7182,9 @@
       },
       {
         "objectName": "Skip"
+      },
+      {
+        "objectName": "Timer"
       }
     ]
   },

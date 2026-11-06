@@ -4,6 +4,7 @@
   "mangledName": "LDCom_45HB",
   "name": "LDCom-HB",
   "r": 247,
+  "renderer3DWorldScale": 100,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",

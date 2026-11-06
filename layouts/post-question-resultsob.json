@@ -4,6 +4,7 @@
   "mangledName": "Post_45Question_32ResultsOB",
   "name": "Post-Question ResultsOB",
   "r": 247,
+  "renderer3DWorldScale": 100,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
@@ -668,7 +669,7 @@
             "value": "IsCursorOnObject"
           },
           "parameters": [
-            "Print_Screen_Key",
+            "print",
             "",
             "",
             ""

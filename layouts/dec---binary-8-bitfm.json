@@ -4,6 +4,7 @@
   "mangledName": "Dec_32_45_32Binary_32_408_32Bit_41FM",
   "name": "Dec - Binary (8 Bit)FM",
   "r": 0,
+  "renderer3DWorldScale": 100,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",

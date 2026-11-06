@@ -4,6 +4,7 @@
   "mangledName": "cumulative_32in_45progress",
   "name": "cumulative in-progress",
   "r": 22,
+  "renderer3DWorldScale": 100,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
@@ -20,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.26167741169921843,
+    "zoomFactor": 0.4163025217733384,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -961,8 +962,8 @@
       "name": "storybox",
       "persistentUuid": "d8a54d60-69c3-4096-925f-87bea68a35ee",
       "width": 1783,
-      "x": 63,
-      "y": -5,
+      "x": 61,
+      "y": 5,
       "zOrder": 86,
       "numberProperties": [],
       "stringProperties": [],
@@ -988,15 +989,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 477,
+      "depth": 0.991582491582,
+      "height": 472.984848486,
       "keepRatio": true,
       "layer": "Hint",
       "name": "hintbox",
       "persistentUuid": "654985b1-1ca0-4355-b03d-8644f02ab555",
-      "width": 1782,
-      "x": 84,
-      "y": 2,
+      "width": 1767,
+      "x": 61,
+      "y": 5,
       "zOrder": 88,
       "numberProperties": [],
       "stringProperties": [],
@@ -15496,7 +15497,18 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -16838,7 +16850,18 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "string": "Text",
       "font": "Not Jam Mono Clean16.ttf",
       "textAlignment": "left",
@@ -18332,7 +18355,18 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 0
+        }
+      ],
       "string": "Decimal:",
       "font": "Not Jam Mono Clean15.ttf",
       "textAlignment": "left",
@@ -20251,6 +20285,16 @@
             "lightAnimat",
             "=",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "maxRange",
+            "=",
+            "15"
           ]
         }
       ]

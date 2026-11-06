@@ -4,6 +4,7 @@
   "mangledName": "Post_45Question_32Results1comp",
   "name": "Post-Question Results1comp",
   "r": 247,
+  "renderer3DWorldScale": 100,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
@@ -38,7 +39,7 @@
       "name": "Score",
       "persistentUuid": "4de73ff1-5f01-4004-a1b8-9d8b105dce83",
       "width": 1175,
-      "x": 645,
+      "x": 250,
       "y": 152,
       "zOrder": 1,
       "numberProperties": [],
@@ -55,7 +56,7 @@
       "name": "Correct_Answers",
       "persistentUuid": "35947fa6-627e-4307-bbb8-c94a22f3476e",
       "width": 1235,
-      "x": 645,
+      "x": 250,
       "y": 370,
       "zOrder": 2,
       "numberProperties": [],
@@ -72,7 +73,7 @@
       "name": "Incorrect_Answers",
       "persistentUuid": "22bee24b-d956-42ab-b7c7-6843dd42152b",
       "width": 1259,
-      "x": 645,
+      "x": 250,
       "y": 482,
       "zOrder": 3,
       "numberProperties": [],
@@ -89,7 +90,7 @@
       "name": "Highest_Streak",
       "persistentUuid": "60b4d951-dd0e-44f5-8166-cf8c4fcdfe05",
       "width": 1224,
-      "x": 645,
+      "x": 250,
       "y": 255,
       "zOrder": 4,
       "numberProperties": [],
@@ -122,7 +123,7 @@
       "name": "HintsUsed",
       "persistentUuid": "18422cbb-0a4f-4a6a-bf73-3e6ab0b50f92",
       "width": 1259,
-      "x": 645,
+      "x": 250,
       "y": 587,
       "zOrder": 6,
       "numberProperties": [],
@@ -138,7 +139,7 @@
       "name": "FinishButton",
       "persistentUuid": "40cace5f-cd25-44a4-b322-3b95efb06bda",
       "width": 0,
-      "x": 728,
+      "x": 250,
       "y": 743,
       "zOrder": 7,
       "numberProperties": [],
@@ -171,7 +172,7 @@
       "name": "Accuracy",
       "persistentUuid": "ff976c54-35fd-41df-b4d2-2121f735bc37",
       "width": 1254,
-      "x": 645,
+      "x": 250,
       "y": 681,
       "zOrder": 9,
       "numberProperties": [],
@@ -180,17 +181,32 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 236,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Print_Screen_Key",
-      "persistentUuid": "9bfad438-e3b4-4a81-b9ec-d443e4271d29",
-      "width": 257,
-      "x": 1255,
-      "y": 729,
+      "name": "level_name_display2",
+      "persistentUuid": "ae9dce3b-21a9-4cce-98a7-0eb5c8c29352",
+      "width": 0,
+      "x": 250,
+      "y": 62,
       "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "print",
+      "persistentUuid": "1c18c4ef-422b-4027-8b81-04eaa65897e7",
+      "width": 0,
+      "x": 532,
+      "y": 801,
+      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -552,6 +568,17 @@
             "=",
             "\"Accuracy: \"+ToString(accuracyPercentage)+\"%\""
           ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "level_name_display2",
+            "Text",
+            "=",
+            "level_name_display"
+          ]
         }
       ]
     },
@@ -642,7 +669,7 @@
             "value": "IsCursorOnObject"
           },
           "parameters": [
-            "Print_Screen_Key",
+            "print",
             "",
             "",
             ""

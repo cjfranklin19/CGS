@@ -4,6 +4,7 @@
   "mangledName": "Hex_32to_32binaryFM",
   "name": "Hex to binaryFM",
   "r": 0,
+  "renderer3DWorldScale": 100,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",

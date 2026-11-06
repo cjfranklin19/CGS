@@ -4,6 +4,7 @@
   "mangledName": "LDCom_45DB",
   "name": "LDCom-DB",
   "r": 247,
+  "renderer3DWorldScale": 100,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
