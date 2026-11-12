@@ -1725,7 +1725,7 @@
       "string": "Timer",
       "font": "Not Jam Mono Clean15.ttf",
       "textAlignment": "left",
-      "characterSize": 40,
+      "characterSize": 65,
       "color": {
         "b": 146,
         "g": 198,
@@ -1749,7 +1749,7 @@
         "font": "Not Jam Mono Clean15.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 40,
+        "characterSize": 65,
         "lineHeight": 0,
         "color": "150;198;146"
       }
