@@ -7512,7 +7512,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/1s-comp-buildingfm"
+      "referenceTo": "/layouts/1s-comp-fm"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -7686,7 +7686,7 @@
         "itemName": "Octal - BinaryFM"
       },
       {
-        "itemName": "1s comp buildingFM"
+        "itemName": "1s comp FM"
       },
       {
         "itemName": "LDCom-DB"

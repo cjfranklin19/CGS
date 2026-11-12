@@ -71,7 +71,7 @@
       "persistentUuid": "ce989b96-2f5f-4c26-8103-a6d42a61bba0",
       "width": 0,
       "x": 985,
-      "y": 445,
+      "y": 404,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -87,7 +87,7 @@
       "persistentUuid": "8dd5dfab-278f-4c54-b464-f96aef16ed61",
       "width": 0,
       "x": 385,
-      "y": 290,
+      "y": 249,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -103,7 +103,7 @@
       "persistentUuid": "ea55d628-595e-4f50-8e07-d1d0ec74bbaa",
       "width": 0,
       "x": 985,
-      "y": 278,
+      "y": 237,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -119,7 +119,7 @@
       "persistentUuid": "dfbc1e16-23ed-4796-8592-f3ad64cf5f02",
       "width": 0,
       "x": 385,
-      "y": 445,
+      "y": 404,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -135,7 +135,7 @@
       "persistentUuid": "02533500-1487-4171-92f3-2bded4454199",
       "width": 0,
       "x": 985,
-      "y": 600,
+      "y": 559,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -151,7 +151,7 @@
       "persistentUuid": "46813d02-44cb-4b3a-9f8a-7589b5019f57",
       "width": 0,
       "x": 385,
-      "y": 600,
+      "y": 559,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -184,7 +184,7 @@
       "persistentUuid": "5eeee34c-6cbb-4e08-a374-f660fea22899",
       "width": 538,
       "x": 707,
-      "y": 801,
+      "y": 760,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -1187,7 +1187,7 @@
               "parameters": [
                 "SceneTransition",
                 "=",
-                "\"Octal to BinaryFM\""
+                "\"Octal - BinaryFM\""
               ]
             },
             {
@@ -1246,7 +1246,7 @@
               "parameters": [
                 "SceneTransition",
                 "=",
-                "\"Octal to BinaryFM\""
+                "\"1s comp FM\""
               ]
             },
             {
