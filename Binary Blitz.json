@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 284,
+    "build": 287,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -7571,6 +7571,167 @@
       "referenceTo": "/layouts/ld-1comp"
     }
   ],
+  "layoutsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "itemName": "main menu"
+      },
+      {
+        "itemName": "Options"
+      },
+      {
+        "itemName": "Type Select"
+      },
+      {
+        "itemName": "MenuSelect"
+      },
+      {
+        "itemName": "FreeMode"
+      },
+      {
+        "itemName": "transition scene"
+      },
+      {
+        "itemName": "Decimal - Binary(4bit)"
+      },
+      {
+        "itemName": "Post-Question Resultsdb"
+      },
+      {
+        "itemName": "Dec-binary timed"
+      },
+      {
+        "itemName": "Post-Question ResultsDBT"
+      },
+      {
+        "itemName": "Dec - Binary (8 Bit)"
+      },
+      {
+        "itemName": "Post-Question ResultsDB8"
+      },
+      {
+        "itemName": "binary to decimal"
+      },
+      {
+        "itemName": "Post-Question ResultsBD"
+      },
+      {
+        "itemName": "binary to hex"
+      },
+      {
+        "itemName": "Post-Question ResultsBH"
+      },
+      {
+        "itemName": "binary to hex (timed)"
+      },
+      {
+        "itemName": "Post-Question ResultsBHT"
+      },
+      {
+        "itemName": "Hex - binary(timed)"
+      },
+      {
+        "itemName": "Post-Question ResultsHB"
+      },
+      {
+        "itemName": "Binary to octal"
+      },
+      {
+        "itemName": "Post-Question ResultsBO"
+      },
+      {
+        "itemName": "Octal - Binary"
+      },
+      {
+        "itemName": "Post-Question ResultsOB"
+      },
+      {
+        "itemName": "1s comp"
+      },
+      {
+        "itemName": "Post-Question Results1comp"
+      },
+      {
+        "itemName": "cumulative in-progress"
+      },
+      {
+        "itemName": "Post-Question cumulative"
+      },
+      {
+        "itemName": "Game Over Screen"
+      },
+      {
+        "itemName": "TestUI"
+      },
+      {
+        "itemName": "Credits"
+      },
+      {
+        "itemName": "Dec - Binary (8 Bit)FM"
+      },
+      {
+        "itemName": "binary to decimalFM"
+      },
+      {
+        "itemName": "Hex to binaryFM"
+      },
+      {
+        "itemName": "Binary to HexFM"
+      },
+      {
+        "itemName": "Binary to octalFM"
+      },
+      {
+        "itemName": "Octal - BinaryFM"
+      },
+      {
+        "itemName": "1s comp buildingFM"
+      },
+      {
+        "itemName": "LDCom-DB"
+      },
+      {
+        "itemName": "LDCom-BD"
+      },
+      {
+        "itemName": "LDCom-HB"
+      },
+      {
+        "itemName": "LDCom-BH"
+      },
+      {
+        "itemName": "LDCom-BO"
+      },
+      {
+        "itemName": "LDCom-OB"
+      },
+      {
+        "itemName": "LDCom-1comp"
+      },
+      {
+        "itemName": "LD-DB"
+      },
+      {
+        "itemName": "LD-BD"
+      },
+      {
+        "itemName": "LD-HB"
+      },
+      {
+        "itemName": "LD-BH"
+      },
+      {
+        "itemName": "LD-BO"
+      },
+      {
+        "itemName": "LD-OB"
+      },
+      {
+        "itemName": "LD-1comp"
+      }
+    ]
+  },
   "externalEvents": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -7585,6 +7746,23 @@
       "referenceTo": "/externalEvents/lightprogress"
     }
   ],
+  "externalEventsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "itemName": "sub/hint button animation"
+      },
+      {
+        "itemName": "storyDiff"
+      },
+      {
+        "itemName": "lightProgress"
+      }
+    ]
+  },
+  "testsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -7628,5 +7806,16 @@
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/resultscreen"
     }
-  ]
+  ],
+  "externalLayoutsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "itemName": "level"
+      },
+      {
+        "itemName": "ResultScreen"
+      }
+    ]
+  }
 }

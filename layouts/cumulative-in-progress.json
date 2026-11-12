@@ -20292,7 +20292,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "maxRange",
+            "numOfQuestions",
             "=",
             "15"
           ]
