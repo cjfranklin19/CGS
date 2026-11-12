@@ -20294,7 +20294,7 @@
           "parameters": [
             "numOfQuestions",
             "=",
-            "15"
+            "12"
           ]
         }
       ]
@@ -23119,21 +23119,11 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextReleased"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        },
-        {
-          "type": {
-            "value": "IsCursorOnObject"
+            "value": "ButtonStates::ButtonFSM::IsClicked"
           },
           "parameters": [
             "Backspace_Alt_Key",
-            "",
-            "",
+            "ButtonFSM",
             ""
           ]
         },
