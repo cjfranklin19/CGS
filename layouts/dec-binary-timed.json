@@ -460,7 +460,7 @@
       "name": "Timer",
       "persistentUuid": "2bbf0028-6190-4ccd-a66b-865a321b5fdc",
       "width": 0,
-      "x": 935,
+      "x": 932,
       "y": 572,
       "zOrder": 50,
       "numberProperties": [],
@@ -2458,7 +2458,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../OneDrive - Norfolk State University/Attachments/decimal to binary timed.png",
+                  "image": "../../../../OneDrive - Norfolk State University/Attachments/decimal to binary timed.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
